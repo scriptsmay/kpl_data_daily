@@ -1,0 +1,4 @@
+# KPL Data Daily Dependencies
+
+# HTTP Requests
+requests>=2.31.0

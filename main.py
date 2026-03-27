@@ -8,6 +8,7 @@ KPL 数据采集工具
 """
 
 import sys
+import os
 from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional
 
@@ -29,16 +30,18 @@ from src.storage.saver import KPLStorage
 
 def get_latest_season(crawler: KPLCrawler) -> Optional[Dict]:
     """获取最新赛季信息"""
-    url = "http://47.102.210.150:5006/seasons/list"
+    url = "http://47.102.210.150:5006/seasons/list?project=KPL"
     data = crawler.fetch(url)
 
     if not data:
         return None
 
-    # 找到 project=KPL 且 is_latest=1 的赛季
+    # 找到 is_latest=1 的赛季
     for season in data:
-        if season.get("project") == "KPL" and season.get("is_latest") == 1:
-            season_id = season.get("tournament_name")
+        if season.get("is_latest") == 1:
+            season_id = season.get("tournament_id")
+            if not season_id:
+                continue
             # 获取详细赛季信息（包含开始/结束日期）
             season_detail_url = f"http://47.102.210.150:5006/season/{season_id}"
             season_detail = crawler.fetch(season_detail_url)
@@ -113,7 +116,8 @@ def run() -> int:
     season_info = get_latest_season(crawler)
 
     if season_info:
-        season_id = season_info.get("tournament_name", CURRENT_SEASON)
+        # 从赛季详情中获取 tournament_id
+        season_id = season_info.get("tournament_id")
         print(f"[INFO] 最新赛季：{season_id}")
 
         # 检查赛季是否活跃
@@ -148,11 +152,27 @@ def run() -> int:
         # 确定文件名
         update_freq = api.get("update_freq", "daily")
         need_filter = api.get("need_filter", False)
+        no_season = api.get("no_season", False)
 
-        if update_freq == "fixed":
-            filename = f"{namespace}.{season_id}"
+        if no_season:
+            # 不需要赛季 ID 的文件名
+            if update_freq == "fixed":
+                filename = f"{namespace}"
+            else:
+                filename = f"{namespace}.{today_str}"
         else:
-            filename = f"{namespace}.{season_id}.{today_str}"
+            # 包含赛季 ID 的文件名
+            if update_freq == "fixed":
+                filename = f"{namespace}.{season_id}"
+            else:
+                filename = f"{namespace}.{season_id}.{today_str}"
+
+        # 检查本地是否已有同名文件
+        filepath = os.path.join(storage.data_dir, f"{filename}.json")
+        if os.path.exists(filepath):
+            print(f"[SKIP] {namespace}: 文件已存在 ({filename}.json)")
+            skip_count += 1
+            continue
 
         print(f"\n[FETCH] {namespace}: {url}")
 

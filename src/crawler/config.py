@@ -9,7 +9,7 @@ from typing import List, Dict
 CURRENT_SEASON = "KPL2026S1"
 
 # 关注的选手
-TARGET_PLAYER = "KSG.无言"
+TARGET_PLAYER = "无言"
 
 # 战队名称
 TARGET_TEAM = "KSG"
@@ -41,7 +41,7 @@ APIS: List[Dict] = [
     # === 每日更新 API ===
     {
         "namespace": "player-stats",
-        "url": "http://47.103.107.144/openapi/player_stats?seasonid={season_id}",
+        "url": "http://47.103.107.144/openapi/player_stats?season_id={season_id}",
         "update_freq": "daily",
         "need_filter": True,  # 需要筛选无言的数据
         "enabled": True,
@@ -86,6 +86,7 @@ APIS: List[Dict] = [
         "url": "http://47.102.210.150:5049/api/player-career?player_name=KSG.%E6%97%A0%E8%A8%80",
         "update_freq": "daily",
         "enabled": True,
+        "no_season": True,
     },
     {
         "namespace": "season-records",

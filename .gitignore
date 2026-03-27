@@ -17,10 +17,6 @@ env/
 *.swp
 *~
 
-# Data (只保留最新数据，归档目录除外)
-data/*.json
-!data/archive/
-
 # Environment
 .env
 

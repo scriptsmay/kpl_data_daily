@@ -1,0 +1,1700 @@
+{
+  "code": 200,
+  "data": {
+    "players": [
+      {
+        "damage_by_player": [
+          {
+            "damage": 194784,
+            "player_name": "\u5317\u4eacJDG.\u8f7b\u8bed"
+          },
+          {
+            "damage": 193694,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u6e05\u6e05"
+          },
+          {
+            "damage": 148949,
+            "player_name": "\u6df1\u5733DYG.\u843d\u7a7a"
+          },
+          {
+            "damage": 142400,
+            "player_name": "\u5317\u4eacWB.\u6893\u58a8"
+          },
+          {
+            "damage": 132768,
+            "player_name": "\u6df1\u5733DYG.\u5c0f\u4e50"
+          },
+          {
+            "damage": 129811,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u5766\u7136"
+          },
+          {
+            "damage": 109133,
+            "player_name": "\u5317\u4eacWB.\u6696\u9633"
+          },
+          {
+            "damage": 106643,
+            "player_name": "\u6df1\u5733DYG.\u5c0f\u8f69"
+          },
+          {
+            "damage": 103623,
+            "player_name": "\u5317\u4eacWB.\u542c\u60a6"
+          },
+          {
+            "damage": 97793,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u754f"
+          },
+          {
+            "damage": 95148,
+            "player_name": "\u5317\u4eacWB.\u7396\u6b23"
+          },
+          {
+            "damage": 93135,
+            "player_name": "\u5317\u4eacWB.\u5c0f\u9ea6"
+          },
+          {
+            "damage": 91136,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u4fe1"
+          },
+          {
+            "damage": 86863,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u8f69\u67d3"
+          },
+          {
+            "damage": 85287,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u7696\u7696"
+          },
+          {
+            "damage": 84414,
+            "player_name": "\u5317\u4eacJDG.\u6e05\u878d"
+          },
+          {
+            "damage": 84413,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u53cc"
+          },
+          {
+            "damage": 80827,
+            "player_name": "\u6df1\u5733DYG.\u5411\u9c7c"
+          },
+          {
+            "damage": 76136,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u7d2b\u5e7b"
+          },
+          {
+            "damage": 72131,
+            "player_name": "\u6df1\u5733DYG.\u948e\u57ce"
+          },
+          {
+            "damage": 70332,
+            "player_name": "\u4f5b\u5c71DRG.\u82b1\u7f18"
+          },
+          {
+            "damage": 68077,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u5996\u5200"
+          },
+          {
+            "damage": 67636,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u65e0\u7384"
+          },
+          {
+            "damage": 62056,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u767d\u6e05"
+          },
+          {
+            "damage": 61686,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u843d\u5c18"
+          },
+          {
+            "damage": 55276,
+            "player_name": "\u4f5b\u5c71DRG.\u5c0f\u5c0f\u9633"
+          },
+          {
+            "damage": 54618,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u9053\u5d3d"
+          },
+          {
+            "damage": 50017,
+            "player_name": "\u5317\u4eacJDG.\u7edd\u610f"
+          },
+          {
+            "damage": 44717,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u5c0f\u4fde"
+          },
+          {
+            "damage": 44427,
+            "player_name": "\u5e7f\u5ddeTTG.\u841d\u535c"
+          },
+          {
+            "damage": 41598,
+            "player_name": "\u6b66\u6c49eStarPro.Fly"
+          },
+          {
+            "damage": 39134,
+            "player_name": "\u4f5b\u5c71DRG.\u5446\u5446"
+          },
+          {
+            "damage": 38175,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u5927\u5e05"
+          },
+          {
+            "damage": 37245,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u957f\u751f"
+          },
+          {
+            "damage": 36922,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u949f\u610f"
+          },
+          {
+            "damage": 36578,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u6960\u67ab"
+          },
+          {
+            "damage": 35794,
+            "player_name": "\u5317\u4eacJDG.\u5c0f\u5bd2"
+          },
+          {
+            "damage": 35511,
+            "player_name": "\u4f5b\u5c71DRG.\u68a6\u5c9a"
+          },
+          {
+            "damage": 33689,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u4e45\u5bd2"
+          },
+          {
+            "damage": 33236,
+            "player_name": "\u4f5b\u5c71DRG.\u67da\u5b50"
+          },
+          {
+            "damage": 32198,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u964c\u51b7"
+          },
+          {
+            "damage": 29368,
+            "player_name": "\u5e7f\u5ddeTTG.\u4f73\u5fc3"
+          },
+          {
+            "damage": 27737,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u7396\u7199"
+          },
+          {
+            "damage": 27679,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u6df1\u5dc5"
+          },
+          {
+            "damage": 27317,
+            "player_name": "\u6b66\u6c49eStarPro.\u5c0f\u697c"
+          },
+          {
+            "damage": 24795,
+            "player_name": "\u6b66\u6c49eStarPro.\u4eae\u5b87"
+          },
+          {
+            "damage": 24602,
+            "player_name": "\u5e7f\u5ddeTTG.\u5c0f\u96ea"
+          },
+          {
+            "damage": 23736,
+            "player_name": "\u5e7f\u5ddeTTG.\u6db5"
+          },
+          {
+            "damage": 19185,
+            "player_name": "\u6b66\u6c49eStarPro.\u660a\u660a"
+          },
+          {
+            "damage": 16923,
+            "player_name": "\u6b66\u6c49eStarPro.\u7d2b\u6e0a"
+          },
+          {
+            "damage": 15434,
+            "player_name": "\u5e7f\u5ddeTTG.\u9e64\u8f9e"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "32.2%",
+            "position": "top"
+          },
+          {
+            "percentage": "18.2%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "14.9%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.6%",
+            "position": "adc"
+          },
+          {
+            "percentage": "19.0%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "32.8%",
+            "position": "top"
+          },
+          {
+            "percentage": "19.6%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.3%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.3%",
+            "position": "adc"
+          },
+          {
+            "percentage": "19.9%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 1104313,
+            "position": "top"
+          },
+          {
+            "damage": 623724,
+            "position": "jungle"
+          },
+          {
+            "damage": 511526,
+            "position": "mid"
+          },
+          {
+            "damage": 535595,
+            "position": "adc"
+          },
+          {
+            "damage": 649628,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.\u65e0\u8a00",
+        "player_position": "\u5bf9\u6297\u8def",
+        "player_unique_id": "KPLP01538",
+        "total_matches": 57
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 89754,
+            "player_name": "\u5e7f\u5ddeTTG.\u841d\u535c"
+          },
+          {
+            "damage": 47568,
+            "player_name": "\u5e7f\u5ddeTTG.\u6db5"
+          },
+          {
+            "damage": 37884,
+            "player_name": "\u5e7f\u5ddeTTG.\u5c0f\u96ea"
+          },
+          {
+            "damage": 35521,
+            "player_name": "\u5e7f\u5ddeTTG.\u9e64\u8f9e"
+          },
+          {
+            "damage": 29304,
+            "player_name": "\u5e7f\u5ddeTTG.\u4f73\u5fc3"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "37.4%",
+            "position": "top"
+          },
+          {
+            "percentage": "12.2%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "14.8%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.8%",
+            "position": "adc"
+          },
+          {
+            "percentage": "19.8%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "32.8%",
+            "position": "top"
+          },
+          {
+            "percentage": "19.6%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.3%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.3%",
+            "position": "adc"
+          },
+          {
+            "percentage": "19.9%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 89754,
+            "position": "top"
+          },
+          {
+            "damage": 29304,
+            "position": "jungle"
+          },
+          {
+            "damage": 35521,
+            "position": "mid"
+          },
+          {
+            "damage": 37884,
+            "position": "adc"
+          },
+          {
+            "damage": 47568,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.\u6d41\u661f",
+        "player_position": "\u5bf9\u6297\u8def",
+        "player_unique_id": "KPLP01265",
+        "total_matches": 5
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 159673,
+            "player_name": "\u5317\u4eacWB.\u7396\u6b23"
+          },
+          {
+            "damage": 153312,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u53cc"
+          },
+          {
+            "damage": 145498,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u754f"
+          },
+          {
+            "damage": 144216,
+            "player_name": "\u6df1\u5733DYG.\u843d\u7a7a"
+          },
+          {
+            "damage": 135616,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u4fe1"
+          },
+          {
+            "damage": 133796,
+            "player_name": "\u5317\u4eacWB.\u6696\u9633"
+          },
+          {
+            "damage": 132062,
+            "player_name": "\u5e7f\u5ddeTTG.\u6db5"
+          },
+          {
+            "damage": 122875,
+            "player_name": "\u6df1\u5733DYG.\u5c0f\u4e50"
+          },
+          {
+            "damage": 122296,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u7696\u7696"
+          },
+          {
+            "damage": 119517,
+            "player_name": "\u5e7f\u5ddeTTG.\u4f73\u5fc3"
+          },
+          {
+            "damage": 113882,
+            "player_name": "\u6df1\u5733DYG.\u5c0f\u8f69"
+          },
+          {
+            "damage": 112682,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u843d\u5c18"
+          },
+          {
+            "damage": 109684,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u9053\u5d3d"
+          },
+          {
+            "damage": 107434,
+            "player_name": "\u5317\u4eacWB.\u6893\u58a8"
+          },
+          {
+            "damage": 101806,
+            "player_name": "\u6df1\u5733DYG.\u5411\u9c7c"
+          },
+          {
+            "damage": 96352,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u6e05\u6e05"
+          },
+          {
+            "damage": 92971,
+            "player_name": "\u5317\u4eacJDG.\u8f7b\u8bed"
+          },
+          {
+            "damage": 82570,
+            "player_name": "\u5e7f\u5ddeTTG.\u5c0f\u96ea"
+          },
+          {
+            "damage": 82178,
+            "player_name": "\u5317\u4eacWB.\u542c\u60a6"
+          },
+          {
+            "damage": 79487,
+            "player_name": "\u5e7f\u5ddeTTG.\u9e64\u8f9e"
+          },
+          {
+            "damage": 77647,
+            "player_name": "\u6df1\u5733DYG.\u948e\u57ce"
+          },
+          {
+            "damage": 75579,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u767d\u6e05"
+          },
+          {
+            "damage": 74660,
+            "player_name": "\u5317\u4eacWB.\u5c0f\u9ea6"
+          },
+          {
+            "damage": 73924,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u7d2b\u5e7b"
+          },
+          {
+            "damage": 73574,
+            "player_name": "\u5317\u4eacJDG.\u6e05\u878d"
+          },
+          {
+            "damage": 71296,
+            "player_name": "\u5e7f\u5ddeTTG.\u841d\u535c"
+          },
+          {
+            "damage": 56637,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u5927\u5e05"
+          },
+          {
+            "damage": 51856,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u5996\u5200"
+          },
+          {
+            "damage": 49969,
+            "player_name": "\u4f5b\u5c71DRG.\u5c0f\u5c0f\u9633"
+          },
+          {
+            "damage": 48335,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u5766\u7136"
+          },
+          {
+            "damage": 45525,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u7396\u7199"
+          },
+          {
+            "damage": 45390,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u6960\u67ab"
+          },
+          {
+            "damage": 42977,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u964c\u51b7"
+          },
+          {
+            "damage": 40015,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u4e45\u5bd2"
+          },
+          {
+            "damage": 38569,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u6df1\u5dc5"
+          },
+          {
+            "damage": 38143,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u949f\u610f"
+          },
+          {
+            "damage": 35933,
+            "player_name": "\u5317\u4eacJDG.\u7edd\u610f"
+          },
+          {
+            "damage": 33797,
+            "player_name": "\u6b66\u6c49eStarPro.\u7d2b\u6e0a"
+          },
+          {
+            "damage": 32754,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u65e0\u7384"
+          },
+          {
+            "damage": 30237,
+            "player_name": "\u6b66\u6c49eStarPro.\u5c0f\u697c"
+          },
+          {
+            "damage": 29796,
+            "player_name": "\u4f5b\u5c71DRG.\u5446\u5446"
+          },
+          {
+            "damage": 29618,
+            "player_name": "\u6b66\u6c49eStarPro.Fly"
+          },
+          {
+            "damage": 28786,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u957f\u751f"
+          },
+          {
+            "damage": 28428,
+            "player_name": "\u4f5b\u5c71DRG.\u67da\u5b50"
+          },
+          {
+            "damage": 27496,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u5c0f\u4fde"
+          },
+          {
+            "damage": 26797,
+            "player_name": "\u5317\u4eacJDG.\u5c0f\u5bd2"
+          },
+          {
+            "damage": 24896,
+            "player_name": "\u4f5b\u5c71DRG.\u82b1\u7f18"
+          },
+          {
+            "damage": 24080,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u8f69\u67d3"
+          },
+          {
+            "damage": 22587,
+            "player_name": "\u4f5b\u5c71DRG.\u68a6\u5c9a"
+          },
+          {
+            "damage": 13719,
+            "player_name": "\u6b66\u6c49eStarPro.\u4eae\u5b87"
+          },
+          {
+            "damage": 9986,
+            "player_name": "\u6b66\u6c49eStarPro.\u660a\u660a"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "17.8%",
+            "position": "top"
+          },
+          {
+            "percentage": "25.0%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "15.4%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.5%",
+            "position": "adc"
+          },
+          {
+            "percentage": "26.2%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "19.2%",
+            "position": "top"
+          },
+          {
+            "percentage": "28.7%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.0%",
+            "position": "mid"
+          },
+          {
+            "percentage": "13.2%",
+            "position": "adc"
+          },
+          {
+            "percentage": "26.8%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 650611,
+            "position": "top"
+          },
+          {
+            "damage": 912403,
+            "position": "jungle"
+          },
+          {
+            "damage": 563709,
+            "position": "mid"
+          },
+          {
+            "damage": 565926,
+            "position": "adc"
+          },
+          {
+            "damage": 958264,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.\u53e5\u53f7",
+        "player_position": "\u6253\u91ce",
+        "player_unique_id": "KPLP01343",
+        "total_matches": 62
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 266691,
+            "player_name": "\u5317\u4eacWB.\u7396\u6b23"
+          },
+          {
+            "damage": 241411,
+            "player_name": "\u5317\u4eacWB.\u6696\u9633"
+          },
+          {
+            "damage": 240128,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u4fe1"
+          },
+          {
+            "damage": 239607,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u7696\u7696"
+          },
+          {
+            "damage": 237268,
+            "player_name": "\u6df1\u5733DYG.\u843d\u7a7a"
+          },
+          {
+            "damage": 219832,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u53cc"
+          },
+          {
+            "damage": 216422,
+            "player_name": "\u6df1\u5733DYG.\u5c0f\u8f69"
+          },
+          {
+            "damage": 212622,
+            "player_name": "\u5e7f\u5ddeTTG.\u6db5"
+          },
+          {
+            "damage": 209164,
+            "player_name": "\u5e7f\u5ddeTTG.\u4f73\u5fc3"
+          },
+          {
+            "damage": 175241,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u843d\u5c18"
+          },
+          {
+            "damage": 173112,
+            "player_name": "\u5317\u4eacWB.\u6893\u58a8"
+          },
+          {
+            "damage": 166475,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u754f"
+          },
+          {
+            "damage": 159203,
+            "player_name": "\u4f5b\u5c71DRG.\u5c0f\u5c0f\u9633"
+          },
+          {
+            "damage": 157386,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u6e05\u6e05"
+          },
+          {
+            "damage": 138040,
+            "player_name": "\u5317\u4eacJDG.\u8f7b\u8bed"
+          },
+          {
+            "damage": 126030,
+            "player_name": "\u5317\u4eacWB.\u542c\u60a6"
+          },
+          {
+            "damage": 123033,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u9053\u5d3d"
+          },
+          {
+            "damage": 121517,
+            "player_name": "\u6df1\u5733DYG.\u5c0f\u4e50"
+          },
+          {
+            "damage": 118015,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u767d\u6e05"
+          },
+          {
+            "damage": 116864,
+            "player_name": "\u6df1\u5733DYG.\u948e\u57ce"
+          },
+          {
+            "damage": 115292,
+            "player_name": "\u5e7f\u5ddeTTG.\u841d\u535c"
+          },
+          {
+            "damage": 113912,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u5766\u7136"
+          },
+          {
+            "damage": 105459,
+            "player_name": "\u5317\u4eacWB.\u5c0f\u9ea6"
+          },
+          {
+            "damage": 103446,
+            "player_name": "\u5e7f\u5ddeTTG.\u5c0f\u96ea"
+          },
+          {
+            "damage": 102942,
+            "player_name": "\u5e7f\u5ddeTTG.\u9e64\u8f9e"
+          },
+          {
+            "damage": 86723,
+            "player_name": "\u5317\u4eacJDG.\u6e05\u878d"
+          },
+          {
+            "damage": 86332,
+            "player_name": "\u6df1\u5733DYG.\u5411\u9c7c"
+          },
+          {
+            "damage": 76998,
+            "player_name": "\u4f5b\u5c71DRG.\u82b1\u7f18"
+          },
+          {
+            "damage": 74297,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u5927\u5e05"
+          },
+          {
+            "damage": 74065,
+            "player_name": "\u4f5b\u5c71DRG.\u5446\u5446"
+          },
+          {
+            "damage": 73930,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u7d2b\u5e7b"
+          },
+          {
+            "damage": 72446,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u949f\u610f"
+          },
+          {
+            "damage": 65602,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u5996\u5200"
+          },
+          {
+            "damage": 55140,
+            "player_name": "\u5317\u4eacJDG.\u5c0f\u5bd2"
+          },
+          {
+            "damage": 54427,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u7396\u7199"
+          },
+          {
+            "damage": 52174,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u65e0\u7384"
+          },
+          {
+            "damage": 50514,
+            "player_name": "\u6b66\u6c49eStarPro.\u7d2b\u6e0a"
+          },
+          {
+            "damage": 48355,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u6960\u67ab"
+          },
+          {
+            "damage": 47012,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u6df1\u5dc5"
+          },
+          {
+            "damage": 45633,
+            "player_name": "\u5317\u4eacJDG.\u7edd\u610f"
+          },
+          {
+            "damage": 44261,
+            "player_name": "\u6b66\u6c49eStarPro.Fly"
+          },
+          {
+            "damage": 40162,
+            "player_name": "\u6b66\u6c49eStarPro.\u5c0f\u697c"
+          },
+          {
+            "damage": 39010,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u8f69\u67d3"
+          },
+          {
+            "damage": 29739,
+            "player_name": "\u4f5b\u5c71DRG.\u68a6\u5c9a"
+          },
+          {
+            "damage": 26747,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u5c0f\u4fde"
+          },
+          {
+            "damage": 26712,
+            "player_name": "\u4f5b\u5c71DRG.\u67da\u5b50"
+          },
+          {
+            "damage": 21599,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u957f\u751f"
+          },
+          {
+            "damage": 19289,
+            "player_name": "\u6b66\u6c49eStarPro.\u4eae\u5b87"
+          },
+          {
+            "damage": 19036,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u964c\u51b7"
+          },
+          {
+            "damage": 14705,
+            "player_name": "\u6b66\u6c49eStarPro.\u660a\u660a"
+          },
+          {
+            "damage": 6346,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u4e45\u5bd2"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "18.9%",
+            "position": "top"
+          },
+          {
+            "percentage": "29.7%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "11.0%",
+            "position": "mid"
+          },
+          {
+            "percentage": "13.0%",
+            "position": "adc"
+          },
+          {
+            "percentage": "27.3%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "18.6%",
+            "position": "top"
+          },
+          {
+            "percentage": "27.5%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.3%",
+            "position": "mid"
+          },
+          {
+            "percentage": "13.6%",
+            "position": "adc"
+          },
+          {
+            "percentage": "28.0%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 1031702,
+            "position": "top"
+          },
+          {
+            "damage": 1620500,
+            "position": "jungle"
+          },
+          {
+            "damage": 599746,
+            "position": "mid"
+          },
+          {
+            "damage": 709988,
+            "position": "adc"
+          },
+          {
+            "damage": 1488430,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.\u6d41\u6d6a",
+        "player_position": "\u4e2d\u8def",
+        "player_unique_id": "KPLP00968",
+        "total_matches": 62
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 315744,
+            "player_name": "\u6df1\u5733DYG.\u843d\u7a7a"
+          },
+          {
+            "damage": 280777,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u7696\u7696"
+          },
+          {
+            "damage": 248350,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u4fe1"
+          },
+          {
+            "damage": 242120,
+            "player_name": "\u5317\u4eacWB.\u7396\u6b23"
+          },
+          {
+            "damage": 241324,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u6e05\u6e05"
+          },
+          {
+            "damage": 238981,
+            "player_name": "\u6df1\u5733DYG.\u5c0f\u4e50"
+          },
+          {
+            "damage": 238752,
+            "player_name": "\u5e7f\u5ddeTTG.\u6db5"
+          },
+          {
+            "damage": 220164,
+            "player_name": "\u5317\u4eacWB.\u6893\u58a8"
+          },
+          {
+            "damage": 208239,
+            "player_name": "\u5e7f\u5ddeTTG.\u4f73\u5fc3"
+          },
+          {
+            "damage": 189998,
+            "player_name": "\u6df1\u5733DYG.\u5c0f\u8f69"
+          },
+          {
+            "damage": 176903,
+            "player_name": "\u5e7f\u5ddeTTG.\u841d\u535c"
+          },
+          {
+            "damage": 170652,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u754f"
+          },
+          {
+            "damage": 162742,
+            "player_name": "\u5317\u4eacWB.\u6696\u9633"
+          },
+          {
+            "damage": 152188,
+            "player_name": "\u5317\u4eacWB.\u5c0f\u9ea6"
+          },
+          {
+            "damage": 148829,
+            "player_name": "\u5317\u4eacJDG.\u8f7b\u8bed"
+          },
+          {
+            "damage": 144579,
+            "player_name": "\u4f5b\u5c71DRG.\u5446\u5446"
+          },
+          {
+            "damage": 129997,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u53cc"
+          },
+          {
+            "damage": 124552,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u9053\u5d3d"
+          },
+          {
+            "damage": 119037,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u7d2b\u5e7b"
+          },
+          {
+            "damage": 116847,
+            "player_name": "\u4f5b\u5c71DRG.\u5c0f\u5c0f\u9633"
+          },
+          {
+            "damage": 116009,
+            "player_name": "\u6df1\u5733DYG.\u948e\u57ce"
+          },
+          {
+            "damage": 88810,
+            "player_name": "\u5e7f\u5ddeTTG.\u5c0f\u96ea"
+          },
+          {
+            "damage": 85707,
+            "player_name": "\u4f5b\u5c71DRG.\u68a6\u5c9a"
+          },
+          {
+            "damage": 84038,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u5927\u5e05"
+          },
+          {
+            "damage": 77783,
+            "player_name": "\u5e7f\u5ddeTTG.\u9e64\u8f9e"
+          },
+          {
+            "damage": 77132,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u6df1\u5dc5"
+          },
+          {
+            "damage": 64307,
+            "player_name": "\u5317\u4eacWB.\u542c\u60a6"
+          },
+          {
+            "damage": 63856,
+            "player_name": "\u4f5b\u5c71DRG.\u82b1\u7f18"
+          },
+          {
+            "damage": 60442,
+            "player_name": "\u6df1\u5733DYG.\u5411\u9c7c"
+          },
+          {
+            "damage": 58808,
+            "player_name": "\u5317\u4eacJDG.\u5c0f\u5bd2"
+          },
+          {
+            "damage": 50923,
+            "player_name": "\u6b66\u6c49eStarPro.Fly"
+          },
+          {
+            "damage": 48916,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u8f69\u67d3"
+          },
+          {
+            "damage": 43127,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u6960\u67ab"
+          },
+          {
+            "damage": 42511,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u5c0f\u4fde"
+          },
+          {
+            "damage": 42259,
+            "player_name": "\u5317\u4eacJDG.\u6e05\u878d"
+          },
+          {
+            "damage": 41553,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u949f\u610f"
+          },
+          {
+            "damage": 39254,
+            "player_name": "\u6b66\u6c49eStarPro.\u4eae\u5b87"
+          },
+          {
+            "damage": 39014,
+            "player_name": "\u6b66\u6c49eStarPro.\u5c0f\u697c"
+          },
+          {
+            "damage": 36878,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u65e0\u7384"
+          },
+          {
+            "damage": 34543,
+            "player_name": "\u6b66\u6c49eStarPro.\u7d2b\u6e0a"
+          },
+          {
+            "damage": 33182,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u957f\u751f"
+          },
+          {
+            "damage": 26921,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u964c\u51b7"
+          },
+          {
+            "damage": 26541,
+            "player_name": "\u4f5b\u5c71DRG.\u67da\u5b50"
+          },
+          {
+            "damage": 25508,
+            "player_name": "\u6b66\u6c49eStarPro.\u660a\u660a"
+          },
+          {
+            "damage": 19353,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u4e45\u5bd2"
+          },
+          {
+            "damage": 16700,
+            "player_name": "\u5317\u4eacJDG.\u7edd\u610f"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "23.5%",
+            "position": "top"
+          },
+          {
+            "percentage": "23.9%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "9.0%",
+            "position": "mid"
+          },
+          {
+            "percentage": "14.4%",
+            "position": "adc"
+          },
+          {
+            "percentage": "29.2%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "24.2%",
+            "position": "top"
+          },
+          {
+            "percentage": "24.7%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "9.2%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.1%",
+            "position": "adc"
+          },
+          {
+            "percentage": "26.8%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 1226774,
+            "position": "top"
+          },
+          {
+            "damage": 1246299,
+            "position": "jungle"
+          },
+          {
+            "damage": 468412,
+            "position": "mid"
+          },
+          {
+            "damage": 751460,
+            "position": "adc"
+          },
+          {
+            "damage": 1521905,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.\u5c0f\u5c7f",
+        "player_position": "\u53d1\u80b2\u8def",
+        "player_unique_id": "KPLP01531",
+        "total_matches": 55
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 169388,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u843d\u5c18"
+          },
+          {
+            "damage": 141193,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u5766\u7136"
+          },
+          {
+            "damage": 99920,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u767d\u6e05"
+          },
+          {
+            "damage": 48070,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u5996\u5200"
+          },
+          {
+            "damage": 33471,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u53cc"
+          },
+          {
+            "damage": 27793,
+            "player_name": "\u5317\u4eacJDG.\u8f7b\u8bed"
+          },
+          {
+            "damage": 25922,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u7396\u7199"
+          },
+          {
+            "damage": 21893,
+            "player_name": "\u5317\u4eacJDG.\u7edd\u610f"
+          },
+          {
+            "damage": 18633,
+            "player_name": "\u5317\u4eacJDG.\u6e05\u878d"
+          },
+          {
+            "damage": 16275,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u754f"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "28.0%",
+            "position": "top"
+          },
+          {
+            "percentage": "33.7%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "7.4%",
+            "position": "mid"
+          },
+          {
+            "percentage": "11.6%",
+            "position": "adc"
+          },
+          {
+            "percentage": "19.3%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "24.2%",
+            "position": "top"
+          },
+          {
+            "percentage": "24.7%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "9.2%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.1%",
+            "position": "adc"
+          },
+          {
+            "percentage": "26.8%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 168986,
+            "position": "top"
+          },
+          {
+            "damage": 202859,
+            "position": "jungle"
+          },
+          {
+            "damage": 44555,
+            "position": "mid"
+          },
+          {
+            "damage": 69963,
+            "position": "adc"
+          },
+          {
+            "damage": 116195,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.\u98ce\u7bab",
+        "player_position": "\u53d1\u80b2\u8def",
+        "player_unique_id": "KPLP00964",
+        "total_matches": 7
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 103847,
+            "player_name": "\u5317\u4eacWB.\u7396\u6b23"
+          },
+          {
+            "damage": 94580,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u4fe1"
+          },
+          {
+            "damage": 92481,
+            "player_name": "\u6df1\u5733DYG.\u843d\u7a7a"
+          },
+          {
+            "damage": 81220,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u7696\u7696"
+          },
+          {
+            "damage": 74925,
+            "player_name": "\u5e7f\u5ddeTTG.\u6db5"
+          },
+          {
+            "damage": 73955,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u754f"
+          },
+          {
+            "damage": 69243,
+            "player_name": "\u6df1\u5733DYG.\u5c0f\u8f69"
+          },
+          {
+            "damage": 61861,
+            "player_name": "\u5317\u4eacWB.\u6696\u9633"
+          },
+          {
+            "damage": 59126,
+            "player_name": "\u5e7f\u5ddeTTG.\u4f73\u5fc3"
+          },
+          {
+            "damage": 56189,
+            "player_name": "\u5317\u4eacWB.\u6893\u58a8"
+          },
+          {
+            "damage": 56143,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u767d\u6e05"
+          },
+          {
+            "damage": 54010,
+            "player_name": "\u5317\u4eacJDG.\u65e0\u53cc"
+          },
+          {
+            "damage": 53411,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u6e05\u6e05"
+          },
+          {
+            "damage": 49217,
+            "player_name": "\u5317\u4eacJDG.\u8f7b\u8bed"
+          },
+          {
+            "damage": 47433,
+            "player_name": "\u6df1\u5733DYG.\u948e\u57ce"
+          },
+          {
+            "damage": 47293,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u843d\u5c18"
+          },
+          {
+            "damage": 47065,
+            "player_name": "\u6df1\u5733DYG.\u5c0f\u4e50"
+          },
+          {
+            "damage": 42238,
+            "player_name": "\u5317\u4eacWB.\u542c\u60a6"
+          },
+          {
+            "damage": 41986,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u7d2b\u5e7b"
+          },
+          {
+            "damage": 40009,
+            "player_name": "\u5317\u4eacWB.\u5c0f\u9ea6"
+          },
+          {
+            "damage": 39442,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u5927\u5e05"
+          },
+          {
+            "damage": 38031,
+            "player_name": "\u5317\u4eacJDG.\u6e05\u878d"
+          },
+          {
+            "damage": 37956,
+            "player_name": "\u91cd\u5e86\u72fc\u961f.\u9053\u5d3d"
+          },
+          {
+            "damage": 37811,
+            "player_name": "\u4f5b\u5c71DRG.\u5446\u5446"
+          },
+          {
+            "damage": 37335,
+            "player_name": "\u5e7f\u5ddeTTG.\u841d\u535c"
+          },
+          {
+            "damage": 33475,
+            "player_name": "\u5e7f\u5ddeTTG.\u5c0f\u96ea"
+          },
+          {
+            "damage": 33287,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u5996\u5200"
+          },
+          {
+            "damage": 32236,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u6df1\u5dc5"
+          },
+          {
+            "damage": 31050,
+            "player_name": "\u4f5b\u5c71DRG.\u5c0f\u5c0f\u9633"
+          },
+          {
+            "damage": 29732,
+            "player_name": "\u6df1\u5733DYG.\u5411\u9c7c"
+          },
+          {
+            "damage": 29464,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u5766\u7136"
+          },
+          {
+            "damage": 26174,
+            "player_name": "\u5317\u4eacJDG.\u7edd\u610f"
+          },
+          {
+            "damage": 23230,
+            "player_name": "\u6b66\u6c49eStarPro.\u7d2b\u6e0a"
+          },
+          {
+            "damage": 23073,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u6960\u67ab"
+          },
+          {
+            "damage": 22947,
+            "player_name": "\u5357\u901aHero\u4e45\u7ade.\u7396\u7199"
+          },
+          {
+            "damage": 21621,
+            "player_name": "\u5e7f\u5ddeTTG.\u9e64\u8f9e"
+          },
+          {
+            "damage": 19096,
+            "player_name": "\u4f5b\u5c71DRG.\u82b1\u7f18"
+          },
+          {
+            "damage": 18940,
+            "player_name": "\u5317\u4eacJDG.\u5c0f\u5bd2"
+          },
+          {
+            "damage": 18186,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u949f\u610f"
+          },
+          {
+            "damage": 17536,
+            "player_name": "\u4f5b\u5c71DRG.\u68a6\u5c9a"
+          },
+          {
+            "damage": 16522,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u957f\u751f"
+          },
+          {
+            "damage": 16360,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u8f69\u67d3"
+          },
+          {
+            "damage": 16114,
+            "player_name": "\u6210\u90fdAG\u8d85\u73a9\u4f1a.\u5c0f\u4fde"
+          },
+          {
+            "damage": 14986,
+            "player_name": "\u6b66\u6c49eStarPro.\u5c0f\u697c"
+          },
+          {
+            "damage": 12914,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u964c\u51b7"
+          },
+          {
+            "damage": 12235,
+            "player_name": "\u4f5b\u5c71DRG.\u67da\u5b50"
+          },
+          {
+            "damage": 10611,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u4e45\u5bd2"
+          },
+          {
+            "damage": 10183,
+            "player_name": "\u6b66\u6c49eStarPro.Fly"
+          },
+          {
+            "damage": 8858,
+            "player_name": "\u6b66\u6c49eStarPro.\u4eae\u5b87"
+          },
+          {
+            "damage": 7280,
+            "player_name": "\u6b66\u6c49eStarPro.\u660a\u660a"
+          },
+          {
+            "damage": 7097,
+            "player_name": "\u6850\u4e61\u60c5\u4e45.\u65e0\u7384"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "16.7%",
+            "position": "top"
+          },
+          {
+            "percentage": "24.1%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.5%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.0%",
+            "position": "adc"
+          },
+          {
+            "percentage": "31.8%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "18.0%",
+            "position": "top"
+          },
+          {
+            "percentage": "23.3%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.3%",
+            "position": "mid"
+          },
+          {
+            "percentage": "14.7%",
+            "position": "adc"
+          },
+          {
+            "percentage": "31.7%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 325417,
+            "position": "top"
+          },
+          {
+            "damage": 469211,
+            "position": "jungle"
+          },
+          {
+            "damage": 243203,
+            "position": "mid"
+          },
+          {
+            "damage": 292696,
+            "position": "adc"
+          },
+          {
+            "damage": 619487,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.\u4e00\u7b19",
+        "player_position": "\u6e38\u8d70",
+        "player_unique_id": "KPLP00883",
+        "total_matches": 62
+      }
+    ],
+    "position_averages": {
+      "\u4e2d\u8def": [
+        {
+          "percentage": "18.6%",
+          "position": "top"
+        },
+        {
+          "percentage": "27.5%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "12.3%",
+          "position": "mid"
+        },
+        {
+          "percentage": "13.6%",
+          "position": "adc"
+        },
+        {
+          "percentage": "28.0%",
+          "position": "support"
+        }
+      ],
+      "\u53d1\u80b2\u8def": [
+        {
+          "percentage": "24.2%",
+          "position": "top"
+        },
+        {
+          "percentage": "24.7%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "9.2%",
+          "position": "mid"
+        },
+        {
+          "percentage": "15.1%",
+          "position": "adc"
+        },
+        {
+          "percentage": "26.8%",
+          "position": "support"
+        }
+      ],
+      "\u5bf9\u6297\u8def": [
+        {
+          "percentage": "32.8%",
+          "position": "top"
+        },
+        {
+          "percentage": "19.6%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "12.3%",
+          "position": "mid"
+        },
+        {
+          "percentage": "15.3%",
+          "position": "adc"
+        },
+        {
+          "percentage": "19.9%",
+          "position": "support"
+        }
+      ],
+      "\u6253\u91ce": [
+        {
+          "percentage": "19.2%",
+          "position": "top"
+        },
+        {
+          "percentage": "28.7%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "12.0%",
+          "position": "mid"
+        },
+        {
+          "percentage": "13.2%",
+          "position": "adc"
+        },
+        {
+          "percentage": "26.8%",
+          "position": "support"
+        }
+      ],
+      "\u6e38\u8d70": [
+        {
+          "percentage": "18.0%",
+          "position": "top"
+        },
+        {
+          "percentage": "23.3%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "12.3%",
+          "position": "mid"
+        },
+        {
+          "percentage": "14.7%",
+          "position": "adc"
+        },
+        {
+          "percentage": "31.7%",
+          "position": "support"
+        }
+      ]
+    },
+    "season": "KPL2026S1",
+    "team_name": "KSG",
+    "total_players": 7
+  }
+}

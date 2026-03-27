@@ -4,26 +4,15 @@ KPL 数据采集配置
 在此配置需要采集的 API 接口
 """
 
-# 数据源基础 URL
-BASE_URL = "https://kpl.qq.com"
-
 # API 接口配置列表
-# 格式：{命名空间，接口路径，是否启用}
+# 格式：{命名空间，完整 URL，是否启用}
 APIS = [
-    # 战队数据
-    {"namespace": "team", "path": "/api/team/stats", "enabled": True},
-    
-    # 选手数据
-    {"namespace": "player", "path": "/api/player/stats", "enabled": True},
-    
-    # 比赛列表
-    {"namespace": "match", "path": "/api/match/list", "enabled": True},
-    
-    # 英雄池
-    {"namespace": "hero", "path": "/api/hero/list", "enabled": True},
-    
-    # 示例：禁用某个接口
-    # {"namespace": "example", "path": "/api/example", "enabled": False},
+    # 示例配置 - 请替换为真实的 API 地址
+    # {"namespace": "team", "url": "https://api.example.com/team/stats", "enabled": True},
+    # {"namespace": "player", "url": "https://api.example.com/player/stats", "enabled": True},
+    # {"namespace": "match", "url": "https://kpl.qq.com/api/match/list", "enabled": True},
+    # {"namespace": "hero", "url": "https://kpl.qq.com/api/hero/list", "enabled": True},
+    {"namespace": "team", "url": "http://47.102.210.150:5006/KPL2026S1/KSG", "enabled": True}
 ]
 
 # 请求配置

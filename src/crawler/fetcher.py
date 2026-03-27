@@ -10,15 +10,14 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-from .config import BASE_URL, HEADERS, MAX_RETRIES, REQUEST_TIMEOUT, RETRY_DELAY
+from .config import HEADERS, MAX_RETRIES, REQUEST_TIMEOUT, RETRY_DELAY
 
 
 class KPLCrawler:
     """KPL 数据采集器"""
 
-    def __init__(self, base_url: Optional[str] = None):
+    def __init__(self):
         """初始化采集器"""
-        self.base_url = base_url or BASE_URL
         self.session = self._create_session()
 
     def _create_session(self) -> requests.Session:
@@ -38,19 +37,17 @@ class KPLCrawler:
 
         return session
 
-    def fetch(self, path: str, params: Optional[dict] = None) -> Optional[Any]:
+    def fetch(self, url: str, params: Optional[dict] = None) -> Optional[Any]:
         """
         获取 API 数据
 
         Args:
-            path: API 路径
+            url: 完整 URL
             params: 查询参数
 
         Returns:
             响应数据
         """
-        url = f"{self.base_url}{path}"
-
         try:
             response = self.session.get(url, params=params, timeout=REQUEST_TIMEOUT)
             response.raise_for_status()

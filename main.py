@@ -31,11 +31,11 @@ def run() -> int:
             continue
 
         namespace = api["namespace"]
-        path = api["path"]
+        url = api["url"]
 
-        print(f"\n[FETCH] {namespace}: {path}")
+        print(f"\n[FETCH] {namespace}: {url}")
 
-        data = crawler.fetch(path)
+        data = crawler.fetch(url)
 
         if data is not None:
             storage.save(namespace, data)

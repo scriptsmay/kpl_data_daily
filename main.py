@@ -7,8 +7,9 @@ KPL 数据采集工具
 """
 
 import sys
+from datetime import datetime
 
-from src.crawler.config import APIS
+from src.crawler.config import APIS, DATE_FORMAT
 from src.crawler.fetcher import KPLCrawler
 from src.storage.saver import KPLStorage
 
@@ -24,10 +25,12 @@ def run() -> int:
 
     success_count = 0
     fail_count = 0
+    skip_count = 0
 
     for api in APIS:
         if not api.get("enabled", True):
             print(f"[SKIP] {api['namespace']} (已禁用)")
+            skip_count += 1
             continue
 
         namespace = api["namespace"]
@@ -38,14 +41,15 @@ def run() -> int:
         data = crawler.fetch(url)
 
         if data is not None:
-            storage.save(namespace, data)
+            # 使用固定文件名（不带日期），因为数据是按赛季划分的
+            storage.save(namespace, data, use_date=False)
             success_count += 1
         else:
             print(f"[FAIL] {namespace} 采集失败")
             fail_count += 1
 
     print("\n" + "=" * 50)
-    print(f"采集完成：成功 {success_count} 个，失败 {fail_count} 个")
+    print(f"采集完成：成功 {success_count} 个，失败 {fail_count} 个，跳过 {skip_count} 个")
     print("=" * 50)
 
     return 0 if fail_count == 0 else 1

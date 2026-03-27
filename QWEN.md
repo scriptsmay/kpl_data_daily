@@ -2,13 +2,13 @@
 
 ## 项目概述
 
-**KPL Data Daily** 是一个简单的 KPL 数据采集工具，通过 GitHub Actions 每日定时抓取配置的 API 接口数据。
+**KPL Data Daily** 是一个 KPL 数据采集工具，通过 GitHub Actions 每日定时抓取 API 数据。
 
 ### 核心功能
 
-1. **配置化采集** - 在 `config.py` 中定义 API 接口列表（支持多域名）
+1. **配置化采集** - 在 `config.py` 中定义 API 接口列表
 2. **定时执行** - GitHub Actions 每天自动运行
-3. **JSON 存储** - 按 `{命名空间}_{日期}.json` 格式保存
+3. **JSON 存储** - 按 `{命名空间}.json` 格式保存
 
 ### 技术栈
 
@@ -25,6 +25,8 @@ kpl_data_daily/
 ├── .github/workflows/
 │   └── daily-fetch.yml        # GitHub Actions 配置
 ├── data/                      # 数据输出目录
+│   ├── archive/               # 历史数据归档
+│   └── *.json                 # 采集的数据
 └── src/
     ├── crawler/
     │   ├── config.py          # API 接口配置
@@ -44,34 +46,35 @@ python main.py
 
 ### 定时执行
 
-GitHub Actions 每天 UTC 00:00（北京时间 08:00）自动执行，也可手动触发。
+GitHub Actions 每天 UTC 00:00（北京时间 08:00）自动执行。
 
 ## 配置说明
 
 ### src/crawler/config.py
 
 ```python
+# 当前赛季 ID（需要定期更新）
+CURRENT_SEASON = "KPL2026S1"
+
 # API 接口配置（支持多域名）
 APIS = [
-    {"namespace": "team", "url": "https://api.example.com/team/stats", "enabled": True},
-    {"namespace": "player", "url": "https://kpl.qq.com/api/player/stats", "enabled": True},
+    {"namespace": "player-stats", "url": "http://47.103.107.144/openapi/player_stats?seasonid=KPL2026S1", "enabled": True},
 ]
-
-# 请求配置
-REQUEST_TIMEOUT = 30
-MAX_RETRIES = 3
 ```
 
 ### 输出格式
 
-文件保存在 `data/` 目录，命名格式：`{namespace}_{YYYYMMDD}.json`
+文件保存在 `data/` 目录，命名格式：`{namespace}.json`
 
 示例：
-- `team_20240327.json`
-- `player_20240327.json`
+- `player-stats.KPL2026S1.json`
+- `ksg.wuyan.json`
+- `team-members.KPL2026S1.KSG.json`
 
-## 开发规范
+## 已配置的 API
 
-- 代码简洁，只做数据采集
-- 遵循 PEP 8 规范
-- 类型注解（Type Hints）
+参考 `doc/API.md` 了解所有 API 详情。
+
+## 更新赛季
+
+当新赛季开始时，修改 `src/crawler/config.py` 中的 `CURRENT_SEASON` 变量。

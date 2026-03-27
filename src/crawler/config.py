@@ -1,62 +1,116 @@
 """
 KPL 数据采集配置
-
-在此配置需要采集的 API 接口
 """
 
-# 当前赛季 ID（需要定期更新）
+from datetime import datetime
+from typing import List, Dict
+
+# 当前赛季 ID（自动获取，此处为默认值）
 CURRENT_SEASON = "KPL2026S1"
 
-# API 接口配置列表
-# 格式：{命名空间，完整 URL，是否启用}
-# 注意：URL 中的赛季 ID 需要手动更新，或使用 CURRENT_SEASON 变量
-APIS = [
-    # === 赛季基础数据 ===
-    # 赛季列表（低频，3 个月左右更新一次）
-    {"namespace": "seasons-list", "url": "http://47.102.210.150:5006/seasons/list", "enabled": True},
+# 关注的选手
+TARGET_PLAYER = "KSG.无言"
+
+# 战队名称
+TARGET_TEAM = "KSG"
+
+# API 接口配置
+# update_freq: "fixed" (固定/不更新) 或 "daily" (每日更新)
+# need_filter: 是否需要从批量数据中筛选目标选手
+APIS: List[Dict] = [
+    # === 固定频率 API（只抓取一次） ===
+    {
+        "namespace": "seasons-list",
+        "url": "http://47.102.210.150:5006/seasons/list",
+        "update_freq": "fixed",
+        "enabled": True,
+    },
+    {
+        "namespace": "season",
+        "url": "http://47.102.210.150:5006/season/{season_id}",
+        "update_freq": "fixed",
+        "enabled": True,
+    },
+    {
+        "namespace": "team-members",
+        "url": "http://47.102.210.150:5006/{season_id}/{team_name}",
+        "update_freq": "fixed",
+        "enabled": True,
+    },
     
-    # 当前赛季信息（低频，固定不更新）
-    {"namespace": f"season.{CURRENT_SEASON}", "url": f"http://47.102.210.150:5006/season/{CURRENT_SEASON}", "enabled": True},
-    
-    # === 选手数据（赛季期间每日更新） ===
-    # 选手统计数据
-    {"namespace": f"player-stats.{CURRENT_SEASON}", "url": f"http://47.103.107.144/openapi/player_stats?seasonid={CURRENT_SEASON}", "enabled": True},
-    
-    # 所有选手数据
-    {"namespace": f"all-player-stats.{CURRENT_SEASON}", "url": f"http://47.102.210.150:5035/api/all-player-stats?season={CURRENT_SEASON}", "enabled": True},
-    
-    # 选手英雄胜场统计
-    {"namespace": f"player-hero-summary.{CURRENT_SEASON}", "url": f"http://47.102.210.150:5028/api/player-hero-summary/{CURRENT_SEASON}", "enabled": True},
-    
-    # 选手能力数据
-    {"namespace": f"player-abilities.{CURRENT_SEASON}", "url": f"http://47.102.210.150:5035/api/player-abilities/{CURRENT_SEASON}", "enabled": True},
-    
-    # 选手获胜统计
-    {"namespace": f"player-win-stats.{CURRENT_SEASON}", "url": f"http://47.102.210.150:5028/api/player-win-stats/{CURRENT_SEASON}", "enabled": True},
-    
-    # 选手失败统计
-    {"namespace": f"player-lose-stats.{CURRENT_SEASON}", "url": f"http://47.102.210.150:5028/api/player-lose-stats/{CURRENT_SEASON}", "enabled": True},
-    
-    # === 战队数据 ===
-    # 战队人员信息（低频，固定不更新）
-    {"namespace": f"team-members.{CURRENT_SEASON}.KSG", "url": f"http://47.102.210.150:5006/{CURRENT_SEASON}/KSG", "enabled": True},
-    
-    # 战队选手伤害分布
-    {"namespace": f"team-damage.{CURRENT_SEASON}.KSG", "url": f"http://47.102.210.150:5035/api/team-damage-distribution/{CURRENT_SEASON}/KSG", "enabled": True},
-    
-    # === 无言选手职业生涯（每日更新） ===
-    {"namespace": "ksg.wuyan", "url": "http://47.102.210.150:5049/api/player-career?player_name=KSG.%E6%97%A0%E8%A8%80", "enabled": True},
-    
-    # === 赛事数据（赛季期间每日更新） ===
-    # 赛事回顾
-    {"namespace": f"records.{CURRENT_SEASON}", "url": f"http://47.102.210.150:5022/api/records?season={CURRENT_SEASON}", "enabled": True},
-    
-    # 获胜时选手亲近度分析
-    {"namespace": f"win-affinity.{CURRENT_SEASON}", "url": f"http://47.102.210.150:5029/api/{CURRENT_SEASON}/win-affinity-analysis", "enabled": True},
-    
-    # === 英雄数据 ===
-    # 联盟英雄胜率（对抗路）
-    {"namespace": f"hero-win-rate.{CURRENT_SEASON}", "url": f"http://47.102.210.150:5035/api/hero-win-rate/{CURRENT_SEASON}?position=%E5%AF%B9%E6%8A%97%E8%B7%AF", "enabled": True},
+    # === 每日更新 API ===
+    {
+        "namespace": "player-stats",
+        "url": "http://47.103.107.144/openapi/player_stats?seasonid={season_id}",
+        "update_freq": "daily",
+        "need_filter": True,  # 需要筛选无言的数据
+        "enabled": True,
+    },
+    {
+        "namespace": "all-player-stats",
+        "url": "http://47.102.210.150:5035/api/all-player-stats?season={season_id}",
+        "update_freq": "daily",
+        "need_filter": True,
+        "enabled": True,
+    },
+    {
+        "namespace": "player-hero-summary",
+        "url": "http://47.102.210.150:5028/api/player-hero-summary/{season_id}",
+        "update_freq": "daily",
+        "need_filter": True,
+        "enabled": True,
+    },
+    {
+        "namespace": "player-abilities",
+        "url": "http://47.102.210.150:5035/api/player-abilities/{season_id}",
+        "update_freq": "daily",
+        "need_filter": True,
+        "enabled": True,
+    },
+    {
+        "namespace": "player-win-stats",
+        "url": "http://47.102.210.150:5028/api/player-win-stats/{season_id}",
+        "update_freq": "daily",
+        "need_filter": True,
+        "enabled": True,
+    },
+    {
+        "namespace": "player-lose-stats",
+        "url": "http://47.102.210.150:5028/api/player-lose-stats/{season_id}",
+        "update_freq": "daily",
+        "need_filter": True,
+        "enabled": True,
+    },
+    {
+        "namespace": "player-career-wuyan",
+        "url": "http://47.102.210.150:5049/api/player-career?player_name=KSG.%E6%97%A0%E8%A8%80",
+        "update_freq": "daily",
+        "enabled": True,
+    },
+    {
+        "namespace": "season-records",
+        "url": "http://47.102.210.150:5022/api/records?season={season_id}",
+        "update_freq": "daily",
+        "enabled": True,
+    },
+    {
+        "namespace": "win-affinity-analysis",
+        "url": "http://47.102.210.150:5029/api/{season_id}/win-affinity-analysis",
+        "update_freq": "daily",
+        "enabled": True,
+    },
+    {
+        "namespace": "team-damage-distribution",
+        "url": "http://47.102.210.150:5035/api/team-damage-distribution/{season_id}/{team_name}",
+        "update_freq": "daily",
+        "enabled": True,
+    },
+    {
+        "namespace": "hero-win-rate",
+        "url": "http://47.102.210.150:5035/api/hero-win-rate/{season_id}?position=%E5%AF%B9%E6%8A%97%E8%B7%AF",
+        "update_freq": "daily",
+        "enabled": True,
+    },
 ]
 
 # 请求配置
@@ -65,10 +119,10 @@ HEADERS = {
     "Accept": "application/json, text/plain, */*",
 }
 
-REQUEST_TIMEOUT = 30  # 秒
-MAX_RETRIES = 3  # 最大重试次数
-RETRY_DELAY = 1  # 重试间隔（秒）
+REQUEST_TIMEOUT = 30
+MAX_RETRIES = 3
+RETRY_DELAY = 1
 
 # 输出配置
-DATA_DIR = "data"  # 数据保存目录
-DATE_FORMAT = "%Y%m%d"  # 日期格式
+DATA_DIR = "data"
+DATE_FORMAT = "%Y%m%d"

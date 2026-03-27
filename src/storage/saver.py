@@ -23,27 +23,18 @@ class KPLStorage:
         if not os.path.exists(self.data_dir):
             os.makedirs(self.data_dir)
 
-    def save(self, namespace: str, data: Any, use_date: bool = True) -> str:
+    def save(self, filename: str, data: Any) -> str:
         """
         保存数据到文件
 
-        文件名格式：{namespace}.json 或 {namespace}_{date}.json
-
         Args:
-            namespace: 命名空间
+            filename: 文件名（不含扩展名）
             data: 数据
-            use_date: 是否在文件名中使用日期
 
         Returns:
             保存的文件路径
         """
-        if use_date:
-            date_str = datetime.now().strftime(DATE_FORMAT)
-            filename = f"{namespace}_{date_str}.json"
-        else:
-            filename = f"{namespace}.json"
-
-        filepath = os.path.join(self.data_dir, filename)
+        filepath = os.path.join(self.data_dir, f"{filename}.json")
 
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)

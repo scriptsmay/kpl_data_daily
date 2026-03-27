@@ -1,233 +1,258 @@
 [
   {
-    "tournament_name": "2025VCT第二赛段",
-    "project": "VCT",
-    "season_type": "联赛",
-    "is_latest": 1
-  },
-  {
-    "tournament_name": "TEST",
-    "project": "TEST",
-    "season_type": "联赛",
-    "is_latest": 1
-  },
-  {
+    "tournament_id": "KPL2026S1",
     "tournament_name": "KPL2026春季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 1
   },
   {
+    "tournament_id": "KPL2025S3",
     "tournament_name": "KPL2025年度总决赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2025S2",
     "tournament_name": "KPL2025夏季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2025S1",
     "tournament_name": "KPL2025春季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2024S3",
     "tournament_name": "KPL2024年度总决赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2024S2",
     "tournament_name": "KPL2024夏季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2024S1",
     "tournament_name": "KPL2024春季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2023S2",
     "tournament_name": "KPL2023夏季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2023S1",
     "tournament_name": "KPL2023春季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2022S2",
     "tournament_name": "KPL2022夏季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2022S1",
     "tournament_name": "KPL2022春季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2021S2",
     "tournament_name": "KPL2021秋季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2021S1",
     "tournament_name": "KPL2021春季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2020S2",
     "tournament_name": "KPL2020秋季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2020S1",
     "tournament_name": "KPL2020春季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2019S2",
     "tournament_name": "KPL2019秋季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2019S1",
     "tournament_name": "KPL2019春季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2018S2",
     "tournament_name": "KPL2018秋季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2018S1",
     "tournament_name": "KPL2018春季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2017S2",
     "tournament_name": "KPL2017秋季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2017S1",
     "tournament_name": "KPL2017春季赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KPL2016S1",
     "tournament_name": "KPL2016联赛",
     "project": "KPL",
     "season_type": "联赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KIC2023",
     "tournament_name": "2023王者荣耀世界冠军杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KIC2022",
     "tournament_name": "2022王者荣耀世界冠军杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KIC2021",
     "tournament_name": "2021王者荣耀世界冠军杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KIC2020",
     "tournament_name": "2020王者荣耀世界冠军杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KIC2019",
     "tournament_name": "2019王者荣耀世界冠军杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KIC2018",
     "tournament_name": "2018王者荣耀冠军杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KIC2017",
     "tournament_name": "2017王者荣耀冠军杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KCC2025",
     "tournament_name": "2025王者荣耀挑战者杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KCC2024",
     "tournament_name": "2024王者荣耀挑战者杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KCC2023",
     "tournament_name": "2023王者荣耀挑战者杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KCC2022S1",
     "tournament_name": "2022王者荣耀挑战者杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KCC2021S1",
     "tournament_name": "2021王者荣耀挑战者杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KCC2020S1",
     "tournament_name": "2020王者荣耀冬季冠军杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KCC2019S1",
     "tournament_name": "2019王者荣耀冬季冠军杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0
   },
   {
+    "tournament_id": "KCC2018S1",
     "tournament_name": "2018王者荣耀冬季冠军杯",
     "project": "KPL",
     "season_type": "杯赛",

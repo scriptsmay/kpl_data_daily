@@ -21,9 +21,10 @@ APIS: List[Dict] = [
     # === 固定频率 API（只抓取一次） ===
     {
         "namespace": "seasons-list",
-        "url": "http://47.102.210.150:5006/seasons/list",
+        "url": "http://47.102.210.150:5006/seasons/list?project=KPL",
         "update_freq": "fixed",
         "enabled": True,
+        "no_season": True,
     },
     {
         "namespace": "season",

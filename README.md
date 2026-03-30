@@ -1,5 +1,7 @@
 # KPL Data Daily
 
+github: https://github.com/scriptsmay/kpl_data_daily
+
 KPL 数据采集工具，每日定时抓取 API 数据，自动筛选关注的选手（无言）数据。
 
 ## 功能
@@ -55,11 +57,13 @@ APIS = [
 ## 输出文件
 
 ### 固定数据（只采集一次）
+
 - `seasons-list.{赛季 ID}.json` - 赛季列表
 - `season.{赛季 ID}.json` - 赛季信息
 - `team-members.{赛季 ID}.json` - 战队人员
 
 ### 每日数据（每天采集，保留历史）
+
 - `player-stats.{赛季 ID}.{日期}.json` - 无言选手统计
 - `all-player-stats.{赛季 ID}.{日期}.json` - 无言选手全部数据
 - `player-hero-summary.{赛季 ID}.{日期}.json` - 无言英雄胜场

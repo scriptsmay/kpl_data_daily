@@ -14,6 +14,13 @@ TARGET_PLAYER = "无言"
 # 战队名称
 TARGET_TEAM = "KSG"
 
+API_PLAYER_HERO = {
+    "namespace": "player-hero-summary",
+    "url": "http://47.102.210.150:5028/api/player-hero-summary/{season_id}",
+    "update_freq": "daily",
+    "need_filter": True,
+    "enabled": True,
+}
 API_PLAYER_HERO_BATTLES = {
   "namespace": "player-hero-battles",
   "url": "http://47.102.210.150:5049/api/player-hero-battles"
@@ -60,13 +67,7 @@ APIS: List[Dict] = [
         "need_filter": True,
         "enabled": True,
     },
-    {
-        "namespace": "player-hero-summary",
-        "url": "http://47.102.210.150:5028/api/player-hero-summary/{season_id}",
-        "update_freq": "daily",
-        "need_filter": True,
-        "enabled": True,
-    },
+    API_PLAYER_HERO,
     {
         "namespace": "player-abilities",
         "url": "http://47.102.210.150:5035/api/player-abilities/{season_id}",

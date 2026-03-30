@@ -16,6 +16,7 @@ from typing import Any, Dict, List, Optional, Union
 from src.crawler.config import (
     APIS,
     CURRENT_SEASON,
+    API_PLAYER_HERO,
     API_PLAYER_HERO_BATTLES,
     DATE_FORMAT,
     TARGET_PLAYER,
@@ -103,29 +104,36 @@ def filter_player_data(data: Any, player_name: str) -> Union[dict, list]:
     return filtered_results
 
 
-def get_hero_list_from_career(storage: KPLStorage) -> list:
-    """从已保存的职业生涯数据中提取英雄列表"""
+def get_hero_list_from_summary(storage: KPLStorage) -> list:
+    """从已保存的 player-hero-summary 数据中提取英雄列表"""
     import glob
 
-    # 找最新的 player-career-wuyan 文件
-    pattern = os.path.join(storage.data_dir, "player-career-wuyan.*.json")
+    # 找最新的 player-hero-summary 文件
+    pattern = os.path.join(storage.data_dir, "player-hero-summary.*.json")
     files = sorted(glob.glob(pattern), reverse=True)
 
     if not files:
-        print("[WARN] 未找到 player-career-wuyan 数据文件")
+        print("[WARN] 未找到 player-hero-summary 数据文件")
         return []
 
     try:
         with open(files[0], "r", encoding="utf-8") as f:
-            career_data = json.load(f)
+            summary_data = json.load(f)
 
-        hero_stats = career_data.get("data", {}).get("hero_stats", [])
-        heroes = [h["hero_name"] for h in hero_stats if h.get("hero_name")]
-        print(f"[INFO] 从 {os.path.basename(files[0])} 提取到 {len(heroes)} 个英雄: {', '.join(heroes)}")
+        # 从 data 数组中提取 hero_name
+        data_list = summary_data.get("data", [])
+        if isinstance(data_list, list):
+            heroes = [item["hero_name"] for item in data_list if item.get("hero_name")]
+        else:
+            heroes = []
+
+        print(f"[INFO] 从 {os.path.basename(files[0])} 提取到 {len(heroes)} 个英雄：{', '.join(heroes)}")
         return heroes
     except Exception as e:
-        print(f"[ERROR] 读取英雄列表失败: {e}")
+        print(f"[ERROR] 读取英雄列表失败：{e}")
         return []
+
+
 
 def get_player_name_from_career(storage: KPLStorage) -> str:
     """从已保存的职业生涯数据中提取玩家名称"""
@@ -180,7 +188,7 @@ def fetch_hero_battles(crawler: KPLCrawler, storage: KPLStorage, season_id: str)
 
     返回: { hero_name: { battles: [...], total, wins, loses }, ... }
     """
-    heroes = get_hero_list_from_career(storage)
+    heroes = get_hero_list_from_summary(storage)
     if not heroes:
         return {}
 

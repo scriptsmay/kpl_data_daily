@@ -135,3 +135,12 @@
 - 示例：http://47.102.210.150:5035/api/hero-win-rate/{season_id}?position={position}
 - 返回: 赛季的 联盟英雄胜率，实际返回数据参考： ./archive/hero-win-rate.KCC2025.json
 - 更新频率: 不固定，赛季没结束前，每日更新；赛季结束后，不更新
+
+## 选手赛季英雄使用数据
+
+- http://47.102.210.150:5049/api/player-hero-battles?player_name=KSG.%E6%97%A0%E8%A8%80&hero_name=%E5%85%B3%E7%BE%BD&season=KPL2026S1
+- 描述: 获取指定赛季的选手+指定英雄使用数据
+- 命名空间: player-hero-battles
+- 参数: player_name - 选手名称; hero_name - 英雄名称; season - 赛季ID
+- 示例：http://47.102.210.150:5049/api/player-hero-battles?player_name=KSG.%E6%97%A0%E8%A8%80&hero_name=%E5%85%B3%E7%BE%BD&season={season_id}
+- 返回: 赛季的选手+指定英雄使用数据，实际返回数据参考： ./archive/player-hero-battles.KPL2026S1.20260330.json

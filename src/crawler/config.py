@@ -14,6 +14,11 @@ TARGET_PLAYER = "无言"
 # 战队名称
 TARGET_TEAM = "KSG"
 
+API_PLAYER_HERO_BATTLES = {
+  "namespace": "player-hero-battles",
+  "url": "http://47.102.210.150:5049/api/player-hero-battles"
+}
+
 # API 接口配置
 # update_freq: "fixed" (固定/不更新) 或 "daily" (每日更新)
 # need_filter: 是否需要从批量数据中筛选目标选手

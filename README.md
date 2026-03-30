@@ -38,7 +38,7 @@ python main.py
 
 ```python
 # 关注的选手
-TARGET_PLAYER = "KSG.无言"
+TARGET_PLAYER = "无言"
 
 # 战队名称
 TARGET_TEAM = "KSG"
@@ -62,14 +62,14 @@ APIS = [
 
 ### 配置项说明
 
-| 配置项 | 类型 | 说明 |
-|--------|------|------|
-| `namespace` | string | 命名空间，用于生成输出文件名 |
-| `url` | string | API 地址，支持 `{season_id}` 和 `{team_name}` 占位符 |
-| `update_freq` | string | 更新频率：`fixed`（固定）或 `daily`（每日） |
-| `need_filter` | boolean | 是否需要从批量数据中筛选选手 |
-| `no_season` | boolean | 文件名中省略赛季 ID（默认 `False`） |
-| `enabled` | boolean | 是否启用该 API |
+| 配置项        | 类型    | 说明                                                 |
+| ------------- | ------- | ---------------------------------------------------- |
+| `namespace`   | string  | 命名空间，用于生成输出文件名                         |
+| `url`         | string  | API 地址，支持 `{season_id}` 和 `{team_name}` 占位符 |
+| `update_freq` | string  | 更新频率：`fixed`（固定）或 `daily`（每日）          |
+| `need_filter` | boolean | 是否需要从批量数据中筛选选手                         |
+| `no_season`   | boolean | 文件名中省略赛季 ID（默认 `False`）                  |
+| `enabled`     | boolean | 是否启用该 API                                       |
 
 ## 输出文件
 
@@ -92,14 +92,15 @@ APIS = [
 - `win-affinity-analysis.{赛季 ID}.{日期}.json` - 获胜亲近度
 - `team-damage-distribution.{赛季 ID}.{日期}.json` - KSG 伤害分布
 - `hero-win-rate.{赛季 ID}.{日期}.json` - 英雄胜率（对抗路）
+- `player-hero-battles.{赛季 ID}.{日期}.json` - 英雄对局详情（出装/铭文/阵容/KDA）
 
 ### 文件名说明
 
-| 类型 | 格式 | 示例 |
-|------|------|------|
-| 普通文件 | `{namespace}.{season_id}.json` | `season.KPL2026S1.json` |
-| 每日数据 | `{namespace}.{season_id}.{YYYYMMDD}.json` | `player-stats.KPL2026S1.20260330.json` |
-| 无赛季 ID | `{namespace}.json` | `seasons-list.json` |
+| 类型      | 格式                                      | 示例                                   |
+| --------- | ----------------------------------------- | -------------------------------------- |
+| 普通文件  | `{namespace}.{season_id}.json`            | `season.KPL2026S1.json`                |
+| 每日数据  | `{namespace}.{season_id}.{YYYYMMDD}.json` | `player-stats.KPL2026S1.20260330.json` |
+| 无赛季 ID | `{namespace}.json`                        | `seasons-list.json`                    |
 
 所有数据文件都会提交到 Git 仓库，长期积累用于后续 AI 分析。
 

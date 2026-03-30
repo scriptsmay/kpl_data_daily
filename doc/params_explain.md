@@ -27,7 +27,8 @@
 
 **API**: `/seasons/list?project=KPL`  
 **命名空间**: `seasons-list`  
-**更新频率**: 固定，约 3 月更新一次（新赛季启动前）
+**更新频率**: 固定，约 3 月更新一次（新赛季启动前）  
+**输出文件**: `seasons-list.json`（配置 `no_season: True`，文件名不带赛季 ID）
 
 ### 数据结构
 
@@ -767,7 +768,8 @@
 
 **API**: `/api/player-career?player_name=KSG.%E6%97%A0%E8%A8%80`  
 **命名空间**: `player-career-wuyan`  
-**更新频率**: 固定，每日更新（比赛结束后）
+**更新频率**: 固定，每日更新（比赛结束后）  
+**输出文件**: `player-career-wuyan.{日期}.json`（配置 `no_season: True`，文件名不带赛季 ID）
 
 ### 数据结构
 
@@ -1298,6 +1300,31 @@
 - `S1` = 春季赛
 - `S2` = 夏季赛
 - `S3` = 年度总决赛
+
+---
+
+## 附录：no_season 配置说明
+
+在 `config.py` 中，API 配置项支持 `no_season` 参数：
+
+```python
+{
+    "namespace": "seasons-list",
+    "url": "http://47.102.210.150:5006/seasons/list?project=KPL",
+    "update_freq": "fixed",
+    "no_season": True,  # 文件名不带赛季 ID
+}
+```
+
+| `no_season` 值 | 文件名格式 | 示例 |
+| -------------- | ---------- | ---- |
+| `False`（默认） | `{namespace}.{season_id}.json` 或 `{namespace}.{season_id}.{date}.json` | `season.KPL2026S1.json` |
+| `True` | `{namespace}.json` 或 `{namespace}.{date}.json` | `seasons-list.json` |
+
+**使用场景**：
+
+- 全局数据（如赛季列表）不需要按赛季区分
+- 选手个人数据（如职业生涯）跨赛季累计
 
 ---
 

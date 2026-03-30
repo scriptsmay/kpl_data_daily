@@ -68,12 +68,35 @@ TARGET_TEAM = "KSG"
 APIS = [
     {
         "namespace": "player-stats",
-        "url": "http://47.103.107.144/openapi/player_stats?seasonid={season_id}",
+        "url": "http://47.103.107.144/openapi/player_stats?season_id={season_id}",
         "update_freq": "daily",
         "need_filter": True,
     },
+    {
+        "namespace": "seasons-list",
+        "url": "http://47.102.210.150:5006/seasons/list?project=KPL",
+        "update_freq": "fixed",
+        "no_season": True,  # 不需要赛季 ID，文件名不带赛季 ID
+    },
+    {
+        "namespace": "player-career-wuyan",
+        "url": "http://47.102.210.150:5049/api/player-career?player_name=KSG.%E6%97%A0%E8%A8%80",
+        "update_freq": "daily",
+        "no_season": True,  # 不需要赛季 ID，文件名不带赛季 ID
+    },
 ]
 ```
+
+### 配置项说明
+
+| 配置项 | 类型 | 说明 |
+|--------|------|------|
+| `namespace` | string | 命名空间，用于生成输出文件名 |
+| `url` | string | API 地址，支持 `{season_id}` 和 `{team_name}` 占位符 |
+| `update_freq` | string | 更新频率：`fixed`（固定/只采集一次）或 `daily`（每日更新） |
+| `need_filter` | boolean | 是否需要从批量数据中筛选目标选手 |
+| `no_season` | boolean | 是否在文件名中省略赛季 ID（默认为 `False`） |
+| `enabled` | boolean | 是否启用该 API 采集 |
 
 ## 采集流程
 
@@ -86,8 +109,9 @@ APIS = [
 
 ## 输出格式
 
-- **固定数据**: `{命名空间}.{赛季 ID}.json`
-- **每日数据**: `{命名空间}.{赛季 ID}.{YYYYMMDD}.json`
+- **固定数据**: `{命名空间}.{赛季 ID}.json`（如 `season.KPL2026S1.json`）
+- **每日数据**: `{命名空间}.{赛季 ID}.{YYYYMMDD}.json`（如 `player-stats.KPL2026S1.20260330.json`）
+- **无赛季 ID 数据**: `{命名空间}.json`（配置 `no_season: True` 的文件，如 `seasons-list.json`）
 
 所有数据文件都会提交到 Git 仓库，长期积累用于后续 AI 分析。
 

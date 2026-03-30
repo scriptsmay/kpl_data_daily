@@ -47,18 +47,35 @@ TARGET_TEAM = "KSG"
 APIS = [
     {
         "namespace": "player-stats",
-        "url": "http://47.103.107.144/openapi/player_stats?seasonid={season_id}",
+        "url": "http://47.103.107.144/openapi/player_stats?season_id={season_id}",
         "update_freq": "daily",  # daily 或 fixed
         "need_filter": True,    # 是否需要筛选选手数据
     },
+    {
+        "namespace": "seasons-list",
+        "url": "http://47.102.210.150:5006/seasons/list?project=KPL",
+        "update_freq": "fixed",
+        "no_season": True,      # 文件名不带赛季 ID
+    },
 ]
 ```
+
+### 配置项说明
+
+| 配置项 | 类型 | 说明 |
+|--------|------|------|
+| `namespace` | string | 命名空间，用于生成输出文件名 |
+| `url` | string | API 地址，支持 `{season_id}` 和 `{team_name}` 占位符 |
+| `update_freq` | string | 更新频率：`fixed`（固定）或 `daily`（每日） |
+| `need_filter` | boolean | 是否需要从批量数据中筛选选手 |
+| `no_season` | boolean | 文件名中省略赛季 ID（默认 `False`） |
+| `enabled` | boolean | 是否启用该 API |
 
 ## 输出文件
 
 ### 固定数据（只采集一次）
 
-- `seasons-list.{赛季 ID}.json` - 赛季列表
+- `seasons-list.json` - 赛季列表（无赛季 ID）
 - `season.{赛季 ID}.json` - 赛季信息
 - `team-members.{赛季 ID}.json` - 战队人员
 
@@ -70,11 +87,19 @@ APIS = [
 - `player-abilities.{赛季 ID}.{日期}.json` - 无言能力数据
 - `player-win-stats.{赛季 ID}.{日期}.json` - 无言获胜统计
 - `player-lose-stats.{赛季 ID}.{日期}.json` - 无言失败统计
-- `player-career-wuyan.{赛季 ID}.{日期}.json` - 无言职业生涯
+- `player-career-wuyan.{日期}.json` - 无言职业生涯（无赛季 ID）
 - `season-records.{赛季 ID}.{日期}.json` - 赛事回顾
 - `win-affinity-analysis.{赛季 ID}.{日期}.json` - 获胜亲近度
 - `team-damage-distribution.{赛季 ID}.{日期}.json` - KSG 伤害分布
 - `hero-win-rate.{赛季 ID}.{日期}.json` - 英雄胜率（对抗路）
+
+### 文件名说明
+
+| 类型 | 格式 | 示例 |
+|------|------|------|
+| 普通文件 | `{namespace}.{season_id}.json` | `season.KPL2026S1.json` |
+| 每日数据 | `{namespace}.{season_id}.{YYYYMMDD}.json` | `player-stats.KPL2026S1.20260330.json` |
+| 无赛季 ID | `{namespace}.json` | `seasons-list.json` |
 
 所有数据文件都会提交到 Git 仓库，长期积累用于后续 AI 分析。
 

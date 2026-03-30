@@ -17,6 +17,7 @@ TARGET_TEAM = "KSG"
 # API 接口配置
 # update_freq: "fixed" (固定/不更新) 或 "daily" (每日更新)
 # need_filter: 是否需要从批量数据中筛选目标选手
+# no_season: 不需要赛季 ID 的文件名
 APIS: List[Dict] = [
     # === 固定频率 API（只抓取一次） ===
     {

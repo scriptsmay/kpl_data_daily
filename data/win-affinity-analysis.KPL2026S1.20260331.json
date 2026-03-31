@@ -1,0 +1,4366 @@
+{
+  "code": 200,
+  "data": {
+    "player_pairs_analysis": [
+      {
+        "avg_win_affinity": 62.978,
+        "player1": "南通Hero久竞.妖刀",
+        "player2": "南通Hero久竞.白清",
+        "player_pair": "南通Hero久竞.妖刀+南通Hero久竞.白清",
+        "recent_wins": [
+          {
+            "affinity_rate": 91.5929,
+            "battle_id": "1774160860_48251408_34",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 36.5297,
+            "battle_id": "1774162479_48251408_35",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 68.9655,
+            "battle_id": "1774609577_48251408_12",
+            "bo_round": 2,
+            "date": "2026年3月27日",
+            "opponent": "广州TTG",
+            "team": "南通Hero久竞"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "南通Hero久竞"
+        ],
+        "total_win_affinity": 629.781,
+        "win_dates_count": 10,
+        "win_games": 10
+      },
+      {
+        "avg_win_affinity": 59.933,
+        "player1": "西安WE.九幽",
+        "player2": "西安WE.昭珏",
+        "player_pair": "西安WE.九幽+西安WE.昭珏",
+        "recent_wins": [
+          {
+            "affinity_rate": 78.4314,
+            "battle_id": "1773914786_48251408_30",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "桐乡情久",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 42.1739,
+            "battle_id": "1774183506_48251408_37",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 50.8403,
+            "battle_id": "1774185346_48251408_38",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "西安WE"
+        ],
+        "total_win_affinity": 359.6,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 58.66,
+        "player1": "成都AG超玩会.大帅",
+        "player2": "成都AG超玩会.小俞",
+        "player_pair": "成都AG超玩会.大帅+成都AG超玩会.小俞",
+        "recent_wins": [
+          {
+            "affinity_rate": 52.7897,
+            "battle_id": "1773837698_501236240_13",
+            "bo_round": 1,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          },
+          {
+            "affinity_rate": 64.5299,
+            "battle_id": "1773840035_501236240_14",
+            "bo_round": 2,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "成都AG超玩会"
+        ],
+        "total_win_affinity": 117.32,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 53.99,
+        "player1": "北京WB.暖阳",
+        "player2": "北京WB.玖欣",
+        "player_pair": "北京WB.暖阳+北京WB.玖欣",
+        "recent_wins": [
+          {
+            "affinity_rate": 44.1441,
+            "battle_id": "1773924850_1222656528_16",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 79.5652,
+            "battle_id": "1773926577_1222656528_17",
+            "bo_round": 4,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 46.875,
+            "battle_id": "1774076740_1222656528_22",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "KSG",
+            "team": "北京WB"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京WB"
+        ],
+        "total_win_affinity": 215.959,
+        "win_dates_count": 4,
+        "win_games": 4
+      },
+      {
+        "avg_win_affinity": 53.682,
+        "player1": "西安WE.子意",
+        "player2": "西安WE.明崽",
+        "player_pair": "西安WE.子意+西安WE.明崽",
+        "recent_wins": [
+          {
+            "affinity_rate": 71.5686,
+            "battle_id": "1773914786_48251408_30",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "桐乡情久",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 64.3478,
+            "battle_id": "1774183506_48251408_37",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 55.042,
+            "battle_id": "1774185346_48251408_38",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "西安WE"
+        ],
+        "total_win_affinity": 322.094,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 49.465,
+        "player1": "深圳DYG.向鱼",
+        "player2": "深圳DYG.小轩",
+        "player_pair": "深圳DYG.向鱼+深圳DYG.小轩",
+        "recent_wins": [
+          {
+            "affinity_rate": 45.6897,
+            "battle_id": "1773923343_1222656528_15",
+            "bo_round": 2,
+            "date": "2026年3月19日",
+            "opponent": "北京WB",
+            "team": "深圳DYG"
+          },
+          {
+            "affinity_rate": 53.2407,
+            "battle_id": "1774083688_1272988176_9",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京JDG",
+            "team": "深圳DYG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "深圳DYG"
+        ],
+        "total_win_affinity": 98.93,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 48.987,
+        "player1": "重庆狼队.信",
+        "player2": "重庆狼队.道崽",
+        "player_pair": "重庆狼队.信+重庆狼队.道崽",
+        "recent_wins": [
+          {
+            "affinity_rate": 43.1373,
+            "battle_id": "1774094472_954221072_15",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 55.2036,
+            "battle_id": "1774096536_954221072_16",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 66.5158,
+            "battle_id": "1774098267_954221072_17",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "重庆狼队"
+        ],
+        "total_win_affinity": 293.919,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 46.49,
+        "player1": "广州TTG.小雪",
+        "player2": "广州TTG.涵",
+        "player_pair": "广州TTG.小雪+广州TTG.涵",
+        "recent_wins": [
+          {
+            "affinity_rate": 14.2857,
+            "battle_id": "1774611472_48251408_13",
+            "bo_round": 3,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 42.3469,
+            "battle_id": "1774613524_48251408_14",
+            "bo_round": 4,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 42.654,
+            "battle_id": "1774615151_48251408_15",
+            "bo_round": 5,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "广州TTG"
+        ],
+        "total_win_affinity": 371.918,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 45.255,
+        "player1": "杭州LGD.NBW.小久",
+        "player2": "杭州LGD.NBW.小崽",
+        "player_pair": "杭州LGD.NBW.小久+杭州LGD.NBW.小崽",
+        "recent_wins": [
+          {
+            "affinity_rate": 43.7811,
+            "battle_id": "1774527236_48251408_5",
+            "bo_round": 4,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 43.2161,
+            "battle_id": "1774531324_48251408_7",
+            "bo_round": 6,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 54.5455,
+            "battle_id": "1774533080_48251408_8",
+            "bo_round": 7,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "杭州LGD.NBW"
+        ],
+        "total_win_affinity": 588.322,
+        "win_dates_count": 13,
+        "win_games": 13
+      },
+      {
+        "avg_win_affinity": 45.211,
+        "player1": "深圳DYG.落空",
+        "player2": "深圳DYG.钎城",
+        "player_pair": "深圳DYG.落空+深圳DYG.钎城",
+        "recent_wins": [
+          {
+            "affinity_rate": 29.3103,
+            "battle_id": "1773923343_1222656528_15",
+            "bo_round": 2,
+            "date": "2026年3月19日",
+            "opponent": "北京WB",
+            "team": "深圳DYG"
+          },
+          {
+            "affinity_rate": 61.1111,
+            "battle_id": "1774083688_1272988176_9",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京JDG",
+            "team": "深圳DYG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "深圳DYG"
+        ],
+        "total_win_affinity": 90.421,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 45.16,
+        "player1": "桐乡情久.楠枫",
+        "player2": "桐乡情久.深巅",
+        "player_pair": "桐乡情久.楠枫+桐乡情久.深巅",
+        "recent_wins": [
+          {
+            "affinity_rate": 41.3462,
+            "battle_id": "1774521245_48251408_2",
+            "bo_round": 1,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 58.6538,
+            "battle_id": "1774523398_48251408_3",
+            "bo_round": 2,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 25.7426,
+            "battle_id": "1774529543_48251408_6",
+            "bo_round": 5,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "桐乡情久"
+        ],
+        "total_win_affinity": 361.279,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 44.389,
+        "player1": "北京WB.听悦",
+        "player2": "北京WB.暖阳",
+        "player_pair": "北京WB.听悦+北京WB.暖阳",
+        "recent_wins": [
+          {
+            "affinity_rate": 38.7387,
+            "battle_id": "1773924850_1222656528_16",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 66.9565,
+            "battle_id": "1773926577_1222656528_17",
+            "bo_round": 4,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 37.5,
+            "battle_id": "1774076740_1222656528_22",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "KSG",
+            "team": "北京WB"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京WB"
+        ],
+        "total_win_affinity": 177.556,
+        "win_dates_count": 4,
+        "win_games": 4
+      },
+      {
+        "avg_win_affinity": 44.306,
+        "player1": "桐乡情久.楠枫",
+        "player2": "桐乡情久.陌冷",
+        "player_pair": "桐乡情久.楠枫+桐乡情久.陌冷",
+        "recent_wins": [
+          {
+            "affinity_rate": 53.3654,
+            "battle_id": "1774521245_48251408_2",
+            "bo_round": 1,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 27.4038,
+            "battle_id": "1774523398_48251408_3",
+            "bo_round": 2,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 72.2772,
+            "battle_id": "1774529543_48251408_6",
+            "bo_round": 5,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "桐乡情久"
+        ],
+        "total_win_affinity": 354.445,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 43.559,
+        "player1": "杭州LGD.NBW.九尾",
+        "player2": "杭州LGD.NBW.米苏",
+        "player_pair": "杭州LGD.NBW.九尾+杭州LGD.NBW.米苏",
+        "recent_wins": [
+          {
+            "affinity_rate": 57.2139,
+            "battle_id": "1774527236_48251408_5",
+            "bo_round": 4,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 46.7337,
+            "battle_id": "1774531324_48251408_7",
+            "bo_round": 6,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 62.7273,
+            "battle_id": "1774533080_48251408_8",
+            "bo_round": 7,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "杭州LGD.NBW"
+        ],
+        "total_win_affinity": 566.261,
+        "win_dates_count": 13,
+        "win_games": 13
+      },
+      {
+        "avg_win_affinity": 43.005,
+        "player1": "KSG.一笙",
+        "player2": "KSG.流浪",
+        "player_pair": "KSG.一笙+KSG.流浪",
+        "recent_wins": [
+          {
+            "affinity_rate": 35.023,
+            "battle_id": "1774072852_1222656528_20",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 46.6063,
+            "battle_id": "1774074922_1222656528_21",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 50.8403,
+            "battle_id": "1774078995_1222656528_23",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "KSG"
+        ],
+        "total_win_affinity": 215.027,
+        "win_dates_count": 5,
+        "win_games": 5
+      },
+      {
+        "avg_win_affinity": 42.848,
+        "player1": "西安WE.九幽",
+        "player2": "西安WE.明崽",
+        "player_pair": "西安WE.九幽+西安WE.明崽",
+        "recent_wins": [
+          {
+            "affinity_rate": 24.0196,
+            "battle_id": "1773914786_48251408_30",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "桐乡情久",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 44.3478,
+            "battle_id": "1774183506_48251408_37",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 72.6891,
+            "battle_id": "1774185346_48251408_38",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "西安WE"
+        ],
+        "total_win_affinity": 257.089,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 42.746,
+        "player1": "南通Hero久竞.玖熙",
+        "player2": "南通Hero久竞.落尘",
+        "player_pair": "南通Hero久竞.玖熙+南通Hero久竞.落尘",
+        "recent_wins": [
+          {
+            "affinity_rate": 39.3805,
+            "battle_id": "1774160860_48251408_34",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 43.8356,
+            "battle_id": "1774162479_48251408_35",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 36.4532,
+            "battle_id": "1774609577_48251408_12",
+            "bo_round": 2,
+            "date": "2026年3月27日",
+            "opponent": "广州TTG",
+            "team": "南通Hero久竞"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "南通Hero久竞"
+        ],
+        "total_win_affinity": 427.457,
+        "win_dates_count": 10,
+        "win_games": 10
+      },
+      {
+        "avg_win_affinity": 42.642,
+        "player1": "北京WB.听悦",
+        "player2": "北京WB.玖欣",
+        "player_pair": "北京WB.听悦+北京WB.玖欣",
+        "recent_wins": [
+          {
+            "affinity_rate": 39.1892,
+            "battle_id": "1773924850_1222656528_16",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 53.913,
+            "battle_id": "1773926577_1222656528_17",
+            "bo_round": 4,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 28.125,
+            "battle_id": "1774076740_1222656528_22",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "KSG",
+            "team": "北京WB"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京WB"
+        ],
+        "total_win_affinity": 170.566,
+        "win_dates_count": 4,
+        "win_games": 4
+      },
+      {
+        "avg_win_affinity": 42.497,
+        "player1": "桐乡情久.久寒",
+        "player2": "桐乡情久.深巅",
+        "player_pair": "桐乡情久.久寒+桐乡情久.深巅",
+        "recent_wins": [
+          {
+            "affinity_rate": 52.8846,
+            "battle_id": "1774521245_48251408_2",
+            "bo_round": 1,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 37.0192,
+            "battle_id": "1774523398_48251408_3",
+            "bo_round": 2,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 48.0198,
+            "battle_id": "1774529543_48251408_6",
+            "bo_round": 5,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "桐乡情久"
+        ],
+        "total_win_affinity": 339.972,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 41.757,
+        "player1": "成都AG超玩会.大帅",
+        "player2": "成都AG超玩会.长生",
+        "player_pair": "成都AG超玩会.大帅+成都AG超玩会.长生",
+        "recent_wins": [
+          {
+            "affinity_rate": 42.0601,
+            "battle_id": "1773837698_501236240_13",
+            "bo_round": 1,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          },
+          {
+            "affinity_rate": 41.453,
+            "battle_id": "1773840035_501236240_14",
+            "bo_round": 2,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "成都AG超玩会"
+        ],
+        "total_win_affinity": 83.513,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 40.571,
+        "player1": "北京JDG.小寒",
+        "player2": "北京JDG.无畏",
+        "player_pair": "北京JDG.小寒+北京JDG.无畏",
+        "recent_wins": [
+          {
+            "affinity_rate": 25.8333,
+            "battle_id": "1774085357_1272988176_10",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 49.537,
+            "battle_id": "1774086899_1272988176_11",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 29.6296,
+            "battle_id": "1774088650_1272988176_12",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京JDG"
+        ],
+        "total_win_affinity": 243.426,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 40.513,
+        "player1": "KSG.一笙",
+        "player2": "KSG.句号",
+        "player_pair": "KSG.一笙+KSG.句号",
+        "recent_wins": [
+          {
+            "affinity_rate": 33.6406,
+            "battle_id": "1774072852_1222656528_20",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 53.3937,
+            "battle_id": "1774074922_1222656528_21",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 27.3109,
+            "battle_id": "1774078995_1222656528_23",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "KSG"
+        ],
+        "total_win_affinity": 202.564,
+        "win_dates_count": 5,
+        "win_games": 5
+      },
+      {
+        "avg_win_affinity": 39.183,
+        "player1": "桐乡情久.久寒",
+        "player2": "桐乡情久.楠枫",
+        "player_pair": "桐乡情久.久寒+桐乡情久.楠枫",
+        "recent_wins": [
+          {
+            "affinity_rate": 25.0,
+            "battle_id": "1774521245_48251408_2",
+            "bo_round": 1,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 61.0577,
+            "battle_id": "1774523398_48251408_3",
+            "bo_round": 2,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 21.7822,
+            "battle_id": "1774529543_48251408_6",
+            "bo_round": 5,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "桐乡情久"
+        ],
+        "total_win_affinity": 313.464,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 38.976,
+        "player1": "成都AG超玩会.大帅",
+        "player2": "成都AG超玩会.钟意",
+        "player_pair": "成都AG超玩会.大帅+成都AG超玩会.钟意",
+        "recent_wins": [
+          {
+            "affinity_rate": 40.7725,
+            "battle_id": "1773837698_501236240_13",
+            "bo_round": 1,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          },
+          {
+            "affinity_rate": 37.1795,
+            "battle_id": "1773840035_501236240_14",
+            "bo_round": 2,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "成都AG超玩会"
+        ],
+        "total_win_affinity": 77.952,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 37.666,
+        "player1": "KSG.句号",
+        "player2": "KSG.流浪",
+        "player_pair": "KSG.句号+KSG.流浪",
+        "recent_wins": [
+          {
+            "affinity_rate": 33.1797,
+            "battle_id": "1774072852_1222656528_20",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 63.3484,
+            "battle_id": "1774074922_1222656528_21",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 31.9328,
+            "battle_id": "1774078995_1222656528_23",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "KSG"
+        ],
+        "total_win_affinity": 188.332,
+        "win_dates_count": 5,
+        "win_games": 5
+      },
+      {
+        "avg_win_affinity": 37.218,
+        "player1": "西安WE.九幽",
+        "player2": "西安WE.子意",
+        "player_pair": "西安WE.九幽+西安WE.子意",
+        "recent_wins": [
+          {
+            "affinity_rate": 32.8431,
+            "battle_id": "1773914786_48251408_30",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "桐乡情久",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 50.0,
+            "battle_id": "1774183506_48251408_37",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 57.563,
+            "battle_id": "1774185346_48251408_38",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "西安WE"
+        ],
+        "total_win_affinity": 223.311,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 37.13,
+        "player1": "重庆狼队.皖皖",
+        "player2": "重庆狼队.紫幻",
+        "player_pair": "重庆狼队.皖皖+重庆狼队.紫幻",
+        "recent_wins": [
+          {
+            "affinity_rate": 32.8431,
+            "battle_id": "1774094472_954221072_15",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 52.0362,
+            "battle_id": "1774096536_954221072_16",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 23.5294,
+            "battle_id": "1774098267_954221072_17",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "重庆狼队"
+        ],
+        "total_win_affinity": 222.779,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 36.977,
+        "player1": "杭州LGD.NBW.小崽",
+        "player2": "杭州LGD.NBW.米苏",
+        "player_pair": "杭州LGD.NBW.小崽+杭州LGD.NBW.米苏",
+        "recent_wins": [
+          {
+            "affinity_rate": 38.806,
+            "battle_id": "1774527236_48251408_5",
+            "bo_round": 4,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 40.201,
+            "battle_id": "1774531324_48251408_7",
+            "bo_round": 6,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 46.8182,
+            "battle_id": "1774533080_48251408_8",
+            "bo_round": 7,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "杭州LGD.NBW"
+        ],
+        "total_win_affinity": 480.704,
+        "win_dates_count": 13,
+        "win_games": 13
+      },
+      {
+        "avg_win_affinity": 36.514,
+        "player1": "广州TTG.佳心",
+        "player2": "广州TTG.鹤辞",
+        "player_pair": "广州TTG.佳心+广州TTG.鹤辞",
+        "recent_wins": [
+          {
+            "affinity_rate": 34.4828,
+            "battle_id": "1774611472_48251408_13",
+            "bo_round": 3,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 63.7755,
+            "battle_id": "1774613524_48251408_14",
+            "bo_round": 4,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 25.5924,
+            "battle_id": "1774615151_48251408_15",
+            "bo_round": 5,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "广州TTG"
+        ],
+        "total_win_affinity": 292.115,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 35.201,
+        "player1": "北京WB.小麦",
+        "player2": "北京WB.玖欣",
+        "player_pair": "北京WB.小麦+北京WB.玖欣",
+        "recent_wins": [
+          {
+            "affinity_rate": 47.7477,
+            "battle_id": "1773924850_1222656528_16",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 23.4783,
+            "battle_id": "1773926577_1222656528_17",
+            "bo_round": 4,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 31.25,
+            "battle_id": "1774076740_1222656528_22",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "KSG",
+            "team": "北京WB"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京WB"
+        ],
+        "total_win_affinity": 140.802,
+        "win_dates_count": 4,
+        "win_games": 4
+      },
+      {
+        "avg_win_affinity": 35.116,
+        "player1": "重庆狼队.信",
+        "player2": "重庆狼队.皖皖",
+        "player_pair": "重庆狼队.信+重庆狼队.皖皖",
+        "recent_wins": [
+          {
+            "affinity_rate": 37.7451,
+            "battle_id": "1774094472_954221072_15",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 39.819,
+            "battle_id": "1774096536_954221072_16",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 23.5294,
+            "battle_id": "1774098267_954221072_17",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "重庆狼队"
+        ],
+        "total_win_affinity": 210.695,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 35.037,
+        "player1": "北京JDG.无畏",
+        "player2": "北京JDG.清融",
+        "player_pair": "北京JDG.无畏+北京JDG.清融",
+        "recent_wins": [
+          {
+            "affinity_rate": 47.9167,
+            "battle_id": "1774085357_1272988176_10",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 40.2778,
+            "battle_id": "1774086899_1272988176_11",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 20.9877,
+            "battle_id": "1774088650_1272988176_12",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京JDG"
+        ],
+        "total_win_affinity": 210.224,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 34.614,
+        "player1": "广州TTG.涵",
+        "player2": "广州TTG.鹤辞",
+        "player_pair": "广州TTG.涵+广州TTG.鹤辞",
+        "recent_wins": [
+          {
+            "affinity_rate": 59.6059,
+            "battle_id": "1774611472_48251408_13",
+            "bo_round": 3,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 36.2245,
+            "battle_id": "1774613524_48251408_14",
+            "bo_round": 4,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 33.6493,
+            "battle_id": "1774615151_48251408_15",
+            "bo_round": 5,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "广州TTG"
+        ],
+        "total_win_affinity": 276.916,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 34.247,
+        "player1": "重庆狼队.信",
+        "player2": "重庆狼队.紫幻",
+        "player_pair": "重庆狼队.信+重庆狼队.紫幻",
+        "recent_wins": [
+          {
+            "affinity_rate": 22.0588,
+            "battle_id": "1774094472_954221072_15",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 40.724,
+            "battle_id": "1774096536_954221072_16",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 30.3167,
+            "battle_id": "1774098267_954221072_17",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "重庆狼队"
+        ],
+        "total_win_affinity": 205.481,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 33.341,
+        "player1": "深圳DYG.向鱼",
+        "player2": "深圳DYG.落空",
+        "player_pair": "深圳DYG.向鱼+深圳DYG.落空",
+        "recent_wins": [
+          {
+            "affinity_rate": 43.5345,
+            "battle_id": "1773923343_1222656528_15",
+            "bo_round": 2,
+            "date": "2026年3月19日",
+            "opponent": "北京WB",
+            "team": "深圳DYG"
+          },
+          {
+            "affinity_rate": 23.1481,
+            "battle_id": "1774083688_1272988176_9",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京JDG",
+            "team": "深圳DYG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "深圳DYG"
+        ],
+        "total_win_affinity": 66.683,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 32.461,
+        "player1": "杭州LGD.NBW.九尾",
+        "player2": "杭州LGD.NBW.小崽",
+        "player_pair": "杭州LGD.NBW.九尾+杭州LGD.NBW.小崽",
+        "recent_wins": [
+          {
+            "affinity_rate": 36.3184,
+            "battle_id": "1774527236_48251408_5",
+            "bo_round": 4,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 37.6884,
+            "battle_id": "1774531324_48251408_7",
+            "bo_round": 6,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 35.9091,
+            "battle_id": "1774533080_48251408_8",
+            "bo_round": 7,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "杭州LGD.NBW"
+        ],
+        "total_win_affinity": 421.988,
+        "win_dates_count": 13,
+        "win_games": 13
+      },
+      {
+        "avg_win_affinity": 32.406,
+        "player1": "KSG.一笙",
+        "player2": "KSG.小屿",
+        "player_pair": "KSG.一笙+KSG.小屿",
+        "recent_wins": [
+          {
+            "affinity_rate": 26.2673,
+            "battle_id": "1774072852_1222656528_20",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 14.0271,
+            "battle_id": "1774074922_1222656528_21",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 68.9076,
+            "battle_id": "1774078995_1222656528_23",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "KSG"
+        ],
+        "total_win_affinity": 162.029,
+        "win_dates_count": 5,
+        "win_games": 5
+      },
+      {
+        "avg_win_affinity": 31.658,
+        "player1": "广州TTG.佳心",
+        "player2": "广州TTG.涵",
+        "player_pair": "广州TTG.佳心+广州TTG.涵",
+        "recent_wins": [
+          {
+            "affinity_rate": 45.8128,
+            "battle_id": "1774611472_48251408_13",
+            "bo_round": 3,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 36.7347,
+            "battle_id": "1774613524_48251408_14",
+            "bo_round": 4,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 34.5972,
+            "battle_id": "1774615151_48251408_15",
+            "bo_round": 5,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "广州TTG"
+        ],
+        "total_win_affinity": 253.262,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 29.998,
+        "player1": "成都AG超玩会.钟意",
+        "player2": "成都AG超玩会.长生",
+        "player_pair": "成都AG超玩会.钟意+成都AG超玩会.长生",
+        "recent_wins": [
+          {
+            "affinity_rate": 39.0558,
+            "battle_id": "1773837698_501236240_13",
+            "bo_round": 1,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          },
+          {
+            "affinity_rate": 20.9402,
+            "battle_id": "1773840035_501236240_14",
+            "bo_round": 2,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "成都AG超玩会"
+        ],
+        "total_win_affinity": 59.996,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 29.9,
+        "player1": "南通Hero久竞.玖熙",
+        "player2": "南通Hero久竞.白清",
+        "player_pair": "南通Hero久竞.玖熙+南通Hero久竞.白清",
+        "recent_wins": [
+          {
+            "affinity_rate": 48.2301,
+            "battle_id": "1774160860_48251408_34",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 27.3973,
+            "battle_id": "1774162479_48251408_35",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 20.6897,
+            "battle_id": "1774609577_48251408_12",
+            "bo_round": 2,
+            "date": "2026年3月27日",
+            "opponent": "广州TTG",
+            "team": "南通Hero久竞"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "南通Hero久竞"
+        ],
+        "total_win_affinity": 299.005,
+        "win_dates_count": 10,
+        "win_games": 10
+      },
+      {
+        "avg_win_affinity": 29.336,
+        "player1": "成都AG超玩会.小俞",
+        "player2": "成都AG超玩会.长生",
+        "player_pair": "成都AG超玩会.小俞+成都AG超玩会.长生",
+        "recent_wins": [
+          {
+            "affinity_rate": 29.1845,
+            "battle_id": "1773837698_501236240_13",
+            "bo_round": 1,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          },
+          {
+            "affinity_rate": 29.4872,
+            "battle_id": "1773840035_501236240_14",
+            "bo_round": 2,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "成都AG超玩会"
+        ],
+        "total_win_affinity": 58.672,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 28.851,
+        "player1": "北京JDG.无双",
+        "player2": "北京JDG.清融",
+        "player_pair": "北京JDG.无双+北京JDG.清融",
+        "recent_wins": [
+          {
+            "affinity_rate": 29.5833,
+            "battle_id": "1774085357_1272988176_10",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 30.0926,
+            "battle_id": "1774086899_1272988176_11",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 26.3374,
+            "battle_id": "1774088650_1272988176_12",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京JDG"
+        ],
+        "total_win_affinity": 173.106,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 27.269,
+        "player1": "北京JDG.无双",
+        "player2": "北京JDG.无畏",
+        "player_pair": "北京JDG.无双+北京JDG.无畏",
+        "recent_wins": [
+          {
+            "affinity_rate": 20.0,
+            "battle_id": "1774085357_1272988176_10",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 32.8704,
+            "battle_id": "1774086899_1272988176_11",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 27.9835,
+            "battle_id": "1774088650_1272988176_12",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京JDG"
+        ],
+        "total_win_affinity": 163.615,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 25.91,
+        "player1": "深圳DYG.小轩",
+        "player2": "深圳DYG.落空",
+        "player_pair": "深圳DYG.小轩+深圳DYG.落空",
+        "recent_wins": [
+          {
+            "affinity_rate": 25.431,
+            "battle_id": "1773923343_1222656528_15",
+            "bo_round": 2,
+            "date": "2026年3月19日",
+            "opponent": "北京WB",
+            "team": "深圳DYG"
+          },
+          {
+            "affinity_rate": 26.3889,
+            "battle_id": "1774083688_1272988176_9",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京JDG",
+            "team": "深圳DYG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "深圳DYG"
+        ],
+        "total_win_affinity": 51.82,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 25.221,
+        "player1": "南通Hero久竞.白清",
+        "player2": "南通Hero久竞.落尘",
+        "player_pair": "南通Hero久竞.白清+南通Hero久竞.落尘",
+        "recent_wins": [
+          {
+            "affinity_rate": 20.354,
+            "battle_id": "1774160860_48251408_34",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 24.6575,
+            "battle_id": "1774162479_48251408_35",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 20.6897,
+            "battle_id": "1774609577_48251408_12",
+            "bo_round": 2,
+            "date": "2026年3月27日",
+            "opponent": "广州TTG",
+            "team": "南通Hero久竞"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "南通Hero久竞"
+        ],
+        "total_win_affinity": 252.214,
+        "win_dates_count": 10,
+        "win_games": 10
+      },
+      {
+        "avg_win_affinity": 24.585,
+        "player1": "重庆狼队.清清",
+        "player2": "重庆狼队.皖皖",
+        "player_pair": "重庆狼队.清清+重庆狼队.皖皖",
+        "recent_wins": [
+          {
+            "affinity_rate": 26.4706,
+            "battle_id": "1774094472_954221072_15",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 24.4344,
+            "battle_id": "1774096536_954221072_16",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 21.267,
+            "battle_id": "1774098267_954221072_17",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "重庆狼队"
+        ],
+        "total_win_affinity": 147.508,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 22.783,
+        "player1": "南通Hero久竞.妖刀",
+        "player2": "南通Hero久竞.玖熙",
+        "player_pair": "南通Hero久竞.妖刀+南通Hero久竞.玖熙",
+        "recent_wins": [
+          {
+            "affinity_rate": 47.3451,
+            "battle_id": "1774160860_48251408_34",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 16.895,
+            "battle_id": "1774162479_48251408_35",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 20.197,
+            "battle_id": "1774609577_48251408_12",
+            "bo_round": 2,
+            "date": "2026年3月27日",
+            "opponent": "广州TTG",
+            "team": "南通Hero久竞"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "南通Hero久竞"
+        ],
+        "total_win_affinity": 227.825,
+        "win_dates_count": 10,
+        "win_games": 10
+      },
+      {
+        "avg_win_affinity": 22.269,
+        "player1": "杭州LGD.NBW.九尾",
+        "player2": "杭州LGD.NBW.小落",
+        "player_pair": "杭州LGD.NBW.九尾+杭州LGD.NBW.小落",
+        "recent_wins": [
+          {
+            "affinity_rate": 15.9204,
+            "battle_id": "1774527236_48251408_5",
+            "bo_round": 4,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 24.1206,
+            "battle_id": "1774531324_48251408_7",
+            "bo_round": 6,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 36.8182,
+            "battle_id": "1774533080_48251408_8",
+            "bo_round": 7,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "杭州LGD.NBW"
+        ],
+        "total_win_affinity": 289.498,
+        "win_dates_count": 13,
+        "win_games": 13
+      },
+      {
+        "avg_win_affinity": 22.242,
+        "player1": "重庆狼队.清清",
+        "player2": "重庆狼队.紫幻",
+        "player_pair": "重庆狼队.清清+重庆狼队.紫幻",
+        "recent_wins": [
+          {
+            "affinity_rate": 35.2941,
+            "battle_id": "1774094472_954221072_15",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 12.2172,
+            "battle_id": "1774096536_954221072_16",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 14.0271,
+            "battle_id": "1774098267_954221072_17",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "重庆狼队"
+        ],
+        "total_win_affinity": 133.453,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 21.997,
+        "player1": "桐乡情久.深巅",
+        "player2": "桐乡情久.陌冷",
+        "player_pair": "桐乡情久.深巅+桐乡情久.陌冷",
+        "recent_wins": [
+          {
+            "affinity_rate": 12.0192,
+            "battle_id": "1774521245_48251408_2",
+            "bo_round": 1,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 29.3269,
+            "battle_id": "1774523398_48251408_3",
+            "bo_round": 2,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 16.8317,
+            "battle_id": "1774529543_48251408_6",
+            "bo_round": 5,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "桐乡情久"
+        ],
+        "total_win_affinity": 175.976,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 21.15,
+        "player1": "广州TTG.小雪",
+        "player2": "广州TTG.鹤辞",
+        "player_pair": "广州TTG.小雪+广州TTG.鹤辞",
+        "recent_wins": [
+          {
+            "affinity_rate": 23.6453,
+            "battle_id": "1774611472_48251408_13",
+            "bo_round": 3,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 22.9592,
+            "battle_id": "1774613524_48251408_14",
+            "bo_round": 4,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 17.0616,
+            "battle_id": "1774615151_48251408_15",
+            "bo_round": 5,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "广州TTG"
+        ],
+        "total_win_affinity": 169.198,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 21.076,
+        "player1": "北京JDG.小寒",
+        "player2": "北京JDG.无双",
+        "player_pair": "北京JDG.小寒+北京JDG.无双",
+        "recent_wins": [
+          {
+            "affinity_rate": 11.25,
+            "battle_id": "1774085357_1272988176_10",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 12.5,
+            "battle_id": "1774086899_1272988176_11",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 38.2716,
+            "battle_id": "1774088650_1272988176_12",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京JDG"
+        ],
+        "total_win_affinity": 126.456,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 20.715,
+        "player1": "广州TTG.佳心",
+        "player2": "广州TTG.小雪",
+        "player_pair": "广州TTG.佳心+广州TTG.小雪",
+        "recent_wins": [
+          {
+            "affinity_rate": 8.37438,
+            "battle_id": "1774611472_48251408_13",
+            "bo_round": 3,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 28.0612,
+            "battle_id": "1774613524_48251408_14",
+            "bo_round": 4,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 36.019,
+            "battle_id": "1774615151_48251408_15",
+            "bo_round": 5,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "广州TTG"
+        ],
+        "total_win_affinity": 165.724,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 20.417,
+        "player1": "重庆狼队.紫幻",
+        "player2": "重庆狼队.道崽",
+        "player_pair": "重庆狼队.紫幻+重庆狼队.道崽",
+        "recent_wins": [
+          {
+            "affinity_rate": 24.5098,
+            "battle_id": "1774094472_954221072_15",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 23.0769,
+            "battle_id": "1774096536_954221072_16",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 20.8145,
+            "battle_id": "1774098267_954221072_17",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "重庆狼队"
+        ],
+        "total_win_affinity": 122.504,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 20.376,
+        "player1": "西安WE.子意",
+        "player2": "西安WE.昭珏",
+        "player_pair": "西安WE.子意+西安WE.昭珏",
+        "recent_wins": [
+          {
+            "affinity_rate": 23.5294,
+            "battle_id": "1773914786_48251408_30",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "桐乡情久",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 13.913,
+            "battle_id": "1774183506_48251408_37",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 27.7311,
+            "battle_id": "1774185346_48251408_38",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "西安WE"
+        ],
+        "total_win_affinity": 122.257,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 20.353,
+        "player1": "西安WE.明崽",
+        "player2": "西安WE.昭珏",
+        "player_pair": "西安WE.明崽+西安WE.昭珏",
+        "recent_wins": [
+          {
+            "affinity_rate": 19.6078,
+            "battle_id": "1773914786_48251408_30",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "桐乡情久",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 9.13043,
+            "battle_id": "1774183506_48251408_37",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 36.5546,
+            "battle_id": "1774185346_48251408_38",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "西安WE"
+        ],
+        "total_win_affinity": 122.116,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 20.237,
+        "player1": "北京WB.暖阳",
+        "player2": "北京WB.梓墨",
+        "player_pair": "北京WB.暖阳+北京WB.梓墨",
+        "recent_wins": [
+          {
+            "affinity_rate": 27.9279,
+            "battle_id": "1773924850_1222656528_16",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 11.3043,
+            "battle_id": "1773926577_1222656528_17",
+            "bo_round": 4,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 23.2143,
+            "battle_id": "1774076740_1222656528_22",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "KSG",
+            "team": "北京WB"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京WB"
+        ],
+        "total_win_affinity": 80.949,
+        "win_dates_count": 4,
+        "win_games": 4
+      },
+      {
+        "avg_win_affinity": 19.618,
+        "player1": "杭州LGD.NBW.小久",
+        "player2": "杭州LGD.NBW.米苏",
+        "player_pair": "杭州LGD.NBW.小久+杭州LGD.NBW.米苏",
+        "recent_wins": [
+          {
+            "affinity_rate": 13.4328,
+            "battle_id": "1774527236_48251408_5",
+            "bo_round": 4,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 15.0754,
+            "battle_id": "1774531324_48251408_7",
+            "bo_round": 6,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 23.1818,
+            "battle_id": "1774533080_48251408_8",
+            "bo_round": 7,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "杭州LGD.NBW"
+        ],
+        "total_win_affinity": 255.037,
+        "win_dates_count": 13,
+        "win_games": 13
+      },
+      {
+        "avg_win_affinity": 19.59,
+        "player1": "KSG.无言",
+        "player2": "KSG.流浪",
+        "player_pair": "KSG.无言+KSG.流浪",
+        "recent_wins": [
+          {
+            "affinity_rate": 3.68664,
+            "battle_id": "1774072852_1222656528_20",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 26.2443,
+            "battle_id": "1774074922_1222656528_21",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 21.8487,
+            "battle_id": "1774078995_1222656528_23",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "KSG"
+        ],
+        "total_win_affinity": 97.949,
+        "win_dates_count": 5,
+        "win_games": 5
+      },
+      {
+        "avg_win_affinity": 19.581,
+        "player1": "广州TTG.萝卜",
+        "player2": "广州TTG.鹤辞",
+        "player_pair": "广州TTG.萝卜+广州TTG.鹤辞",
+        "recent_wins": [
+          {
+            "affinity_rate": 16.7488,
+            "battle_id": "1774611472_48251408_13",
+            "bo_round": 3,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 8.67347,
+            "battle_id": "1774613524_48251408_14",
+            "bo_round": 4,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 1.89573,
+            "battle_id": "1774615151_48251408_15",
+            "bo_round": 5,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "广州TTG"
+        ],
+        "total_win_affinity": 156.645,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 19.241,
+        "player1": "KSG.句号",
+        "player2": "KSG.小屿",
+        "player_pair": "KSG.句号+KSG.小屿",
+        "recent_wins": [
+          {
+            "affinity_rate": 17.0507,
+            "battle_id": "1774072852_1222656528_20",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 6.33484,
+            "battle_id": "1774074922_1222656528_21",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 20.5882,
+            "battle_id": "1774078995_1222656528_23",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "KSG"
+        ],
+        "total_win_affinity": 96.205,
+        "win_dates_count": 5,
+        "win_games": 5
+      },
+      {
+        "avg_win_affinity": 18.841,
+        "player1": "北京WB.小麦",
+        "player2": "北京WB.暖阳",
+        "player_pair": "北京WB.小麦+北京WB.暖阳",
+        "recent_wins": [
+          {
+            "affinity_rate": 19.3694,
+            "battle_id": "1773924850_1222656528_16",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 16.9565,
+            "battle_id": "1773926577_1222656528_17",
+            "bo_round": 4,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 20.5357,
+            "battle_id": "1774076740_1222656528_22",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "KSG",
+            "team": "北京WB"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京WB"
+        ],
+        "total_win_affinity": 75.364,
+        "win_dates_count": 4,
+        "win_games": 4
+      },
+      {
+        "avg_win_affinity": 18.789,
+        "player1": "杭州LGD.NBW.小落",
+        "player2": "杭州LGD.NBW.米苏",
+        "player_pair": "杭州LGD.NBW.小落+杭州LGD.NBW.米苏",
+        "recent_wins": [
+          {
+            "affinity_rate": 26.8657,
+            "battle_id": "1774527236_48251408_5",
+            "bo_round": 4,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 24.1206,
+            "battle_id": "1774531324_48251408_7",
+            "bo_round": 6,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 19.5455,
+            "battle_id": "1774533080_48251408_8",
+            "bo_round": 7,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "杭州LGD.NBW"
+        ],
+        "total_win_affinity": 244.257,
+        "win_dates_count": 13,
+        "win_games": 13
+      },
+      {
+        "avg_win_affinity": 18.442,
+        "player1": "广州TTG.佳心",
+        "player2": "广州TTG.萝卜",
+        "player_pair": "广州TTG.佳心+广州TTG.萝卜",
+        "recent_wins": [
+          {
+            "affinity_rate": 10.3448,
+            "battle_id": "1774611472_48251408_13",
+            "bo_round": 3,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 20.9184,
+            "battle_id": "1774613524_48251408_14",
+            "bo_round": 4,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 7.109,
+            "battle_id": "1774615151_48251408_15",
+            "bo_round": 5,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "广州TTG"
+        ],
+        "total_win_affinity": 147.534,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 18.19,
+        "player1": "成都AG超玩会.小俞",
+        "player2": "成都AG超玩会.钟意",
+        "player_pair": "成都AG超玩会.小俞+成都AG超玩会.钟意",
+        "recent_wins": [
+          {
+            "affinity_rate": 12.8755,
+            "battle_id": "1773837698_501236240_13",
+            "bo_round": 1,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          },
+          {
+            "affinity_rate": 23.5043,
+            "battle_id": "1773840035_501236240_14",
+            "bo_round": 2,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "成都AG超玩会"
+        ],
+        "total_win_affinity": 36.38,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 17.798,
+        "player1": "KSG.小屿",
+        "player2": "KSG.流浪",
+        "player_pair": "KSG.小屿+KSG.流浪",
+        "recent_wins": [
+          {
+            "affinity_rate": 4.60829,
+            "battle_id": "1774072852_1222656528_20",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 3.16742,
+            "battle_id": "1774074922_1222656528_21",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 51.2605,
+            "battle_id": "1774078995_1222656528_23",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "KSG"
+        ],
+        "total_win_affinity": 88.991,
+        "win_dates_count": 5,
+        "win_games": 5
+      },
+      {
+        "avg_win_affinity": 17.71,
+        "player1": "北京WB.梓墨",
+        "player2": "北京WB.玖欣",
+        "player_pair": "北京WB.梓墨+北京WB.玖欣",
+        "recent_wins": [
+          {
+            "affinity_rate": 9.90991,
+            "battle_id": "1773924850_1222656528_16",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 9.56522,
+            "battle_id": "1773926577_1222656528_17",
+            "bo_round": 4,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 20.0893,
+            "battle_id": "1774076740_1222656528_22",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "KSG",
+            "team": "北京WB"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京WB"
+        ],
+        "total_win_affinity": 70.842,
+        "win_dates_count": 4,
+        "win_games": 4
+      },
+      {
+        "avg_win_affinity": 17.667,
+        "player1": "重庆狼队.皖皖",
+        "player2": "重庆狼队.道崽",
+        "player_pair": "重庆狼队.皖皖+重庆狼队.道崽",
+        "recent_wins": [
+          {
+            "affinity_rate": 20.5882,
+            "battle_id": "1774094472_954221072_15",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 22.6244,
+            "battle_id": "1774096536_954221072_16",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 19.9095,
+            "battle_id": "1774098267_954221072_17",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "重庆狼队"
+        ],
+        "total_win_affinity": 106.001,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 17.65,
+        "player1": "南通Hero久竞.妖刀",
+        "player2": "南通Hero久竞.落尘",
+        "player_pair": "南通Hero久竞.妖刀+南通Hero久竞.落尘",
+        "recent_wins": [
+          {
+            "affinity_rate": 18.1416,
+            "battle_id": "1774160860_48251408_34",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 21.9178,
+            "battle_id": "1774162479_48251408_35",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 17.734,
+            "battle_id": "1774609577_48251408_12",
+            "bo_round": 2,
+            "date": "2026年3月27日",
+            "opponent": "广州TTG",
+            "team": "南通Hero久竞"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "南通Hero久竞"
+        ],
+        "total_win_affinity": 176.495,
+        "win_dates_count": 10,
+        "win_games": 10
+      },
+      {
+        "avg_win_affinity": 17.023,
+        "player1": "南通Hero久竞.坦然",
+        "player2": "南通Hero久竞.落尘",
+        "player_pair": "南通Hero久竞.坦然+南通Hero久竞.落尘",
+        "recent_wins": [
+          {
+            "affinity_rate": 24.3363,
+            "battle_id": "1774160860_48251408_34",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 26.9406,
+            "battle_id": "1774162479_48251408_35",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 6.40394,
+            "battle_id": "1774609577_48251408_12",
+            "bo_round": 2,
+            "date": "2026年3月27日",
+            "opponent": "广州TTG",
+            "team": "南通Hero久竞"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "南通Hero久竞"
+        ],
+        "total_win_affinity": 170.23,
+        "win_dates_count": 10,
+        "win_games": 10
+      },
+      {
+        "avg_win_affinity": 16.972,
+        "player1": "西安WE.子意",
+        "player2": "西安WE.文涛",
+        "player_pair": "西安WE.子意+西安WE.文涛",
+        "recent_wins": [
+          {
+            "affinity_rate": 15.1961,
+            "battle_id": "1773914786_48251408_30",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "桐乡情久",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 17.3913,
+            "battle_id": "1774183506_48251408_37",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 3.78151,
+            "battle_id": "1774185346_48251408_38",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "西安WE"
+        ],
+        "total_win_affinity": 101.831,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 16.696,
+        "player1": "KSG.一笙",
+        "player2": "KSG.无言",
+        "player_pair": "KSG.一笙+KSG.无言",
+        "recent_wins": [
+          {
+            "affinity_rate": 11.5207,
+            "battle_id": "1774072852_1222656528_20",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 19.457,
+            "battle_id": "1774074922_1222656528_21",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 15.9664,
+            "battle_id": "1774078995_1222656528_23",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "KSG"
+        ],
+        "total_win_affinity": 83.479,
+        "win_dates_count": 5,
+        "win_games": 5
+      },
+      {
+        "avg_win_affinity": 16.483,
+        "player1": "成都AG超玩会.轩染",
+        "player2": "成都AG超玩会.钟意",
+        "player_pair": "成都AG超玩会.轩染+成都AG超玩会.钟意",
+        "recent_wins": [
+          {
+            "affinity_rate": 14.1631,
+            "battle_id": "1773837698_501236240_13",
+            "bo_round": 1,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          },
+          {
+            "affinity_rate": 18.8034,
+            "battle_id": "1773840035_501236240_14",
+            "bo_round": 2,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "成都AG超玩会"
+        ],
+        "total_win_affinity": 32.966,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 16.212,
+        "player1": "深圳DYG.小轩",
+        "player2": "深圳DYG.钎城",
+        "player_pair": "深圳DYG.小轩+深圳DYG.钎城",
+        "recent_wins": [
+          {
+            "affinity_rate": 18.5345,
+            "battle_id": "1773923343_1222656528_15",
+            "bo_round": 2,
+            "date": "2026年3月19日",
+            "opponent": "北京WB",
+            "team": "深圳DYG"
+          },
+          {
+            "affinity_rate": 13.8889,
+            "battle_id": "1774083688_1272988176_9",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京JDG",
+            "team": "深圳DYG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "深圳DYG"
+        ],
+        "total_win_affinity": 32.423,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 16.09,
+        "player1": "广州TTG.涵",
+        "player2": "广州TTG.萝卜",
+        "player_pair": "广州TTG.涵+广州TTG.萝卜",
+        "recent_wins": [
+          {
+            "affinity_rate": 14.7783,
+            "battle_id": "1774611472_48251408_13",
+            "bo_round": 3,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 26.5306,
+            "battle_id": "1774613524_48251408_14",
+            "bo_round": 4,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 15.1659,
+            "battle_id": "1774615151_48251408_15",
+            "bo_round": 5,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "广州TTG"
+        ],
+        "total_win_affinity": 128.721,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 15.488,
+        "player1": "北京JDG.小寒",
+        "player2": "北京JDG.清融",
+        "player_pair": "北京JDG.小寒+北京JDG.清融",
+        "recent_wins": [
+          {
+            "affinity_rate": 17.5,
+            "battle_id": "1774085357_1272988176_10",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 21.7593,
+            "battle_id": "1774086899_1272988176_11",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 8.64198,
+            "battle_id": "1774088650_1272988176_12",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京JDG"
+        ],
+        "total_win_affinity": 92.929,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 15.16,
+        "player1": "北京JDG.无双",
+        "player2": "北京JDG.轻语",
+        "player_pair": "北京JDG.无双+北京JDG.轻语",
+        "recent_wins": [
+          {
+            "affinity_rate": 28.75,
+            "battle_id": "1774085357_1272988176_10",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 14.8148,
+            "battle_id": "1774086899_1272988176_11",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 5.34979,
+            "battle_id": "1774088650_1272988176_12",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京JDG"
+        ],
+        "total_win_affinity": 90.959,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 15.062,
+        "player1": "北京JDG.清融",
+        "player2": "北京JDG.轻语",
+        "player_pair": "北京JDG.清融+北京JDG.轻语",
+        "recent_wins": [
+          {
+            "affinity_rate": 8.33333,
+            "battle_id": "1774085357_1272988176_10",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 19.9074,
+            "battle_id": "1774086899_1272988176_11",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 15.6379,
+            "battle_id": "1774088650_1272988176_12",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京JDG"
+        ],
+        "total_win_affinity": 90.372,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 14.781,
+        "player1": "KSG.句号",
+        "player2": "KSG.无言",
+        "player_pair": "KSG.句号+KSG.无言",
+        "recent_wins": [
+          {
+            "affinity_rate": 16.129,
+            "battle_id": "1774072852_1222656528_20",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 16.7421,
+            "battle_id": "1774074922_1222656528_21",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 26.4706,
+            "battle_id": "1774078995_1222656528_23",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "KSG"
+        ],
+        "total_win_affinity": 73.907,
+        "win_dates_count": 5,
+        "win_games": 5
+      },
+      {
+        "avg_win_affinity": 14.596,
+        "player1": "桐乡情久.久寒",
+        "player2": "桐乡情久.无玄",
+        "player_pair": "桐乡情久.久寒+桐乡情久.无玄",
+        "recent_wins": [
+          {
+            "affinity_rate": 20.6731,
+            "battle_id": "1774521245_48251408_2",
+            "bo_round": 1,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 15.8654,
+            "battle_id": "1774523398_48251408_3",
+            "bo_round": 2,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 10.8911,
+            "battle_id": "1774529543_48251408_6",
+            "bo_round": 5,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "桐乡情久"
+        ],
+        "total_win_affinity": 116.766,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 14.555,
+        "player1": "北京WB.听悦",
+        "player2": "北京WB.小麦",
+        "player_pair": "北京WB.听悦+北京WB.小麦",
+        "recent_wins": [
+          {
+            "affinity_rate": 23.8739,
+            "battle_id": "1773924850_1222656528_16",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 9.13043,
+            "battle_id": "1773926577_1222656528_17",
+            "bo_round": 4,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 8.03571,
+            "battle_id": "1774076740_1222656528_22",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "KSG",
+            "team": "北京WB"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京WB"
+        ],
+        "total_win_affinity": 58.221,
+        "win_dates_count": 4,
+        "win_games": 4
+      },
+      {
+        "avg_win_affinity": 14.392,
+        "player1": "西安WE.文涛",
+        "player2": "西安WE.明崽",
+        "player_pair": "西安WE.文涛+西安WE.明崽",
+        "recent_wins": [
+          {
+            "affinity_rate": 17.1569,
+            "battle_id": "1773914786_48251408_30",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "桐乡情久",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 19.1304,
+            "battle_id": "1774183506_48251408_37",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 7.14286,
+            "battle_id": "1774185346_48251408_38",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "西安WE"
+        ],
+        "total_win_affinity": 86.355,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 14.027,
+        "player1": "南通Hero久竞.坦然",
+        "player2": "南通Hero久竞.白清",
+        "player_pair": "南通Hero久竞.坦然+南通Hero久竞.白清",
+        "recent_wins": [
+          {
+            "affinity_rate": 8.84956,
+            "battle_id": "1774160860_48251408_34",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 39.726,
+            "battle_id": "1774162479_48251408_35",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 2.46305,
+            "battle_id": "1774609577_48251408_12",
+            "bo_round": 2,
+            "date": "2026年3月27日",
+            "opponent": "广州TTG",
+            "team": "南通Hero久竞"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "南通Hero久竞"
+        ],
+        "total_win_affinity": 140.266,
+        "win_dates_count": 10,
+        "win_games": 10
+      },
+      {
+        "avg_win_affinity": 13.885,
+        "player1": "杭州LGD.NBW.小崽",
+        "player2": "杭州LGD.NBW.小落",
+        "player_pair": "杭州LGD.NBW.小崽+杭州LGD.NBW.小落",
+        "recent_wins": [
+          {
+            "affinity_rate": 10.9453,
+            "battle_id": "1774527236_48251408_5",
+            "bo_round": 4,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 8.0402,
+            "battle_id": "1774531324_48251408_7",
+            "bo_round": 6,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 12.2727,
+            "battle_id": "1774533080_48251408_8",
+            "bo_round": 7,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "杭州LGD.NBW"
+        ],
+        "total_win_affinity": 180.509,
+        "win_dates_count": 13,
+        "win_games": 13
+      },
+      {
+        "avg_win_affinity": 13.841,
+        "player1": "深圳DYG.向鱼",
+        "player2": "深圳DYG.小乐",
+        "player_pair": "深圳DYG.向鱼+深圳DYG.小乐",
+        "recent_wins": [
+          {
+            "affinity_rate": 13.7931,
+            "battle_id": "1773923343_1222656528_15",
+            "bo_round": 2,
+            "date": "2026年3月19日",
+            "opponent": "北京WB",
+            "team": "深圳DYG"
+          },
+          {
+            "affinity_rate": 13.8889,
+            "battle_id": "1774083688_1272988176_9",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京JDG",
+            "team": "深圳DYG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "深圳DYG"
+        ],
+        "total_win_affinity": 27.682,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 13.803,
+        "player1": "桐乡情久.无玄",
+        "player2": "桐乡情久.深巅",
+        "player_pair": "桐乡情久.无玄+桐乡情久.深巅",
+        "recent_wins": [
+          {
+            "affinity_rate": 15.3846,
+            "battle_id": "1774521245_48251408_2",
+            "bo_round": 1,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 15.8654,
+            "battle_id": "1774523398_48251408_3",
+            "bo_round": 2,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 16.8317,
+            "battle_id": "1774529543_48251408_6",
+            "bo_round": 5,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "桐乡情久"
+        ],
+        "total_win_affinity": 110.424,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 13.789,
+        "player1": "桐乡情久.久寒",
+        "player2": "桐乡情久.陌冷",
+        "player_pair": "桐乡情久.久寒+桐乡情久.陌冷",
+        "recent_wins": [
+          {
+            "affinity_rate": 6.73077,
+            "battle_id": "1774521245_48251408_2",
+            "bo_round": 1,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 14.4231,
+            "battle_id": "1774523398_48251408_3",
+            "bo_round": 2,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 5.94059,
+            "battle_id": "1774529543_48251408_6",
+            "bo_round": 5,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "桐乡情久"
+        ],
+        "total_win_affinity": 110.313,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 13.58,
+        "player1": "杭州LGD.NBW.九尾",
+        "player2": "杭州LGD.NBW.小久",
+        "player_pair": "杭州LGD.NBW.九尾+杭州LGD.NBW.小久",
+        "recent_wins": [
+          {
+            "affinity_rate": 14.4279,
+            "battle_id": "1774527236_48251408_5",
+            "bo_round": 4,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 22.6131,
+            "battle_id": "1774531324_48251408_7",
+            "bo_round": 6,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 10.4545,
+            "battle_id": "1774533080_48251408_8",
+            "bo_round": 7,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "杭州LGD.NBW"
+        ],
+        "total_win_affinity": 176.545,
+        "win_dates_count": 13,
+        "win_games": 13
+      },
+      {
+        "avg_win_affinity": 13.031,
+        "player1": "重庆狼队.信",
+        "player2": "重庆狼队.清清",
+        "player_pair": "重庆狼队.信+重庆狼队.清清",
+        "recent_wins": [
+          {
+            "affinity_rate": 15.1961,
+            "battle_id": "1774094472_954221072_15",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 10.4072,
+            "battle_id": "1774096536_954221072_16",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 14.0271,
+            "battle_id": "1774098267_954221072_17",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "重庆狼队"
+        ],
+        "total_win_affinity": 78.184,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 12.962,
+        "player1": "桐乡情久.无玄",
+        "player2": "桐乡情久.楠枫",
+        "player_pair": "桐乡情久.无玄+桐乡情久.楠枫",
+        "recent_wins": [
+          {
+            "affinity_rate": 7.21154,
+            "battle_id": "1774521245_48251408_2",
+            "bo_round": 1,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 17.3077,
+            "battle_id": "1774523398_48251408_3",
+            "bo_round": 2,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 10.8911,
+            "battle_id": "1774529543_48251408_6",
+            "bo_round": 5,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "桐乡情久"
+        ],
+        "total_win_affinity": 103.695,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 12.817,
+        "player1": "北京WB.听悦",
+        "player2": "北京WB.梓墨",
+        "player_pair": "北京WB.听悦+北京WB.梓墨",
+        "recent_wins": [
+          {
+            "affinity_rate": 5.85586,
+            "battle_id": "1773924850_1222656528_16",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 8.69565,
+            "battle_id": "1773926577_1222656528_17",
+            "bo_round": 4,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 11.6071,
+            "battle_id": "1774076740_1222656528_22",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "KSG",
+            "team": "北京WB"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京WB"
+        ],
+        "total_win_affinity": 51.269,
+        "win_dates_count": 4,
+        "win_games": 4
+      },
+      {
+        "avg_win_affinity": 12.404,
+        "player1": "深圳DYG.小乐",
+        "player2": "深圳DYG.小轩",
+        "player_pair": "深圳DYG.小乐+深圳DYG.小轩",
+        "recent_wins": [
+          {
+            "affinity_rate": 15.0862,
+            "battle_id": "1773923343_1222656528_15",
+            "bo_round": 2,
+            "date": "2026年3月19日",
+            "opponent": "北京WB",
+            "team": "深圳DYG"
+          },
+          {
+            "affinity_rate": 9.72222,
+            "battle_id": "1774083688_1272988176_9",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京JDG",
+            "team": "深圳DYG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "深圳DYG"
+        ],
+        "total_win_affinity": 24.808,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 11.446,
+        "player1": "深圳DYG.小乐",
+        "player2": "深圳DYG.落空",
+        "player_pair": "深圳DYG.小乐+深圳DYG.落空",
+        "recent_wins": [
+          {
+            "affinity_rate": 15.9483,
+            "battle_id": "1773923343_1222656528_15",
+            "bo_round": 2,
+            "date": "2026年3月19日",
+            "opponent": "北京WB",
+            "team": "深圳DYG"
+          },
+          {
+            "affinity_rate": 6.94444,
+            "battle_id": "1774083688_1272988176_9",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京JDG",
+            "team": "深圳DYG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "深圳DYG"
+        ],
+        "total_win_affinity": 22.893,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 11.275,
+        "player1": "西安WE.九幽",
+        "player2": "西安WE.文涛",
+        "player_pair": "西安WE.九幽+西安WE.文涛",
+        "recent_wins": [
+          {
+            "affinity_rate": 14.2157,
+            "battle_id": "1773914786_48251408_30",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "桐乡情久",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 11.7391,
+            "battle_id": "1774183506_48251408_37",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 6.30252,
+            "battle_id": "1774185346_48251408_38",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "西安WE"
+        ],
+        "total_win_affinity": 67.647,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 11.169,
+        "player1": "北京JDG.无畏",
+        "player2": "北京JDG.轻语",
+        "player_pair": "北京JDG.无畏+北京JDG.轻语",
+        "recent_wins": [
+          {
+            "affinity_rate": 15.4167,
+            "battle_id": "1774085357_1272988176_10",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 6.48148,
+            "battle_id": "1774086899_1272988176_11",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 16.0494,
+            "battle_id": "1774088650_1272988176_12",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京JDG"
+        ],
+        "total_win_affinity": 67.017,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 10.411,
+        "player1": "南通Hero久竞.坦然",
+        "player2": "南通Hero久竞.玖熙",
+        "player_pair": "南通Hero久竞.坦然+南通Hero久竞.玖熙",
+        "recent_wins": [
+          {
+            "affinity_rate": 12.3894,
+            "battle_id": "1774160860_48251408_34",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 14.6119,
+            "battle_id": "1774162479_48251408_35",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 2.95567,
+            "battle_id": "1774609577_48251408_12",
+            "bo_round": 2,
+            "date": "2026年3月27日",
+            "opponent": "广州TTG",
+            "team": "南通Hero久竞"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "南通Hero久竞"
+        ],
+        "total_win_affinity": 104.114,
+        "win_dates_count": 10,
+        "win_games": 10
+      },
+      {
+        "avg_win_affinity": 10.089,
+        "player1": "深圳DYG.向鱼",
+        "player2": "深圳DYG.钎城",
+        "player_pair": "深圳DYG.向鱼+深圳DYG.钎城",
+        "recent_wins": [
+          {
+            "affinity_rate": 15.0862,
+            "battle_id": "1773923343_1222656528_15",
+            "bo_round": 2,
+            "date": "2026年3月19日",
+            "opponent": "北京WB",
+            "team": "深圳DYG"
+          },
+          {
+            "affinity_rate": 5.09259,
+            "battle_id": "1774083688_1272988176_9",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京JDG",
+            "team": "深圳DYG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "深圳DYG"
+        ],
+        "total_win_affinity": 20.179,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 8.548,
+        "player1": "重庆狼队.清清",
+        "player2": "重庆狼队.道崽",
+        "player_pair": "重庆狼队.清清+重庆狼队.道崽",
+        "recent_wins": [
+          {
+            "affinity_rate": 11.7647,
+            "battle_id": "1774094472_954221072_15",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 7.23982,
+            "battle_id": "1774096536_954221072_16",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          },
+          {
+            "affinity_rate": 10.4072,
+            "battle_id": "1774098267_954221072_17",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "成都AG超玩会",
+            "team": "重庆狼队"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "重庆狼队"
+        ],
+        "total_win_affinity": 51.286,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 8.403,
+        "player1": "KSG.小屿",
+        "player2": "KSG.无言",
+        "player_pair": "KSG.小屿+KSG.无言",
+        "recent_wins": [
+          {
+            "affinity_rate": 1.84332,
+            "battle_id": "1774072852_1222656528_20",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 11.7647,
+            "battle_id": "1774074922_1222656528_21",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          },
+          {
+            "affinity_rate": 10.5042,
+            "battle_id": "1774078995_1222656528_23",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "北京WB",
+            "team": "KSG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "KSG"
+        ],
+        "total_win_affinity": 42.014,
+        "win_dates_count": 5,
+        "win_games": 5
+      },
+      {
+        "avg_win_affinity": 7.806,
+        "player1": "西安WE.文涛",
+        "player2": "西安WE.昭珏",
+        "player_pair": "西安WE.文涛+西安WE.昭珏",
+        "recent_wins": [
+          {
+            "affinity_rate": 17.1569,
+            "battle_id": "1773914786_48251408_30",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "桐乡情久",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 3.04348,
+            "battle_id": "1774183506_48251408_37",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          },
+          {
+            "affinity_rate": 4.20168,
+            "battle_id": "1774185346_48251408_38",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "广州TTG",
+            "team": "西安WE"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "西安WE"
+        ],
+        "total_win_affinity": 46.837,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 7.782,
+        "player1": "广州TTG.小雪",
+        "player2": "广州TTG.萝卜",
+        "player_pair": "广州TTG.小雪+广州TTG.萝卜",
+        "recent_wins": [
+          {
+            "affinity_rate": 2.95567,
+            "battle_id": "1774611472_48251408_13",
+            "bo_round": 3,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 4.08163,
+            "battle_id": "1774613524_48251408_14",
+            "bo_round": 4,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          },
+          {
+            "affinity_rate": 3.31754,
+            "battle_id": "1774615151_48251408_15",
+            "bo_round": 5,
+            "date": "2026年3月27日",
+            "opponent": "南通Hero久竞",
+            "team": "广州TTG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "广州TTG"
+        ],
+        "total_win_affinity": 62.259,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 7.499,
+        "player1": "成都AG超玩会.轩染",
+        "player2": "成都AG超玩会.长生",
+        "player_pair": "成都AG超玩会.轩染+成都AG超玩会.长生",
+        "recent_wins": [
+          {
+            "affinity_rate": 9.44206,
+            "battle_id": "1773837698_501236240_13",
+            "bo_round": 1,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          },
+          {
+            "affinity_rate": 5.55556,
+            "battle_id": "1773840035_501236240_14",
+            "bo_round": 2,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "成都AG超玩会"
+        ],
+        "total_win_affinity": 14.998,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 6.865,
+        "player1": "北京WB.小麦",
+        "player2": "北京WB.梓墨",
+        "player_pair": "北京WB.小麦+北京WB.梓墨",
+        "recent_wins": [
+          {
+            "affinity_rate": 3.6036,
+            "battle_id": "1773924850_1222656528_16",
+            "bo_round": 3,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 3.04348,
+            "battle_id": "1773926577_1222656528_17",
+            "bo_round": 4,
+            "date": "2026年3月19日",
+            "opponent": "深圳DYG",
+            "team": "北京WB"
+          },
+          {
+            "affinity_rate": 8.03571,
+            "battle_id": "1774076740_1222656528_22",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "KSG",
+            "team": "北京WB"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京WB"
+        ],
+        "total_win_affinity": 27.458,
+        "win_dates_count": 4,
+        "win_games": 4
+      },
+      {
+        "avg_win_affinity": 5.567,
+        "player1": "成都AG超玩会.大帅",
+        "player2": "成都AG超玩会.轩染",
+        "player_pair": "成都AG超玩会.大帅+成都AG超玩会.轩染",
+        "recent_wins": [
+          {
+            "affinity_rate": 5.5794,
+            "battle_id": "1773837698_501236240_13",
+            "bo_round": 1,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          },
+          {
+            "affinity_rate": 5.55556,
+            "battle_id": "1773840035_501236240_14",
+            "bo_round": 2,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "成都AG超玩会"
+        ],
+        "total_win_affinity": 11.135,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 5.484,
+        "player1": "南通Hero久竞.坦然",
+        "player2": "南通Hero久竞.妖刀",
+        "player_pair": "南通Hero久竞.坦然+南通Hero久竞.妖刀",
+        "recent_wins": [
+          {
+            "affinity_rate": 8.40708,
+            "battle_id": "1774160860_48251408_34",
+            "bo_round": 2,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 5.93607,
+            "battle_id": "1774162479_48251408_35",
+            "bo_round": 3,
+            "date": "2026年3月22日",
+            "opponent": "长沙TES.A",
+            "team": "南通Hero久竞"
+          },
+          {
+            "affinity_rate": 1.47783,
+            "battle_id": "1774609577_48251408_12",
+            "bo_round": 2,
+            "date": "2026年3月27日",
+            "opponent": "广州TTG",
+            "team": "南通Hero久竞"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "南通Hero久竞"
+        ],
+        "total_win_affinity": 54.844,
+        "win_dates_count": 10,
+        "win_games": 10
+      },
+      {
+        "avg_win_affinity": 5.456,
+        "player1": "杭州LGD.NBW.小久",
+        "player2": "杭州LGD.NBW.小落",
+        "player_pair": "杭州LGD.NBW.小久+杭州LGD.NBW.小落",
+        "recent_wins": [
+          {
+            "affinity_rate": 3.9801,
+            "battle_id": "1774527236_48251408_5",
+            "bo_round": 4,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 6.53266,
+            "battle_id": "1774531324_48251408_7",
+            "bo_round": 6,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          },
+          {
+            "affinity_rate": 6.36364,
+            "battle_id": "1774533080_48251408_8",
+            "bo_round": 7,
+            "date": "2026年3月26日",
+            "opponent": "桐乡情久",
+            "team": "杭州LGD.NBW"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "杭州LGD.NBW"
+        ],
+        "total_win_affinity": 70.926,
+        "win_dates_count": 13,
+        "win_games": 13
+      },
+      {
+        "avg_win_affinity": 4.924,
+        "player1": "桐乡情久.无玄",
+        "player2": "桐乡情久.陌冷",
+        "player_pair": "桐乡情久.无玄+桐乡情久.陌冷",
+        "recent_wins": [
+          {
+            "affinity_rate": 1.92308,
+            "battle_id": "1774521245_48251408_2",
+            "bo_round": 1,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 6.25,
+            "battle_id": "1774523398_48251408_3",
+            "bo_round": 2,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          },
+          {
+            "affinity_rate": 6.93069,
+            "battle_id": "1774529543_48251408_6",
+            "bo_round": 5,
+            "date": "2026年3月26日",
+            "opponent": "杭州LGD.NBW",
+            "team": "桐乡情久"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "桐乡情久"
+        ],
+        "total_win_affinity": 39.392,
+        "win_dates_count": 8,
+        "win_games": 8
+      },
+      {
+        "avg_win_affinity": 4.924,
+        "player1": "北京JDG.小寒",
+        "player2": "北京JDG.轻语",
+        "player_pair": "北京JDG.小寒+北京JDG.轻语",
+        "recent_wins": [
+          {
+            "affinity_rate": 1.66667,
+            "battle_id": "1774085357_1272988176_10",
+            "bo_round": 2,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 8.33333,
+            "battle_id": "1774086899_1272988176_11",
+            "bo_round": 3,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          },
+          {
+            "affinity_rate": 2.46914,
+            "battle_id": "1774088650_1272988176_12",
+            "bo_round": 4,
+            "date": "2026年3月21日",
+            "opponent": "深圳DYG",
+            "team": "北京JDG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "北京JDG"
+        ],
+        "total_win_affinity": 29.546,
+        "win_dates_count": 6,
+        "win_games": 6
+      },
+      {
+        "avg_win_affinity": 2.141,
+        "player1": "成都AG超玩会.小俞",
+        "player2": "成都AG超玩会.轩染",
+        "player_pair": "成都AG超玩会.小俞+成都AG超玩会.轩染",
+        "recent_wins": [
+          {
+            "affinity_rate": 2.14592,
+            "battle_id": "1773837698_501236240_13",
+            "bo_round": 1,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          },
+          {
+            "affinity_rate": 2.13675,
+            "battle_id": "1773840035_501236240_14",
+            "bo_round": 2,
+            "date": "2026年3月18日",
+            "opponent": "北京JDG",
+            "team": "成都AG超玩会"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "成都AG超玩会"
+        ],
+        "total_win_affinity": 4.283,
+        "win_dates_count": 2,
+        "win_games": 2
+      },
+      {
+        "avg_win_affinity": 2.004,
+        "player1": "深圳DYG.小乐",
+        "player2": "深圳DYG.钎城",
+        "player_pair": "深圳DYG.小乐+深圳DYG.钎城",
+        "recent_wins": [
+          {
+            "affinity_rate": 2.15517,
+            "battle_id": "1773923343_1222656528_15",
+            "bo_round": 2,
+            "date": "2026年3月19日",
+            "opponent": "北京WB",
+            "team": "深圳DYG"
+          },
+          {
+            "affinity_rate": 1.85185,
+            "battle_id": "1774083688_1272988176_9",
+            "bo_round": 1,
+            "date": "2026年3月21日",
+            "opponent": "北京JDG",
+            "team": "深圳DYG"
+          }
+        ],
+        "teams_count": 1,
+        "teams_played": [
+          "深圳DYG"
+        ],
+        "total_win_affinity": 4.007,
+        "win_dates_count": 2,
+        "win_games": 2
+      }
+    ],
+    "teams_analysis": [
+      {
+        "avg_win_affinity": 28.486,
+        "player_pairs": [
+          "西安WE.子意+西安WE.明崽",
+          "西安WE.九幽+西安WE.昭珏",
+          "西安WE.文涛+西安WE.昭珏",
+          "西安WE.子意+西安WE.昭珏",
+          "西安WE.九幽+西安WE.明崽",
+          "西安WE.明崽+西安WE.昭珏",
+          "西安WE.九幽+西安WE.文涛",
+          "西安WE.九幽+西安WE.子意",
+          "西安WE.文涛+西安WE.明崽",
+          "西安WE.子意+西安WE.文涛"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "西安WE",
+        "total_win_affinity": 1709.138,
+        "win_dates_count": 3,
+        "win_games": 60
+      },
+      {
+        "avg_win_affinity": 26.725,
+        "player_pairs": [
+          "北京WB.小麦+北京WB.暖阳",
+          "北京WB.小麦+北京WB.梓墨",
+          "北京WB.小麦+北京WB.玖欣",
+          "北京WB.听悦+北京WB.暖阳",
+          "北京WB.听悦+北京WB.小麦",
+          "北京WB.梓墨+北京WB.玖欣",
+          "北京WB.听悦+北京WB.梓墨",
+          "北京WB.听悦+北京WB.玖欣",
+          "北京WB.暖阳+北京WB.玖欣",
+          "北京WB.暖阳+北京WB.梓墨"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "北京WB",
+        "total_win_affinity": 1068.985,
+        "win_dates_count": 2,
+        "win_games": 40
+      },
+      {
+        "avg_win_affinity": 26.197,
+        "player_pairs": [
+          "重庆狼队.信+重庆狼队.道崽",
+          "重庆狼队.清清+重庆狼队.道崽",
+          "重庆狼队.皖皖+重庆狼队.紫幻",
+          "重庆狼队.紫幻+重庆狼队.道崽",
+          "重庆狼队.信+重庆狼队.皖皖",
+          "重庆狼队.清清+重庆狼队.皖皖",
+          "重庆狼队.清清+重庆狼队.紫幻",
+          "重庆狼队.信+重庆狼队.清清",
+          "重庆狼队.皖皖+重庆狼队.道崽",
+          "重庆狼队.信+重庆狼队.紫幻"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "重庆狼队",
+        "total_win_affinity": 1571.811,
+        "win_dates_count": 2,
+        "win_games": 60
+      },
+      {
+        "avg_win_affinity": 25.322,
+        "player_pairs": [
+          "桐乡情久.楠枫+桐乡情久.深巅",
+          "桐乡情久.无玄+桐乡情久.陌冷",
+          "桐乡情久.无玄+桐乡情久.深巅",
+          "桐乡情久.无玄+桐乡情久.楠枫",
+          "桐乡情久.久寒+桐乡情久.楠枫",
+          "桐乡情久.楠枫+桐乡情久.陌冷",
+          "桐乡情久.深巅+桐乡情久.陌冷",
+          "桐乡情久.久寒+桐乡情久.无玄",
+          "桐乡情久.久寒+桐乡情久.深巅",
+          "桐乡情久.久寒+桐乡情久.陌冷"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "桐乡情久",
+        "total_win_affinity": 2025.726,
+        "win_dates_count": 3,
+        "win_games": 80
+      },
+      {
+        "avg_win_affinity": 25.304,
+        "player_pairs": [
+          "广州TTG.佳心+广州TTG.萝卜",
+          "广州TTG.涵+广州TTG.萝卜",
+          "广州TTG.小雪+广州TTG.鹤辞",
+          "广州TTG.小雪+广州TTG.萝卜",
+          "广州TTG.佳心+广州TTG.鹤辞",
+          "广州TTG.佳心+广州TTG.涵",
+          "广州TTG.萝卜+广州TTG.鹤辞",
+          "广州TTG.佳心+广州TTG.小雪",
+          "广州TTG.涵+广州TTG.鹤辞",
+          "广州TTG.小雪+广州TTG.涵"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "广州TTG",
+        "total_win_affinity": 2024.293,
+        "win_dates_count": 3,
+        "win_games": 80
+      },
+      {
+        "avg_win_affinity": 25.185,
+        "player_pairs": [
+          "杭州LGD.NBW.小落+杭州LGD.NBW.米苏",
+          "杭州LGD.NBW.小崽+杭州LGD.NBW.小落",
+          "杭州LGD.NBW.小久+杭州LGD.NBW.米苏",
+          "杭州LGD.NBW.九尾+杭州LGD.NBW.小崽",
+          "杭州LGD.NBW.九尾+杭州LGD.NBW.小久",
+          "杭州LGD.NBW.小久+杭州LGD.NBW.小落",
+          "杭州LGD.NBW.小久+杭州LGD.NBW.小崽",
+          "杭州LGD.NBW.小崽+杭州LGD.NBW.米苏",
+          "杭州LGD.NBW.九尾+杭州LGD.NBW.小落",
+          "杭州LGD.NBW.九尾+杭州LGD.NBW.米苏"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "杭州LGD.NBW",
+        "total_win_affinity": 3274.046,
+        "win_dates_count": 4,
+        "win_games": 130
+      },
+      {
+        "avg_win_affinity": 25.01,
+        "player_pairs": [
+          "KSG.一笙+KSG.流浪",
+          "KSG.一笙+KSG.小屿",
+          "KSG.无言+KSG.流浪",
+          "KSG.一笙+KSG.无言",
+          "KSG.一笙+KSG.句号",
+          "KSG.句号+KSG.流浪",
+          "KSG.句号+KSG.小屿",
+          "KSG.小屿+KSG.无言",
+          "KSG.句号+KSG.无言",
+          "KSG.小屿+KSG.流浪"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "KSG",
+        "total_win_affinity": 1250.495,
+        "win_dates_count": 2,
+        "win_games": 50
+      },
+      {
+        "avg_win_affinity": 24.861,
+        "player_pairs": [
+          "成都AG超玩会.大帅+成都AG超玩会.小俞",
+          "成都AG超玩会.轩染+成都AG超玩会.长生",
+          "成都AG超玩会.小俞+成都AG超玩会.长生",
+          "成都AG超玩会.大帅+成都AG超玩会.钟意",
+          "成都AG超玩会.小俞+成都AG超玩会.轩染",
+          "成都AG超玩会.小俞+成都AG超玩会.钟意",
+          "成都AG超玩会.轩染+成都AG超玩会.钟意",
+          "成都AG超玩会.大帅+成都AG超玩会.轩染",
+          "成都AG超玩会.钟意+成都AG超玩会.长生",
+          "成都AG超玩会.大帅+成都AG超玩会.长生"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "成都AG超玩会",
+        "total_win_affinity": 497.214,
+        "win_dates_count": 1,
+        "win_games": 20
+      },
+      {
+        "avg_win_affinity": 24.822,
+        "player_pairs": [
+          "南通Hero久竞.妖刀+南通Hero久竞.落尘",
+          "南通Hero久竞.玖熙+南通Hero久竞.落尘",
+          "南通Hero久竞.妖刀+南通Hero久竞.白清",
+          "南通Hero久竞.妖刀+南通Hero久竞.玖熙",
+          "南通Hero久竞.坦然+南通Hero久竞.落尘",
+          "南通Hero久竞.玖熙+南通Hero久竞.白清",
+          "南通Hero久竞.坦然+南通Hero久竞.妖刀",
+          "南通Hero久竞.坦然+南通Hero久竞.玖熙",
+          "南通Hero久竞.坦然+南通Hero久竞.白清",
+          "南通Hero久竞.白清+南通Hero久竞.落尘"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "南通Hero久竞",
+        "total_win_affinity": 2482.23,
+        "win_dates_count": 4,
+        "win_games": 100
+      },
+      {
+        "avg_win_affinity": 21.992,
+        "player_pairs": [
+          "深圳DYG.小乐+深圳DYG.小轩",
+          "深圳DYG.向鱼+深圳DYG.小乐",
+          "深圳DYG.向鱼+深圳DYG.落空",
+          "深圳DYG.落空+深圳DYG.钎城",
+          "深圳DYG.向鱼+深圳DYG.小轩",
+          "深圳DYG.小乐+深圳DYG.钎城",
+          "深圳DYG.向鱼+深圳DYG.钎城",
+          "深圳DYG.小轩+深圳DYG.钎城",
+          "深圳DYG.小乐+深圳DYG.落空",
+          "深圳DYG.小轩+深圳DYG.落空"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "深圳DYG",
+        "total_win_affinity": 439.847,
+        "win_dates_count": 2,
+        "win_games": 20
+      },
+      {
+        "avg_win_affinity": 21.461,
+        "player_pairs": [
+          "北京JDG.清融+北京JDG.轻语",
+          "北京JDG.无畏+北京JDG.轻语",
+          "北京JDG.小寒+北京JDG.清融",
+          "北京JDG.无双+北京JDG.轻语",
+          "北京JDG.小寒+北京JDG.轻语",
+          "北京JDG.小寒+北京JDG.无畏",
+          "北京JDG.小寒+北京JDG.无双",
+          "北京JDG.无畏+北京JDG.清融",
+          "北京JDG.无双+北京JDG.清融",
+          "北京JDG.无双+北京JDG.无畏"
+        ],
+        "player_pairs_count": 10,
+        "team_name": "北京JDG",
+        "total_win_affinity": 1287.65,
+        "win_dates_count": 2,
+        "win_games": 60
+      }
+    ]
+  },
+  "description": "赛季 KPL2026S1 获胜时选手亲近度分析：选手组合在获胜情况下的平均亲近度",
+  "season": "KPL2026S1",
+  "summary": {
+    "total_win_records": 700,
+    "unique_player_pairs": 110,
+    "unique_teams": 11
+  }
+}

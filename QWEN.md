@@ -27,11 +27,11 @@ kpl_data_daily/
 ├── .github/workflows/
 │   └── daily-fetch.yml        # GitHub Actions 配置
 ├── data/                      # 数据输出目录
-│   ├── archive/               # 历史数据归档
 │   └── *.json                 # 采集的数据
 ├── doc/
 │   ├── API.md                 # API 详细说明
-│   └── guide.md               # 抓取流程说明
+│   |── guide.md               # 抓取流程说明
+|   └── params_explain.md      # 数据标注文档
 └── src/
     ├── crawler/
     │   ├── config.py          # API 接口配置
@@ -59,7 +59,7 @@ GitHub Actions 每天 UTC 00:00（北京时间 08:00）自动执行。
 
 ```python
 # 关注的选手
-TARGET_PLAYER = "KSG.无言"
+TARGET_PLAYER = "无言"
 
 # 战队名称
 TARGET_TEAM = "KSG"
@@ -89,14 +89,14 @@ APIS = [
 
 ### 配置项说明
 
-| 配置项 | 类型 | 说明 |
-|--------|------|------|
-| `namespace` | string | 命名空间，用于生成输出文件名 |
-| `url` | string | API 地址，支持 `{season_id}` 和 `{team_name}` 占位符 |
-| `update_freq` | string | 更新频率：`fixed`（固定/只采集一次）或 `daily`（每日更新） |
-| `need_filter` | boolean | 是否需要从批量数据中筛选目标选手 |
-| `no_season` | boolean | 是否在文件名中省略赛季 ID（默认为 `False`） |
-| `enabled` | boolean | 是否启用该 API 采集 |
+| 配置项        | 类型    | 说明                                                       |
+| ------------- | ------- | ---------------------------------------------------------- |
+| `namespace`   | string  | 命名空间，用于生成输出文件名                               |
+| `url`         | string  | API 地址，支持 `{season_id}` 和 `{team_name}` 占位符       |
+| `update_freq` | string  | 更新频率：`fixed`（固定/只采集一次）或 `daily`（每日更新） |
+| `need_filter` | boolean | 是否需要从批量数据中筛选目标选手                           |
+| `no_season`   | boolean | 是否在文件名中省略赛季 ID（默认为 `False`）                |
+| `enabled`     | boolean | 是否启用该 API 采集                                        |
 
 ## 采集流程
 

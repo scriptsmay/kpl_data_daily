@@ -21,6 +21,7 @@ from src.crawler.config import (
     DATE_FORMAT,
     TARGET_PLAYER,
     TARGET_TEAM,
+    REQUEST_DELAY_LARGE,
 )
 from src.crawler.fetcher import KPLCrawler
 from src.storage.saver import KPLStorage
@@ -216,25 +217,31 @@ def fetch_hero_battles(crawler: KPLCrawler, storage: KPLStorage, season_id: str)
     for hero_name in heroes:
         print(f"  [FETCH] {hero_name}...", end=" ")
         url = f"{API_PLAYER_HERO_BATTLES['url']}?player_name={player_name}&hero_name={hero_name}&season={season_id}"
-        data = crawler.fetch(url)
+        
+        try:
+            # 大数据量接口，增加超时时间到 60秒，间隔增加到 3秒
+            data = crawler.fetch(url, timeout=60, delay=REQUEST_DELAY_LARGE)
 
-        if data and data.get("code") == 200:
-            hero_data = data.get("data", {})
-            battles = hero_data.get("battle_details", [])
-            wins = sum(1 for b in battles if b.get("is_win"))
-            loses = len(battles) - wins
+            if data and data.get("code") == 200:
+                hero_data = data.get("data", {})
+                battles = hero_data.get("battle_details", [])
+                wins = sum(1 for b in battles if b.get("is_win"))
+                loses = len(battles) - wins
 
-            result["heroes"][hero_name] = {
-                "hero_id": battles[0].get("hero_id", "") if battles else "",
-                "total": len(battles),
-                "wins": wins,
-                "loses": loses,
-                "battles": battles,
-            }
-            print(f"✓ {len(battles)} 局")
-            success += 1
-        else:
-            print(f"✗ 失败")
+                result["heroes"][hero_name] = {
+                    "hero_id": battles[0].get("hero_id", "") if battles else "",
+                    "total": len(battles),
+                    "wins": wins,
+                    "loses": loses,
+                    "battles": battles,
+                }
+                print(f"✓ {len(battles)} 局")
+                success += 1
+            else:
+                print(f"✗ 失败")
+                fail += 1
+        except Exception as e:
+            print(f"✗ 异常: {e}")
             fail += 1
 
     if result["heroes"]:
@@ -331,30 +338,38 @@ def run() -> int:
 
         print(f"\n[FETCH] {namespace}: {url}")
 
-        data = crawler.fetch(url)
+        try:
+            data = crawler.fetch(url)
 
-        if data is not None:
-            # 如果需要筛选选手数据
-            if need_filter:
-                filtered_data = filter_player_data(data, target_player_name)
-                if filtered_data:
-                    storage.save(filename, filtered_data)
-                    success_count += 1
+            if data is not None:
+                # 如果需要筛选选手数据
+                if need_filter:
+                    filtered_data = filter_player_data(data, target_player_name)
+                    if filtered_data:
+                        storage.save(filename, filtered_data)
+                        success_count += 1
+                    else:
+                        print(f"[WARN] {namespace} 未找到选手 {target_player_name} 的数据")
+                        fail_count += 1
                 else:
-                    print(f"[WARN] {namespace} 未找到选手 {target_player_name} 的数据")
-                    fail_count += 1
+                    storage.save(filename, data)
+                    success_count += 1
             else:
-                storage.save(filename, data)
-                success_count += 1
-        else:
-            print(f"[FAIL] {namespace} 采集失败")
+                print(f"[FAIL] {namespace} 采集失败")
+                fail_count += 1
+        except Exception as e:
+            print(f"[ERROR] {namespace} 采集异常: {e}")
             fail_count += 1
 
     # === 二级抓取：英雄对局详情 ===
     print("\n" + "-" * 50)
     print("[STEP 2] 英雄对局详情采集")
     print("-" * 50)
-    fetch_hero_battles(crawler, storage, season_id)
+    
+    try:
+        fetch_hero_battles(crawler, storage, season_id)
+    except Exception as e:
+        print(f"[ERROR] 英雄对局详情采集异常: {e}")
 
     print("\n" + "=" * 50)
     print(f"采集完成：成功 {success_count} 个，失败 {fail_count} 个，跳过 {skip_count} 个")
@@ -363,7 +378,8 @@ def run() -> int:
     print(f"选手：{target_player_name}")
     print("=" * 50)
 
-    return 0 if fail_count == 0 else 1
+    # 只要有成功的数据就返回 0，让后续步骤继续
+    return 0 if success_count > 0 or skip_count > 0 else 1
 
 
 if __name__ == "__main__":

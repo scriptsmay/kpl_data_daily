@@ -9,6 +9,7 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 30  # 设置超时时间，避免长时间挂起
 
     steps:
       - name: Checkout code
@@ -26,17 +27,35 @@ jobs:
           pip install -r requirements.txt
 
       - name: Fetch data
+        id: fetch
+        continue-on-error: true  # 允许失败继续执行后续步骤
         run: |
           python main.py
+          echo "fetch_result=$?" >> $GITHUB_OUTPUT
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add data/
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push data
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/
-          if ! git diff --staged --quiet; then
-            git commit -m "chore: auto fetch kpl data $(date +%Y%m%d)"
-            git push
+          git commit -m "chore: auto fetch kpl data $(date +%Y%m%d)"
+          git push
+
+      - name: Report status
+        if: always()
+        run: |
+          if [ "${{ steps.fetch.outcome }}" == "failure" ]; then
+            echo "::warning::数据采集部分失败，但已提交成功采集的数据"
           else
-            echo "No changes to commit"
+            echo "数据采集完成"
           fi

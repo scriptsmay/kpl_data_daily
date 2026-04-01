@@ -132,6 +132,10 @@ REQUEST_TIMEOUT = 30
 MAX_RETRIES = 3
 RETRY_DELAY = 1
 
+# 请求间隔配置（秒）
+REQUEST_DELAY = 1.0       # 普通接口之间的间隔
+REQUEST_DELAY_LARGE = 3.0 # 大数据量接口之间的间隔（如 player-hero-battles）
+
 # 输出配置
 DATA_DIR = "data"
 DATE_FORMAT = "%Y%m%d"

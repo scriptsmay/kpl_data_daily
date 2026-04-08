@@ -1,0 +1,127 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "hero_id": "536",
+      "hero_name": "夏洛特",
+      "player_name": "KSG.无言",
+      "total_matches": 18,
+      "win_matches": 13,
+      "win_rate": "72%"
+    },
+    {
+      "hero_id": "140",
+      "hero_name": "关羽",
+      "player_name": "KSG.无言",
+      "total_matches": 10,
+      "win_matches": 9,
+      "win_rate": "90%"
+    },
+    {
+      "hero_id": "503",
+      "hero_name": "狂铁",
+      "player_name": "KSG.无言",
+      "total_matches": 12,
+      "win_matches": 8,
+      "win_rate": "66%"
+    },
+    {
+      "hero_id": "120",
+      "hero_name": "白起",
+      "player_name": "KSG.无言",
+      "total_matches": 3,
+      "win_matches": 3,
+      "win_rate": "100%"
+    },
+    {
+      "hero_id": "527",
+      "hero_name": "蒙恬",
+      "player_name": "KSG.无言",
+      "total_matches": 6,
+      "win_matches": 3,
+      "win_rate": "50%"
+    },
+    {
+      "hero_id": "123",
+      "hero_name": "吕布",
+      "player_name": "KSG.无言",
+      "total_matches": 2,
+      "win_matches": 2,
+      "win_rate": "100%"
+    },
+    {
+      "hero_id": "558",
+      "hero_name": "影",
+      "player_name": "KSG.无言",
+      "total_matches": 7,
+      "win_matches": 2,
+      "win_rate": "28%"
+    },
+    {
+      "hero_id": "128",
+      "hero_name": "曹操",
+      "player_name": "KSG.无言",
+      "total_matches": 3,
+      "win_matches": 2,
+      "win_rate": "66%"
+    },
+    {
+      "hero_id": "134",
+      "hero_name": "达摩",
+      "player_name": "KSG.无言",
+      "total_matches": 3,
+      "win_matches": 2,
+      "win_rate": "66%"
+    },
+    {
+      "hero_id": "518",
+      "hero_name": "马超",
+      "player_name": "KSG.无言",
+      "total_matches": 8,
+      "win_matches": 2,
+      "win_rate": "25%"
+    },
+    {
+      "hero_id": "125",
+      "hero_name": "元歌",
+      "player_name": "KSG.无言",
+      "total_matches": 1,
+      "win_matches": 1,
+      "win_rate": "100%"
+    },
+    {
+      "hero_id": "537",
+      "hero_name": "司空震",
+      "player_name": "KSG.无言",
+      "total_matches": 4,
+      "win_matches": 1,
+      "win_rate": "25%"
+    },
+    {
+      "hero_id": "564",
+      "hero_name": "姬小满",
+      "player_name": "KSG.无言",
+      "total_matches": 1,
+      "win_matches": 1,
+      "win_rate": "100%"
+    },
+    {
+      "hero_id": "172",
+      "hero_name": "蚩奼",
+      "player_name": "KSG.无言",
+      "total_matches": 2,
+      "win_matches": 1,
+      "win_rate": "50%"
+    }
+  ],
+  "description": "选手英雄胜场简要统计 (赛季: KPL2026S1)",
+  "filters": {
+    "hero_name": null,
+    "limit": 0,
+    "min_wins": 0,
+    "player_name": null,
+    "sort_by": "win_matches"
+  },
+  "season": "KPL2026S1",
+  "total": 1313
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "EnickName": "KSG",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KCC2026/KSG.png",
+    "position": "KSG",
+    "player_unique_id": "KPLP01583"
+  },
+  {
+    "EnickName": "KSG.流浪",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KCC2026/KSG.流浪.png",
+    "position": "中路",
+    "player_unique_id": "KPLP00968"
+  },
+  {
+    "EnickName": "KSG.小屿",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KCC2026/KSG.小屿.png",
+    "position": "发育路",
+    "player_unique_id": "KPLP01531"
+  },
+  {
+    "EnickName": "KSG.风箫",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KCC2026/KSG.风箫.png",
+    "position": "发育路",
+    "player_unique_id": "KPLP00964"
+  },
+  {
+    "EnickName": "KSG.无言",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KCC2026/KSG.无言.png",
+    "position": "对抗路",
+    "player_unique_id": "KPLP01538"
+  },
+  {
+    "EnickName": "KSG.流星",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KCC2026/KSG.流星.png",
+    "position": "对抗路",
+    "player_unique_id": "KPLP01265"
+  },
+  {
+    "EnickName": "KSG.句号",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KCC2026/KSG.句号.png",
+    "position": "打野",
+    "player_unique_id": "KPLP01343"
+  },
+  {
+    "EnickName": "KSG.子旗",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KCC2026/KSG.子旗.png",
+    "position": "教练",
+    "player_unique_id": null
+  },
+  {
+    "EnickName": "KSG.一笙",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KCC2026/KSG.一笙.png",
+    "position": "游走",
+    "player_unique_id": "KPLP00883"
+  }
+]

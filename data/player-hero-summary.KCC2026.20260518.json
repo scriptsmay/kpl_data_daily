@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "data": [],
+  "description": "选手英雄胜场简要统计 (赛季: KCC2026)",
+  "filters": {
+    "hero_name": null,
+    "limit": 0,
+    "min_wins": 0,
+    "player_name": null,
+    "sort_by": "win_matches"
+  },
+  "season": "KCC2026",
+  "total": 70
+}

@@ -1,0 +1,14 @@
+{
+  "code": 200,
+  "data": [],
+  "data_source": "player_lose_stats table",
+  "description": "选手失败数据统计 (赛季: KCC2026)",
+  "filters": {
+    "limit": 0,
+    "min_loses": 0,
+    "player_name": null,
+    "season": "KCC2026"
+  },
+  "season": "KCC2026",
+  "total_players": 15
+}

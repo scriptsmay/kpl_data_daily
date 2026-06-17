@@ -1,0 +1,90 @@
+[
+  {
+    "EnickName": "KSG",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.png",
+    "position": "KSG",
+    "player_unique_id": "KPLP01583",
+    "is_newcomer": null
+  },
+  {
+    "EnickName": "KSG.流浪",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.流浪.png",
+    "position": "中单",
+    "player_unique_id": "KPLP00968",
+    "is_newcomer": null
+  },
+  {
+    "EnickName": "KSG.小凡",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.小凡.png",
+    "position": "中单",
+    "player_unique_id": "KPLP01506",
+    "is_newcomer": null
+  },
+  {
+    "EnickName": "KSG.小屿",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.小屿.png",
+    "position": "发育路",
+    "player_unique_id": "KPLP01531",
+    "is_newcomer": null
+  },
+  {
+    "EnickName": "KSG.无言",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.无言.png",
+    "position": "对抗路",
+    "player_unique_id": "KPLP01538",
+    "is_newcomer": null
+  },
+  {
+    "EnickName": "KSG.绝境",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.绝境.png",
+    "position": "对抗路",
+    "player_unique_id": "KPLP01797",
+    "is_newcomer": null
+  },
+  {
+    "EnickName": "KSG.句号",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.句号.png",
+    "position": "打野",
+    "player_unique_id": "KPLP01343",
+    "is_newcomer": null
+  },
+  {
+    "EnickName": "KSG.雨溪",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.雨溪.png",
+    "position": "打野",
+    "player_unique_id": "KPLP01798",
+    "is_newcomer": null
+  },
+  {
+    "EnickName": "KSG.子旗",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.子旗.png",
+    "position": "教练",
+    "player_unique_id": null,
+    "is_newcomer": null
+  },
+  {
+    "EnickName": "KSG.晚星",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.晚星.png",
+    "position": "游走",
+    "player_unique_id": "KPLP00756",
+    "is_newcomer": null
+  },
+  {
+    "EnickName": "KSG.烈峰峰",
+    "teamName": "KSG",
+    "oss_url": "https://hero-wind.oss-cn-shanghai.aliyuncs.com/KPL/KPL_Play_images/KPL2026S2/KSG.烈峰峰.png",
+    "position": "游走",
+    "player_unique_id": "KPLP01537",
+    "is_newcomer": null
+  }
+]

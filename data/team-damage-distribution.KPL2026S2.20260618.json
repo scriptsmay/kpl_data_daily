@@ -1,0 +1,592 @@
+{
+  "code": 200,
+  "data": {
+    "players": [
+      {
+        "damage_by_player": [
+          {
+            "damage": 97706,
+            "player_name": "重庆狼队.清清"
+          },
+          {
+            "damage": 62217,
+            "player_name": "重庆狼队.信"
+          },
+          {
+            "damage": 39867,
+            "player_name": "重庆狼队.皖皖"
+          },
+          {
+            "damage": 38411,
+            "player_name": "重庆狼队.道崽"
+          },
+          {
+            "damage": 32921,
+            "player_name": "重庆狼队.紫幻"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "36.0%",
+            "position": "top"
+          },
+          {
+            "percentage": "14.7%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.1%",
+            "position": "mid"
+          },
+          {
+            "percentage": "14.2%",
+            "position": "adc"
+          },
+          {
+            "percentage": "22.9%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "30.6%",
+            "position": "top"
+          },
+          {
+            "percentage": "18.1%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.7%",
+            "position": "mid"
+          },
+          {
+            "percentage": "16.3%",
+            "position": "adc"
+          },
+          {
+            "percentage": "22.3%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 97706,
+            "position": "top"
+          },
+          {
+            "damage": 39867,
+            "position": "jungle"
+          },
+          {
+            "damage": 32921,
+            "position": "mid"
+          },
+          {
+            "damage": 38411,
+            "position": "adc"
+          },
+          {
+            "damage": 62217,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.无言",
+        "player_position": "对抗路",
+        "player_unique_id": "KPLP01538",
+        "total_matches": 3
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 98078,
+            "player_name": "重庆狼队.信"
+          },
+          {
+            "damage": 96710,
+            "player_name": "重庆狼队.清清"
+          },
+          {
+            "damage": 57406,
+            "player_name": "重庆狼队.皖皖"
+          },
+          {
+            "damage": 44724,
+            "player_name": "重庆狼队.紫幻"
+          },
+          {
+            "damage": 38943,
+            "player_name": "重庆狼队.道崽"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "28.8%",
+            "position": "top"
+          },
+          {
+            "percentage": "17.1%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "13.3%",
+            "position": "mid"
+          },
+          {
+            "percentage": "11.6%",
+            "position": "adc"
+          },
+          {
+            "percentage": "29.2%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "22.2%",
+            "position": "top"
+          },
+          {
+            "percentage": "25.9%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.1%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.2%",
+            "position": "adc"
+          },
+          {
+            "percentage": "24.6%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 96710,
+            "position": "top"
+          },
+          {
+            "damage": 57406,
+            "position": "jungle"
+          },
+          {
+            "damage": 44724,
+            "position": "mid"
+          },
+          {
+            "damage": 38943,
+            "position": "adc"
+          },
+          {
+            "damage": 98078,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.句号",
+        "player_position": "打野",
+        "player_unique_id": "KPLP01343",
+        "total_matches": 3
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 139046,
+            "player_name": "重庆狼队.信"
+          },
+          {
+            "damage": 94370,
+            "player_name": "重庆狼队.清清"
+          },
+          {
+            "damage": 82572,
+            "player_name": "重庆狼队.皖皖"
+          },
+          {
+            "damage": 57856,
+            "player_name": "重庆狼队.道崽"
+          },
+          {
+            "damage": 52216,
+            "player_name": "重庆狼队.紫幻"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "22.1%",
+            "position": "top"
+          },
+          {
+            "percentage": "19.4%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.3%",
+            "position": "mid"
+          },
+          {
+            "percentage": "13.6%",
+            "position": "adc"
+          },
+          {
+            "percentage": "32.6%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "24.6%",
+            "position": "top"
+          },
+          {
+            "percentage": "23.5%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "11.0%",
+            "position": "mid"
+          },
+          {
+            "percentage": "11.7%",
+            "position": "adc"
+          },
+          {
+            "percentage": "29.3%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 94370,
+            "position": "top"
+          },
+          {
+            "damage": 82572,
+            "position": "jungle"
+          },
+          {
+            "damage": 52216,
+            "position": "mid"
+          },
+          {
+            "damage": 57856,
+            "position": "adc"
+          },
+          {
+            "damage": 139046,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.流浪",
+        "player_position": "中路",
+        "player_unique_id": "KPLP00968",
+        "total_matches": 3
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 211485,
+            "player_name": "重庆狼队.清清"
+          },
+          {
+            "damage": 196882,
+            "player_name": "重庆狼队.信"
+          },
+          {
+            "damage": 109954,
+            "player_name": "重庆狼队.皖皖"
+          },
+          {
+            "damage": 83478,
+            "player_name": "重庆狼队.道崽"
+          },
+          {
+            "damage": 57679,
+            "player_name": "重庆狼队.紫幻"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "32.1%",
+            "position": "top"
+          },
+          {
+            "percentage": "16.7%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "8.8%",
+            "position": "mid"
+          },
+          {
+            "percentage": "12.7%",
+            "position": "adc"
+          },
+          {
+            "percentage": "29.9%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "30.2%",
+            "position": "top"
+          },
+          {
+            "percentage": "23.3%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "8.3%",
+            "position": "mid"
+          },
+          {
+            "percentage": "12.9%",
+            "position": "adc"
+          },
+          {
+            "percentage": "25.3%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 211485,
+            "position": "top"
+          },
+          {
+            "damage": 109954,
+            "position": "jungle"
+          },
+          {
+            "damage": 57679,
+            "position": "mid"
+          },
+          {
+            "damage": 83478,
+            "position": "adc"
+          },
+          {
+            "damage": 196882,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.小屿",
+        "player_position": "发育路",
+        "player_unique_id": "KPLP01531",
+        "total_matches": 3
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 50055,
+            "player_name": "重庆狼队.清清"
+          },
+          {
+            "damage": 43569,
+            "player_name": "重庆狼队.信"
+          },
+          {
+            "damage": 24405,
+            "player_name": "重庆狼队.皖皖"
+          },
+          {
+            "damage": 22186,
+            "player_name": "重庆狼队.紫幻"
+          },
+          {
+            "damage": 15535,
+            "player_name": "重庆狼队.道崽"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "32.1%",
+            "position": "top"
+          },
+          {
+            "percentage": "15.7%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "14.2%",
+            "position": "mid"
+          },
+          {
+            "percentage": "10.0%",
+            "position": "adc"
+          },
+          {
+            "percentage": "28.0%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "24.0%",
+            "position": "top"
+          },
+          {
+            "percentage": "25.2%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.6%",
+            "position": "mid"
+          },
+          {
+            "percentage": "12.7%",
+            "position": "adc"
+          },
+          {
+            "percentage": "25.4%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 50055,
+            "position": "top"
+          },
+          {
+            "damage": 24405,
+            "position": "jungle"
+          },
+          {
+            "damage": 22186,
+            "position": "mid"
+          },
+          {
+            "damage": 15535,
+            "position": "adc"
+          },
+          {
+            "damage": 43569,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.晚星",
+        "player_position": "游走",
+        "player_unique_id": "KPLP00756",
+        "total_matches": 3
+      }
+    ],
+    "position_averages": {
+      "中路": [
+        {
+          "percentage": "24.6%",
+          "position": "top"
+        },
+        {
+          "percentage": "23.5%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "11.0%",
+          "position": "mid"
+        },
+        {
+          "percentage": "11.7%",
+          "position": "adc"
+        },
+        {
+          "percentage": "29.3%",
+          "position": "support"
+        }
+      ],
+      "发育路": [
+        {
+          "percentage": "30.2%",
+          "position": "top"
+        },
+        {
+          "percentage": "23.3%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "8.3%",
+          "position": "mid"
+        },
+        {
+          "percentage": "12.9%",
+          "position": "adc"
+        },
+        {
+          "percentage": "25.3%",
+          "position": "support"
+        }
+      ],
+      "对抗路": [
+        {
+          "percentage": "30.6%",
+          "position": "top"
+        },
+        {
+          "percentage": "18.1%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "12.7%",
+          "position": "mid"
+        },
+        {
+          "percentage": "16.3%",
+          "position": "adc"
+        },
+        {
+          "percentage": "22.3%",
+          "position": "support"
+        }
+      ],
+      "打野": [
+        {
+          "percentage": "22.2%",
+          "position": "top"
+        },
+        {
+          "percentage": "25.9%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "12.1%",
+          "position": "mid"
+        },
+        {
+          "percentage": "15.2%",
+          "position": "adc"
+        },
+        {
+          "percentage": "24.6%",
+          "position": "support"
+        }
+      ],
+      "游走": [
+        {
+          "percentage": "24.0%",
+          "position": "top"
+        },
+        {
+          "percentage": "25.2%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "12.6%",
+          "position": "mid"
+        },
+        {
+          "percentage": "12.7%",
+          "position": "adc"
+        },
+        {
+          "percentage": "25.4%",
+          "position": "support"
+        }
+      ]
+    },
+    "season": "KPL2026S2",
+    "team_name": "KSG",
+    "total_players": 5
+  }
+}

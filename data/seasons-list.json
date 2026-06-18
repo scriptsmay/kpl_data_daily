@@ -1,10 +1,17 @@
 [
   {
+    "tournament_id": "KPL2026S2",
+    "tournament_name": "KPL2026夏季赛",
+    "project": "KPL",
+    "season_type": "联赛",
+    "is_latest": 1
+  },
+  {
     "tournament_id": "KPL2026S1",
     "tournament_name": "KPL2026春季赛",
     "project": "KPL",
     "season_type": "联赛",
-    "is_latest": 1
+    "is_latest": 0
   },
   {
     "tournament_id": "KPL2025S3",
@@ -198,6 +205,13 @@
   {
     "tournament_id": "KIC2017",
     "tournament_name": "2017王者荣耀冠军杯",
+    "project": "KPL",
+    "season_type": "杯赛",
+    "is_latest": 0
+  },
+  {
+    "tournament_id": "KCC2026",
+    "tournament_name": "2026王者荣耀挑战者杯",
     "project": "KPL",
     "season_type": "杯赛",
     "is_latest": 0

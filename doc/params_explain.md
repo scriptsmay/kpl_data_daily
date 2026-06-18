@@ -27,8 +27,8 @@
 
 **API**: `/seasons/list?project=KPL`  
 **命名空间**: `seasons-list`  
-**更新频率**: 固定，约 3 月更新一次（新赛季启动前）  
-**输出文件**: `seasons-list.json`（配置 `no_season: True`，文件名不带赛季 ID）
+**更新频率**: 每日覆盖更新  
+**输出文件**: `seasons-list.json`（配置 `no_season: True`，文件名不带赛季 ID；配置 `overwrite: True`，文件已存在时覆盖保存）
 
 ### 数据结构
 
@@ -1313,6 +1313,7 @@
     "url": "http://47.102.210.150:5006/seasons/list?project=KPL",
     "update_freq": "fixed",
     "no_season": True,  # 文件名不带赛季 ID
+    "overwrite": True,  # 文件已存在时覆盖保存
 }
 ```
 

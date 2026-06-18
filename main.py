@@ -315,6 +315,7 @@ def run() -> int:
         update_freq = api.get("update_freq", "daily")
         need_filter = api.get("need_filter", False)
         no_season = api.get("no_season", False)
+        overwrite = api.get("overwrite", False)
 
         if no_season:
             # 不需要赛季 ID 的文件名
@@ -331,7 +332,7 @@ def run() -> int:
 
         # 检查本地是否已有同名文件
         filepath = os.path.join(storage.data_dir, f"{filename}.json")
-        if os.path.exists(filepath):
+        if os.path.exists(filepath) and not overwrite:
             print(f"[SKIP] {namespace}: 文件已存在 ({filename}.json)")
             skip_count += 1
             continue

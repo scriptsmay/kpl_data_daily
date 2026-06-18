@@ -56,6 +56,7 @@ APIS = [
         "url": "http://47.102.210.150:5006/seasons/list?project=KPL",
         "update_freq": "fixed",
         "no_season": True,      # 文件名不带赛季 ID
+        "overwrite": True,      # 文件已存在时覆盖保存
     },
 ]
 ```
@@ -70,12 +71,13 @@ APIS = [
 | `need_filter` | boolean | 是否需要从批量数据中筛选选手                         |
 | `no_season`   | boolean | 文件名中省略赛季 ID（默认 `False`）                  |
 | `enabled`     | boolean | 是否启用该 API                                       |
+| `overwrite`   | boolean | 文件已存在时是否覆盖保存（默认 `False`）             |
 
 ## 输出文件
 
 ### 固定数据（只采集一次）
 
-- `seasons-list.json` - 赛季列表（无赛季 ID）
+- `seasons-list.json` - 赛季列表（无赛季 ID，每日覆盖更新）
 - `season.{赛季 ID}.json` - 赛季信息
 - `team-members.{赛季 ID}.json` - 战队人员
 

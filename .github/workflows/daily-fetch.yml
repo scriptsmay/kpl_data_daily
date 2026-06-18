@@ -48,7 +48,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "chore: auto fetch kpl data $(date +%Y%m%d)"
+          git commit -m "chore: auto fetch kpl data $(date +%Y%m%d) [skip ci]"
           git push
 
       - name: Report status

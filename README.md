@@ -106,6 +106,31 @@ APIS = [
 
 所有数据文件都会提交到 Git 仓库，长期积累用于后续 AI 分析。
 
+## 发布数据视图
+
+每日抓取完成后会运行 `post_process.py`，生成面向前端和 AI 的稳定读取入口。
+
+### manifest
+
+- `data/manifest.json` - 全量数据文件索引，包含 namespace、season、date、文件路径、SHA-256、大小和更新时间。
+
+### latest
+
+- `data/latest/current-season.json` - 当前赛季唯一权威入口，包含 `schema_version`、`current`、`season_name`、`updated_at`、`build_id`。
+- `data/latest/seasons-list.json` - 最新赛季列表。
+- `data/latest/{season}/{namespace}.json` - 当前赛季各模块最新数据，文件名去掉日期后缀并覆盖更新。
+
+### derived
+
+- `data/derived/{season}/overview.json` - 职业概览、赛季摘要、近期比赛。
+- `data/derived/{season}/abilities.json` - 能力画像页数据。
+- `data/derived/{season}/ranking.json` - 联盟排名页数据。
+- `data/derived/{season}/heroes.json` - 英雄池页聚合数据。
+- `data/derived/{season}/win-lose.json` - 胜负对比页数据。
+- `data/derived/{season}/insights.json` - 规则生成的轻量洞察，后续可接入 AI 生成文案。
+
+所有 derived 文件均包含 `schema_version`、`season`、`generated_at`、`build_id`，消费端必须用这些字段校验数据版本和发布批次。
+
 ## 请求配置
 
 ### 请求间隔

@@ -25,6 +25,7 @@ from src.crawler.config import (
 )
 from src.crawler.fetcher import KPLCrawler
 from src.storage.saver import KPLStorage
+from post_process import run as run_post_process
 
 
 def get_latest_season(crawler: KPLCrawler) -> Optional[Dict]:
@@ -378,6 +379,12 @@ def run() -> int:
     print(f"战队名：{target_team_name}")
     print(f"选手：{target_player_name}")
     print("=" * 50)
+
+    try:
+        print("\n[STEP 3] 生成 latest / manifest / derived")
+        run_post_process()
+    except Exception as e:
+        print(f"[ERROR] 数据后处理失败: {e}")
 
     # 只要有成功的数据就返回 0，让后续步骤继续
     return 0 if success_count > 0 or skip_count > 0 else 1

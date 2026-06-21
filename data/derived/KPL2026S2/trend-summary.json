@@ -1,75 +1,104 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-06-21T16:53:33+08:00",
-  "build_id": "20260621T165333+0800",
+  "generated_at": "2026-06-21T18:01:31+08:00",
+  "build_id": "20260621T180131+0800",
   "data": {
-    "snapshots_available": 12,
-    "reference_date": "20260619",
+    "snapshots_available": 22,
+    "reference_date": "20260621",
     "trends": {
       "hero_pool": {
         "3d": {
-          "snapshots": 2,
-          "date_range": "20260618 ~ 20260619",
-          "hero_count_delta": 0,
-          "hero_count_latest": 3,
+          "snapshots": 4,
+          "date_range": "20260618 ~ 20260621",
+          "hero_count_delta": 2,
+          "hero_count_latest": 5,
           "hero_count_oldest": 3,
-          "new_heroes": [],
+          "new_heroes": [
+            "夏洛特",
+            "曹操"
+          ],
           "dropped_heroes": []
         },
         "7d": {
-          "snapshots": 2,
-          "date_range": "20260618 ~ 20260619",
-          "hero_count_delta": 0,
-          "hero_count_latest": 3,
+          "snapshots": 4,
+          "date_range": "20260618 ~ 20260621",
+          "hero_count_delta": 2,
+          "hero_count_latest": 5,
           "hero_count_oldest": 3,
-          "new_heroes": [],
+          "new_heroes": [
+            "夏洛特",
+            "曹操"
+          ],
           "dropped_heroes": []
         },
         "14d": {
-          "snapshots": 2,
-          "date_range": "20260618 ~ 20260619",
-          "hero_count_delta": 0,
-          "hero_count_latest": 3,
+          "snapshots": 4,
+          "date_range": "20260618 ~ 20260621",
+          "hero_count_delta": 2,
+          "hero_count_latest": 5,
           "hero_count_oldest": 3,
-          "new_heroes": [],
+          "new_heroes": [
+            "夏洛特",
+            "曹操"
+          ],
           "dropped_heroes": []
         },
         "30d": {
-          "snapshots": 2,
-          "date_range": "20260618 ~ 20260619",
-          "hero_count_delta": 0,
-          "hero_count_latest": 3,
+          "snapshots": 4,
+          "date_range": "20260618 ~ 20260621",
+          "hero_count_delta": 2,
+          "hero_count_latest": 5,
           "hero_count_oldest": 3,
-          "new_heroes": [],
+          "new_heroes": [
+            "夏洛特",
+            "曹操"
+          ],
           "dropped_heroes": []
         }
       },
       "abilities": {
         "3d": {
-          "snapshots": 3,
-          "date_range": "20260617 ~ 20260619",
-          "deltas": {},
-          "biggest_gain": {},
-          "biggest_drop": {}
+          "snapshots": 4,
+          "date_range": "20260618 ~ 20260621",
+          "deltas": {
+            "damage_output": -3.0,
+            "teamfight": -6.0,
+            "initiation": 14.0,
+            "early_game": 10.0,
+            "mid_game": -7.0,
+            "late_game": 3.0,
+            "map_control": 1.0,
+            "invasion_ability": 4.0,
+            "support_ability": -3.0,
+            "economy": 11.0,
+            "tankiness": 0.0,
+            "durability": -3.0
+          },
+          "biggest_gain": {
+            "initiation": 14.0
+          },
+          "biggest_drop": {
+            "mid_game": -7.0
+          }
         },
         "7d": {
-          "snapshots": 3,
-          "date_range": "20260617 ~ 20260619",
+          "snapshots": 5,
+          "date_range": "20260617 ~ 20260621",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 3,
-          "date_range": "20260617 ~ 20260619",
+          "snapshots": 5,
+          "date_range": "20260617 ~ 20260621",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 3,
-          "date_range": "20260617 ~ 20260619",
+          "snapshots": 5,
+          "date_range": "20260617 ~ 20260621",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
@@ -77,29 +106,58 @@
       },
       "ranking": {
         "3d": {
-          "snapshots": 3,
-          "date_range": "20260617 ~ 20260619",
-          "deltas": {},
-          "biggest_rise": {},
-          "biggest_drop": {}
+          "snapshots": 4,
+          "date_range": "20260618 ~ 20260621",
+          "deltas": {
+            "damage_per_minute": {
+              "abs": -303.0,
+              "pct": -7.0
+            },
+            "damage_taken_per_minute": {
+              "abs": -986.0,
+              "pct": -12.5
+            },
+            "economy_per_minute": {
+              "abs": -10.0,
+              "pct": -1.4
+            },
+            "avg_kill_participation": {
+              "abs": -16.7,
+              "pct": -23.9
+            },
+            "damage_share": {
+              "abs": 0.1,
+              "pct": 0.6
+            },
+            "damage_taken_share": {
+              "abs": -2.9,
+              "pct": -10.0
+            }
+          },
+          "biggest_rise": {
+            "damage_share": 0.10000000000000142
+          },
+          "biggest_drop": {
+            "damage_taken_per_minute": -986.0
+          }
         },
         "7d": {
-          "snapshots": 3,
-          "date_range": "20260617 ~ 20260619",
+          "snapshots": 5,
+          "date_range": "20260617 ~ 20260621",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 3,
-          "date_range": "20260617 ~ 20260619",
+          "snapshots": 5,
+          "date_range": "20260617 ~ 20260621",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 3,
-          "date_range": "20260617 ~ 20260619",
+          "snapshots": 5,
+          "date_range": "20260617 ~ 20260621",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}

@@ -1,65 +1,60 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-06-21T16:53:33+08:00",
-  "build_id": "20260621T165333+0800",
+  "generated_at": "2026-06-21T18:01:31+08:00",
+  "build_id": "20260621T180131+0800",
   "data": {
-    "headline": "当前更适合观察无言的上场机会和英雄池扩展",
-    "summary": "本赛季 3 局，生涯累计 117 局。基于有限样本，更适合观察英雄池扩展和队伍角色测试，不宜直接做稳定强弱判断。",
+    "headline": "无言本赛季 7 局，使用 5 个英雄",
+    "summary": "生涯累计 121 局。本赛季英雄池覆盖 5 个英雄，能力评分 92.9。",
     "growth_stage": "机会积累期",
     "sections": [
       {
         "id": "hero_pool",
         "title": "英雄池成熟度",
-        "summary": "当前样本中英雄池覆盖 3 个英雄，英雄使用相对分散。",
-        "conclusion_type": "signal",
-        "confidence": "low",
-        "sample_size": 3,
+        "summary": "当前样本中英雄池覆盖 5 个英雄，英雄使用相对分散。",
+        "conclusion_type": "fact",
+        "confidence": "medium",
+        "sample_size": 7,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季使用 3 个英雄，共 3 局",
-          "尝试层级英雄 3 个",
-          "英雄使用较为分散（HHI=0.33）"
+          "本赛季使用 5 个英雄，共 7 局",
+          "尝试层级英雄 5 个",
+          "英雄使用较为分散（HHI=0.22）"
         ],
-        "risk_notes": [
-          "本赛季仅 3 局，英雄池评估受样本量限制"
-        ]
+        "risk_notes": []
       },
       {
         "id": "growth_path",
         "title": "成长路径观察",
-        "summary": "本赛季仅 3 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断。",
+        "summary": "本赛季仅 7 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断。",
         "conclusion_type": "signal",
-        "confidence": "low",
-        "sample_size": 3,
+        "confidence": "medium",
+        "sample_size": 7,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季仅 3 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断。",
-          "已记录 10 个成长节点",
-          "正在观察 8 个能力维度"
+          "本赛季仅 7 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断。",
+          "已记录 12 个成长节点",
+          "已出现 12 个能力信号"
         ],
         "risk_notes": [
-          "本赛季仅 3 局，所有趋势仅作为成长观察",
-          "胜率不单独作为评价依据",
-          "英雄池仅覆盖 3 个英雄，角色定位仍在测试中"
+          "胜率不单独作为评价依据"
         ]
       },
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 91.18，位置排名第 1。",
+        "summary": "当前能力评分 92.9，位置排名第 1。",
         "conclusion_type": "signal",
-        "confidence": "low",
-        "sample_size": 3,
+        "confidence": "medium",
+        "sample_size": 7,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
           "位置排名：第 1 名",
-          "总排名：第 2 名",
-          "高于同位置均值维度：11 个",
-          "低于同位置均值维度：1 个"
+          "总排名：第 1 名",
+          "高于同位置均值维度：12 个"
         ],
         "risk_notes": [
           "能力信号需要随更多上场样本持续验证"
@@ -68,40 +63,37 @@
       {
         "id": "ranking",
         "title": "联盟排名",
-        "summary": "排名前列指标共 6 项：KDA、分均伤害、分均承伤、分均经济、野怪击杀、承伤占比",
+        "summary": "排名前列指标共 3 项：KDA、分均承伤、野怪击杀",
         "conclusion_type": "fact",
-        "confidence": "low",
-        "sample_size": 3,
+        "confidence": "medium",
+        "sample_size": 7,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "排名前列指标：KDA、分均伤害、分均承伤、分均经济、野怪击杀、承伤占比",
-          "KDA：排名第 1（8.67）",
-          "分均伤害：排名第 3（4313.0）",
-          "分均承伤：排名第 2（7861.0）",
-          "分均经济：排名第 3（702.0）",
-          "参团率：排名第 4（69.9）"
+          "排名前列指标：KDA、分均承伤、野怪击杀",
+          "KDA：排名第 2（6.14）",
+          "分均伤害：排名第 7（4010.0）",
+          "分均承伤：排名第 1（6875.0）",
+          "分均经济：排名第 5（692.0）",
+          "参团率：排名第 15（53.2）"
         ],
-        "risk_notes": [
-          "排名数据受赛季初期样本量影响较大"
-        ]
+        "risk_notes": []
       },
       {
         "id": "win_lose",
         "title": "胜负差异",
-        "summary": "胜局和败局的过程指标差异，暂无败局数据可做对比。",
-        "conclusion_type": "fact",
-        "confidence": "low",
-        "sample_size": 3,
+        "summary": "胜局和败局的过程指标差异。",
+        "conclusion_type": "signal",
+        "confidence": "medium",
+        "sample_size": 7,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "胜局平均 KDA: 8.67",
-          "本赛季暂无败局数据"
+          "胜局平均 KDA: 12.0",
+          "败局平均 KDA: 1.75",
+          "败局低位指标：KDA 偏低、分均伤害偏低、场均死亡偏高"
         ],
-        "risk_notes": [
-          "本赛季暂无败局样本，胜负差异无法计算"
-        ]
+        "risk_notes": []
       }
     ],
     "updated_reason": "daily_fetch",

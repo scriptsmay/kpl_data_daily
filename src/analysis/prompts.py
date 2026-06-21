@@ -99,7 +99,23 @@ def _format_hero_pool(metrics: Dict[str, Any]) -> str:
         lines.append(f"- 英雄明细：")
         for h in heroes[:10]:
             wr = f"{h['win_rate']}%" if h.get("win_rate") is not None else "-"
-            lines.append(f"  - {h['hero_name']}：出场 {h['total_matches']} 局，胜率 {wr}，成熟度 {h['maturity']}")
+            maturity_label = {
+                "core": "核心",
+                "rotation": "轮换观察",
+                "trial": "尝试样本",
+                "watch_only": "待观察",
+            }.get(h.get("maturity"), h.get("maturity", "-"))
+            historical = h.get("historical_usage") or {}
+            history_text = ""
+            if historical:
+                history_text = (
+                    f"，历史 {historical.get('prior_seasons', 0)} 个赛季、"
+                    f"{historical.get('prior_matches', 0)} 局"
+                )
+            lines.append(
+                f"  - {h['hero_name']}：出场 {h['total_matches']} 局，"
+                f"胜率 {wr}，成熟度 {maturity_label}{history_text}"
+            )
 
     return "\n".join(lines)
 

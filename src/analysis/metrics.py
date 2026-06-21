@@ -119,14 +119,17 @@ def compute_hero_pool(
     hero_list = []
     for h in classified:
         wr = h.get("win_rate")
-        hero_list.append({
+        hero_item = {
             "hero_name": h.get("hero_name", ""),
             "hero_id": h.get("hero_id", ""),
             "total_matches": h.get("total_matches", 0),
             "win_matches": h.get("win_matches", 0),
             "win_rate": _safe_float(str(wr).replace("%", "")) if wr else None,
             "maturity": h.get("maturity", "trial"),
-        })
+        }
+        if h.get("historical_usage"):
+            hero_item["historical_usage"] = h["historical_usage"]
+        hero_list.append(hero_item)
 
     # Sort by total_matches descending
     hero_list.sort(key=lambda x: x["total_matches"], reverse=True)

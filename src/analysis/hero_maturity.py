@@ -1,12 +1,14 @@
 """Classify hero usage maturity based on appearance frequency.
 
 Maturity levels:
-  core       - Same season >= 5 games, or cross-season with recent usage
+  core       - Same season >= 5 games
   rotation   - 3-4 games in current season
   trial      - 1-2 games in current season
   watch_only - Historical low-frequency or incomplete sample
 
 Win rate is NOT used for classification. It is kept as an attached field only.
+Cross-season usage is supplementary context and does not affect current-season
+maturity.
 """
 
 from typing import Any, Dict, List, Optional

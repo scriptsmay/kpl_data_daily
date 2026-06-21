@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "season": "KPL2026S2",
+  "generated_at": "2026-06-21T16:53:33+08:00",
+  "build_id": "20260621T165333+0800",
+  "data": {
+    "snapshots_available": 12,
+    "reference_date": "20260619",
+    "trends": {
+      "hero_pool": {
+        "3d": {
+          "snapshots": 2,
+          "date_range": "20260618 ~ 20260619",
+          "hero_count_delta": 0,
+          "hero_count_latest": 3,
+          "hero_count_oldest": 3,
+          "new_heroes": [],
+          "dropped_heroes": []
+        },
+        "7d": {
+          "snapshots": 2,
+          "date_range": "20260618 ~ 20260619",
+          "hero_count_delta": 0,
+          "hero_count_latest": 3,
+          "hero_count_oldest": 3,
+          "new_heroes": [],
+          "dropped_heroes": []
+        },
+        "14d": {
+          "snapshots": 2,
+          "date_range": "20260618 ~ 20260619",
+          "hero_count_delta": 0,
+          "hero_count_latest": 3,
+          "hero_count_oldest": 3,
+          "new_heroes": [],
+          "dropped_heroes": []
+        },
+        "30d": {
+          "snapshots": 2,
+          "date_range": "20260618 ~ 20260619",
+          "hero_count_delta": 0,
+          "hero_count_latest": 3,
+          "hero_count_oldest": 3,
+          "new_heroes": [],
+          "dropped_heroes": []
+        }
+      },
+      "abilities": {
+        "3d": {
+          "snapshots": 3,
+          "date_range": "20260617 ~ 20260619",
+          "deltas": {},
+          "biggest_gain": {},
+          "biggest_drop": {}
+        },
+        "7d": {
+          "snapshots": 3,
+          "date_range": "20260617 ~ 20260619",
+          "deltas": {},
+          "biggest_gain": {},
+          "biggest_drop": {}
+        },
+        "14d": {
+          "snapshots": 3,
+          "date_range": "20260617 ~ 20260619",
+          "deltas": {},
+          "biggest_gain": {},
+          "biggest_drop": {}
+        },
+        "30d": {
+          "snapshots": 3,
+          "date_range": "20260617 ~ 20260619",
+          "deltas": {},
+          "biggest_gain": {},
+          "biggest_drop": {}
+        }
+      },
+      "ranking": {
+        "3d": {
+          "snapshots": 3,
+          "date_range": "20260617 ~ 20260619",
+          "deltas": {},
+          "biggest_rise": {},
+          "biggest_drop": {}
+        },
+        "7d": {
+          "snapshots": 3,
+          "date_range": "20260617 ~ 20260619",
+          "deltas": {},
+          "biggest_rise": {},
+          "biggest_drop": {}
+        },
+        "14d": {
+          "snapshots": 3,
+          "date_range": "20260617 ~ 20260619",
+          "deltas": {},
+          "biggest_rise": {},
+          "biggest_drop": {}
+        },
+        "30d": {
+          "snapshots": 3,
+          "date_range": "20260617 ~ 20260619",
+          "deltas": {},
+          "biggest_rise": {},
+          "biggest_drop": {}
+        }
+      }
+    },
+    "anomalies": []
+  }
+}

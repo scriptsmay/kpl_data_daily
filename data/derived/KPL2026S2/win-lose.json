@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-06-21T18:01:31+08:00",
-  "build_id": "20260621T180131+0800",
+  "generated_at": "2026-06-22T06:40:54+00:00",
+  "build_id": "20260622T064054+0000",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 33.33,
@@ -78,7 +78,7 @@
       "damage_10min_per_minute": 2104.0,
       "damage_per_minute": 4437.0,
       "damage_taken_per_minute": 7811.0,
-      "data_version": "v20260620_231038",
+      "data_version": "v20260621_231027",
       "economy_10min_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -121,7 +121,7 @@
         "关羽"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-06-20 15:10:39",
+      "last_updated": "2026-06-21 15:10:28",
       "match_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -286,7 +286,7 @@
       "damage_10min_per_minute": 1399.0,
       "damage_per_minute": 3338.0,
       "damage_taken_per_minute": 5399.0,
-      "data_version": "v20260620_231040",
+      "data_version": "v20260621_231029",
       "economy_10min_details": [
         {
           "battle_id": "1781872932_501236240_6",
@@ -316,12 +316,12 @@
       "economy_10min_per_minute": 728.0,
       "gold_per_minute": 661.0,
       "heroes_used": [
-        "关羽",
         "曹操",
-        "夏洛特"
+        "夏洛特",
+        "关羽"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-06-20 15:10:41",
+      "last_updated": "2026-06-21 15:10:30",
       "lose_matches": 3.0,
       "match_details": [
         {
@@ -493,7 +493,7 @@
           "damage_10min_per_minute": 2104.0,
           "damage_per_minute": 4437.0,
           "damage_taken_per_minute": 7811.0,
-          "data_version": "v20260620_231038",
+          "data_version": "v20260621_231027",
           "economy_10min_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -536,7 +536,7 @@
             "关羽"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-06-20 15:10:39",
+          "last_updated": "2026-06-21 15:10:28",
           "match_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -651,12 +651,12 @@
       },
       "position_avg_economy": {
         "中路": 5536.0,
-        "发育路": 7309.0,
-        "对抗路": 6811.0,
-        "打野": 7094.0,
-        "游走": 4423.0
+        "发育路": 7308.0,
+        "对抗路": 6809.0,
+        "打野": 7096.0,
+        "游走": 4424.0
       },
-      "total_players": 81
+      "total_players": 87
     },
     "lose_source": {
       "code": 200,
@@ -722,7 +722,7 @@
           "damage_10min_per_minute": 1399.0,
           "damage_per_minute": 3338.0,
           "damage_taken_per_minute": 5399.0,
-          "data_version": "v20260620_231040",
+          "data_version": "v20260621_231029",
           "economy_10min_details": [
             {
               "battle_id": "1781872932_501236240_6",
@@ -752,12 +752,12 @@
           "economy_10min_per_minute": 728.0,
           "gold_per_minute": 661.0,
           "heroes_used": [
-            "关羽",
             "曹操",
-            "夏洛特"
+            "夏洛特",
+            "关羽"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-06-20 15:10:41",
+          "last_updated": "2026-06-21 15:10:30",
           "lose_matches": 3.0,
           "match_details": [
             {
@@ -862,7 +862,7 @@
         "season": "KPL2026S2"
       },
       "season": "KPL2026S2",
-      "total_players": 87
+      "total_players": 89
     }
   }
 }

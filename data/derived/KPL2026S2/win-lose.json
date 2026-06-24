@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-06-23T05:14:07+00:00",
-  "build_id": "20260623T051407+0000",
+  "generated_at": "2026-06-24T05:11:30+00:00",
+  "build_id": "20260624T051130+0000",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 33.33,
@@ -78,7 +78,7 @@
       "damage_10min_per_minute": 2104.0,
       "damage_per_minute": 4437.0,
       "damage_taken_per_minute": 7811.0,
-      "data_version": "v20260621_231027",
+      "data_version": "v20260624_095509",
       "economy_10min_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -116,12 +116,12 @@
       "economy_10min_per_minute": 627.0,
       "gold_per_minute": 712.0,
       "heroes_used": [
-        "狂铁",
         "马超",
-        "关羽"
+        "关羽",
+        "狂铁"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-06-21 15:10:28",
+      "last_updated": "2026-06-24 01:55:09",
       "match_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -286,7 +286,7 @@
       "damage_10min_per_minute": 1399.0,
       "damage_per_minute": 3338.0,
       "damage_taken_per_minute": 5399.0,
-      "data_version": "v20260621_231029",
+      "data_version": "v20260624_095510",
       "economy_10min_details": [
         {
           "battle_id": "1781872932_501236240_6",
@@ -316,12 +316,12 @@
       "economy_10min_per_minute": 728.0,
       "gold_per_minute": 661.0,
       "heroes_used": [
+        "关羽",
         "曹操",
-        "夏洛特",
-        "关羽"
+        "夏洛特"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-06-21 15:10:30",
+      "last_updated": "2026-06-24 01:55:12",
       "lose_matches": 3.0,
       "match_details": [
         {
@@ -493,7 +493,7 @@
           "damage_10min_per_minute": 2104.0,
           "damage_per_minute": 4437.0,
           "damage_taken_per_minute": 7811.0,
-          "data_version": "v20260621_231027",
+          "data_version": "v20260624_095509",
           "economy_10min_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -531,12 +531,12 @@
           "economy_10min_per_minute": 627.0,
           "gold_per_minute": 712.0,
           "heroes_used": [
-            "狂铁",
             "马超",
-            "关羽"
+            "关羽",
+            "狂铁"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-06-21 15:10:28",
+          "last_updated": "2026-06-24 01:55:09",
           "match_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -722,7 +722,7 @@
           "damage_10min_per_minute": 1399.0,
           "damage_per_minute": 3338.0,
           "damage_taken_per_minute": 5399.0,
-          "data_version": "v20260621_231029",
+          "data_version": "v20260624_095510",
           "economy_10min_details": [
             {
               "battle_id": "1781872932_501236240_6",
@@ -752,12 +752,12 @@
           "economy_10min_per_minute": 728.0,
           "gold_per_minute": 661.0,
           "heroes_used": [
+            "关羽",
             "曹操",
-            "夏洛特",
-            "关羽"
+            "夏洛特"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-06-21 15:10:30",
+          "last_updated": "2026-06-24 01:55:12",
           "lose_matches": 3.0,
           "match_details": [
             {

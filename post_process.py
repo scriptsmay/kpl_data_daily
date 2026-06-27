@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate published data views for frontends and AI analysis."""
 
+import argparse
 import hashlib
 import json
 import re
@@ -8,6 +9,9 @@ import shutil
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, Optional
+
+from dotenv import load_dotenv
+load_dotenv()
 
 from src.storage.config import DATA_DIR
 from src.analysis.metrics import compute_all as compute_metrics
@@ -19,6 +23,8 @@ SCHEMA_VERSION = 1
 DATA_PATH = Path(DATA_DIR)
 LATEST_PATH = DATA_PATH / "latest"
 DERIVED_PATH = DATA_PATH / "derived"
+SEASONS_PATH = DATA_PATH / "seasons"
+REPORTS_PATH = DATA_PATH.parent / "reports" / "daily"
 DATE_RE = re.compile(r"^(?P<namespace>.+?)\.(?P<season>[A-Z]+[0-9A-Z]*)\.(?P<date>\d{8})\.json$")
 NO_SEASON_DATE_RE = re.compile(r"^(?P<namespace>.+?)\.(?P<date>\d{8})\.json$")
 
@@ -74,7 +80,7 @@ def parse_data_file(path: Path) -> Dict[str, Optional[str]]:
 
 
 def iter_raw_json_files() -> Iterable[Path]:
-    excluded_dirs = {"latest", "derived", "archive", "_reports"}
+    excluded_dirs = {"latest", "derived", "archive", "_reports", "seasons"}
     for path in sorted(DATA_PATH.glob("*.json")):
         if path.parent.name not in excluded_dirs:
             yield path
@@ -180,11 +186,12 @@ def unwrap_data(payload: Any) -> Any:
     return payload
 
 
-def load_latest_payload(namespace: str, season: Optional[str] = None) -> Optional[Any]:
+def load_latest_payload(namespace: str, season: Optional[str] = None, base_path: Optional[Path] = None) -> Optional[Any]:
+    latest = base_path or LATEST_PATH
     if season:
-        path = LATEST_PATH / season / f"{namespace}.json"
+        path = latest / season / f"{namespace}.json"
     else:
-        path = LATEST_PATH / f"{namespace}.json"
+        path = latest / f"{namespace}.json"
     if not path.exists():
         return None
     return load_json(path)
@@ -209,11 +216,17 @@ def first_item(payload: Any) -> Dict[str, Any]:
     return {}
 
 
-def generate_derived(current_season: str, generated_at: str, current_build_id: str) -> Dict[str, Any]:
-    season_dir = DERIVED_PATH / current_season
+def generate_derived(
+    current_season: str,
+    generated_at: str,
+    current_build_id: str,
+    output_dir: Optional[Path] = None,
+    latest_base_path: Optional[Path] = None,
+) -> Dict[str, Any]:
+    season_dir = output_dir or (DERIVED_PATH / current_season)
     season_dir.mkdir(parents=True, exist_ok=True)
 
-    career = load_latest_payload("player-career-wuyan")
+    career = load_latest_payload("player-career-wuyan", base_path=latest_base_path)
     career_data = unwrap_data(career) if career else {}
     overview = {
         "player_info": career_data.get("player_info", {}),
@@ -225,15 +238,15 @@ def generate_derived(current_season: str, generated_at: str, current_build_id: s
     }
     write_json(season_dir / "overview.json", derived_payload(current_season, generated_at, current_build_id, overview))
 
-    abilities = load_latest_payload("player-abilities", current_season) or {}
+    abilities = load_latest_payload("player-abilities", current_season, base_path=latest_base_path) or {}
     write_json(season_dir / "abilities.json", derived_payload(current_season, generated_at, current_build_id, abilities))
 
-    ranking = load_latest_payload("all-player-stats", current_season) or {}
+    ranking = load_latest_payload("all-player-stats", current_season, base_path=latest_base_path) or {}
     write_json(season_dir / "ranking.json", derived_payload(current_season, generated_at, current_build_id, ranking))
 
-    hero_summary = load_latest_payload("player-hero-summary", current_season) or {}
-    hero_battles = load_latest_payload("player-hero-battles", current_season) or {}
-    hero_win_rate = load_latest_payload("hero-win-rate", current_season) or {}
+    hero_summary = load_latest_payload("player-hero-summary", current_season, base_path=latest_base_path) or {}
+    hero_battles = load_latest_payload("player-hero-battles", current_season, base_path=latest_base_path) or {}
+    hero_win_rate = load_latest_payload("hero-win-rate", current_season, base_path=latest_base_path) or {}
     heroes = {
         "summary": unwrap_data(hero_summary) if hero_summary else [],
         "battles": hero_battles.get("heroes", {}) if isinstance(hero_battles, dict) else {},
@@ -241,8 +254,8 @@ def generate_derived(current_season: str, generated_at: str, current_build_id: s
     }
     write_json(season_dir / "heroes.json", derived_payload(current_season, generated_at, current_build_id, heroes))
 
-    win = load_latest_payload("player-win-stats", current_season) or {}
-    lose = load_latest_payload("player-lose-stats", current_season) or {}
+    win = load_latest_payload("player-win-stats", current_season, base_path=latest_base_path) or {}
+    lose = load_latest_payload("player-lose-stats", current_season, base_path=latest_base_path) or {}
     win_lose = {
         "win": first_item(win),
         "lose": first_item(lose),
@@ -568,7 +581,112 @@ def generate_rule_insights(
     }
 
 
-def run() -> Dict[str, Any]:
+def list_available_seasons() -> list:
+    """从 raw data 中扫描所有可用的赛季 ID。"""
+    seasons = set()
+    for path in iter_raw_json_files():
+        info = parse_data_file(path)
+        if info["season"]:
+            seasons.add(info["season"])
+    return sorted(seasons)
+
+
+def _ensure_latest_for_season(season: str, generated_at: str, current_build_id: str) -> Path:
+    """为指定赛季生成 latest 目录数据，返回路径。"""
+    season_base = SEASONS_PATH / season
+    season_latest = season_base / "latest"
+    season_latest.mkdir(parents=True, exist_ok=True)
+
+    namespaces = {
+        info["namespace"]
+        for info in (parse_data_file(p) for p in iter_raw_json_files())
+        if info["season"] == season and info["date"]
+    }
+
+    for namespace in sorted(namespaces):
+        src = latest_file(namespace, season)
+        if src:
+            dst = season_latest / f"{namespace}.json"
+            shutil.copyfile(src, dst)
+
+    # player-career-wuyan 无赛季后缀
+    career = latest_file("player-career-wuyan")
+    if career:
+        dst = season_latest / "player-career-wuyan.json"
+        shutil.copyfile(career, dst)
+
+    print(f"[INFO] latest 数据已准备：{season}（{len(namespaces)} 个命名空间）")
+    return season_latest
+
+
+def generate_season_manifest(
+    season: str, generated_at: str, current_build_id: str,
+    latest_dir: Path, derived_dir: Path,
+) -> None:
+    """生成赛季级 manifest，索引 latest 和 derived 下的所有文件。"""
+    files = []
+    for base, category in [(latest_dir, "latest"), (derived_dir, "derived")]:
+        if not base.exists():
+            continue
+        for path in sorted(base.glob("*.json")):
+            stat = path.stat()
+            files.append({
+                "category": category,
+                "file": path.name,
+                "hash": sha256_file(path),
+                "size": stat.st_size,
+                "mtime": datetime.fromtimestamp(stat.st_mtime, timezone.utc).astimezone().isoformat(timespec="seconds"),
+            })
+
+    manifest = {
+        "schema_version": SCHEMA_VERSION,
+        "season": season,
+        "generated_at": generated_at,
+        "build_id": current_build_id,
+        "file_count": len(files),
+        "files": files,
+    }
+    write_json(SEASONS_PATH / season / "manifest.json", manifest)
+    print(f"[INFO] 赛季 manifest 已生成：{len(files)} 个文件")
+
+
+def _print_artifact_manifest(season: str, season_derived_dir: Optional[Path] = None) -> None:
+    """打印本次 post_process 生成的所有输出产物清单。"""
+    artifacts: list[tuple[str, str]] = []
+
+    # AI 日报
+    today = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d")
+    report_path = REPORTS_PATH / f"{today}.md"
+    if report_path.exists():
+        artifacts.append(("📄 AI 日报", str(report_path)))
+
+    # Derived 目录产物
+    derived_dir = season_derived_dir or (DERIVED_PATH / season)
+    if derived_dir.exists():
+        for path in sorted(derived_dir.glob("*.json")):
+            size_kb = path.stat().st_size / 1024
+            label = path.stem
+            artifacts.append((f"📊 {label}", f"{path}  ({size_kb:.1f} KB)"))
+
+    # 赛季 manifest
+    manifest_path = SEASONS_PATH / season / "manifest.json"
+    if manifest_path.exists():
+        artifacts.append(("📋 赛季 manifest", str(manifest_path)))
+
+    if not artifacts:
+        print("[INFO] 本次运行未生成输出产物")
+        return
+
+    print(f"\n{'='*60}")
+    print(f"📦 输出产物清单  season={season}")
+    print(f"{'='*60}")
+    for icon_label, detail in artifacts:
+        print(f"  {icon_label:<20s}  {detail}")
+    print(f"{'='*60}")
+    print(f"  共 {len(artifacts)} 个产物\n")
+
+
+def run(season_override: Optional[str] = None) -> Dict[str, Any]:
     generated_at = now_iso()
     current_build_id = build_id()
     current_info = get_current_season()
@@ -576,33 +694,57 @@ def run() -> Dict[str, Any]:
     if not current_season:
         raise RuntimeError("无法从 seasons-list 获取当前赛季")
 
-    generate_manifest(generated_at, current_build_id)
-    generate_latest(current_season, current_info, generated_at, current_build_id)
-    analysis = generate_derived(current_season, generated_at, current_build_id)
+    target_season = season_override or current_season
+    if season_override:
+        print(f"[INFO] 指定赛季模式：{target_season}（输出到 data/seasons/{target_season}/）")
+    else:
+        generate_manifest(generated_at, current_build_id)
+        generate_latest(current_season, current_info, generated_at, current_build_id)
+
+    # 历史赛季：输出到 data/seasons/{season}/
+    season_latest_dir: Optional[Path] = None
+    season_derived_dir: Optional[Path] = None
+
+    if season_override:
+        season_latest_dir = _ensure_latest_for_season(target_season, generated_at, current_build_id)
+        season_derived_dir = SEASONS_PATH / target_season / "derived"
+
+    analysis = generate_derived(
+        target_season, generated_at, current_build_id,
+        output_dir=season_derived_dir,
+        latest_base_path=season_latest_dir if season_latest_dir else None,
+    )
 
     metrics = analysis.get("metrics")
     trends = analysis.get("trends")
     growth_path = analysis.get("growth_path")
 
     # P1: AI insights (optional, best-effort)
+    insights_path = (season_derived_dir / "insights.json") if season_derived_dir else (DERIVED_PATH / target_season / "insights.json")
+
     if metrics is None:
         print("[INFO] AI insights skipped: no metrics available")
     else:
         try:
             from src.analysis.ai_insights import generate_ai_insights
-            rule_data = load_json(DERIVED_PATH / current_season / "insights.json")
+            rule_data = load_json(insights_path)
             generate_ai_insights(
-                current_season, metrics, trends, growth_path,
+                target_season, metrics, trends, growth_path,
                 rule_insights=rule_data.get("data") if rule_data else None,
                 generated_at=generated_at,
                 build_id=current_build_id,
+                output_dir=season_derived_dir,
             )
         except ImportError:
             print("[INFO] AI insights skipped: openai not installed")
         except Exception as e:
             print(f"[WARN] AI insights failed: {e}")
 
-    summary_parts = [f"season={current_season}", f"build_id={current_build_id}"]
+    # 历史赛季：生成赛季级 manifest
+    if season_override and season_latest_dir and season_derived_dir:
+        generate_season_manifest(target_season, generated_at, current_build_id, season_latest_dir, season_derived_dir)
+
+    summary_parts = [f"season={target_season}", f"build_id={current_build_id}"]
     if metrics:
         hp = metrics.get("hero_pool", {})
         summary_parts.append(f"heroes={hp.get('total_heroes', 0)}")
@@ -612,8 +754,33 @@ def run() -> Dict[str, Any]:
         summary_parts.append(f"stage={growth_path.get('growth_stage', '?')}")
 
     print(f"[INFO] post_process 完成：{', '.join(summary_parts)}")
+
+    # --- 输出产物清单 ---
+    _print_artifact_manifest(target_season, season_derived_dir)
+
     return analysis
 
 
 if __name__ == "__main__":
-    run()
+    parser = argparse.ArgumentParser(description="生成发布数据视图（latest / derived / AI insights）")
+    parser.add_argument(
+        "-s", "--season",
+        help="指定赛季 ID 生成 derived 数据（如 KPL2026S1），输出到 data/seasons/{season}/",
+    )
+    parser.add_argument(
+        "--list-seasons",
+        action="store_true",
+        help="列出所有可用的赛季 ID 并退出",
+    )
+    args = parser.parse_args()
+
+    if args.list_seasons:
+        seasons = list_available_seasons()
+        if seasons:
+            print("可用赛季：")
+            for s in seasons:
+                print(f"  {s}")
+        else:
+            print("未找到任何赛季数据")
+    else:
+        run(season_override=args.season)

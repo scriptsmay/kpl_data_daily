@@ -1,0 +1,10 @@
+[project]
+name = "kpl-data-daily"
+version = "1.0.0"
+description = "KPL 数据每日采集工具"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+]

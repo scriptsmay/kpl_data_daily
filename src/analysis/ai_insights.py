@@ -11,6 +11,7 @@ Configuration via environment variables:
 
 import json
 import os
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Optional
@@ -143,7 +144,14 @@ def generate_daily_report(ai_data: Dict[str, Any], season: str) -> str:
                 lines.append("")
 
     lines.append("---")
-    lines.append(f"*自动生成于 {ai_data.get('generated_at', today)}*")
+    ai_model = ai_data.get("ai_model", "")
+    ai_elapsed = ai_data.get("ai_elapsed_seconds")
+    meta_parts = [f"*自动生成于 {ai_data.get('generated_at', today)}*"]
+    if ai_model:
+        meta_parts.append(f"模型：{ai_model}")
+    if ai_elapsed is not None:
+        meta_parts.append(f"耗时：{ai_elapsed}s")
+    lines.append(" | ".join(meta_parts))
 
     return "\n".join(lines)
 
@@ -160,6 +168,7 @@ def generate_ai_insights(
     rule_insights: Optional[Dict[str, Any]] = None,
     generated_at: Optional[str] = None,
     build_id: Optional[str] = None,
+    output_dir: Optional[Path] = None,
 ) -> Optional[Dict[str, Any]]:
     """Generate AI insights and write output files.
 
@@ -180,8 +189,8 @@ def generate_ai_insights(
         print("[INFO] AI insights skipped: openai package not installed")
         return None
 
-    base_url = os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
-    model = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+    base_url = os.environ.get("OPENAI_BASE_URL") or "https://api.openai.com/v1"
+    model = os.environ.get("OPENAI_MODEL") or "gpt-4o-mini"
 
     # Build prompt
     from src.analysis.prompts import SYSTEM_PROMPT, build_prompt
@@ -191,6 +200,7 @@ def generate_ai_insights(
     client = OpenAI(api_key=api_key, base_url=base_url)
 
     print(f"[INFO] Calling AI: model={model}, base_url={base_url}")
+    t0 = time.monotonic()
     response = client.chat.completions.create(
         model=model,
         messages=[
@@ -199,8 +209,10 @@ def generate_ai_insights(
         ],
         response_format={"type": "json_object"},
         temperature=0.3,
-        timeout=60,
+        timeout=180,
     )
+    elapsed = round(time.monotonic() - t0, 2)
+    print(f"[INFO] AI response received in {elapsed}s")
 
     raw_content = response.choices[0].message.content
     if not raw_content:
@@ -234,10 +246,12 @@ def generate_ai_insights(
         **ai_output,
         "generated_at": final_generated_at,
         "build_id": final_build_id,
+        "ai_elapsed_seconds": elapsed,
+        "ai_model": model,
     }
 
     # Write ai-insights.json
-    season_dir = DERIVED_PATH / season
+    season_dir = output_dir or (DERIVED_PATH / season)
     season_dir.mkdir(parents=True, exist_ok=True)
 
     payload = {
@@ -245,6 +259,8 @@ def generate_ai_insights(
         "season": season,
         "generated_at": final_generated_at,
         "build_id": final_build_id,
+        "ai_elapsed_seconds": elapsed,
+        "ai_model": model,
         "data": ai_data,
     }
     write_path = season_dir / "ai-insights.json"

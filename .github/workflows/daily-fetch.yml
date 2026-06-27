@@ -4,7 +4,22 @@ on:
   schedule:
     # UTC 时间 00:00 (北京时间 08:00)
     - cron: '16 1 * * *'
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      season:
+        description: '指定历史赛季 ID（如 KPL2026S1），留空则只跑当前赛季'
+        required: false
+        type: string
+      publish_historical:
+        description: '是否生成并提交 data/seasons/{season}/'
+        required: false
+        type: boolean
+        default: false
+      dry_run:
+        description: '只生成和校验，不提交'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   fetch:
@@ -28,20 +43,55 @@ jobs:
 
       - name: Fetch data
         id: fetch
-        continue-on-error: true  # 允许失败继续执行后续步骤
+        continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
         run: |
+          # 当前赛季（日常）
           python main.py
+
+          # 历史赛季归档（手动触发时）
+          if [ "${{ inputs.publish_historical }}" == "true" ] && [ -n "${{ inputs.season }}" ]; then
+            echo "::group::Generating historical season ${{ inputs.season }}"
+            python post_process.py -s "${{ inputs.season }}"
+            echo "::endgroup::"
+          fi
           echo "fetch_result=$?" >> $GITHUB_OUTPUT
+
+      - name: Validate historical season files
+        if: inputs.publish_historical == 'true' && inputs.season != ''
+        run: |
+          SEASON="${{ inputs.season }}"
+          MANIFEST="data/seasons/${SEASON}/manifest.json"
+          if [ ! -f "$MANIFEST" ]; then
+            echo "::error::Manifest not found: $MANIFEST"
+            exit 1
+          fi
+          FILE_COUNT=$(python3 -c "import json; m=json.load(open('$MANIFEST')); print(m['file_count'])")
+          echo "Manifest indexes $FILE_COUNT files"
+          if [ "$FILE_COUNT" -lt 5 ]; then
+            echo "::error::Manifest file_count too low: $FILE_COUNT"
+            exit 1
+          fi
+          # Verify key derived files exist
+          for f in abilities ranking heroes win-lose insights; do
+            if [ ! -f "data/seasons/${SEASON}/derived/${f}.json" ]; then
+              echo "::error::Missing derived file: data/seasons/${SEASON}/derived/${f}.json"
+              exit 1
+            fi
+          done
+          echo "✅ Historical season ${SEASON} validation passed (${FILE_COUNT} files)"
 
       - name: Check for changes
         id: changes
         run: |
           git add data/
-          if git diff --staged --quiet; then
+          if [ "${{ inputs.dry_run }}" == "true" ]; then
+            echo "::notice::Dry run — skipping commit"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          elif git diff --staged --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT

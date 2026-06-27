@@ -592,24 +592,33 @@ def list_available_seasons() -> list:
 
 
 def _ensure_latest_for_season(season: str, generated_at: str, current_build_id: str) -> Path:
-    """为指定赛季生成 latest 目录数据，返回路径。"""
+    """为指定赛季生成 latest 目录数据，返回 latest 根路径。
+
+    目录结构与 generate_latest() 一致：
+      latest/{season}/{namespace}.json  — 带赛季后缀的数据
+      latest/player-career-wuyan.json   — 跨赛季通用数据
+    """
     season_base = SEASONS_PATH / season
     season_latest = season_base / "latest"
     season_latest.mkdir(parents=True, exist_ok=True)
 
+    # 带赛季后缀的数据 → latest/{season}/
     namespaces = {
         info["namespace"]
         for info in (parse_data_file(p) for p in iter_raw_json_files())
         if info["season"] == season and info["date"]
     }
 
+    season_subdir = season_latest / season
+    season_subdir.mkdir(parents=True, exist_ok=True)
+
     for namespace in sorted(namespaces):
         src = latest_file(namespace, season)
         if src:
-            dst = season_latest / f"{namespace}.json"
+            dst = season_subdir / f"{namespace}.json"
             shutil.copyfile(src, dst)
 
-    # player-career-wuyan 无赛季后缀
+    # player-career-wuyan 无赛季后缀 → latest/
     career = latest_file("player-career-wuyan")
     if career:
         dst = season_latest / "player-career-wuyan.json"

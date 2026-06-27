@@ -666,8 +666,7 @@ def _print_artifact_manifest(season: str, season_derived_dir: Optional[Path] = N
 
     # AI 日报
     today = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d")
-    report_path = REPORTS_PATH / f"{today}.md"
-    if report_path.exists():
+    for report_path in sorted(REPORTS_PATH.glob(f"{today}*.md")):
         artifacts.append(("📄 AI 日报", str(report_path)))
 
     # Derived 目录产物

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "season": "KPL2026S1",
+  "generated_at": "2026-06-27T17:11:21+08:00",
+  "build_id": "20260627T171121+0800",
+  "file_count": 21,
+  "files": [
+    {
+      "category": "latest",
+      "file": "KPL2026S1/all-player-stats.json",
+      "hash": "358fd8dc3ff425520627e353e87841eaa95a93b6664b145effe6a3bc8dad288e",
+      "size": 6317,
+      "mtime": "2026-06-27T17:11:21+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "KPL2026S1/hero-win-rate.json",
+      "hash": "32e839c52c6adc6d3c578071829f1392d599242b4eebbaa5529867011ed30e8b",
+      "size": 39587,
+      "mtime": "2026-06-27T17:11:21+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "KPL2026S1/player-abilities.json",
+      "hash": "8b7d96895fce74fa6534ccda17fc8f5207017f4b2e652e7b535f9c95e51fbfd1",
+      "size": 3789,
+      "mtime": "2026-06-27T17:11:21+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "KPL2026S1/player-hero-battles.json",
+      "hash": "278c2b3eb77d5faa741b130af354a5e26b74562e0aabed9239e26d38ab9eac03",
+      "size": 873663,
+      "mtime": "2026-06-27T17:11:21+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "KPL2026S1/player-hero-summary.json",
+      "hash": "a8bcdd7f2ace267672174917bd04a397b3a713518ea19f9a94615ad0c7a1dd14",
+      "size": 2742,
+      "mtime": "2026-06-27T17:11:21+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "KPL2026S1/player-lose-stats.json",
+      "hash": "9d33e5d0f3152ab5a40f254cd1d301f7f9859b4564b377d21e3a82bc1c4dfc78",
+      "size": 27572,
+      "mtime": "2026-06-27T17:11:21+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "KPL2026S1/player-stats.json",
+      "hash": "fa37dc2bfcbeb9c9e3099fd41406458cb3fd66f1736b98fccbb68fe4cc400ab1",
+      "size": 5828,
+      "mtime": "2026-06-27T17:11:21+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "KPL2026S1/player-win-stats.json",
+      "hash": "ecea8ba27a0ab5c7a3e2e454816c385ea0900416a1bbc902e9ecf4b8001beb50",
+      "size": 45431,
+      "mtime": "2026-06-27T17:11:21+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "KPL2026S1/season-records.json",
+      "hash": "664e783069ee77b29751a7e50ad0c3568b7f44e2c0f45f45681b6b89c68eb061",
+      "size": 708773,
+      "mtime": "2026-06-27T17:11:21+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "KPL2026S1/team-damage-distribution.json",
+      "hash": "dbd6efa6c70e598198ce55f3e7545a8c76f5d27dc366878a2cc969906ac9c30f",
+      "size": 41414,
+      "mtime": "2026-06-27T17:11:21+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "KPL2026S1/win-affinity-analysis.json",
+      "hash": "ed6e6fac354a7ad46b4d19bc04c14e36895fd55ab0a17606a9cb8fe2bb0fd0aa",
+      "size": 308195,
+      "mtime": "2026-06-27T17:11:22+08:00"
+    },
+    {
+      "category": "latest",
+      "file": "player-career-wuyan.json",
+      "hash": "6d4731748723a1a3fe16874016def6b2b335c9390cbf440102a621747e22ae72",
+      "size": 61596,
+      "mtime": "2026-06-27T17:11:22+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "abilities.json",
+      "hash": "e39786a435fb85d2703278b7393f5a288987198751e486da8324f59b128c0197",
+      "size": 4221,
+      "mtime": "2026-06-27T17:11:22+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "ai-insights.json",
+      "hash": "19b30b5602944eb454cf4f0259d76f95b2eb1168ee341b4322c68974f463d53d",
+      "size": 3755,
+      "mtime": "2026-06-27T17:12:32+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "growth-path.json",
+      "hash": "de95cec50dcc518e721e542ac02cbc6f91e0ba0536a56b3192eafcc5a6e2da3a",
+      "size": 5095,
+      "mtime": "2026-06-27T17:11:22+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "heroes.json",
+      "hash": "8874f7cac0d555c8a830675a0f52109d2bd1d8fceb982a8c8e364cb6b2be77c5",
+      "size": 978255,
+      "mtime": "2026-06-27T17:11:22+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "insights.json",
+      "hash": "861ef30e638e2d71c4156df4f939c65fc91fc5709a3e7047596b03b6b1771040",
+      "size": 3534,
+      "mtime": "2026-06-27T17:11:22+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "overview.json",
+      "hash": "be98e80048c0e8e3011031600a2c858b669e2c48f9a24ceae573cca4f5c5412d",
+      "size": 24896,
+      "mtime": "2026-06-27T17:11:22+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "ranking.json",
+      "hash": "92129810b930d2912d2c33b820c60b1682f03a3f9ced6c0fc4a9f6826da1803a",
+      "size": 6727,
+      "mtime": "2026-06-27T17:11:22+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "trend-summary.json",
+      "hash": "ecc398f45b4488afd3e858c5b9a3592fce265dbc561cba4e4099b235733a1e65",
+      "size": 7775,
+      "mtime": "2026-06-27T17:11:22+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "win-lose.json",
+      "hash": "fdc03fde453fea33043a1639e48d6af375df5e30a3cd63de84977d8a3948a02f",
+      "size": 154905,
+      "mtime": "2026-06-27T17:11:22+08:00"
+    }
+  ]
+}

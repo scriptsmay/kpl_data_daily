@@ -637,11 +637,12 @@ def generate_season_manifest(
     for base, category in [(latest_dir, "latest"), (derived_dir, "derived")]:
         if not base.exists():
             continue
-        for path in sorted(base.glob("*.json")):
+        for path in sorted(base.rglob("*.json")):
             stat = path.stat()
+            rel = path.relative_to(base)
             files.append({
                 "category": category,
-                "file": path.name,
+                "file": str(rel).replace("\\", "/"),
                 "hash": sha256_file(path),
                 "size": stat.st_size,
                 "mtime": datetime.fromtimestamp(stat.st_mtime, timezone.utc).astimezone().isoformat(timespec="seconds"),

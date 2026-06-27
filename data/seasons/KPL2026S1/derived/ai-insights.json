@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "season": "KPL2026S1",
+  "generated_at": "2026-06-27T17:11:21+08:00",
+  "build_id": "20260627T171121+0800",
+  "ai_elapsed_seconds": 70.38,
+  "ai_model": "qwen3.7-max-2026-06-08",
+  "data": {
+    "headline": "无言本赛季英雄池覆盖14个英雄，中期与地图控制能力突出，近期开团能力评分呈上升趋势",
+    "summary": "作为KSG对抗路，无言在稳定轮换期内展现了较深的英雄池与出色的中期节奏能力，但经济转化效率及败局生存表现值得关注。",
+    "growth_stage": "稳定轮换期",
+    "sections": [
+      {
+        "id": "hero_pool",
+        "title": "英雄池深度与结构",
+        "summary": "本赛季使用14个英雄，核心英雄出场相对集中，近期新增元歌以拓展英雄池。",
+        "conclusion_type": "fact",
+        "confidence": "high",
+        "sample_size": 84,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "本赛季共使用14个英雄，总出场84局",
+          "夏洛特出场19局、狂铁13局、关羽10局为核心出场英雄",
+          "近14天内新增使用英雄元歌"
+        ],
+        "risk_notes": []
+      },
+      {
+        "id": "abilities",
+        "title": "能力维度与近期趋势",
+        "summary": "从当前数据看，中期与地图控制能力评分较高，近期开团能力评分呈上升趋势，经济效率指标值得关注。",
+        "conclusion_type": "signal",
+        "confidence": "high",
+        "sample_size": 84,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "中期能力评分99.0，地图控制评分95.0，均高于同位置均值",
+          "近14天开团能力评分增长6.0",
+          "经济效率评分75.0，低于同位置均值"
+        ],
+        "risk_notes": [
+          "能力评分受近期对局对手及战术安排影响，需结合后续比赛观察"
+        ]
+      },
+      {
+        "id": "win_lose",
+        "title": "胜负局过程指标差异",
+        "summary": "样本内呈现胜局KDA与伤害输出较高，败局中死亡次数偏高且承伤增加，败局生存环境值得关注。",
+        "conclusion_type": "signal",
+        "confidence": "high",
+        "sample_size": 84,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "胜局KDA为7.88，败局KDA为1.26",
+          "胜局场均死亡0.94次，败局场均死亡2.7次",
+          "败局分均承伤4934.0，高于胜局的4590.0"
+        ],
+        "risk_notes": [
+          "败局承伤高可能与阵容劣势或被迫接团有关，不直接等同于个人状态问题"
+        ]
+      },
+      {
+        "id": "ranking",
+        "title": "联盟排名与数据趋势",
+        "summary": "当前位置排名前列，但近期分均承伤与分均伤害的联盟排名有所回落，需要结合后续比赛观察。",
+        "conclusion_type": "signal",
+        "confidence": "high",
+        "sample_size": 84,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "综合评分90.56，对抗路位置排名第3",
+          "KDA排名联盟第5，参团率排名第8",
+          "近7天分均承伤排名下降16名，近14天分均伤害排名下降7名"
+        ],
+        "risk_notes": [
+          "排名回落受近期样本对局节奏影响，需关注后续战术重心是否转移"
+        ]
+      }
+    ],
+    "updated_reason": "daily_fetch",
+    "generated_at": "2026-06-27T17:11:21+08:00",
+    "build_id": "20260627T171121+0800",
+    "ai_elapsed_seconds": 70.38,
+    "ai_model": "qwen3.7-max-2026-06-08"
+  }
+}

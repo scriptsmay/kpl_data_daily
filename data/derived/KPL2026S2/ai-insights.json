@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "season": "KPL2026S2",
+  "generated_at": "2026-06-27T20:19:05+08:00",
+  "build_id": "20260627T201905+0800",
+  "ai_elapsed_seconds": 59.79,
+  "ai_model": "qwen3.7-max-2026-06-08",
+  "data": {
+    "headline": "从当前数据看，无言本赛季在有限的上场机会中积极扩展英雄池，且多项核心能力指标暂居对抗路首位。",
+    "summary": "本赛季无言累计出场10局，处于机会积累期。当前样本内英雄使用相对分散，综合评分与KDA等核心数据表现突出，需结合后续比赛观察其英雄池扩展的稳定性。",
+    "growth_stage": "机会积累期",
+    "sections": [
+      {
+        "id": "hero_pool",
+        "title": "英雄池扩展与尝试",
+        "summary": "从当前数据看，本赛季英雄使用相对分散，近期呈现新英雄尝试的增加信号。",
+        "conclusion_type": "signal",
+        "confidence": "medium",
+        "sample_size": 10,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "本赛季10局比赛中使用了7个英雄，集中度（HHI）为0.1600",
+          "近14天内新增了夏洛特、曹操、蒙恬、达摩4个英雄",
+          "狂铁、马超、关羽各出场2局，其余英雄各出场1局"
+        ],
+        "risk_notes": [
+          "当前样本量较小，部分英雄仅出场1次，熟练度与战术适配性仍需后续比赛验证"
+        ]
+      },
+      {
+        "id": "abilities",
+        "title": "多维能力与团战表现",
+        "summary": "当前样本内综合评分位居对抗路首位，开团与团战等维度评分较高，近期团战能力呈现增长信号。",
+        "conclusion_type": "signal",
+        "confidence": "medium",
+        "sample_size": 10,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "综合评分95.23，位置排名第1",
+          "开团、后期、入侵、坦度4个维度评分均达到100.0",
+          "近7天能力趋势中，团战（teamfight）评分最大增长9.0"
+        ],
+        "risk_notes": [
+          "能力评分基于当前10局样本计算，需结合后续更多场次观察其稳定性"
+        ]
+      },
+      {
+        "id": "win_lose",
+        "title": "胜负局过程指标差异",
+        "summary": "样本内胜局与败局在KDA、伤害及承伤等过程指标上呈现出明显的数值差异。",
+        "conclusion_type": "fact",
+        "confidence": "medium",
+        "sample_size": 10,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "胜局KDA为15.75，败局KDA为1.75",
+          "胜局分均伤害4381.0，败局分均伤害3338.0",
+          "胜局分均承伤6371.0，败局分均承伤5399.0"
+        ],
+        "risk_notes": [
+          "胜负差异仅反映当前样本内的过程数据表现，不直接作为个人状态强弱的判断依据"
+        ]
+      },
+      {
+        "id": "ranking",
+        "title": "核心指标联盟排名",
+        "summary": "从当前数据看，多项核心数据排名联盟前列，其中KDA暂居榜首。",
+        "conclusion_type": "fact",
+        "confidence": "medium",
+        "sample_size": 10,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "KDA为8.75，排名第1",
+          "分均伤害4077.0排名第4，分均承伤6088.0排名第5",
+          "分均经济695.0排名第4"
+        ],
+        "risk_notes": [
+          "排名数据基于当前10局样本，随着赛季推进和样本量增加，排名可能发生变动"
+        ]
+      }
+    ],
+    "updated_reason": "daily_fetch",
+    "generated_at": "2026-06-27T20:19:05+08:00",
+    "build_id": "20260627T201905+0800",
+    "ai_elapsed_seconds": 59.79,
+    "ai_model": "qwen3.7-max-2026-06-08"
+  }
+}

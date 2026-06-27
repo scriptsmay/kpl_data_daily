@@ -24,7 +24,7 @@
 
 ## 项目结构
 
-```
+```text
 kpl_data_daily/
 ├── main.py                         # 主程序入口：数据采集
 ├── post_process.py                 # 后处理入口：latest / derived / AI insights

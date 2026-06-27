@@ -29,6 +29,10 @@ jobs:
       - name: Fetch data
         id: fetch
         continue-on-error: true  # 允许失败继续执行后续步骤
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
         run: |
           python main.py
           echo "fetch_result=$?" >> $GITHUB_OUTPUT

@@ -13,6 +13,9 @@ import os
 from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional, Union
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from src.crawler.config import (
     APIS,
     CURRENT_SEASON,

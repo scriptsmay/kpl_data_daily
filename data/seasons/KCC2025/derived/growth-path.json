@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "season": "KCC2025",
+  "generated_at": "2026-06-27T20:22:54+08:00",
+  "build_id": "20260627T202254+0800",
+  "data": {
+    "player": "无言",
+    "growth_stage": "英雄池测试期",
+    "summary": "本赛季 26 局，使用 0 个英雄，队伍正在测试不同英雄和角色定位，英雄池覆盖是核心观察点。",
+    "milestones": [
+      {
+        "type": "first_appear",
+        "date": "2025-12-09",
+        "description": "职业首秀，ID: KSG.无言"
+      },
+      {
+        "type": "season_start",
+        "date": "",
+        "description": "参赛赛季：2025王者荣耀挑战者杯（KCC2025）"
+      },
+      {
+        "type": "season_start",
+        "date": "",
+        "description": "参赛赛季：2026王者荣耀挑战者杯（KCC2026）"
+      },
+      {
+        "type": "season_start",
+        "date": "",
+        "description": "参赛赛季：KPL2026春季赛（KPL2026S1）"
+      },
+      {
+        "type": "season_start",
+        "date": "",
+        "description": "参赛赛季：KPL2026夏季赛（KPL2026S2）"
+      },
+      {
+        "type": "career_milestone",
+        "date": "",
+        "description": "生涯累计 124 局"
+      },
+      {
+        "type": "mvp",
+        "date": "",
+        "description": "生涯累计 17 次 MVP"
+      }
+    ],
+    "hero_path": [
+      {
+        "season": "KCC2025",
+        "battles": 26,
+        "wins": 14,
+        "win_rate": "53.8%"
+      },
+      {
+        "season": "KCC2026",
+        "battles": 4,
+        "wins": 1,
+        "win_rate": "25.0%"
+      },
+      {
+        "season": "KPL2026S1",
+        "battles": 84,
+        "wins": 54,
+        "win_rate": "64.3%"
+      },
+      {
+        "season": "KPL2026S2",
+        "battles": 10,
+        "wins": 7,
+        "win_rate": "70.0%"
+      }
+    ],
+    "role_path": [],
+    "signals": {
+      "observed": [],
+      "watching": [],
+      "insufficient": [
+        "伤害输出（None分）",
+        "团战能力（None分）",
+        "开团能力（None分）",
+        "前期能力（None分）",
+        "中期能力（None分）",
+        "后期能力（None分）",
+        "地图控制（None分）",
+        "入侵能力（None分）",
+        "支援能力（None分）",
+        "经济效率（None分）",
+        "坦度（None分）",
+        "生存能力（None分）"
+      ]
+    },
+    "risk_notes": [
+      "胜率不单独作为评价依据",
+      "英雄池仅覆盖 0 个英雄，角色定位仍在测试中"
+    ]
+  }
+}

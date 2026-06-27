@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "season": "KCC2026",
+  "generated_at": "2026-06-27T20:16:44+08:00",
+  "build_id": "20260627T201644+0800",
+  "ai_elapsed_seconds": 61.09,
+  "ai_model": "qwen3.7-max-2026-06-08",
+  "data": {
+    "headline": "本赛季上场机会有限，当前更适合观察无言的英雄池扩展与队伍角色测试",
+    "summary": "无言本赛季仅出场 4 局，生涯已有 124 局积累。基于当前有限的赛季样本，重点在于观察其上场机会与英雄池变化，暂不具备进行稳定强弱判断的数据基础。",
+    "growth_stage": "机会积累期",
+    "sections": [
+      {
+        "id": "growth_path",
+        "title": "成长路径与上场机会",
+        "summary": "本赛季上场局数较少，当前仍处于机会积累阶段，但生涯已有较丰富的比赛经验。",
+        "conclusion_type": "signal",
+        "confidence": "low",
+        "sample_size": 4,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "本赛季仅 4 局上场",
+          "生涯累计 124 局",
+          "生涯累计 17 次 MVP"
+        ],
+        "risk_notes": [
+          "本赛季仅 4 局，所有趋势仅作为成长观察",
+          "样本量较低，不宜直接做稳定强弱判断"
+        ]
+      },
+      {
+        "id": "hero_pool",
+        "title": "英雄池扩展与角色定位",
+        "summary": "当前赛季样本中尚未记录到具体英雄使用情况，角色定位仍在测试与观察中。",
+        "conclusion_type": "fact",
+        "confidence": "low",
+        "sample_size": 0,
+        "sample_unit": "heroes",
+        "sample_scope": "current_season",
+        "evidence": [
+          "英雄总数：0",
+          "30d 英雄数量变化：+0"
+        ],
+        "risk_notes": [
+          "英雄池仅覆盖 0 个英雄，角色定位仍在测试中",
+          "数据可能因统计延迟或未记录导致不完整"
+        ]
+      },
+      {
+        "id": "abilities",
+        "title": "能力画像与过程指标",
+        "summary": "当前赛季样本内暂无综合评分与排名数据，且缺乏败局对比，能力信号尚待后续比赛积累。",
+        "conclusion_type": "fact",
+        "confidence": "low",
+        "sample_size": 4,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "综合评分：-",
+          "总排名：第 - 名",
+          "有败局数据：否"
+        ],
+        "risk_notes": [
+          "样本量低且数据不完整，无法进行能力趋势分析",
+          "胜率不单独作为评价依据"
+        ]
+      }
+    ],
+    "updated_reason": "daily_fetch",
+    "generated_at": "2026-06-27T20:16:44+08:00",
+    "build_id": "20260627T201644+0800",
+    "ai_elapsed_seconds": 61.09,
+    "ai_model": "qwen3.7-max-2026-06-08"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "season": "KCC2025",
+  "generated_at": "2026-06-27T20:22:54+08:00",
+  "build_id": "20260627T202254+0800",
+  "file_count": 10,
+  "files": [
+    {
+      "category": "latest",
+      "file": "player-career-wuyan.json",
+      "hash": "6d4731748723a1a3fe16874016def6b2b335c9390cbf440102a621747e22ae72",
+      "size": 61596,
+      "mtime": "2026-06-27T20:22:54+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "abilities.json",
+      "hash": "bb326cf80b537bd915d69f57f27a746782b119c6790dab9d5894cc063529014a",
+      "size": 148,
+      "mtime": "2026-06-27T20:22:54+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "ai-insights.json",
+      "hash": "cb7dc39e41fee8e98f82ff9623a109c9b68ddf054e987ba65c0c7b8e14d55d96",
+      "size": 2939,
+      "mtime": "2026-06-27T20:23:59+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "growth-path.json",
+      "hash": "d46ed1fe868160ef2e0c87a8d42e74e8b8a51e2c62ac2321029d7a9fe9a3534e",
+      "size": 2522,
+      "mtime": "2026-06-27T20:22:54+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "heroes.json",
+      "hash": "adfe2b8ba00ef0a687033e612013d12693a59cd4d92ee63747afdf9729f9839a",
+      "size": 215,
+      "mtime": "2026-06-27T20:22:54+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "insights.json",
+      "hash": "17d182f8c91dd328b50d72f7f75509d1ce4f22558dfd623a3084a642ac8cbdab",
+      "size": 2863,
+      "mtime": "2026-06-27T20:22:54+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "overview.json",
+      "hash": "38a5f149cc53ec86c1524a134ccddc8ea1cc49ca031d637be14a0c8313850fce",
+      "size": 24894,
+      "mtime": "2026-06-27T20:22:54+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "ranking.json",
+      "hash": "bb326cf80b537bd915d69f57f27a746782b119c6790dab9d5894cc063529014a",
+      "size": 148,
+      "mtime": "2026-06-27T20:22:54+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "trend-summary.json",
+      "hash": "fddd90de32a52ea81f21465c08ae39c94d420da029948c8b6f177b883903d94b",
+      "size": 219,
+      "mtime": "2026-06-27T20:22:54+08:00"
+    },
+    {
+      "category": "derived",
+      "file": "win-lose.json",
+      "hash": "8048d226b08bc5ddbfa6b861bbac5f85c36dd546d626121bf94ec8ecc639917b",
+      "size": 226,
+      "mtime": "2026-06-27T20:22:54+08:00"
+    }
+  ]
+}

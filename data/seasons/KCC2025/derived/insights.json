@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "season": "KCC2025",
+  "generated_at": "2026-06-27T20:22:54+08:00",
+  "build_id": "20260627T202254+0800",
+  "data": {
+    "headline": "无言本赛季 26 局，使用 0 个英雄",
+    "summary": "生涯累计 124 局。本赛季英雄池覆盖 0 个英雄，能力评分 -。",
+    "growth_stage": "英雄池测试期",
+    "sections": [
+      {
+        "id": "hero_pool",
+        "title": "英雄池成熟度",
+        "summary": "当前样本中英雄池覆盖 0 个英雄，",
+        "conclusion_type": "fact",
+        "confidence": "high",
+        "sample_size": 26,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [],
+        "risk_notes": []
+      },
+      {
+        "id": "growth_path",
+        "title": "成长路径观察",
+        "summary": "本赛季 26 局，使用 0 个英雄，队伍正在测试不同英雄和角色定位，英雄池覆盖是核心观察点。",
+        "conclusion_type": "signal",
+        "confidence": "high",
+        "sample_size": 26,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "本赛季 26 局，使用 0 个英雄，队伍正在测试不同英雄和角色定位，英雄池覆盖是核心观察点。",
+          "已记录 7 个成长节点"
+        ],
+        "risk_notes": [
+          "胜率不单独作为评价依据",
+          "英雄池仅覆盖 0 个英雄，角色定位仍在测试中"
+        ]
+      },
+      {
+        "id": "abilities",
+        "title": "能力信号",
+        "summary": "当前能力评分 -，",
+        "conclusion_type": "hypothesis",
+        "confidence": "high",
+        "sample_size": 26,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [],
+        "risk_notes": []
+      },
+      {
+        "id": "ranking",
+        "title": "联盟排名",
+        "summary": "排名前列指标共 0 项。",
+        "conclusion_type": "fact",
+        "confidence": "high",
+        "sample_size": 26,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [],
+        "risk_notes": []
+      },
+      {
+        "id": "win_lose",
+        "title": "胜负差异",
+        "summary": "胜局和败局的过程指标差异，暂无败局数据可做对比。",
+        "conclusion_type": "fact",
+        "confidence": "high",
+        "sample_size": 26,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "本赛季暂无败局数据"
+        ],
+        "risk_notes": [
+          "本赛季暂无败局样本，胜负差异无法计算"
+        ]
+      }
+    ],
+    "updated_reason": "daily_fetch",
+    "risk_notes": [
+      "自动规则生成，仅供前端展示和人工复核，不作为最终赛训结论"
+    ]
+  }
+}

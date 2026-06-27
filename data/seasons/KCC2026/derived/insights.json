@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "season": "KCC2026",
+  "generated_at": "2026-06-27T20:16:44+08:00",
+  "build_id": "20260627T201644+0800",
+  "data": {
+    "headline": "当前更适合观察无言的上场机会和英雄池扩展",
+    "summary": "本赛季 4 局，生涯累计 124 局。基于有限样本，更适合观察英雄池扩展和队伍角色测试，不宜直接做稳定强弱判断。",
+    "growth_stage": "机会积累期",
+    "sections": [
+      {
+        "id": "hero_pool",
+        "title": "英雄池成熟度",
+        "summary": "当前样本中英雄池覆盖 0 个英雄，",
+        "conclusion_type": "signal",
+        "confidence": "low",
+        "sample_size": 4,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [],
+        "risk_notes": [
+          "本赛季仅 4 局，英雄池评估受样本量限制"
+        ]
+      },
+      {
+        "id": "growth_path",
+        "title": "成长路径观察",
+        "summary": "本赛季仅 4 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断。",
+        "conclusion_type": "signal",
+        "confidence": "low",
+        "sample_size": 4,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "本赛季仅 4 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断。",
+          "已记录 7 个成长节点"
+        ],
+        "risk_notes": [
+          "本赛季仅 4 局，所有趋势仅作为成长观察",
+          "胜率不单独作为评价依据",
+          "英雄池仅覆盖 0 个英雄，角色定位仍在测试中"
+        ]
+      },
+      {
+        "id": "abilities",
+        "title": "能力信号",
+        "summary": "当前能力评分 -，",
+        "conclusion_type": "signal",
+        "confidence": "low",
+        "sample_size": 4,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [],
+        "risk_notes": [
+          "能力信号需要随更多上场样本持续验证"
+        ]
+      },
+      {
+        "id": "ranking",
+        "title": "联盟排名",
+        "summary": "排名前列指标共 0 项。",
+        "conclusion_type": "fact",
+        "confidence": "low",
+        "sample_size": 4,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [],
+        "risk_notes": [
+          "排名数据受赛季初期样本量影响较大"
+        ]
+      },
+      {
+        "id": "win_lose",
+        "title": "胜负差异",
+        "summary": "胜局和败局的过程指标差异，暂无败局数据可做对比。",
+        "conclusion_type": "fact",
+        "confidence": "low",
+        "sample_size": 4,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "本赛季暂无败局数据"
+        ],
+        "risk_notes": [
+          "本赛季暂无败局样本，胜负差异无法计算"
+        ]
+      }
+    ],
+    "updated_reason": "daily_fetch",
+    "risk_notes": [
+      "自动规则生成，仅供前端展示和人工复核，不作为最终赛训结论"
+    ]
+  }
+}

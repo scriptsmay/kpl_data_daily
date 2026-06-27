@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "season": "KCC2026",
+  "generated_at": "2026-06-27T20:16:44+08:00",
+  "build_id": "20260627T201644+0800",
+  "data": {
+    "win": {},
+    "lose": {},
+    "win_source": {
+      "code": 200,
+      "data": [],
+      "data_source": "player_win_stats table",
+      "description": "选手获胜数据统计（来源：预计算表，性能优化版本）",
+      "filters": {
+        "limit": 0,
+        "min_wins": 0,
+        "player_name": null,
+        "season": "KCC2026"
+      },
+      "position_avg_economy": {
+        "中路": 5526.0,
+        "发育路": 7308.0,
+        "对抗路": 6810.0,
+        "打野": 7078.0,
+        "游走": 4403.0
+      },
+      "total_players": 15
+    },
+    "lose_source": {
+      "code": 200,
+      "data": [],
+      "data_source": "player_lose_stats table",
+      "description": "选手失败数据统计 (赛季: KCC2026)",
+      "filters": {
+        "limit": 0,
+        "min_loses": 0,
+        "player_name": null,
+        "season": "KCC2026"
+      },
+      "season": "KCC2026",
+      "total_players": 15
+    }
+  }
+}

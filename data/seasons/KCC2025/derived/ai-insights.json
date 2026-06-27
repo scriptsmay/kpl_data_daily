@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "season": "KCC2025",
+  "generated_at": "2026-06-27T20:22:54+08:00",
+  "build_id": "20260627T202254+0800",
+  "ai_elapsed_seconds": 64.02,
+  "ai_model": "qwen3.7-max-2026-06-08",
+  "data": {
+    "headline": "无言本赛季出场26局但英雄池记录为空，当前处于英雄池测试期，需关注后续角色定位的明确",
+    "summary": "从当前数据看，无言生涯累计124局并获17次MVP，但本赛季26局比赛中英雄池覆盖为0，各项能力评分暂无数据，队伍仍在测试其角色定位。",
+    "growth_stage": "英雄池测试期",
+    "sections": [
+      {
+        "id": "hero_pool",
+        "title": "英雄池覆盖与集中度",
+        "summary": "本赛季英雄池记录为空，角色定位仍在测试中，需结合后续比赛观察其英雄选择。",
+        "conclusion_type": "fact",
+        "confidence": "low",
+        "sample_size": 0,
+        "sample_unit": "heroes",
+        "sample_scope": "current_season",
+        "evidence": [
+          "本赛季英雄池覆盖 0 个英雄",
+          "英雄集中度（HHI）为 0.0000"
+        ],
+        "risk_notes": [
+          "英雄池仅覆盖 0 个英雄，角色定位仍在测试中",
+          "样本量极低，无法进行英雄池深度分析"
+        ]
+      },
+      {
+        "id": "growth_path",
+        "title": "成长路径与赛事履历",
+        "summary": "无言已积累一定的职业赛事经验，生涯累计124局并获得17次MVP，当前赛季出场26局。",
+        "conclusion_type": "fact",
+        "confidence": "high",
+        "sample_size": 124,
+        "sample_unit": "games",
+        "sample_scope": "career",
+        "evidence": [
+          "生涯累计 124 局",
+          "生涯累计 17 次 MVP",
+          "本赛季 26 局"
+        ],
+        "risk_notes": [
+          "本赛季26局但英雄记录为0，可能存在数据记录延迟或缺失"
+        ]
+      },
+      {
+        "id": "abilities",
+        "title": "能力画像与过程指标",
+        "summary": "当前各项能力评分及过程指标均无数据，暂无联盟排名，需等待更多有效对局数据以评估其竞技状态。",
+        "conclusion_type": "fact",
+        "confidence": "low",
+        "sample_size": 0,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "综合评分为 -",
+          "伤害输出、团战能力、开团能力、前期能力、中期能力均为 None分",
+          "总排名和位置排名均为第 - 名"
+        ],
+        "risk_notes": [
+          "数据不完整，无法评估具体能力倾向",
+          "暂无败局数据可做胜负差异对比"
+        ]
+      }
+    ],
+    "updated_reason": "daily_fetch",
+    "generated_at": "2026-06-27T20:22:54+08:00",
+    "build_id": "20260627T202254+0800",
+    "ai_elapsed_seconds": 64.02,
+    "ai_model": "qwen3.7-max-2026-06-08"
+  }
+}

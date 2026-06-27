@@ -60,6 +60,18 @@ jobs:
           fi
           echo "fetch_result=$?" >> $GITHUB_OUTPUT
 
+      - name: Backfill missing historical seasons
+        if: inputs.publish_historical != 'true'
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+        run: |
+          echo "::group::Backfill historical seasons"
+          python scripts/backfill-seasons.py
+          echo "::endgroup::"
+
       - name: Validate historical season files
         if: inputs.publish_historical == 'true' && inputs.season != ''
         run: |

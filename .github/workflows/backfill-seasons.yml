@@ -1,0 +1,118 @@
+name: Backfill Historical Seasons
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '强制重新生成所有赛季数据'
+        required: false
+        type: boolean
+        default: false
+      include_current:
+        description: '同时重建当前赛季'
+        required: false
+        type: boolean
+        default: false
+      season:
+        description: '只补齐指定赛季 ID（留空则补齐所有缺失赛季）'
+        required: false
+        type: string
+      dry_run:
+        description: '只检查缺失，不实际生成'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MY_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run backfill
+        id: backfill
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" == "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ "${{ inputs.force }}" == "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          if [ "${{ inputs.include_current }}" == "true" ]; then
+            ARGS="$ARGS --include-current"
+          fi
+          if [ -n "${{ inputs.season }}" ]; then
+            ARGS="$ARGS --season ${{ inputs.season }}"
+          fi
+          python scripts/backfill-seasons.py $ARGS
+          echo "backfill_result=$?" >> $GITHUB_OUTPUT
+
+      - name: Validate outputs
+        if: inputs.dry_run != 'true'
+        run: |
+          for season_dir in data/seasons/*/; do
+            SEASON=$(basename "$season_dir")
+            MANIFEST="$season_dir/manifest.json"
+            if [ ! -f "$MANIFEST" ]; then
+              echo "::warning::No manifest for $SEASON"
+              continue
+            fi
+            for f in abilities ranking heroes win-lose insights; do
+              if [ ! -f "$season_dir/derived/${f}.json" ]; then
+                echo "::error::Missing derived file: $season_dir/derived/${f}.json"
+                exit 1
+              fi
+            done
+            echo "✅ $SEASON validated"
+          done
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add data/seasons/ data/manifest.json data/latest/current-season.json
+          if [ "${{ inputs.dry_run }}" == "true" ]; then
+            echo "::notice::Dry run — skipping commit"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          elif git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push data
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "data: backfill historical season derived data [skip ci]"
+          git push
+
+      - name: Report status
+        if: always()
+        run: |
+          if [ "${{ steps.backfill.outcome }}" == "failure" ]; then
+            echo "::error::Backfill failed — check logs above"
+            exit 1
+          fi
+          echo "Backfill completed successfully"

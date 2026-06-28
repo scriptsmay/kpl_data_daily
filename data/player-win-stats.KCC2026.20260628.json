@@ -1,0 +1,165 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "above_avg_economy_real_win_rate": 100.0,
+      "above_avg_economy_total": 1.0,
+      "above_avg_economy_win_rate": 100.0,
+      "above_avg_economy_wins": 1.0,
+      "avg_assists": 3.0,
+      "avg_be_hurt_by_hero": 36964.0,
+      "avg_big_fight_carry_damage": 3863.0,
+      "avg_big_fight_carry_kills": 0.0,
+      "avg_big_fight_damage": 27520.0,
+      "avg_big_fight_damage_taken": 27880.0,
+      "avg_blue_buff": 0.0,
+      "avg_control_duration": 37.0,
+      "avg_damage_10min_ratio": 12.9,
+      "avg_deaths": 2.0,
+      "avg_economy_10min": 7372.0,
+      "avg_economy_10min_ratio": 23.71,
+      "avg_economy_diff_10min": 1615.0,
+      "avg_game_duration": 879.0,
+      "avg_gold": 10314.0,
+      "avg_heal_count": 21891.0,
+      "avg_horizon_value": 22.0,
+      "avg_hurt_to_hero": 49905.0,
+      "avg_invasion_duration": 0.0,
+      "avg_invasion_jungle": 6.0,
+      "avg_kda": 1.5,
+      "avg_kill_monster_count": 15.0,
+      "avg_kill_participation_10min": 1.0,
+      "avg_kills": 0.0,
+      "avg_red_buff": 1.0,
+      "avg_river_duration": 0.0,
+      "avg_solo_kills": 0.0,
+      "avg_support_attempts": 3.0,
+      "avg_team_damage_ratio": 16.93,
+      "avg_team_fights_initiated": 0.0,
+      "avg_ten_min_damage": 17598.0,
+      "below_avg_economy_wins": 0.0,
+      "damage_10min_details": [
+        {
+          "battle_id": "1777093747_736117264_12",
+          "damage_ratio": 12.9,
+          "hero_name": "夏洛特",
+          "personal_damage": 17598,
+          "position": "对抗路",
+          "team_total_damage": 136463
+        }
+      ],
+      "damage_10min_per_minute": 1760.0,
+      "damage_per_minute": 3406.0,
+      "damage_taken_per_minute": 2523.0,
+      "data_version": null,
+      "economy_10min_details": [
+        {
+          "battle_id": "1777093747_736117264_12",
+          "economy_ratio": 23.71,
+          "hero_name": "夏洛特",
+          "personal_economy": 7372,
+          "position": "对抗路",
+          "team_total_economy": 31096
+        }
+      ],
+      "economy_10min_per_minute": 737.0,
+      "gold_per_minute": 704.0,
+      "heroes_used": [
+        "夏洛特"
+      ],
+      "invalid_10min_matches": 0.0,
+      "last_updated": "2026-05-28 23:55:51",
+      "match_details": [
+        {
+          "battle_id": "1777093747_736117264_12",
+          "hero_name": "夏洛特",
+          "is_valid_10min": true,
+          "match_number": 1,
+          "player_position": "对抗路",
+          "schedule_id": "KCC2026M1W1D1",
+          "team_id": "KCC2026_ytg"
+        }
+      ],
+      "player_name": "KSG.无言",
+      "positions_played": [
+        "对抗路"
+      ],
+      "season": "KCC2026",
+      "teammates_avg_invasion_jungle": 4.0,
+      "teammates_details": [
+        {
+          "avg_invasion_jungle": 3.0,
+          "matches_together": 1,
+          "positions": [
+            "中路"
+          ],
+          "teammate_name": "KSG.流浪",
+          "total_invasion_jungle": 3
+        },
+        {
+          "avg_invasion_jungle": 5.0,
+          "matches_together": 1,
+          "positions": [
+            "发育路"
+          ],
+          "teammate_name": "KSG.小屿",
+          "total_invasion_jungle": 5
+        },
+        {
+          "avg_invasion_jungle": 8.0,
+          "matches_together": 1,
+          "positions": [
+            "打野"
+          ],
+          "teammate_name": "KSG.句号",
+          "total_invasion_jungle": 8
+        },
+        {
+          "avg_invasion_jungle": 0.0,
+          "matches_together": 1,
+          "positions": [
+            "游走"
+          ],
+          "teammate_name": "KSG.一笙",
+          "total_invasion_jungle": 0
+        }
+      ],
+      "total_assists": 3.0,
+      "total_be_hurt_by_hero": 36964.0,
+      "total_big_fight_damage": 27520.0,
+      "total_blue_buff": 0.0,
+      "total_deaths": 2.0,
+      "total_game_duration": 879.0,
+      "total_gold": 10314.0,
+      "total_heal_count": 21891.0,
+      "total_heroes_count": 1.0,
+      "total_horizon_value": 22.0,
+      "total_hurt_to_hero": 49905.0,
+      "total_invasion_jungle": 6.0,
+      "total_kills": 0.0,
+      "total_red_buff": 1.0,
+      "total_solo_kills": 0.0,
+      "total_ten_min_damage": 17598.0,
+      "valid_10min_matches": 1.0,
+      "valid_10min_rate": 100.0,
+      "valid_damage_ratio_matches": 1.0,
+      "win_matches": 1.0
+    }
+  ],
+  "data_source": "player_win_stats table",
+  "description": "选手获胜数据统计（来源：预计算表，性能优化版本）",
+  "filters": {
+    "limit": 0,
+    "min_wins": 0,
+    "player_name": null,
+    "season": "KCC2026"
+  },
+  "position_avg_economy": {
+    "中路": 5537.0,
+    "发育路": 7308.0,
+    "对抗路": 6806.0,
+    "打野": 7106.0,
+    "游走": 4427.0
+  },
+  "total_players": 125
+}

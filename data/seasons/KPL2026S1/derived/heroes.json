@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S1",
-  "generated_at": "2026-06-27T20:17:46+08:00",
-  "build_id": "20260627T201746+0800",
+  "generated_at": "2026-06-28T12:23:15+08:00",
+  "build_id": "20260628T122315+0800",
   "data": {
     "summary": [
       {
@@ -14,8 +14,8 @@
         "win_rate": "73%",
         "maturity": "core",
         "historical_usage": {
-          "prior_seasons": 1,
-          "prior_matches": 1
+          "prior_seasons": 3,
+          "prior_matches": 6
         }
       },
       {
@@ -27,8 +27,8 @@
         "win_rate": "90%",
         "maturity": "core",
         "historical_usage": {
-          "prior_seasons": 1,
-          "prior_matches": 2
+          "prior_seasons": 2,
+          "prior_matches": 5
         }
       },
       {
@@ -40,8 +40,8 @@
         "win_rate": "69%",
         "maturity": "core",
         "historical_usage": {
-          "prior_seasons": 1,
-          "prior_matches": 2
+          "prior_seasons": 3,
+          "prior_matches": 7
         }
       },
       {
@@ -75,8 +75,8 @@
         "win_rate": "33%",
         "maturity": "core",
         "historical_usage": {
-          "prior_seasons": 1,
-          "prior_matches": 2
+          "prior_seasons": 3,
+          "prior_matches": 7
         }
       },
       {
@@ -86,7 +86,11 @@
         "total_matches": 5,
         "win_matches": 2,
         "win_rate": "40%",
-        "maturity": "core"
+        "maturity": "core",
+        "historical_usage": {
+          "prior_seasons": 1,
+          "prior_matches": 5
+        }
       },
       {
         "hero_id": "123",
@@ -95,7 +99,11 @@
         "total_matches": 2,
         "win_matches": 2,
         "win_rate": "100%",
-        "maturity": "trial"
+        "maturity": "trial",
+        "historical_usage": {
+          "prior_seasons": 1,
+          "prior_matches": 1
+        }
       },
       {
         "hero_id": "558",
@@ -115,8 +123,8 @@
         "win_rate": "66%",
         "maturity": "rotation",
         "historical_usage": {
-          "prior_seasons": 1,
-          "prior_matches": 1
+          "prior_seasons": 3,
+          "prior_matches": 5
         }
       },
       {
@@ -148,7 +156,11 @@
         "total_matches": 1,
         "win_matches": 1,
         "win_rate": "100%",
-        "maturity": "trial"
+        "maturity": "trial",
+        "historical_usage": {
+          "prior_seasons": 1,
+          "prior_matches": 1
+        }
       },
       {
         "hero_id": "172",

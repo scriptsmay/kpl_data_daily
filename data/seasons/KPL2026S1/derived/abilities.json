@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S1",
-  "generated_at": "2026-06-27T20:17:46+08:00",
-  "build_id": "20260627T201746+0800",
+  "generated_at": "2026-06-28T12:23:15+08:00",
+  "build_id": "20260628T122315+0800",
   "data": {
     "code": 200,
     "data": [
@@ -63,7 +63,7 @@
       }
     ],
     "player_name": null,
-    "position": "中路",
+    "position": "对抗路",
     "position_averages": {
       "中路": {
         "damage_output": 88,

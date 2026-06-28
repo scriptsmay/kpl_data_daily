@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KCC2026",
-  "generated_at": "2026-06-28T12:16:29+08:00",
-  "build_id": "20260628T121629+0800",
+  "generated_at": "2026-06-28T12:22:14+08:00",
+  "build_id": "20260628T122214+0800",
   "data": {
     "code": 200,
     "data": [
@@ -63,7 +63,7 @@
       }
     ],
     "player_name": null,
-    "position": "游走",
+    "position": "对抗路",
     "position_averages": {
       "中路": {
         "damage_output": 83,

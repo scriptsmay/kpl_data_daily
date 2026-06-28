@@ -1,0 +1,10 @@
+{
+  "KCC2025:win-affinity-analysis": {
+    "reason": "HTTP 404: KCC 历史赛事不支持 win-affinity-analysis 接口",
+    "recorded_at": "2026-06-28T11:15:40.056180"
+  },
+  "KCC2026:win-affinity-analysis": {
+    "reason": "HTTP 404: KCC 历史赛事不支持 win-affinity-analysis 接口",
+    "recorded_at": "2026-06-28T11:15:40.056426"
+  }
+}

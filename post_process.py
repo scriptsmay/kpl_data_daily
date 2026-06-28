@@ -220,13 +220,13 @@ def first_item(payload: Any) -> Dict[str, Any]:
 _TARGET_PLAYER_KEY = "无言"
 
 
-def _filter_abilities_for_target(payload: Any) -> Dict[str, Any]:
-    """从 abilities 原始数据中筛选目标选手。
+def _filter_payload_for_target(payload: Any) -> Dict[str, Any]:
+    """从列表型原始数据中筛选目标选手。
 
-    原始 API 返回全量选手数据，position 字段是 API 默认排序位置（如"游走"），
-    不是目标选手的实际位置。筛选后：
-    - data 改为仅包含目标选手的记录
-    - position 改为该选手的 player_position（如"对抗路"）
+    跨赛季稳定使用“无言”子串匹配，可同时命中：
+    - 青训破军.无言
+    - KSG.无言
+    - 无言
     """
     if not isinstance(payload, dict):
         return payload
@@ -235,16 +235,36 @@ def _filter_abilities_for_target(payload: Any) -> Dict[str, Any]:
     if not isinstance(data, list) or not data:
         return payload
 
-    # 按 "无言" 匹配 player_name
-    matched = [item for item in data if isinstance(item, dict) and _TARGET_PLAYER_KEY in str(item.get("player_name", ""))]
+    name_fields = ("player_name", "playerName", "name", "player", "displayName")
+    matched = [
+        item for item in data
+        if isinstance(item, dict)
+        and any(_TARGET_PLAYER_KEY in str(item.get(field, "")) for field in name_fields)
+    ]
 
     if not matched:
         return payload
 
     result = payload.copy()
     result["data"] = matched
+    return result
+
+
+def _filter_abilities_for_target(payload: Any) -> Dict[str, Any]:
+    """从 abilities 原始数据中筛选目标选手。
+
+    原始 API 返回全量选手数据，position 字段是 API 默认排序位置（如"游走"），
+    不是目标选手的实际位置。筛选后：
+    - data 改为仅包含目标选手的记录
+    - position 改为该选手的 player_position（如"对抗路"）
+    """
+    result = _filter_payload_for_target(payload)
+    data = result.get("data", []) if isinstance(result, dict) else []
+    if not isinstance(data, list) or not data:
+        return result
+
     # 用目标选手的实际位置覆盖 API 默认 position
-    player_position = matched[0].get("player_position")
+    player_position = data[0].get("player_position")
     if player_position:
         result["position"] = player_position
     return result
@@ -277,7 +297,8 @@ def generate_derived(
     abilities = _filter_abilities_for_target(abilities_raw)
     write_json(season_dir / "abilities.json", derived_payload(current_season, generated_at, current_build_id, abilities))
 
-    ranking = load_latest_payload("all-player-stats", current_season, base_path=latest_base_path) or {}
+    ranking_raw = load_latest_payload("all-player-stats", current_season, base_path=latest_base_path) or {}
+    ranking = _filter_payload_for_target(ranking_raw)
     write_json(season_dir / "ranking.json", derived_payload(current_season, generated_at, current_build_id, ranking))
 
     hero_summary = load_latest_payload("player-hero-summary", current_season, base_path=latest_base_path) or {}

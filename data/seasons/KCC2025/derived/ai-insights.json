@@ -1,96 +1,86 @@
 {
   "schema_version": 1,
   "season": "KCC2025",
-  "generated_at": "2026-06-28T12:21:05+08:00",
-  "build_id": "20260628T122105+0800",
-  "ai_elapsed_seconds": 55.11,
+  "generated_at": "2026-06-28T12:58:28+08:00",
+  "build_id": "20260628T125828+0800",
+  "ai_elapsed_seconds": 70.03,
   "ai_model": "qwen3.7-max-2026-06-08",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "12f7e136b65a41f809a81148553fabc125d31971e59ae21ca869c629a36eb39f",
+  "input_hash": "2f0f38ccb1288ccaba7af8f121b4a1c08090c4b5bda69b286709e876a948306b",
   "data": {
-    "headline": "无言本赛季英雄池覆盖9个英雄，中期与伤害输出能力突出，但败局中生存与KDA表现值得关注",
-    "summary": "本赛季26局比赛中使用9个英雄，已形成稳定的出场节奏。综合评分85.0位列对抗路第7，中期与伤害维度表现优异，但败局中死亡数偏高需要结合后续比赛观察。",
+    "headline": "无言本赛季英雄池分布分散，中后期伤害输出突出，但近期开团与伤害排名出现短期回落信号",
+    "summary": "本赛季26局样本中，无言已形成以司空震为核心、多战士轮换的稳定英雄池，中后期能力评分优异；近期少量快照显示开团与伤害数据波动，需持续观察。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
         "id": "hero_pool",
-        "title": "英雄池结构与成熟度",
-        "summary": "本赛季英雄池覆盖9个英雄，使用相对分散，司空震作为核心英雄出场最多，狂铁等战边作为轮换英雄表现稳定。",
+        "title": "英雄池结构与轮换分布",
+        "summary": "从当前数据看，本赛季英雄池覆盖9个英雄，使用相对分散，已形成以司空震为核心、多名战士为轮换的稳定结构。",
         "conclusion_type": "signal",
         "confidence": "high",
         "sample_size": 26,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季共使用9个英雄，总出场26局",
-          "司空震出场5局为核心英雄，胜率20.0%",
-          "狂铁出场4局胜率75.0%，夏洛特与马超各出场4局胜率均为50.0%"
+          "本赛季总出场26局，使用9个英雄，集中度（HHI）为0.1391",
+          "司空震出场5局标记为核心，狂铁、夏洛特、马超各出场4局标记为轮换观察"
         ],
-        "risk_notes": [
-          "司空震样本虽为核心但胜率较低，需结合后续战术调整观察"
-        ]
+        "risk_notes": []
       },
       {
         "id": "abilities",
-        "title": "能力维度与位置排名",
-        "summary": "综合评分85.0排名对抗路第7，中期运营与伤害输出能力显著高于同位置均值，但生存能力相对较弱。",
+        "title": "能力画像与维度特征",
+        "summary": "样本内呈现中后期发力及高伤害输出特征，但生存与坦度维度相对薄弱，低于同位置均值。",
         "conclusion_type": "signal",
         "confidence": "high",
         "sample_size": 26,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "综合评分85.0，对抗路位置排名第7",
-          "中期评分93.0、伤害输出评分91.0，高于同位置均值",
-          "生存评分62.0，为各维度中最低"
+          "中期评分93.0，后期评分92.0，伤害输出评分91.0且高于同位置均值",
+          "生存评分62.0，坦度评分86.0且被标记为低于同位置均值"
         ],
-        "risk_notes": [
-          "生存评分较低可能与团队战术或英雄选择有关，需结合具体对局分析"
-        ]
+        "risk_notes": []
       },
       {
         "id": "win_lose",
         "title": "胜负局过程指标差异",
-        "summary": "胜局与败局在KDA和场均死亡数上差异明显，败局中承伤增加但死亡数偏高，导致KDA大幅下滑。",
+        "summary": "胜局与败局在生存指标和伤害转化上差异显著，败局中死亡数偏高且承伤增加，值得关注其在劣势局中的生存环境。",
         "conclusion_type": "signal",
         "confidence": "high",
         "sample_size": 26,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "胜局KDA为8.08，败局KDA降至1.16",
-          "胜局场均死亡0.93，败局场均死亡升至2.08",
-          "败局分均承伤4951.0高于胜局的4583.0"
+          "胜局KDA为8.08，败局KDA为1.16；胜局场均死亡0.93，败局场均死亡2.08",
+          "胜局分均承伤4583.0，败局分均承伤4951.0"
         ],
-        "risk_notes": [
-          "败局承伤高且死亡多，需观察是否为战术性承伤或脱节导致"
-        ]
+        "risk_notes": []
       },
       {
-        "id": "ranking",
-        "title": "联盟核心指标排名",
-        "summary": "核心数据排名多处于联盟中游，KDA排名相对靠前，但伤害占比与野怪击杀排名靠后。",
-        "conclusion_type": "fact",
-        "confidence": "high",
-        "sample_size": 26,
-        "sample_unit": "games",
-        "sample_scope": "current_season",
+        "id": "growth_path",
+        "title": "近期状态波动与成长观察",
+        "summary": "近期数据快照显示开团能力与分均伤害排名出现回落信号，由于快照样本较少，需结合后续比赛观察是否为短期波动。",
+        "conclusion_type": "signal",
+        "confidence": "low",
+        "sample_size": 2,
+        "sample_unit": "matches",
+        "sample_scope": "recent_7_days",
         "evidence": [
-          "KDA为4.91，排名第10",
-          "伤害占比25.0排名第22，野怪击杀7.06排名第19",
-          "分均伤害5454.0排名第17，参团率76.4排名第17"
+          "能力维度 initiation 在 7d 内下降 23.0 分",
+          "排名指标 damage_per_minute 在 7d 内下降 22.3%"
         ],
         "risk_notes": [
-          "排名前列指标共0项，整体数据表现均衡但缺乏极致突出项"
+          "当前趋势分析仅基于2个数据快照，样本量较低，结论存在短期波动风险"
         ]
       }
     ],
     "updated_reason": "daily_fetch",
-    "generated_at": "2026-06-28T12:21:05+08:00",
-    "build_id": "20260628T122105+0800",
-    "ai_elapsed_seconds": 55.11,
+    "generated_at": "2026-06-28T12:58:28+08:00",
+    "build_id": "20260628T125828+0800",
+    "ai_elapsed_seconds": 70.03,
     "ai_model": "qwen3.7-max-2026-06-08",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "12f7e136b65a41f809a81148553fabc125d31971e59ae21ca869c629a36eb39f"
+    "input_hash": "2f0f38ccb1288ccaba7af8f121b4a1c08090c4b5bda69b286709e876a948306b"
   }
 }

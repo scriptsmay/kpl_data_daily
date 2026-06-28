@@ -75,6 +75,16 @@ def is_season_active(season: Dict) -> bool:
     return start_date <= today <= end_date_plus_one
 
 
+def _player_match_terms(player_name: str) -> List[str]:
+    """Return stable player-name terms for cross-season matching."""
+    terms = {TARGET_PLAYER}
+    if player_name:
+        terms.add(player_name)
+        if "." in player_name:
+            terms.add(player_name.split(".")[-1])
+    return [term for term in terms if term]
+
+
 def filter_player_data(data: Any, player_name: str) -> Union[dict, list]:
     """
     从批量数据中筛选指定选手的数组集合
@@ -97,8 +107,14 @@ def filter_player_data(data: Any, player_name: str) -> Union[dict, list]:
     filtered_results = []
     for item in source_list:
         if isinstance(item, dict):
-            # 检查是否有任何字段匹配
-            if any(player_name in str(item.get(field, "")) for field in name_fields):
+            # 检查是否有任何字段匹配。历史赛季可能只有昵称“无言”，
+            # 当前赛季可能是“KSG.无言”，因此用稳定关键词集合匹配。
+            match_terms = _player_match_terms(player_name)
+            if any(
+                term in str(item.get(field, ""))
+                for field in name_fields
+                for term in match_terms
+            ):
                 filtered_results.append(item)
 
     # 3. 根据原始格式返回结果
@@ -204,13 +220,16 @@ def resolve_target_identity(storage: KPLStorage, season_id: str) -> dict:
             inner = data.get("data", data)
             items = inner if isinstance(inner, list) else []
 
-            # 搜索选手名（包含"无言"的完整名称）
+            # 搜索选手名（包含"无言"的完整名称），并优先从同一条记录取战队。
             if not player_name:
                 for item in items:
                     if isinstance(item, dict):
                         name = item.get("player_name", item.get("playerName", item.get("name", "")))
                         if "无言" in str(name):
                             player_name = str(name)
+                            tn = item.get("team_name", item.get("teamName", item.get("team", "")))
+                            if tn:
+                                team_name = str(tn)
                             break
 
             # 从 career 数据提取
@@ -222,12 +241,14 @@ def resolve_target_identity(storage: KPLStorage, season_id: str) -> dict:
                 if not team_name:
                     team_name = pi.get("latest_team", "")
 
-            # 搜索战队名
+            # 搜索战队名：优先从目标选手记录中取，避免全量数据第一条误判。
             if not team_name:
+                match_terms = _player_match_terms(player_name)
                 for item in items:
                     if isinstance(item, dict):
+                        name = item.get("player_name", item.get("playerName", item.get("name", "")))
                         tn = item.get("team_name", item.get("teamName", item.get("team", "")))
-                        if tn and tn != "":
+                        if tn and any(term in str(name) for term in match_terms):
                             team_name = str(tn)
                             break
 

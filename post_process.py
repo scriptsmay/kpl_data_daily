@@ -216,6 +216,40 @@ def first_item(payload: Any) -> Dict[str, Any]:
     return {}
 
 
+# 目标选手匹配关键词（用子串匹配，跨赛季稳定：青训破军.无言 / KSG.无言 均可命中）
+_TARGET_PLAYER_KEY = "无言"
+
+
+def _filter_abilities_for_target(payload: Any) -> Dict[str, Any]:
+    """从 abilities 原始数据中筛选目标选手。
+
+    原始 API 返回全量选手数据，position 字段是 API 默认排序位置（如"游走"），
+    不是目标选手的实际位置。筛选后：
+    - data 改为仅包含目标选手的记录
+    - position 改为该选手的 player_position（如"对抗路"）
+    """
+    if not isinstance(payload, dict):
+        return payload
+
+    data = payload.get("data", [])
+    if not isinstance(data, list) or not data:
+        return payload
+
+    # 按 "无言" 匹配 player_name
+    matched = [item for item in data if isinstance(item, dict) and _TARGET_PLAYER_KEY in str(item.get("player_name", ""))]
+
+    if not matched:
+        return payload
+
+    result = payload.copy()
+    result["data"] = matched
+    # 用目标选手的实际位置覆盖 API 默认 position
+    player_position = matched[0].get("player_position")
+    if player_position:
+        result["position"] = player_position
+    return result
+
+
 def generate_derived(
     current_season: str,
     generated_at: str,
@@ -238,7 +272,9 @@ def generate_derived(
     }
     write_json(season_dir / "overview.json", derived_payload(current_season, generated_at, current_build_id, overview))
 
-    abilities = load_latest_payload("player-abilities", current_season, base_path=latest_base_path) or {}
+    abilities_raw = load_latest_payload("player-abilities", current_season, base_path=latest_base_path) or {}
+    # 按目标选手筛选 abilities 数据，保留其实际 position
+    abilities = _filter_abilities_for_target(abilities_raw)
     write_json(season_dir / "abilities.json", derived_payload(current_season, generated_at, current_build_id, abilities))
 
     ranking = load_latest_payload("all-player-stats", current_season, base_path=latest_base_path) or {}

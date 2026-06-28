@@ -1,44 +1,45 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-06-27T20:19:05+08:00",
-  "build_id": "20260627T201905+0800",
+  "generated_at": "2026-06-28T05:44:56+00:00",
+  "build_id": "20260628T054456+0000",
   "data": {
-    "snapshots_available": 52,
-    "reference_date": "20260627",
+    "snapshots_available": 57,
+    "reference_date": "20260628",
     "trends": {
       "hero_pool": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20260624 ~ 20260627",
-          "hero_count_delta": 2,
-          "hero_count_latest": 7,
-          "hero_count_oldest": 5,
+          "date_range": "20260625 ~ 20260628",
+          "hero_count_delta": 1,
+          "hero_count_latest": 8,
+          "hero_count_oldest": 7,
           "new_heroes": [
-            "蒙恬",
-            "达摩"
+            "司空震"
           ],
           "dropped_heroes": []
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20260620 ~ 20260627",
-          "hero_count_delta": 2,
-          "hero_count_latest": 7,
+          "date_range": "20260621 ~ 20260628",
+          "hero_count_delta": 3,
+          "hero_count_latest": 8,
           "hero_count_oldest": 5,
           "new_heroes": [
+            "司空震",
             "蒙恬",
             "达摩"
           ],
           "dropped_heroes": []
         },
         "14d": {
-          "snapshots": 10,
-          "date_range": "20260618 ~ 20260627",
-          "hero_count_delta": 4,
-          "hero_count_latest": 7,
+          "snapshots": 11,
+          "date_range": "20260618 ~ 20260628",
+          "hero_count_delta": 5,
+          "hero_count_latest": 8,
           "hero_count_oldest": 3,
           "new_heroes": [
+            "司空震",
             "夏洛特",
             "曹操",
             "蒙恬",
@@ -47,12 +48,13 @@
           "dropped_heroes": []
         },
         "30d": {
-          "snapshots": 10,
-          "date_range": "20260618 ~ 20260627",
-          "hero_count_delta": 4,
-          "hero_count_latest": 7,
+          "snapshots": 11,
+          "date_range": "20260618 ~ 20260628",
+          "hero_count_delta": 5,
+          "hero_count_latest": 8,
           "hero_count_oldest": 3,
           "new_heroes": [
+            "司空震",
             "夏洛特",
             "曹操",
             "蒙恬",
@@ -64,23 +66,23 @@
       "abilities": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20260624 ~ 20260627",
+          "date_range": "20260625 ~ 20260628",
           "deltas": {
-            "damage_output": 4.0,
-            "teamfight": 9.0,
+            "damage_output": 0.0,
+            "teamfight": 0.0,
             "initiation": 0.0,
-            "early_game": 2.0,
-            "mid_game": 5.0,
+            "early_game": 0.0,
+            "mid_game": 0.0,
             "late_game": 0.0,
-            "map_control": 2.0,
+            "map_control": 1.0,
             "invasion_ability": 0.0,
-            "support_ability": 4.0,
+            "support_ability": 1.0,
             "economy": -4.0,
             "tankiness": 0.0,
-            "durability": 5.0
+            "durability": -1.0
           },
           "biggest_gain": {
-            "teamfight": 9.0
+            "map_control": 1.0
           },
           "biggest_drop": {
             "economy": -4.0
@@ -88,7 +90,7 @@
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20260620 ~ 20260627",
+          "date_range": "20260621 ~ 20260628",
           "deltas": {
             "damage_output": 4.0,
             "teamfight": 9.0,
@@ -96,30 +98,30 @@
             "early_game": 2.0,
             "mid_game": 5.0,
             "late_game": 0.0,
-            "map_control": 2.0,
+            "map_control": 3.0,
             "invasion_ability": 0.0,
-            "support_ability": 4.0,
-            "economy": -4.0,
+            "support_ability": 5.0,
+            "economy": -8.0,
             "tankiness": 0.0,
-            "durability": 5.0
+            "durability": 4.0
           },
           "biggest_gain": {
             "teamfight": 9.0
           },
           "biggest_drop": {
-            "economy": -4.0
+            "economy": -8.0
           }
         },
         "14d": {
-          "snapshots": 11,
-          "date_range": "20260617 ~ 20260627",
+          "snapshots": 12,
+          "date_range": "20260617 ~ 20260628",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 11,
-          "date_range": "20260617 ~ 20260627",
+          "snapshots": 12,
+          "date_range": "20260617 ~ 20260628",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
@@ -128,86 +130,86 @@
       "ranking": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20260624 ~ 20260627",
+          "date_range": "20260625 ~ 20260628",
           "deltas": {
             "damage_per_minute": {
-              "abs": 67.0,
-              "pct": 1.7
+              "abs": -73.0,
+              "pct": -1.8
             },
             "damage_taken_per_minute": {
-              "abs": -787.0,
-              "pct": -11.4
+              "abs": -467.0,
+              "pct": -7.7
             },
             "economy_per_minute": {
-              "abs": 3.0,
-              "pct": 0.4
+              "abs": -10.0,
+              "pct": -1.4
             },
             "avg_kill_participation": {
-              "abs": 9.2,
-              "pct": 17.3
+              "abs": 1.7,
+              "pct": 2.7
             },
             "damage_share": {
-              "abs": 0.9,
-              "pct": 5.5
+              "abs": 0.1,
+              "pct": 0.6
             },
             "damage_taken_share": {
-              "abs": -0.6,
-              "pct": -2.3
+              "abs": -1.1,
+              "pct": -4.3
             }
           },
           "biggest_rise": {
-            "damage_per_minute": 67.0
+            "avg_kill_participation": 1.6999999999999957
           },
           "biggest_drop": {
-            "damage_taken_per_minute": -787.0
+            "damage_taken_per_minute": -467.0
           }
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20260620 ~ 20260627",
+          "date_range": "20260621 ~ 20260628",
           "deltas": {
             "damage_per_minute": {
-              "abs": 67.0,
-              "pct": 1.7
+              "abs": -6.0,
+              "pct": -0.1
             },
             "damage_taken_per_minute": {
-              "abs": -787.0,
-              "pct": -11.4
+              "abs": -1254.0,
+              "pct": -18.2
             },
             "economy_per_minute": {
-              "abs": 3.0,
-              "pct": 0.4
+              "abs": -7.0,
+              "pct": -1.0
             },
             "avg_kill_participation": {
-              "abs": 9.2,
-              "pct": 17.3
+              "abs": 10.9,
+              "pct": 20.5
             },
             "damage_share": {
-              "abs": 0.9,
-              "pct": 5.5
+              "abs": 1.0,
+              "pct": 6.1
             },
             "damage_taken_share": {
-              "abs": -0.6,
-              "pct": -2.3
+              "abs": -1.7,
+              "pct": -6.5
             }
           },
           "biggest_rise": {
-            "damage_per_minute": 67.0
+            "avg_kill_participation": 10.899999999999991
           },
           "biggest_drop": {
-            "damage_taken_per_minute": -787.0
+            "damage_taken_per_minute": -1254.0
           }
         },
         "14d": {
-          "snapshots": 11,
-          "date_range": "20260617 ~ 20260627",
+          "snapshots": 12,
+          "date_range": "20260617 ~ 20260628",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 11,
-          "date_range": "20260617 ~ 20260627",
+          "snapshots": 12,
+          "date_range": "20260617 ~ 20260628",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}

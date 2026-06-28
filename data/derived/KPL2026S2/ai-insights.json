@@ -1,92 +1,92 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-06-27T20:19:05+08:00",
-  "build_id": "20260627T201905+0800",
-  "ai_elapsed_seconds": 59.79,
+  "generated_at": "2026-06-28T05:44:56+00:00",
+  "build_id": "20260628T054456+0000",
+  "ai_elapsed_seconds": 63.51,
   "ai_model": "qwen3.7-max-2026-06-08",
+  "prompt_version": "ai-insights-v2-20260627",
+  "input_hash": "d996038acb53ffaec2749ad0ef28e6967c22e56486d2492007d98274e3d8d798",
   "data": {
-    "headline": "从当前数据看，无言本赛季在有限的上场机会中积极扩展英雄池，且多项核心能力指标暂居对抗路首位。",
-    "summary": "本赛季无言累计出场10局，处于机会积累期。当前样本内英雄使用相对分散，综合评分与KDA等核心数据表现突出，需结合后续比赛观察其英雄池扩展的稳定性。",
+    "headline": "无言当前样本内综合评分位居对抗路榜首，近期正积极扩展英雄池以丰富战术储备",
+    "summary": "本赛季14局样本中，无言展现出突出的开团与承伤能力，位置排名第一。当前处于机会积累期，近期英雄池有明显扩充迹象，需结合后续比赛观察其新英雄的熟练度。",
     "growth_stage": "机会积累期",
     "sections": [
       {
         "id": "hero_pool",
-        "title": "英雄池扩展与尝试",
-        "summary": "从当前数据看，本赛季英雄使用相对分散，近期呈现新英雄尝试的增加信号。",
+        "title": "英雄池扩展与测试",
+        "summary": "近期英雄池呈现明显的扩充趋势，队伍正在为其测试更多不同类型的对抗路英雄。",
         "conclusion_type": "signal",
         "confidence": "medium",
-        "sample_size": 10,
+        "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季10局比赛中使用了7个英雄，集中度（HHI）为0.1600",
-          "近14天内新增了夏洛特、曹操、蒙恬、达摩4个英雄",
-          "狂铁、马超、关羽各出场2局，其余英雄各出场1局"
+          "本赛季共使用8个英雄，其中5个处于尝试样本阶段",
+          "近7天内新增司空震、蒙恬、达摩3个英雄",
+          "近14天内英雄数量增加5个（司空震、夏洛特、曹操、蒙恬、达摩）"
         ],
         "risk_notes": [
-          "当前样本量较小，部分英雄仅出场1次，熟练度与战术适配性仍需后续比赛验证"
+          "部分新增英雄仅出场1局，熟练度与战术适配性仍需后续比赛验证"
         ]
       },
       {
         "id": "abilities",
-        "title": "多维能力与团战表现",
-        "summary": "当前样本内综合评分位居对抗路首位，开团与团战等维度评分较高，近期团战能力呈现增长信号。",
+        "title": "核心能力与位置排名",
+        "summary": "当前样本内呈现出极强的开团与前排承伤能力，多项核心维度评分达到满分，综合表现位居位置榜首。",
         "conclusion_type": "signal",
-        "confidence": "medium",
-        "sample_size": 10,
+        "confidence": "high",
+        "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "综合评分95.23，位置排名第1",
-          "开团、后期、入侵、坦度4个维度评分均达到100.0",
-          "近7天能力趋势中，团战（teamfight）评分最大增长9.0"
+          "综合评分98.11，对抗路位置排名第1",
+          "开团、后期、入侵、坦度四个维度评分均为100.0",
+          "分均承伤5621.0排名第5，KDA 8.82排名第1"
         ],
-        "risk_notes": [
-          "能力评分基于当前10局样本计算，需结合后续更多场次观察其稳定性"
-        ]
+        "risk_notes": []
       },
       {
         "id": "win_lose",
         "title": "胜负局过程指标差异",
-        "summary": "样本内胜局与败局在KDA、伤害及承伤等过程指标上呈现出明显的数值差异。",
+        "summary": "胜局与败局在伤害输出、经济获取及生存数据上存在显著差异，败局中输出与KDA偏低。",
         "conclusion_type": "fact",
-        "confidence": "medium",
-        "sample_size": 10,
+        "confidence": "high",
+        "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "胜局KDA为15.75，败局KDA为1.75",
-          "胜局分均伤害4381.0，败局分均伤害3338.0",
-          "胜局分均承伤6371.0，败局分均承伤5399.0"
+          "胜局分均伤害4359.0，败局分均伤害3008.0",
+          "胜局场均经济12322.0，败局场均经济10351.0",
+          "胜局KDA 12.86，败局KDA 1.75"
         ],
-        "risk_notes": [
-          "胜负差异仅反映当前样本内的过程数据表现，不直接作为个人状态强弱的判断依据"
-        ]
+        "risk_notes": []
       },
       {
-        "id": "ranking",
-        "title": "核心指标联盟排名",
-        "summary": "从当前数据看，多项核心数据排名联盟前列，其中KDA暂居榜首。",
-        "conclusion_type": "fact",
+        "id": "growth_path",
+        "title": "成长阶段与上场观察",
+        "summary": "目前处于机会积累期，上场样本仍在积累中，近期能力趋势显示团战能力有所提升，但经济评分出现短期波动。",
+        "conclusion_type": "signal",
         "confidence": "medium",
-        "sample_size": 10,
+        "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "KDA为8.75，排名第1",
-          "分均伤害4077.0排名第4，分均承伤6088.0排名第5",
-          "分均经济695.0排名第4"
+          "本赛季上场14局，成长阶段标记为机会积累期",
+          "近7天能力趋势中，团战（teamfight）评分最大增长9.0",
+          "近7天能力趋势中，经济（economy）评分最大下降8.0"
         ],
         "risk_notes": [
-          "排名数据基于当前10局样本，随着赛季推进和样本量增加，排名可能发生变动"
+          "样本量仍在积累阶段，能力趋势的短期波动需结合后续更多场次观察"
         ]
       }
     ],
     "updated_reason": "daily_fetch",
-    "generated_at": "2026-06-27T20:19:05+08:00",
-    "build_id": "20260627T201905+0800",
-    "ai_elapsed_seconds": 59.79,
-    "ai_model": "qwen3.7-max-2026-06-08"
+    "generated_at": "2026-06-28T05:44:56+00:00",
+    "build_id": "20260628T054456+0000",
+    "ai_elapsed_seconds": 63.51,
+    "ai_model": "qwen3.7-max-2026-06-08",
+    "prompt_version": "ai-insights-v2-20260627",
+    "input_hash": "d996038acb53ffaec2749ad0ef28e6967c22e56486d2492007d98274e3d8d798"
   }
 }

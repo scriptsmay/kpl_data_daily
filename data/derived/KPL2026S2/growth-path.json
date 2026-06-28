@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-06-27T20:19:05+08:00",
-  "build_id": "20260627T201905+0800",
+  "generated_at": "2026-06-28T05:44:56+00:00",
+  "build_id": "20260628T054456+0000",
   "data": {
     "player": "无言",
     "growth_stage": "机会积累期",
-    "summary": "本赛季仅 10 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断。",
+    "summary": "本赛季仅 14 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断。",
     "milestones": [
       {
         "type": "first_appear",
@@ -36,27 +36,32 @@
       {
         "type": "career_milestone",
         "date": "",
-        "description": "生涯累计 124 局"
+        "description": "生涯累计 128 局"
       },
       {
         "type": "mvp",
         "date": "",
-        "description": "生涯累计 17 次 MVP"
+        "description": "生涯累计 19 次 MVP"
       },
       {
         "type": "hero_first_use",
-        "date": "2026061903",
-        "description": "首次使用 狂铁：成都AG超玩会 vs KSG"
+        "date": "2026062702",
+        "description": "首次使用 狂铁：KSG vs 深圳DYG"
       },
       {
         "type": "hero_first_use",
-        "date": "2026062403",
-        "description": "首次使用 马超：KSG vs 济南RW侠"
+        "date": "2026062702",
+        "description": "首次使用 关羽：深圳DYG vs KSG"
       },
       {
         "type": "hero_first_use",
-        "date": "2026061903",
-        "description": "首次使用 关羽：成都AG超玩会 vs KSG"
+        "date": "2026062702",
+        "description": "首次使用 马超：KSG vs 深圳DYG"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2026062702",
+        "description": "首次使用 司空震：深圳DYG vs KSG"
       },
       {
         "type": "hero_first_use",
@@ -100,9 +105,9 @@
       },
       {
         "season": "KPL2026S2",
-        "battles": 10,
-        "wins": 7,
-        "win_rate": "70.0%"
+        "battles": 14,
+        "wins": 10,
+        "win_rate": "71.4%"
       }
     ],
     "role_path": [
@@ -114,9 +119,9 @@
           "输出"
         ],
         "role_matches": {
-          "持续": 3,
-          "输出": 3,
-          "开团": 3,
+          "持续": 4,
+          "开团": 4,
+          "输出": 5,
           "承伤": 1
         }
       }
@@ -129,12 +134,12 @@
         "前期能力高于同位置均值（83.0分）",
         "中期能力高于同位置均值（97.0分）",
         "后期能力高于同位置均值（100.0分）",
-        "地图控制高于同位置均值（82.0分）",
+        "地图控制高于同位置均值（83.0分）",
         "入侵能力高于同位置均值（100.0分）",
-        "支援能力高于同位置均值（93.0分）",
-        "经济效率高于同位置均值（94.0分）",
+        "支援能力高于同位置均值（94.0分）",
+        "经济效率高于同位置均值（90.0分）",
         "坦度高于同位置均值（100.0分）",
-        "生存能力高于同位置均值（78.0分）"
+        "生存能力高于同位置均值（77.0分）"
       ],
       "watching": [],
       "insufficient": []

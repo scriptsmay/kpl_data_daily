@@ -1,11 +1,3891 @@
 {
   "schema_version": 1,
   "season": "KCC2025",
-  "generated_at": "2026-06-27T20:22:54+08:00",
-  "build_id": "20260627T202254+0800",
+  "generated_at": "2026-06-27T22:46:27+08:00",
+  "build_id": "20260627T224627+0800",
   "data": {
-    "summary": [],
-    "battles": {},
-    "league_win_rate": []
+    "summary": [
+      {
+        "hero_id": "503",
+        "hero_name": "狂铁",
+        "player_name": "青训破军.无言",
+        "total_matches": 4,
+        "win_matches": 3,
+        "win_rate": "75%",
+        "maturity": "rotation",
+        "historical_usage": {
+          "prior_seasons": 3,
+          "prior_matches": 16
+        }
+      },
+      {
+        "hero_id": "140",
+        "hero_name": "关羽",
+        "player_name": "青训破军.无言",
+        "total_matches": 3,
+        "win_matches": 2,
+        "win_rate": "66%",
+        "maturity": "rotation",
+        "historical_usage": {
+          "prior_seasons": 2,
+          "prior_matches": 12
+        }
+      },
+      {
+        "hero_id": "536",
+        "hero_name": "夏洛特",
+        "player_name": "青训破军.无言",
+        "total_matches": 4,
+        "win_matches": 2,
+        "win_rate": "50%",
+        "maturity": "rotation",
+        "historical_usage": {
+          "prior_seasons": 3,
+          "prior_matches": 21
+        }
+      },
+      {
+        "hero_id": "518",
+        "hero_name": "马超",
+        "player_name": "青训破军.无言",
+        "total_matches": 4,
+        "win_matches": 2,
+        "win_rate": "50%",
+        "maturity": "rotation",
+        "historical_usage": {
+          "prior_seasons": 3,
+          "prior_matches": 12
+        }
+      },
+      {
+        "hero_id": "537",
+        "hero_name": "司空震",
+        "player_name": "青训破军.无言",
+        "total_matches": 5,
+        "win_matches": 1,
+        "win_rate": "20%",
+        "maturity": "core",
+        "historical_usage": {
+          "prior_seasons": 1,
+          "prior_matches": 5
+        }
+      },
+      {
+        "hero_id": "123",
+        "hero_name": "吕布",
+        "player_name": "青训破军.无言",
+        "total_matches": 1,
+        "win_matches": 1,
+        "win_rate": "100%",
+        "maturity": "trial",
+        "historical_usage": {
+          "prior_seasons": 1,
+          "prior_matches": 2
+        }
+      },
+      {
+        "hero_id": "564",
+        "hero_name": "姬小满",
+        "player_name": "青训破军.无言",
+        "total_matches": 1,
+        "win_matches": 1,
+        "win_rate": "100%",
+        "maturity": "trial",
+        "historical_usage": {
+          "prior_seasons": 1,
+          "prior_matches": 1
+        }
+      },
+      {
+        "hero_id": "510",
+        "hero_name": "孙策",
+        "player_name": "青训破军.无言",
+        "total_matches": 1,
+        "win_matches": 1,
+        "win_rate": "100%",
+        "maturity": "trial"
+      },
+      {
+        "hero_id": "128",
+        "hero_name": "曹操",
+        "player_name": "青训破军.无言",
+        "total_matches": 3,
+        "win_matches": 1,
+        "win_rate": "33%",
+        "maturity": "rotation",
+        "historical_usage": {
+          "prior_seasons": 3,
+          "prior_matches": 5
+        }
+      }
+    ],
+    "battles": {
+      "狂铁": {
+        "hero_id": "503",
+        "total": 4,
+        "wins": 3,
+        "loses": 1,
+        "battles": [
+          {
+            "equip_ids": [],
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/2/1",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "169",
+                  "hero_name": "后羿",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "509",
+                  "hero_name": "盾山",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "537",
+                  "hero_name": "司空震",
+                  "player_name": "北京WB.梓墨",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "193",
+                  "hero_name": "铠",
+                  "player_name": "北京WB.暖阳",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "523",
+                  "hero_name": "西施",
+                  "player_name": "北京WB.听悦",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "111",
+                  "hero_name": "孙尚香",
+                  "player_name": "北京WB.小麦",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "186",
+                  "hero_name": "太乙真人",
+                  "player_name": "北京WB.玖欣",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122502",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D7",
+            "versus_info": "青训破军 vs 北京WB"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/2/4",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "537",
+                  "hero_name": "司空震",
+                  "player_name": "KSG.流星",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "511",
+                  "hero_name": "猪八戒",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "523",
+                  "hero_name": "西施",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "111",
+                  "hero_name": "孙尚香",
+                  "player_name": "KSG.风箫",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "509",
+                  "hero_name": "盾山",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "531",
+                  "hero_name": "镜",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "179",
+                  "hero_name": "女娲",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "174",
+                  "hero_name": "虞姬",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121901",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D1",
+            "versus_info": "KSG vs 青训破军"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "3/2/5",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "536",
+                  "hero_name": "夏洛特",
+                  "player_name": "SYG.红尘",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "531",
+                  "hero_name": "镜",
+                  "player_name": "SYG.晋鱼",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "179",
+                  "hero_name": "女娲",
+                  "player_name": "SYG.多多",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "172",
+                  "hero_name": "蚩奼",
+                  "player_name": "SYG.小怜",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "SYG.小Y",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "502",
+                  "hero_name": "裴擒虎",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "106",
+                  "hero_name": "小乔",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "174",
+                  "hero_name": "虞姬",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "186",
+                  "hero_name": "太乙真人",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121101",
+            "rune": [],
+            "schedule_id": "KCC2025M2W4D1",
+            "versus_info": "SYG vs 青训破军"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/1/9",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "542",
+                  "hero_name": "暃",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "106",
+                  "hero_name": "小乔",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "172",
+                  "hero_name": "蚩奼",
+                  "player_name": "青训破军.海霖",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "171",
+                  "hero_name": "张飞",
+                  "player_name": "青训破军.烈峰峰",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "140",
+                  "hero_name": "关羽",
+                  "player_name": "APG.Siang",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "511",
+                  "hero_name": "猪八戒",
+                  "player_name": "APG.YuLong",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "APG.Shisan",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "111",
+                  "hero_name": "孙尚香",
+                  "player_name": "APG.Son",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "509",
+                  "hero_name": "盾山",
+                  "player_name": "APG.Saber",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025120901",
+            "rune": [],
+            "schedule_id": "KCC2025M2W2D1",
+            "versus_info": "青训破军 vs APG"
+          }
+        ]
+      },
+      "关羽": {
+        "hero_id": "140",
+        "total": 3,
+        "wins": 2,
+        "loses": 1,
+        "battles": [
+          {
+            "equip_ids": [],
+            "hero_id": "140",
+            "hero_name": "关羽",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/4/2",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "140",
+                  "hero_name": "关羽",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "199",
+                  "hero_name": "公孙离",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "159",
+                  "hero_name": "朵莉亚",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "518",
+                  "hero_name": "马超",
+                  "player_name": "成都AG超玩会.轩染",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "517",
+                  "hero_name": "大司命",
+                  "player_name": "成都AG超玩会.钟意",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "127",
+                  "hero_name": "甄姬",
+                  "player_name": "成都AG超玩会.长生",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "成都AG超玩会.一诺",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "577",
+                  "hero_name": "少司缘",
+                  "player_name": "成都AG超玩会.大帅",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122602",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D9",
+            "versus_info": "青训破军 vs 成都AG超玩会"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "140",
+            "hero_name": "关羽",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "2/2/1",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "北京WB.梓墨",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "542",
+                  "hero_name": "暃",
+                  "player_name": "北京WB.暖阳",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "北京WB.听悦",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "北京WB.小麦",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "105",
+                  "hero_name": "廉颇",
+                  "player_name": "北京WB.玖欣",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "140",
+                  "hero_name": "关羽",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "517",
+                  "hero_name": "大司命",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "110",
+                  "hero_name": "嬴政",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "172",
+                  "hero_name": "蚩奼",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122502",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D7",
+            "versus_info": "北京WB vs 青训破军"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "140",
+            "hero_name": "关羽",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "3/0/7",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "140",
+                  "hero_name": "关羽",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "106",
+                  "hero_name": "小乔",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "172",
+                  "hero_name": "蚩奼",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "525",
+                  "hero_name": "鲁班大师",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "KSG.流星",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "502",
+                  "hero_name": "裴擒虎",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "176",
+                  "hero_name": "杨玉环",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "519",
+                  "hero_name": "敖隐",
+                  "player_name": "KSG.风箫",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "105",
+                  "hero_name": "廉颇",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121901",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D1",
+            "versus_info": "青训破军 vs KSG"
+          }
+        ]
+      },
+      "夏洛特": {
+        "hero_id": "536",
+        "total": 4,
+        "wins": 2,
+        "loses": 2,
+        "battles": [
+          {
+            "equip_ids": [],
+            "hero_id": "536",
+            "hero_name": "夏洛特",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/2/1",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "成都AG超玩会.轩染",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "542",
+                  "hero_name": "暃",
+                  "player_name": "成都AG超玩会.钟意",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "157",
+                  "hero_name": "不知火舞",
+                  "player_name": "成都AG超玩会.长生",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "133",
+                  "hero_name": "狄仁杰",
+                  "player_name": "成都AG超玩会.一诺",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "585",
+                  "hero_name": "元流之子·辅助",
+                  "player_name": "成都AG超玩会.大帅",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "536",
+                  "hero_name": "夏洛特",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "130",
+                  "hero_name": "宫本武藏",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "106",
+                  "hero_name": "小乔",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "172",
+                  "hero_name": "蚩奼",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "525",
+                  "hero_name": "鲁班大师",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122602",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D9",
+            "versus_info": "成都AG超玩会 vs 青训破军"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "536",
+            "hero_name": "夏洛特",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "3/0/4",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "北京WB.梓墨",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "163",
+                  "hero_name": "橘右京",
+                  "player_name": "北京WB.暖阳",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "515",
+                  "hero_name": "嫦娥",
+                  "player_name": "北京WB.听悦",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "112",
+                  "hero_name": "鲁班七号",
+                  "player_name": "北京WB.小麦",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "525",
+                  "hero_name": "鲁班大师",
+                  "player_name": "北京WB.玖欣",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "536",
+                  "hero_name": "夏洛特",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "502",
+                  "hero_name": "裴擒虎",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "157",
+                  "hero_name": "不知火舞",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "133",
+                  "hero_name": "狄仁杰",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "175",
+                  "hero_name": "钟馗",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122502",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D7",
+            "versus_info": "北京WB vs 青训破军"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "536",
+            "hero_name": "夏洛特",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/2/2",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "536",
+                  "hero_name": "夏洛特",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "163",
+                  "hero_name": "橘右京",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "110",
+                  "hero_name": "嬴政",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "550",
+                  "hero_name": "空空儿",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "KSG.流星",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "130",
+                  "hero_name": "宫本武藏",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "179",
+                  "hero_name": "女娲",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "199",
+                  "hero_name": "公孙离",
+                  "player_name": "KSG.风箫",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "171",
+                  "hero_name": "张飞",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121901",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D1",
+            "versus_info": "青训破军 vs KSG"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "536",
+            "hero_name": "夏洛特",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "2/0/4",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "536",
+                  "hero_name": "夏洛特",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "517",
+                  "hero_name": "大司命",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "157",
+                  "hero_name": "不知火舞",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "172",
+                  "hero_name": "蚩奼",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "525",
+                  "hero_name": "鲁班大师",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "564",
+                  "hero_name": "姬小满",
+                  "player_name": "SYG.红尘",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "SYG.晋鱼",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "113",
+                  "hero_name": "庄周",
+                  "player_name": "SYG.多多",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "112",
+                  "hero_name": "鲁班七号",
+                  "player_name": "SYG.小怜",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "159",
+                  "hero_name": "朵莉亚",
+                  "player_name": "SYG.小Y",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121101",
+            "rune": [],
+            "schedule_id": "KCC2025M2W4D1",
+            "versus_info": "青训破军 vs SYG"
+          }
+        ]
+      },
+      "马超": {
+        "hero_id": "518",
+        "total": 4,
+        "wins": 2,
+        "loses": 2,
+        "battles": [
+          {
+            "equip_ids": [],
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/4/4",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "536",
+                  "hero_name": "夏洛特",
+                  "player_name": "成都AG超玩会.轩染",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "成都AG超玩会.钟意",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "110",
+                  "hero_name": "嬴政",
+                  "player_name": "成都AG超玩会.长生",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "177",
+                  "hero_name": "苍",
+                  "player_name": "成都AG超玩会.一诺",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "159",
+                  "hero_name": "朵莉亚",
+                  "player_name": "成都AG超玩会.大帅",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "518",
+                  "hero_name": "马超",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "190",
+                  "hero_name": "诸葛亮",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "521",
+                  "hero_name": "海月",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "青训破军.海霖",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "青训破军.烈峰峰",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122602",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D9",
+            "versus_info": "成都AG超玩会 vs 青训破军"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "2/1/3",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "518",
+                  "hero_name": "马超",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "193",
+                  "hero_name": "铠",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "521",
+                  "hero_name": "海月",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "177",
+                  "hero_name": "苍",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "186",
+                  "hero_name": "太乙真人",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "536",
+                  "hero_name": "夏洛特",
+                  "player_name": "北京WB.梓墨",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "126",
+                  "hero_name": "夏侯惇",
+                  "player_name": "北京WB.暖阳",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "182",
+                  "hero_name": "干将莫邪",
+                  "player_name": "北京WB.听悦",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "519",
+                  "hero_name": "敖隐",
+                  "player_name": "北京WB.小麦",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "156",
+                  "hero_name": "张良",
+                  "player_name": "北京WB.玖欣",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122502",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D7",
+            "versus_info": "青训破军 vs 北京WB"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "5/2/7",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "518",
+                  "hero_name": "马超",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "193",
+                  "hero_name": "铠",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "142",
+                  "hero_name": "安琪拉",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "155",
+                  "hero_name": "艾琳",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "186",
+                  "hero_name": "太乙真人",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "527",
+                  "hero_name": "蒙恬",
+                  "player_name": "KSG.流星",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "531",
+                  "hero_name": "镜",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "127",
+                  "hero_name": "甄姬",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "177",
+                  "hero_name": "苍",
+                  "player_name": "KSG.风箫",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "577",
+                  "hero_name": "少司缘",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121901",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D1",
+            "versus_info": "青训破军 vs KSG"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "6/0/2",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "518",
+                  "hero_name": "马超",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "179",
+                  "hero_name": "女娲",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "177",
+                  "hero_name": "苍",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "159",
+                  "hero_name": "朵莉亚",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "558",
+                  "hero_name": "影",
+                  "player_name": "SYG.红尘",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "517",
+                  "hero_name": "大司命",
+                  "player_name": "SYG.晋鱼",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "110",
+                  "hero_name": "嬴政",
+                  "player_name": "SYG.多多",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "SYG.小怜",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "577",
+                  "hero_name": "少司缘",
+                  "player_name": "SYG.小Y",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121101",
+            "rune": [],
+            "schedule_id": "KCC2025M2W4D1",
+            "versus_info": "青训破军 vs SYG"
+          }
+        ]
+      },
+      "司空震": {
+        "hero_id": "537",
+        "total": 5,
+        "wins": 1,
+        "loses": 4,
+        "battles": [
+          {
+            "equip_ids": [],
+            "hero_id": "537",
+            "hero_name": "司空震",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "1/0/1",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "成都AG超玩会.轩染",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "126",
+                  "hero_name": "夏侯惇",
+                  "player_name": "成都AG超玩会.钟意",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "563",
+                  "hero_name": "海诺",
+                  "player_name": "成都AG超玩会.长生",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "172",
+                  "hero_name": "蚩奼",
+                  "player_name": "成都AG超玩会.一诺",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "509",
+                  "hero_name": "盾山",
+                  "player_name": "成都AG超玩会.大帅",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "537",
+                  "hero_name": "司空震",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "581",
+                  "hero_name": "元流之子·坦克",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "179",
+                  "hero_name": "女娲",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "151",
+                  "hero_name": "孙权",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "550",
+                  "hero_name": "空空儿",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122602",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D9",
+            "versus_info": "成都AG超玩会 vs 青训破军"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "537",
+            "hero_name": "司空震",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "1/2/4",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "537",
+                  "hero_name": "司空震",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "126",
+                  "hero_name": "夏侯惇",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "106",
+                  "hero_name": "小乔",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "550",
+                  "hero_name": "空空儿",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "518",
+                  "hero_name": "马超",
+                  "player_name": "北京WB.梓墨",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "581",
+                  "hero_name": "元流之子·坦克",
+                  "player_name": "北京WB.暖阳",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "563",
+                  "hero_name": "海诺",
+                  "player_name": "北京WB.听悦",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "199",
+                  "hero_name": "公孙离",
+                  "player_name": "北京WB.小麦",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "171",
+                  "hero_name": "张飞",
+                  "player_name": "北京WB.玖欣",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122502",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D7",
+            "versus_info": "青训破军 vs 北京WB"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "537",
+            "hero_name": "司空震",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "2/1/0",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "537",
+                  "hero_name": "司空震",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "517",
+                  "hero_name": "大司命",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "523",
+                  "hero_name": "西施",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "199",
+                  "hero_name": "公孙离",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "577",
+                  "hero_name": "少司缘",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "134",
+                  "hero_name": "达摩",
+                  "player_name": "KSG.流星",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "162",
+                  "hero_name": "娜可露露",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "KSG.风箫",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121901",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D1",
+            "versus_info": "青训破军 vs KSG"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "537",
+            "hero_name": "司空震",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "3/5/2",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "SYG.红尘",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "180",
+                  "hero_name": "哪吒",
+                  "player_name": "SYG.晋鱼",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "142",
+                  "hero_name": "安琪拉",
+                  "player_name": "SYG.多多",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "199",
+                  "hero_name": "公孙离",
+                  "player_name": "SYG.小怜",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "550",
+                  "hero_name": "空空儿",
+                  "player_name": "SYG.小Y",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "537",
+                  "hero_name": "司空震",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "581",
+                  "hero_name": "元流之子·坦克",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "110",
+                  "hero_name": "嬴政",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "155",
+                  "hero_name": "艾琳",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "509",
+                  "hero_name": "盾山",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121101",
+            "rune": [],
+            "schedule_id": "KCC2025M2W4D1",
+            "versus_info": "SYG vs 青训破军"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "537",
+            "hero_name": "司空震",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/1/7",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "APG.Siang",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "163",
+                  "hero_name": "橘右京",
+                  "player_name": "APG.YuLong",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "115",
+                  "hero_name": "高渐离",
+                  "player_name": "APG.Shisan",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "172",
+                  "hero_name": "蚩奼",
+                  "player_name": "APG.Son",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "525",
+                  "hero_name": "鲁班大师",
+                  "player_name": "APG.Saber",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "537",
+                  "hero_name": "司空震",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "502",
+                  "hero_name": "裴擒虎",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "157",
+                  "hero_name": "不知火舞",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "133",
+                  "hero_name": "狄仁杰",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "176",
+                  "hero_name": "杨玉环",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025120901",
+            "rune": [],
+            "schedule_id": "KCC2025M2W2D1",
+            "versus_info": "APG vs 青训破军"
+          }
+        ]
+      },
+      "吕布": {
+        "hero_id": "123",
+        "total": 1,
+        "wins": 1,
+        "loses": 0,
+        "battles": [
+          {
+            "equip_ids": [],
+            "hero_id": "123",
+            "hero_name": "吕布",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "2/1/6",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "SYG.红尘",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "502",
+                  "hero_name": "裴擒虎",
+                  "player_name": "SYG.晋鱼",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "SYG.多多",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "155",
+                  "hero_name": "艾琳",
+                  "player_name": "SYG.小怜",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "171",
+                  "hero_name": "张飞",
+                  "player_name": "SYG.小Y",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "123",
+                  "hero_name": "吕布",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "542",
+                  "hero_name": "暃",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "521",
+                  "hero_name": "海月",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "199",
+                  "hero_name": "公孙离",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121101",
+            "rune": [],
+            "schedule_id": "KCC2025M2W4D1",
+            "versus_info": "SYG vs 青训破军"
+          }
+        ]
+      },
+      "姬小满": {
+        "hero_id": "564",
+        "total": 1,
+        "wins": 1,
+        "loses": 0,
+        "battles": [
+          {
+            "equip_ids": [],
+            "hero_id": "564",
+            "hero_name": "姬小满",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "3/0/5",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "564",
+                  "hero_name": "姬小满",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "159",
+                  "hero_name": "朵莉亚",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "518",
+                  "hero_name": "马超",
+                  "player_name": "APG.Siang",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "517",
+                  "hero_name": "大司命",
+                  "player_name": "APG.YuLong",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "110",
+                  "hero_name": "嬴政",
+                  "player_name": "APG.Shisan",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "519",
+                  "hero_name": "敖隐",
+                  "player_name": "APG.Son",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "APG.Saber",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025120901",
+            "rune": [],
+            "schedule_id": "KCC2025M2W2D1",
+            "versus_info": "青训破军 vs APG"
+          }
+        ]
+      },
+      "孙策": {
+        "hero_id": "510",
+        "total": 1,
+        "wins": 1,
+        "loses": 0,
+        "battles": [
+          {
+            "equip_ids": [],
+            "hero_id": "510",
+            "hero_name": "孙策",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/0/3",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "558",
+                  "hero_name": "影",
+                  "player_name": "北京WB.梓墨",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "533",
+                  "hero_name": "阿古朵",
+                  "player_name": "北京WB.暖阳",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "179",
+                  "hero_name": "女娲",
+                  "player_name": "北京WB.听悦",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "177",
+                  "hero_name": "苍",
+                  "player_name": "北京WB.小麦",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "北京WB.玖欣",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "510",
+                  "hero_name": "孙策",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "531",
+                  "hero_name": "镜",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "142",
+                  "hero_name": "安琪拉",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "199",
+                  "hero_name": "公孙离",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "577",
+                  "hero_name": "少司缘",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122502",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D7",
+            "versus_info": "北京WB vs 青训破军"
+          }
+        ]
+      },
+      "曹操": {
+        "hero_id": "128",
+        "total": 3,
+        "wins": 1,
+        "loses": 2,
+        "battles": [
+          {
+            "equip_ids": [],
+            "hero_id": "128",
+            "hero_name": "曹操",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/1/0",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "172",
+                  "hero_name": "蚩奼",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "159",
+                  "hero_name": "朵莉亚",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "537",
+                  "hero_name": "司空震",
+                  "player_name": "北京WB.梓墨",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "581",
+                  "hero_name": "元流之子·坦克",
+                  "player_name": "北京WB.暖阳",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "北京WB.听悦",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "155",
+                  "hero_name": "艾琳",
+                  "player_name": "北京WB.小麦",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "509",
+                  "hero_name": "盾山",
+                  "player_name": "北京WB.玖欣",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025122502",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D7",
+            "versus_info": "青训破军 vs 北京WB"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "128",
+            "hero_name": "曹操",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "4/2/8",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "KSG.流星",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "517",
+                  "hero_name": "大司命",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "199",
+                  "hero_name": "公孙离",
+                  "player_name": "KSG.风箫",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "509",
+                  "hero_name": "盾山",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "159",
+                  "hero_name": "朵莉亚",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121901",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D1",
+            "versus_info": "KSG vs 青训破军"
+          },
+          {
+            "equip_ids": [],
+            "hero_id": "128",
+            "hero_name": "曹操",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/1/0",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "536",
+                  "hero_name": "夏洛特",
+                  "player_name": "KSG.流星",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "515",
+                  "hero_name": "嫦娥",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "172",
+                  "hero_name": "蚩奼",
+                  "player_name": "KSG.风箫",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "159",
+                  "hero_name": "朵莉亚",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "青训破军.无言",
+                  "player_position": "对抗路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "190",
+                  "hero_name": "诸葛亮",
+                  "player_name": "青训破军.染详",
+                  "player_position": "打野",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "青训破军.柚子",
+                  "player_position": "中路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "177",
+                  "hero_name": "苍",
+                  "player_name": "青训破军.小雨",
+                  "player_position": "发育路",
+                  "rune": []
+                },
+                {
+                  "equip_ids": [],
+                  "hero_id": "171",
+                  "hero_name": "张飞",
+                  "player_name": "青训破军.绝心",
+                  "player_position": "游走",
+                  "rune": []
+                }
+              ]
+            },
+            "match_date": "2025121901",
+            "rune": [],
+            "schedule_id": "KCC2025M3W1D1",
+            "versus_info": "KSG vs 青训破军"
+          }
+        ]
+      }
+    },
+    "league_win_rate": [
+      {
+        "hero_id": "128",
+        "hero_name": "曹操",
+        "last_updated": "2026-01-14 17:25:56",
+        "lose_matches": 36,
+        "matchups": [
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 5,
+            "total": 14,
+            "win_rate": "64.3%",
+            "wins": 9
+          },
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 5,
+            "total": 12,
+            "win_rate": "58.3%",
+            "wins": 7
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 8,
+            "total": 10,
+            "win_rate": "20.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 4,
+            "total": 8,
+            "win_rate": "50.0%",
+            "wins": 4
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 5,
+            "total": 5,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 4,
+            "total": 5,
+            "win_rate": "20.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "蚩奼",
+            "hero_id": "172",
+            "losses": 3,
+            "total": 4,
+            "win_rate": "25.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "杨戬",
+            "hero_id": "178",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "达摩",
+            "hero_id": "134",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "姬小满",
+            "hero_id": "564",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 1,
+        "total_matches": 64,
+        "total_matchup_heroes": 12,
+        "total_players": 28,
+        "win_matches": 28,
+        "win_rate": "43.8%"
+      },
+      {
+        "hero_id": "503",
+        "hero_name": "狂铁",
+        "last_updated": "2026-01-14 17:25:56",
+        "lose_matches": 29,
+        "matchups": [
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 8,
+            "total": 16,
+            "win_rate": "50.0%",
+            "wins": 8
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 9,
+            "total": 14,
+            "win_rate": "35.7%",
+            "wins": 5
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 4,
+            "total": 7,
+            "win_rate": "42.9%",
+            "wins": 3
+          },
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 3,
+            "total": 5,
+            "win_rate": "40.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "吕布",
+            "hero_id": "123",
+            "losses": 2,
+            "total": 5,
+            "win_rate": "60.0%",
+            "wins": 3
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 2,
+            "total": 3,
+            "win_rate": "33.3%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "亚连",
+            "hero_id": "514",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "孙策",
+            "hero_id": "510",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "蚩奼",
+            "hero_id": "172",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "姬小满",
+            "hero_id": "564",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 2,
+        "total_matches": 57,
+        "total_matchup_heroes": 12,
+        "total_players": 24,
+        "win_matches": 28,
+        "win_rate": "49.1%"
+      },
+      {
+        "hero_id": "536",
+        "hero_name": "夏洛特",
+        "last_updated": "2026-01-14 17:25:56",
+        "lose_matches": 19,
+        "matchups": [
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 8,
+            "total": 16,
+            "win_rate": "50.0%",
+            "wins": 8
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 2,
+            "total": 10,
+            "win_rate": "80.0%",
+            "wins": 8
+          },
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 3,
+            "total": 4,
+            "win_rate": "25.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 2,
+            "total": 3,
+            "win_rate": "33.3%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 0,
+            "total": 3,
+            "win_rate": "100.0%",
+            "wins": 3
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 1,
+            "total": 3,
+            "win_rate": "66.7%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "杨戬",
+            "hero_id": "178",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "蚩奼",
+            "hero_id": "172",
+            "losses": 0,
+            "total": 2,
+            "win_rate": "100.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "达摩",
+            "hero_id": "134",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "姬小满",
+            "hero_id": "564",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "老夫子",
+            "hero_id": "139",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 3,
+        "total_matches": 49,
+        "total_matchup_heroes": 12,
+        "total_players": 20,
+        "win_matches": 30,
+        "win_rate": "61.2%"
+      },
+      {
+        "hero_id": "537",
+        "hero_name": "司空震",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 18,
+        "matchups": [
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 7,
+            "total": 12,
+            "win_rate": "41.7%",
+            "wins": 5
+          },
+          {
+            "enemy_hero": "蚩奼",
+            "hero_id": "172",
+            "losses": 1,
+            "total": 4,
+            "win_rate": "75.0%",
+            "wins": 3
+          },
+          {
+            "enemy_hero": "达摩",
+            "hero_id": "134",
+            "losses": 2,
+            "total": 4,
+            "win_rate": "50.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 1,
+            "total": 4,
+            "win_rate": "75.0%",
+            "wins": 3
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 2,
+            "total": 3,
+            "win_rate": "33.3%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 2,
+            "total": 2,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 4,
+        "total_matches": 35,
+        "total_matchup_heroes": 9,
+        "total_players": 17,
+        "win_matches": 17,
+        "win_rate": "48.6%"
+      },
+      {
+        "hero_id": "518",
+        "hero_name": "马超",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 11,
+        "matchups": [
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 1,
+            "total": 5,
+            "win_rate": "80.0%",
+            "wins": 4
+          },
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 3,
+            "total": 4,
+            "win_rate": "25.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 2,
+            "total": 4,
+            "win_rate": "50.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 1,
+            "total": 3,
+            "win_rate": "66.7%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 1,
+            "total": 3,
+            "win_rate": "66.7%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 2,
+            "total": 3,
+            "win_rate": "33.3%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 0,
+            "total": 2,
+            "win_rate": "100.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "姬小满",
+            "hero_id": "564",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "蚩奼",
+            "hero_id": "172",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 5,
+        "total_matches": 27,
+        "total_matchup_heroes": 9,
+        "total_players": 14,
+        "win_matches": 16,
+        "win_rate": "59.3%"
+      },
+      {
+        "hero_id": "140",
+        "hero_name": "关羽",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 11,
+        "matchups": [
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 3,
+            "total": 7,
+            "win_rate": "57.1%",
+            "wins": 4
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 0,
+            "total": 5,
+            "win_rate": "100.0%",
+            "wins": 5
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 2,
+            "total": 4,
+            "win_rate": "50.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 3,
+            "total": 3,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "姬小满",
+            "hero_id": "564",
+            "losses": 2,
+            "total": 3,
+            "win_rate": "33.3%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "达摩",
+            "hero_id": "134",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 6,
+        "total_matches": 27,
+        "total_matchup_heroes": 9,
+        "total_players": 14,
+        "win_matches": 16,
+        "win_rate": "59.3%"
+      },
+      {
+        "hero_id": "558",
+        "hero_name": "影",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 11,
+        "matchups": [
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 2,
+            "total": 5,
+            "win_rate": "60.0%",
+            "wins": 3
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 2,
+            "total": 4,
+            "win_rate": "50.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 1,
+            "total": 4,
+            "win_rate": "75.0%",
+            "wins": 3
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 1,
+            "total": 3,
+            "win_rate": "66.7%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "孙策",
+            "hero_id": "510",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "蚩奼",
+            "hero_id": "172",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "达摩",
+            "hero_id": "134",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 7,
+        "total_matches": 25,
+        "total_matchup_heroes": 10,
+        "total_players": 15,
+        "win_matches": 14,
+        "win_rate": "56.0%"
+      },
+      {
+        "hero_id": "527",
+        "hero_name": "蒙恬",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 8,
+        "matchups": [
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 2,
+            "total": 4,
+            "win_rate": "50.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "吕布",
+            "hero_id": "123",
+            "losses": 0,
+            "total": 2,
+            "win_rate": "100.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 2,
+            "total": 2,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 0,
+            "total": 2,
+            "win_rate": "100.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "蚩奼",
+            "hero_id": "172",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "姬小满",
+            "hero_id": "564",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 8,
+        "total_matches": 17,
+        "total_matchup_heroes": 10,
+        "total_players": 10,
+        "win_matches": 9,
+        "win_rate": "52.9%"
+      },
+      {
+        "hero_id": "172",
+        "hero_name": "蚩奼",
+        "last_updated": "2026-01-14 17:25:56",
+        "lose_matches": 9,
+        "matchups": [
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 1,
+            "total": 4,
+            "win_rate": "75.0%",
+            "wins": 3
+          },
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 3,
+            "total": 4,
+            "win_rate": "25.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 2,
+            "total": 2,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 9,
+        "total_matches": 14,
+        "total_matchup_heroes": 7,
+        "total_players": 9,
+        "win_matches": 5,
+        "win_rate": "35.7%"
+      },
+      {
+        "hero_id": "134",
+        "hero_name": "达摩",
+        "last_updated": "2026-01-14 17:25:56",
+        "lose_matches": 6,
+        "matchups": [
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 2,
+            "total": 4,
+            "win_rate": "50.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 10,
+        "total_matches": 9,
+        "total_matchup_heroes": 5,
+        "total_players": 9,
+        "win_matches": 3,
+        "win_rate": "33.3%"
+      },
+      {
+        "hero_id": "564",
+        "hero_name": "姬小满",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 5,
+        "matchups": [
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 1,
+            "total": 3,
+            "win_rate": "66.7%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 11,
+        "total_matches": 9,
+        "total_matchup_heroes": 6,
+        "total_players": 9,
+        "win_matches": 4,
+        "win_rate": "44.4%"
+      },
+      {
+        "hero_id": "123",
+        "hero_name": "吕布",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 5,
+        "matchups": [
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 3,
+            "total": 5,
+            "win_rate": "40.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 2,
+            "total": 2,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 12,
+        "total_matches": 7,
+        "total_matchup_heroes": 2,
+        "total_players": 7,
+        "win_matches": 2,
+        "win_rate": "28.6%"
+      },
+      {
+        "hero_id": "178",
+        "hero_name": "杨戬",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 2,
+        "matchups": [
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 13,
+        "total_matches": 3,
+        "total_matchup_heroes": 2,
+        "total_players": 3,
+        "win_matches": 1,
+        "win_rate": "33.3%"
+      },
+      {
+        "hero_id": "510",
+        "hero_name": "孙策",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 2,
+        "matchups": [
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 14,
+        "total_matches": 3,
+        "total_matchup_heroes": 2,
+        "total_players": 3,
+        "win_matches": 1,
+        "win_rate": "33.3%"
+      },
+      {
+        "hero_id": "139",
+        "hero_name": "老夫子",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 1,
+        "matchups": [
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 15,
+        "total_matches": 1,
+        "total_matchup_heroes": 1,
+        "total_players": 1,
+        "win_matches": 0,
+        "win_rate": "0.0%"
+      },
+      {
+        "hero_id": "514",
+        "hero_name": "亚连",
+        "last_updated": "2026-01-14 17:25:57",
+        "lose_matches": 1,
+        "matchups": [
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 16,
+        "total_matches": 1,
+        "total_matchup_heroes": 1,
+        "total_players": 1,
+        "win_matches": 0,
+        "win_rate": "0.0%"
+      }
+    ]
   }
 }

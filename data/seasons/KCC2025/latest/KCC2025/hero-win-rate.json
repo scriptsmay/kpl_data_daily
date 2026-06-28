@@ -1,0 +1,1155 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "hero_id": "128",
+      "hero_name": "\u66f9\u64cd",
+      "last_updated": "2026-01-14 17:25:56",
+      "lose_matches": 36,
+      "matchups": [
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 5,
+          "total": 14,
+          "win_rate": "64.3%",
+          "wins": 9
+        },
+        {
+          "enemy_hero": "\u53f8\u7a7a\u9707",
+          "hero_id": "537",
+          "losses": 5,
+          "total": 12,
+          "win_rate": "58.3%",
+          "wins": 7
+        },
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 8,
+          "total": 10,
+          "win_rate": "20.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 4,
+          "total": 8,
+          "win_rate": "50.0%",
+          "wins": 4
+        },
+        {
+          "enemy_hero": "\u5173\u7fbd",
+          "hero_id": "140",
+          "losses": 5,
+          "total": 5,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u9a6c\u8d85",
+          "hero_id": "518",
+          "losses": 4,
+          "total": 5,
+          "win_rate": "20.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u86a9\u597c",
+          "hero_id": "172",
+          "losses": 3,
+          "total": 4,
+          "win_rate": "25.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5f71",
+          "hero_id": "558",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u6768\u622c",
+          "hero_id": "178",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u8499\u606c",
+          "hero_id": "527",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u8fbe\u6469",
+          "hero_id": "134",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u59ec\u5c0f\u6ee1",
+          "hero_id": "564",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 1,
+      "total_matches": 64,
+      "total_matchup_heroes": 12,
+      "total_players": 28,
+      "win_matches": 28,
+      "win_rate": "43.8%"
+    },
+    {
+      "hero_id": "503",
+      "hero_name": "\u72c2\u94c1",
+      "last_updated": "2026-01-14 17:25:56",
+      "lose_matches": 29,
+      "matchups": [
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 8,
+          "total": 16,
+          "win_rate": "50.0%",
+          "wins": 8
+        },
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 9,
+          "total": 14,
+          "win_rate": "35.7%",
+          "wins": 5
+        },
+        {
+          "enemy_hero": "\u5173\u7fbd",
+          "hero_id": "140",
+          "losses": 4,
+          "total": 7,
+          "win_rate": "42.9%",
+          "wins": 3
+        },
+        {
+          "enemy_hero": "\u5f71",
+          "hero_id": "558",
+          "losses": 3,
+          "total": 5,
+          "win_rate": "40.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u5415\u5e03",
+          "hero_id": "123",
+          "losses": 2,
+          "total": 5,
+          "win_rate": "60.0%",
+          "wins": 3
+        },
+        {
+          "enemy_hero": "\u9a6c\u8d85",
+          "hero_id": "518",
+          "losses": 2,
+          "total": 3,
+          "win_rate": "33.3%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u53f8\u7a7a\u9707",
+          "hero_id": "537",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u4e9a\u8fde",
+          "hero_id": "514",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5b59\u7b56",
+          "hero_id": "510",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u8499\u606c",
+          "hero_id": "527",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u86a9\u597c",
+          "hero_id": "172",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u59ec\u5c0f\u6ee1",
+          "hero_id": "564",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 2,
+      "total_matches": 57,
+      "total_matchup_heroes": 12,
+      "total_players": 24,
+      "win_matches": 28,
+      "win_rate": "49.1%"
+    },
+    {
+      "hero_id": "536",
+      "hero_name": "\u590f\u6d1b\u7279",
+      "last_updated": "2026-01-14 17:25:56",
+      "lose_matches": 19,
+      "matchups": [
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 8,
+          "total": 16,
+          "win_rate": "50.0%",
+          "wins": 8
+        },
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 2,
+          "total": 10,
+          "win_rate": "80.0%",
+          "wins": 8
+        },
+        {
+          "enemy_hero": "\u53f8\u7a7a\u9707",
+          "hero_id": "537",
+          "losses": 3,
+          "total": 4,
+          "win_rate": "25.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5f71",
+          "hero_id": "558",
+          "losses": 2,
+          "total": 3,
+          "win_rate": "33.3%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5173\u7fbd",
+          "hero_id": "140",
+          "losses": 0,
+          "total": 3,
+          "win_rate": "100.0%",
+          "wins": 3
+        },
+        {
+          "enemy_hero": "\u9a6c\u8d85",
+          "hero_id": "518",
+          "losses": 1,
+          "total": 3,
+          "win_rate": "66.7%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u6768\u622c",
+          "hero_id": "178",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u8499\u606c",
+          "hero_id": "527",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u86a9\u597c",
+          "hero_id": "172",
+          "losses": 0,
+          "total": 2,
+          "win_rate": "100.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u8fbe\u6469",
+          "hero_id": "134",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u59ec\u5c0f\u6ee1",
+          "hero_id": "564",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u8001\u592b\u5b50",
+          "hero_id": "139",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 3,
+      "total_matches": 49,
+      "total_matchup_heroes": 12,
+      "total_players": 20,
+      "win_matches": 30,
+      "win_rate": "61.2%"
+    },
+    {
+      "hero_id": "537",
+      "hero_name": "\u53f8\u7a7a\u9707",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 18,
+      "matchups": [
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 7,
+          "total": 12,
+          "win_rate": "41.7%",
+          "wins": 5
+        },
+        {
+          "enemy_hero": "\u86a9\u597c",
+          "hero_id": "172",
+          "losses": 1,
+          "total": 4,
+          "win_rate": "75.0%",
+          "wins": 3
+        },
+        {
+          "enemy_hero": "\u8fbe\u6469",
+          "hero_id": "134",
+          "losses": 2,
+          "total": 4,
+          "win_rate": "50.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 1,
+          "total": 4,
+          "win_rate": "75.0%",
+          "wins": 3
+        },
+        {
+          "enemy_hero": "\u9a6c\u8d85",
+          "hero_id": "518",
+          "losses": 2,
+          "total": 3,
+          "win_rate": "33.3%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5f71",
+          "hero_id": "558",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5173\u7fbd",
+          "hero_id": "140",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u8499\u606c",
+          "hero_id": "527",
+          "losses": 2,
+          "total": 2,
+          "win_rate": "0.0%",
+          "wins": 0
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 4,
+      "total_matches": 35,
+      "total_matchup_heroes": 9,
+      "total_players": 17,
+      "win_matches": 17,
+      "win_rate": "48.6%"
+    },
+    {
+      "hero_id": "518",
+      "hero_name": "\u9a6c\u8d85",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 11,
+      "matchups": [
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 1,
+          "total": 5,
+          "win_rate": "80.0%",
+          "wins": 4
+        },
+        {
+          "enemy_hero": "\u5f71",
+          "hero_id": "558",
+          "losses": 3,
+          "total": 4,
+          "win_rate": "25.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5173\u7fbd",
+          "hero_id": "140",
+          "losses": 2,
+          "total": 4,
+          "win_rate": "50.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 1,
+          "total": 3,
+          "win_rate": "66.7%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u53f8\u7a7a\u9707",
+          "hero_id": "537",
+          "losses": 1,
+          "total": 3,
+          "win_rate": "66.7%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 2,
+          "total": 3,
+          "win_rate": "33.3%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u8499\u606c",
+          "hero_id": "527",
+          "losses": 0,
+          "total": 2,
+          "win_rate": "100.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u59ec\u5c0f\u6ee1",
+          "hero_id": "564",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u86a9\u597c",
+          "hero_id": "172",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 5,
+      "total_matches": 27,
+      "total_matchup_heroes": 9,
+      "total_players": 14,
+      "win_matches": 16,
+      "win_rate": "59.3%"
+    },
+    {
+      "hero_id": "140",
+      "hero_name": "\u5173\u7fbd",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 11,
+      "matchups": [
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 3,
+          "total": 7,
+          "win_rate": "57.1%",
+          "wins": 4
+        },
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 0,
+          "total": 5,
+          "win_rate": "100.0%",
+          "wins": 5
+        },
+        {
+          "enemy_hero": "\u9a6c\u8d85",
+          "hero_id": "518",
+          "losses": 2,
+          "total": 4,
+          "win_rate": "50.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 3,
+          "total": 3,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u59ec\u5c0f\u6ee1",
+          "hero_id": "564",
+          "losses": 2,
+          "total": 3,
+          "win_rate": "33.3%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u53f8\u7a7a\u9707",
+          "hero_id": "537",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5f71",
+          "hero_id": "558",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u8499\u606c",
+          "hero_id": "527",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u8fbe\u6469",
+          "hero_id": "134",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 6,
+      "total_matches": 27,
+      "total_matchup_heroes": 9,
+      "total_players": 14,
+      "win_matches": 16,
+      "win_rate": "59.3%"
+    },
+    {
+      "hero_id": "558",
+      "hero_name": "\u5f71",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 11,
+      "matchups": [
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 2,
+          "total": 5,
+          "win_rate": "60.0%",
+          "wins": 3
+        },
+        {
+          "enemy_hero": "\u8499\u606c",
+          "hero_id": "527",
+          "losses": 2,
+          "total": 4,
+          "win_rate": "50.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u9a6c\u8d85",
+          "hero_id": "518",
+          "losses": 1,
+          "total": 4,
+          "win_rate": "75.0%",
+          "wins": 3
+        },
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 1,
+          "total": 3,
+          "win_rate": "66.7%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u5b59\u7b56",
+          "hero_id": "510",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u53f8\u7a7a\u9707",
+          "hero_id": "537",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5173\u7fbd",
+          "hero_id": "140",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u86a9\u597c",
+          "hero_id": "172",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u8fbe\u6469",
+          "hero_id": "134",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 7,
+      "total_matches": 25,
+      "total_matchup_heroes": 10,
+      "total_players": 15,
+      "win_matches": 14,
+      "win_rate": "56.0%"
+    },
+    {
+      "hero_id": "527",
+      "hero_name": "\u8499\u606c",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 8,
+      "matchups": [
+        {
+          "enemy_hero": "\u5f71",
+          "hero_id": "558",
+          "losses": 2,
+          "total": 4,
+          "win_rate": "50.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u5415\u5e03",
+          "hero_id": "123",
+          "losses": 0,
+          "total": 2,
+          "win_rate": "100.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u9a6c\u8d85",
+          "hero_id": "518",
+          "losses": 2,
+          "total": 2,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u53f8\u7a7a\u9707",
+          "hero_id": "537",
+          "losses": 0,
+          "total": 2,
+          "win_rate": "100.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5173\u7fbd",
+          "hero_id": "140",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u86a9\u597c",
+          "hero_id": "172",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u59ec\u5c0f\u6ee1",
+          "hero_id": "564",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 8,
+      "total_matches": 17,
+      "total_matchup_heroes": 10,
+      "total_players": 10,
+      "win_matches": 9,
+      "win_rate": "52.9%"
+    },
+    {
+      "hero_id": "172",
+      "hero_name": "\u86a9\u597c",
+      "last_updated": "2026-01-14 17:25:56",
+      "lose_matches": 9,
+      "matchups": [
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 1,
+          "total": 4,
+          "win_rate": "75.0%",
+          "wins": 3
+        },
+        {
+          "enemy_hero": "\u53f8\u7a7a\u9707",
+          "hero_id": "537",
+          "losses": 3,
+          "total": 4,
+          "win_rate": "25.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 2,
+          "total": 2,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u5f71",
+          "hero_id": "558",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u8499\u606c",
+          "hero_id": "527",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u9a6c\u8d85",
+          "hero_id": "518",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 9,
+      "total_matches": 14,
+      "total_matchup_heroes": 7,
+      "total_players": 9,
+      "win_matches": 5,
+      "win_rate": "35.7%"
+    },
+    {
+      "hero_id": "134",
+      "hero_name": "\u8fbe\u6469",
+      "last_updated": "2026-01-14 17:25:56",
+      "lose_matches": 6,
+      "matchups": [
+        {
+          "enemy_hero": "\u53f8\u7a7a\u9707",
+          "hero_id": "537",
+          "losses": 2,
+          "total": 4,
+          "win_rate": "50.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u5f71",
+          "hero_id": "558",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u5173\u7fbd",
+          "hero_id": "140",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 10,
+      "total_matches": 9,
+      "total_matchup_heroes": 5,
+      "total_players": 9,
+      "win_matches": 3,
+      "win_rate": "33.3%"
+    },
+    {
+      "hero_id": "564",
+      "hero_name": "\u59ec\u5c0f\u6ee1",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 5,
+      "matchups": [
+        {
+          "enemy_hero": "\u5173\u7fbd",
+          "hero_id": "140",
+          "losses": 1,
+          "total": 3,
+          "win_rate": "66.7%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u9a6c\u8d85",
+          "hero_id": "518",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        },
+        {
+          "enemy_hero": "\u8499\u606c",
+          "hero_id": "527",
+          "losses": 0,
+          "total": 1,
+          "win_rate": "100.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 11,
+      "total_matches": 9,
+      "total_matchup_heroes": 6,
+      "total_players": 9,
+      "win_matches": 4,
+      "win_rate": "44.4%"
+    },
+    {
+      "hero_id": "123",
+      "hero_name": "\u5415\u5e03",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 5,
+      "matchups": [
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 3,
+          "total": 5,
+          "win_rate": "40.0%",
+          "wins": 2
+        },
+        {
+          "enemy_hero": "\u8499\u606c",
+          "hero_id": "527",
+          "losses": 2,
+          "total": 2,
+          "win_rate": "0.0%",
+          "wins": 0
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 12,
+      "total_matches": 7,
+      "total_matchup_heroes": 2,
+      "total_players": 7,
+      "win_matches": 2,
+      "win_rate": "28.6%"
+    },
+    {
+      "hero_id": "178",
+      "hero_name": "\u6768\u622c",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 2,
+      "matchups": [
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u66f9\u64cd",
+          "hero_id": "128",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 13,
+      "total_matches": 3,
+      "total_matchup_heroes": 2,
+      "total_players": 3,
+      "win_matches": 1,
+      "win_rate": "33.3%"
+    },
+    {
+      "hero_id": "510",
+      "hero_name": "\u5b59\u7b56",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 2,
+      "matchups": [
+        {
+          "enemy_hero": "\u5f71",
+          "hero_id": "558",
+          "losses": 1,
+          "total": 2,
+          "win_rate": "50.0%",
+          "wins": 1
+        },
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 14,
+      "total_matches": 3,
+      "total_matchup_heroes": 2,
+      "total_players": 3,
+      "win_matches": 1,
+      "win_rate": "33.3%"
+    },
+    {
+      "hero_id": "139",
+      "hero_name": "\u8001\u592b\u5b50",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 1,
+      "matchups": [
+        {
+          "enemy_hero": "\u590f\u6d1b\u7279",
+          "hero_id": "536",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 15,
+      "total_matches": 1,
+      "total_matchup_heroes": 1,
+      "total_players": 1,
+      "win_matches": 0,
+      "win_rate": "0.0%"
+    },
+    {
+      "hero_id": "514",
+      "hero_name": "\u4e9a\u8fde",
+      "last_updated": "2026-01-14 17:25:57",
+      "lose_matches": 1,
+      "matchups": [
+        {
+          "enemy_hero": "\u72c2\u94c1",
+          "hero_id": "503",
+          "losses": 1,
+          "total": 1,
+          "win_rate": "0.0%",
+          "wins": 0
+        }
+      ],
+      "mvp_count": 0,
+      "mvp_rate": "0.0%",
+      "position": "\u5bf9\u6297\u8def",
+      "rank": 16,
+      "total_matches": 1,
+      "total_matchup_heroes": 1,
+      "total_players": 1,
+      "win_matches": 0,
+      "win_rate": "0.0%"
+    }
+  ],
+  "hero_name": null,
+  "min_matches": 1,
+  "position": "\u5bf9\u6297\u8def",
+  "season": "KCC2025",
+  "sort_by": "total_matches",
+  "total_heroes": 16
+}

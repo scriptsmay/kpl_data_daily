@@ -1,0 +1,87 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "hero_id": "503",
+      "hero_name": "狂铁",
+      "player_name": "青训破军.无言",
+      "total_matches": 4,
+      "win_matches": 3,
+      "win_rate": "75%"
+    },
+    {
+      "hero_id": "140",
+      "hero_name": "关羽",
+      "player_name": "青训破军.无言",
+      "total_matches": 3,
+      "win_matches": 2,
+      "win_rate": "66%"
+    },
+    {
+      "hero_id": "536",
+      "hero_name": "夏洛特",
+      "player_name": "青训破军.无言",
+      "total_matches": 4,
+      "win_matches": 2,
+      "win_rate": "50%"
+    },
+    {
+      "hero_id": "518",
+      "hero_name": "马超",
+      "player_name": "青训破军.无言",
+      "total_matches": 4,
+      "win_matches": 2,
+      "win_rate": "50%"
+    },
+    {
+      "hero_id": "537",
+      "hero_name": "司空震",
+      "player_name": "青训破军.无言",
+      "total_matches": 5,
+      "win_matches": 1,
+      "win_rate": "20%"
+    },
+    {
+      "hero_id": "123",
+      "hero_name": "吕布",
+      "player_name": "青训破军.无言",
+      "total_matches": 1,
+      "win_matches": 1,
+      "win_rate": "100%"
+    },
+    {
+      "hero_id": "564",
+      "hero_name": "姬小满",
+      "player_name": "青训破军.无言",
+      "total_matches": 1,
+      "win_matches": 1,
+      "win_rate": "100%"
+    },
+    {
+      "hero_id": "510",
+      "hero_name": "孙策",
+      "player_name": "青训破军.无言",
+      "total_matches": 1,
+      "win_matches": 1,
+      "win_rate": "100%"
+    },
+    {
+      "hero_id": "128",
+      "hero_name": "曹操",
+      "player_name": "青训破军.无言",
+      "total_matches": 3,
+      "win_matches": 1,
+      "win_rate": "33%"
+    }
+  ],
+  "description": "选手英雄胜场简要统计 (赛季: KCC2025)",
+  "filters": {
+    "hero_name": null,
+    "limit": 0,
+    "min_wins": 0,
+    "player_name": null,
+    "sort_by": "win_matches"
+  },
+  "season": "KCC2025",
+  "total": 984
+}

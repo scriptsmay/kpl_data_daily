@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KCC2025",
-  "generated_at": "2026-06-27T20:22:54+08:00",
-  "build_id": "20260627T202254+0800",
+  "generated_at": "2026-06-27T22:46:27+08:00",
+  "build_id": "20260627T224627+0800",
   "data": {
     "player": "无言",
-    "growth_stage": "英雄池测试期",
-    "summary": "本赛季 26 局，使用 0 个英雄，队伍正在测试不同英雄和角色定位，英雄池覆盖是核心观察点。",
+    "growth_stage": "稳定轮换期",
+    "summary": "本赛季 26 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
     "milestones": [
       {
         "type": "first_appear",
@@ -42,6 +42,51 @@
         "type": "mvp",
         "date": "",
         "description": "生涯累计 17 次 MVP"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2025122502",
+        "description": "首次使用 狂铁：青训破军 vs 北京WB"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2025122602",
+        "description": "首次使用 关羽：青训破军 vs 成都AG超玩会"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2025122602",
+        "description": "首次使用 夏洛特：成都AG超玩会 vs 青训破军"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2025122602",
+        "description": "首次使用 马超：成都AG超玩会 vs 青训破军"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2025122602",
+        "description": "首次使用 司空震：成都AG超玩会 vs 青训破军"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2025121101",
+        "description": "首次使用 吕布：SYG vs 青训破军"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2025120901",
+        "description": "首次使用 姬小满：青训破军 vs APG"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2025122502",
+        "description": "首次使用 孙策：北京WB vs 青训破军"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2025122502",
+        "description": "首次使用 曹操：青训破军 vs 北京WB"
       }
     ],
     "hero_path": [
@@ -70,28 +115,40 @@
         "win_rate": "70.0%"
       }
     ],
-    "role_path": [],
+    "role_path": [
+      {
+        "roles": [
+          "开团",
+          "持续",
+          "输出"
+        ],
+        "role_matches": {
+          "持续": 9,
+          "开团": 4,
+          "输出": 13
+        }
+      }
+    ],
     "signals": {
-      "observed": [],
+      "observed": [
+        "伤害输出高于同位置均值（100.0分）",
+        "团战能力高于同位置均值（89.0分）",
+        "开团能力高于同位置均值（96.0分）",
+        "前期能力高于同位置均值（92.0分）",
+        "中期能力高于同位置均值（100.0分）",
+        "后期能力高于同位置均值（93.0分）",
+        "地图控制高于同位置均值（90.0分）",
+        "入侵能力高于同位置均值（91.0分）",
+        "支援能力高于同位置均值（96.0分）",
+        "经济效率高于同位置均值（100.0分）",
+        "坦度高于同位置均值（94.0分）",
+        "生存能力高于同位置均值（68.0分）"
+      ],
       "watching": [],
-      "insufficient": [
-        "伤害输出（None分）",
-        "团战能力（None分）",
-        "开团能力（None分）",
-        "前期能力（None分）",
-        "中期能力（None分）",
-        "后期能力（None分）",
-        "地图控制（None分）",
-        "入侵能力（None分）",
-        "支援能力（None分）",
-        "经济效率（None分）",
-        "坦度（None分）",
-        "生存能力（None分）"
-      ]
+      "insufficient": []
     },
     "risk_notes": [
-      "胜率不单独作为评价依据",
-      "英雄池仅覆盖 0 个英雄，角色定位仍在测试中"
+      "胜率不单独作为评价依据"
     ]
   }
 }

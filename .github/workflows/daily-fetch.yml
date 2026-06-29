@@ -117,6 +117,38 @@ jobs:
           git commit -m "chore: auto fetch kpl data $(date +%Y%m%d) [skip ci]"
           git push
 
+      - name: Sync data to CloudBase cloud storage
+        if: inputs.dry_run != 'true'
+        continue-on-error: true
+        env:
+          TCB_SECRET_ID: ${{ secrets.TCB_SECRET_ID }}
+          TCB_SECRET_KEY: ${{ secrets.TCB_SECRET_KEY }}
+          TCB_ENV_ID: ${{ secrets.TCB_ENV_ID }}
+        run: |
+          echo "::group::Syncing to CloudBase ($TCB_ENV_ID)"
+          npm install -g @cloudbase/cli
+          tcb login --key
+          SEASON=$(python3 -c "import json; print(json.load(open('data/latest/current-season.json'))['season'])")
+          echo "Current season: $SEASON"
+          # Entry files
+          tcb storage upload data/latest/current-season.json \
+            -d /data/latest/current-season.json -e "$TCB_ENV_ID"
+          tcb storage upload data/latest/seasons-list.json \
+            -d /data/latest/seasons-list.json -e "$TCB_ENV_ID"
+          # Derived data
+          for f in overview heroes win-lose ranking abilities insights; do
+            FILE="data/derived/$SEASON/$f.json"
+            if [ -f "$FILE" ]; then
+              tcb storage upload "$FILE" \
+                -d "/data/derived/$SEASON/$f.json" -e "$TCB_ENV_ID"
+              echo "  ✅ $f"
+            else
+              echo "  ⚠️ $FILE not found, skipped"
+            fi
+          done
+          echo "::endgroup::"
+          echo "✅ CloudBase sync complete"
+
       - name: Report status
         if: always()
         run: |

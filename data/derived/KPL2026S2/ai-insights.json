@@ -1,58 +1,57 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-06-29T03:00:31+00:00",
-  "build_id": "20260629T030031+0000",
-  "ai_elapsed_seconds": 64.18,
+  "generated_at": "2026-06-29T03:04:14+00:00",
+  "build_id": "20260629T030414+0000",
+  "ai_elapsed_seconds": 55.62,
   "ai_model": "qwen3.7-max-2026-06-08",
   "prompt_version": "ai-insights-v2-20260627",
   "input_hash": "3a650fa65922988a1f21249cca0fd4a17b7e0aa9bc9c051c854c4f62274f1e91",
   "data": {
-    "headline": "无言本赛季在机会积累期频繁测试新英雄，核心数据排名联盟前列，胜负局过程指标差异显著。",
-    "summary": "本赛季无言累计出场14局，使用8个英雄，综合评分位列对抗路第一。当前数据呈现其英雄池正在快速扩展，且胜败局中的经济与伤害表现存在明显区分。",
+    "headline": "无言本赛季英雄池持续扩展，综合评分领跑对抗路，近期团战能力呈现增长信号",
+    "summary": "本赛季14局比赛中使用8个英雄，多项核心能力维度满分且KDA位列联盟第一。当前仍处于机会积累期，近期频繁尝试新英雄及团战数据的变化值得关注。",
     "growth_stage": "机会积累期",
     "sections": [
       {
         "id": "hero_pool",
         "title": "英雄池扩展与轮换观察",
-        "summary": "本赛季英雄使用相对分散，近期频繁尝试新英雄，呈现明显的英雄池测试特征。",
-        "conclusion_type": "signal",
-        "confidence": "medium",
-        "sample_size": 14,
-        "sample_unit": "games",
-        "sample_scope": "current_season",
-        "evidence": [
-          "本赛季共使用8个英雄，总出场14局，集中度HHI为0.1633",
-          "近7天内新增使用司空震、蒙恬、达摩3个英雄",
-          "狂铁、关羽、马超各出场3局，作为主要轮换观察英雄"
-        ],
-        "risk_notes": [
-          "单个英雄出场局数较少，英雄熟练度和战术适配度仍需更多比赛验证"
-        ]
-      },
-      {
-        "id": "ranking",
-        "title": "核心数据排名与能力表现",
-        "summary": "从当前数据看，无言在KDA和分均经济等核心指标上排名联盟前列，综合评分位居对抗路第一。",
+        "summary": "本赛季英雄使用相对分散，近期频繁尝试新英雄，英雄池呈现明显的扩展趋势。",
         "conclusion_type": "signal",
         "confidence": "high",
         "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "综合评分98.11，位列对抗路排名第1",
-          "KDA达到8.82，排名联盟第1",
-          "分均经济685.0，排名联盟第3",
-          "共有12个能力维度高于同位置均值"
+          "本赛季共使用8个英雄，总出场14局，集中度（HHI）为0.1633",
+          "近14天内新增使用司空震、夏洛特、曹操、蒙恬、达摩5个英雄",
+          "狂铁、关羽、马超各出场3局，作为当前主要轮换英雄"
         ],
         "risk_notes": [
-          "排名数据受近期出场频次和对手强度影响，需结合后续比赛观察其稳定性"
+          "部分新增英雄仅出场1局，熟练度和战术适配度仍需后续比赛验证"
+        ]
+      },
+      {
+        "id": "abilities",
+        "title": "多维能力领先与团战信号",
+        "summary": "综合评分位列对抗路第一，多项核心能力维度满分，近期团战能力评分呈现增长信号。",
+        "conclusion_type": "signal",
+        "confidence": "high",
+        "sample_size": 14,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "综合评分98.11，对抗路位置排名第1，高于同位置均值维度达12个",
+          "开团、后期、入侵、坦度4个维度评分均达到100.0",
+          "近7天能力趋势中，团战（teamfight）评分增长9.0"
+        ],
+        "risk_notes": [
+          "能力评分受近期小样本对局影响，需结合更多场次观察稳定性"
         ]
       },
       {
         "id": "win_lose",
         "title": "胜负局过程指标差异",
-        "summary": "样本内呈现胜局与败局在伤害、承伤及经济获取上存在明显差异，败局中部分核心指标偏低。",
+        "summary": "从当前数据看，胜局与败局在KDA、分均伤害及经济获取上存在明显差异，败局中输出与承伤数据均有回落。",
         "conclusion_type": "signal",
         "confidence": "high",
         "sample_size": 14,
@@ -60,37 +59,36 @@
         "sample_scope": "current_season",
         "evidence": [
           "胜局KDA为12.86，败局KDA为1.75",
-          "胜局分均伤害4359.0，败局分均伤害3008.0",
-          "胜局场均经济12322.0，败局场均经济10351.0",
-          "败局低位指标显示KDA偏低、分均伤害偏低、场均死亡偏高"
+          "胜局分均伤害4359.0、分均承伤5968.0，败局分别为3008.0和4647.0",
+          "胜局场均经济12322.0，败局场均经济10351.0"
         ],
         "risk_notes": [
-          "胜负差异受团队整体局势影响较大，不宜直接归结为个人状态波动"
+          "胜负差异受团队整体局势影响，不宜直接归因为个人状态波动"
         ]
       },
       {
-        "id": "growth_path",
-        "title": "上场机会与成长阶段",
-        "summary": "当前处于机会积累期，近期英雄池测试频繁，战术角色仍在探索中。",
-        "conclusion_type": "fact",
-        "confidence": "medium",
+        "id": "ranking",
+        "title": "核心数据联盟排名表现",
+        "summary": "多项核心数据位居联盟前列，KDA与分均经济排名突出，但近期分均承伤排名数据有所波动。",
+        "conclusion_type": "signal",
+        "confidence": "high",
         "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "当前成长阶段标记为机会积累期",
-          "本赛季累计上场14局",
-          "近14天内英雄数量增加5个，包含司空震、夏洛特、曹操等尝试样本"
+          "KDA 8.82排名联盟第1，分均经济685.0排名第3",
+          "分均伤害4004.0与分均承伤5621.0均排名第5",
+          "近7天排名趋势中，分均承伤（damage_taken_per_minute）数值下降1254.0"
         ],
         "risk_notes": [
-          "样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断"
+          "排名数据受对手风格和比赛时长影响，需持续跟踪后续排名变化"
         ]
       }
     ],
     "updated_reason": "daily_fetch",
-    "generated_at": "2026-06-29T03:00:31+00:00",
-    "build_id": "20260629T030031+0000",
-    "ai_elapsed_seconds": 64.18,
+    "generated_at": "2026-06-29T03:04:14+00:00",
+    "build_id": "20260629T030414+0000",
+    "ai_elapsed_seconds": 55.62,
     "ai_model": "qwen3.7-max-2026-06-08",
     "prompt_version": "ai-insights-v2-20260627",
     "input_hash": "3a650fa65922988a1f21249cca0fd4a17b7e0aa9bc9c051c854c4f62274f1e91"

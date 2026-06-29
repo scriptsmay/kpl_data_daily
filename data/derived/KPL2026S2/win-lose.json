@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-06-28T05:44:56+00:00",
-  "build_id": "20260628T054456+0000",
+  "generated_at": "2026-06-29T03:00:31+00:00",
+  "build_id": "20260629T030031+0000",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 60.0,
@@ -126,7 +126,7 @@
       "damage_10min_per_minute": 2384.0,
       "damage_per_minute": 4359.0,
       "damage_taken_per_minute": 5968.0,
-      "data_version": "v20260627_220032",
+      "data_version": "v20260628_234028",
       "economy_10min_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -212,15 +212,15 @@
       "economy_10min_per_minute": 632.0,
       "gold_per_minute": 696.0,
       "heroes_used": [
-        "关羽",
         "蒙恬",
-        "狂铁",
+        "关羽",
         "马超",
+        "达摩",
         "司空震",
-        "达摩"
+        "狂铁"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-06-27 14:00:33",
+      "last_updated": "2026-06-28 15:40:29",
       "match_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -447,7 +447,7 @@
       "damage_10min_per_minute": 1342.0,
       "damage_per_minute": 3008.0,
       "damage_taken_per_minute": 4647.0,
-      "data_version": "v20260627_220034",
+      "data_version": "v20260628_234030",
       "economy_10min_details": [
         {
           "battle_id": "1781872932_501236240_6",
@@ -485,13 +485,13 @@
       "economy_10min_per_minute": 712.0,
       "gold_per_minute": 656.0,
       "heroes_used": [
-        "马超",
+        "关羽",
         "夏洛特",
         "曹操",
-        "关羽"
+        "马超"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-06-27 14:00:36",
+      "last_updated": "2026-06-28 15:40:32",
       "lose_matches": 4.0,
       "match_details": [
         {
@@ -720,7 +720,7 @@
           "damage_10min_per_minute": 2384.0,
           "damage_per_minute": 4359.0,
           "damage_taken_per_minute": 5968.0,
-          "data_version": "v20260627_220032",
+          "data_version": "v20260628_234028",
           "economy_10min_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -806,15 +806,15 @@
           "economy_10min_per_minute": 632.0,
           "gold_per_minute": 696.0,
           "heroes_used": [
-            "关羽",
             "蒙恬",
-            "狂铁",
+            "关羽",
             "马超",
+            "达摩",
             "司空震",
-            "达摩"
+            "狂铁"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-06-27 14:00:33",
+          "last_updated": "2026-06-28 15:40:29",
           "match_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -982,13 +982,13 @@
         "season": "KPL2026S2"
       },
       "position_avg_economy": {
-        "中路": 5537.0,
+        "中路": 5538.0,
         "发育路": 7308.0,
         "对抗路": 6806.0,
-        "打野": 7106.0,
-        "游走": 4427.0
+        "打野": 7108.0,
+        "游走": 4428.0
       },
-      "total_players": 97
+      "total_players": 98
     },
     "lose_source": {
       "code": 200,
@@ -1062,7 +1062,7 @@
           "damage_10min_per_minute": 1342.0,
           "damage_per_minute": 3008.0,
           "damage_taken_per_minute": 4647.0,
-          "data_version": "v20260627_220034",
+          "data_version": "v20260628_234030",
           "economy_10min_details": [
             {
               "battle_id": "1781872932_501236240_6",
@@ -1100,13 +1100,13 @@
           "economy_10min_per_minute": 712.0,
           "gold_per_minute": 656.0,
           "heroes_used": [
-            "马超",
+            "关羽",
             "夏洛特",
             "曹操",
-            "关羽"
+            "马超"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-06-27 14:00:36",
+          "last_updated": "2026-06-28 15:40:32",
           "lose_matches": 4.0,
           "match_details": [
             {
@@ -1220,7 +1220,7 @@
         "season": "KPL2026S2"
       },
       "season": "KPL2026S2",
-      "total_players": 93
+      "total_players": 99
     }
   }
 }

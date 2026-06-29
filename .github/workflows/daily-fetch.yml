@@ -127,7 +127,7 @@ jobs:
         run: |
           echo "::group::Syncing to CloudBase ($TCB_ENV_ID)"
           npm install -g @cloudbase/cli
-          tcb login --key
+          tcb login --apiKeyId "$TCB_SECRET_ID" --apiKey "$TCB_SECRET_KEY"
           SEASON=$(python3 -c "import json; print(json.load(open('data/latest/current-season.json'))['season'])")
           echo "Current season: $SEASON"
           # Entry files

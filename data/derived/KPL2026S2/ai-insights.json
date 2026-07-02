@@ -1,55 +1,55 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-01T05:53:49+00:00",
-  "build_id": "20260701T055349+0000",
-  "ai_elapsed_seconds": 68.82,
+  "generated_at": "2026-07-02T05:09:38+00:00",
+  "build_id": "20260702T050938+0000",
+  "ai_elapsed_seconds": 70.29,
   "ai_model": "qwen3.7-max-2026-06-08",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "26ec56ff939bdf28a9b937890e02d8c7ad95455da00d863da1779a3db3f5cd9f",
+  "input_hash": "fb7b158a69fbe0ef31e874e7b2743a7c4e6e95ce92191b2dfe0c74e20165a0ce",
   "data": {
-    "headline": "无言本赛季英雄池呈现扩展测试信号，综合能力评分位居对抗路榜首",
-    "summary": "从当前数据看，无言本赛季上场14局，英雄使用相对分散且近期新增多个尝试样本。其综合能力评分高达98.11，多项核心数据排名联盟前列，目前仍处于机会积累期。",
+    "headline": "无言本赛季英雄池扩展明显，近14天新增5名英雄，核心数据排名位居对抗路前列",
+    "summary": "本赛季出场14局使用8个英雄，处于机会积累期。从当前数据看，其KDA与分均经济排名靠前，胜败局过程指标差异显著。",
     "growth_stage": "机会积累期",
     "sections": [
       {
         "id": "hero_pool",
-        "title": "英雄池扩展与轮换观察",
-        "summary": "从当前数据看，本赛季英雄使用相对分散，近期新增多个尝试样本，呈现英雄池扩展测试的信号。",
+        "title": "英雄池扩展与尝试",
+        "summary": "近14天英雄池扩展明显，新增多名尝试型英雄，当前赛季英雄使用相对分散。",
         "conclusion_type": "signal",
-        "confidence": "medium",
+        "confidence": "high",
         "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季共使用8个英雄，总出场14局，集中度（HHI）为0.1633",
-          "近14天内新增司空震、夏洛特、曹操、蒙恬、达摩5个英雄出场",
-          "狂铁、关羽、马超各出场3局，其余5个英雄各出场1局"
+          "本赛季共使用8个英雄，总出场14局，集中度HHI为0.1633",
+          "近14天内新增司空震、夏洛特、曹操、蒙恬、达摩5个英雄"
         ],
         "risk_notes": [
-          "单个英雄出场局数较少，部分英雄仅为1局尝试样本，需结合后续比赛观察其熟练度"
+          "新增英雄多为1局尝试样本，熟练度与战术适配仍需后续比赛验证"
         ]
       },
       {
-        "id": "abilities",
-        "title": "多维能力评分与位置排名",
-        "summary": "样本内呈现极高的综合能力评分，在开团、坦度等维度表现突出，位居对抗路位置榜首。",
-        "conclusion_type": "fact",
+        "id": "ranking",
+        "title": "核心指标联盟排名",
+        "summary": "从当前数据看，多项核心指标排名靠前，尤其是KDA和分均经济表现突出。",
+        "conclusion_type": "signal",
         "confidence": "high",
         "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
           "综合评分98.11，对抗路位置排名第1",
-          "开团、后期、入侵、坦度四个维度评分均达到100.0",
-          "共有12个维度评分高于同位置均值"
+          "KDA 8.82排名第1，分均经济685.0排名第3"
         ],
-        "risk_notes": []
+        "risk_notes": [
+          "排名数据受整体样本量和队伍战术分配影响，需结合后续表现观察"
+        ]
       },
       {
         "id": "win_lose",
-        "title": "胜负局过程指标差异",
-        "summary": "当前样本中，胜局与败局在KDA、分均伤害及经济等过程指标上存在明显差异，值得关注败局时的资源获取情况。",
+        "title": "胜败局过程指标差异",
+        "summary": "胜局与败局在KDA、伤害及承伤等过程指标上呈现显著差异，胜局中数据全面占优。",
         "conclusion_type": "signal",
         "confidence": "high",
         "sample_size": 14,
@@ -57,54 +57,36 @@
         "sample_scope": "current_season",
         "evidence": [
           "胜局KDA为12.86，败局KDA为1.75",
-          "胜局分均伤害4359.0，败局分均伤害3008.0",
-          "胜局场均经济12322.0，败局场均经济10351.0"
+          "胜局分均伤害4359.0、分均承伤5968.0，均高于败局的3008.0和4647.0"
         ],
         "risk_notes": [
-          "败局具体样本量未明确，需结合后续比赛观察败局成因及战术调整"
+          "胜负差异受对局整体局势和阵容影响，不宜直接归因为个人状态波动"
         ]
       },
       {
-        "id": "ranking",
-        "title": "核心数据联盟排名表现",
-        "summary": "核心数据排名位居联盟前列，KDA与分均经济表现尤为突出。",
-        "conclusion_type": "fact",
+        "id": "growth_path",
+        "title": "成长路径与能力信号",
+        "summary": "当前处于机会积累期，能力画像显示其在开团与坦度维度评分极高，具备明显的战术角色特征。",
+        "conclusion_type": "hypothesis",
         "confidence": "high",
         "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "KDA为8.82，排名联盟第1",
-          "分均经济685.0，排名联盟第3",
-          "分均伤害4004.0与分均承伤5621.0均排名联盟第5"
-        ],
-        "risk_notes": []
-      },
-      {
-        "id": "growth_path",
-        "title": "生涯积累与近期上场机会",
-        "summary": "生涯已有百局以上积累，本赛季上场机会仍在积累阶段，近期英雄池测试频率有所增加。",
-        "conclusion_type": "signal",
-        "confidence": "medium",
-        "sample_size": 14,
-        "sample_unit": "games",
-        "sample_scope": "current_season",
-        "evidence": [
-          "生涯累计128局，获得19次MVP",
-          "本赛季上场14局，当前成长阶段为机会积累期",
-          "近7天内新增司空震、蒙恬、达摩3个英雄出场"
+          "当前成长阶段为机会积累期，本赛季上场14局",
+          "能力画像中开团和坦度评分均为100.0，高于同位置均值维度达12个"
         ],
         "risk_notes": [
-          "本赛季总上场局数相对有限，仍需持续观察上场稳定性与战术角色固化情况"
+          "样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断"
         ]
       }
     ],
     "updated_reason": "daily_fetch",
-    "generated_at": "2026-07-01T05:53:49+00:00",
-    "build_id": "20260701T055349+0000",
-    "ai_elapsed_seconds": 68.82,
+    "generated_at": "2026-07-02T05:09:38+00:00",
+    "build_id": "20260702T050938+0000",
+    "ai_elapsed_seconds": 70.29,
     "ai_model": "qwen3.7-max-2026-06-08",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "26ec56ff939bdf28a9b937890e02d8c7ad95455da00d863da1779a3db3f5cd9f"
+    "input_hash": "fb7b158a69fbe0ef31e874e7b2743a7c4e6e95ce92191b2dfe0c74e20165a0ce"
   }
 }

@@ -1,92 +1,122 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-02T05:09:38+00:00",
-  "build_id": "20260702T050938+0000",
-  "ai_elapsed_seconds": 70.29,
+  "generated_at": "2026-07-03T04:55:23+00:00",
+  "build_id": "20260703T045523+0000",
+  "ai_elapsed_seconds": 68.52,
   "ai_model": "qwen3.7-max-2026-06-08",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "fb7b158a69fbe0ef31e874e7b2743a7c4e6e95ce92191b2dfe0c74e20165a0ce",
+  "input_hash": "a793a21a5306d9ff56d6b2219057363c6d9503bd355bfca6539d4117ebf51653",
   "data": {
-    "headline": "无言本赛季英雄池扩展明显，近14天新增5名英雄，核心数据排名位居对抗路前列",
-    "summary": "本赛季出场14局使用8个英雄，处于机会积累期。从当前数据看，其KDA与分均经济排名靠前，胜败局过程指标差异显著。",
+    "headline": "无言本赛季14局使用8个英雄，英雄池扩展信号明显，KDA排名联盟第1",
+    "summary": "无言当前处于机会积累期，本赛季14局样本中英雄池覆盖8个英雄，近14天新增5个英雄出场。能力评分98.11排名对抗路第1，KDA 8.82同样位列联盟榜首，但样本量有限，需结合后续比赛持续观察。",
     "growth_stage": "机会积累期",
     "sections": [
       {
         "id": "hero_pool",
-        "title": "英雄池扩展与尝试",
-        "summary": "近14天英雄池扩展明显，新增多名尝试型英雄，当前赛季英雄使用相对分散。",
+        "title": "英雄池扩展观察",
+        "summary": "本赛季14局覆盖8个英雄，近14天内新增5个英雄出场，英雄池呈现快速扩展态势。",
         "conclusion_type": "signal",
-        "confidence": "high",
+        "confidence": "medium",
         "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季共使用8个英雄，总出场14局，集中度HHI为0.1633",
-          "近14天内新增司空震、夏洛特、曹操、蒙恬、达摩5个英雄"
+          "本赛季共使用8个英雄，总出场14局",
+          "近14天新增英雄：司空震、夏洛特、曹操、蒙恬、达摩",
+          "英雄集中度HHI为0.1633，使用相对分散",
+          "狂铁、关羽、马超各出场3局，为轮换观察级别；其余5个英雄各出场1局，为尝试样本级别"
         ],
         "risk_notes": [
-          "新增英雄多为1局尝试样本，熟练度与战术适配仍需后续比赛验证"
+          "5个英雄仅出场1局，样本量不足以判断熟练度",
+          "夏洛特和曹操本赛季出场1局且胜率为0.0%，但单局结果不具备统计意义"
         ]
       },
       {
-        "id": "ranking",
-        "title": "核心指标联盟排名",
-        "summary": "从当前数据看，多项核心指标排名靠前，尤其是KDA和分均经济表现突出。",
+        "id": "abilities",
+        "title": "能力画像与维度表现",
+        "summary": "综合评分98.11排名对抗路第1，开团、后期、入侵、坦度四个维度均达到100分，12个维度高于同位置均值。",
         "conclusion_type": "signal",
-        "confidence": "high",
+        "confidence": "medium",
         "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
           "综合评分98.11，对抗路位置排名第1",
-          "KDA 8.82排名第1，分均经济685.0排名第3"
+          "开团100.0、后期100.0、入侵100.0、坦度100.0，四个维度满分",
+          "高于同位置均值维度共12个",
+          "生存维度评分77.0，为各维度中最低"
         ],
         "risk_notes": [
-          "排名数据受整体样本量和队伍战术分配影响，需结合后续表现观察"
+          "14局样本下的能力评分可能受英雄选择和对手强度影响，需更多比赛验证稳定性"
+        ]
+      },
+      {
+        "id": "ranking",
+        "title": "联盟核心指标排名",
+        "summary": "KDA 8.82排名联盟第1，分均伤害、分均经济、野怪击杀均进入前5，但分均承伤近14天出现明显下降。",
+        "conclusion_type": "signal",
+        "confidence": "medium",
+        "sample_size": 14,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "KDA 8.82，排名第1",
+          "分均伤害4004.0排名第5，分均经济685.0排名第5，野怪击杀12.79排名第4",
+          "分均承伤5621.0排名第6",
+          "排名指标damage_taken_per_minute在14天内下降28.5%，被标记为异常"
+        ],
+        "risk_notes": [
+          "分均承伤14天内下降2240.0，需关注是战术调整还是对局样本波动",
+          "参团率64.1排名第12，相对其他核心指标排名偏低"
         ]
       },
       {
         "id": "win_lose",
-        "title": "胜败局过程指标差异",
-        "summary": "胜局与败局在KDA、伤害及承伤等过程指标上呈现显著差异，胜局中数据全面占优。",
+        "title": "胜负局过程差异",
+        "summary": "胜局与败局在KDA、分均伤害、场均经济等指标上差异显著，败局中KDA和分均伤害偏低为主要特征。",
         "conclusion_type": "signal",
-        "confidence": "high",
+        "confidence": "medium",
         "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "胜局KDA为12.86，败局KDA为1.75",
-          "胜局分均伤害4359.0、分均承伤5968.0，均高于败局的3008.0和4647.0"
+          "胜局KDA 12.86，败局KDA 1.75",
+          "胜局分均伤害4359.0，败局分均伤害3008.0",
+          "胜局场均经济12322.0，败局场均经济10351.0",
+          "胜局场均死亡0.7，败局场均死亡1.0",
+          "败局低位指标：KDA偏低、分均伤害偏低、场均死亡偏高"
         ],
         "risk_notes": [
-          "胜负差异受对局整体局势和阵容影响，不宜直接归因为个人状态波动"
+          "胜率不单独作为评价依据，胜负差异受阵容和对手影响较大"
         ]
       },
       {
         "id": "growth_path",
-        "title": "成长路径与能力信号",
-        "summary": "当前处于机会积累期，能力画像显示其在开团与坦度维度评分极高，具备明显的战术角色特征。",
-        "conclusion_type": "hypothesis",
-        "confidence": "high",
+        "title": "成长路径与上场机会",
+        "summary": "生涯累计128局、19次MVP，本赛季仍处于机会积累期，近期英雄池扩展活跃，值得关注后续上场频率变化。",
+        "conclusion_type": "fact",
+        "confidence": "medium",
         "sample_size": 14,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "当前成长阶段为机会积累期，本赛季上场14局",
-          "能力画像中开团和坦度评分均为100.0，高于同位置均值维度达12个"
+          "生涯累计128局，19次MVP",
+          "本赛季仅14局上场，处于机会积累期",
+          "已参加KCC2025、KCC2026、KPL2026S1、KPL2026S2共4个赛季",
+          "近14天英雄数量变化+5，显示上场机会和英雄测试在增加"
         ],
         "risk_notes": [
-          "样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断"
+          "当前样本仍在积累阶段，不适合做稳定强弱判断"
         ]
       }
     ],
     "updated_reason": "daily_fetch",
-    "generated_at": "2026-07-02T05:09:38+00:00",
-    "build_id": "20260702T050938+0000",
-    "ai_elapsed_seconds": 70.29,
+    "generated_at": "2026-07-03T04:55:23+00:00",
+    "build_id": "20260703T045523+0000",
+    "ai_elapsed_seconds": 68.52,
     "ai_model": "qwen3.7-max-2026-06-08",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "fb7b158a69fbe0ef31e874e7b2743a7c4e6e95ce92191b2dfe0c74e20165a0ce"
+    "input_hash": "a793a21a5306d9ff56d6b2219057363c6d9503bd355bfca6539d4117ebf51653"
   }
 }

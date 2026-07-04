@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-03T04:55:23+00:00",
-  "build_id": "20260703T045523+0000",
+  "generated_at": "2026-07-04T04:49:31+00:00",
+  "build_id": "20260704T044931+0000",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 60.0,
@@ -126,7 +126,7 @@
       "damage_10min_per_minute": 2384.0,
       "damage_per_minute": 4359.0,
       "damage_taken_per_minute": 5968.0,
-      "data_version": "v20260702_223035",
+      "data_version": "v20260704_000016",
       "economy_10min_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -212,15 +212,15 @@
       "economy_10min_per_minute": 632.0,
       "gold_per_minute": 696.0,
       "heroes_used": [
-        "狂铁",
-        "马超",
-        "司空震",
         "关羽",
+        "马超",
         "蒙恬",
+        "司空震",
+        "狂铁",
         "达摩"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-07-02 14:30:35",
+      "last_updated": "2026-07-03 16:00:17",
       "match_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -447,7 +447,7 @@
       "damage_10min_per_minute": 1342.0,
       "damage_per_minute": 3008.0,
       "damage_taken_per_minute": 4647.0,
-      "data_version": "v20260702_223037",
+      "data_version": "v20260704_000019",
       "economy_10min_details": [
         {
           "battle_id": "1781872932_501236240_6",
@@ -491,7 +491,7 @@
         "关羽"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-07-02 14:30:39",
+      "last_updated": "2026-07-03 16:00:21",
       "lose_matches": 4.0,
       "match_details": [
         {
@@ -720,7 +720,7 @@
           "damage_10min_per_minute": 2384.0,
           "damage_per_minute": 4359.0,
           "damage_taken_per_minute": 5968.0,
-          "data_version": "v20260702_223035",
+          "data_version": "v20260704_000016",
           "economy_10min_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -806,15 +806,15 @@
           "economy_10min_per_minute": 632.0,
           "gold_per_minute": 696.0,
           "heroes_used": [
-            "狂铁",
-            "马超",
-            "司空震",
             "关羽",
+            "马超",
             "蒙恬",
+            "司空震",
+            "狂铁",
             "达摩"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-07-02 14:30:35",
+          "last_updated": "2026-07-03 16:00:17",
           "match_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -982,11 +982,11 @@
         "season": "KPL2026S2"
       },
       "position_avg_economy": {
-        "中路": 5538.0,
+        "中路": 5539.0,
         "发育路": 7305.0,
         "对抗路": 6804.0,
         "打野": 7113.0,
-        "游走": 4429.0
+        "游走": 4430.0
       },
       "total_players": 98
     },
@@ -1062,7 +1062,7 @@
           "damage_10min_per_minute": 1342.0,
           "damage_per_minute": 3008.0,
           "damage_taken_per_minute": 4647.0,
-          "data_version": "v20260702_223037",
+          "data_version": "v20260704_000019",
           "economy_10min_details": [
             {
               "battle_id": "1781872932_501236240_6",
@@ -1106,7 +1106,7 @@
             "关羽"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-07-02 14:30:39",
+          "last_updated": "2026-07-03 16:00:21",
           "lose_matches": 4.0,
           "match_details": [
             {

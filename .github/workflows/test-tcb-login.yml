@@ -1,0 +1,19 @@
+name: Test TCB Login
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-login:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test CloudBase login
+        env:
+          TCB_SECRET_ID: ${{ secrets.TCB_SECRET_ID }}
+          TCB_SECRET_KEY: ${{ secrets.TCB_SECRET_KEY }}
+        run: |
+          npm install -g @cloudbase/cli
+          echo "TCB_SECRET_ID length: ${#TCB_SECRET_ID}"
+          echo "TCB_SECRET_KEY length: ${#TCB_SECRET_KEY}"
+          tcb login --apiKeyId "$TCB_SECRET_ID" --apiKey "$TCB_SECRET_KEY"
+          echo "✅ Login successful"

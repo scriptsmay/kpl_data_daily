@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-05T05:08:16+00:00",
-  "build_id": "20260705T050816+0000",
+  "generated_at": "2026-07-06T05:22:56+00:00",
+  "build_id": "20260706T052256+0000",
   "data": {
     "summary": [
       {
@@ -425,6 +425,7 @@
               ]
             },
             "match_date": "2026070402",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1512": {
                 "name": "宿命",
@@ -763,6 +764,7 @@
               ]
             },
             "match_date": "2026062702",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1512": {
                 "name": "宿命",
@@ -1124,6 +1126,7 @@
               ]
             },
             "match_date": "2026061903",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1512": {
                 "name": "宿命",
@@ -1448,6 +1451,7 @@
               ]
             },
             "match_date": "2026061703",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1512": {
                 "name": "宿命",
@@ -1788,6 +1792,7 @@
               ]
             },
             "match_date": "2026062702",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1504": {
                 "name": "异变",
@@ -2137,6 +2142,7 @@
               ]
             },
             "match_date": "2026061903",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1504": {
                 "name": "异变",
@@ -2475,6 +2481,7 @@
               ]
             },
             "match_date": "2026061703",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1504": {
                 "name": "异变",
@@ -2806,6 +2813,7 @@
               ]
             },
             "match_date": "2026070402",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1512": {
                 "name": "宿命",
@@ -3135,6 +3143,7 @@
               ]
             },
             "match_date": "2026062702",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1512": {
                 "name": "宿命",
@@ -3478,6 +3487,7 @@
               ]
             },
             "match_date": "2026062702",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1512": {
                 "name": "宿命",
@@ -3816,6 +3826,7 @@
               ]
             },
             "match_date": "2026062403",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1512": {
                 "name": "宿命",
@@ -4155,6 +4166,7 @@
               ]
             },
             "match_date": "2026061703",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1512": {
                 "name": "宿命",
@@ -4518,6 +4530,7 @@
               ]
             },
             "match_date": "2026070402",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1504": {
                 "name": "异变",
@@ -4872,6 +4885,7 @@
               ]
             },
             "match_date": "2026061903",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1504": {
                 "name": "异变",
@@ -5230,6 +5244,7 @@
               ]
             },
             "match_date": "2026062403",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1504": {
                 "name": "异变",
@@ -5565,6 +5580,7 @@
               ]
             },
             "match_date": "2026062403",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1504": {
                 "name": "异变",
@@ -5914,6 +5930,7 @@
               ]
             },
             "match_date": "2026061903",
+            "player_unique_id": "KPLP01538",
             "rune": {
               "1504": {
                 "name": "异变",
@@ -5942,16 +5959,16 @@
       {
         "hero_id": "536",
         "hero_name": "夏洛特",
-        "last_updated": "2026-07-04 14:29:54",
-        "lose_matches": 28,
+        "last_updated": "2026-07-05 14:11:48",
+        "lose_matches": 31,
         "matchups": [
           {
             "enemy_hero": "狂铁",
             "hero_id": "503",
-            "losses": 12,
-            "total": 22,
-            "win_rate": "45.5%",
-            "wins": 10
+            "losses": 14,
+            "total": 25,
+            "win_rate": "44.0%",
+            "wins": 11
           },
           {
             "enemy_hero": "曹操",
@@ -5964,9 +5981,9 @@
           {
             "enemy_hero": "白起",
             "hero_id": "120",
-            "losses": 4,
-            "total": 6,
-            "win_rate": "33.3%",
+            "losses": 5,
+            "total": 7,
+            "win_rate": "28.6%",
             "wins": 2
           },
           {
@@ -6008,31 +6025,39 @@
             "total": 2,
             "win_rate": "0.0%",
             "wins": 0
+          },
+          {
+            "enemy_hero": "吕布",
+            "hero_id": "123",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
           }
         ],
         "mvp_count": 5,
-        "mvp_rate": "9.1%",
+        "mvp_rate": "8.3%",
         "position": "对抗路",
         "rank": 1,
-        "total_matches": 55,
-        "total_matchup_heroes": 8,
+        "total_matches": 60,
+        "total_matchup_heroes": 9,
         "total_players": 19,
-        "win_matches": 27,
-        "win_rate": "49.1%"
+        "win_matches": 29,
+        "win_rate": "48.3%"
       },
       {
         "hero_id": "503",
         "hero_name": "狂铁",
-        "last_updated": "2026-07-04 14:29:55",
-        "lose_matches": 27,
+        "last_updated": "2026-07-05 14:11:48",
+        "lose_matches": 29,
         "matchups": [
           {
             "enemy_hero": "夏洛特",
             "hero_id": "536",
-            "losses": 10,
-            "total": 22,
-            "win_rate": "54.5%",
-            "wins": 12
+            "losses": 11,
+            "total": 25,
+            "win_rate": "56.0%",
+            "wins": 14
           },
           {
             "enemy_hero": "司空震",
@@ -6113,22 +6138,30 @@
             "total": 1,
             "win_rate": "0.0%",
             "wins": 0
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
           }
         ],
-        "mvp_count": 5,
-        "mvp_rate": "9.1%",
+        "mvp_count": 6,
+        "mvp_rate": "10.2%",
         "position": "对抗路",
         "rank": 2,
-        "total_matches": 55,
-        "total_matchup_heroes": 11,
+        "total_matches": 59,
+        "total_matchup_heroes": 12,
         "total_players": 19,
-        "win_matches": 28,
+        "win_matches": 30,
         "win_rate": "50.9%"
       },
       {
         "hero_id": "128",
         "hero_name": "曹操",
-        "last_updated": "2026-07-04 14:29:54",
+        "last_updated": "2026-07-05 14:11:48",
         "lose_matches": 18,
         "matchups": [
           {
@@ -6231,123 +6264,26 @@
         "win_rate": "53.9%"
       },
       {
-        "hero_id": "537",
-        "hero_name": "司空震",
-        "last_updated": "2026-07-04 14:29:54",
-        "lose_matches": 14,
-        "matchups": [
-          {
-            "enemy_hero": "狂铁",
-            "hero_id": "503",
-            "losses": 1,
-            "total": 8,
-            "win_rate": "87.5%",
-            "wins": 7
-          },
-          {
-            "enemy_hero": "关羽",
-            "hero_id": "140",
-            "losses": 1,
-            "total": 5,
-            "win_rate": "80.0%",
-            "wins": 4
-          },
-          {
-            "enemy_hero": "曹操",
-            "hero_id": "128",
-            "losses": 4,
-            "total": 5,
-            "win_rate": "20.0%",
-            "wins": 1
-          },
-          {
-            "enemy_hero": "芈月",
-            "hero_id": "121",
-            "losses": 1,
-            "total": 4,
-            "win_rate": "75.0%",
-            "wins": 3
-          },
-          {
-            "enemy_hero": "达摩",
-            "hero_id": "134",
-            "losses": 2,
-            "total": 2,
-            "win_rate": "0.0%",
-            "wins": 0
-          },
-          {
-            "enemy_hero": "夏洛特",
-            "hero_id": "536",
-            "losses": 0,
-            "total": 2,
-            "win_rate": "100.0%",
-            "wins": 2
-          },
-          {
-            "enemy_hero": "老夫子",
-            "hero_id": "139",
-            "losses": 1,
-            "total": 2,
-            "win_rate": "50.0%",
-            "wins": 1
-          },
-          {
-            "enemy_hero": "哪吒",
-            "hero_id": "180",
-            "losses": 1,
-            "total": 1,
-            "win_rate": "0.0%",
-            "wins": 0
-          },
-          {
-            "enemy_hero": "白起",
-            "hero_id": "120",
-            "losses": 1,
-            "total": 1,
-            "win_rate": "0.0%",
-            "wins": 0
-          },
-          {
-            "enemy_hero": "蒙恬",
-            "hero_id": "527",
-            "losses": 1,
-            "total": 1,
-            "win_rate": "0.0%",
-            "wins": 0
-          },
-          {
-            "enemy_hero": "马超",
-            "hero_id": "518",
-            "losses": 1,
-            "total": 1,
-            "win_rate": "0.0%",
-            "wins": 0
-          }
-        ],
-        "mvp_count": 4,
-        "mvp_rate": "12.5%",
-        "position": "对抗路",
-        "rank": 4,
-        "total_matches": 32,
-        "total_matchup_heroes": 11,
-        "total_players": 17,
-        "win_matches": 18,
-        "win_rate": "56.2%"
-      },
-      {
         "hero_id": "140",
         "hero_name": "关羽",
-        "last_updated": "2026-07-04 14:29:55",
+        "last_updated": "2026-07-05 14:11:48",
         "lose_matches": 16,
         "matchups": [
           {
             "enemy_hero": "项羽",
             "hero_id": "135",
             "losses": 3,
+            "total": 6,
+            "win_rate": "50.0%",
+            "wins": 3
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 2,
             "total": 5,
-            "win_rate": "40.0%",
-            "wins": 2
+            "win_rate": "60.0%",
+            "wins": 3
           },
           {
             "enemy_hero": "司空震",
@@ -6356,14 +6292,6 @@
             "total": 5,
             "win_rate": "20.0%",
             "wins": 1
-          },
-          {
-            "enemy_hero": "马超",
-            "hero_id": "518",
-            "losses": 2,
-            "total": 4,
-            "win_rate": "50.0%",
-            "wins": 2
           },
           {
             "enemy_hero": "夏洛特",
@@ -6438,29 +6366,134 @@
             "wins": 1
           }
         ],
-        "mvp_count": 6,
-        "mvp_rate": "18.8%",
+        "mvp_count": 7,
+        "mvp_rate": "20.6%",
         "position": "对抗路",
-        "rank": 5,
-        "total_matches": 32,
+        "rank": 4,
+        "total_matches": 34,
         "total_matchup_heroes": 12,
         "total_players": 18,
-        "win_matches": 16,
-        "win_rate": "50.0%"
+        "win_matches": 18,
+        "win_rate": "52.9%"
+      },
+      {
+        "hero_id": "537",
+        "hero_name": "司空震",
+        "last_updated": "2026-07-05 14:11:48",
+        "lose_matches": 14,
+        "matchups": [
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 1,
+            "total": 8,
+            "win_rate": "87.5%",
+            "wins": 7
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 1,
+            "total": 5,
+            "win_rate": "80.0%",
+            "wins": 4
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 4,
+            "total": 5,
+            "win_rate": "20.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "芈月",
+            "hero_id": "121",
+            "losses": 1,
+            "total": 4,
+            "win_rate": "75.0%",
+            "wins": 3
+          },
+          {
+            "enemy_hero": "达摩",
+            "hero_id": "134",
+            "losses": 2,
+            "total": 3,
+            "win_rate": "33.3%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 0,
+            "total": 2,
+            "win_rate": "100.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "老夫子",
+            "hero_id": "139",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "哪吒",
+            "hero_id": "180",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "白起",
+            "hero_id": "120",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 4,
+        "mvp_rate": "12.1%",
+        "position": "对抗路",
+        "rank": 5,
+        "total_matches": 33,
+        "total_matchup_heroes": 11,
+        "total_players": 17,
+        "win_matches": 19,
+        "win_rate": "57.6%"
       },
       {
         "hero_id": "120",
         "hero_name": "白起",
-        "last_updated": "2026-07-04 14:29:54",
+        "last_updated": "2026-07-05 14:11:48",
         "lose_matches": 10,
         "matchups": [
           {
             "enemy_hero": "夏洛特",
             "hero_id": "536",
             "losses": 2,
-            "total": 6,
-            "win_rate": "66.7%",
-            "wins": 4
+            "total": 7,
+            "win_rate": "71.4%",
+            "wins": 5
           },
           {
             "enemy_hero": "曹操",
@@ -6479,6 +6512,14 @@
             "wins": 0
           },
           {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 1,
+            "total": 3,
+            "win_rate": "66.7%",
+            "wins": 2
+          },
+          {
             "enemy_hero": "孙策",
             "hero_id": "510",
             "losses": 0,
@@ -6495,14 +6536,6 @@
             "wins": 0
           },
           {
-            "enemy_hero": "蒙恬",
-            "hero_id": "527",
-            "losses": 1,
-            "total": 1,
-            "win_rate": "0.0%",
-            "wins": 0
-          },
-          {
             "enemy_hero": "司空震",
             "hero_id": "537",
             "losses": 0,
@@ -6511,21 +6544,21 @@
             "wins": 1
           }
         ],
-        "mvp_count": 6,
+        "mvp_count": 7,
         "mvp_rate": "33.3%",
         "position": "对抗路",
         "rank": 6,
-        "total_matches": 18,
+        "total_matches": 21,
         "total_matchup_heroes": 7,
-        "total_players": 9,
-        "win_matches": 8,
-        "win_rate": "44.4%"
+        "total_players": 10,
+        "win_matches": 11,
+        "win_rate": "52.4%"
       },
       {
         "hero_id": "134",
         "hero_name": "达摩",
-        "last_updated": "2026-07-04 14:29:55",
-        "lose_matches": 10,
+        "last_updated": "2026-07-05 14:11:48",
+        "lose_matches": 12,
         "matchups": [
           {
             "enemy_hero": "曹操",
@@ -6544,6 +6577,14 @@
             "wins": 0
           },
           {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 1,
+            "total": 3,
+            "win_rate": "66.7%",
+            "wins": 2
+          },
+          {
             "enemy_hero": "狂铁",
             "hero_id": "503",
             "losses": 1,
@@ -6558,14 +6599,6 @@
             "total": 2,
             "win_rate": "50.0%",
             "wins": 1
-          },
-          {
-            "enemy_hero": "司空震",
-            "hero_id": "537",
-            "losses": 0,
-            "total": 2,
-            "win_rate": "100.0%",
-            "wins": 2
           },
           {
             "enemy_hero": "夏洛特",
@@ -6584,6 +6617,14 @@
             "wins": 1
           },
           {
+            "enemy_hero": "蒙恬",
+            "hero_id": "527",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
             "enemy_hero": "马超",
             "hero_id": "518",
             "losses": 0,
@@ -6593,27 +6634,116 @@
           }
         ],
         "mvp_count": 1,
-        "mvp_rate": "5.9%",
+        "mvp_rate": "5.3%",
         "position": "对抗路",
         "rank": 7,
-        "total_matches": 17,
-        "total_matchup_heroes": 8,
-        "total_players": 12,
+        "total_matches": 19,
+        "total_matchup_heroes": 9,
+        "total_players": 14,
         "win_matches": 7,
-        "win_rate": "41.2%"
+        "win_rate": "36.8%"
+      },
+      {
+        "hero_id": "527",
+        "hero_name": "蒙恬",
+        "last_updated": "2026-07-05 14:11:48",
+        "lose_matches": 8,
+        "matchups": [
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 3,
+            "total": 5,
+            "win_rate": "40.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "白起",
+            "hero_id": "120",
+            "losses": 2,
+            "total": 3,
+            "win_rate": "33.3%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 1,
+            "total": 2,
+            "win_rate": "50.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "曹操",
+            "hero_id": "128",
+            "losses": 0,
+            "total": 2,
+            "win_rate": "100.0%",
+            "wins": 2
+          },
+          {
+            "enemy_hero": "孙策",
+            "hero_id": "510",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "达摩",
+            "hero_id": "134",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "项羽",
+            "hero_id": "135",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "马超",
+            "hero_id": "518",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 8,
+        "total_matches": 17,
+        "total_matchup_heroes": 9,
+        "total_players": 12,
+        "win_matches": 9,
+        "win_rate": "52.9%"
       },
       {
         "hero_id": "518",
         "hero_name": "马超",
-        "last_updated": "2026-07-04 14:29:55",
-        "lose_matches": 6,
+        "last_updated": "2026-07-05 14:11:48",
+        "lose_matches": 7,
         "matchups": [
           {
             "enemy_hero": "关羽",
             "hero_id": "140",
-            "losses": 2,
-            "total": 4,
-            "win_rate": "50.0%",
+            "losses": 3,
+            "total": 5,
+            "win_rate": "40.0%",
             "wins": 2
           },
           {
@@ -6631,6 +6761,14 @@
             "total": 2,
             "win_rate": "100.0%",
             "wins": 2
+          },
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
           },
           {
             "enemy_hero": "蒙恬",
@@ -6673,101 +6811,20 @@
             "wins": 1
           }
         ],
-        "mvp_count": 3,
-        "mvp_rate": "21.4%",
-        "position": "对抗路",
-        "rank": 8,
-        "total_matches": 14,
-        "total_matchup_heroes": 8,
-        "total_players": 9,
-        "win_matches": 8,
-        "win_rate": "57.1%"
-      },
-      {
-        "hero_id": "527",
-        "hero_name": "蒙恬",
-        "last_updated": "2026-07-04 14:29:55",
-        "lose_matches": 6,
-        "matchups": [
-          {
-            "enemy_hero": "夏洛特",
-            "hero_id": "536",
-            "losses": 3,
-            "total": 5,
-            "win_rate": "40.0%",
-            "wins": 2
-          },
-          {
-            "enemy_hero": "关羽",
-            "hero_id": "140",
-            "losses": 1,
-            "total": 2,
-            "win_rate": "50.0%",
-            "wins": 1
-          },
-          {
-            "enemy_hero": "曹操",
-            "hero_id": "128",
-            "losses": 0,
-            "total": 2,
-            "win_rate": "100.0%",
-            "wins": 2
-          },
-          {
-            "enemy_hero": "孙策",
-            "hero_id": "510",
-            "losses": 1,
-            "total": 1,
-            "win_rate": "0.0%",
-            "wins": 0
-          },
-          {
-            "enemy_hero": "白起",
-            "hero_id": "120",
-            "losses": 0,
-            "total": 1,
-            "win_rate": "100.0%",
-            "wins": 1
-          },
-          {
-            "enemy_hero": "项羽",
-            "hero_id": "135",
-            "losses": 1,
-            "total": 1,
-            "win_rate": "0.0%",
-            "wins": 0
-          },
-          {
-            "enemy_hero": "马超",
-            "hero_id": "518",
-            "losses": 0,
-            "total": 1,
-            "win_rate": "100.0%",
-            "wins": 1
-          },
-          {
-            "enemy_hero": "司空震",
-            "hero_id": "537",
-            "losses": 0,
-            "total": 1,
-            "win_rate": "100.0%",
-            "wins": 1
-          }
-        ],
-        "mvp_count": 0,
-        "mvp_rate": "0.0%",
+        "mvp_count": 4,
+        "mvp_rate": "25.0%",
         "position": "对抗路",
         "rank": 9,
-        "total_matches": 14,
-        "total_matchup_heroes": 8,
+        "total_matches": 16,
+        "total_matchup_heroes": 9,
         "total_players": 11,
-        "win_matches": 8,
-        "win_rate": "57.1%"
+        "win_matches": 9,
+        "win_rate": "56.2%"
       },
       {
         "hero_id": "121",
         "hero_name": "芈月",
-        "last_updated": "2026-07-04 14:29:54",
+        "last_updated": "2026-07-05 14:11:48",
         "lose_matches": 8,
         "matchups": [
           {
@@ -6816,15 +6873,15 @@
       {
         "hero_id": "135",
         "hero_name": "项羽",
-        "last_updated": "2026-07-04 14:29:55",
-        "lose_matches": 4,
+        "last_updated": "2026-07-05 14:11:48",
+        "lose_matches": 5,
         "matchups": [
           {
             "enemy_hero": "关羽",
             "hero_id": "140",
-            "losses": 2,
-            "total": 5,
-            "win_rate": "60.0%",
+            "losses": 3,
+            "total": 6,
+            "win_rate": "50.0%",
             "wins": 3
           },
           {
@@ -6856,16 +6913,16 @@
         "mvp_rate": "0.0%",
         "position": "对抗路",
         "rank": 11,
-        "total_matches": 9,
+        "total_matches": 10,
         "total_matchup_heroes": 4,
-        "total_players": 6,
+        "total_players": 7,
         "win_matches": 5,
-        "win_rate": "55.6%"
+        "win_rate": "50.0%"
       },
       {
         "hero_id": "510",
         "hero_name": "孙策",
-        "last_updated": "2026-07-04 14:29:54",
+        "last_updated": "2026-07-05 14:11:48",
         "lose_matches": 4,
         "matchups": [
           {
@@ -6922,7 +6979,7 @@
       {
         "hero_id": "180",
         "hero_name": "哪吒",
-        "last_updated": "2026-07-04 14:29:55",
+        "last_updated": "2026-07-05 14:11:48",
         "lose_matches": 2,
         "matchups": [
           {
@@ -6963,7 +7020,7 @@
       {
         "hero_id": "558",
         "hero_name": "影",
-        "last_updated": "2026-07-04 14:29:55",
+        "last_updated": "2026-07-05 14:11:49",
         "lose_matches": 2,
         "matchups": [
           {
@@ -6989,23 +7046,31 @@
             "total": 1,
             "win_rate": "0.0%",
             "wins": 0
+          },
+          {
+            "enemy_hero": "猪八戒",
+            "hero_id": "511",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
           }
         ],
         "mvp_count": 0,
         "mvp_rate": "0.0%",
         "position": "对抗路",
         "rank": 14,
-        "total_matches": 4,
-        "total_matchup_heroes": 3,
-        "total_players": 4,
-        "win_matches": 2,
-        "win_rate": "50.0%"
+        "total_matches": 5,
+        "total_matchup_heroes": 4,
+        "total_players": 5,
+        "win_matches": 3,
+        "win_rate": "60.0%"
       },
       {
         "hero_id": "123",
         "hero_name": "吕布",
-        "last_updated": "2026-07-04 14:29:55",
-        "lose_matches": 1,
+        "last_updated": "2026-07-05 14:11:48",
+        "lose_matches": 2,
         "matchups": [
           {
             "enemy_hero": "狂铁",
@@ -7022,22 +7087,63 @@
             "total": 1,
             "win_rate": "0.0%",
             "wins": 0
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
           }
         ],
         "mvp_count": 0,
         "mvp_rate": "0.0%",
         "position": "对抗路",
         "rank": 15,
-        "total_matches": 3,
-        "total_matchup_heroes": 2,
-        "total_players": 3,
+        "total_matches": 4,
+        "total_matchup_heroes": 3,
+        "total_players": 4,
         "win_matches": 2,
-        "win_rate": "66.7%"
+        "win_rate": "50.0%"
+      },
+      {
+        "hero_id": "511",
+        "hero_name": "猪八戒",
+        "last_updated": "2026-07-05 14:11:48",
+        "lose_matches": 2,
+        "matchups": [
+          {
+            "enemy_hero": "影",
+            "hero_id": "558",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
+            "losses": 1,
+            "total": 1,
+            "win_rate": "0.0%",
+            "wins": 0
+          }
+        ],
+        "mvp_count": 0,
+        "mvp_rate": "0.0%",
+        "position": "对抗路",
+        "rank": 16,
+        "total_matches": 2,
+        "total_matchup_heroes": 2,
+        "total_players": 1,
+        "win_matches": 0,
+        "win_rate": "0.0%"
       },
       {
         "hero_id": "139",
         "hero_name": "老夫子",
-        "last_updated": "2026-07-04 14:29:55",
+        "last_updated": "2026-07-05 14:11:49",
         "lose_matches": 1,
         "matchups": [
           {
@@ -7052,7 +7158,7 @@
         "mvp_count": 0,
         "mvp_rate": "0.0%",
         "position": "对抗路",
-        "rank": 16,
+        "rank": 17,
         "total_matches": 2,
         "total_matchup_heroes": 1,
         "total_players": 2,
@@ -7060,34 +7166,9 @@
         "win_rate": "50.0%"
       },
       {
-        "hero_id": "511",
-        "hero_name": "猪八戒",
-        "last_updated": "2026-07-04 14:29:54",
-        "lose_matches": 1,
-        "matchups": [
-          {
-            "enemy_hero": "关羽",
-            "hero_id": "140",
-            "losses": 1,
-            "total": 1,
-            "win_rate": "0.0%",
-            "wins": 0
-          }
-        ],
-        "mvp_count": 0,
-        "mvp_rate": "0.0%",
-        "position": "对抗路",
-        "rank": 17,
-        "total_matches": 1,
-        "total_matchup_heroes": 1,
-        "total_players": 1,
-        "win_matches": 0,
-        "win_rate": "0.0%"
-      },
-      {
         "hero_id": "564",
         "hero_name": "姬小满",
-        "last_updated": "2026-07-04 14:29:55",
+        "last_updated": "2026-07-05 14:11:48",
         "lose_matches": 1,
         "matchups": [
           {
@@ -7112,7 +7193,7 @@
       {
         "hero_id": "507",
         "hero_name": "李信",
-        "last_updated": "2026-07-04 14:29:55",
+        "last_updated": "2026-07-05 14:11:49",
         "lose_matches": 0,
         "matchups": [
           {
@@ -7137,7 +7218,7 @@
       {
         "hero_id": "172",
         "hero_name": "蚩奼",
-        "last_updated": "2026-07-04 14:29:55",
+        "last_updated": "2026-07-05 14:11:49",
         "lose_matches": 1,
         "matchups": [
           {

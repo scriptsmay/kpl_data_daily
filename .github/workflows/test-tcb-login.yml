@@ -28,7 +28,9 @@ jobs:
 
           echo "::group::Secrets Check"
           echo "TCB_SECRET_ID length: ${#TCB_SECRET_ID}"
+          echo "TCB_SECRET_ID prefix: ${TCB_SECRET_ID:0:8}..."
           echo "TCB_SECRET_KEY length: ${#TCB_SECRET_KEY}"
+          echo "TCB_SECRET_KEY prefix: ${TCB_SECRET_KEY:0:8}..."
           echo "::endgroup::"
 
           echo "::group::Network Test"

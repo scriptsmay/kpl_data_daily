@@ -30,15 +30,15 @@ jobs:
           echo "Current season: $SEASON"
           # Entry files
           tcb storage upload data/latest/current-season.json \
-            -d data/latest/current-season.json -e "$TCB_ENV_ID"
+            data/latest/current-season.json -e "$TCB_ENV_ID"
           tcb storage upload data/latest/seasons-list.json \
-            -d data/latest/seasons-list.json -e "$TCB_ENV_ID"
+            data/latest/seasons-list.json -e "$TCB_ENV_ID"
           # Derived data
           for f in overview heroes win-lose ranking abilities insights; do
             FILE="data/derived/$SEASON/$f.json"
             if [ -f "$FILE" ]; then
               tcb storage upload "$FILE" \
-                -d "data/derived/$SEASON/$f.json" -e "$TCB_ENV_ID"
+                "data/derived/$SEASON/$f.json" -e "$TCB_ENV_ID"
               echo "  ✅ $f"
             else
               echo "  ⚠️ $FILE not found, skipped"

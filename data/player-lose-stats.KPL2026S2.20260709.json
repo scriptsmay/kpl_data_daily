@@ -1,0 +1,232 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "avg_assists": 1.0,
+      "avg_be_hurt_by_hero": 73350.0,
+      "avg_big_fight_carry_damage": 7326.0,
+      "avg_big_fight_carry_kills": 0.5,
+      "avg_big_fight_damage": 22835.0,
+      "avg_big_fight_damage_taken": 40258.0,
+      "avg_blue_buff": 0.0,
+      "avg_control_duration": 32.5,
+      "avg_damage_10min_ratio": 14.26,
+      "avg_deaths": 1.0,
+      "avg_economy_10min": 7121.0,
+      "avg_economy_10min_ratio": 23.33,
+      "avg_economy_diff_10min": 542.0,
+      "avg_game_duration": 947.0,
+      "avg_gold": 10351.0,
+      "avg_heal_count": 37317.0,
+      "avg_horizon_value": 18.0,
+      "avg_hurt_to_hero": 47476.0,
+      "avg_invasion_duration": 68.0,
+      "avg_invasion_jungle": 3.25,
+      "avg_kda": 1.75,
+      "avg_kill_monster_count": 10.8,
+      "avg_kill_participation_10min": 0.25,
+      "avg_kills": 0.75,
+      "avg_red_buff": 1.0,
+      "avg_river_duration": 78.0,
+      "avg_solo_kills": 0.0,
+      "avg_support_attempts": 1.5,
+      "avg_team_damage_ratio": 17.54,
+      "avg_team_fights_initiated": 0.25,
+      "avg_ten_min_damage": 13421.0,
+      "damage_10min_details": [
+        {
+          "battle_id": "1781872932_501236240_6",
+          "damage_ratio": 21.69,
+          "hero_name": "夏洛特",
+          "personal_damage": 21621,
+          "position": "对抗路",
+          "team_total_damage": 99667
+        },
+        {
+          "battle_id": "1781874729_501236240_7",
+          "damage_ratio": 6.92,
+          "hero_name": "曹操",
+          "personal_damage": 8576,
+          "position": "对抗路",
+          "team_total_damage": 123946
+        },
+        {
+          "battle_id": "1781877183_501236240_8",
+          "damage_ratio": 8.45,
+          "hero_name": "关羽",
+          "personal_damage": 11762,
+          "position": "对抗路",
+          "team_total_damage": 139140
+        },
+        {
+          "battle_id": "1782554190_48251408_63",
+          "damage_ratio": 19.97,
+          "hero_name": "马超",
+          "personal_damage": 11724,
+          "position": "对抗路",
+          "team_total_damage": 58694
+        }
+      ],
+      "damage_10min_per_minute": 1342.0,
+      "damage_per_minute": 3008.0,
+      "damage_taken_per_minute": 4647.0,
+      "data_version": "v20260705_220814",
+      "economy_10min_details": [
+        {
+          "battle_id": "1781872932_501236240_6",
+          "economy_ratio": 22.37,
+          "hero_name": "夏洛特",
+          "personal_economy": 6171,
+          "position": "对抗路",
+          "team_total_economy": 27585
+        },
+        {
+          "battle_id": "1781874729_501236240_7",
+          "economy_ratio": 24.8,
+          "hero_name": "曹操",
+          "personal_economy": 8222,
+          "position": "对抗路",
+          "team_total_economy": 33151
+        },
+        {
+          "battle_id": "1781877183_501236240_8",
+          "economy_ratio": 22.44,
+          "hero_name": "关羽",
+          "personal_economy": 7444,
+          "position": "对抗路",
+          "team_total_economy": 33170
+        },
+        {
+          "battle_id": "1782554190_48251408_63",
+          "economy_ratio": 23.71,
+          "hero_name": "马超",
+          "personal_economy": 6648,
+          "position": "对抗路",
+          "team_total_economy": 28043
+        }
+      ],
+      "economy_10min_per_minute": 712.0,
+      "gold_per_minute": 656.0,
+      "heroes_used": [
+        "夏洛特",
+        "马超",
+        "关羽",
+        "曹操"
+      ],
+      "invalid_10min_matches": 0.0,
+      "last_updated": "2026-07-05 14:08:16",
+      "lose_matches": 4.0,
+      "match_details": [
+        {
+          "battle_id": "1781872932_501236240_6",
+          "hero_name": "夏洛特",
+          "is_valid_10min": true,
+          "match_number": 1,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S2M1W3D3",
+          "team_id": "KPL2026S2_ytg"
+        },
+        {
+          "battle_id": "1781874729_501236240_7",
+          "hero_name": "曹操",
+          "is_valid_10min": true,
+          "match_number": 2,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S2M1W3D3",
+          "team_id": "KPL2026S2_ytg"
+        },
+        {
+          "battle_id": "1781877183_501236240_8",
+          "hero_name": "关羽",
+          "is_valid_10min": true,
+          "match_number": 3,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S2M1W3D3",
+          "team_id": "KPL2026S2_ytg"
+        },
+        {
+          "battle_id": "1782554190_48251408_63",
+          "hero_name": "马超",
+          "is_valid_10min": true,
+          "match_number": 4,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S2M2W4D2",
+          "team_id": "KPL2026S2_ytg"
+        }
+      ],
+      "player_name": "KSG.无言",
+      "positions_played": [
+        "对抗路"
+      ],
+      "season": "KPL2026S2",
+      "teammates_avg_invasion_jungle": 2.88,
+      "teammates_details": [
+        {
+          "avg_invasion_jungle": 1.75,
+          "matches_together": 4,
+          "positions": [
+            "中路"
+          ],
+          "teammate_name": "KSG.流浪",
+          "total_invasion_jungle": 7
+        },
+        {
+          "avg_invasion_jungle": 5.0,
+          "matches_together": 4,
+          "positions": [
+            "发育路"
+          ],
+          "teammate_name": "KSG.小屿",
+          "total_invasion_jungle": 20
+        },
+        {
+          "avg_invasion_jungle": 4.75,
+          "matches_together": 4,
+          "positions": [
+            "打野"
+          ],
+          "teammate_name": "KSG.句号",
+          "total_invasion_jungle": 19
+        },
+        {
+          "avg_invasion_jungle": 0.0,
+          "matches_together": 4,
+          "positions": [
+            "游走"
+          ],
+          "teammate_name": "KSG.晚星",
+          "total_invasion_jungle": 0
+        }
+      ],
+      "total_assists": 4.0,
+      "total_be_hurt_by_hero": 293399.0,
+      "total_big_fight_damage": 91339.0,
+      "total_blue_buff": 0.0,
+      "total_deaths": 4.0,
+      "total_game_duration": 3788.0,
+      "total_gold": 41404.0,
+      "total_heal_count": 149268.0,
+      "total_heroes_count": 4.0,
+      "total_horizon_value": 71.0,
+      "total_hurt_to_hero": 189902.0,
+      "total_invasion_jungle": 13.0,
+      "total_kills": 3.0,
+      "total_red_buff": 4.0,
+      "total_solo_kills": 0.0,
+      "total_ten_min_damage": 53683.0,
+      "valid_10min_matches": 4.0,
+      "valid_10min_rate": 100.0,
+      "valid_damage_ratio_matches": 3.0
+    }
+  ],
+  "data_source": "player_lose_stats table",
+  "description": "选手失败数据统计 (赛季: KPL2026S2)",
+  "filters": {
+    "limit": 0,
+    "min_loses": 0,
+    "player_name": null,
+    "season": "KPL2026S2"
+  },
+  "season": "KPL2026S2",
+  "total_players": 101
+}

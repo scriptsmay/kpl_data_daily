@@ -1,77 +1,93 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-08T04:30:19+00:00",
-  "build_id": "20260708T043019+0000",
-  "ai_elapsed_seconds": 79.63,
+  "generated_at": "2026-07-09T05:04:48+00:00",
+  "build_id": "20260709T050448+0000",
+  "ai_elapsed_seconds": 91.31,
   "ai_model": "qwen3.7-max-2026-06-08",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "dea6941388f52f6fc2519f73952fc1d6d937e44a50dc04c5810d1a1f7d6081b9",
+  "input_hash": "a7f729a501ba326eca0adf29c7d98be16ca35ed842d78f2458652b1ce1cdd0ea",
   "data": {
-    "headline": "无言本赛季17局使用8个英雄，KDA排名联盟第1，英雄池呈稳定轮换结构",
-    "summary": "无言在KPL2026S2赛季累计出场17局，覆盖8个英雄，能力评分98.16位列对抗路第1。当前英雄池以狂铁、关羽、马超为核心轮换，近30天内新增5个英雄尝试，整体处于稳定轮换期。",
+    "headline": "无言本赛季17局使用8个英雄，英雄池分散且轮换稳定，KDA排名联盟第1",
+    "summary": "无言在KPL2026S2赛季已进入稳定轮换期，17局比赛中使用8个英雄，英雄池覆盖较广。当前能力评分98.16，对抗路位置排名第1，KDA以9.75领跑联盟。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
         "id": "hero_pool",
         "title": "英雄池结构",
-        "summary": "本赛季英雄池覆盖8个英雄，集中度HHI为0.1557，使用相对分散。狂铁、关羽、马超构成核心轮换，其余5个英雄处于尝试阶段。",
+        "summary": "本赛季17局使用8个英雄，集中度HHI为0.1557，英雄使用相对分散，其中3个英雄处于轮换观察状态，5个为尝试样本。",
         "conclusion_type": "fact",
         "confidence": "high",
         "sample_size": 17,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季总出场17局，使用8个英雄",
-          "集中度HHI为0.1557",
-          "狂铁出场4局、关羽出场3局、马超出场3局，成熟度均为轮换观察",
-          "司空震、夏洛特、蒙恬、达摩、曹操成熟度均为尝试样本",
-          "近30天新增英雄5个：司空震、夏洛特、曹操、蒙恬、达摩"
+          "本赛季总出场局数17局，使用8个英雄",
+          "英雄池集中度HHI为0.1557",
+          "轮换观察英雄3个：狂铁（4局）、关羽（3局）、马超（3局）",
+          "尝试样本英雄5个：司空震（2局）、夏洛特（2局）、蒙恬（1局）、达摩（1局）、曹操（1局）"
+        ],
+        "risk_notes": []
+      },
+      {
+        "id": "growth_path",
+        "title": "成长路径与出场节奏",
+        "summary": "无言生涯累计131局，本赛季已形成相对稳定的出场节奏。近30天内新增5个英雄出场，英雄池持续扩展中。",
+        "conclusion_type": "signal",
+        "confidence": "high",
+        "sample_size": 131,
+        "sample_unit": "games",
+        "sample_scope": "career",
+        "evidence": [
+          "生涯累计131局，累计19次MVP",
+          "本赛季17局使用8个英雄，已形成相对稳定的出场节奏和英雄池结构",
+          "近30天英雄数量变化+5，新增英雄：司空震、夏洛特、曹操、蒙恬、达摩",
+          "近14天新增英雄：司空震"
         ],
         "risk_notes": []
       },
       {
         "id": "abilities",
         "title": "能力画像",
-        "summary": "综合评分98.16，对抗路位置排名第1。开团、入侵、坦度三项维度满分，12个维度高于同位置均值，伤害输出和生存维度相对较低。",
-        "conclusion_type": "fact",
+        "summary": "综合评分98.16，对抗路位置排名第1，开团、入侵、坦度三项满分，12个维度高于同位置均值。",
+        "conclusion_type": "signal",
         "confidence": "high",
         "sample_size": 17,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
           "综合评分98.16，总排名和位置排名均为第1",
-          "开团100.0、入侵100.0、坦度100.0",
+          "开团100.0、入侵100.0、坦度100.0为满分维度",
           "高于同位置均值维度共12个",
-          "伤害输出84.0、生存79.0为相对较低维度"
+          "伤害输出84.0、前期83.0、地图控制82.0、生存79.0为相对较低维度"
         ],
         "risk_notes": []
       },
       {
         "id": "ranking",
-        "title": "联盟排名表现",
-        "summary": "KDA以9.75排名联盟第1，分均伤害、分均经济、野怪击杀等指标均进入前5。近14天分均承伤排名下降1472位，值得关注后续承伤表现变化。",
-        "conclusion_type": "signal",
-        "confidence": "medium",
+        "title": "联盟核心指标排名",
+        "summary": "KDA以9.75排名联盟第1，分均伤害、分均承伤、分均经济均进入前7，参团率64.2排名第12。",
+        "conclusion_type": "fact",
+        "confidence": "high",
         "sample_size": 17,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
           "KDA 9.75，排名第1",
-          "分均伤害3958.0排名第4，分均经济695.0排名第5，野怪击杀13.0排名第4",
-          "分均承伤5403.0排名第7，承伤占比24.4%排名第7",
-          "排名指标damage_taken_per_minute在14d内下降21.4%（下降1472位）"
+          "分均伤害3958.0，排名第4",
+          "分均承伤5403.0，排名第7",
+          "分均经济695.0，排名第5",
+          "参团率64.2，排名第12",
+          "野怪击杀13.0，排名第4"
         ],
-        "risk_notes": [
-          "分均承伤排名近14天出现显著下降，需结合后续比赛观察是否为持续趋势"
-        ]
+        "risk_notes": []
       },
       {
         "id": "win_lose",
-        "title": "胜负过程差异",
-        "summary": "胜局与败局在KDA、分均伤害、场均经济等指标上差异明显。败局中KDA偏低（1.75）、分均伤害偏低（3008.0）、场均死亡偏高（1.0），呈现败局中输出和生存同步下降的特征。",
+        "title": "胜负局过程差异",
+        "summary": "胜局与败局在KDA、分均伤害、场均经济等指标上差异显著，败局中KDA偏低、分均伤害偏低、场均死亡偏高。",
         "conclusion_type": "signal",
-        "confidence": "medium",
+        "confidence": "high",
         "sample_size": 17,
         "sample_unit": "games",
         "sample_scope": "current_season",
@@ -87,30 +103,32 @@
         ]
       },
       {
-        "id": "growth_path",
-        "title": "成长路径观察",
-        "summary": "生涯累计131局、19次MVP，本赛季已形成相对稳定的出场节奏。近14天新增3个英雄（司空震、蒙恬、达摩），英雄池仍在扩展中。",
+        "id": "team_structure",
+        "title": "近期趋势信号",
+        "summary": "近14天分均承伤排名下降685，近7天经济评分增长3.0，伤害输出评分小幅下降1.0，值得关注后续比赛中的承伤与输出平衡。",
         "conclusion_type": "signal",
-        "confidence": "high",
-        "sample_size": 131,
+        "confidence": "medium",
+        "sample_size": 15,
         "sample_unit": "games",
-        "sample_scope": "career",
+        "sample_scope": "recent_7_days",
         "evidence": [
-          "生涯累计131局，累计19次MVP",
-          "本赛季17局使用8个英雄，已形成相对稳定的出场节奏和英雄池结构",
-          "近14天新增英雄3个：司空震、蒙恬、达摩",
-          "近30天新增英雄5个：司空震、夏洛特、曹操、蒙恬、达摩",
-          "首次使用狂铁记录：KSG vs WST"
+          "近14天分均承伤排名最大下降685",
+          "近7天分均承伤排名最大下降218.0",
+          "近7天能力评分最大增长：economy +3.0",
+          "近7天能力评分最大下降：damage_output -1.0",
+          "近14天能力评分最大增长：durability +1.0"
         ],
-        "risk_notes": []
+        "risk_notes": [
+          "趋势数据基于快照变化，需结合后续比赛观察是否形成持续趋势"
+        ]
       }
     ],
     "updated_reason": "daily_fetch",
-    "generated_at": "2026-07-08T04:30:19+00:00",
-    "build_id": "20260708T043019+0000",
-    "ai_elapsed_seconds": 79.63,
+    "generated_at": "2026-07-09T05:04:48+00:00",
+    "build_id": "20260709T050448+0000",
+    "ai_elapsed_seconds": 91.31,
     "ai_model": "qwen3.7-max-2026-06-08",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "dea6941388f52f6fc2519f73952fc1d6d937e44a50dc04c5810d1a1f7d6081b9"
+    "input_hash": "a7f729a501ba326eca0adf29c7d98be16ca35ed842d78f2458652b1ce1cdd0ea"
   }
 }

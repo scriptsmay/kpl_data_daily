@@ -1,0 +1,1032 @@
+{
+  "code": 200,
+  "data": {
+    "players": [
+      {
+        "damage_by_player": [
+          {
+            "damage": 97706,
+            "player_name": "重庆狼队.清清"
+          },
+          {
+            "damage": 78335,
+            "player_name": "成都AG超玩会.轩染"
+          },
+          {
+            "damage": 76057,
+            "player_name": "WST.安澜"
+          },
+          {
+            "damage": 69013,
+            "player_name": "深圳DYG.小乐"
+          },
+          {
+            "damage": 62448,
+            "player_name": "成都AG超玩会.钟意"
+          },
+          {
+            "damage": 62217,
+            "player_name": "重庆狼队.信"
+          },
+          {
+            "damage": 52882,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 51942,
+            "player_name": "成都AG超玩会.大帅"
+          },
+          {
+            "damage": 50675,
+            "player_name": "深圳DYG.落空"
+          },
+          {
+            "damage": 43175,
+            "player_name": "WST.糯米"
+          },
+          {
+            "damage": 41255,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 39867,
+            "player_name": "重庆狼队.皖皖"
+          },
+          {
+            "damage": 38848,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 38411,
+            "player_name": "重庆狼队.道崽"
+          },
+          {
+            "damage": 36912,
+            "player_name": "深圳DYG.钎城"
+          },
+          {
+            "damage": 35475,
+            "player_name": "成都AG超玩会.一诺"
+          },
+          {
+            "damage": 34962,
+            "player_name": "深圳DYG.向鱼"
+          },
+          {
+            "damage": 33731,
+            "player_name": "深圳DYG.小轩"
+          },
+          {
+            "damage": 33389,
+            "player_name": "成都AG超玩会.长生"
+          },
+          {
+            "damage": 32921,
+            "player_name": "重庆狼队.紫幻"
+          },
+          {
+            "damage": 30782,
+            "player_name": "济南RW侠.挽墨"
+          },
+          {
+            "damage": 25914,
+            "player_name": "WST.沉欢"
+          },
+          {
+            "damage": 20845,
+            "player_name": "WST.萌元"
+          },
+          {
+            "damage": 14967,
+            "player_name": "深圳DYG.方羽"
+          },
+          {
+            "damage": 11907,
+            "player_name": "WST.澜崽"
+          },
+          {
+            "damage": 10603,
+            "player_name": "济南RW侠.小俞"
+          },
+          {
+            "damage": 7332,
+            "player_name": "WST.百炼"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "33.0%",
+            "position": "top"
+          },
+          {
+            "percentage": "18.5%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "13.9%",
+            "position": "mid"
+          },
+          {
+            "percentage": "12.6%",
+            "position": "adc"
+          },
+          {
+            "percentage": "22.0%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "33.5%",
+            "position": "top"
+          },
+          {
+            "percentage": "19.6%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.5%",
+            "position": "mid"
+          },
+          {
+            "percentage": "14.8%",
+            "position": "adc"
+          },
+          {
+            "percentage": "19.6%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 373993,
+            "position": "top"
+          },
+          {
+            "damage": 209100,
+            "position": "jungle"
+          },
+          {
+            "damage": 157968,
+            "position": "mid"
+          },
+          {
+            "damage": 142246,
+            "position": "adc"
+          },
+          {
+            "damage": 249264,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.无言",
+        "player_position": "对抗路",
+        "player_unique_id": "KPLP01538",
+        "total_matches": 17
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 115213,
+            "player_name": "成都AG超玩会.钟意"
+          },
+          {
+            "damage": 98078,
+            "player_name": "重庆狼队.信"
+          },
+          {
+            "damage": 96710,
+            "player_name": "重庆狼队.清清"
+          },
+          {
+            "damage": 76531,
+            "player_name": "成都AG超玩会.大帅"
+          },
+          {
+            "damage": 66234,
+            "player_name": "深圳DYG.落空"
+          },
+          {
+            "damage": 65670,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 62992,
+            "player_name": "WST.糯米"
+          },
+          {
+            "damage": 57406,
+            "player_name": "重庆狼队.皖皖"
+          },
+          {
+            "damage": 56222,
+            "player_name": "WST.澜崽"
+          },
+          {
+            "damage": 47803,
+            "player_name": "深圳DYG.钎城"
+          },
+          {
+            "damage": 46883,
+            "player_name": "成都AG超玩会.轩染"
+          },
+          {
+            "damage": 44724,
+            "player_name": "重庆狼队.紫幻"
+          },
+          {
+            "damage": 43949,
+            "player_name": "成都AG超玩会.长生"
+          },
+          {
+            "damage": 38943,
+            "player_name": "重庆狼队.道崽"
+          },
+          {
+            "damage": 34337,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 33678,
+            "player_name": "深圳DYG.向鱼"
+          },
+          {
+            "damage": 32279,
+            "player_name": "深圳DYG.小乐"
+          },
+          {
+            "damage": 32072,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 28730,
+            "player_name": "WST.萌元"
+          },
+          {
+            "damage": 27720,
+            "player_name": "深圳DYG.小轩"
+          },
+          {
+            "damage": 26803,
+            "player_name": "成都AG超玩会.一诺"
+          },
+          {
+            "damage": 25773,
+            "player_name": "WST.沉欢"
+          },
+          {
+            "damage": 25143,
+            "player_name": "深圳DYG.方羽"
+          },
+          {
+            "damage": 24789,
+            "player_name": "济南RW侠.小俞"
+          },
+          {
+            "damage": 19888,
+            "player_name": "济南RW侠.挽墨"
+          },
+          {
+            "damage": 19567,
+            "player_name": "WST.百炼"
+          },
+          {
+            "damage": 17448,
+            "player_name": "WST.安澜"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "18.0%",
+            "position": "top"
+          },
+          {
+            "percentage": "29.0%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "13.3%",
+            "position": "mid"
+          },
+          {
+            "percentage": "13.2%",
+            "position": "adc"
+          },
+          {
+            "percentage": "26.5%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "20.3%",
+            "position": "top"
+          },
+          {
+            "percentage": "27.6%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "13.5%",
+            "position": "mid"
+          },
+          {
+            "percentage": "13.7%",
+            "position": "adc"
+          },
+          {
+            "percentage": "24.8%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 227657,
+            "position": "top"
+          },
+          {
+            "damage": 366941,
+            "position": "jungle"
+          },
+          {
+            "damage": 168012,
+            "position": "mid"
+          },
+          {
+            "damage": 167068,
+            "position": "adc"
+          },
+          {
+            "damage": 335907,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.句号",
+        "player_position": "打野",
+        "player_unique_id": "KPLP01343",
+        "total_matches": 17
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 151545,
+            "player_name": "深圳DYG.落空"
+          },
+          {
+            "damage": 139046,
+            "player_name": "重庆狼队.信"
+          },
+          {
+            "damage": 122198,
+            "player_name": "深圳DYG.小乐"
+          },
+          {
+            "damage": 121176,
+            "player_name": "成都AG超玩会.钟意"
+          },
+          {
+            "damage": 118989,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 118409,
+            "player_name": "成都AG超玩会.大帅"
+          },
+          {
+            "damage": 94370,
+            "player_name": "重庆狼队.清清"
+          },
+          {
+            "damage": 91151,
+            "player_name": "成都AG超玩会.长生"
+          },
+          {
+            "damage": 89328,
+            "player_name": "成都AG超玩会.一诺"
+          },
+          {
+            "damage": 83011,
+            "player_name": "WST.澜崽"
+          },
+          {
+            "damage": 82572,
+            "player_name": "重庆狼队.皖皖"
+          },
+          {
+            "damage": 78790,
+            "player_name": "成都AG超玩会.轩染"
+          },
+          {
+            "damage": 76569,
+            "player_name": "深圳DYG.钎城"
+          },
+          {
+            "damage": 65784,
+            "player_name": "深圳DYG.方羽"
+          },
+          {
+            "damage": 62075,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 57856,
+            "player_name": "重庆狼队.道崽"
+          },
+          {
+            "damage": 54533,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 52216,
+            "player_name": "重庆狼队.紫幻"
+          },
+          {
+            "damage": 50531,
+            "player_name": "WST.糯米"
+          },
+          {
+            "damage": 49609,
+            "player_name": "WST.安澜"
+          },
+          {
+            "damage": 45117,
+            "player_name": "深圳DYG.小轩"
+          },
+          {
+            "damage": 43525,
+            "player_name": "深圳DYG.向鱼"
+          },
+          {
+            "damage": 33550,
+            "player_name": "WST.萌元"
+          },
+          {
+            "damage": 21756,
+            "player_name": "济南RW侠.挽墨"
+          },
+          {
+            "damage": 20482,
+            "player_name": "WST.沉欢"
+          },
+          {
+            "damage": 18826,
+            "player_name": "济南RW侠.小俞"
+          },
+          {
+            "damage": 14788,
+            "player_name": "WST.百炼"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "20.4%",
+            "position": "top"
+          },
+          {
+            "percentage": "27.1%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "11.7%",
+            "position": "mid"
+          },
+          {
+            "percentage": "14.1%",
+            "position": "adc"
+          },
+          {
+            "percentage": "26.6%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "21.4%",
+            "position": "top"
+          },
+          {
+            "percentage": "25.8%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "11.6%",
+            "position": "mid"
+          },
+          {
+            "percentage": "12.2%",
+            "position": "adc"
+          },
+          {
+            "percentage": "29.1%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 399500,
+            "position": "top"
+          },
+          {
+            "damage": 531437,
+            "position": "jungle"
+          },
+          {
+            "damage": 229130,
+            "position": "mid"
+          },
+          {
+            "damage": 276129,
+            "position": "adc"
+          },
+          {
+            "damage": 521606,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.流浪",
+        "player_position": "中路",
+        "player_unique_id": "KPLP00968",
+        "total_matches": 17
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 211485,
+            "player_name": "重庆狼队.清清"
+          },
+          {
+            "damage": 196882,
+            "player_name": "重庆狼队.信"
+          },
+          {
+            "damage": 126384,
+            "player_name": "成都AG超玩会.大帅"
+          },
+          {
+            "damage": 122363,
+            "player_name": "成都AG超玩会.钟意"
+          },
+          {
+            "damage": 111481,
+            "player_name": "深圳DYG.落空"
+          },
+          {
+            "damage": 109954,
+            "player_name": "重庆狼队.皖皖"
+          },
+          {
+            "damage": 84713,
+            "player_name": "成都AG超玩会.轩染"
+          },
+          {
+            "damage": 84472,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 83478,
+            "player_name": "重庆狼队.道崽"
+          },
+          {
+            "damage": 83021,
+            "player_name": "WST.澜崽"
+          },
+          {
+            "damage": 78779,
+            "player_name": "深圳DYG.小乐"
+          },
+          {
+            "damage": 62782,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 59698,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 59490,
+            "player_name": "WST.安澜"
+          },
+          {
+            "damage": 57679,
+            "player_name": "重庆狼队.紫幻"
+          },
+          {
+            "damage": 51343,
+            "player_name": "WST.萌元"
+          },
+          {
+            "damage": 49775,
+            "player_name": "成都AG超玩会.一诺"
+          },
+          {
+            "damage": 41841,
+            "player_name": "深圳DYG.小轩"
+          },
+          {
+            "damage": 41787,
+            "player_name": "WST.糯米"
+          },
+          {
+            "damage": 39379,
+            "player_name": "济南RW侠.小俞"
+          },
+          {
+            "damage": 38653,
+            "player_name": "深圳DYG.钎城"
+          },
+          {
+            "damage": 35589,
+            "player_name": "WST.沉欢"
+          },
+          {
+            "damage": 29661,
+            "player_name": "成都AG超玩会.长生"
+          },
+          {
+            "damage": 29531,
+            "player_name": "深圳DYG.向鱼"
+          },
+          {
+            "damage": 22669,
+            "player_name": "深圳DYG.方羽"
+          },
+          {
+            "damage": 16533,
+            "player_name": "济南RW侠.挽墨"
+          },
+          {
+            "damage": 16106,
+            "player_name": "WST.百炼"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "25.6%",
+            "position": "top"
+          },
+          {
+            "percentage": "24.7%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "8.7%",
+            "position": "mid"
+          },
+          {
+            "percentage": "13.5%",
+            "position": "adc"
+          },
+          {
+            "percentage": "27.6%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "25.4%",
+            "position": "top"
+          },
+          {
+            "percentage": "26.0%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "8.7%",
+            "position": "mid"
+          },
+          {
+            "percentage": "14.0%",
+            "position": "adc"
+          },
+          {
+            "percentage": "25.8%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 497249,
+            "position": "top"
+          },
+          {
+            "damage": 480426,
+            "position": "jungle"
+          },
+          {
+            "damage": 168993,
+            "position": "mid"
+          },
+          {
+            "damage": 262628,
+            "position": "adc"
+          },
+          {
+            "damage": 536232,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.小屿",
+        "player_position": "发育路",
+        "player_unique_id": "KPLP01531",
+        "total_matches": 17
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 56597,
+            "player_name": "成都AG超玩会.大帅"
+          },
+          {
+            "damage": 50055,
+            "player_name": "重庆狼队.清清"
+          },
+          {
+            "damage": 43569,
+            "player_name": "重庆狼队.信"
+          },
+          {
+            "damage": 32699,
+            "player_name": "成都AG超玩会.钟意"
+          },
+          {
+            "damage": 31517,
+            "player_name": "深圳DYG.落空"
+          },
+          {
+            "damage": 28636,
+            "player_name": "成都AG超玩会.一诺"
+          },
+          {
+            "damage": 27270,
+            "player_name": "成都AG超玩会.轩染"
+          },
+          {
+            "damage": 24908,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 24405,
+            "player_name": "重庆狼队.皖皖"
+          },
+          {
+            "damage": 23638,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 23334,
+            "player_name": "深圳DYG.小乐"
+          },
+          {
+            "damage": 22186,
+            "player_name": "重庆狼队.紫幻"
+          },
+          {
+            "damage": 21321,
+            "player_name": "成都AG超玩会.长生"
+          },
+          {
+            "damage": 19392,
+            "player_name": "深圳DYG.钎城"
+          },
+          {
+            "damage": 19060,
+            "player_name": "WST.糯米"
+          },
+          {
+            "damage": 18096,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 17545,
+            "player_name": "WST.澜崽"
+          },
+          {
+            "damage": 15535,
+            "player_name": "重庆狼队.道崽"
+          },
+          {
+            "damage": 14927,
+            "player_name": "深圳DYG.小轩"
+          },
+          {
+            "damage": 12579,
+            "player_name": "WST.安澜"
+          },
+          {
+            "damage": 12287,
+            "player_name": "深圳DYG.向鱼"
+          },
+          {
+            "damage": 10273,
+            "player_name": "深圳DYG.方羽"
+          },
+          {
+            "damage": 9795,
+            "player_name": "济南RW侠.小俞"
+          },
+          {
+            "damage": 9499,
+            "player_name": "WST.萌元"
+          },
+          {
+            "damage": 7675,
+            "player_name": "济南RW侠.挽墨"
+          },
+          {
+            "damage": 7026,
+            "player_name": "WST.沉欢"
+          },
+          {
+            "damage": 3062,
+            "player_name": "WST.百炼"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "22.4%",
+            "position": "top"
+          },
+          {
+            "percentage": "21.6%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.0%",
+            "position": "mid"
+          },
+          {
+            "percentage": "14.1%",
+            "position": "adc"
+          },
+          {
+            "percentage": "29.9%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "19.6%",
+            "position": "top"
+          },
+          {
+            "percentage": "23.9%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.6%",
+            "position": "mid"
+          },
+          {
+            "percentage": "13.3%",
+            "position": "adc"
+          },
+          {
+            "percentage": "30.6%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 131334,
+            "position": "top"
+          },
+          {
+            "damage": 126549,
+            "position": "jungle"
+          },
+          {
+            "damage": 70495,
+            "position": "mid"
+          },
+          {
+            "damage": 82857,
+            "position": "adc"
+          },
+          {
+            "damage": 175651,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.晚星",
+        "player_position": "游走",
+        "player_unique_id": "KPLP00756",
+        "total_matches": 17
+      }
+    ],
+    "position_averages": {
+      "中路": [
+        {
+          "percentage": "21.4%",
+          "position": "top"
+        },
+        {
+          "percentage": "25.8%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "11.6%",
+          "position": "mid"
+        },
+        {
+          "percentage": "12.2%",
+          "position": "adc"
+        },
+        {
+          "percentage": "29.1%",
+          "position": "support"
+        }
+      ],
+      "发育路": [
+        {
+          "percentage": "25.4%",
+          "position": "top"
+        },
+        {
+          "percentage": "26.0%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "8.7%",
+          "position": "mid"
+        },
+        {
+          "percentage": "14.0%",
+          "position": "adc"
+        },
+        {
+          "percentage": "25.8%",
+          "position": "support"
+        }
+      ],
+      "对抗路": [
+        {
+          "percentage": "33.5%",
+          "position": "top"
+        },
+        {
+          "percentage": "19.6%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "12.5%",
+          "position": "mid"
+        },
+        {
+          "percentage": "14.8%",
+          "position": "adc"
+        },
+        {
+          "percentage": "19.6%",
+          "position": "support"
+        }
+      ],
+      "打野": [
+        {
+          "percentage": "20.3%",
+          "position": "top"
+        },
+        {
+          "percentage": "27.6%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "13.5%",
+          "position": "mid"
+        },
+        {
+          "percentage": "13.7%",
+          "position": "adc"
+        },
+        {
+          "percentage": "24.8%",
+          "position": "support"
+        }
+      ],
+      "游走": [
+        {
+          "percentage": "19.6%",
+          "position": "top"
+        },
+        {
+          "percentage": "23.9%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "12.6%",
+          "position": "mid"
+        },
+        {
+          "percentage": "13.3%",
+          "position": "adc"
+        },
+        {
+          "percentage": "30.6%",
+          "position": "support"
+        }
+      ]
+    },
+    "season": "KPL2026S2",
+    "team_name": "KSG",
+    "total_players": 5
+  }
+}

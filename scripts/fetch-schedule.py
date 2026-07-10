@@ -5,7 +5,6 @@ KPL 赛程采集脚本
 """
 import json
 import sys
-import os
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -16,161 +15,102 @@ TEAM_NAME = "KSG"
 PLAYER_NAME = "无言"
 
 
-def fetch_season_and_teams():
-    """获取赛季列表和战队列表"""
+def fetch_seasons():
+    """获取赛季列表"""
     url = f"{API_BASE}/getSeasonAndStageAndTeamList"
     try:
         resp = requests.post(url, json={}, timeout=30)
         resp.raise_for_status()
-        raw = resp.json()
-        print(f"[fetch-schedule] Raw response type: {type(raw).__name__}")
-
-        # 处理多层嵌套或字符串化 JSON
-        data = raw
-        if isinstance(raw, dict):
-            data = raw.get("data", raw)
-        if isinstance(data, str):
-            try:
-                data = json.loads(data)
-            except json.JSONDecodeError:
-                print(f"[fetch-schedule] Data is string but not JSON: {data[:200]}")
-                return []
-        if isinstance(data, dict):
-            # 可能是 { "data": { "seasons": [...], "teams": [...] } }
-            seasons = data.get("seasons", data.get("data", []))
-            if isinstance(seasons, str):
-                try:
-                    seasons = json.loads(seasons)
-                except json.JSONDecodeError:
-                    seasons = []
-            print(f"[fetch-schedule] Season list fetched: {len(seasons)} items")
-            return seasons
-        if isinstance(data, list):
-            print(f"[fetch-schedule] Season list fetched: {len(data)} items")
-            return data
-
-        print(f"[fetch-schedule] Unexpected data type: {type(data).__name__}")
-        return []
+        data = resp.json()
+        seasons = data.get("data", {}).get("seasons", [])
+        print(f"[fetch-schedule] Season list fetched: {len(seasons)} items")
+        return seasons
     except Exception as e:
         print(f"[fetch-schedule] Failed to fetch season list: {e}")
         return []
 
 
 def find_current_season(seasons):
-    """找到当前赛季（is_latest=1 或时间最近的）"""
+    """找到当前赛季（is_cur_season=1）"""
     if not isinstance(seasons, list):
         print(f"[fetch-schedule] Warning: seasons is not a list ({type(seasons).__name__})")
         return None
     for s in seasons:
-        if isinstance(s, dict) and s.get("is_latest") == 1:
+        if isinstance(s, dict) and s.get("is_cur_season") == 1:
             return s
-    if seasons:
-        first = seasons[0]
-        if isinstance(first, dict):
-            return first
+    if seasons and isinstance(seasons[0], dict):
+        return seasons[0]
     return None
 
 
-def find_team_id(teams, team_name):
-    """根据战队名匹配 team_id"""
-    if not isinstance(teams, list):
-        print(f"[fetch-schedule] Warning: teams is not a list ({type(teams).__name__})")
-        return None
-    for t in teams:
-        if isinstance(t, dict) and (t.get("team_name") == team_name or t.get("team_short_name") == team_name):
-            return t.get("team_id")
-    return None
-
-
-def fetch_schedule(season_id, team_id):
-    """获取指定赛季和战队的赛程"""
+def fetch_schedule(season_id):
+    """获取指定赛季的全部赛程"""
     url = f"{API_BASE}/getScheduleList"
-    payload = {
-        "season_id": season_id,
-        "team_id": team_id,
-    }
+    payload = {"season_id": season_id}
     try:
         resp = requests.post(url, json=payload, timeout=30)
         resp.raise_for_status()
-        raw = resp.json()
-
-        # 处理多层嵌套或字符串化 JSON
-        data = raw
-        if isinstance(raw, dict):
-            data = raw.get("data", raw)
-        if isinstance(data, str):
-            try:
-                data = json.loads(data)
-            except json.JSONDecodeError:
-                print(f"[fetch-schedule] Schedule data is string but not JSON: {data[:200]}")
-                return []
-        if isinstance(data, dict):
-            matches = data.get("matches", data.get("data", []))
-            if isinstance(matches, str):
-                try:
-                    matches = json.loads(matches)
-                except json.JSONDecodeError:
-                    matches = []
-            print(f"[fetch-schedule] Schedule fetched: {len(matches)} matches")
-            return matches
-        if isinstance(data, list):
-            print(f"[fetch-schedule] Schedule fetched: {len(data)} matches")
-            return data
-
-        print(f"[fetch-schedule] Unexpected schedule data type: {type(data).__name__}")
-        return []
+        data = resp.json()
+        matches = data.get("data", {}).get("list", [])
+        print(f"[fetch-schedule] Schedule fetched: {len(matches)} matches")
+        return matches
     except Exception as e:
         print(f"[fetch-schedule] Failed to fetch schedule: {e}")
         return []
 
 
-def ts_to_beijing_date(ts):
+def ts_to_beijing_date(ts_str):
     """时间戳(秒)转北京时间 MM-DD HH:mm"""
-    dt = datetime.fromtimestamp(ts, tz=timezone(timedelta(hours=8)))
-    return dt.strftime("%m-%d %H:%M")
+    try:
+        ts = int(ts_str)
+        dt = datetime.fromtimestamp(ts, tz=timezone(timedelta(hours=8)))
+        return dt.strftime("%m-%d %H:%M")
+    except (ValueError, TypeError):
+        return ""
 
 
-def convert_match(m, team_name):
+def convert_match(m):
     """将原始赛程数据转换为 canonical 格式"""
-    status = m.get("schedule_status", 1)
+    status = int(m.get("schedule_status", 1))
     team_a = m.get("team_a_name", "")
     team_b = m.get("team_b_name", "")
-    is_home = team_a == team_name or team_b == team_name
+    is_ksg = TEAM_NAME in team_a or TEAM_NAME in team_b
 
     result = {
-        "start_ts": m.get("start_timestamp"),
-        "date": ts_to_beijing_date(m.get("start_timestamp", 0)),
+        "schedule_id": m.get("scheduleid", ""),
+        "start_ts": int(m.get("start_timestamp", 0)),
+        "date": ts_to_beijing_date(m.get("start_timestamp")),
         "team_a": team_a,
         "team_b": team_b,
-        "is_home": is_home,
+        "is_ksg": is_ksg,
         "location": m.get("location_name", ""),
         "stage": m.get("stage_name", ""),
-        "bo": m.get("bo_total", 5),
+        "bo": int(m.get("bo_total", 5)),
         "status": status,
     }
 
     if status >= 2:
-        result["score_a"] = m.get("team_a_score")
-        result["score_b"] = m.get("team_b_score")
+        result["score_a"] = int(m.get("team_a_score", 0))
+        result["score_b"] = int(m.get("team_b_score", 0))
 
     return result
 
 
-def build_canonical(season_info, team_name, raw_matches):
-    """构建 canonical JSON"""
-    season_id = season_info.get("season_id", "")
-    season_name = season_info.get("season_name", season_id)
-    team_id = season_info.get("team_id", "")
+def build_canonical(season_id, season_name, raw_matches):
+    """构建 canonical JSON，只保留 KSG 相关比赛"""
+    all_matches = [convert_match(m) for m in raw_matches]
+    all_matches.sort(key=lambda x: x.get("start_ts", 0))
 
-    matches = [convert_match(m, team_name) for m in raw_matches]
-    matches.sort(key=lambda x: x.get("start_ts", 0))
+    # 过滤 KSG 相关比赛
+    ksg_matches = [m for m in all_matches if m["is_ksg"]]
 
     return {
         "season_id": season_id,
         "season_name": season_name,
-        "team_id": team_id,
-        "team_name": team_name,
-        "matches": matches,
+        "team_name": TEAM_NAME,
+        "total_matches": len(all_matches),
+        "ksg_matches": len(ksg_matches),
+        "matches": ksg_matches,
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "source_status": "ok"
     }
@@ -188,8 +128,8 @@ def main():
         current_season_id = None
         print("[fetch-schedule] current-season.json not found, will detect from API")
 
-    # 获取赛季和战队列表
-    seasons = fetch_season_and_teams()
+    # 获取赛季列表
+    seasons = fetch_seasons()
     if not seasons:
         print("[fetch-schedule] No season data, exit")
         sys.exit(1)
@@ -200,41 +140,18 @@ def main():
         print("[fetch-schedule] No current season found, exit")
         sys.exit(1)
 
-    season_id = season.get("season_id", "")
+    season_id = season.get("seasonid", "")
     season_name = season.get("season_name", season_id)
     print(f"[fetch-schedule] Target season: {season_name} ({season_id})")
 
-    # 获取战队列表
-    teams = season.get("teams", [])
-    team_id = find_team_id(teams, TEAM_NAME)
-    if not team_id:
-        print(f"[fetch-schedule] Team {TEAM_NAME} not found, trying to find by player name")
-        # 备选：从 player-career 数据读取
-        career_file = Path("data/latest/player-career-wuyan.json")
-        if career_file.exists():
-            with open(career_file, "r", encoding="utf-8") as f:
-                career = json.load(f)
-            latest_team = career.get("latest_team", "") if isinstance(career, dict) else ""
-            if latest_team:
-                team_id = find_team_id(teams, latest_team)
-                print(f"[fetch-schedule] Found team from career data: {latest_team} -> {team_id}")
-
-    if not team_id:
-        print(f"[fetch-schedule] Team ID not found for {TEAM_NAME}, exit")
-        sys.exit(1)
-
-    # 获取赛程
-    raw_matches = fetch_schedule(season_id, team_id)
+    # 获取全部赛程
+    raw_matches = fetch_schedule(season_id)
     if not raw_matches:
         print("[fetch-schedule] No schedule data, exit")
         sys.exit(1)
 
     # 构建 canonical JSON
-    canonical = build_canonical(
-        {"season_id": season_id, "season_name": season_name, "team_id": team_id},
-        TEAM_NAME,
-        raw_matches
-    )
+    canonical = build_canonical(season_id, season_name, raw_matches)
 
     # 保存
     output_dir = Path(f"data/derived/{current_season_id or season_id}")
@@ -243,7 +160,7 @@ def main():
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(canonical, f, ensure_ascii=False, indent=2)
 
-    print(f"[fetch-schedule] Saved to {output_file} ({len(raw_matches)} matches)")
+    print(f"[fetch-schedule] Saved to {output_file} ({canonical['ksg_matches']} KSG matches / {canonical['total_matches']} total)")
     return 0
 
 

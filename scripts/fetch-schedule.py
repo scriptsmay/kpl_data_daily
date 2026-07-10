@@ -22,9 +22,35 @@ def fetch_season_and_teams():
     try:
         resp = requests.post(url, json={}, timeout=30)
         resp.raise_for_status()
-        data = resp.json()
-        print(f"[fetch-schedule] Season list fetched: {len(data.get('data', []))} items")
-        return data.get("data", [])
+        raw = resp.json()
+        print(f"[fetch-schedule] Raw response type: {type(raw).__name__}")
+
+        # 处理多层嵌套或字符串化 JSON
+        data = raw
+        if isinstance(raw, dict):
+            data = raw.get("data", raw)
+        if isinstance(data, str):
+            try:
+                data = json.loads(data)
+            except json.JSONDecodeError:
+                print(f"[fetch-schedule] Data is string but not JSON: {data[:200]}")
+                return []
+        if isinstance(data, dict):
+            # 可能是 { "data": { "seasons": [...], "teams": [...] } }
+            seasons = data.get("seasons", data.get("data", []))
+            if isinstance(seasons, str):
+                try:
+                    seasons = json.loads(seasons)
+                except json.JSONDecodeError:
+                    seasons = []
+            print(f"[fetch-schedule] Season list fetched: {len(seasons)} items")
+            return seasons
+        if isinstance(data, list):
+            print(f"[fetch-schedule] Season list fetched: {len(data)} items")
+            return data
+
+        print(f"[fetch-schedule] Unexpected data type: {type(data).__name__}")
+        return []
     except Exception as e:
         print(f"[fetch-schedule] Failed to fetch season list: {e}")
         return []
@@ -32,18 +58,26 @@ def fetch_season_and_teams():
 
 def find_current_season(seasons):
     """找到当前赛季（is_latest=1 或时间最近的）"""
+    if not isinstance(seasons, list):
+        print(f"[fetch-schedule] Warning: seasons is not a list ({type(seasons).__name__})")
+        return None
     for s in seasons:
-        if s.get("is_latest") == 1:
+        if isinstance(s, dict) and s.get("is_latest") == 1:
             return s
     if seasons:
-        return seasons[0]
+        first = seasons[0]
+        if isinstance(first, dict):
+            return first
     return None
 
 
 def find_team_id(teams, team_name):
     """根据战队名匹配 team_id"""
+    if not isinstance(teams, list):
+        print(f"[fetch-schedule] Warning: teams is not a list ({type(teams).__name__})")
+        return None
     for t in teams:
-        if t.get("team_name") == team_name or t.get("team_short_name") == team_name:
+        if isinstance(t, dict) and (t.get("team_name") == team_name or t.get("team_short_name") == team_name):
             return t.get("team_id")
     return None
 
@@ -58,10 +92,33 @@ def fetch_schedule(season_id, team_id):
     try:
         resp = requests.post(url, json=payload, timeout=30)
         resp.raise_for_status()
-        data = resp.json()
-        matches = data.get("data", {}).get("matches", data.get("data", []))
-        print(f"[fetch-schedule] Schedule fetched: {len(matches)} matches")
-        return matches
+        raw = resp.json()
+
+        # 处理多层嵌套或字符串化 JSON
+        data = raw
+        if isinstance(raw, dict):
+            data = raw.get("data", raw)
+        if isinstance(data, str):
+            try:
+                data = json.loads(data)
+            except json.JSONDecodeError:
+                print(f"[fetch-schedule] Schedule data is string but not JSON: {data[:200]}")
+                return []
+        if isinstance(data, dict):
+            matches = data.get("matches", data.get("data", []))
+            if isinstance(matches, str):
+                try:
+                    matches = json.loads(matches)
+                except json.JSONDecodeError:
+                    matches = []
+            print(f"[fetch-schedule] Schedule fetched: {len(matches)} matches")
+            return matches
+        if isinstance(data, list):
+            print(f"[fetch-schedule] Schedule fetched: {len(data)} matches")
+            return data
+
+        print(f"[fetch-schedule] Unexpected schedule data type: {type(data).__name__}")
+        return []
     except Exception as e:
         print(f"[fetch-schedule] Failed to fetch schedule: {e}")
         return []

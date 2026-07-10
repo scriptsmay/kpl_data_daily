@@ -1,0 +1,76 @@
+name: Sync Schedule to CloudBase
+
+on:
+  schedule:
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-schedule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Fetch KPL schedule
+        id: fetch
+        continue-on-error: true
+        run: |
+          echo "::group::Fetching KPL schedule"
+          python scripts/fetch-schedule.py
+          echo "::endgroup::"
+
+      - name: Upload schedule to CloudBase
+        if: steps.fetch.outcome == 'success'
+        continue-on-error: true
+        env:
+          TCB_SECRET_ID: ${{ secrets.TCB_SECRET_ID }}
+          TCB_SECRET_KEY: ${{ secrets.TCB_SECRET_KEY }}
+          TCB_ENV_ID: ${{ secrets.TCB_ENV_ID }}
+        run: |
+          echo "::group::Uploading schedule to CloudBase"
+          npm install -g @cloudbase/cli
+          tcb login --apiKeyId "$TCB_SECRET_ID" --apiKey "$TCB_SECRET_KEY"
+          SEASON=$(python3 -c "import json; print(json.load(open('data/latest/current-season.json'))['current'])")
+          FILE="data/derived/$SEASON/schedule.json"
+          if [ -f "$FILE" ]; then
+            tcb storage upload "$FILE" \
+              "data/derived/$SEASON/schedule.json" -e "$TCB_ENV_ID"
+            echo "✅ schedule.json uploaded"
+          else
+            echo "⚠️ schedule.json not found"
+          fi
+          echo "::endgroup::"
+
+      - name: Commit schedule data
+        if: steps.fetch.outcome == 'success'
+        run: |
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git commit -m "chore: auto sync schedule $(date +%Y%m%d) [skip ci]"
+            git push
+          fi
+
+      - name: Report status
+        if: always()
+        run: |
+          if [ "${{ steps.fetch.outcome }}" == "failure" ]; then
+            echo "::warning::Schedule fetch failed"
+          else
+            echo "Schedule sync completed"
+          fi

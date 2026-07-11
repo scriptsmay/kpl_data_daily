@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-10T05:06:46+00:00",
-  "build_id": "20260710T050646+0000",
+  "generated_at": "2026-07-11T04:25:59+00:00",
+  "build_id": "20260711T042559+0000",
   "data": {
     "player": "无言",
     "growth_stage": "稳定轮换期",
-    "summary": "本赛季 17 局，使用 8 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+    "summary": "本赛季 22 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
     "milestones": [
       {
         "type": "first_appear",
@@ -36,7 +36,7 @@
       {
         "type": "career_milestone",
         "date": "",
-        "description": "生涯累计 131 局"
+        "description": "生涯累计 136 局"
       },
       {
         "type": "mvp",
@@ -50,23 +50,23 @@
       },
       {
         "type": "hero_first_use",
-        "date": "2026062702",
-        "description": "首次使用 关羽：深圳DYG vs KSG"
+        "date": "2026071002",
+        "description": "首次使用 关羽：北京WB vs KSG"
       },
       {
         "type": "hero_first_use",
-        "date": "2026070402",
-        "description": "首次使用 司空震：WST vs KSG"
+        "date": "2026071002",
+        "description": "首次使用 司空震：北京WB vs KSG"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2026071002",
+        "description": "首次使用 夏洛特：KSG vs 北京WB"
       },
       {
         "type": "hero_first_use",
         "date": "2026062702",
         "description": "首次使用 马超：KSG vs 深圳DYG"
-      },
-      {
-        "type": "hero_first_use",
-        "date": "2026070402",
-        "description": "首次使用 夏洛特：KSG vs WST"
       },
       {
         "type": "hero_first_use",
@@ -80,8 +80,13 @@
       },
       {
         "type": "hero_first_use",
-        "date": "2026061903",
-        "description": "首次使用 曹操：KSG vs 成都AG超玩会"
+        "date": "2026071002",
+        "description": "首次使用 曹操：KSG vs 北京WB"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2026071002",
+        "description": "首次使用 白起：KSG vs 北京WB"
       }
     ],
     "hero_path": [
@@ -105,9 +110,9 @@
       },
       {
         "season": "KPL2026S2",
-        "battles": 17,
-        "wins": 13,
-        "win_rate": "76.5%"
+        "battles": 22,
+        "wins": 15,
+        "win_rate": "68.2%"
       }
     ],
     "role_path": [
@@ -119,29 +124,30 @@
           "输出"
         ],
         "role_matches": {
-          "持续": 6,
-          "开团": 4,
-          "输出": 6,
-          "承伤": 1
+          "持续": 7,
+          "开团": 5,
+          "输出": 8,
+          "承伤": 2
         }
       }
     ],
     "signals": {
       "observed": [
-        "伤害输出高于同位置均值（84.0分）",
-        "团战能力高于同位置均值（94.0分）",
+        "团战能力高于同位置均值（89.0分）",
         "开团能力高于同位置均值（100.0分）",
-        "前期能力高于同位置均值（83.0分）",
-        "中期能力高于同位置均值（96.0分）",
-        "后期能力高于同位置均值（99.0分）",
+        "前期能力高于同位置均值（81.0分）",
+        "中期能力高于同位置均值（93.0分）",
+        "后期能力高于同位置均值（98.0分）",
         "地图控制高于同位置均值（82.0分）",
-        "入侵能力高于同位置均值（100.0分）",
-        "支援能力高于同位置均值（93.0分）",
-        "经济效率高于同位置均值（93.0分）",
+        "入侵能力高于同位置均值（99.0分）",
+        "支援能力高于同位置均值（95.0分）",
+        "经济效率高于同位置均值（84.0分）",
         "坦度高于同位置均值（100.0分）",
-        "生存能力高于同位置均值（79.0分）"
+        "生存能力高于同位置均值（68.0分）"
       ],
-      "watching": [],
+      "watching": [
+        "伤害输出低于同位置均值（79.0分）"
+      ],
       "insufficient": []
     },
     "risk_notes": [

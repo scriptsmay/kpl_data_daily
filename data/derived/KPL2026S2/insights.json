@@ -1,43 +1,44 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-10T05:06:46+00:00",
-  "build_id": "20260710T050646+0000",
+  "generated_at": "2026-07-11T04:25:59+00:00",
+  "build_id": "20260711T042559+0000",
   "data": {
-    "headline": "无言本赛季 17 局，使用 8 个英雄",
-    "summary": "生涯累计 131 局。本赛季英雄池覆盖 8 个英雄，能力评分 98.16。",
+    "headline": "无言本赛季 22 局，使用 9 个英雄",
+    "summary": "生涯累计 136 局。本赛季英雄池覆盖 9 个英雄，能力评分 94.87。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
         "id": "hero_pool",
         "title": "英雄池成熟度",
-        "summary": "当前样本中英雄池覆盖 8 个英雄，英雄使用相对分散。",
+        "summary": "当前样本中英雄池覆盖 9 个英雄，英雄使用相对分散。",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 22,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季使用 8 个英雄，共 17 局",
-          "轮换层级英雄 3 个",
-          "尝试层级英雄 5 个",
-          "英雄使用较为分散（HHI=0.16）"
+          "本赛季使用 9 个英雄，共 22 局",
+          "轮换层级英雄 5 个",
+          "尝试层级英雄 4 个",
+          "英雄使用较为分散（HHI=0.14）"
         ],
         "risk_notes": []
       },
       {
         "id": "growth_path",
         "title": "成长路径观察",
-        "summary": "本赛季 17 局，使用 8 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+        "summary": "本赛季 22 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
         "conclusion_type": "signal",
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 22,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季 17 局，使用 8 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
-          "已记录 15 个成长节点",
-          "已出现 12 个能力信号"
+          "本赛季 22 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+          "已记录 16 个成长节点",
+          "已出现 11 个能力信号",
+          "正在观察 1 个能力维度"
         ],
         "risk_notes": [
           "胜率不单独作为评价依据"
@@ -46,35 +47,37 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 98.16，位置排名第 1。",
+        "summary": "当前能力评分 94.87，位置排名第 1。",
         "conclusion_type": "hypothesis",
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 22,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
           "位置排名：第 1 名",
           "总排名：第 1 名",
-          "高于同位置均值维度：12 个"
+          "高于同位置均值维度：11 个",
+          "低于同位置均值维度：1 个",
+          "近期波动较大维度：4 个"
         ],
         "risk_notes": []
       },
       {
         "id": "ranking",
         "title": "联盟排名",
-        "summary": "排名前列指标共 2 项：KDA、野怪击杀",
+        "summary": "排名前列指标共 1 项：KDA",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 22,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "排名前列指标：KDA、野怪击杀",
-          "KDA：排名第 1（9.75）",
-          "分均伤害：排名第 4（3958.0）",
-          "分均承伤：排名第 7（5403.0）",
-          "分均经济：排名第 5（695.0）",
-          "参团率：排名第 12（64.2）"
+          "排名前列指标：KDA",
+          "KDA：排名第 1（5.75）",
+          "分均伤害：排名第 12（3652.0）",
+          "分均承伤：排名第 9（5184.0）",
+          "分均经济：排名第 5（679.0）",
+          "参团率：排名第 10（66.3）"
         ],
         "risk_notes": []
       },
@@ -84,12 +87,12 @@
         "summary": "胜局和败局的过程指标差异。",
         "conclusion_type": "signal",
         "confidence": "high",
-        "sample_size": 17,
+        "sample_size": 22,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "胜局平均 KDA: 13.75",
-          "败局平均 KDA: 1.75",
+          "胜局平均 KDA: 8.64",
+          "败局平均 KDA: 1.7",
           "败局低位指标：KDA 偏低、分均伤害偏低、场均死亡偏高"
         ],
         "risk_notes": []

@@ -146,15 +146,6 @@ jobs:
               echo "  ⚠️ $FILE not found, skipped"
             fi
           done
-          # 同步赛程数据（如果存在）
-          SCHEDULE_FILE="data/derived/$SEASON/schedule.json"
-          if [ -f "$SCHEDULE_FILE" ]; then
-            tcb storage upload "$SCHEDULE_FILE" \
-              "data/derived/$SEASON/schedule.json" -e "$TCB_ENV_ID"
-            echo "  ✅ schedule"
-          else
-            echo "  ⚠️ schedule.json not found, skipped"
-          fi
           echo "::endgroup::"
           echo "✅ CloudBase sync complete"
 

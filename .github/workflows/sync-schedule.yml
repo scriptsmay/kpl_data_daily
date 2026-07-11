@@ -28,15 +28,32 @@ jobs:
 
       - name: Fetch KPL schedule
         id: fetch
-        continue-on-error: true
         run: |
           echo "::group::Fetching KPL schedule"
           python scripts/fetch-schedule.py
           echo "::endgroup::"
 
+      - name: Verify schedule file
+        id: verify
+        run: |
+          SEASON=$(python3 -c "import json; print(json.load(open('data/latest/current-season.json'))['current'])")
+          FILE="data/derived/$SEASON/schedule.json"
+          if [ ! -f "$FILE" ]; then
+            echo "::error::schedule.json not found at $FILE"
+            exit 1
+          fi
+          MATCH_COUNT=$(python3 -c "import json; print(len(json.load(open('$FILE'))['matches']))")
+          if [ "$MATCH_COUNT" -eq 0 ]; then
+            echo "::error::schedule.json has 0 matches"
+            exit 1
+          fi
+          echo "season=$SEASON" >> $GITHUB_OUTPUT
+          echo "file=$FILE" >> $GITHUB_OUTPUT
+          echo "match_count=$MATCH_COUNT" >> $GITHUB_OUTPUT
+          echo "✅ schedule.json verified: $MATCH_COUNT matches"
+
       - name: Upload schedule to CloudBase
-        if: steps.fetch.outcome == 'success'
-        continue-on-error: true
+        id: upload
         env:
           TCB_SECRET_ID: ${{ secrets.TCB_SECRET_ID }}
           TCB_SECRET_KEY: ${{ secrets.TCB_SECRET_KEY }}
@@ -45,19 +62,25 @@ jobs:
           echo "::group::Uploading schedule to CloudBase"
           npm install -g @cloudbase/cli
           tcb login --apiKeyId "$TCB_SECRET_ID" --apiKey "$TCB_SECRET_KEY"
-          SEASON=$(python3 -c "import json; print(json.load(open('data/latest/current-season.json'))['current'])")
-          FILE="data/derived/$SEASON/schedule.json"
-          if [ -f "$FILE" ]; then
-            tcb storage upload "$FILE" \
-              "data/derived/$SEASON/schedule.json" -e "$TCB_ENV_ID"
-            echo "✅ schedule.json uploaded"
-          else
-            echo "⚠️ schedule.json not found"
-          fi
+          tcb storage upload "${{ steps.verify.outputs.file }}" \
+            "data/derived/${{ steps.verify.outputs.season }}/schedule.json" -e "$TCB_ENV_ID"
+          echo "✅ schedule.json uploaded"
+          echo "::endgroup::"
+
+      - name: Trigger CloudBase sync-schedule Event Function
+        id: invoke
+        env:
+          TCB_SECRET_ID: ${{ secrets.TCB_SECRET_ID }}
+          TCB_SECRET_KEY: ${{ secrets.TCB_SECRET_KEY }}
+          TCB_ENV_ID: ${{ secrets.TCB_ENV_ID }}
+        run: |
+          echo "::group::Invoking sync-schedule Event Function"
+          tcb fn invoke sync-schedule --envId "$TCB_ENV_ID"
+          echo "✅ sync-schedule invoked"
           echo "::endgroup::"
 
       - name: Commit schedule data
-        if: steps.fetch.outcome == 'success'
+        if: success()
         run: |
           git add data/
           if git diff --staged --quiet; then
@@ -73,7 +96,14 @@ jobs:
         if: always()
         run: |
           if [ "${{ steps.fetch.outcome }}" == "failure" ]; then
-            echo "::warning::Schedule fetch failed"
+            echo "::error::Schedule fetch failed"
+            exit 1
+          elif [ "${{ steps.upload.outcome }}" == "failure" ]; then
+            echo "::error::CloudBase upload failed"
+            exit 1
+          elif [ "${{ steps.invoke.outcome }}" == "failure" ]; then
+            echo "::error::sync-schedule function invoke failed"
+            exit 1
           else
-            echo "Schedule sync completed"
+            echo "✅ Schedule sync completed successfully"
           fi

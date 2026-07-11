@@ -85,9 +85,9 @@
       "location": "北京",
       "stage": "常规赛第二轮",
       "bo": 5,
-      "status": 3,
-      "score_a": 0,
-      "score_b": 0
+      "status": 4,
+      "score_a": 3,
+      "score_b": 2
     },
     {
       "schedule_id": "KPL2026S2M4W3D1",
@@ -138,6 +138,6 @@
       "status": 1
     }
   ],
-  "updated_at": "2026-07-10T08:50:37.937345+00:00",
+  "updated_at": "2026-07-11T04:47:18.401759+00:00",
   "source_status": "ok"
 }

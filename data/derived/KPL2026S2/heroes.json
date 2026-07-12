@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-11T04:25:59+00:00",
-  "build_id": "20260711T042559+0000",
+  "generated_at": "2026-07-12T04:36:40+00:00",
+  "build_id": "20260712T043640+0000",
   "data": {
     "summary": [
       {
@@ -7681,7 +7681,7 @@
       {
         "hero_id": "503",
         "hero_name": "狂铁",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 35,
         "matchups": [
           {
@@ -7794,7 +7794,7 @@
       {
         "hero_id": "536",
         "hero_name": "夏洛特",
-        "last_updated": "2026-07-10 15:04:15",
+        "last_updated": "2026-07-11 13:27:13",
         "lose_matches": 34,
         "matchups": [
           {
@@ -7883,7 +7883,7 @@
       {
         "hero_id": "128",
         "hero_name": "曹操",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 22,
         "matchups": [
           {
@@ -7988,7 +7988,7 @@
       {
         "hero_id": "537",
         "hero_name": "司空震",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:13",
         "lose_matches": 18,
         "matchups": [
           {
@@ -8093,7 +8093,7 @@
       {
         "hero_id": "140",
         "hero_name": "关羽",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 16,
         "matchups": [
           {
@@ -8214,7 +8214,7 @@
       {
         "hero_id": "120",
         "hero_name": "白起",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:13",
         "lose_matches": 12,
         "matchups": [
           {
@@ -8295,7 +8295,7 @@
       {
         "hero_id": "134",
         "hero_name": "达摩",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 13,
         "matchups": [
           {
@@ -8384,7 +8384,7 @@
       {
         "hero_id": "518",
         "hero_name": "马超",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 9,
         "matchups": [
           {
@@ -8473,7 +8473,7 @@
       {
         "hero_id": "527",
         "hero_name": "蒙恬",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 8,
         "matchups": [
           {
@@ -8562,7 +8562,7 @@
       {
         "hero_id": "121",
         "hero_name": "芈月",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 8,
         "matchups": [
           {
@@ -8611,7 +8611,7 @@
       {
         "hero_id": "135",
         "hero_name": "项羽",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 5,
         "matchups": [
           {
@@ -8660,7 +8660,7 @@
       {
         "hero_id": "558",
         "hero_name": "影",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 3,
         "matchups": [
           {
@@ -8717,7 +8717,7 @@
       {
         "hero_id": "510",
         "hero_name": "孙策",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:13",
         "lose_matches": 4,
         "matchups": [
           {
@@ -8774,7 +8774,7 @@
       {
         "hero_id": "180",
         "hero_name": "哪吒",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 2,
         "matchups": [
           {
@@ -8815,7 +8815,7 @@
       {
         "hero_id": "123",
         "hero_name": "吕布",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 2,
         "matchups": [
           {
@@ -8856,7 +8856,7 @@
       {
         "hero_id": "139",
         "hero_name": "老夫子",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 2,
         "matchups": [
           {
@@ -8889,7 +8889,7 @@
       {
         "hero_id": "511",
         "hero_name": "猪八戒",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 2,
         "matchups": [
           {
@@ -8922,7 +8922,7 @@
       {
         "hero_id": "564",
         "hero_name": "姬小满",
-        "last_updated": "2026-07-10 15:04:16",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 1,
         "matchups": [
           {
@@ -8947,7 +8947,7 @@
       {
         "hero_id": "507",
         "hero_name": "李信",
-        "last_updated": "2026-07-10 15:04:17",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 0,
         "matchups": [
           {
@@ -8972,7 +8972,7 @@
       {
         "hero_id": "172",
         "hero_name": "蚩奼",
-        "last_updated": "2026-07-10 15:04:17",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 1,
         "matchups": [
           {
@@ -8997,7 +8997,7 @@
       {
         "hero_id": "105",
         "hero_name": "廉颇",
-        "last_updated": "2026-07-10 15:04:17",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 1,
         "matchups": [
           {
@@ -9022,7 +9022,7 @@
       {
         "hero_id": "514",
         "hero_name": "亚连",
-        "last_updated": "2026-07-10 15:04:17",
+        "last_updated": "2026-07-11 13:27:14",
         "lose_matches": 0,
         "matchups": [
           {

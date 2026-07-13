@@ -99,8 +99,8 @@
       "location": "北京",
       "stage": "常规赛第二轮",
       "bo": 5,
-      "status": 3,
-      "score_a": 2,
+      "status": 4,
+      "score_a": 3,
       "score_b": 0
     },
     {
@@ -140,6 +140,6 @@
       "status": 1
     }
   ],
-  "updated_at": "2026-07-12T07:40:15.155029+00:00",
+  "updated_at": "2026-07-13T08:31:29.094387+00:00",
   "source_status": "ok"
 }

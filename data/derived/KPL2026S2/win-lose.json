@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-15T04:15:56+00:00",
-  "build_id": "20260715T041556+0000",
+  "generated_at": "2026-07-16T04:23:12+00:00",
+  "build_id": "20260716T042312+0000",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 66.67,
@@ -166,7 +166,7 @@
       "damage_10min_per_minute": 2195.0,
       "damage_per_minute": 3957.0,
       "damage_taken_per_minute": 5393.0,
-      "data_version": "v20260713_235121",
+      "data_version": "v20260716_002326",
       "economy_10min_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -292,16 +292,16 @@
       "economy_10min_per_minute": 651.0,
       "gold_per_minute": 700.0,
       "heroes_used": [
-        "夏洛特",
+        "达摩",
         "马超",
         "蒙恬",
         "关羽",
+        "司空震",
         "狂铁",
-        "达摩",
-        "司空震"
+        "夏洛特"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-07-13 15:51:22",
+      "last_updated": "2026-07-15 16:23:26",
       "match_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -621,7 +621,7 @@
       "damage_10min_per_minute": 1764.0,
       "damage_per_minute": 2967.0,
       "damage_taken_per_minute": 4824.0,
-      "data_version": "v20260713_235124",
+      "data_version": "v20260716_002329",
       "economy_10min_details": [
         {
           "battle_id": "1781872932_501236240_6",
@@ -707,15 +707,15 @@
       "economy_10min_per_minute": 655.0,
       "gold_per_minute": 632.0,
       "heroes_used": [
-        "夏洛特",
         "马超",
-        "白起",
-        "关羽",
         "曹操",
-        "司空震"
+        "关羽",
+        "司空震",
+        "夏洛特",
+        "白起"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-07-13 15:51:25",
+      "last_updated": "2026-07-15 16:23:30",
       "lose_matches": 10.0,
       "match_details": [
         {
@@ -1038,7 +1038,7 @@
           "damage_10min_per_minute": 2195.0,
           "damage_per_minute": 3957.0,
           "damage_taken_per_minute": 5393.0,
-          "data_version": "v20260713_235121",
+          "data_version": "v20260716_002326",
           "economy_10min_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -1164,16 +1164,16 @@
           "economy_10min_per_minute": 651.0,
           "gold_per_minute": 700.0,
           "heroes_used": [
-            "夏洛特",
+            "达摩",
             "马超",
             "蒙恬",
             "关羽",
+            "司空震",
             "狂铁",
-            "达摩",
-            "司空震"
+            "夏洛特"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-07-13 15:51:22",
+          "last_updated": "2026-07-15 16:23:26",
           "match_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -1386,11 +1386,11 @@
         "season": "KPL2026S2"
       },
       "position_avg_economy": {
-        "中路": 5540.0,
+        "中路": 5541.0,
         "发育路": 7304.0,
-        "对抗路": 6802.0,
+        "对抗路": 6800.0,
         "打野": 7118.0,
-        "游走": 4434.0
+        "游走": 4435.0
       },
       "total_players": 104
     },
@@ -1514,7 +1514,7 @@
           "damage_10min_per_minute": 1764.0,
           "damage_per_minute": 2967.0,
           "damage_taken_per_minute": 4824.0,
-          "data_version": "v20260713_235124",
+          "data_version": "v20260716_002329",
           "economy_10min_details": [
             {
               "battle_id": "1781872932_501236240_6",
@@ -1600,15 +1600,15 @@
           "economy_10min_per_minute": 655.0,
           "gold_per_minute": 632.0,
           "heroes_used": [
-            "夏洛特",
             "马超",
-            "白起",
-            "关羽",
             "曹操",
-            "司空震"
+            "关羽",
+            "司空震",
+            "夏洛特",
+            "白起"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-07-13 15:51:25",
+          "last_updated": "2026-07-15 16:23:30",
           "lose_matches": 10.0,
           "match_details": [
             {
@@ -1776,7 +1776,7 @@
         "season": "KPL2026S2"
       },
       "season": "KPL2026S2",
-      "total_players": 103
+      "total_players": 104
     }
   }
 }

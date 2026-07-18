@@ -1,43 +1,43 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-17T04:22:31+00:00",
-  "build_id": "20260717T042231+0000",
+  "generated_at": "2026-07-18T04:13:05+00:00",
+  "build_id": "20260718T041305+0000",
   "data": {
-    "headline": "无言本赛季 25 局，使用 9 个英雄",
-    "summary": "生涯累计 139 局。本赛季英雄池覆盖 9 个英雄，能力评分 92.74。",
+    "headline": "无言本赛季 30 局，使用 10 个英雄",
+    "summary": "生涯累计 144 局。本赛季英雄池覆盖 10 个英雄，能力评分 91.86。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
         "id": "hero_pool",
         "title": "英雄池成熟度",
-        "summary": "当前样本中英雄池覆盖 9 个英雄，英雄使用相对分散。",
+        "summary": "当前样本中英雄池覆盖 10 个英雄，英雄使用相对分散。",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 30,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季使用 9 个英雄，共 25 局",
-          "核心层级英雄 1 个",
-          "轮换层级英雄 5 个",
-          "尝试层级英雄 3 个",
-          "英雄使用较为分散（HHI=0.14）"
+          "本赛季使用 10 个英雄，共 30 局",
+          "核心层级英雄 3 个",
+          "轮换层级英雄 3 个",
+          "尝试层级英雄 4 个",
+          "英雄使用较为分散（HHI=0.13）"
         ],
         "risk_notes": []
       },
       {
         "id": "growth_path",
         "title": "成长路径观察",
-        "summary": "本赛季 25 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+        "summary": "本赛季 30 局，使用 10 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
         "conclusion_type": "signal",
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 30,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季 25 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
-          "已记录 16 个成长节点",
+          "本赛季 30 局，使用 10 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+          "已记录 17 个成长节点",
           "已出现 11 个能力信号",
           "正在观察 1 个能力维度"
         ],
@@ -48,36 +48,36 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 92.74，位置排名第 2。",
+        "summary": "当前能力评分 91.86，位置排名第 2。",
         "conclusion_type": "hypothesis",
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 30,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
           "位置排名：第 2 名",
-          "总排名：第 5 名",
+          "总排名：第 6 名",
           "高于同位置均值维度：11 个",
-          "低于同位置均值维度：1 个"
+          "低于同位置均值维度：1 个",
+          "近期波动较大维度：2 个"
         ],
         "risk_notes": []
       },
       {
         "id": "ranking",
         "title": "联盟排名",
-        "summary": "排名前列指标共 1 项：KDA",
+        "summary": "排名前列指标共 0 项。",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 30,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "排名前列指标：KDA",
-          "KDA：排名第 3（5.0）",
+          "KDA：排名第 4（4.29）",
           "分均伤害：排名第 12（3579.0）",
-          "分均承伤：排名第 10（5176.0）",
-          "分均经济：排名第 6（674.0）",
-          "参团率：排名第 11（66.5）"
+          "分均承伤：排名第 8（5364.0）",
+          "分均经济：排名第 7（669.0）",
+          "参团率：排名第 9（67.4）"
         ],
         "risk_notes": []
       },
@@ -87,12 +87,12 @@
         "summary": "胜局和败局的过程指标差异。",
         "conclusion_type": "signal",
         "confidence": "high",
-        "sample_size": 25,
+        "sample_size": 30,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "胜局平均 KDA: 8.64",
-          "败局平均 KDA: 1.81",
+          "胜局平均 KDA: 9.43",
+          "败局平均 KDA: 1.63",
           "败局低位指标：KDA 偏低、分均伤害偏低、场均死亡偏高"
         ],
         "risk_notes": []

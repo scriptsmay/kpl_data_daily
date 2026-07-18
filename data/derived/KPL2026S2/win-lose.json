@@ -1,45 +1,45 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-17T04:22:31+00:00",
-  "build_id": "20260717T042231+0000",
+  "generated_at": "2026-07-18T04:13:05+00:00",
+  "build_id": "20260718T041305+0000",
   "data": {
     "win": {
-      "above_avg_economy_real_win_rate": 66.67,
-      "above_avg_economy_total": 9.0,
-      "above_avg_economy_win_rate": 40.0,
-      "above_avg_economy_wins": 6.0,
-      "avg_assists": 6.33,
-      "avg_be_hurt_by_hero": 95065.0,
-      "avg_big_fight_carry_damage": 11482.0,
-      "avg_big_fight_carry_kills": 0.67,
-      "avg_big_fight_damage": 36175.0,
-      "avg_big_fight_damage_taken": 48967.0,
+      "above_avg_economy_real_win_rate": 72.73,
+      "above_avg_economy_total": 11.0,
+      "above_avg_economy_win_rate": 47.06,
+      "above_avg_economy_wins": 8.0,
+      "avg_assists": 6.12,
+      "avg_be_hurt_by_hero": 89438.0,
+      "avg_big_fight_carry_damage": 11389.0,
+      "avg_big_fight_carry_kills": 0.65,
+      "avg_big_fight_damage": 34881.0,
+      "avg_big_fight_damage_taken": 45064.0,
       "avg_blue_buff": 0.1,
-      "avg_control_duration": 113.7,
-      "avg_damage_10min_ratio": 16.03,
-      "avg_deaths": 0.93,
-      "avg_economy_10min": 6513.0,
-      "avg_economy_10min_ratio": 20.91,
-      "avg_economy_diff_10min": 235.0,
-      "avg_game_duration": 1057.7,
-      "avg_gold": 12337.0,
-      "avg_heal_count": 46565.0,
-      "avg_horizon_value": 32.0,
-      "avg_hurt_to_hero": 69753.0,
-      "avg_invasion_duration": 107.0,
-      "avg_invasion_jungle": 5.87,
-      "avg_kda": 8.64,
-      "avg_kill_monster_count": 13.9,
-      "avg_kill_participation_10min": 0.492,
-      "avg_kills": 1.73,
+      "avg_control_duration": 103.6,
+      "avg_damage_10min_ratio": 16.71,
+      "avg_deaths": 0.82,
+      "avg_economy_10min": 6614.0,
+      "avg_economy_10min_ratio": 21.01,
+      "avg_economy_diff_10min": 352.0,
+      "avg_game_duration": 1025.1,
+      "avg_gold": 12053.0,
+      "avg_heal_count": 46047.0,
+      "avg_horizon_value": 30.0,
+      "avg_hurt_to_hero": 68090.0,
+      "avg_invasion_duration": 105.8,
+      "avg_invasion_jungle": 5.71,
+      "avg_kda": 9.43,
+      "avg_kill_monster_count": 13.5,
+      "avg_kill_participation_10min": 0.488,
+      "avg_kills": 1.65,
       "avg_red_buff": 0.8,
-      "avg_river_duration": 99.3,
+      "avg_river_duration": 93.3,
       "avg_solo_kills": 0.0,
-      "avg_support_attempts": 2.1,
-      "avg_team_damage_ratio": 17.75,
-      "avg_team_fights_initiated": 0.33,
-      "avg_ten_min_damage": 21948.0,
+      "avg_support_attempts": 1.9,
+      "avg_team_damage_ratio": 18.14,
+      "avg_team_fights_initiated": 0.29,
+      "avg_ten_min_damage": 22947.0,
       "below_avg_economy_wins": 9.0,
       "damage_10min_details": [
         {
@@ -161,12 +161,28 @@
           "personal_damage": 0,
           "position": "对抗路",
           "team_total_damage": 64702
+        },
+        {
+          "battle_id": "1784292087_501236240_4",
+          "damage_ratio": 20.56,
+          "hero_name": "夏洛特",
+          "personal_damage": 31904,
+          "position": "对抗路",
+          "team_total_damage": 155208
+        },
+        {
+          "battle_id": "1784293980_501236240_5",
+          "damage_ratio": 23.07,
+          "hero_name": "曹操",
+          "personal_damage": 28978,
+          "position": "对抗路",
+          "team_total_damage": 125590
         }
       ],
-      "damage_10min_per_minute": 2195.0,
-      "damage_per_minute": 3957.0,
-      "damage_taken_per_minute": 5393.0,
-      "data_version": "v20260716_225101",
+      "damage_10min_per_minute": 2295.0,
+      "damage_per_minute": 3985.0,
+      "damage_taken_per_minute": 5235.0,
+      "data_version": "v20260717_234842",
       "economy_10min_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -287,21 +303,38 @@
           "personal_economy": 6476,
           "position": "对抗路",
           "team_total_economy": 29726
+        },
+        {
+          "battle_id": "1784292087_501236240_4",
+          "economy_ratio": 21.79,
+          "hero_name": "夏洛特",
+          "personal_economy": 7173,
+          "position": "对抗路",
+          "team_total_economy": 32914
+        },
+        {
+          "battle_id": "1784293980_501236240_5",
+          "economy_ratio": 21.68,
+          "hero_name": "曹操",
+          "personal_economy": 7572,
+          "position": "对抗路",
+          "team_total_economy": 34920
         }
       ],
-      "economy_10min_per_minute": 651.0,
-      "gold_per_minute": 700.0,
+      "economy_10min_per_minute": 661.0,
+      "gold_per_minute": 705.0,
       "heroes_used": [
-        "关羽",
+        "曹操",
         "狂铁",
-        "蒙恬",
-        "司空震",
         "达摩",
+        "司空震",
         "马超",
-        "夏洛特"
+        "关羽",
+        "夏洛特",
+        "蒙恬"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-07-16 14:51:02",
+      "last_updated": "2026-07-17 15:48:43",
       "match_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -437,6 +470,24 @@
           "player_position": "对抗路",
           "schedule_id": "KPL2026S2M4W2D2",
           "team_id": "KPL2026S2_ytg"
+        },
+        {
+          "battle_id": "1784292087_501236240_4",
+          "hero_name": "夏洛特",
+          "is_valid_10min": true,
+          "match_number": 16,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S2M5W3D3",
+          "team_id": "KPL2026S2_ytg"
+        },
+        {
+          "battle_id": "1784293980_501236240_5",
+          "hero_name": "曹操",
+          "is_valid_10min": true,
+          "match_number": 17,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S2M5W3D3",
+          "team_id": "KPL2026S2_ytg"
         }
       ],
       "player_name": "KSG.无言",
@@ -444,34 +495,34 @@
         "对抗路"
       ],
       "season": "KPL2026S2",
-      "teammates_avg_invasion_jungle": 4.6,
+      "teammates_avg_invasion_jungle": 4.72,
       "teammates_details": [
         {
-          "avg_invasion_jungle": 2.47,
-          "matches_together": 15,
+          "avg_invasion_jungle": 2.59,
+          "matches_together": 17,
           "positions": [
             "中路"
           ],
           "teammate_name": "KSG.流浪",
-          "total_invasion_jungle": 37
+          "total_invasion_jungle": 44
         },
         {
-          "avg_invasion_jungle": 7.33,
-          "matches_together": 15,
+          "avg_invasion_jungle": 7.71,
+          "matches_together": 17,
           "positions": [
             "发育路"
           ],
           "teammate_name": "KSG.小屿",
-          "total_invasion_jungle": 110
+          "total_invasion_jungle": 131
         },
         {
-          "avg_invasion_jungle": 7.93,
-          "matches_together": 15,
+          "avg_invasion_jungle": 7.94,
+          "matches_together": 17,
           "positions": [
             "打野"
           ],
           "teammate_name": "KSG.句号",
-          "total_invasion_jungle": 119
+          "total_invasion_jungle": 135
         },
         {
           "avg_invasion_jungle": 0.67,
@@ -481,61 +532,70 @@
           ],
           "teammate_name": "KSG.晚星",
           "total_invasion_jungle": 10
+        },
+        {
+          "avg_invasion_jungle": 0.5,
+          "matches_together": 2,
+          "positions": [
+            "游走"
+          ],
+          "teammate_name": "KSG.烈峰峰",
+          "total_invasion_jungle": 1
         }
       ],
-      "total_assists": 95.0,
-      "total_be_hurt_by_hero": 1425977.0,
-      "total_big_fight_damage": 542621.0,
+      "total_assists": 104.0,
+      "total_be_hurt_by_hero": 1520445.0,
+      "total_big_fight_damage": 592978.0,
       "total_blue_buff": 1.0,
       "total_deaths": 14.0,
-      "total_game_duration": 15865.0,
-      "total_gold": 185061.0,
-      "total_heal_count": 698468.0,
-      "total_heroes_count": 7.0,
-      "total_horizon_value": 477.0,
-      "total_hurt_to_hero": 1046294.0,
-      "total_invasion_jungle": 88.0,
-      "total_kills": 26.0,
-      "total_red_buff": 12.0,
+      "total_game_duration": 17427.0,
+      "total_gold": 204897.0,
+      "total_heal_count": 782802.0,
+      "total_heroes_count": 8.0,
+      "total_horizon_value": 508.0,
+      "total_hurt_to_hero": 1157528.0,
+      "total_invasion_jungle": 97.0,
+      "total_kills": 28.0,
+      "total_red_buff": 13.0,
       "total_solo_kills": 0.0,
-      "total_ten_min_damage": 329222.0,
-      "valid_10min_matches": 15.0,
+      "total_ten_min_damage": 390104.0,
+      "valid_10min_matches": 17.0,
       "valid_10min_rate": 100.0,
-      "valid_damage_ratio_matches": 15.0,
-      "win_matches": 15.0
+      "valid_damage_ratio_matches": 17.0,
+      "win_matches": 17.0
     },
     "lose": {
-      "avg_assists": 2.1,
-      "avg_be_hurt_by_hero": 78633.0,
-      "avg_big_fight_carry_damage": 7993.0,
-      "avg_big_fight_carry_kills": 0.3,
-      "avg_big_fight_damage": 23355.0,
-      "avg_big_fight_damage_taken": 42490.0,
+      "avg_assists": 2.46,
+      "avg_be_hurt_by_hero": 95480.0,
+      "avg_big_fight_carry_damage": 9518.0,
+      "avg_big_fight_carry_kills": 0.31,
+      "avg_big_fight_damage": 26070.0,
+      "avg_big_fight_damage_taken": 49860.0,
       "avg_blue_buff": 0.0,
-      "avg_control_duration": 27.0,
-      "avg_damage_10min_ratio": 14.93,
-      "avg_deaths": 1.6,
-      "avg_economy_10min": 6546.0,
-      "avg_economy_10min_ratio": 21.99,
-      "avg_economy_diff_10min": -52.0,
-      "avg_game_duration": 978.1,
-      "avg_gold": 10296.0,
-      "avg_heal_count": 32366.0,
-      "avg_horizon_value": 23.0,
-      "avg_hurt_to_hero": 48366.0,
-      "avg_invasion_duration": 45.2,
-      "avg_invasion_jungle": 2.1,
-      "avg_kda": 1.81,
-      "avg_kill_monster_count": 9.3,
-      "avg_kill_participation_10min": 0.402,
-      "avg_kills": 0.8,
-      "avg_red_buff": 0.9,
-      "avg_river_duration": 76.9,
+      "avg_control_duration": 52.5,
+      "avg_damage_10min_ratio": 14.56,
+      "avg_deaths": 2.08,
+      "avg_economy_10min": 6468.0,
+      "avg_economy_10min_ratio": 21.75,
+      "avg_economy_diff_10min": -195.0,
+      "avg_game_duration": 1035.8,
+      "avg_gold": 10746.0,
+      "avg_heal_count": 35030.0,
+      "avg_horizon_value": 27.0,
+      "avg_hurt_to_hero": 52705.0,
+      "avg_invasion_duration": 44.7,
+      "avg_invasion_jungle": 2.0,
+      "avg_kda": 1.63,
+      "avg_kill_monster_count": 9.2,
+      "avg_kill_participation_10min": 0.425,
+      "avg_kills": 0.92,
+      "avg_red_buff": 0.8,
+      "avg_river_duration": 76.5,
       "avg_solo_kills": 0.0,
-      "avg_support_attempts": 2.0,
-      "avg_team_damage_ratio": 15.57,
-      "avg_team_fights_initiated": 0.1,
-      "avg_ten_min_damage": 17642.0,
+      "avg_support_attempts": 1.8,
+      "avg_team_damage_ratio": 16.46,
+      "avg_team_fights_initiated": 0.31,
+      "avg_ten_min_damage": 16803.0,
       "damage_10min_details": [
         {
           "battle_id": "1781872932_501236240_6",
@@ -616,12 +676,36 @@
           "personal_damage": 12549,
           "position": "对抗路",
           "team_total_damage": 93710
+        },
+        {
+          "battle_id": "1784289772_501236240_3",
+          "damage_ratio": 11.64,
+          "hero_name": "狂铁",
+          "personal_damage": 11871,
+          "position": "对抗路",
+          "team_total_damage": 102027
+        },
+        {
+          "battle_id": "1784295677_501236240_6",
+          "damage_ratio": 12.44,
+          "hero_name": "项羽",
+          "personal_damage": 10760,
+          "position": "对抗路",
+          "team_total_damage": 86480
+        },
+        {
+          "battle_id": "1784297598_501236240_8",
+          "damage_ratio": 15.93,
+          "hero_name": "司空震",
+          "personal_damage": 19385,
+          "position": "对抗路",
+          "team_total_damage": 121680
         }
       ],
-      "damage_10min_per_minute": 1764.0,
-      "damage_per_minute": 2967.0,
-      "damage_taken_per_minute": 4824.0,
-      "data_version": "v20260716_225104",
+      "damage_10min_per_minute": 1680.0,
+      "damage_per_minute": 3053.0,
+      "damage_taken_per_minute": 5531.0,
+      "data_version": "v20260717_234845",
       "economy_10min_details": [
         {
           "battle_id": "1781872932_501236240_6",
@@ -702,21 +786,47 @@
           "personal_economy": 5790,
           "position": "对抗路",
           "team_total_economy": 29431
+        },
+        {
+          "battle_id": "1784289772_501236240_3",
+          "economy_ratio": 22.61,
+          "hero_name": "狂铁",
+          "personal_economy": 6458,
+          "position": "对抗路",
+          "team_total_economy": 28563
+        },
+        {
+          "battle_id": "1784295677_501236240_6",
+          "economy_ratio": 19.2,
+          "hero_name": "项羽",
+          "personal_economy": 5973,
+          "position": "对抗路",
+          "team_total_economy": 31109
+        },
+        {
+          "battle_id": "1784297598_501236240_8",
+          "economy_ratio": 21.07,
+          "hero_name": "司空震",
+          "personal_economy": 6185,
+          "position": "对抗路",
+          "team_total_economy": 29359
         }
       ],
-      "economy_10min_per_minute": 655.0,
-      "gold_per_minute": 632.0,
+      "economy_10min_per_minute": 647.0,
+      "gold_per_minute": 623.0,
       "heroes_used": [
-        "关羽",
         "曹操",
-        "司空震",
+        "狂铁",
         "白起",
+        "司空震",
         "马超",
-        "夏洛特"
+        "关羽",
+        "夏洛特",
+        "项羽"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-07-16 14:51:06",
-      "lose_matches": 10.0,
+      "last_updated": "2026-07-17 15:48:46",
+      "lose_matches": 13.0,
       "match_details": [
         {
           "battle_id": "1781872932_501236240_6",
@@ -807,6 +917,33 @@
           "player_position": "对抗路",
           "schedule_id": "KPL2026S2M4W3D1",
           "team_id": "KPL2026S2_ytg"
+        },
+        {
+          "battle_id": "1784289772_501236240_3",
+          "hero_name": "狂铁",
+          "is_valid_10min": true,
+          "match_number": 11,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S2M5W3D3",
+          "team_id": "KPL2026S2_ytg"
+        },
+        {
+          "battle_id": "1784295677_501236240_6",
+          "hero_name": "项羽",
+          "is_valid_10min": true,
+          "match_number": 12,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S2M5W3D3",
+          "team_id": "KPL2026S2_ytg"
+        },
+        {
+          "battle_id": "1784297598_501236240_8",
+          "hero_name": "司空震",
+          "is_valid_10min": true,
+          "match_number": 13,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S2M5W3D3",
+          "team_id": "KPL2026S2_ytg"
         }
       ],
       "player_name": "KSG.无言",
@@ -814,34 +951,34 @@
         "对抗路"
       ],
       "season": "KPL2026S2",
-      "teammates_avg_invasion_jungle": 2.02,
+      "teammates_avg_invasion_jungle": 1.9,
       "teammates_details": [
         {
-          "avg_invasion_jungle": 1.3,
-          "matches_together": 10,
+          "avg_invasion_jungle": 1.46,
+          "matches_together": 13,
           "positions": [
             "中路"
           ],
           "teammate_name": "KSG.流浪",
-          "total_invasion_jungle": 13
+          "total_invasion_jungle": 19
         },
         {
-          "avg_invasion_jungle": 2.8,
-          "matches_together": 10,
+          "avg_invasion_jungle": 2.54,
+          "matches_together": 13,
           "positions": [
             "发育路"
           ],
           "teammate_name": "KSG.小屿",
-          "total_invasion_jungle": 28
+          "total_invasion_jungle": 33
         },
         {
-          "avg_invasion_jungle": 3.7,
-          "matches_together": 10,
+          "avg_invasion_jungle": 3.38,
+          "matches_together": 13,
           "positions": [
             "打野"
           ],
           "teammate_name": "KSG.句号",
-          "total_invasion_jungle": 37
+          "total_invasion_jungle": 44
         },
         {
           "avg_invasion_jungle": 0.3,
@@ -851,67 +988,76 @@
           ],
           "teammate_name": "KSG.晚星",
           "total_invasion_jungle": 3
+        },
+        {
+          "avg_invasion_jungle": 0.0,
+          "matches_together": 3,
+          "positions": [
+            "游走"
+          ],
+          "teammate_name": "KSG.烈峰峰",
+          "total_invasion_jungle": 0
         }
       ],
-      "total_assists": 21.0,
-      "total_be_hurt_by_hero": 786334.0,
-      "total_big_fight_damage": 233550.0,
+      "total_assists": 32.0,
+      "total_be_hurt_by_hero": 1241234.0,
+      "total_big_fight_damage": 338908.0,
       "total_blue_buff": 0.0,
-      "total_deaths": 16.0,
-      "total_game_duration": 9781.0,
-      "total_gold": 102960.0,
-      "total_heal_count": 323661.0,
-      "total_heroes_count": 6.0,
-      "total_horizon_value": 233.0,
-      "total_hurt_to_hero": 483662.0,
-      "total_invasion_jungle": 21.0,
-      "total_kills": 8.0,
-      "total_red_buff": 9.0,
+      "total_deaths": 27.0,
+      "total_game_duration": 13465.0,
+      "total_gold": 139704.0,
+      "total_heal_count": 455389.0,
+      "total_heroes_count": 8.0,
+      "total_horizon_value": 351.0,
+      "total_hurt_to_hero": 685169.0,
+      "total_invasion_jungle": 26.0,
+      "total_kills": 12.0,
+      "total_red_buff": 10.0,
       "total_solo_kills": 0.0,
-      "total_ten_min_damage": 176418.0,
-      "valid_10min_matches": 10.0,
+      "total_ten_min_damage": 218434.0,
+      "valid_10min_matches": 13.0,
       "valid_10min_rate": 100.0,
-      "valid_damage_ratio_matches": 9.0
+      "valid_damage_ratio_matches": 12.0
     },
     "win_source": {
       "code": 200,
       "data": [
         {
-          "above_avg_economy_real_win_rate": 66.67,
-          "above_avg_economy_total": 9.0,
-          "above_avg_economy_win_rate": 40.0,
-          "above_avg_economy_wins": 6.0,
-          "avg_assists": 6.33,
-          "avg_be_hurt_by_hero": 95065.0,
-          "avg_big_fight_carry_damage": 11482.0,
-          "avg_big_fight_carry_kills": 0.67,
-          "avg_big_fight_damage": 36175.0,
-          "avg_big_fight_damage_taken": 48967.0,
+          "above_avg_economy_real_win_rate": 72.73,
+          "above_avg_economy_total": 11.0,
+          "above_avg_economy_win_rate": 47.06,
+          "above_avg_economy_wins": 8.0,
+          "avg_assists": 6.12,
+          "avg_be_hurt_by_hero": 89438.0,
+          "avg_big_fight_carry_damage": 11389.0,
+          "avg_big_fight_carry_kills": 0.65,
+          "avg_big_fight_damage": 34881.0,
+          "avg_big_fight_damage_taken": 45064.0,
           "avg_blue_buff": 0.1,
-          "avg_control_duration": 113.7,
-          "avg_damage_10min_ratio": 16.03,
-          "avg_deaths": 0.93,
-          "avg_economy_10min": 6513.0,
-          "avg_economy_10min_ratio": 20.91,
-          "avg_economy_diff_10min": 235.0,
-          "avg_game_duration": 1057.7,
-          "avg_gold": 12337.0,
-          "avg_heal_count": 46565.0,
-          "avg_horizon_value": 32.0,
-          "avg_hurt_to_hero": 69753.0,
-          "avg_invasion_duration": 107.0,
-          "avg_invasion_jungle": 5.87,
-          "avg_kda": 8.64,
-          "avg_kill_monster_count": 13.9,
-          "avg_kill_participation_10min": 0.492,
-          "avg_kills": 1.73,
+          "avg_control_duration": 103.6,
+          "avg_damage_10min_ratio": 16.71,
+          "avg_deaths": 0.82,
+          "avg_economy_10min": 6614.0,
+          "avg_economy_10min_ratio": 21.01,
+          "avg_economy_diff_10min": 352.0,
+          "avg_game_duration": 1025.1,
+          "avg_gold": 12053.0,
+          "avg_heal_count": 46047.0,
+          "avg_horizon_value": 30.0,
+          "avg_hurt_to_hero": 68090.0,
+          "avg_invasion_duration": 105.8,
+          "avg_invasion_jungle": 5.71,
+          "avg_kda": 9.43,
+          "avg_kill_monster_count": 13.5,
+          "avg_kill_participation_10min": 0.488,
+          "avg_kills": 1.65,
           "avg_red_buff": 0.8,
-          "avg_river_duration": 99.3,
+          "avg_river_duration": 93.3,
           "avg_solo_kills": 0.0,
-          "avg_support_attempts": 2.1,
-          "avg_team_damage_ratio": 17.75,
-          "avg_team_fights_initiated": 0.33,
-          "avg_ten_min_damage": 21948.0,
+          "avg_support_attempts": 1.9,
+          "avg_team_damage_ratio": 18.14,
+          "avg_team_fights_initiated": 0.29,
+          "avg_ten_min_damage": 22947.0,
           "below_avg_economy_wins": 9.0,
           "damage_10min_details": [
             {
@@ -1033,12 +1179,28 @@
               "personal_damage": 0,
               "position": "对抗路",
               "team_total_damage": 64702
+            },
+            {
+              "battle_id": "1784292087_501236240_4",
+              "damage_ratio": 20.56,
+              "hero_name": "夏洛特",
+              "personal_damage": 31904,
+              "position": "对抗路",
+              "team_total_damage": 155208
+            },
+            {
+              "battle_id": "1784293980_501236240_5",
+              "damage_ratio": 23.07,
+              "hero_name": "曹操",
+              "personal_damage": 28978,
+              "position": "对抗路",
+              "team_total_damage": 125590
             }
           ],
-          "damage_10min_per_minute": 2195.0,
-          "damage_per_minute": 3957.0,
-          "damage_taken_per_minute": 5393.0,
-          "data_version": "v20260716_225101",
+          "damage_10min_per_minute": 2295.0,
+          "damage_per_minute": 3985.0,
+          "damage_taken_per_minute": 5235.0,
+          "data_version": "v20260717_234842",
           "economy_10min_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -1159,21 +1321,38 @@
               "personal_economy": 6476,
               "position": "对抗路",
               "team_total_economy": 29726
+            },
+            {
+              "battle_id": "1784292087_501236240_4",
+              "economy_ratio": 21.79,
+              "hero_name": "夏洛特",
+              "personal_economy": 7173,
+              "position": "对抗路",
+              "team_total_economy": 32914
+            },
+            {
+              "battle_id": "1784293980_501236240_5",
+              "economy_ratio": 21.68,
+              "hero_name": "曹操",
+              "personal_economy": 7572,
+              "position": "对抗路",
+              "team_total_economy": 34920
             }
           ],
-          "economy_10min_per_minute": 651.0,
-          "gold_per_minute": 700.0,
+          "economy_10min_per_minute": 661.0,
+          "gold_per_minute": 705.0,
           "heroes_used": [
-            "关羽",
+            "曹操",
             "狂铁",
-            "蒙恬",
-            "司空震",
             "达摩",
+            "司空震",
             "马超",
-            "夏洛特"
+            "关羽",
+            "夏洛特",
+            "蒙恬"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-07-16 14:51:02",
+          "last_updated": "2026-07-17 15:48:43",
           "match_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -1309,6 +1488,24 @@
               "player_position": "对抗路",
               "schedule_id": "KPL2026S2M4W2D2",
               "team_id": "KPL2026S2_ytg"
+            },
+            {
+              "battle_id": "1784292087_501236240_4",
+              "hero_name": "夏洛特",
+              "is_valid_10min": true,
+              "match_number": 16,
+              "player_position": "对抗路",
+              "schedule_id": "KPL2026S2M5W3D3",
+              "team_id": "KPL2026S2_ytg"
+            },
+            {
+              "battle_id": "1784293980_501236240_5",
+              "hero_name": "曹操",
+              "is_valid_10min": true,
+              "match_number": 17,
+              "player_position": "对抗路",
+              "schedule_id": "KPL2026S2M5W3D3",
+              "team_id": "KPL2026S2_ytg"
             }
           ],
           "player_name": "KSG.无言",
@@ -1316,34 +1513,34 @@
             "对抗路"
           ],
           "season": "KPL2026S2",
-          "teammates_avg_invasion_jungle": 4.6,
+          "teammates_avg_invasion_jungle": 4.72,
           "teammates_details": [
             {
-              "avg_invasion_jungle": 2.47,
-              "matches_together": 15,
+              "avg_invasion_jungle": 2.59,
+              "matches_together": 17,
               "positions": [
                 "中路"
               ],
               "teammate_name": "KSG.流浪",
-              "total_invasion_jungle": 37
+              "total_invasion_jungle": 44
             },
             {
-              "avg_invasion_jungle": 7.33,
-              "matches_together": 15,
+              "avg_invasion_jungle": 7.71,
+              "matches_together": 17,
               "positions": [
                 "发育路"
               ],
               "teammate_name": "KSG.小屿",
-              "total_invasion_jungle": 110
+              "total_invasion_jungle": 131
             },
             {
-              "avg_invasion_jungle": 7.93,
-              "matches_together": 15,
+              "avg_invasion_jungle": 7.94,
+              "matches_together": 17,
               "positions": [
                 "打野"
               ],
               "teammate_name": "KSG.句号",
-              "total_invasion_jungle": 119
+              "total_invasion_jungle": 135
             },
             {
               "avg_invasion_jungle": 0.67,
@@ -1353,28 +1550,37 @@
               ],
               "teammate_name": "KSG.晚星",
               "total_invasion_jungle": 10
+            },
+            {
+              "avg_invasion_jungle": 0.5,
+              "matches_together": 2,
+              "positions": [
+                "游走"
+              ],
+              "teammate_name": "KSG.烈峰峰",
+              "total_invasion_jungle": 1
             }
           ],
-          "total_assists": 95.0,
-          "total_be_hurt_by_hero": 1425977.0,
-          "total_big_fight_damage": 542621.0,
+          "total_assists": 104.0,
+          "total_be_hurt_by_hero": 1520445.0,
+          "total_big_fight_damage": 592978.0,
           "total_blue_buff": 1.0,
           "total_deaths": 14.0,
-          "total_game_duration": 15865.0,
-          "total_gold": 185061.0,
-          "total_heal_count": 698468.0,
-          "total_heroes_count": 7.0,
-          "total_horizon_value": 477.0,
-          "total_hurt_to_hero": 1046294.0,
-          "total_invasion_jungle": 88.0,
-          "total_kills": 26.0,
-          "total_red_buff": 12.0,
+          "total_game_duration": 17427.0,
+          "total_gold": 204897.0,
+          "total_heal_count": 782802.0,
+          "total_heroes_count": 8.0,
+          "total_horizon_value": 508.0,
+          "total_hurt_to_hero": 1157528.0,
+          "total_invasion_jungle": 97.0,
+          "total_kills": 28.0,
+          "total_red_buff": 13.0,
           "total_solo_kills": 0.0,
-          "total_ten_min_damage": 329222.0,
-          "valid_10min_matches": 15.0,
+          "total_ten_min_damage": 390104.0,
+          "valid_10min_matches": 17.0,
           "valid_10min_rate": 100.0,
-          "valid_damage_ratio_matches": 15.0,
-          "win_matches": 15.0
+          "valid_damage_ratio_matches": 17.0,
+          "win_matches": 17.0
         }
       ],
       "data_source": "player_win_stats table",
@@ -1386,49 +1592,49 @@
         "season": "KPL2026S2"
       },
       "position_avg_economy": {
-        "中路": 5542.0,
-        "发育路": 7303.0,
+        "中路": 5544.0,
+        "发育路": 7302.0,
         "对抗路": 6799.0,
-        "打野": 7120.0,
+        "打野": 7123.0,
         "游走": 4435.0
       },
-      "total_players": 104
+      "total_players": 105
     },
     "lose_source": {
       "code": 200,
       "data": [
         {
-          "avg_assists": 2.1,
-          "avg_be_hurt_by_hero": 78633.0,
-          "avg_big_fight_carry_damage": 7993.0,
-          "avg_big_fight_carry_kills": 0.3,
-          "avg_big_fight_damage": 23355.0,
-          "avg_big_fight_damage_taken": 42490.0,
+          "avg_assists": 2.46,
+          "avg_be_hurt_by_hero": 95480.0,
+          "avg_big_fight_carry_damage": 9518.0,
+          "avg_big_fight_carry_kills": 0.31,
+          "avg_big_fight_damage": 26070.0,
+          "avg_big_fight_damage_taken": 49860.0,
           "avg_blue_buff": 0.0,
-          "avg_control_duration": 27.0,
-          "avg_damage_10min_ratio": 14.93,
-          "avg_deaths": 1.6,
-          "avg_economy_10min": 6546.0,
-          "avg_economy_10min_ratio": 21.99,
-          "avg_economy_diff_10min": -52.0,
-          "avg_game_duration": 978.1,
-          "avg_gold": 10296.0,
-          "avg_heal_count": 32366.0,
-          "avg_horizon_value": 23.0,
-          "avg_hurt_to_hero": 48366.0,
-          "avg_invasion_duration": 45.2,
-          "avg_invasion_jungle": 2.1,
-          "avg_kda": 1.81,
-          "avg_kill_monster_count": 9.3,
-          "avg_kill_participation_10min": 0.402,
-          "avg_kills": 0.8,
-          "avg_red_buff": 0.9,
-          "avg_river_duration": 76.9,
+          "avg_control_duration": 52.5,
+          "avg_damage_10min_ratio": 14.56,
+          "avg_deaths": 2.08,
+          "avg_economy_10min": 6468.0,
+          "avg_economy_10min_ratio": 21.75,
+          "avg_economy_diff_10min": -195.0,
+          "avg_game_duration": 1035.8,
+          "avg_gold": 10746.0,
+          "avg_heal_count": 35030.0,
+          "avg_horizon_value": 27.0,
+          "avg_hurt_to_hero": 52705.0,
+          "avg_invasion_duration": 44.7,
+          "avg_invasion_jungle": 2.0,
+          "avg_kda": 1.63,
+          "avg_kill_monster_count": 9.2,
+          "avg_kill_participation_10min": 0.425,
+          "avg_kills": 0.92,
+          "avg_red_buff": 0.8,
+          "avg_river_duration": 76.5,
           "avg_solo_kills": 0.0,
-          "avg_support_attempts": 2.0,
-          "avg_team_damage_ratio": 15.57,
-          "avg_team_fights_initiated": 0.1,
-          "avg_ten_min_damage": 17642.0,
+          "avg_support_attempts": 1.8,
+          "avg_team_damage_ratio": 16.46,
+          "avg_team_fights_initiated": 0.31,
+          "avg_ten_min_damage": 16803.0,
           "damage_10min_details": [
             {
               "battle_id": "1781872932_501236240_6",
@@ -1509,12 +1715,36 @@
               "personal_damage": 12549,
               "position": "对抗路",
               "team_total_damage": 93710
+            },
+            {
+              "battle_id": "1784289772_501236240_3",
+              "damage_ratio": 11.64,
+              "hero_name": "狂铁",
+              "personal_damage": 11871,
+              "position": "对抗路",
+              "team_total_damage": 102027
+            },
+            {
+              "battle_id": "1784295677_501236240_6",
+              "damage_ratio": 12.44,
+              "hero_name": "项羽",
+              "personal_damage": 10760,
+              "position": "对抗路",
+              "team_total_damage": 86480
+            },
+            {
+              "battle_id": "1784297598_501236240_8",
+              "damage_ratio": 15.93,
+              "hero_name": "司空震",
+              "personal_damage": 19385,
+              "position": "对抗路",
+              "team_total_damage": 121680
             }
           ],
-          "damage_10min_per_minute": 1764.0,
-          "damage_per_minute": 2967.0,
-          "damage_taken_per_minute": 4824.0,
-          "data_version": "v20260716_225104",
+          "damage_10min_per_minute": 1680.0,
+          "damage_per_minute": 3053.0,
+          "damage_taken_per_minute": 5531.0,
+          "data_version": "v20260717_234845",
           "economy_10min_details": [
             {
               "battle_id": "1781872932_501236240_6",
@@ -1595,21 +1825,47 @@
               "personal_economy": 5790,
               "position": "对抗路",
               "team_total_economy": 29431
+            },
+            {
+              "battle_id": "1784289772_501236240_3",
+              "economy_ratio": 22.61,
+              "hero_name": "狂铁",
+              "personal_economy": 6458,
+              "position": "对抗路",
+              "team_total_economy": 28563
+            },
+            {
+              "battle_id": "1784295677_501236240_6",
+              "economy_ratio": 19.2,
+              "hero_name": "项羽",
+              "personal_economy": 5973,
+              "position": "对抗路",
+              "team_total_economy": 31109
+            },
+            {
+              "battle_id": "1784297598_501236240_8",
+              "economy_ratio": 21.07,
+              "hero_name": "司空震",
+              "personal_economy": 6185,
+              "position": "对抗路",
+              "team_total_economy": 29359
             }
           ],
-          "economy_10min_per_minute": 655.0,
-          "gold_per_minute": 632.0,
+          "economy_10min_per_minute": 647.0,
+          "gold_per_minute": 623.0,
           "heroes_used": [
-            "关羽",
             "曹操",
-            "司空震",
+            "狂铁",
             "白起",
+            "司空震",
             "马超",
-            "夏洛特"
+            "关羽",
+            "夏洛特",
+            "项羽"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-07-16 14:51:06",
-          "lose_matches": 10.0,
+          "last_updated": "2026-07-17 15:48:46",
+          "lose_matches": 13.0,
           "match_details": [
             {
               "battle_id": "1781872932_501236240_6",
@@ -1700,6 +1956,33 @@
               "player_position": "对抗路",
               "schedule_id": "KPL2026S2M4W3D1",
               "team_id": "KPL2026S2_ytg"
+            },
+            {
+              "battle_id": "1784289772_501236240_3",
+              "hero_name": "狂铁",
+              "is_valid_10min": true,
+              "match_number": 11,
+              "player_position": "对抗路",
+              "schedule_id": "KPL2026S2M5W3D3",
+              "team_id": "KPL2026S2_ytg"
+            },
+            {
+              "battle_id": "1784295677_501236240_6",
+              "hero_name": "项羽",
+              "is_valid_10min": true,
+              "match_number": 12,
+              "player_position": "对抗路",
+              "schedule_id": "KPL2026S2M5W3D3",
+              "team_id": "KPL2026S2_ytg"
+            },
+            {
+              "battle_id": "1784297598_501236240_8",
+              "hero_name": "司空震",
+              "is_valid_10min": true,
+              "match_number": 13,
+              "player_position": "对抗路",
+              "schedule_id": "KPL2026S2M5W3D3",
+              "team_id": "KPL2026S2_ytg"
             }
           ],
           "player_name": "KSG.无言",
@@ -1707,34 +1990,34 @@
             "对抗路"
           ],
           "season": "KPL2026S2",
-          "teammates_avg_invasion_jungle": 2.02,
+          "teammates_avg_invasion_jungle": 1.9,
           "teammates_details": [
             {
-              "avg_invasion_jungle": 1.3,
-              "matches_together": 10,
+              "avg_invasion_jungle": 1.46,
+              "matches_together": 13,
               "positions": [
                 "中路"
               ],
               "teammate_name": "KSG.流浪",
-              "total_invasion_jungle": 13
+              "total_invasion_jungle": 19
             },
             {
-              "avg_invasion_jungle": 2.8,
-              "matches_together": 10,
+              "avg_invasion_jungle": 2.54,
+              "matches_together": 13,
               "positions": [
                 "发育路"
               ],
               "teammate_name": "KSG.小屿",
-              "total_invasion_jungle": 28
+              "total_invasion_jungle": 33
             },
             {
-              "avg_invasion_jungle": 3.7,
-              "matches_together": 10,
+              "avg_invasion_jungle": 3.38,
+              "matches_together": 13,
               "positions": [
                 "打野"
               ],
               "teammate_name": "KSG.句号",
-              "total_invasion_jungle": 37
+              "total_invasion_jungle": 44
             },
             {
               "avg_invasion_jungle": 0.3,
@@ -1744,27 +2027,36 @@
               ],
               "teammate_name": "KSG.晚星",
               "total_invasion_jungle": 3
+            },
+            {
+              "avg_invasion_jungle": 0.0,
+              "matches_together": 3,
+              "positions": [
+                "游走"
+              ],
+              "teammate_name": "KSG.烈峰峰",
+              "total_invasion_jungle": 0
             }
           ],
-          "total_assists": 21.0,
-          "total_be_hurt_by_hero": 786334.0,
-          "total_big_fight_damage": 233550.0,
+          "total_assists": 32.0,
+          "total_be_hurt_by_hero": 1241234.0,
+          "total_big_fight_damage": 338908.0,
           "total_blue_buff": 0.0,
-          "total_deaths": 16.0,
-          "total_game_duration": 9781.0,
-          "total_gold": 102960.0,
-          "total_heal_count": 323661.0,
-          "total_heroes_count": 6.0,
-          "total_horizon_value": 233.0,
-          "total_hurt_to_hero": 483662.0,
-          "total_invasion_jungle": 21.0,
-          "total_kills": 8.0,
-          "total_red_buff": 9.0,
+          "total_deaths": 27.0,
+          "total_game_duration": 13465.0,
+          "total_gold": 139704.0,
+          "total_heal_count": 455389.0,
+          "total_heroes_count": 8.0,
+          "total_horizon_value": 351.0,
+          "total_hurt_to_hero": 685169.0,
+          "total_invasion_jungle": 26.0,
+          "total_kills": 12.0,
+          "total_red_buff": 10.0,
           "total_solo_kills": 0.0,
-          "total_ten_min_damage": 176418.0,
-          "valid_10min_matches": 10.0,
+          "total_ten_min_damage": 218434.0,
+          "valid_10min_matches": 13.0,
           "valid_10min_rate": 100.0,
-          "valid_damage_ratio_matches": 9.0
+          "valid_damage_ratio_matches": 12.0
         }
       ],
       "data_source": "player_lose_stats table",
@@ -1776,7 +2068,7 @@
         "season": "KPL2026S2"
       },
       "season": "KPL2026S2",
-      "total_players": 104
+      "total_players": 106
     }
   }
 }

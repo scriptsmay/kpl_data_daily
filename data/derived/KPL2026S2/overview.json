@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-18T04:13:05+00:00",
-  "build_id": "20260718T041305+0000",
+  "generated_at": "2026-07-19T04:32:59+00:00",
+  "build_id": "20260719T043259+0000",
   "data": {
     "player_info": {
       "first_appear_time": "2025-12-09 00:00:00",
@@ -282,7 +282,6 @@
         "battles_by_bo": [
           {
             "assists": 5,
-            "battle_id": "1784289772_501236240_3",
             "bo": 1,
             "deaths": 3,
             "game_duration": 1338,
@@ -295,7 +294,6 @@
           },
           {
             "assists": 4,
-            "battle_id": "1784292087_501236240_4",
             "bo": 2,
             "deaths": 0,
             "game_duration": 827,
@@ -308,7 +306,6 @@
           },
           {
             "assists": 5,
-            "battle_id": "1784293980_501236240_5",
             "bo": 3,
             "deaths": 0,
             "game_duration": 735,
@@ -321,7 +318,6 @@
           },
           {
             "assists": 4,
-            "battle_id": "1784295677_501236240_6",
             "bo": 4,
             "deaths": 3,
             "game_duration": 1089,
@@ -334,7 +330,6 @@
           },
           {
             "assists": 2,
-            "battle_id": "1784297598_501236240_8",
             "bo": 5,
             "deaths": 5,
             "game_duration": 1257,
@@ -362,7 +357,6 @@
         "battles_by_bo": [
           {
             "assists": 2,
-            "battle_id": "1783836116_1272988176_9",
             "bo": 1,
             "deaths": 2,
             "game_duration": 1006,
@@ -375,7 +369,6 @@
           },
           {
             "assists": 2,
-            "battle_id": "1783838220_1272988176_10",
             "bo": 2,
             "deaths": 3,
             "game_duration": 1152,
@@ -388,7 +381,6 @@
           },
           {
             "assists": 6,
-            "battle_id": "1783840479_1272988176_11",
             "bo": 3,
             "deaths": 1,
             "game_duration": 1395,
@@ -416,7 +408,6 @@
         "battles_by_bo": [
           {
             "assists": 4,
-            "battle_id": "1783674079_1222656528_3",
             "bo": 1,
             "deaths": 4,
             "game_duration": 1306,
@@ -429,7 +420,6 @@
           },
           {
             "assists": 5,
-            "battle_id": "1783676596_1222656528_4",
             "bo": 2,
             "deaths": 3,
             "game_duration": 719,
@@ -442,7 +432,6 @@
           },
           {
             "assists": 3,
-            "battle_id": "1783678278_1222656528_5",
             "bo": 3,
             "deaths": 2,
             "game_duration": 960,
@@ -455,7 +444,6 @@
           },
           {
             "assists": 2,
-            "battle_id": "1783680334_1222656528_6",
             "bo": 4,
             "deaths": 2,
             "game_duration": 815,
@@ -468,7 +456,6 @@
           },
           {
             "assists": 0,
-            "battle_id": "1783681838_1222656528_7",
             "bo": 5,
             "deaths": 1,
             "game_duration": 906,
@@ -496,7 +483,6 @@
         "battles_by_bo": [
           {
             "assists": 5,
-            "battle_id": "1783155753_48251408_36",
             "bo": 1,
             "deaths": 0,
             "game_duration": 797,
@@ -509,7 +495,6 @@
           },
           {
             "assists": 7,
-            "battle_id": "1783157545_48251408_37",
             "bo": 2,
             "deaths": 1,
             "game_duration": 1260,
@@ -522,7 +507,6 @@
           },
           {
             "assists": 6,
-            "battle_id": "1783159888_48251408_38",
             "bo": 3,
             "deaths": 0,
             "game_duration": 916,
@@ -550,7 +534,6 @@
         "battles_by_bo": [
           {
             "assists": 5,
-            "battle_id": "1782552326_48251408_62",
             "bo": 1,
             "deaths": 2,
             "game_duration": 877,
@@ -563,7 +546,6 @@
           },
           {
             "assists": 0,
-            "battle_id": "1782554190_48251408_63",
             "bo": 2,
             "deaths": 0,
             "game_duration": 694,
@@ -576,7 +558,6 @@
           },
           {
             "assists": 3,
-            "battle_id": "1782555798_48251408_64",
             "bo": 3,
             "deaths": 0,
             "game_duration": 853,
@@ -589,7 +570,6 @@
           },
           {
             "assists": 12,
-            "battle_id": "1782557619_48251408_65",
             "bo": 4,
             "deaths": 1,
             "game_duration": 1371,
@@ -617,7 +597,6 @@
         "battles_by_bo": [
           {
             "assists": 7,
-            "battle_id": "1782304526_48251408_44",
             "bo": 1,
             "deaths": 0,
             "game_duration": 727,
@@ -630,7 +609,6 @@
           },
           {
             "assists": 9,
-            "battle_id": "1782306090_48251408_45",
             "bo": 2,
             "deaths": 1,
             "game_duration": 1000,
@@ -643,7 +621,6 @@
           },
           {
             "assists": 2,
-            "battle_id": "1782308064_48251408_46",
             "bo": 3,
             "deaths": 0,
             "game_duration": 922,
@@ -671,7 +648,6 @@
         "battles_by_bo": [
           {
             "assists": 9,
-            "battle_id": "1781870619_501236240_5",
             "bo": 1,
             "deaths": 0,
             "game_duration": 1104,
@@ -684,7 +660,6 @@
           },
           {
             "assists": 0,
-            "battle_id": "1781872932_501236240_6",
             "bo": 2,
             "deaths": 0,
             "game_duration": 726,
@@ -697,7 +672,6 @@
           },
           {
             "assists": 1,
-            "battle_id": "1781874729_501236240_7",
             "bo": 3,
             "deaths": 2,
             "game_duration": 1038,
@@ -710,7 +684,6 @@
           },
           {
             "assists": 3,
-            "battle_id": "1781877183_501236240_8",
             "bo": 4,
             "deaths": 2,
             "game_duration": 1330,
@@ -738,7 +711,6 @@
         "battles_by_bo": [
           {
             "assists": 10,
-            "battle_id": "1781697613_970998288_4",
             "bo": 1,
             "deaths": 1,
             "game_duration": 1413,
@@ -751,7 +723,6 @@
           },
           {
             "assists": 2,
-            "battle_id": "1781700291_970998288_5",
             "bo": 2,
             "deaths": 0,
             "game_duration": 974,
@@ -764,7 +735,6 @@
           },
           {
             "assists": 11,
-            "battle_id": "1781702365_970998288_6",
             "bo": 3,
             "deaths": 2,
             "game_duration": 1385,
@@ -792,7 +762,6 @@
         "battles_by_bo": [
           {
             "assists": 0,
-            "battle_id": "1777089898_736117264_10",
             "bo": 1,
             "deaths": 2,
             "game_duration": 835,
@@ -805,7 +774,6 @@
           },
           {
             "assists": 1,
-            "battle_id": "1777091838_736117264_11",
             "bo": 2,
             "deaths": 2,
             "game_duration": 740,
@@ -818,7 +786,6 @@
           },
           {
             "assists": 3,
-            "battle_id": "1777093747_736117264_12",
             "bo": 3,
             "deaths": 2,
             "game_duration": 879,
@@ -831,7 +798,6 @@
           },
           {
             "assists": 4,
-            "battle_id": "1777095778_736117264_13",
             "bo": 4,
             "deaths": 3,
             "game_duration": 1299,
@@ -859,7 +825,6 @@
         "battles_by_bo": [
           {
             "assists": 5,
-            "battle_id": "1775902337_1054884368_32",
             "bo": 1,
             "deaths": 0,
             "game_duration": 736,
@@ -872,7 +837,6 @@
           },
           {
             "assists": 3,
-            "battle_id": "1775904454_1054884368_33",
             "bo": 2,
             "deaths": 3,
             "game_duration": 935,
@@ -885,7 +849,6 @@
           },
           {
             "assists": 9,
-            "battle_id": "1775906562_1054884368_34",
             "bo": 3,
             "deaths": 1,
             "game_duration": 1187,
@@ -898,7 +861,6 @@
           },
           {
             "assists": 6,
-            "battle_id": "1775909699_1054884368_35",
             "bo": 4,
             "deaths": 0,
             "game_duration": 1130,

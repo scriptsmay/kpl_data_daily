@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-19T04:32:59+00:00",
-  "build_id": "20260719T043259+0000",
+  "generated_at": "2026-07-20T04:49:35+00:00",
+  "build_id": "20260720T044935+0000",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 72.73,
@@ -182,7 +182,7 @@
       "damage_10min_per_minute": 2295.0,
       "damage_per_minute": 3985.0,
       "damage_taken_per_minute": 5235.0,
-      "data_version": "v20260718_234613",
+      "data_version": "v20260719_233719",
       "economy_10min_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -324,17 +324,17 @@
       "economy_10min_per_minute": 661.0,
       "gold_per_minute": 705.0,
       "heroes_used": [
-        "夏洛特",
-        "马超",
-        "司空震",
-        "蒙恬",
         "达摩",
+        "马超",
+        "夏洛特",
+        "曹操",
+        "司空震",
         "关羽",
         "狂铁",
-        "曹操"
+        "蒙恬"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-07-18 15:46:13",
+      "last_updated": "2026-07-19 15:37:19",
       "match_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -705,7 +705,7 @@
       "damage_10min_per_minute": 1680.0,
       "damage_per_minute": 3053.0,
       "damage_taken_per_minute": 5531.0,
-      "data_version": "v20260718_234616",
+      "data_version": "v20260719_233722",
       "economy_10min_details": [
         {
           "battle_id": "1781872932_501236240_6",
@@ -815,17 +815,17 @@
       "economy_10min_per_minute": 647.0,
       "gold_per_minute": 623.0,
       "heroes_used": [
-        "夏洛特",
         "马超",
-        "白起",
-        "项羽",
-        "关羽",
+        "夏洛特",
+        "曹操",
         "司空震",
+        "关羽",
+        "项羽",
         "狂铁",
-        "曹操"
+        "白起"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-07-18 15:46:17",
+      "last_updated": "2026-07-19 15:37:24",
       "lose_matches": 13.0,
       "match_details": [
         {
@@ -1200,7 +1200,7 @@
           "damage_10min_per_minute": 2295.0,
           "damage_per_minute": 3985.0,
           "damage_taken_per_minute": 5235.0,
-          "data_version": "v20260718_234613",
+          "data_version": "v20260719_233719",
           "economy_10min_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -1342,17 +1342,17 @@
           "economy_10min_per_minute": 661.0,
           "gold_per_minute": 705.0,
           "heroes_used": [
-            "夏洛特",
-            "马超",
-            "司空震",
-            "蒙恬",
             "达摩",
+            "马超",
+            "夏洛特",
+            "曹操",
+            "司空震",
             "关羽",
             "狂铁",
-            "曹操"
+            "蒙恬"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-07-18 15:46:13",
+          "last_updated": "2026-07-19 15:37:19",
           "match_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -1593,9 +1593,9 @@
       },
       "position_avg_economy": {
         "中路": 5544.0,
-        "发育路": 7302.0,
+        "发育路": 7301.0,
         "对抗路": 6799.0,
-        "打野": 7126.0,
+        "打野": 7124.0,
         "游走": 4435.0
       },
       "total_players": 105
@@ -1744,7 +1744,7 @@
           "damage_10min_per_minute": 1680.0,
           "damage_per_minute": 3053.0,
           "damage_taken_per_minute": 5531.0,
-          "data_version": "v20260718_234616",
+          "data_version": "v20260719_233722",
           "economy_10min_details": [
             {
               "battle_id": "1781872932_501236240_6",
@@ -1854,17 +1854,17 @@
           "economy_10min_per_minute": 647.0,
           "gold_per_minute": 623.0,
           "heroes_used": [
-            "夏洛特",
             "马超",
-            "白起",
-            "项羽",
-            "关羽",
+            "夏洛特",
+            "曹操",
             "司空震",
+            "关羽",
+            "项羽",
             "狂铁",
-            "曹操"
+            "白起"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-07-18 15:46:17",
+          "last_updated": "2026-07-19 15:37:24",
           "lose_matches": 13.0,
           "match_details": [
             {

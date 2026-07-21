@@ -1,27 +1,25 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-20T04:49:35+00:00",
-  "build_id": "20260720T044935+0000",
+  "generated_at": "2026-07-21T04:28:40+00:00",
+  "build_id": "20260721T042840+0000",
   "data": {
-    "snapshots_available": 156,
-    "reference_date": "20260720",
+    "snapshots_available": 159,
+    "reference_date": "20260721",
     "trends": {
       "hero_pool": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20260717 ~ 20260720",
-          "hero_count_delta": 1,
+          "date_range": "20260718 ~ 20260721",
+          "hero_count_delta": 0,
           "hero_count_latest": 10,
-          "hero_count_oldest": 9,
-          "new_heroes": [
-            "项羽"
-          ],
+          "hero_count_oldest": 10,
+          "new_heroes": [],
           "dropped_heroes": []
         },
         "7d": {
           "snapshots": 7,
-          "date_range": "20260713 ~ 20260720",
+          "date_range": "20260715 ~ 20260721",
           "hero_count_delta": 1,
           "hero_count_latest": 10,
           "hero_count_oldest": 9,
@@ -32,7 +30,7 @@
         },
         "14d": {
           "snapshots": 14,
-          "date_range": "20260706 ~ 20260720",
+          "date_range": "20260707 ~ 20260721",
           "hero_count_delta": 2,
           "hero_count_latest": 10,
           "hero_count_oldest": 8,
@@ -44,7 +42,7 @@
         },
         "30d": {
           "snapshots": 30,
-          "date_range": "20260620 ~ 20260720",
+          "date_range": "20260621 ~ 20260721",
           "hero_count_delta": 5,
           "hero_count_latest": 10,
           "hero_count_oldest": 5,
@@ -60,6 +58,30 @@
       },
       "abilities": {
         "3d": {
+          "snapshots": 2,
+          "date_range": "20260718 ~ 20260719",
+          "deltas": {
+            "damage_output": 0.0,
+            "teamfight": 0.0,
+            "initiation": 0.0,
+            "early_game": 0.0,
+            "mid_game": 0.0,
+            "late_game": 0.0,
+            "map_control": 0.0,
+            "invasion_ability": 0.0,
+            "support_ability": 0.0,
+            "economy": 0.0,
+            "tankiness": 0.0,
+            "durability": 0.0
+          },
+          "biggest_gain": {
+            "damage_output": 0.0
+          },
+          "biggest_drop": {
+            "damage_output": 0.0
+          }
+        },
+        "7d": {
           "snapshots": 3,
           "date_range": "20260717 ~ 20260719",
           "deltas": {
@@ -83,33 +105,9 @@
             "late_game": -5.0
           }
         },
-        "7d": {
-          "snapshots": 4,
-          "date_range": "20260713 ~ 20260719",
-          "deltas": {
-            "damage_output": 1.0,
-            "teamfight": -2.0,
-            "initiation": 0.0,
-            "early_game": 2.0,
-            "mid_game": 1.0,
-            "late_game": -5.0,
-            "map_control": 1.0,
-            "invasion_ability": -2.0,
-            "support_ability": -2.0,
-            "economy": -1.0,
-            "tankiness": 0.0,
-            "durability": -5.0
-          },
-          "biggest_gain": {
-            "early_game": 2.0
-          },
-          "biggest_drop": {
-            "late_game": -5.0
-          }
-        },
         "14d": {
-          "snapshots": 11,
-          "date_range": "20260706 ~ 20260719",
+          "snapshots": 10,
+          "date_range": "20260707 ~ 20260719",
           "deltas": {
             "damage_output": -6.0,
             "teamfight": -10.0,
@@ -132,8 +130,8 @@
           }
         },
         "30d": {
-          "snapshots": 27,
-          "date_range": "20260620 ~ 20260719",
+          "snapshots": 26,
+          "date_range": "20260621 ~ 20260719",
           "deltas": {
             "damage_output": -3.0,
             "teamfight": -1.0,
@@ -158,6 +156,42 @@
       },
       "ranking": {
         "3d": {
+          "snapshots": 2,
+          "date_range": "20260718 ~ 20260719",
+          "deltas": {
+            "damage_per_minute": {
+              "abs": 0.0,
+              "pct": 0.0
+            },
+            "damage_taken_per_minute": {
+              "abs": 0.0,
+              "pct": 0.0
+            },
+            "economy_per_minute": {
+              "abs": 0.0,
+              "pct": 0.0
+            },
+            "avg_kill_participation": {
+              "abs": 0.0,
+              "pct": 0.0
+            },
+            "damage_share": {
+              "abs": 0.0,
+              "pct": 0.0
+            },
+            "damage_taken_share": {
+              "abs": 0.0,
+              "pct": 0.0
+            }
+          },
+          "biggest_rise": {
+            "damage_per_minute": 0.0
+          },
+          "biggest_drop": {
+            "damage_per_minute": 0.0
+          }
+        },
+        "7d": {
           "snapshots": 3,
           "date_range": "20260717 ~ 20260719",
           "deltas": {
@@ -193,45 +227,9 @@
             "economy_per_minute": -5.0
           }
         },
-        "7d": {
-          "snapshots": 4,
-          "date_range": "20260713 ~ 20260719",
-          "deltas": {
-            "damage_per_minute": {
-              "abs": 0.0,
-              "pct": 0.0
-            },
-            "damage_taken_per_minute": {
-              "abs": 188.0,
-              "pct": 3.6
-            },
-            "economy_per_minute": {
-              "abs": -5.0,
-              "pct": -0.7
-            },
-            "avg_kill_participation": {
-              "abs": 0.9,
-              "pct": 1.4
-            },
-            "damage_share": {
-              "abs": 0.3,
-              "pct": 1.8
-            },
-            "damage_taken_share": {
-              "abs": 0.5,
-              "pct": 2.1
-            }
-          },
-          "biggest_rise": {
-            "damage_taken_per_minute": 188.0
-          },
-          "biggest_drop": {
-            "economy_per_minute": -5.0
-          }
-        },
         "14d": {
-          "snapshots": 11,
-          "date_range": "20260706 ~ 20260719",
+          "snapshots": 10,
+          "date_range": "20260707 ~ 20260719",
           "deltas": {
             "damage_per_minute": {
               "abs": -379.0,
@@ -266,8 +264,8 @@
           }
         },
         "30d": {
-          "snapshots": 27,
-          "date_range": "20260620 ~ 20260719",
+          "snapshots": 26,
+          "date_range": "20260621 ~ 20260719",
           "deltas": {
             "damage_per_minute": {
               "abs": -431.0,

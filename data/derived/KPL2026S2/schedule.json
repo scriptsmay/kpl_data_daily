@@ -127,7 +127,9 @@
       "location": "杭州",
       "stage": "常规赛第二轮",
       "bo": 5,
-      "status": 1
+      "status": 4,
+      "score_a": 1,
+      "score_b": 3
     },
     {
       "schedule_id": "KPL2026S2M6W5D2",
@@ -142,6 +144,6 @@
       "status": 1
     }
   ],
-  "updated_at": "2026-07-22T07:53:51.669403+00:00",
+  "updated_at": "2026-07-23T07:55:56.313849+00:00",
   "source_status": "ok"
 }

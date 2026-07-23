@@ -117,37 +117,41 @@ jobs:
           git commit -m "chore: auto fetch kpl data $(date +%Y%m%d) [skip ci]"
           git push
 
-      - name: Sync data to CloudBase cloud storage
+      - name: Push overview data to cheer-service
         if: inputs.dry_run != 'true'
         continue-on-error: true
         env:
-          TCB_SECRET_ID: ${{ secrets.TCB_SECRET_ID }}
-          TCB_SECRET_KEY: ${{ secrets.TCB_SECRET_KEY }}
-          TCB_ENV_ID: ${{ secrets.TCB_ENV_ID }}
+          CHEER_API_URL: ${{ secrets.CHEER_API_URL }}
+          CHEER_SYNC_KEY: ${{ secrets.CHEER_SYNC_KEY }}
         run: |
-          echo "::group::Syncing to CloudBase ($TCB_ENV_ID)"
-          npm install -g @cloudbase/cli
-          tcb login --apiKeyId "$TCB_SECRET_ID" --apiKey "$TCB_SECRET_KEY"
+          echo "::group::Pushing overview to cheer-service"
           SEASON=$(python3 -c "import json; print(json.load(open('data/latest/current-season.json'))['current'])")
-          echo "Current season: $SEASON"
-          # Entry files
-          tcb storage upload data/latest/current-season.json \
-            data/latest/current-season.json -e "$TCB_ENV_ID"
-          tcb storage upload data/latest/seasons-list.json \
-            data/latest/seasons-list.json -e "$TCB_ENV_ID"
-          # Derived data
-          for f in overview heroes win-lose ranking abilities insights; do
-            FILE="data/derived/$SEASON/$f.json"
-            if [ -f "$FILE" ]; then
-              tcb storage upload "$FILE" \
-                "data/derived/$SEASON/$f.json" -e "$TCB_ENV_ID"
-              echo "  ✅ $f"
-            else
-              echo "  ⚠️ $FILE not found, skipped"
-            fi
-          done
+          OVERVIEW_FILE="data/derived/$SEASON/overview.json"
+          if [ ! -f "$OVERVIEW_FILE" ]; then
+            echo "::warning::overview.json not found at $OVERVIEW_FILE, skipping"
+            exit 0
+          fi
+          # Build JSON payload: { season, overview }
+          python3 -c "
+          import json, sys
+          season = '$SEASON'
+          overview = json.load(open('$OVERVIEW_FILE'))
+          payload = json.dumps({'season': season, 'overview': overview})
+          sys.stdout.write(payload)
+          " > /tmp/sync_payload.json
+          RESPONSE=$(curl -s -w "\\n%{http_code}" -X POST "$CHEER_API_URL/api/admin/sync/overview" \
+            -H "Content-Type: application/json" \
+            -H "x-sync-key: $CHEER_SYNC_KEY" \
+            -d @/tmp/sync_payload.json)
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | sed '$d')
+          echo "HTTP $HTTP_CODE: $BODY"
+          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
+            echo "✅ Overview pushed successfully"
+          else
+            echo "::warning::Push returned HTTP $HTTP_CODE"
+          fi
           echo "::endgroup::"
-          echo "✅ CloudBase sync complete"
 
       - name: Report status
         if: always()

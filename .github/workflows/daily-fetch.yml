@@ -60,6 +60,34 @@ jobs:
           fi
           echo "fetch_result=$?" >> $GITHUB_OUTPUT
 
+      - name: Fetch KPL schedule
+        id: schedule-fetch
+        continue-on-error: true
+        run: |
+          echo "::group::Fetching KPL schedule"
+          python scripts/fetch-schedule.py
+          echo "::endgroup::"
+
+      - name: Verify schedule file
+        id: schedule-verify
+        if: steps.schedule-fetch.outcome == 'success'
+        continue-on-error: true
+        run: |
+          SEASON=$(python3 -c "import json; print(json.load(open('data/latest/current-season.json'))['current'])")
+          FILE="data/derived/$SEASON/schedule.json"
+          if [ ! -f "$FILE" ]; then
+            echo "::warning::schedule.json not found at $FILE"
+            exit 0
+          fi
+          MATCH_COUNT=$(python3 -c "import json; print(len(json.load(open('$FILE'))['matches']))")
+          if [ "$MATCH_COUNT" -eq 0 ]; then
+            echo "::warning::schedule.json has 0 matches, skipping push"
+            exit 0
+          fi
+          echo "season=$SEASON" >> $GITHUB_OUTPUT
+          echo "match_count=$MATCH_COUNT" >> $GITHUB_OUTPUT
+          echo "✅ schedule.json verified: $MATCH_COUNT matches"
+
       - name: Backfill missing historical seasons
         if: inputs.publish_historical != 'true'
         continue-on-error: true
@@ -148,6 +176,37 @@ jobs:
           echo "HTTP $HTTP_CODE: $BODY"
           if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
             echo "✅ Overview pushed successfully"
+          else
+            echo "::warning::Push returned HTTP $HTTP_CODE"
+          fi
+          echo "::endgroup::"
+
+      - name: Push schedule data to cheer-service
+        if: steps.schedule-verify.outcome == 'success'
+        continue-on-error: true
+        env:
+          CHEER_API_URL: ${{ secrets.CHEER_API_URL }}
+          CHEER_SYNC_KEY: ${{ secrets.CHEER_SYNC_KEY }}
+        run: |
+          echo "::group::Pushing schedule to cheer-service"
+          SEASON="${{ steps.schedule-verify.outputs.season }}"
+          FILE="data/derived/$SEASON/schedule.json"
+          python3 -c "
+          import json, sys
+          season = '$SEASON'
+          schedule = json.load(open('$FILE'))
+          payload = json.dumps({'season': season, 'schedule': schedule})
+          sys.stdout.write(payload)
+          " > /tmp/schedule_payload.json
+          RESPONSE=$(curl -s -w "\\n%{http_code}" -X POST "$CHEER_API_URL/api/admin/sync/schedule" \
+            -H "Content-Type: application/json" \
+            -H "x-sync-key: $CHEER_SYNC_KEY" \
+            -d @/tmp/schedule_payload.json)
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | sed '$d')
+          echo "HTTP $HTTP_CODE: $BODY"
+          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
+            echo "✅ Schedule pushed successfully"
           else
             echo "::warning::Push returned HTTP $HTTP_CODE"
           fi

@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-22T04:31:12+00:00",
-  "build_id": "20260722T043112+0000",
+  "generated_at": "2026-07-23T04:30:11+00:00",
+  "build_id": "20260723T043011+0000",
   "data": {
     "summary": [
       {
         "hero_id": "503",
         "hero_name": "狂铁",
         "player_name": "KSG.无言",
-        "total_matches": 5,
-        "win_matches": 4,
-        "win_rate": "80%",
+        "total_matches": 6,
+        "win_matches": 5,
+        "win_rate": "83%",
         "maturity": "core",
         "historical_usage": {
           "prior_seasons": 3,
@@ -35,13 +35,26 @@
         "hero_id": "536",
         "hero_name": "夏洛特",
         "player_name": "KSG.无言",
+        "total_matches": 5,
+        "win_matches": 3,
+        "win_rate": "60%",
+        "maturity": "core",
+        "historical_usage": {
+          "prior_seasons": 3,
+          "prior_matches": 24
+        }
+      },
+      {
+        "hero_id": "518",
+        "hero_name": "马超",
+        "player_name": "KSG.无言",
         "total_matches": 4,
         "win_matches": 3,
         "win_rate": "75%",
         "maturity": "rotation",
         "historical_usage": {
           "prior_seasons": 3,
-          "prior_matches": 24
+          "prior_matches": 14
         }
       },
       {
@@ -58,19 +71,6 @@
         }
       },
       {
-        "hero_id": "518",
-        "hero_name": "马超",
-        "player_name": "KSG.无言",
-        "total_matches": 3,
-        "win_matches": 2,
-        "win_rate": "66%",
-        "maturity": "rotation",
-        "historical_usage": {
-          "prior_seasons": 3,
-          "prior_matches": 14
-        }
-      },
-      {
         "hero_id": "128",
         "hero_name": "曹操",
         "player_name": "KSG.无言",
@@ -82,6 +82,15 @@
           "prior_seasons": 3,
           "prior_matches": 7
         }
+      },
+      {
+        "hero_id": "507",
+        "hero_name": "李信",
+        "player_name": "KSG.无言",
+        "total_matches": 1,
+        "win_matches": 1,
+        "win_rate": "100%",
+        "maturity": "trial"
       },
       {
         "hero_id": "527",

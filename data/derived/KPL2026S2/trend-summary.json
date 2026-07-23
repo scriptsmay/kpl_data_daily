@@ -1,40 +1,44 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-22T04:31:12+00:00",
-  "build_id": "20260722T043112+0000",
+  "generated_at": "2026-07-23T04:30:11+00:00",
+  "build_id": "20260723T043011+0000",
   "data": {
-    "snapshots_available": 162,
-    "reference_date": "20260722",
+    "snapshots_available": 165,
+    "reference_date": "20260723",
     "trends": {
       "hero_pool": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20260719 ~ 20260722",
-          "hero_count_delta": 0,
-          "hero_count_latest": 10,
+          "date_range": "20260720 ~ 20260723",
+          "hero_count_delta": 1,
+          "hero_count_latest": 11,
           "hero_count_oldest": 10,
-          "new_heroes": [],
+          "new_heroes": [
+            "李信"
+          ],
           "dropped_heroes": []
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20260715 ~ 20260722",
-          "hero_count_delta": 1,
-          "hero_count_latest": 10,
+          "date_range": "20260716 ~ 20260723",
+          "hero_count_delta": 2,
+          "hero_count_latest": 11,
           "hero_count_oldest": 9,
           "new_heroes": [
+            "李信",
             "项羽"
           ],
           "dropped_heroes": []
         },
         "14d": {
           "snapshots": 14,
-          "date_range": "20260708 ~ 20260722",
-          "hero_count_delta": 2,
-          "hero_count_latest": 10,
+          "date_range": "20260709 ~ 20260723",
+          "hero_count_delta": 3,
+          "hero_count_latest": 11,
           "hero_count_oldest": 8,
           "new_heroes": [
+            "李信",
             "白起",
             "项羽"
           ],
@@ -42,12 +46,13 @@
         },
         "30d": {
           "snapshots": 30,
-          "date_range": "20260622 ~ 20260722",
-          "hero_count_delta": 5,
-          "hero_count_latest": 10,
+          "date_range": "20260623 ~ 20260723",
+          "hero_count_delta": 6,
+          "hero_count_latest": 11,
           "hero_count_oldest": 5,
           "new_heroes": [
             "司空震",
+            "李信",
             "白起",
             "蒙恬",
             "达摩",
@@ -58,7 +63,7 @@
       },
       "abilities": {
         "3d": {
-          "snapshots": 1
+          "snapshots": 0
         },
         "7d": {
           "snapshots": 3,
@@ -85,8 +90,8 @@
           }
         },
         "14d": {
-          "snapshots": 9,
-          "date_range": "20260708 ~ 20260719",
+          "snapshots": 8,
+          "date_range": "20260709 ~ 20260719",
           "deltas": {
             "damage_output": -6.0,
             "teamfight": -10.0,
@@ -109,8 +114,8 @@
           }
         },
         "30d": {
-          "snapshots": 25,
-          "date_range": "20260622 ~ 20260719",
+          "snapshots": 24,
+          "date_range": "20260623 ~ 20260719",
           "deltas": {
             "damage_output": -3.0,
             "teamfight": -1.0,
@@ -135,7 +140,7 @@
       },
       "ranking": {
         "3d": {
-          "snapshots": 1
+          "snapshots": 0
         },
         "7d": {
           "snapshots": 3,
@@ -174,8 +179,8 @@
           }
         },
         "14d": {
-          "snapshots": 9,
-          "date_range": "20260708 ~ 20260719",
+          "snapshots": 8,
+          "date_range": "20260709 ~ 20260719",
           "deltas": {
             "damage_per_minute": {
               "abs": -379.0,
@@ -210,8 +215,8 @@
           }
         },
         "30d": {
-          "snapshots": 25,
-          "date_range": "20260622 ~ 20260719",
+          "snapshots": 24,
+          "date_range": "20260623 ~ 20260719",
           "deltas": {
             "damage_per_minute": {
               "abs": -431.0,

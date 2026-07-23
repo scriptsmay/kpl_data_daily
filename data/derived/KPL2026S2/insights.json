@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-22T04:31:12+00:00",
-  "build_id": "20260722T043112+0000",
+  "generated_at": "2026-07-23T04:30:11+00:00",
+  "build_id": "20260723T043011+0000",
   "data": {
-    "headline": "无言本赛季 30 局，使用 10 个英雄",
-    "summary": "生涯累计 144 局。本赛季英雄池覆盖 10 个英雄，能力评分 91.86。",
+    "headline": "无言本赛季 30 局，使用 11 个英雄",
+    "summary": "生涯累计 144 局。本赛季英雄池覆盖 11 个英雄，能力评分 91.86。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
         "id": "hero_pool",
         "title": "英雄池成熟度",
-        "summary": "当前样本中英雄池覆盖 10 个英雄，英雄使用相对分散。",
+        "summary": "当前样本中英雄池覆盖 11 个英雄，英雄使用相对分散。",
         "conclusion_type": "fact",
         "confidence": "high",
         "sample_size": 30,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季使用 10 个英雄，共 30 局",
-          "核心层级英雄 3 个",
-          "轮换层级英雄 3 个",
-          "尝试层级英雄 4 个",
+          "本赛季使用 11 个英雄，共 30 局",
+          "核心层级英雄 4 个",
+          "轮换层级英雄 2 个",
+          "尝试层级英雄 5 个",
           "英雄使用较为分散（HHI=0.13）"
         ],
         "risk_notes": []
@@ -29,14 +29,14 @@
       {
         "id": "growth_path",
         "title": "成长路径观察",
-        "summary": "本赛季 30 局，使用 10 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+        "summary": "本赛季 30 局，使用 11 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
         "conclusion_type": "signal",
         "confidence": "high",
         "sample_size": 30,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季 30 局，使用 10 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+          "本赛季 30 局，使用 11 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
           "已记录 17 个成长节点",
           "已出现 11 个能力信号",
           "正在观察 1 个能力维度"
@@ -90,8 +90,8 @@
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "胜局平均 KDA: 9.43",
-          "败局平均 KDA: 1.63",
+          "胜局平均 KDA: 9.94",
+          "败局平均 KDA: 1.47",
           "败局低位指标：KDA 偏低、分均伤害偏低、场均死亡偏高"
         ],
         "risk_notes": []

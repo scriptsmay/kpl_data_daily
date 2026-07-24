@@ -1,9 +1,9 @@
 name: Daily KPL Data Fetch
 
 on:
-  schedule:
-    # UTC 时间 00:00 (北京时间 08:00)
-    - cron: '16 1 * * *'
+  # schedule:
+  #   # UTC 时间 00:00 (北京时间 08:00)
+  #   - cron: '16 1 * * *'
   workflow_dispatch:
     inputs:
       season:
@@ -144,73 +144,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git commit -m "chore: auto fetch kpl data $(date +%Y%m%d) [skip ci]"
           git push
-
-      - name: Push overview data to cheer-service
-        if: inputs.dry_run != 'true'
-        continue-on-error: true
-        env:
-          CHEER_API_URL: ${{ secrets.CHEER_API_URL }}
-          CHEER_SYNC_KEY: ${{ secrets.CHEER_SYNC_KEY }}
-        run: |
-          echo "::group::Pushing overview to cheer-service"
-          SEASON=$(python3 -c "import json; print(json.load(open('data/latest/current-season.json'))['current'])")
-          OVERVIEW_FILE="data/derived/$SEASON/overview.json"
-          if [ ! -f "$OVERVIEW_FILE" ]; then
-            echo "::warning::overview.json not found at $OVERVIEW_FILE, skipping"
-            exit 0
-          fi
-          # Build JSON payload: { season, overview }
-          python3 -c "
-          import json, sys
-          season = '$SEASON'
-          overview = json.load(open('$OVERVIEW_FILE'))
-          payload = json.dumps({'season': season, 'overview': overview})
-          sys.stdout.write(payload)
-          " > /tmp/sync_payload.json
-          RESPONSE=$(curl -s -w "\\n%{http_code}" -X POST "$CHEER_API_URL/api/admin/sync/overview" \
-            -H "Content-Type: application/json" \
-            -H "x-sync-key: $CHEER_SYNC_KEY" \
-            -d @/tmp/sync_payload.json)
-          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
-          BODY=$(echo "$RESPONSE" | sed '$d')
-          echo "HTTP $HTTP_CODE: $BODY"
-          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
-            echo "✅ Overview pushed successfully"
-          else
-            echo "::warning::Push returned HTTP $HTTP_CODE"
-          fi
-          echo "::endgroup::"
-
-      - name: Push schedule data to cheer-service
-        if: steps.schedule-verify.outcome == 'success'
-        continue-on-error: true
-        env:
-          CHEER_API_URL: ${{ secrets.CHEER_API_URL }}
-          CHEER_SYNC_KEY: ${{ secrets.CHEER_SYNC_KEY }}
-        run: |
-          echo "::group::Pushing schedule to cheer-service"
-          SEASON="${{ steps.schedule-verify.outputs.season }}"
-          FILE="data/derived/$SEASON/schedule.json"
-          python3 -c "
-          import json, sys
-          season = '$SEASON'
-          schedule = json.load(open('$FILE'))
-          payload = json.dumps({'season': season, 'schedule': schedule})
-          sys.stdout.write(payload)
-          " > /tmp/schedule_payload.json
-          RESPONSE=$(curl -s -w "\\n%{http_code}" -X POST "$CHEER_API_URL/api/admin/sync/schedule" \
-            -H "Content-Type: application/json" \
-            -H "x-sync-key: $CHEER_SYNC_KEY" \
-            -d @/tmp/schedule_payload.json)
-          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
-          BODY=$(echo "$RESPONSE" | sed '$d')
-          echo "HTTP $HTTP_CODE: $BODY"
-          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
-            echo "✅ Schedule pushed successfully"
-          else
-            echo "::warning::Push returned HTTP $HTTP_CODE"
-          fi
-          echo "::endgroup::"
 
       - name: Report status
         if: always()

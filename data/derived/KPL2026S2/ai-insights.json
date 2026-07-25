@@ -1,117 +1,115 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-24T04:28:02+00:00",
-  "build_id": "20260724T042802+0000",
-  "ai_elapsed_seconds": 81.46,
-  "ai_model": "qwen3.7-max-2026-06-08",
+  "generated_at": "2026-07-25T05:53:38+00:00",
+  "build_id": "20260725T055338+0000",
+  "ai_elapsed_seconds": 11.05,
+  "ai_model": "deepseek-v4-flash:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "ae4f428835c087d8bf3cb121997956697bcd5d953c5b8bd5e50d7cd268153103",
+  "input_hash": "b4204028fb47dc99792e445e897563753a8b510576dfc3b1aae99cc93c09b1a9",
   "data": {
-    "headline": "无言本赛季英雄池覆盖11个英雄，开团与坦度能力评分均达100分，但伤害输出维度低于同位置均值值得关注",
-    "summary": "无言在KPL2026S2赛季已出场30局，使用11个英雄，处于稳定轮换期。能力评分91.86排名对抗路第2，开团和坦度表现突出，但伤害输出和经济获取维度存在观察空间。",
+    "headline": "无言本赛季 30 局，使用 11 个英雄",
+    "summary": "生涯累计 144 局。本赛季英雄池覆盖 11 个英雄，能力评分 91.86。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
         "id": "hero_pool",
-        "title": "英雄池结构",
-        "summary": "本赛季英雄池覆盖11个英雄，集中度HHI为0.1280，使用相对分散，核心英雄4个、轮换2个、尝试5个。",
+        "title": "英雄池成熟度",
+        "summary": "当前样本中英雄池覆盖 11 个英雄，英雄使用相对分散。",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 11,
-        "sample_unit": "heroes",
+        "sample_size": 30,
+        "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季英雄总数11个，总出场局数34局",
-          "集中度HHI为0.1280",
-          "成熟度分布：核心4个、轮换2个、尝试5个",
-          "狂铁出场6局（胜率83.0%）、关羽5局（胜率60.0%）、夏洛特5局（胜率60.0%）、司空震5局（胜率40.0%）为核心英雄"
+          "本赛季使用 11 个英雄，共 30 局",
+          "核心层级英雄 4 个",
+          "轮换层级英雄 2 个",
+          "尝试层级英雄 5 个",
+          "英雄使用较为分散（HHI=0.13）"
         ],
         "risk_notes": []
       },
       {
         "id": "growth_path",
         "title": "成长路径观察",
-        "summary": "近30天内英雄池新增6个英雄，显示队伍在持续拓展其英雄选择范围，生涯已累计144局和20次MVP。",
+        "summary": "本赛季 30 局，使用 11 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
         "conclusion_type": "signal",
-        "confidence": "medium",
+        "confidence": "high",
         "sample_size": 30,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "近30天英雄数量变化+6，新增英雄：司空震、李信、白起、蒙恬、达摩、项羽",
-          "生涯累计144局，生涯累计20次MVP",
-          "本赛季已形成相对稳定的出场节奏和英雄池结构"
+          "本赛季 30 局，使用 11 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+          "已记录 17 个成长节点",
+          "已出现 11 个能力信号",
+          "正在观察 1 个能力维度"
         ],
         "risk_notes": [
-          "新增英雄中多数为尝试样本（出场1局），尚需更多比赛验证其在这些英雄上的稳定性"
+          "胜率不单独作为评价依据"
         ]
       },
       {
         "id": "abilities",
-        "title": "能力画像分析",
-        "summary": "开团和坦度评分均达100分，11个维度高于同位置均值，但伤害输出（78.0分）低于同位置均值，生存维度（61.0分）也偏低。",
-        "conclusion_type": "signal",
+        "title": "能力信号",
+        "summary": "当前能力评分 91.86，位置排名第 2。",
+        "conclusion_type": "hypothesis",
         "confidence": "high",
         "sample_size": 30,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "综合评分91.86，位置排名第2（对抗路）",
-          "开团100.0分、坦度100.0分、入侵93.0分、中期92.0分、后期91.0分",
-          "高于同位置均值维度11个，低于同位置均值维度1个",
-          "伤害输出78.0分，生存61.0分"
+          "位置排名：第 2 名",
+          "总排名：第 7 名",
+          "高于同位置均值维度：11 个",
+          "低于同位置均值维度：1 个"
         ],
-        "risk_notes": [
-          "能力维度durability在14天内下降18.0分，能力维度economy在30天内下降18.0分，需结合后续比赛观察是否为持续趋势"
-        ]
-      },
-      {
-        "id": "win_lose",
-        "title": "胜负过程差异",
-        "summary": "胜局与败局在KDA、分均伤害和场均经济上差异明显，败局中死亡次数偏高，承伤水平则基本持平。",
-        "conclusion_type": "signal",
-        "confidence": "high",
-        "sample_size": 30,
-        "sample_unit": "games",
-        "sample_scope": "current_season",
-        "evidence": [
-          "胜局KDA 9.94，败局KDA 1.47",
-          "胜局分均伤害4099.0，败局分均伤害2977.0",
-          "胜局场均经济12047.0，败局场均经济10417.0",
-          "胜局场均死亡0.8，败局场均死亡2.14",
-          "胜局分均承伤5430.0，败局分均承伤5431.0"
-        ],
-        "risk_notes": [
-          "胜率不单独作为评价依据，胜负差异受队伍整体表现影响"
-        ]
+        "risk_notes": []
       },
       {
         "id": "ranking",
-        "title": "联盟排名表现",
-        "summary": "KDA排名第4，分均经济排名第6，承伤相关指标排名靠前，但分均伤害和伤害占比排名偏后。",
+        "title": "联盟排名",
+        "summary": "排名前列指标共 0 项。",
+        "conclusion_type": "fact",
+        "confidence": "high",
+        "sample_size": 30,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "KDA：排名第 4（4.29）",
+          "分均伤害：排名第 13（3579.0）",
+          "分均承伤：排名第 9（5364.0）",
+          "分均经济：排名第 6（669.0）",
+          "参团率：排名第 9（67.4）"
+        ],
+        "risk_notes": []
+      },
+      {
+        "id": "win_lose",
+        "title": "胜负差异",
+        "summary": "胜局和败局的过程指标差异。",
         "conclusion_type": "signal",
         "confidence": "high",
         "sample_size": 30,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "KDA 4.29排名第4，分均经济669.0排名第6",
-          "分均承伤5364.0排名第9，承伤占比24.2%排名第8",
-          "分均伤害3579.0排名第13，伤害占比16.6%排名第15",
-          "参团率67.4排名第9"
+          "胜局平均 KDA: 9.94",
+          "败局平均 KDA: 1.47",
+          "败局低位指标：KDA 偏低、分均伤害偏低、场均死亡偏高"
         ],
-        "risk_notes": [
-          "排名指标damage_taken_per_minute在30天内下降22.0%，需关注后续承伤排名是否继续变化"
-        ]
+        "risk_notes": []
       }
     ],
-    "updated_reason": "daily_fetch",
-    "generated_at": "2026-07-24T04:28:02+00:00",
-    "build_id": "20260724T042802+0000",
-    "ai_elapsed_seconds": 81.46,
-    "ai_model": "qwen3.7-max-2026-06-08",
+    "updated_reason": "fallback",
+    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': 'ce4298c0-41f0-4707-8769-644b41245cbb'}",
+    "generated_at": "2026-07-25T05:53:38+00:00",
+    "build_id": "20260725T055338+0000",
+    "ai_elapsed_seconds": 11.05,
+    "ai_model": "deepseek-v4-flash:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "ae4f428835c087d8bf3cb121997956697bcd5d953c5b8bd5e50d7cd268153103"
-  }
+    "input_hash": "b4204028fb47dc99792e445e897563753a8b510576dfc3b1aae99cc93c09b1a9",
+    "ai_skipped_reason": "api_error"
+  },
+  "ai_skipped_reason": "api_error"
 }

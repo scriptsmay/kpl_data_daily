@@ -282,9 +282,21 @@ def generate_derived(
 
     career = load_latest_payload("player-career-wuyan", base_path=latest_base_path)
     career_data = unwrap_data(career) if career else {}
+    
+    player_info = career_data.get("player_info", {})
+    career_summary = career_data.get("career_summary", {})
+    
+    if career_summary:
+        date_range = career_summary.get("date_range", "")
+        if "至 " in date_range:
+            actual_latest_date = date_range.split("至 ")[1].strip()
+            player_info["latest_match_time"] = actual_latest_date
+        if "total_matches" in career_summary:
+            player_info["total_games"] = career_summary["total_matches"]
+    
     overview = {
-        "player_info": career_data.get("player_info", {}),
-        "career_summary": career_data.get("career_summary", {}),
+        "player_info": player_info,
+        "career_summary": career_summary,
         "season_stats": career_data.get("season_stats", []),
         "team_stats": career_data.get("team_stats", []),
         "hero_stats": career_data.get("hero_stats", []),

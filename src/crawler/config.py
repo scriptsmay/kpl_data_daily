@@ -125,9 +125,13 @@ APIS: List[Dict] = [
 ]
 
 # 请求配置
+# Referer: 47.102.210.150 系列接口校验 Referer 来源, 必须带 jungushiyan.cn/gaojie/
+# 不带则 403/空响应(之前 main.py 裸 requests.get 导致大量 [SKIP] 的根因)
+# fetcher.py 的 session.headers.update(HEADERS) 会让所有请求自动带上
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
     "Accept": "application/json, text/plain, */*",
+    "Referer": "http://www.jungushiyan.cn/gaojie/",
 }
 
 REQUEST_TIMEOUT = 30

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-26T19:16:44+08:00",
-  "build_id": "20260726T191644+0800",
+  "generated_at": "2026-07-26T20:34:30+08:00",
+  "build_id": "20260726T203430+0800",
   "file_count": 824,
   "files": [
     {
@@ -1521,9 +1521,9 @@
       "season": null,
       "date": null,
       "file": "manifest.json",
-      "hash": "35f7a35ccbd7cf2aa157cc70cd40e22a385c4ff1d9ca19f6875b51c9fc64f9b7",
+      "hash": "ea1f1172916adaa550e974862bf9303326038d7a33df248581452775047f1d4d",
       "size": 261853,
-      "mtime": "2026-07-26T19:15:37+08:00"
+      "mtime": "2026-07-26T19:16:44+08:00"
     },
     {
       "namespace": "player-abilities",

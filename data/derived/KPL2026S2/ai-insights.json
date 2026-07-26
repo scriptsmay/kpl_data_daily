@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-25T08:50:50+00:00",
-  "build_id": "20260725T085050+0000",
-  "ai_elapsed_seconds": 11.07,
+  "generated_at": "2026-07-25T19:00:02+00:00",
+  "build_id": "20260725T190002+0000",
+  "ai_elapsed_seconds": 11.13,
   "ai_model": "deepseek-v4-flash:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "b4204028fb47dc99792e445e897563753a8b510576dfc3b1aae99cc93c09b1a9",
+  "input_hash": "9ca0c042699dceafc96be43a277b7ba9a60bbe12c55e42b42869c5980b237834",
   "data": {
-    "headline": "无言本赛季 30 局，使用 11 个英雄",
-    "summary": "生涯累计 144 局。本赛季英雄池覆盖 11 个英雄，能力评分 91.86。",
+    "headline": "无言本赛季 34 局，使用 11 个英雄",
+    "summary": "生涯累计 148 局。本赛季英雄池覆盖 11 个英雄，能力评分 92.41。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
@@ -18,11 +18,11 @@
         "summary": "当前样本中英雄池覆盖 11 个英雄，英雄使用相对分散。",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季使用 11 个英雄，共 30 局",
+          "本赛季使用 11 个英雄，共 34 局",
           "核心层级英雄 4 个",
           "轮换层级英雄 2 个",
           "尝试层级英雄 5 个",
@@ -33,16 +33,16 @@
       {
         "id": "growth_path",
         "title": "成长路径观察",
-        "summary": "本赛季 30 局，使用 11 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+        "summary": "本赛季 34 局，使用 11 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
         "conclusion_type": "signal",
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季 30 局，使用 11 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
-          "已记录 17 个成长节点",
-          "已出现 11 个能力信号",
+          "本赛季 34 局，使用 11 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+          "已记录 18 个成长节点",
+          "已出现 10 个能力信号",
           "正在观察 1 个能力维度"
         ],
         "risk_notes": [
@@ -52,16 +52,16 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 91.86，位置排名第 2。",
+        "summary": "当前能力评分 92.41，位置排名第 1。",
         "conclusion_type": "hypothesis",
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "位置排名：第 2 名",
-          "总排名：第 7 名",
-          "高于同位置均值维度：11 个",
+          "位置排名：第 1 名",
+          "总排名：第 4 名",
+          "高于同位置均值维度：10 个",
           "低于同位置均值维度：1 个"
         ],
         "risk_notes": []
@@ -69,18 +69,19 @@
       {
         "id": "ranking",
         "title": "联盟排名",
-        "summary": "排名前列指标共 0 项。",
+        "summary": "排名前列指标共 1 项：KDA",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "KDA：排名第 4（4.29）",
-          "分均伤害：排名第 13（3579.0）",
-          "分均承伤：排名第 9（5364.0）",
-          "分均经济：排名第 6（669.0）",
-          "参团率：排名第 9（67.4）"
+          "排名前列指标：KDA",
+          "KDA：排名第 3（4.41）",
+          "分均伤害：排名第 12（3640.0）",
+          "分均承伤：排名第 10（5431.0）",
+          "分均经济：排名第 6（670.0）",
+          "参团率：排名第 7（67.5）"
         ],
         "risk_notes": []
       },
@@ -90,7 +91,7 @@
         "summary": "胜局和败局的过程指标差异。",
         "conclusion_type": "signal",
         "confidence": "high",
-        "sample_size": 30,
+        "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
@@ -102,13 +103,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': 'c8230f41-318d-44f1-a348-37ede404e09d'}",
-    "generated_at": "2026-07-25T08:50:50+00:00",
-    "build_id": "20260725T085050+0000",
-    "ai_elapsed_seconds": 11.07,
+    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '759d0b40-ba53-4c5e-8905-70300b5e6b6f'}",
+    "generated_at": "2026-07-25T19:00:02+00:00",
+    "build_id": "20260725T190002+0000",
+    "ai_elapsed_seconds": 11.13,
     "ai_model": "deepseek-v4-flash:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "b4204028fb47dc99792e445e897563753a8b510576dfc3b1aae99cc93c09b1a9",
+    "input_hash": "9ca0c042699dceafc96be43a277b7ba9a60bbe12c55e42b42869c5980b237834",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

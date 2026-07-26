@@ -141,11 +141,11 @@
       "location": "上海",
       "stage": "常规赛第二轮",
       "bo": 5,
-      "status": 3,
+      "status": 4,
       "score_a": 0,
-      "score_b": 0
+      "score_b": 3
     }
   ],
-  "updated_at": "2026-07-25T08:51:05.214060+00:00",
+  "updated_at": "2026-07-25T19:00:16.581204+00:00",
   "source_status": "ok"
 }

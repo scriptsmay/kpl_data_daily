@@ -15,7 +15,7 @@ load_dotenv()
 
 from src.storage.config import DATA_DIR
 from src.analysis.metrics import compute_all as compute_metrics
-from src.analysis.trends import compute_trends
+from src.analysis.trends import compute_trends, generate_ability_timeline
 from src.analysis.growth_path import generate as generate_growth_path
 
 
@@ -378,6 +378,13 @@ def generate_derived(
         write_json(
             season_dir / "trend-summary.json",
             derived_payload(current_season, generated_at, current_build_id, trends_data),
+        )
+
+        # Generate ability timeline
+        ability_timeline_data = generate_ability_timeline(current_season)
+        write_json(
+            season_dir / "ability-timeline.json",
+            derived_payload(current_season, generated_at, current_build_id, ability_timeline_data),
         )
 
         # Generate growth path

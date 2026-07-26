@@ -322,6 +322,196 @@ def _detect_anomalies(
 # Main entry point
 # ---------------------------------------------------------------------------
 
+def generate_ability_timeline(season: str) -> Dict[str, Any]:
+    """Generate full ability score timeline for a given season.
+
+    Scans all player-abilities snapshots and builds a time-series with
+    absolute values for each historical snapshot, including total_matches,
+    overall_rating, 12 ability dimensions, ranks, and position_averages.
+    """
+    timeline = _build_timeline(season)
+    ability_entries = timeline.get("player-abilities", [])
+
+    snapshots = []
+    position_averages_nested = None  # 原始按位置分组结构 {pos: {dim: val}}
+    player_position = None  # 选手位置（从记录中提取，所有快照应一致）
+
+    for date_str, path in ability_entries:
+        try:
+            payload = _load_json(path)
+        except (json.JSONDecodeError, OSError):
+            continue
+
+        data = _unwrap(payload)
+        if isinstance(data, list) and data:
+            record = data[0]
+        elif isinstance(data, dict):
+            record = data
+        else:
+            continue
+
+        # 提取选手位置（取最新非空值，跨快照应一致）
+        record_pos = record.get("player_position") or record.get("position")
+        if record_pos:
+            player_position = record_pos
+
+        total_matches = record.get("total_matches")
+        if total_matches is not None:
+            try:
+                total_matches = int(round(float(total_matches)))
+            except (ValueError, TypeError):
+                total_matches = 0
+        else:
+            total_matches = 0
+
+        overall_rating = record.get("overall_rating")
+        if overall_rating is not None:
+            try:
+                overall_rating = float(overall_rating)
+            except (ValueError, TypeError):
+                overall_rating = None
+
+        overall_rank = record.get("overall_rank")
+        if overall_rank is not None:
+            try:
+                overall_rank = int(round(float(overall_rank)))
+            except (ValueError, TypeError):
+                overall_rank = None
+
+        position_rank = record.get("position_rank")
+        if position_rank is not None:
+            try:
+                position_rank = int(round(float(position_rank)))
+            except (ValueError, TypeError):
+                position_rank = None
+
+        abilities = _extract_ability_scores(payload)
+        last_updated = record.get("last_updated") or record.get("created_at")
+
+        snapshots.append({
+            "date": date_str,
+            "last_updated": last_updated,
+            "total_matches": total_matches,
+            "overall_rating": overall_rating,
+            "overall_rank": overall_rank,
+            "position_rank": position_rank,
+            "abilities": abilities,
+        })
+
+        if isinstance(payload, dict) and "position_averages" in payload:
+            position_averages_nested = payload["position_averages"]
+
+    # 展平 position_averages：根据选手位置提取对应均值，前端可直接 [dimKey] 取值
+    position_averages_flat = None
+    if isinstance(position_averages_nested, dict) and player_position:
+        nested = position_averages_nested.get(player_position)
+        if isinstance(nested, dict):
+            position_averages_flat = nested
+
+    reference_date = snapshots[-1]["date"] if snapshots else None
+    season_final = _determine_season_final_data(snapshots, season)
+
+    return {
+        "snapshot_count": len(snapshots),
+        "snapshots": snapshots,
+        "reference_date": reference_date,
+        "player_position": player_position,
+        "position_averages": position_averages_flat,
+        "position_averages_by_position": position_averages_nested,
+        "season_final_data": season_final,
+    }
+
+
+def _determine_season_final_data(snapshots: List[Dict[str, Any]], season: str) -> str:
+    """根据赛程累计局数与最新快照对比，判断赛季决赛数据状态。
+
+    返回值：
+    - "complete": 最新快照 total_matches >= 赛程累计小局数
+    - "missing": 赛程结束超过 7 天但快照仍未追平
+    - "pending": 其他情况（含找不到 schedule.json、赛季进行中等）
+    """
+    if not snapshots:
+        return "pending"
+
+    # schedule.json 可能在当前赛季目录或历史赛季目录
+    schedule_paths = [
+        DATA_PATH / "derived" / season / "schedule.json",
+        DATA_PATH / "seasons" / season / "derived" / "schedule.json",
+    ]
+    schedule_payload = None
+    for p in schedule_paths:
+        if p.exists():
+            try:
+                schedule_payload = _load_json(p)
+                break
+            except (json.JSONDecodeError, OSError):
+                continue
+
+    if not schedule_payload:
+        return "pending"
+
+    # 兼容 derived_payload 包装格式与裸 canonical 格式
+    if (
+        isinstance(schedule_payload, dict)
+        and "data" in schedule_payload
+        and "schema_version" in schedule_payload
+    ):
+        schedule_data = schedule_payload["data"]
+    else:
+        schedule_data = schedule_payload
+
+    if not isinstance(schedule_data, dict):
+        return "pending"
+
+    matches = schedule_data.get("matches", [])
+    if not isinstance(matches, list) or not matches:
+        return "pending"
+
+    # 累计已结束 KSG 比赛的小局数 + 追踪最后一场时间戳
+    cumulative_games = 0
+    last_match_ts = 0
+    for m in matches:
+        if not isinstance(m, dict):
+            continue
+        try:
+            status_int = int(m.get("status", 0))
+        except (ValueError, TypeError):
+            status_int = 0
+        # status >= 2 表示已有比分（参考 fetch-schedule.py 的 convert_match 逻辑）
+        if status_int >= 2:
+            try:
+                cumulative_games += int(m.get("score_a", 0)) + int(m.get("score_b", 0))
+            except (ValueError, TypeError):
+                pass
+            try:
+                ts = int(m.get("start_ts", 0))
+                if ts > last_match_ts:
+                    last_match_ts = ts
+            except (ValueError, TypeError):
+                pass
+
+    if cumulative_games <= 0:
+        return "pending"
+
+    latest_snapshot = snapshots[-1]
+    try:
+        latest_total = int(latest_snapshot.get("total_matches") or 0)
+    except (ValueError, TypeError):
+        latest_total = 0
+
+    if latest_total >= cumulative_games:
+        return "complete"
+
+    # 快照未追平：若最后一场已超过 7 天，视为决赛数据缺失
+    if last_match_ts > 0:
+        now_ts = datetime.now(timezone.utc).timestamp()
+        days_since_last = (now_ts - last_match_ts) / 86400
+        if days_since_last > 7:
+            return "missing"
+
+    return "pending"
+
+
 def compute_trends(season: str) -> Dict[str, Any]:
     """Compute trend summaries for the given season.
 

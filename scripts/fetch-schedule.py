@@ -116,6 +116,26 @@ def build_canonical(season_id, season_name, raw_matches):
     }
 
 
+SCHEMA_VERSION = 1
+
+
+def wrap_derived_payload(season_id, canonical):
+    """包装为 derived_payload 格式，与 post_process.derived_payload 保持一致。
+
+    与其他 derived 文件结构对齐：schema_version / season / generated_at / build_id / data。
+    注意：build_id 为 fetch-schedule 自身运行时戳，与 post_process 的 build_id 不同，
+    因此前端 getSchedule 不走 fetchDerived 的 build_id 严格校验。
+    """
+    now = datetime.now(timezone.utc).astimezone()
+    return {
+        "schema_version": SCHEMA_VERSION,
+        "season": season_id,
+        "generated_at": now.isoformat(timespec="seconds"),
+        "build_id": now.strftime("%Y%m%dT%H%M%S%z"),
+        "data": canonical,
+    }
+
+
 def main():
     # 读取当前赛季信息
     current_season_file = Path("data/latest/current-season.json")
@@ -153,12 +173,16 @@ def main():
     # 构建 canonical JSON
     canonical = build_canonical(season_id, season_name, raw_matches)
 
+    # 包装为 derived_payload 格式，使前端可统一处理
+    wrapped = wrap_derived_payload(season_id, canonical)
+
     # 保存
     output_dir = Path(f"data/derived/{current_season_id or season_id}")
     output_dir.mkdir(parents=True, exist_ok=True)
     output_file = output_dir / "schedule.json"
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(canonical, f, ensure_ascii=False, indent=2)
+        json.dump(wrapped, f, ensure_ascii=False, indent=2)
+        f.write("\n")
 
     print(f"[fetch-schedule] Saved to {output_file} ({canonical['ksg_matches']} KSG matches / {canonical['total_matches']} total)")
     return 0

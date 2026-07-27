@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-27T01:01:23+00:00",
-  "build_id": "20260727T010123+0000",
+  "generated_at": "2026-07-27T13:00:00+08:00",
+  "build_id": "20260727T130000+0800",
   "data": {
     "season_id": "KPL2026S2",
     "season_name": "2026年KPL夏季赛",
     "team_name": "KSG",
-    "total_matches": 93,
-    "ksg_matches": 10,
+    "total_matches": 94,
+    "ksg_matches": 11,
     "matches": [
       {
         "schedule_id": "KPL2026S2M1W1D3",
@@ -149,9 +149,21 @@
         "status": 4,
         "score_a": 0,
         "score_b": 3
+      },
+      {
+        "schedule_id": "KPL2026S2M6W8D2",
+        "start_ts": 1785236400,
+        "date": "07-28 19:00",
+        "team_a": "KSG",
+        "team_b": "重庆狼队",
+        "is_ksg": true,
+        "location": "上海",
+        "stage": "",
+        "bo": 7,
+        "status": 1
       }
     ],
-    "updated_at": "2026-07-27T01:01:23.432850+00:00",
+    "updated_at": "2026-07-27T05:00:00.155641+00:00",
     "source_status": "ok"
   }
 }

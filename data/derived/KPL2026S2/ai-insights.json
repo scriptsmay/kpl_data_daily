@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-27T21:00:06+08:00",
-  "build_id": "20260727T210006+0800",
-  "ai_elapsed_seconds": 11.12,
+  "generated_at": "2026-07-28T03:01:09+08:00",
+  "build_id": "20260728T030109+0800",
+  "ai_elapsed_seconds": 11.07,
   "ai_model": "deepseek-v4-flash:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "2efe8467ec4565cf8c3aa4c6aff1bb2093f21d816b42d337168f57abe3a9afdd",
+  "input_hash": "48b5ff0780d54767fc23f7b320950252a2e7271b51d4bc9c9bdc665a10a4fd57",
   "data": {
     "headline": "无言本赛季 37 局，使用 13 个英雄",
     "summary": "生涯累计 151 局。本赛季英雄池覆盖 13 个英雄，能力评分 90.97。",
@@ -77,9 +77,9 @@
         "sample_scope": "current_season",
         "evidence": [
           "排名前列指标：野怪击杀",
-          "KDA：排名第 4（3.91）",
-          "分均伤害：排名第 11（3666.0）",
-          "分均承伤：排名第 7（5412.0）",
+          "KDA：排名第 5（3.91）",
+          "分均伤害：排名第 12（3666.0）",
+          "分均承伤：排名第 6（5412.0）",
           "分均经济：排名第 7（668.0）",
           "参团率：排名第 8（66.4）"
         ],
@@ -103,13 +103,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': 'c37452d0-7b70-495c-b071-fc2611197c05'}",
-    "generated_at": "2026-07-27T21:00:06+08:00",
-    "build_id": "20260727T210006+0800",
-    "ai_elapsed_seconds": 11.12,
+    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '1673402a-de2a-4071-bfe1-a260d36567bf'}",
+    "generated_at": "2026-07-28T03:01:09+08:00",
+    "build_id": "20260728T030109+0800",
+    "ai_elapsed_seconds": 11.07,
     "ai_model": "deepseek-v4-flash:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "2efe8467ec4565cf8c3aa4c6aff1bb2093f21d816b42d337168f57abe3a9afdd",
+    "input_hash": "48b5ff0780d54767fc23f7b320950252a2e7271b51d4bc9c9bdc665a10a4fd57",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

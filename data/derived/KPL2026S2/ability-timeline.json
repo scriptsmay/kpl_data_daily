@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-27T21:00:06+08:00",
-  "build_id": "20260727T210006+0800",
+  "generated_at": "2026-07-28T03:01:09+08:00",
+  "build_id": "20260728T030109+0800",
   "data": {
-    "snapshot_count": 32,
+    "snapshot_count": 33,
     "snapshots": [
       {
         "date": "20260618",
@@ -709,21 +709,43 @@
           "tankiness": 100.0,
           "durability": 58.0
         }
+      },
+      {
+        "date": "20260728",
+        "last_updated": "2026-07-27 15:39:45",
+        "total_matches": 37,
+        "overall_rating": 90.97,
+        "overall_rank": 5,
+        "position_rank": 2,
+        "abilities": {
+          "damage_output": 80.0,
+          "teamfight": 83.0,
+          "initiation": 99.0,
+          "early_game": 77.0,
+          "mid_game": 91.0,
+          "late_game": 94.0,
+          "map_control": 85.0,
+          "invasion_ability": 90.0,
+          "support_ability": 89.0,
+          "economy": 76.0,
+          "tankiness": 100.0,
+          "durability": 58.0
+        }
       }
     ],
-    "reference_date": "20260727",
+    "reference_date": "20260728",
     "player_position": "对抗路",
     "position_averages": {
       "damage_output": 81,
       "durability": 47,
       "early_game": 73,
-      "economy": 79,
+      "economy": 78,
       "initiation": 85,
       "invasion_ability": 68,
-      "late_game": 80,
+      "late_game": 81,
       "map_control": 79,
       "mid_game": 84,
-      "overall_rating": 81.53,
+      "overall_rating": 81.54,
       "support_ability": 84,
       "tankiness": 94,
       "teamfight": 76
@@ -734,12 +756,12 @@
         "durability": 50,
         "early_game": 77,
         "economy": 80,
-        "initiation": 81,
+        "initiation": 82,
         "invasion_ability": 71,
         "late_game": 78,
         "map_control": 85,
         "mid_game": 80,
-        "overall_rating": 79.68,
+        "overall_rating": 79.67,
         "support_ability": 93,
         "tankiness": 80,
         "teamfight": 74
@@ -754,7 +776,7 @@
         "late_game": 80,
         "map_control": 84,
         "mid_game": 87,
-        "overall_rating": 83.31,
+        "overall_rating": 83.18,
         "support_ability": 89,
         "tankiness": 86,
         "teamfight": 81
@@ -763,20 +785,20 @@
         "damage_output": 81,
         "durability": 47,
         "early_game": 73,
-        "economy": 79,
+        "economy": 78,
         "initiation": 85,
         "invasion_ability": 68,
-        "late_game": 80,
+        "late_game": 81,
         "map_control": 79,
         "mid_game": 84,
-        "overall_rating": 81.53,
+        "overall_rating": 81.54,
         "support_ability": 84,
         "tankiness": 94,
         "teamfight": 76
       },
       "打野": {
         "damage_output": 94,
-        "durability": 55,
+        "durability": 56,
         "early_game": 80,
         "economy": 82,
         "initiation": 83,
@@ -784,7 +806,7 @@
         "late_game": 77,
         "map_control": 83,
         "mid_game": 83,
-        "overall_rating": 79.74,
+        "overall_rating": 79.77,
         "support_ability": 83,
         "tankiness": 81,
         "teamfight": 77
@@ -799,7 +821,7 @@
         "late_game": 77,
         "map_control": 81,
         "mid_game": 86,
-        "overall_rating": 80.5,
+        "overall_rating": 80.53,
         "support_ability": 81,
         "tankiness": 93,
         "teamfight": 72

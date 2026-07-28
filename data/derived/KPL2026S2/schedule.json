@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-28T21:00:21+08:00",
-  "build_id": "20260728T210021+0800",
+  "generated_at": "2026-07-29T03:01:24+08:00",
+  "build_id": "20260729T030124+0800",
   "data": {
     "season_id": "KPL2026S2",
     "season_name": "2026年KPL夏季赛",
     "team_name": "KSG",
-    "total_matches": 94,
-    "ksg_matches": 11,
+    "total_matches": 124,
+    "ksg_matches": 16,
     "matches": [
       {
         "schedule_id": "KPL2026S2M1W1D3",
@@ -160,12 +160,72 @@
         "location": "上海",
         "stage": "",
         "bo": 7,
-        "status": 3,
+        "status": 4,
         "score_a": 1,
-        "score_b": 2
+        "score_b": 4
+      },
+      {
+        "schedule_id": "KPL2026S2M7W1D3",
+        "start_ts": 1785412800,
+        "date": "07-30 20:00",
+        "team_a": "KSG",
+        "team_b": "上海EDG.M",
+        "is_ksg": true,
+        "location": "上海",
+        "stage": "",
+        "bo": 5,
+        "status": 1
+      },
+      {
+        "schedule_id": "KPL2026S2M8W1D2",
+        "start_ts": 1786536000,
+        "date": "08-12 20:00",
+        "team_a": "SYG",
+        "team_b": "KSG",
+        "is_ksg": true,
+        "location": "上海",
+        "stage": "",
+        "bo": 5,
+        "status": 1
+      },
+      {
+        "schedule_id": "KPL2026S2M8W2D1",
+        "start_ts": 1786611600,
+        "date": "08-13 17:00",
+        "team_a": "KSG",
+        "team_b": "济南RW侠",
+        "is_ksg": true,
+        "location": "上海",
+        "stage": "",
+        "bo": 5,
+        "status": 1
+      },
+      {
+        "schedule_id": "KPL2026S2M9W3D1",
+        "start_ts": 1787302800,
+        "date": "08-21 17:00",
+        "team_a": "南通Hero久竞",
+        "team_b": "KSG",
+        "is_ksg": true,
+        "location": "南通",
+        "stage": "",
+        "bo": 5,
+        "status": 1
+      },
+      {
+        "schedule_id": "KPL2026S2M9W5D1",
+        "start_ts": 1787464800,
+        "date": "08-23 14:00",
+        "team_a": "杭州LGD.NBW",
+        "team_b": "KSG",
+        "is_ksg": true,
+        "location": "杭州",
+        "stage": "",
+        "bo": 5,
+        "status": 1
       }
     ],
-    "updated_at": "2026-07-28T13:00:21.140218+00:00",
+    "updated_at": "2026-07-28T19:01:24.552331+00:00",
     "source_status": "ok"
   }
 }

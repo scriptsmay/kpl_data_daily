@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-29T09:00:20+08:00",
-  "build_id": "20260729T090020+0800",
+  "generated_at": "2026-07-29T15:00:27+08:00",
+  "build_id": "20260729T150027+0800",
   "data": {
     "season_id": "KPL2026S2",
     "season_name": "2026年KPL夏季赛",
@@ -189,9 +189,9 @@
         "status": 1
       },
       {
-        "schedule_id": "KPL2026S2M8W2D1",
-        "start_ts": 1786611600,
-        "date": "08-13 17:00",
+        "schedule_id": "KPL2026S2M8W2D2",
+        "start_ts": 1786622400,
+        "date": "08-13 20:00",
         "team_a": "KSG",
         "team_b": "济南RW侠",
         "is_ksg": true,
@@ -225,7 +225,7 @@
         "status": 1
       }
     ],
-    "updated_at": "2026-07-29T01:00:20.048707+00:00",
+    "updated_at": "2026-07-29T07:00:27.150679+00:00",
     "source_status": "ok"
   }
 }

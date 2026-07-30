@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-07-30T15:00:24+08:00",
-  "build_id": "20260730T150024+0800",
+  "generated_at": "2026-07-30T21:00:22+08:00",
+  "build_id": "20260730T210022+0800",
   "data": {
     "season_id": "KPL2026S2",
     "season_name": "2026年KPL夏季赛",
@@ -172,9 +172,11 @@
         "team_b": "上海EDG.M",
         "is_ksg": true,
         "location": "上海",
-        "stage": "",
+        "stage": "常规赛第三轮",
         "bo": 5,
-        "status": 1
+        "status": 3,
+        "score_a": 1,
+        "score_b": 0
       },
       {
         "schedule_id": "KPL2026S2M8W1D2",
@@ -184,7 +186,7 @@
         "team_b": "KSG",
         "is_ksg": true,
         "location": "上海",
-        "stage": "",
+        "stage": "常规赛第三轮",
         "bo": 5,
         "status": 1
       },
@@ -196,7 +198,7 @@
         "team_b": "济南RW侠",
         "is_ksg": true,
         "location": "上海",
-        "stage": "",
+        "stage": "常规赛第三轮",
         "bo": 5,
         "status": 1
       },
@@ -208,7 +210,7 @@
         "team_b": "KSG",
         "is_ksg": true,
         "location": "南通",
-        "stage": "",
+        "stage": "常规赛第三轮",
         "bo": 5,
         "status": 1
       },
@@ -220,12 +222,12 @@
         "team_b": "KSG",
         "is_ksg": true,
         "location": "杭州",
-        "stage": "",
+        "stage": "常规赛第三轮",
         "bo": 5,
         "status": 1
       }
     ],
-    "updated_at": "2026-07-30T07:00:24.932190+00:00",
+    "updated_at": "2026-07-30T13:00:22.401832+00:00",
     "source_status": "ok"
   }
 }

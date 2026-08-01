@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-01T21:00:07+08:00",
-  "build_id": "20260801T210007+0800",
-  "ai_elapsed_seconds": 11.28,
+  "generated_at": "2026-08-02T03:01:15+08:00",
+  "build_id": "20260802T030115+0800",
+  "ai_elapsed_seconds": 11.18,
   "ai_model": "deepseek-v4-flash:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "707f93a48d33e786c86d14cf65ef66df915a518872c23353bb04f789cdc8fbe0",
+  "input_hash": "b56f82d9a2b91e5a78cfc1bd9402088a04e3d5e5691b426cbefd5d22cac3e14c",
   "data": {
     "headline": "无言本赛季 47 局，使用 14 个英雄",
     "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 88.6。",
@@ -62,8 +62,7 @@
           "位置排名：第 5 名",
           "总排名：第 15 名",
           "高于同位置均值维度：10 个",
-          "低于同位置均值维度：2 个",
-          "近期波动较大维度：4 个"
+          "低于同位置均值维度：2 个"
         ],
         "risk_notes": []
       },
@@ -104,13 +103,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '2e3994c3-75da-4d80-aade-f4eb283c87cf'}",
-    "generated_at": "2026-08-01T21:00:07+08:00",
-    "build_id": "20260801T210007+0800",
-    "ai_elapsed_seconds": 11.28,
+    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '21b02bb8-fceb-49e6-835c-fe149d5904ed'}",
+    "generated_at": "2026-08-02T03:01:15+08:00",
+    "build_id": "20260802T030115+0800",
+    "ai_elapsed_seconds": 11.18,
     "ai_model": "deepseek-v4-flash:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "707f93a48d33e786c86d14cf65ef66df915a518872c23353bb04f789cdc8fbe0",
+    "input_hash": "b56f82d9a2b91e5a78cfc1bd9402088a04e3d5e5691b426cbefd5d22cac3e14c",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

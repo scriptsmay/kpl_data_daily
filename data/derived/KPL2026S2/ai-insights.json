@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-01T09:00:06+08:00",
-  "build_id": "20260801T090006+0800",
+  "generated_at": "2026-08-01T15:00:06+08:00",
+  "build_id": "20260801T150006+0800",
   "ai_elapsed_seconds": 11.11,
   "ai_model": "deepseek-v4-flash:fallback",
   "prompt_version": "ai-insights-v2-20260627",
@@ -104,9 +104,9 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '9f28ad5f-0fbd-4ca6-893b-ac8d416767bf'}",
-    "generated_at": "2026-08-01T09:00:06+08:00",
-    "build_id": "20260801T090006+0800",
+    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': 'bee0b94d-d43d-4c08-be11-a5ced98e66a5'}",
+    "generated_at": "2026-08-01T15:00:06+08:00",
+    "build_id": "20260801T150006+0800",
     "ai_elapsed_seconds": 11.11,
     "ai_model": "deepseek-v4-flash:fallback",
     "prompt_version": "ai-insights-v2-20260627",

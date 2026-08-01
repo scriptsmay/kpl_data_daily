@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-01T03:01:28+08:00",
-  "build_id": "20260801T030128+0800",
+  "generated_at": "2026-08-01T09:00:22+08:00",
+  "build_id": "20260801T090022+0800",
   "data": {
     "season_id": "KPL2026S2",
     "season_name": "2026年KPL夏季赛",
@@ -227,7 +227,7 @@
         "status": 1
       }
     ],
-    "updated_at": "2026-07-31T19:01:28.736961+00:00",
+    "updated_at": "2026-08-01T01:00:22.093909+00:00",
     "source_status": "ok"
   }
 }

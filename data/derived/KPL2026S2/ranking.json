@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-07T21:00:07+08:00",
-  "build_id": "20260807T210007+0800",
+  "generated_at": "2026-08-08T03:01:14+08:00",
+  "build_id": "20260808T030114+0800",
   "data": {
     "code": 200,
     "data": [
@@ -77,7 +77,7 @@
         "kda_ratio_rank": 11,
         "kill_share": "18.8%",
         "kill_share_rank": 13,
-        "last_updated": "2026-07-31 15:59:47",
+        "last_updated": "2026-08-07 03:23:31",
         "master_control_rate": "0.0%",
         "master_control_rate_rank": 10,
         "max_assists_single_game": 12.0,

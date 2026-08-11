@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-11T15:00:07+08:00",
-  "build_id": "20260811T150007+0800",
+  "generated_at": "2026-08-11T21:00:09+08:00",
+  "build_id": "20260811T210009+0800",
   "file_count": 1028,
   "files": [
     {
@@ -1827,9 +1827,9 @@
       "season": null,
       "date": null,
       "file": "manifest.json",
-      "hash": "24f6249a916731da187b7d8146e6ac9dbaff4723253352cbdb678f7ef57065d4",
+      "hash": "7764fd84e896e1619a0c159873b5b75f4e7e9a2b2c3488a2b6524cad20a4dd4b",
       "size": 318044,
-      "mtime": "2026-08-11T09:00:08+08:00"
+      "mtime": "2026-08-11T15:00:09+08:00"
     },
     {
       "namespace": "player-abilities",
@@ -8129,7 +8129,7 @@
       "file": "seasons-list.json",
       "hash": "d9010588c47b90594346a9c5442cf506705229180b18db74cfb735cd8afcf732",
       "size": 6283,
-      "mtime": "2026-08-11T15:00:07+08:00"
+      "mtime": "2026-08-11T21:00:09+08:00"
     },
     {
       "namespace": "team-damage-distribution",

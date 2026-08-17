@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-16T09:01:17+08:00",
-  "build_id": "20260816T090117+0800",
-  "ai_elapsed_seconds": 11.58,
+  "generated_at": "2026-08-17T09:01:15+08:00",
+  "build_id": "20260817T090115+0800",
+  "ai_elapsed_seconds": 11.75,
   "ai_model": "deepseek-v4-flash:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "6b4fb157728d73d3c01ea45f1f8930cd441cd2018963f4383f1ec957692243a8",
+  "input_hash": "e367a569af8a3d1e93e2a188e4483c00bc74100bd0a1251adef8ab0e4375d2cb",
   "data": {
     "headline": "无言本赛季 47 局，使用 14 个英雄",
     "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 88.6。",
@@ -52,15 +52,15 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 88.6，位置排名第 4。",
+        "summary": "当前能力评分 88.6，位置排名第 3。",
         "conclusion_type": "hypothesis",
         "confidence": "high",
         "sample_size": 47,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "位置排名：第 4 名",
-          "总排名：第 14 名",
+          "位置排名：第 3 名",
+          "总排名：第 13 名",
           "高于同位置均值维度：10 个",
           "低于同位置均值维度：2 个"
         ],
@@ -77,11 +77,11 @@
         "sample_scope": "current_season",
         "evidence": [
           "排名前列指标：野怪击杀",
-          "KDA：排名第 11（3.29）",
-          "分均伤害：排名第 14（3665.0）",
-          "分均承伤：排名第 12（5288.0）",
+          "KDA：排名第 10（3.29）",
+          "分均伤害：排名第 13（3665.0）",
+          "分均承伤：排名第 13（5288.0）",
           "分均经济：排名第 8（665.0）",
-          "参团率：排名第 10（67.0）"
+          "参团率：排名第 9（67.0）"
         ],
         "risk_notes": []
       },
@@ -103,13 +103,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': 'a472ab42-c89f-4c72-8ed8-8a56d7dcc69c'}",
-    "generated_at": "2026-08-16T09:01:17+08:00",
-    "build_id": "20260816T090117+0800",
-    "ai_elapsed_seconds": 11.58,
+    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '5e1b0c80-5997-460a-af9a-5a54447d2b4d'}",
+    "generated_at": "2026-08-17T09:01:15+08:00",
+    "build_id": "20260817T090115+0800",
+    "ai_elapsed_seconds": 11.75,
     "ai_model": "deepseek-v4-flash:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "6b4fb157728d73d3c01ea45f1f8930cd441cd2018963f4383f1ec957692243a8",
+    "input_hash": "e367a569af8a3d1e93e2a188e4483c00bc74100bd0a1251adef8ab0e4375d2cb",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

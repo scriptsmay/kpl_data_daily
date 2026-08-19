@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-18T09:01:17+08:00",
-  "build_id": "20260818T090117+0800",
-  "ai_elapsed_seconds": 11.46,
+  "generated_at": "2026-08-19T09:01:16+08:00",
+  "build_id": "20260819T090116+0800",
+  "ai_elapsed_seconds": 11.63,
   "ai_model": "deepseek-v4-flash:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "bff68df45dd4681b5c8e05bdaa1d8f4cf6075298a1a1accc4e021e2eeb82232e",
+  "input_hash": "348e715e173a98ceb107ef3c2bb8115bcbd94a53b6f185a51396f18aa82df334",
   "data": {
     "headline": "无言本赛季 47 局，使用 14 个英雄",
     "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 88.6。",
@@ -103,13 +103,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '62a256dd-b18d-4b78-99cf-5e9b55e39b6f'}",
-    "generated_at": "2026-08-18T09:01:17+08:00",
-    "build_id": "20260818T090117+0800",
-    "ai_elapsed_seconds": 11.46,
+    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': 'cd1d7a57-a62f-4da7-8a99-7adef3b1e659'}",
+    "generated_at": "2026-08-19T09:01:16+08:00",
+    "build_id": "20260819T090116+0800",
+    "ai_elapsed_seconds": 11.63,
     "ai_model": "deepseek-v4-flash:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "bff68df45dd4681b5c8e05bdaa1d8f4cf6075298a1a1accc4e021e2eeb82232e",
+    "input_hash": "348e715e173a98ceb107ef3c2bb8115bcbd94a53b6f185a51396f18aa82df334",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

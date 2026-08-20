@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-19T09:01:16+08:00",
-  "build_id": "20260819T090116+0800",
+  "generated_at": "2026-08-20T09:01:18+08:00",
+  "build_id": "20260820T090118+0800",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 70.59,
@@ -230,7 +230,7 @@
       "damage_10min_per_minute": 2560.0,
       "damage_per_minute": 4106.0,
       "damage_taken_per_minute": 5277.0,
-      "data_version": "v20260816_234147",
+      "data_version": "v20260819_232702",
       "economy_10min_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -420,18 +420,18 @@
       "economy_10min_per_minute": 669.0,
       "gold_per_minute": 706.0,
       "heroes_used": [
-        "夏洛特",
-        "狂铁",
-        "曹操",
-        "达摩",
-        "司空震",
-        "马超",
         "蒙恬",
+        "马超",
+        "达摩",
+        "狂铁",
+        "关羽",
+        "曹操",
+        "夏洛特",
         "李信",
-        "关羽"
+        "司空震"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-08-16 15:41:48",
+      "last_updated": "2026-08-19 15:27:04",
       "match_details": [
         {
           "battle_id": "1781697613_970998288_4",
@@ -944,7 +944,7 @@
       "damage_10min_per_minute": 1999.0,
       "damage_per_minute": 3248.0,
       "damage_taken_per_minute": 5298.0,
-      "data_version": "v20260816_234152",
+      "data_version": "v20260819_232707",
       "economy_10min_details": [
         {
           "battle_id": "1781872932_501236240_6",
@@ -1142,21 +1142,21 @@
       "economy_10min_per_minute": 639.0,
       "gold_per_minute": 626.0,
       "heroes_used": [
+        "马超",
+        "吕布",
+        "达摩",
+        "项羽",
+        "狂铁",
+        "关羽",
+        "白起",
+        "曹操",
         "夏洛特",
         "芈月",
-        "狂铁",
-        "项羽",
-        "曹操",
-        "达摩",
         "司空震",
-        "马超",
-        "影",
-        "吕布",
-        "白起",
-        "关羽"
+        "影"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-08-16 15:41:54",
+      "last_updated": "2026-08-19 15:27:09",
       "lose_matches": 24.0,
       "match_details": [
         {
@@ -1678,7 +1678,7 @@
           "damage_10min_per_minute": 2560.0,
           "damage_per_minute": 4106.0,
           "damage_taken_per_minute": 5277.0,
-          "data_version": "v20260816_234147",
+          "data_version": "v20260819_232702",
           "economy_10min_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -1868,18 +1868,18 @@
           "economy_10min_per_minute": 669.0,
           "gold_per_minute": 706.0,
           "heroes_used": [
-            "夏洛特",
-            "狂铁",
-            "曹操",
-            "达摩",
-            "司空震",
-            "马超",
             "蒙恬",
+            "马超",
+            "达摩",
+            "狂铁",
+            "关羽",
+            "曹操",
+            "夏洛特",
             "李信",
-            "关羽"
+            "司空震"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-08-16 15:41:48",
+          "last_updated": "2026-08-19 15:27:04",
           "match_details": [
             {
               "battle_id": "1781697613_970998288_4",
@@ -2176,7 +2176,7 @@
         "中路": 5548.0,
         "发育路": 7300.0,
         "对抗路": 6793.0,
-        "打野": 7140.0,
+        "打野": 7139.0,
         "游走": 4439.0
       },
       "total_players": 113
@@ -2413,7 +2413,7 @@
           "damage_10min_per_minute": 1999.0,
           "damage_per_minute": 3248.0,
           "damage_taken_per_minute": 5298.0,
-          "data_version": "v20260816_234152",
+          "data_version": "v20260819_232707",
           "economy_10min_details": [
             {
               "battle_id": "1781872932_501236240_6",
@@ -2611,21 +2611,21 @@
           "economy_10min_per_minute": 639.0,
           "gold_per_minute": 626.0,
           "heroes_used": [
+            "马超",
+            "吕布",
+            "达摩",
+            "项羽",
+            "狂铁",
+            "关羽",
+            "白起",
+            "曹操",
             "夏洛特",
             "芈月",
-            "狂铁",
-            "项羽",
-            "曹操",
-            "达摩",
             "司空震",
-            "马超",
-            "影",
-            "吕布",
-            "白起",
-            "关羽"
+            "影"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-08-16 15:41:54",
+          "last_updated": "2026-08-19 15:27:09",
           "lose_matches": 24.0,
           "match_details": [
             {

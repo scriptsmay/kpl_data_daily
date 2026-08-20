@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-19T09:01:16+08:00",
-  "build_id": "20260819T090116+0800",
-  "ai_elapsed_seconds": 11.63,
+  "generated_at": "2026-08-20T09:01:18+08:00",
+  "build_id": "20260820T090118+0800",
+  "ai_elapsed_seconds": 11.83,
   "ai_model": "deepseek-v4-flash:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "348e715e173a98ceb107ef3c2bb8115bcbd94a53b6f185a51396f18aa82df334",
+  "input_hash": "e453fa66e4aa691bb387c5bdac63c5293bfe9e1a091f6307557d72f343cd4c70",
   "data": {
     "headline": "无言本赛季 47 局，使用 14 个英雄",
-    "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 88.6。",
+    "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 88.05。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
@@ -52,15 +52,15 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 88.6，位置排名第 3。",
+        "summary": "当前能力评分 88.05，位置排名第 4。",
         "conclusion_type": "hypothesis",
         "confidence": "high",
         "sample_size": 47,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "位置排名：第 3 名",
-          "总排名：第 13 名",
+          "位置排名：第 4 名",
+          "总排名：第 15 名",
           "高于同位置均值维度：10 个",
           "低于同位置均值维度：2 个"
         ],
@@ -103,13 +103,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': 'cd1d7a57-a62f-4da7-8a99-7adef3b1e659'}",
-    "generated_at": "2026-08-19T09:01:16+08:00",
-    "build_id": "20260819T090116+0800",
-    "ai_elapsed_seconds": 11.63,
+    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': 'f98e5e6d-0d08-4d87-b41e-aff4b9e59aba'}",
+    "generated_at": "2026-08-20T09:01:18+08:00",
+    "build_id": "20260820T090118+0800",
+    "ai_elapsed_seconds": 11.83,
     "ai_model": "deepseek-v4-flash:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "348e715e173a98ceb107ef3c2bb8115bcbd94a53b6f185a51396f18aa82df334",
+    "input_hash": "e453fa66e4aa691bb387c5bdac63c5293bfe9e1a091f6307557d72f343cd4c70",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

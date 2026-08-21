@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-20T09:01:18+08:00",
-  "build_id": "20260820T090118+0800",
+  "generated_at": "2026-08-21T09:01:17+08:00",
+  "build_id": "20260821T090117+0800",
   "data": {
     "headline": "无言本赛季 47 局，使用 14 个英雄",
     "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 88.05。",
@@ -48,15 +48,15 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 88.05，位置排名第 4。",
+        "summary": "当前能力评分 88.05，位置排名第 5。",
         "conclusion_type": "hypothesis",
         "confidence": "high",
         "sample_size": 47,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "位置排名：第 4 名",
-          "总排名：第 15 名",
+          "位置排名：第 5 名",
+          "总排名：第 16 名",
           "高于同位置均值维度：10 个",
           "低于同位置均值维度：2 个"
         ],
@@ -73,7 +73,7 @@
         "sample_scope": "current_season",
         "evidence": [
           "排名前列指标：野怪击杀",
-          "KDA：排名第 10（3.29）",
+          "KDA：排名第 11（3.29）",
           "分均伤害：排名第 13（3665.0）",
           "分均承伤：排名第 13（5288.0）",
           "分均经济：排名第 8（665.0）",

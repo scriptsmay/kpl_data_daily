@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-21T09:01:34+08:00",
-  "build_id": "20260821T090134+0800",
+  "generated_at": "2026-08-22T09:01:35+08:00",
+  "build_id": "20260822T090135+0800",
   "data": {
     "season_id": "KPL2026S2",
     "season_name": "2026年KPL夏季赛",
@@ -216,7 +216,9 @@
         "location": "南通",
         "stage": "常规赛第三轮",
         "bo": 5,
-        "status": 1
+        "status": 4,
+        "score_a": 3,
+        "score_b": 1
       },
       {
         "schedule_id": "KPL2026S2M9W5D1",
@@ -231,7 +233,7 @@
         "status": 1
       }
     ],
-    "updated_at": "2026-08-21T01:01:34.868070+00:00",
+    "updated_at": "2026-08-22T01:01:35.681874+00:00",
     "source_status": "ok"
   }
 }

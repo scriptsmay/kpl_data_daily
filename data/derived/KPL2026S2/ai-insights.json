@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-21T09:01:17+08:00",
-  "build_id": "20260821T090117+0800",
-  "ai_elapsed_seconds": 11.4,
+  "generated_at": "2026-08-22T09:01:17+08:00",
+  "build_id": "20260822T090117+0800",
+  "ai_elapsed_seconds": 11.67,
   "ai_model": "deepseek-v4-flash:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "28b492233d2b41a68494964d0195f5d51f63af433264adcdc49a9d56f3069eae",
+  "input_hash": "893e27b515383cfea799eb2ac7b590dbb99c4c3207776772be8daa692a53ce39",
   "data": {
     "headline": "无言本赛季 47 局，使用 14 个英雄",
     "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 88.05。",
@@ -80,7 +80,7 @@
           "KDA：排名第 11（3.29）",
           "分均伤害：排名第 13（3665.0）",
           "分均承伤：排名第 13（5288.0）",
-          "分均经济：排名第 8（665.0）",
+          "分均经济：排名第 9（665.0）",
           "参团率：排名第 9（67.0）"
         ],
         "risk_notes": []
@@ -103,13 +103,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '9866eea6-ddfe-4e88-8f43-18e3e7629f61'}",
-    "generated_at": "2026-08-21T09:01:17+08:00",
-    "build_id": "20260821T090117+0800",
-    "ai_elapsed_seconds": 11.4,
+    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '17b556f9-aad8-4859-b21e-20abffc1304f'}",
+    "generated_at": "2026-08-22T09:01:17+08:00",
+    "build_id": "20260822T090117+0800",
+    "ai_elapsed_seconds": 11.67,
     "ai_model": "deepseek-v4-flash:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "28b492233d2b41a68494964d0195f5d51f63af433264adcdc49a9d56f3069eae",
+    "input_hash": "893e27b515383cfea799eb2ac7b590dbb99c4c3207776772be8daa692a53ce39",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

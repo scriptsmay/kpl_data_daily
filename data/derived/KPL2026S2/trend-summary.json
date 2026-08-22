@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-21T09:01:17+08:00",
-  "build_id": "20260821T090117+0800",
+  "generated_at": "2026-08-22T09:01:17+08:00",
+  "build_id": "20260822T090117+0800",
   "data": {
-    "snapshots_available": 303,
-    "reference_date": "20260821",
+    "snapshots_available": 308,
+    "reference_date": "20260822",
     "trends": {
       "hero_pool": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20260818 ~ 20260821",
+          "date_range": "20260819 ~ 20260822",
           "hero_count_delta": 0,
           "hero_count_latest": 14,
           "hero_count_oldest": 14,
@@ -19,7 +19,7 @@
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20260814 ~ 20260821",
+          "date_range": "20260815 ~ 20260822",
           "hero_count_delta": 0,
           "hero_count_latest": 14,
           "hero_count_oldest": 14,
@@ -28,7 +28,7 @@
         },
         "14d": {
           "snapshots": 14,
-          "date_range": "20260807 ~ 20260821",
+          "date_range": "20260808 ~ 20260822",
           "hero_count_delta": 0,
           "hero_count_latest": 14,
           "hero_count_oldest": 14,
@@ -37,14 +37,13 @@
         },
         "30d": {
           "snapshots": 30,
-          "date_range": "20260722 ~ 20260821",
-          "hero_count_delta": 4,
+          "date_range": "20260723 ~ 20260822",
+          "hero_count_delta": 3,
           "hero_count_latest": 14,
-          "hero_count_oldest": 10,
+          "hero_count_oldest": 11,
           "new_heroes": [
             "吕布",
             "影",
-            "李信",
             "芈月"
           ],
           "dropped_heroes": []
@@ -53,7 +52,7 @@
       "abilities": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20260818 ~ 20260821",
+          "date_range": "20260819 ~ 20260822",
           "deltas": {
             "damage_output": 0.0,
             "teamfight": 0.0,
@@ -77,7 +76,7 @@
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20260814 ~ 20260821",
+          "date_range": "20260815 ~ 20260822",
           "deltas": {
             "damage_output": 0.0,
             "teamfight": 0.0,
@@ -101,7 +100,7 @@
         },
         "14d": {
           "snapshots": 14,
-          "date_range": "20260807 ~ 20260821",
+          "date_range": "20260808 ~ 20260822",
           "deltas": {
             "damage_output": 0.0,
             "teamfight": 0.0,
@@ -124,8 +123,8 @@
           }
         },
         "30d": {
-          "snapshots": 27,
-          "date_range": "20260725 ~ 20260821",
+          "snapshots": 28,
+          "date_range": "20260725 ~ 20260822",
           "deltas": {
             "damage_output": 2.0,
             "teamfight": -3.0,
@@ -151,7 +150,7 @@
       "ranking": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20260818 ~ 20260821",
+          "date_range": "20260819 ~ 20260822",
           "deltas": {
             "damage_per_minute": {
               "abs": 0.0,
@@ -187,7 +186,7 @@
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20260814 ~ 20260821",
+          "date_range": "20260815 ~ 20260822",
           "deltas": {
             "damage_per_minute": {
               "abs": 0.0,
@@ -223,7 +222,7 @@
         },
         "14d": {
           "snapshots": 14,
-          "date_range": "20260807 ~ 20260821",
+          "date_range": "20260808 ~ 20260822",
           "deltas": {
             "damage_per_minute": {
               "abs": 0.0,
@@ -258,8 +257,8 @@
           }
         },
         "30d": {
-          "snapshots": 27,
-          "date_range": "20260725 ~ 20260821",
+          "snapshots": 28,
+          "date_range": "20260725 ~ 20260822",
           "deltas": {
             "damage_per_minute": {
               "abs": 25.0,

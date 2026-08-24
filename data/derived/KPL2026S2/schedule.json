@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-23T09:01:34+08:00",
-  "build_id": "20260823T090134+0800",
+  "generated_at": "2026-08-24T09:01:34+08:00",
+  "build_id": "20260824T090134+0800",
   "data": {
     "season_id": "KPL2026S2",
     "season_name": "2026年KPL夏季赛",
     "team_name": "KSG",
-    "total_matches": 124,
+    "total_matches": 135,
     "ksg_matches": 16,
     "matches": [
       {
@@ -230,10 +230,12 @@
         "location": "杭州",
         "stage": "常规赛第三轮",
         "bo": 5,
-        "status": 1
+        "status": 4,
+        "score_a": 3,
+        "score_b": 1
       }
     ],
-    "updated_at": "2026-08-23T01:01:34.884159+00:00",
+    "updated_at": "2026-08-24T01:01:34.565841+00:00",
     "source_status": "ok"
   }
 }

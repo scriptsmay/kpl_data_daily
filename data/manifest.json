@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-23T09:01:17+08:00",
-  "build_id": "20260823T090117+0800",
-  "file_count": 1160,
+  "generated_at": "2026-08-24T09:01:17+08:00",
+  "build_id": "20260824T090117+0800",
+  "file_count": 1172,
   "files": [
     {
       "namespace": ".hash-index",
@@ -1013,6 +1013,15 @@
       "mtime": "2026-08-23T09:00:10+08:00"
     },
     {
+      "namespace": "all-player-stats",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "all-player-stats.KPL2026S2.20260824.json",
+      "hash": "aa921a5997baf6ca6e438b4ba4f530ea5a67225f1dbf46dc1618f19bd47a12a8",
+      "size": 6265,
+      "mtime": "2026-08-24T09:00:11+08:00"
+    },
+    {
       "namespace": "hero-win-rate",
       "season": "KCC2025",
       "date": "20260627",
@@ -2021,13 +2030,22 @@
       "mtime": "2026-08-23T09:00:33+08:00"
     },
     {
+      "namespace": "hero-win-rate",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "hero-win-rate.KPL2026S2.20260824.json",
+      "hash": "b1a5accb4126d35597e7c232b26feaad1eb23ef185d17b6ca42030258057c3d9",
+      "size": 42540,
+      "mtime": "2026-08-24T09:00:33+08:00"
+    },
+    {
       "namespace": "manifest",
       "season": null,
       "date": null,
       "file": "manifest.json",
-      "hash": "7ce6ee76c07898e58ae11f9bab29f616938311d531bae4e943eb64d855b1ba58",
-      "size": 355464,
-      "mtime": "2026-08-22T09:01:19+08:00"
+      "hash": "7b795a63eefe8ec4ded28875bb16423a2d5d4ea2672eaa34100c0fdf612409a8",
+      "size": 359206,
+      "mtime": "2026-08-23T09:01:18+08:00"
     },
     {
       "namespace": "player-abilities",
@@ -3020,6 +3038,15 @@
       "mtime": "2026-08-23T09:00:16+08:00"
     },
     {
+      "namespace": "player-abilities",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "player-abilities.KPL2026S2.20260824.json",
+      "hash": "34d4b96f016ef5f482759a7bd2fba3aabf2362788e6d24e9430de72a716e9f65",
+      "size": 3884,
+      "mtime": "2026-08-24T09:00:16+08:00"
+    },
+    {
       "namespace": "player-career-wuyan",
       "season": null,
       "date": "20260328",
@@ -3992,6 +4019,15 @@
       "mtime": "2026-08-23T09:00:28+08:00"
     },
     {
+      "namespace": "player-career-wuyan",
+      "season": null,
+      "date": "20260824",
+      "file": "player-career-wuyan.20260824.json",
+      "hash": "7f12340e5c6025a74782b4de14751d47c81371a1a0250de4735cbeb4c82d339a",
+      "size": 70607,
+      "mtime": "2026-08-24T09:00:28+08:00"
+    },
+    {
       "namespace": "player-hero-battles",
       "season": "KCC2025",
       "date": "20260627",
@@ -4683,6 +4719,15 @@
       "hash": "1b5a7ebaebea1741d1fa8dd5a4b51ed8c8b78e93d4e1fc0b2ef9ab6ad0c8c512",
       "size": 490111,
       "mtime": "2026-08-23T09:01:17+08:00"
+    },
+    {
+      "namespace": "player-hero-battles",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "player-hero-battles.KPL2026S2.20260824.json",
+      "hash": "f3518031e9f247daff32df0d564f13655e6842456c5c99755ec74f81af4ebfc0",
+      "size": 490111,
+      "mtime": "2026-08-24T09:01:17+08:00"
     },
     {
       "namespace": "player-hero-summary",
@@ -5558,6 +5603,15 @@
       "mtime": "2026-08-23T09:00:14+08:00"
     },
     {
+      "namespace": "player-hero-summary",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "player-hero-summary.KPL2026S2.20260824.json",
+      "hash": "1fbc6d196037fecb9bc38d6709ccc9c38080e3d261bfbb81d0cb00f4cc3e1bb1",
+      "size": 3997,
+      "mtime": "2026-08-24T09:00:15+08:00"
+    },
+    {
       "namespace": "player-lose-stats",
       "season": "KCC2025",
       "date": "20260627",
@@ -6429,6 +6483,15 @@
       "hash": "73148a1831c420b00307c6f14297062a97f70efbb390e301184739e1df8ba7bb",
       "size": 22910,
       "mtime": "2026-08-23T09:00:22+08:00"
+    },
+    {
+      "namespace": "player-lose-stats",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "player-lose-stats.KPL2026S2.20260824.json",
+      "hash": "f45912243aad6f22f27f7871e5ff389504d829253e524f0f843180c6efd15dc1",
+      "size": 22910,
+      "mtime": "2026-08-24T09:00:22+08:00"
     },
     {
       "namespace": "player-stats",
@@ -7493,6 +7556,15 @@
       "mtime": "2026-08-23T09:00:09+08:00"
     },
     {
+      "namespace": "player-stats",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "player-stats.KPL2026S2.20260824.json",
+      "hash": "cf656557a3a35dcc9aa1027aacd9f84ba5b0ad43d61a05e321abec63838d5b24",
+      "size": 5829,
+      "mtime": "2026-08-24T09:00:09+08:00"
+    },
+    {
       "namespace": "player-win-stats",
       "season": "KCC2025",
       "date": "20260627",
@@ -8366,6 +8438,15 @@
       "mtime": "2026-08-23T09:00:20+08:00"
     },
     {
+      "namespace": "player-win-stats",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "player-win-stats.KPL2026S2.20260824.json",
+      "hash": "67d186b10f4208c9e6fffb5802945ef65eb844e9be5165cb6af88b97032bfcfa",
+      "size": 22444,
+      "mtime": "2026-08-24T09:00:21+08:00"
+    },
+    {
       "namespace": "season-records",
       "season": "KCC2025",
       "date": "20260627",
@@ -9068,6 +9149,15 @@
       "mtime": "2026-08-23T09:00:29+08:00"
     },
     {
+      "namespace": "season-records",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "season-records.KPL2026S2.20260824.json",
+      "hash": "ddeafc8e96a64281fd79cce0c47e9741df4628f71fd31cfca327af426459c206",
+      "size": 537803,
+      "mtime": "2026-08-24T09:00:29+08:00"
+    },
+    {
       "namespace": "season",
       "season": "KCC2025",
       "date": "20260627",
@@ -9119,7 +9209,7 @@
       "file": "seasons-list.json",
       "hash": "0ddfe4d588d7b9dc6c9bf46b32d02396fd3d2b5ca547530bea7def72e4e24ed4",
       "size": 5425,
-      "mtime": "2026-08-23T09:00:07+08:00"
+      "mtime": "2026-08-24T09:00:08+08:00"
     },
     {
       "namespace": "team-damage-distribution",
@@ -9842,6 +9932,15 @@
       "mtime": "2026-08-23T09:00:32+08:00"
     },
     {
+      "namespace": "team-damage-distribution",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "team-damage-distribution.KPL2026S2.20260824.json",
+      "hash": "4adedea55e9770fdfed49e2b70aead7264a0f2e9b64cc00f9330c161d9b6801e",
+      "size": 53420,
+      "mtime": "2026-08-24T09:00:32+08:00"
+    },
+    {
       "namespace": "team-members",
       "season": "KCC2025",
       "date": null,
@@ -10443,6 +10542,15 @@
       "hash": "5ab89e2ce5f34c6c06c1b0bfa3bb9ef1c9c2afac6c75312992dc53db5ede83c5",
       "size": 319611,
       "mtime": "2026-08-23T09:00:30+08:00"
+    },
+    {
+      "namespace": "win-affinity-analysis",
+      "season": "KPL2026S2",
+      "date": "20260824",
+      "file": "win-affinity-analysis.KPL2026S2.20260824.json",
+      "hash": "5ab89e2ce5f34c6c06c1b0bfa3bb9ef1c9c2afac6c75312992dc53db5ede83c5",
+      "size": 319611,
+      "mtime": "2026-08-24T09:00:31+08:00"
     }
   ]
 }

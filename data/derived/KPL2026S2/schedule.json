@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-24T09:01:34+08:00",
-  "build_id": "20260824T090134+0800",
+  "generated_at": "2026-08-25T09:01:35+08:00",
+  "build_id": "20260825T090135+0800",
   "data": {
     "season_id": "KPL2026S2",
     "season_name": "2026年KPL夏季赛",
     "team_name": "KSG",
-    "total_matches": 135,
+    "total_matches": 136,
     "ksg_matches": 16,
     "matches": [
       {
@@ -235,7 +235,7 @@
         "score_b": 1
       }
     ],
-    "updated_at": "2026-08-24T01:01:34.565841+00:00",
+    "updated_at": "2026-08-25T01:01:35.809360+00:00",
     "source_status": "ok"
   }
 }

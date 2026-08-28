@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-08-27T09:01:17+08:00",
-  "build_id": "20260827T090117+0800",
-  "ai_elapsed_seconds": 11.44,
+  "generated_at": "2026-08-28T09:01:18+08:00",
+  "build_id": "20260828T090118+0800",
+  "ai_elapsed_seconds": 11.31,
   "ai_model": "deepseek-v4-flash:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "e1ed000261b1a0bc0dc0b109e9368a22e513fc5bea211def872e7ae8a01a0409",
+  "input_hash": "3a3267b0692efdef862f402f814f9d8cae8cefb94eca2813e44f79d9f27958d1",
   "data": {
     "headline": "无言本赛季 47 局，使用 14 个英雄",
     "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 88.05。",
@@ -42,8 +42,7 @@
         "evidence": [
           "本赛季 47 局，使用 14 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
           "已记录 21 个成长节点",
-          "已出现 10 个能力信号",
-          "正在观察 2 个能力维度"
+          "已出现 10 个能力信号"
         ],
         "risk_notes": [
           "胜率不单独作为评价依据"
@@ -61,8 +60,7 @@
         "evidence": [
           "位置排名：第 4 名",
           "总排名：第 14 名",
-          "高于同位置均值维度：10 个",
-          "低于同位置均值维度：2 个"
+          "高于同位置均值维度：10 个"
         ],
         "risk_notes": []
       },
@@ -80,7 +78,7 @@
           "KDA：排名第 12（3.29）",
           "分均伤害：排名第 14（3665.0）",
           "分均承伤：排名第 12（5288.0）",
-          "分均经济：排名第 8（665.0）",
+          "分均经济：排名第 7（665.0）",
           "参团率：排名第 10（67.0）"
         ],
         "risk_notes": []
@@ -103,13 +101,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '801e1373-8f15-4dfd-90b0-9dc005774935'}",
-    "generated_at": "2026-08-27T09:01:17+08:00",
-    "build_id": "20260827T090117+0800",
-    "ai_elapsed_seconds": 11.44,
+    "fallback_reason": "api_error: Error code: 429 - {'code': 'EXCEED_TOKEN_QUOTA_LIMIT', 'message': 'Token usage exceeded quota limit. For more information, please refer to https://docs.cloudbase.net/error-code/service/EXCEED_TOKEN_QUOTA_LIMIT', 'requestId': '1bc15492-b28c-42c1-b730-55149321ce0b'}",
+    "generated_at": "2026-08-28T09:01:18+08:00",
+    "build_id": "20260828T090118+0800",
+    "ai_elapsed_seconds": 11.31,
     "ai_model": "deepseek-v4-flash:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "e1ed000261b1a0bc0dc0b109e9368a22e513fc5bea211def872e7ae8a01a0409",
+    "input_hash": "3a3267b0692efdef862f402f814f9d8cae8cefb94eca2813e44f79d9f27958d1",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

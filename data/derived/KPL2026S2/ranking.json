@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-09-01T09:01:17+08:00",
-  "build_id": "20260901T090117+0800",
+  "generated_at": "2026-09-02T09:01:17+08:00",
+  "build_id": "20260902T090117+0800",
   "data": {
     "code": 200,
     "data": [
@@ -70,14 +70,14 @@
         "fastest_first_blood_time": "1:01",
         "fastest_first_blood_time_rank": 8,
         "first_blood_count": 7.0,
-        "first_blood_count_rank": 3,
+        "first_blood_count_rank": 4,
         "jungle_share": "13.4%",
         "jungle_share_rank": 2,
         "kda_ratio": 3.29,
-        "kda_ratio_rank": 11,
+        "kda_ratio_rank": 10,
         "kill_share": "18.8%",
         "kill_share_rank": 12,
-        "last_updated": "2026-08-31 15:53:17",
+        "last_updated": "2026-09-01 14:36:25",
         "master_control_rate": "0.0%",
         "master_control_rate_rank": 11,
         "max_assists_single_game": 12.0,
@@ -126,7 +126,7 @@
         "total_red_buff": 42.0,
         "total_red_buff_rank": 4,
         "win_rate": "48.9%",
-        "win_rate_rank": 10
+        "win_rate_rank": 11
       }
     ],
     "position": null,

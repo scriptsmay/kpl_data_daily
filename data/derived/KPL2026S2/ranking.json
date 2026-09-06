@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-09-05T09:01:17+08:00",
-  "build_id": "20260905T090117+0800",
+  "generated_at": "2026-09-06T09:01:13+08:00",
+  "build_id": "20260906T090113+0800",
   "data": {
     "code": 200,
     "data": [
       {
         "avg_assists": 4.13,
-        "avg_assists_rank": 8,
+        "avg_assists_rank": 7,
         "avg_blue_buff": 0.11,
         "avg_blue_buff_rank": 14,
         "avg_deaths": 1.7,
@@ -49,7 +49,7 @@
         "damage_share": "17.2%",
         "damage_share_rank": 14,
         "damage_taken_per_minute": 5288.0,
-        "damage_taken_per_minute_rank": 12,
+        "damage_taken_per_minute_rank": 13,
         "damage_taken_share": "23.8%",
         "damage_taken_share_rank": 10,
         "damage_to_adc_percentage": 14.35,
@@ -85,7 +85,7 @@
         "kda_ratio_rank": 11,
         "kill_share": "18.8%",
         "kill_share_rank": 11,
-        "last_updated": "2026-09-04 15:09:43",
+        "last_updated": "2026-09-05 15:23:44",
         "master_control_rate": "0.0%",
         "master_control_rate_rank": 11,
         "max_assists_single_game": 12.0,

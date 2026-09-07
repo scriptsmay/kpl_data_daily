@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-09-06T09:01:13+08:00",
-  "build_id": "20260906T090113+0800",
-  "ai_elapsed_seconds": 17.88,
+  "generated_at": "2026-09-07T09:01:14+08:00",
+  "build_id": "20260907T090114+0800",
+  "ai_elapsed_seconds": 41.88,
   "ai_model": "MiniMax-M3:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "3d5e561fe683d038de619194fd5eae9fd4f7cd9221b4e3b4f51956c7a91d11cb",
+  "input_hash": "f89c8fa8c0017f6657d9ebe8d4c7dc8a1f301caaa7fd69c939c1c3556b4c5630",
   "data": {
     "headline": "无言本赛季 47 局，使用 14 个英雄",
     "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 87.85。",
@@ -102,12 +102,12 @@
     ],
     "updated_reason": "fallback",
     "fallback_reason": "invalid_json: Expecting value: line 1 column 1 (char 0)",
-    "generated_at": "2026-09-06T09:01:13+08:00",
-    "build_id": "20260906T090113+0800",
-    "ai_elapsed_seconds": 17.88,
+    "generated_at": "2026-09-07T09:01:14+08:00",
+    "build_id": "20260907T090114+0800",
+    "ai_elapsed_seconds": 41.88,
     "ai_model": "MiniMax-M3:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "3d5e561fe683d038de619194fd5eae9fd4f7cd9221b4e3b4f51956c7a91d11cb",
+    "input_hash": "f89c8fa8c0017f6657d9ebe8d4c7dc8a1f301caaa7fd69c939c1c3556b4c5630",
     "ai_skipped_reason": "invalid_json"
   },
   "ai_skipped_reason": "invalid_json"

@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-09-06T09:01:13+08:00",
-  "build_id": "20260906T090113+0800",
+  "generated_at": "2026-09-07T09:01:14+08:00",
+  "build_id": "20260907T090114+0800",
   "data": {
     "code": 200,
     "data": [
       {
         "avg_assists": 4.13,
-        "avg_assists_rank": 7,
+        "avg_assists_rank": 6,
         "avg_blue_buff": 0.11,
         "avg_blue_buff_rank": 14,
         "avg_deaths": 1.7,
@@ -72,7 +72,7 @@
         "economy_per_minute": 665.0,
         "economy_per_minute_rank": 8,
         "economy_share": "21.4%",
-        "economy_share_rank": 4,
+        "economy_share_rank": 3,
         "fastest_first_blood_time": "1:01",
         "fastest_first_blood_time_rank": 8,
         "fight_win_num": 0.0,
@@ -85,7 +85,7 @@
         "kda_ratio_rank": 11,
         "kill_share": "18.8%",
         "kill_share_rank": 11,
-        "last_updated": "2026-09-05 15:23:44",
+        "last_updated": "2026-09-06 15:08:44",
         "master_control_rate": "0.0%",
         "master_control_rate_rank": 11,
         "max_assists_single_game": 12.0,

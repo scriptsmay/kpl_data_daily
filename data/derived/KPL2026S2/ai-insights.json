@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-09-08T09:01:13+08:00",
-  "build_id": "20260908T090113+0800",
-  "ai_elapsed_seconds": 10.19,
+  "generated_at": "2026-09-09T09:01:15+08:00",
+  "build_id": "20260909T090115+0800",
+  "ai_elapsed_seconds": 7.95,
   "ai_model": "MiniMax-M3:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "8d03d00a7967f6723ef2b6fc6b7421cb2fae4d110e0d8635c1eb83d5aba0d53e",
+  "input_hash": "cb32dbf8af75be95a3be3d4b0932726007d1da57458d49a10c07260c0945d58d",
   "data": {
     "headline": "无言本赛季 47 局，使用 14 个英雄",
     "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 87.85。",
@@ -101,13 +101,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 402 - {'error': {'message': \"litellm.APIError: APIError: OpenAIException - Error code: 402 - {'error': 'Insufficient balance', 'reason': 'model_access_denied'}. Received Model Group=MiniMax-M3\\nAvailable Model Group Fallbacks=None\", 'type': None, 'param': None, 'code': '402'}}",
-    "generated_at": "2026-09-08T09:01:13+08:00",
-    "build_id": "20260908T090113+0800",
-    "ai_elapsed_seconds": 10.19,
+    "fallback_reason": "api_error: Error code: 400 - {'error': {'message': 'litellm.BadRequestError: You passed in model=MiniMax-M3. There are no healthy deployments for this model. Received Model Group=MiniMax-M3\\nAvailable Model Group Fallbacks=None', 'type': None, 'param': None, 'code': '400'}}",
+    "generated_at": "2026-09-09T09:01:15+08:00",
+    "build_id": "20260909T090115+0800",
+    "ai_elapsed_seconds": 7.95,
     "ai_model": "MiniMax-M3:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "8d03d00a7967f6723ef2b6fc6b7421cb2fae4d110e0d8635c1eb83d5aba0d53e",
+    "input_hash": "cb32dbf8af75be95a3be3d4b0932726007d1da57458d49a10c07260c0945d58d",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

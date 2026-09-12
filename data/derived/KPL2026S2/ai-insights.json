@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S2",
-  "generated_at": "2026-09-11T09:01:13+08:00",
-  "build_id": "20260911T090113+0800",
-  "ai_elapsed_seconds": 7.15,
+  "generated_at": "2026-09-12T09:01:14+08:00",
+  "build_id": "20260912T090114+0800",
+  "ai_elapsed_seconds": 7.16,
   "ai_model": "MiniMax-M3:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "5605c31f1dcc3453eda755cfd7cf5bb9e0d3fad0f51682628fb079fa7c1b1da7",
+  "input_hash": "9877ed7db46943966cdb9bf24787260ce47d6277dcda791e6ff4b922d272f535",
   "data": {
     "headline": "无言本赛季 47 局，使用 14 个英雄",
     "summary": "生涯累计 161 局。本赛季英雄池覆盖 14 个英雄，能力评分 87.85。",
@@ -102,12 +102,12 @@
     ],
     "updated_reason": "fallback",
     "fallback_reason": "api_error: Error code: 400 - {'error': {'message': 'litellm.BadRequestError: You passed in model=MiniMax-M3. There are no healthy deployments for this model. Received Model Group=MiniMax-M3\\nAvailable Model Group Fallbacks=None', 'type': None, 'param': None, 'code': '400'}}",
-    "generated_at": "2026-09-11T09:01:13+08:00",
-    "build_id": "20260911T090113+0800",
-    "ai_elapsed_seconds": 7.15,
+    "generated_at": "2026-09-12T09:01:14+08:00",
+    "build_id": "20260912T090114+0800",
+    "ai_elapsed_seconds": 7.16,
     "ai_model": "MiniMax-M3:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "5605c31f1dcc3453eda755cfd7cf5bb9e0d3fad0f51682628fb079fa7c1b1da7",
+    "input_hash": "9877ed7db46943966cdb9bf24787260ce47d6277dcda791e6ff4b922d272f535",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

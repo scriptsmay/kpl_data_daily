@@ -174,10 +174,16 @@ def generate_latest(current_season: str, current_info: Dict[str, str], generated
             dst.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(src, dst)
 
-    career = latest_file("player-career-wuyan")
-    if career:
-        dst = LATEST_PATH / "player-career-wuyan.json"
-        shutil.copyfile(career, dst)
+    for career_ns in ["player-career-wuyan", "player-career-wuyan-league", "player-career-wuyan-cup"]:
+        career = latest_file(career_ns)
+        if career:
+            dst = LATEST_PATH / f"{career_ns}.json"
+            shutil.copyfile(career, dst)
+            
+    records = latest_file("player-match-records")
+    if records:
+        dst = LATEST_PATH / "player-match-records.json"
+        shutil.copyfile(records, dst)
 
 
 def unwrap_data(payload: Any) -> Any:
@@ -694,11 +700,17 @@ def _ensure_latest_for_season(season: str, generated_at: str, current_build_id: 
             dst = season_subdir / f"{namespace}.json"
             shutil.copyfile(src, dst)
 
-    # player-career-wuyan 无赛季后缀 → latest/
-    career = latest_file("player-career-wuyan")
-    if career:
-        dst = season_latest / "player-career-wuyan.json"
-        shutil.copyfile(career, dst)
+    # player-career-wuyan 等跨赛季产物 → latest/
+    for career_ns in ["player-career-wuyan", "player-career-wuyan-league", "player-career-wuyan-cup"]:
+        career = latest_file(career_ns)
+        if career:
+            dst = season_latest / f"{career_ns}.json"
+            shutil.copyfile(career, dst)
+            
+    records = latest_file("player-match-records")
+    if records:
+        dst = season_latest / "player-match-records.json"
+        shutil.copyfile(records, dst)
 
     print(f"[INFO] latest 数据已准备：{season}（{len(namespaces)} 个命名空间）")
     return season_latest

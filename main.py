@@ -729,6 +729,51 @@ def fetch_season_data(
     print(f"{'=' * 50}")
 
     return {"success": success_count, "fail": fail_count, "skip": skip_count, "details": details}
+    
+def fetch_wuyan_match_records(crawler: KPLCrawler, storage: KPLStorage) -> dict:
+    """全量抓取并过滤无言的比赛记录 (非特定赛季，常量化产物)"""
+    url = "http://47.102.210.150:5022/api/records?season=all"
+    print(f"  [FETCH] 比赛记录全量: {url}...")
+    try:
+        data = crawler.fetch(url, timeout=60, delay=REQUEST_DELAY_LARGE)
+        if isinstance(data, list):
+            records = data
+        elif isinstance(data, dict) and "data" in data:
+            records = data["data"]
+        else:
+            records = []
+            
+        filtered_records = []
+        for r in records:
+            if "无言" in str(r):
+                filtered_records.append(r)
+                
+        # 去重
+        seen = set()
+        deduped = []
+        for r in filtered_records:
+            rid = r.get("record_id")
+            if rid not in seen:
+                seen.add(rid)
+                deduped.append(r)
+                
+        # 降序
+        deduped.sort(key=lambda x: x.get("date", ""), reverse=True)
+        
+        if deduped:
+            # 裸文件覆盖式落盘 (不带日期前缀)
+            # storage.save 将生成 data/player-match-records.json
+            filepath = os.path.join(storage.data_dir, "player-match-records.json")
+            with open(filepath, "w", encoding="utf-8") as f:
+                json.dump(deduped, f, ensure_ascii=False, indent=2)
+            print(f"✓ 成功过滤并落盘 {len(deduped)} 条无言比赛记录")
+            return {"success": True, "count": len(deduped)}
+        else:
+            print("✗ 未找到匹配的记录")
+            return {"success": False}
+    except Exception as e:
+        print(f"✗ 异常: {e}")
+        return {"success": False, "error": str(e)}
 
 
 def fetch_hero_battles_for_season(
@@ -936,6 +981,15 @@ def run(season_id: str = None, force: bool = False) -> int:
         fetch_hero_battles(crawler, storage, season_id_val)
     except Exception as e:
         print(f"[ERROR] 英雄对局详情采集异常: {e}")
+
+    print("\n" + "-" * 50)
+    print("[STEP 2.5] 比赛记录全量采集")
+    print("-" * 50)
+    
+    try:
+        fetch_wuyan_match_records(crawler, storage)
+    except Exception as e:
+        print(f"[ERROR] 比赛记录采集异常: {e}")
 
     print("\n" + "=" * 50)
     print(f"采集完成：成功 {success_count} 个，失败 {fail_count} 个，跳过 {skip_count} 个")

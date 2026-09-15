@@ -99,6 +99,20 @@ APIS: List[Dict] = [
         "no_season": True,
     },
     {
+        "namespace": "player-career-wuyan-league",
+        "url": "http://47.102.210.150:5049/api/player-career?player_name=KSG.%E6%97%A0%E8%A8%80&season_type=league",
+        "update_freq": "daily",
+        "enabled": True,
+        "no_season": True,
+    },
+    {
+        "namespace": "player-career-wuyan-cup",
+        "url": "http://47.102.210.150:5049/api/player-career?player_name=KSG.%E6%97%A0%E8%A8%80&season_type=cup",
+        "update_freq": "daily",
+        "enabled": True,
+        "no_season": True,
+    },
+    {
         "namespace": "season-records",
         "url": "http://47.102.210.150:5022/api/records?season={season_id}",
         "update_freq": "daily",

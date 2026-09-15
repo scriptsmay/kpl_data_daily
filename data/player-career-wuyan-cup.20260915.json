@@ -1,0 +1,654 @@
+{
+  "code": 200,
+  "data": {
+    "career_summary": {
+      "avg_assists": 3.33,
+      "avg_deaths": 1.57,
+      "avg_kills": 1.53,
+      "date_range": "2025-12-09 至 2026-04-25",
+      "first_match_id": "2025120901",
+      "first_season_id": "KCC2025",
+      "kda_ratio": 3.11,
+      "last_match_id": "2026042501",
+      "last_season_id": "KCC2026",
+      "lose_battles": 15,
+      "match_loses": 3,
+      "match_win_rate": "50.0%",
+      "match_wins": 3,
+      "mvp_count": 0,
+      "season_type_filter": "cup",
+      "seasons_covered": [
+        {
+          "is_latest": 0,
+          "project": null,
+          "season_type": "杯赛",
+          "tournament_id": "KCC2025",
+          "tournament_name": "2025王者荣耀挑战者杯"
+        },
+        {
+          "is_latest": 0,
+          "project": null,
+          "season_type": "杯赛",
+          "tournament_id": "KCC2026",
+          "tournament_name": "2026王者荣耀挑战者杯"
+        }
+      ],
+      "total_assists": 100,
+      "total_battles": 30,
+      "total_deaths": 47,
+      "total_kills": 46,
+      "total_matches": 6,
+      "win_battles": 15,
+      "win_rate": "50.0%"
+    },
+    "hero_stats": [
+      {
+        "battles": 5,
+        "hero_id": "537",
+        "hero_name": "司空震",
+        "loses": 4,
+        "win_rate": "20.0%",
+        "wins": 1
+      },
+      {
+        "battles": 5,
+        "hero_id": "503",
+        "hero_name": "狂铁",
+        "loses": 2,
+        "win_rate": "60.0%",
+        "wins": 3
+      },
+      {
+        "battles": 5,
+        "hero_id": "536",
+        "hero_name": "夏洛特",
+        "loses": 2,
+        "win_rate": "60.0%",
+        "wins": 3
+      },
+      {
+        "battles": 5,
+        "hero_id": "518",
+        "hero_name": "马超",
+        "loses": 3,
+        "win_rate": "40.0%",
+        "wins": 2
+      },
+      {
+        "battles": 4,
+        "hero_id": "128",
+        "hero_name": "曹操",
+        "loses": 3,
+        "win_rate": "25.0%",
+        "wins": 1
+      },
+      {
+        "battles": 3,
+        "hero_id": "140",
+        "hero_name": "关羽",
+        "loses": 1,
+        "win_rate": "66.7%",
+        "wins": 2
+      },
+      {
+        "battles": 1,
+        "hero_id": "564",
+        "hero_name": "姬小满",
+        "loses": 0,
+        "win_rate": "100.0%",
+        "wins": 1
+      },
+      {
+        "battles": 1,
+        "hero_id": "123",
+        "hero_name": "吕布",
+        "loses": 0,
+        "win_rate": "100.0%",
+        "wins": 1
+      },
+      {
+        "battles": 1,
+        "hero_id": "510",
+        "hero_name": "孙策",
+        "loses": 0,
+        "win_rate": "100.0%",
+        "wins": 1
+      }
+    ],
+    "match_details": [
+      {
+        "battles_by_bo": [
+          {
+            "assists": 0,
+            "bo": 1,
+            "deaths": 2,
+            "game_duration": 835,
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "1/2/0",
+            "kills": 1
+          },
+          {
+            "assists": 1,
+            "bo": 2,
+            "deaths": 2,
+            "game_duration": 740,
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "2/2/1",
+            "kills": 2
+          },
+          {
+            "assists": 3,
+            "bo": 3,
+            "deaths": 2,
+            "game_duration": 879,
+            "hero_id": "536",
+            "hero_name": "夏洛特",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/2/3",
+            "kills": 0
+          },
+          {
+            "assists": 4,
+            "bo": 4,
+            "deaths": 3,
+            "game_duration": 1299,
+            "hero_id": "128",
+            "hero_name": "曹操",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "1/3/4",
+            "kills": 1
+          }
+        ],
+        "loses": 3,
+        "match_date": "2026-04-25",
+        "match_id": "2026042501",
+        "match_is_win": false,
+        "match_score": "1:3",
+        "match_score_source": "schedule_results",
+        "opponent_team_name": "广州TTG",
+        "played_battles": 4,
+        "played_loses": 3,
+        "played_wins": 1,
+        "schedule_id": "KCC2026M1W1D1",
+        "season_id": "KCC2026",
+        "team_name": "KSG",
+        "total_battles": 4,
+        "wins": 1
+      },
+      {
+        "battles_by_bo": [
+          {
+            "assists": 1,
+            "bo": 1,
+            "deaths": 2,
+            "game_duration": 653,
+            "hero_id": "536",
+            "hero_name": "夏洛特",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/2/1",
+            "kills": 0
+          },
+          {
+            "assists": 2,
+            "bo": 2,
+            "deaths": 4,
+            "game_duration": 744,
+            "hero_id": "140",
+            "hero_name": "关羽",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/4/2",
+            "kills": 0
+          },
+          {
+            "assists": 1,
+            "bo": 3,
+            "deaths": 0,
+            "game_duration": 755,
+            "hero_id": "537",
+            "hero_name": "司空震",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "1/0/1",
+            "kills": 1
+          },
+          {
+            "assists": 4,
+            "bo": 4,
+            "deaths": 4,
+            "game_duration": 1102,
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/4/4",
+            "kills": 0
+          }
+        ],
+        "loses": 4,
+        "match_date": "2025-12-26",
+        "match_id": "2025122602",
+        "match_is_win": false,
+        "match_score": "0:4",
+        "match_score_source": "schedule_results",
+        "opponent_team_name": "成都AG超玩会",
+        "played_battles": 4,
+        "played_loses": 4,
+        "played_wins": 0,
+        "schedule_id": "KCC2025M3W1D9",
+        "season_id": "KCC2025",
+        "team_name": "青训破军",
+        "total_battles": 4,
+        "wins": 0
+      },
+      {
+        "battles_by_bo": [
+          {
+            "assists": 4,
+            "bo": 1,
+            "deaths": 0,
+            "game_duration": 656,
+            "hero_id": "536",
+            "hero_name": "夏洛特",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "3/0/4",
+            "kills": 3
+          },
+          {
+            "assists": 4,
+            "bo": 2,
+            "deaths": 2,
+            "game_duration": 1367,
+            "hero_id": "537",
+            "hero_name": "司空震",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "1/2/4",
+            "kills": 1
+          },
+          {
+            "assists": 1,
+            "bo": 3,
+            "deaths": 2,
+            "game_duration": 906,
+            "hero_id": "140",
+            "hero_name": "关羽",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "2/2/1",
+            "kills": 2
+          },
+          {
+            "assists": 1,
+            "bo": 4,
+            "deaths": 2,
+            "game_duration": 726,
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/2/1",
+            "kills": 0
+          },
+          {
+            "assists": 3,
+            "bo": 5,
+            "deaths": 0,
+            "game_duration": 816,
+            "hero_id": "510",
+            "hero_name": "孙策",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/0/3",
+            "kills": 0
+          },
+          {
+            "assists": 3,
+            "bo": 6,
+            "deaths": 1,
+            "game_duration": 871,
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "2/1/3",
+            "kills": 2
+          },
+          {
+            "assists": 0,
+            "bo": 7,
+            "deaths": 1,
+            "game_duration": 681,
+            "hero_id": "128",
+            "hero_name": "曹操",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/1/0",
+            "kills": 0
+          }
+        ],
+        "loses": 4,
+        "match_date": "2025-12-25",
+        "match_id": "2025122502",
+        "match_is_win": false,
+        "match_score": "3:4",
+        "match_score_source": "schedule_results",
+        "opponent_team_name": "北京WB",
+        "played_battles": 7,
+        "played_loses": 4,
+        "played_wins": 3,
+        "schedule_id": "KCC2025M3W1D7",
+        "season_id": "KCC2025",
+        "team_name": "青训破军",
+        "total_battles": 7,
+        "wins": 3
+      },
+      {
+        "battles_by_bo": [
+          {
+            "assists": 2,
+            "bo": 1,
+            "deaths": 2,
+            "game_duration": 877,
+            "hero_id": "536",
+            "hero_name": "夏洛特",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/2/2",
+            "kills": 0
+          },
+          {
+            "assists": 7,
+            "bo": 2,
+            "deaths": 0,
+            "game_duration": 906,
+            "hero_id": "140",
+            "hero_name": "关羽",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "3/0/7",
+            "kills": 3
+          },
+          {
+            "assists": 4,
+            "bo": 3,
+            "deaths": 2,
+            "game_duration": 840,
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/2/4",
+            "kills": 0
+          },
+          {
+            "assists": 0,
+            "bo": 4,
+            "deaths": 1,
+            "game_duration": 747,
+            "hero_id": "537",
+            "hero_name": "司空震",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "2/1/0",
+            "kills": 2
+          },
+          {
+            "assists": 0,
+            "bo": 5,
+            "deaths": 1,
+            "game_duration": 786,
+            "hero_id": "128",
+            "hero_name": "曹操",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "0/1/0",
+            "kills": 0
+          },
+          {
+            "assists": 7,
+            "bo": 6,
+            "deaths": 2,
+            "game_duration": 982,
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "5/2/7",
+            "kills": 5
+          },
+          {
+            "assists": 8,
+            "bo": 7,
+            "deaths": 2,
+            "game_duration": 913,
+            "hero_id": "128",
+            "hero_name": "曹操",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "4/2/8",
+            "kills": 4
+          }
+        ],
+        "loses": 3,
+        "match_date": "2025-12-19",
+        "match_id": "2025121901",
+        "match_is_win": true,
+        "match_score": "4:3",
+        "match_score_source": "schedule_results",
+        "opponent_team_name": "KSG",
+        "played_battles": 7,
+        "played_loses": 3,
+        "played_wins": 4,
+        "schedule_id": "KCC2025M3W1D1",
+        "season_id": "KCC2025",
+        "team_name": "青训破军",
+        "total_battles": 7,
+        "wins": 4
+      },
+      {
+        "battles_by_bo": [
+          {
+            "assists": 4,
+            "bo": 1,
+            "deaths": 0,
+            "game_duration": 767,
+            "hero_id": "536",
+            "hero_name": "夏洛特",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "2/0/4",
+            "kills": 2
+          },
+          {
+            "assists": 6,
+            "bo": 2,
+            "deaths": 1,
+            "game_duration": 1098,
+            "hero_id": "123",
+            "hero_name": "吕布",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "2/1/6",
+            "kills": 2
+          },
+          {
+            "assists": 2,
+            "bo": 3,
+            "deaths": 5,
+            "game_duration": 1244,
+            "hero_id": "537",
+            "hero_name": "司空震",
+            "is_mvp": false,
+            "is_win": false,
+            "kda": "3/5/2",
+            "kills": 3
+          },
+          {
+            "assists": 5,
+            "bo": 4,
+            "deaths": 2,
+            "game_duration": 1230,
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "3/2/5",
+            "kills": 3
+          },
+          {
+            "assists": 2,
+            "bo": 5,
+            "deaths": 0,
+            "game_duration": 781,
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "6/0/2",
+            "kills": 6
+          }
+        ],
+        "loses": 1,
+        "match_date": "2025-12-11",
+        "match_id": "2025121101",
+        "match_is_win": true,
+        "match_score": "4:1",
+        "match_score_source": "schedule_results",
+        "opponent_team_name": "SYG",
+        "played_battles": 5,
+        "played_loses": 1,
+        "played_wins": 4,
+        "schedule_id": "KCC2025M2W4D1",
+        "season_id": "KCC2025",
+        "team_name": "青训破军",
+        "total_battles": 5,
+        "wins": 4
+      },
+      {
+        "battles_by_bo": [
+          {
+            "assists": 7,
+            "bo": 1,
+            "deaths": 1,
+            "game_duration": 523,
+            "hero_id": "537",
+            "hero_name": "司空震",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/1/7",
+            "kills": 0
+          },
+          {
+            "assists": 5,
+            "bo": 2,
+            "deaths": 0,
+            "game_duration": 730,
+            "hero_id": "564",
+            "hero_name": "姬小满",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "3/0/5",
+            "kills": 3
+          },
+          {
+            "assists": 9,
+            "bo": 3,
+            "deaths": 1,
+            "game_duration": 742,
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/1/9",
+            "kills": 0
+          }
+        ],
+        "loses": 0,
+        "match_date": "2025-12-09",
+        "match_id": "2025120901",
+        "match_is_win": true,
+        "match_score": "3:0",
+        "match_score_source": "schedule_results",
+        "opponent_team_name": "APG",
+        "played_battles": 3,
+        "played_loses": 0,
+        "played_wins": 3,
+        "schedule_id": "KCC2025M2W2D1",
+        "season_id": "KCC2025",
+        "team_name": "青训破军",
+        "total_battles": 3,
+        "wins": 3
+      }
+    ],
+    "player_info": {
+      "first_appear_time": "2025-12-09 00:00:00",
+      "latest_match_time": "2025-12-19 00:00:00",
+      "latest_nickname": "KSG.无言",
+      "latest_team": "KSG",
+      "latest_tournament": "KPL2026S2",
+      "player_unique_id": "KPLP01538",
+      "real_name": "赵昊宇",
+      "total_games": 15,
+      "used_nicknames": "KSG.无言,青训破军.无言"
+    },
+    "season_stats": [
+      {
+        "assists": 92,
+        "avg_assists": 3.54,
+        "avg_deaths": 1.46,
+        "avg_kills": 1.62,
+        "battles": 26,
+        "deaths": 38,
+        "kda_ratio": 3.53,
+        "kills": 42,
+        "loses": 12,
+        "mvp": 0,
+        "season_id": "KCC2025",
+        "win_rate": "53.8%",
+        "wins": 14
+      },
+      {
+        "assists": 8,
+        "avg_assists": 2.0,
+        "avg_deaths": 2.25,
+        "avg_kills": 1.0,
+        "battles": 4,
+        "deaths": 9,
+        "kda_ratio": 1.33,
+        "kills": 4,
+        "loses": 3,
+        "mvp": 0,
+        "season_id": "KCC2026",
+        "win_rate": "25.0%",
+        "wins": 1
+      }
+    ],
+    "team_stats": [
+      {
+        "battles": 26,
+        "loses": 12,
+        "team_name": "青训破军",
+        "win_rate": "53.8%",
+        "wins": 14
+      },
+      {
+        "battles": 4,
+        "loses": 3,
+        "team_name": "KSG",
+        "win_rate": "25.0%",
+        "wins": 1
+      }
+    ]
+  }
+}

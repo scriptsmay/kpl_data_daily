@@ -1,0 +1,10 @@
+[Unit]
+Description=Run KPL Schedule Update every 6 hours
+
+[Timer]
+OnCalendar=*-*-* 00/6:00:00
+Persistent=true
+Unit=kpl-data-schedule.service
+
+[Install]
+WantedBy=timers.target

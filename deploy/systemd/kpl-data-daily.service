@@ -1,0 +1,15 @@
+[Unit]
+Description=KPL Daily Data Collection (main.py)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/kpl-data-daily
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/bin/bash /root/kpl-data-daily/scripts/run-crawl.sh main
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

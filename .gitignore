@@ -20,6 +20,9 @@ env/
 # Environment
 .env
 
+# 数据消费方写入的同步时间戳标记（本仓库不追踪）
+.last_sync_timestamp
+
 # OS
 .DS_Store
 .qwen/

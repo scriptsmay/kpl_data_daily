@@ -12,7 +12,7 @@
 4. **后处理与洞察** - `post_process.py` 生成 latest 快照、derived 分析、规则洞察
 5. **AI 分析** - 调用 LLM（OpenAI 兼容接口）生成中文赛事洞察 + Markdown 日报
 6. **历史赛季支持** - `-s` 参数可对历史赛季重新生成 derived 数据
-7. **自动同步** - GitHub Actions 每日自动执行并提交数据
+7. **定时采集** - 宿主机 systemd timer 每日执行，数据以 git 自动提交备份（见 deploy/README.md）
 
 ### 技术栈
 
@@ -20,7 +20,7 @@
 - **包管理**: uv（推荐）/ pip
 - **依赖**: requests, openai, python-dotenv
 - **AI 接口**: OpenAI 兼容 API（默认 qwen3.7-max，可配置）
-- **自动化**: GitHub Actions
+- **自动化**: systemd timer（宿主机）+ git 自动备份
 
 ## 项目结构
 
@@ -32,8 +32,7 @@ kpl_data_daily/
 ├── uv.lock                         # uv 锁文件
 ├── requirements.txt                # pip 依赖（兼容）
 ├── .env.example                    # 环境变量示例
-├── .github/workflows/
-│   └── daily-fetch.yml             # GitHub Actions 配置
+├── deploy/                         # systemd 单元与安装脚本（定时采集部署）
 ├── data/                           # 数据目录
 │   ├── *.json                      # 原始采集数据
 │   ├── latest/                     # 当前赛季最新快照
@@ -112,7 +111,7 @@ OPENAI_MODEL=gpt-4o-mini           # 可选，默认 gpt-4o-mini
 
 ### 定时执行
 
-GitHub Actions 每天 UTC 01:16（北京时间 09:16）自动执行。
+宿主机 systemd timer：全量采集每日 03:00（kpl-data-daily.timer），赛程采集每 6 小时整点（kpl-data-schedule.timer）。部署见 deploy/README.md。
 
 ## 数据处理流程
 

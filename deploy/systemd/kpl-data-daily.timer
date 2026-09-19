@@ -1,0 +1,10 @@
+[Unit]
+Description=Run KPL Daily Data Collection at 03:00 CST
+
+[Timer]
+OnCalendar=*-*-* 03:00:00
+Persistent=true
+Unit=kpl-data-daily.service
+
+[Install]
+WantedBy=timers.target

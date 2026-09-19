@@ -10,7 +10,7 @@ KPL 数据采集工具，每日定时抓取 API 数据，自动筛选关注的�
 - 🎯 **选手筛选**：自动从批量数据中筛选指定选手的数据
 - ⏰ **智能判断**：根据赛季日期自动判断是否执行采集
 - 💾 **历史积累**：保留所有历史数据，用于未来 AI 分析
-- 🔄 **自动同步**：GitHub Actions 每日自动采集、提交数据，并推送到 cheer-service API
+- 🔄 **定时采集**：宿主机 systemd timer 每日定时采集，数据以 git 自动提交备份（见 `deploy/README.md`）
 - 📅 **赛程采集**：定时抓取 KPL 官方赛程 API，筛选 KSG 战队比赛
 
 ## 快速开始
@@ -66,64 +66,44 @@ OPENAI_MODEL=gpt-4o-mini           # 可选，默认 gpt-4o-mini
 
 `main.py` 启动时会自动加载 `.env`。不配置时，AI 分析会被跳过，不影响数据采集。
 
-## GitHub Actions
+## 定时采集与数据同步
 
-### daily-fetch（每日定时）
-
-`.github/workflows/daily-fetch.yml` — 每天 UTC 01:16（北京时间 09:16）自动执行，一站式完成数据采集、赛程抓取和同步推送。
+采集由宿主机 systemd timer 调度（部署文件见 `deploy/`，安装与运维速查见
+`deploy/README.md`），历史方案为 GitHub Actions `daily-fetch.yml`，已于 2026-09 关闭。
 
 **执行流程：**
 
 ```
-Checkout → Python setup → Install deps
+systemd timer (每日 03:00 / 每 6 小时整点)
   │
-  ├─ 1. Fetch data (main.py + post_process.py)
-  ├─ 2. Fetch KPL schedule (scripts/fetch-schedule.py)
-  ├─ 3. Backfill historical seasons (可选)
-  ├─ 4. Commit & push data to Git
-  ├─ 5. POST overview → cheer-service /api/admin/sync/overview
-  └─ 6. POST schedule → cheer-service /api/admin/sync/schedule
+  ├─ 1. Fetch data (main.py + post_process.py)          # kpl-data-daily.timer
+  ├─ 2. Fetch KPL schedule (scripts/fetch-schedule.py)  # kpl-data-schedule.timer
+  ├─ 3. Commit & push data to Git (scripts/git-backup.sh)
+  └─ 4. Uptime heartbeat (.env 配置 UPTIME_PUSH_URL 时，仅每日采集上报)
 ```
 
 **手动触发：**
 
 ```bash
-gh workflow run daily-fetch.yml -R scriptsmay/kpl_data_daily
+systemctl start kpl-data-daily.service     # 全量采集
+systemctl start kpl-data-schedule.service  # 赛程采集
+journalctl -u kpl-data-daily.service -n 50 --no-pager
 ```
-
-支持以下 inputs：
-- `season` — 指定历史赛季 ID（如 `KPL2026S1`），留空则只跑当前赛季
-- `publish_historical` — 是否生成并提交 `data/seasons/{season}/`
-- `dry_run` — 只生成和校验，不提交不推送
-
-### backfill-seasons（手动）
-
-`.github/workflows/backfill-seasons.yml` — 手动触发，批量回填历史赛季数据。
-
-### 所需 GitHub Secrets
-
-| Secret 名 | 用途 |
-|---|---|
-| `MY_TOKEN` | GitHub Actions 推送数据的 PAT |
-| `OPENAI_API_KEY` | AI 分析功能 |
-| `OPENAI_BASE_URL` | AI API 地址（可选） |
-| `OPENAI_MODEL` | AI 模型名（可选） |
-| `CHEER_API_URL` | cheer-service API 地址（如 `https://api.kplwuyan.site`） |
-| `CHEER_SYNC_KEY` | 数据同步 API Key（与 cheer-service 的 `SYNC_API_KEY` 一致） |
 
 ### 数据同步架构
 
 ```
-kpl-data-daily (GitHub Actions)
+kpl-data-daily (宿主机 systemd timer)
   │
   ├── 采集数据 → git commit & push（仓库长期积累）
   │
-  └── HTTP POST → cheer-service API → MongoDB
-       ├── /api/admin/sync/overview  (赛季概览)
-       └── /api/admin/sync/schedule  (赛程数据)
+  └── 落盘 data/ → 消费方只读挂载本仓库目录
+       └── cheer-service 容器基于文件变更检测，读取后写入自身 MongoDB
 ```
 
-采集完成后，数据通过 HTTP POST 推送到 [cheer-service](https://github.com/scriptsmay/cheer-service) 的同步 API，由 cheer-service 负责写入 MongoDB。推送步骤使用 `continue-on-error: true`，即使推送失败也不影响数据采集和 Git 提交。
+消费方以只读方式挂载本仓库目录，基于文件修改时间检测变更后自行同步存储；
+本仓库不感知消费方的存在，也不执行推送对接。git 备份失败只告警不阻断采集，
+连续多日无 `auto:` 提交即为采集停摆信号。
 
 ## 配置说明
 
@@ -247,7 +227,7 @@ APIS = [
 
 - **容错机制**：单个接口请求失败不会中断整个流程，会继续执行后续接口
 - **重试机制**：使用 urllib3 的 Retry，遇到 429/500/502/503/504 会自动重试
-- **GitHub Actions**：使用 `continue-on-error` 确保即使部分失败也能提交已成功采集的数据
+- **定时任务**：单次运行部分接口失败不视为整体失败（main.py 有成功即返回 0），由 systemd timer 下个窗口自然重试
 
 ## 采集流程
 
@@ -314,9 +294,9 @@ APIS = [
 }
 ```
 
-### GitHub Actions
+### 定时采集
 
-赛程采集已合并到 `daily-fetch.yml` 中，每天 UTC 01:16（北京时间 09:16）与数据采集一起执行。采集完成后：
+赛程采集由 `kpl-data-schedule.timer` 每 6 小时整点触发（`scripts/fetch-schedule.py`），每次运行：
 
-1. 保存 `schedule.json` 到 Git 仓库
-2. POST 推送到 cheer-service `/api/admin/sync/schedule`，由 cheer-service 写入 MongoDB
+1. 保存 `data/derived/{season}/schedule.json` 并随数据一起 git 备份
+2. 消费方（cheer-service 容器）从只读挂载目录读取该文件写入自身 MongoDB

@@ -56,20 +56,25 @@ bash "$REPO_ROOT/scripts/git-backup.sh" "$msg" || log "git backup failed (non-fa
 if [ "$MODE" = "main" ]; then
   url="$(env_value UPTIME_PUSH_URL)"
   if [ -n "$url" ]; then
-    case "$url" in
-      *\?*) sep='&' ;;
-      *)    sep='?' ;;
-    esac
+    # .env 里的 URL 可能被配成自带 query（如 ?status=up&msg=OK）：直接追加会产生
+    # 重复参数，kuma 把重复 status 解析成数组后按非 up 判 Down、甚至 404。
+    # 统一截掉旧 query，用标准参数重建（2026-09-20 告警根因）。
+    base="${url%%\?*}"
     if [ "$ok" -eq 1 ]; then
-      if curl -fsS --max-time 10 "${url}${sep}status=up&msg=OK" >/dev/null 2>&1; then
-        log "heartbeat sent: up"
-      else
-        log "heartbeat send failed"
-      fi
+      qs="status=up&msg=OK"
     else
-      curl -fsS --max-time 10 "${url}${sep}status=down&msg=crawl%20failed" >/dev/null 2>&1 || true
-      log "heartbeat sent: down"
+      qs="status=down&msg=crawl%20failed"
     fi
+    sent=0
+    for i in 1 2 3; do
+      if curl -fsS --max-time 10 "${base}?${qs}" >/dev/null 2>&1; then
+        log "heartbeat sent ($qs, attempt $i/3)"
+        sent=1
+        break
+      fi
+      [ "$i" -lt 3 ] && sleep 10
+    done
+    [ "$sent" -eq 0 ] && log "WARNING: heartbeat failed after 3 attempts"
   else
     log "UPTIME_PUSH_URL not set in .env, heartbeat skipped"
   fi

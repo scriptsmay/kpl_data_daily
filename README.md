@@ -69,7 +69,7 @@ OPENAI_MODEL=gpt-4o-mini           # 可选，默认 gpt-4o-mini
 ## 定时采集与数据同步
 
 采集由宿主机 systemd timer 调度（部署文件见 `deploy/`，安装与运维速查见
-`deploy/README.md`），历史方案为 GitHub Actions `daily-fetch.yml`，已于 2026-09 关闭。
+`deploy/README.md`）。
 
 **执行流程：**
 
@@ -296,7 +296,4 @@ APIS = [
 
 ### 定时采集
 
-赛程采集由 `kpl-data-schedule.timer` 每 6 小时整点触发（`scripts/fetch-schedule.py`），每次运行：
-
-1. 保存 `data/derived/{season}/schedule.json` 并随数据一起 git 备份
-2. 消费方（cheer-service 容器）从只读挂载目录读取该文件写入自身 MongoDB
+赛程采集由 `kpl-data-schedule.timer` 每 6 小时整点触发，输出 `data/derived/{season}/schedule.json`，随数据一起 git 备份；消费方（cheer-service 容器）从只读挂载目录读取后写入自身 MongoDB。

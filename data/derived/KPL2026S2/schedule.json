@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-09-29T18:00:02+08:00",
-  "build_id": "20260929T180002+0800",
+  "generated_at": "2026-09-30T12:00:02+08:00",
+  "build_id": "20260930T120002+0800",
   "data": {
     "season_id": "KPL2026S3",
     "season_name": "2026KPL年度总决赛",
     "team_name": "KSG",
-    "total_matches": 36,
+    "total_matches": 37,
     "ksg_matches": 6,
     "matches": [
       {
@@ -83,7 +83,7 @@
         "status": 1
       }
     ],
-    "updated_at": "2026-09-29T10:00:02.245749+00:00",
+    "updated_at": "2026-09-30T04:00:02.429080+00:00",
     "source_status": "ok"
   }
 }

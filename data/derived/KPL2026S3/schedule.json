@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "season": "KPL2026S3",
+  "generated_at": "2026-10-02T06:00:01+08:00",
+  "build_id": "20261002T060001+0800",
+  "data": {
+    "season_id": "KPL2026S3",
+    "season_name": "2026KPL年度总决赛",
+    "team_name": "KSG",
+    "total_matches": 37,
+    "ksg_matches": 6,
+    "matches": [
+      {
+        "schedule_id": "KPL2026S3M1W1D2",
+        "start_ts": 1790931600,
+        "date": "10-02 17:00",
+        "team_a": "KSG",
+        "team_b": "济南RW侠",
+        "is_ksg": true,
+        "location": "广州",
+        "stage": "擂台赛",
+        "bo": 5,
+        "status": 1
+      },
+      {
+        "schedule_id": "KPL2026S3M1W3D1",
+        "start_ts": 1791093600,
+        "date": "10-04 14:00",
+        "team_a": "KSG",
+        "team_b": "深圳DYG",
+        "is_ksg": true,
+        "location": "广州",
+        "stage": "擂台赛",
+        "bo": 5,
+        "status": 1
+      },
+      {
+        "schedule_id": "KPL2026S3M1W6D1",
+        "start_ts": 1791352800,
+        "date": "10-07 14:00",
+        "team_a": "KSG",
+        "team_b": "长沙TES.A",
+        "is_ksg": true,
+        "location": "广州",
+        "stage": "擂台赛",
+        "bo": 5,
+        "status": 1
+      },
+      {
+        "schedule_id": "KPL2026S3M3W1D1",
+        "start_ts": 1791795600,
+        "date": "10-12 17:00",
+        "team_a": "KSG",
+        "team_b": "南通Hero久竞",
+        "is_ksg": true,
+        "location": "广州",
+        "stage": "擂台赛",
+        "bo": 5,
+        "status": 1
+      },
+      {
+        "schedule_id": "KPL2026S3M3W5D1",
+        "start_ts": 1792227600,
+        "date": "10-17 17:00",
+        "team_a": "KSG",
+        "team_b": "杭州LGD.NBW",
+        "is_ksg": true,
+        "location": "广州",
+        "stage": "擂台赛",
+        "bo": 5,
+        "status": 1
+      },
+      {
+        "schedule_id": "KPL2026S3M3W6D1",
+        "start_ts": 1792314000,
+        "date": "10-18 17:00",
+        "team_a": "KSG",
+        "team_b": "上海EDG.M",
+        "is_ksg": true,
+        "location": "广州",
+        "stage": "擂台赛",
+        "bo": 5,
+        "status": 1
+      }
+    ],
+    "updated_at": "2026-10-01T22:00:01.996475+00:00",
+    "source_status": "ok"
+  }
+}

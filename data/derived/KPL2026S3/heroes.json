@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "season": "KPL2026S3",
+  "generated_at": "2026-10-02T03:00:22+08:00",
+  "build_id": "20261002T030022+0800",
+  "data": {
+    "summary": [],
+    "battles": {},
+    "league_win_rate": []
+  }
+}

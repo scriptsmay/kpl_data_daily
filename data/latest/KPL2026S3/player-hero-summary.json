@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "data": [],
+  "data_source": "player_hero_symbol_record table",
+  "description": "选手英雄池简要统计 (赛季: KPL2026S3)",
+  "filters": {
+    "hero_name": null,
+    "limit": 0,
+    "min_wins": 0,
+    "player_name": null,
+    "sort_by": "total_matches"
+  },
+  "season": "KPL2026S3",
+  "total": 0
+}

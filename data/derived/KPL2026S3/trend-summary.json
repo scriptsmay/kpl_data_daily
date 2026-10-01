@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "season": "KPL2026S3",
+  "generated_at": "2026-10-02T03:00:22+08:00",
+  "build_id": "20261002T030022+0800",
+  "data": {
+    "snapshots_available": 3,
+    "reference_date": "20261002",
+    "trends": {
+      "hero_pool": {
+        "3d": {
+          "snapshots": 1,
+          "hero_count_delta": null,
+          "new_heroes": [],
+          "dropped_heroes": []
+        },
+        "7d": {
+          "snapshots": 1,
+          "hero_count_delta": null,
+          "new_heroes": [],
+          "dropped_heroes": []
+        },
+        "14d": {
+          "snapshots": 1,
+          "hero_count_delta": null,
+          "new_heroes": [],
+          "dropped_heroes": []
+        },
+        "30d": {
+          "snapshots": 1,
+          "hero_count_delta": null,
+          "new_heroes": [],
+          "dropped_heroes": []
+        }
+      },
+      "abilities": {
+        "3d": {
+          "snapshots": 1
+        },
+        "7d": {
+          "snapshots": 1
+        },
+        "14d": {
+          "snapshots": 1
+        },
+        "30d": {
+          "snapshots": 1
+        }
+      },
+      "ranking": {
+        "3d": {
+          "snapshots": 1
+        },
+        "7d": {
+          "snapshots": 1
+        },
+        "14d": {
+          "snapshots": 1
+        },
+        "30d": {
+          "snapshots": 1
+        }
+      }
+    },
+    "anomalies": []
+  }
+}

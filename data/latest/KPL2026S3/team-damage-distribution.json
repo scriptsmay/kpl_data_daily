@@ -1,0 +1,592 @@
+{
+  "code": 200,
+  "data": {
+    "players": [
+      {
+        "damage_by_player": [
+          {
+            "damage": 16912,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 12517,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 10371,
+            "player_name": "济南RW侠.小俞"
+          },
+          {
+            "damage": 7505,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 4245,
+            "player_name": "济南RW侠.挽墨"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "24.3%",
+            "position": "top"
+          },
+          {
+            "percentage": "32.8%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "8.2%",
+            "position": "mid"
+          },
+          {
+            "percentage": "20.1%",
+            "position": "adc"
+          },
+          {
+            "percentage": "14.6%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "32.8%",
+            "position": "top"
+          },
+          {
+            "percentage": "21.0%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "10.6%",
+            "position": "mid"
+          },
+          {
+            "percentage": "13.5%",
+            "position": "adc"
+          },
+          {
+            "percentage": "22.0%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 12517,
+            "position": "top"
+          },
+          {
+            "damage": 16912,
+            "position": "jungle"
+          },
+          {
+            "damage": 4245,
+            "position": "mid"
+          },
+          {
+            "damage": 10371,
+            "position": "adc"
+          },
+          {
+            "damage": 7505,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.无言",
+        "player_position": "对抗路",
+        "player_unique_id": "KPLP01538",
+        "total_matches": 1
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 35382,
+            "player_name": "济南RW侠.小俞"
+          },
+          {
+            "damage": 29172,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 24808,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 18773,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 14924,
+            "player_name": "济南RW侠.挽墨"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "15.3%",
+            "position": "top"
+          },
+          {
+            "percentage": "20.2%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.1%",
+            "position": "mid"
+          },
+          {
+            "percentage": "28.8%",
+            "position": "adc"
+          },
+          {
+            "percentage": "23.7%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "23.6%",
+            "position": "top"
+          },
+          {
+            "percentage": "25.6%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "11.7%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.0%",
+            "position": "adc"
+          },
+          {
+            "percentage": "24.1%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 18773,
+            "position": "top"
+          },
+          {
+            "damage": 24808,
+            "position": "jungle"
+          },
+          {
+            "damage": 14924,
+            "position": "mid"
+          },
+          {
+            "damage": 35382,
+            "position": "adc"
+          },
+          {
+            "damage": 29172,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.句号",
+        "player_position": "打野",
+        "player_unique_id": "KPLP01343",
+        "total_matches": 1
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 40350,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 20916,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 16879,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 9277,
+            "player_name": "济南RW侠.挽墨"
+          },
+          {
+            "damage": 6830,
+            "player_name": "济南RW侠.小俞"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "17.9%",
+            "position": "top"
+          },
+          {
+            "percentage": "42.8%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "9.8%",
+            "position": "mid"
+          },
+          {
+            "percentage": "7.2%",
+            "position": "adc"
+          },
+          {
+            "percentage": "22.2%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "21.6%",
+            "position": "top"
+          },
+          {
+            "percentage": "27.0%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "14.0%",
+            "position": "mid"
+          },
+          {
+            "percentage": "9.8%",
+            "position": "adc"
+          },
+          {
+            "percentage": "27.6%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 16879,
+            "position": "top"
+          },
+          {
+            "damage": 40350,
+            "position": "jungle"
+          },
+          {
+            "damage": 9277,
+            "position": "mid"
+          },
+          {
+            "damage": 6830,
+            "position": "adc"
+          },
+          {
+            "damage": 20916,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.流浪",
+        "player_position": "中路",
+        "player_unique_id": "KPLP00968",
+        "total_matches": 1
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 39494,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 19776,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 15735,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 7556,
+            "player_name": "济南RW侠.小俞"
+          },
+          {
+            "damage": 7375,
+            "player_name": "济南RW侠.挽墨"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "17.5%",
+            "position": "top"
+          },
+          {
+            "percentage": "43.9%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "8.2%",
+            "position": "mid"
+          },
+          {
+            "percentage": "8.4%",
+            "position": "adc"
+          },
+          {
+            "percentage": "22.0%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "30.1%",
+            "position": "top"
+          },
+          {
+            "percentage": "27.4%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "6.6%",
+            "position": "mid"
+          },
+          {
+            "percentage": "12.4%",
+            "position": "adc"
+          },
+          {
+            "percentage": "23.4%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 15735,
+            "position": "top"
+          },
+          {
+            "damage": 39494,
+            "position": "jungle"
+          },
+          {
+            "damage": 7375,
+            "position": "mid"
+          },
+          {
+            "damage": 7556,
+            "position": "adc"
+          },
+          {
+            "damage": 19776,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.小屿",
+        "player_position": "发育路",
+        "player_unique_id": "KPLP01531",
+        "total_matches": 1
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 14167,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 6452,
+            "player_name": "济南RW侠.挽墨"
+          },
+          {
+            "damage": 4923,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 4680,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 3632,
+            "player_name": "济南RW侠.小俞"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "14.5%",
+            "position": "top"
+          },
+          {
+            "percentage": "41.9%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "19.1%",
+            "position": "mid"
+          },
+          {
+            "percentage": "10.7%",
+            "position": "adc"
+          },
+          {
+            "percentage": "13.8%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "21.5%",
+            "position": "top"
+          },
+          {
+            "percentage": "25.3%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "13.7%",
+            "position": "mid"
+          },
+          {
+            "percentage": "13.0%",
+            "position": "adc"
+          },
+          {
+            "percentage": "26.5%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 4923,
+            "position": "top"
+          },
+          {
+            "damage": 14167,
+            "position": "jungle"
+          },
+          {
+            "damage": 6452,
+            "position": "mid"
+          },
+          {
+            "damage": 3632,
+            "position": "adc"
+          },
+          {
+            "damage": 4680,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.烈峰峰",
+        "player_position": "游走",
+        "player_unique_id": "KPLP01537",
+        "total_matches": 1
+      }
+    ],
+    "position_averages": {
+      "中路": [
+        {
+          "percentage": "21.6%",
+          "position": "top"
+        },
+        {
+          "percentage": "27.0%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "14.0%",
+          "position": "mid"
+        },
+        {
+          "percentage": "9.8%",
+          "position": "adc"
+        },
+        {
+          "percentage": "27.6%",
+          "position": "support"
+        }
+      ],
+      "发育路": [
+        {
+          "percentage": "30.1%",
+          "position": "top"
+        },
+        {
+          "percentage": "27.4%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "6.6%",
+          "position": "mid"
+        },
+        {
+          "percentage": "12.4%",
+          "position": "adc"
+        },
+        {
+          "percentage": "23.4%",
+          "position": "support"
+        }
+      ],
+      "对抗路": [
+        {
+          "percentage": "32.8%",
+          "position": "top"
+        },
+        {
+          "percentage": "21.0%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "10.6%",
+          "position": "mid"
+        },
+        {
+          "percentage": "13.5%",
+          "position": "adc"
+        },
+        {
+          "percentage": "22.0%",
+          "position": "support"
+        }
+      ],
+      "打野": [
+        {
+          "percentage": "23.6%",
+          "position": "top"
+        },
+        {
+          "percentage": "25.6%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "11.7%",
+          "position": "mid"
+        },
+        {
+          "percentage": "15.0%",
+          "position": "adc"
+        },
+        {
+          "percentage": "24.1%",
+          "position": "support"
+        }
+      ],
+      "游走": [
+        {
+          "percentage": "21.5%",
+          "position": "top"
+        },
+        {
+          "percentage": "25.3%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "13.7%",
+          "position": "mid"
+        },
+        {
+          "percentage": "13.0%",
+          "position": "adc"
+        },
+        {
+          "percentage": "26.5%",
+          "position": "support"
+        }
+      ]
+    },
+    "season": "KPL2026S3",
+    "team_name": "KSG",
+    "total_players": 5
+  }
+}

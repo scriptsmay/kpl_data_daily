@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-03T22:00:10+08:00",
-  "build_id": "20261003T220010+0800",
+  "generated_at": "2026-10-04T03:00:31+08:00",
+  "build_id": "20261004T030031+0800",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 0.0,
@@ -54,7 +54,7 @@
       "damage_10min_per_minute": 0.0,
       "damage_per_minute": 3630.0,
       "damage_taken_per_minute": 6805.0,
-      "data_version": "v20261003_004735",
+      "data_version": "v20261004_013108",
       "economy_10min_details": [
         {
           "battle_id": "1790935560_1054884368_41",
@@ -71,7 +71,7 @@
         "白起"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-10-02 16:47:36",
+      "last_updated": "2026-10-03 17:31:09",
       "match_details": [
         {
           "battle_id": "1790935560_1054884368_41",
@@ -202,7 +202,7 @@
           "damage_10min_per_minute": 0.0,
           "damage_per_minute": 3630.0,
           "damage_taken_per_minute": 6805.0,
-          "data_version": "v20261003_004735",
+          "data_version": "v20261004_013108",
           "economy_10min_details": [
             {
               "battle_id": "1790935560_1054884368_41",
@@ -219,7 +219,7 @@
             "白起"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-10-02 16:47:36",
+          "last_updated": "2026-10-03 17:31:09",
           "match_details": [
             {
               "battle_id": "1790935560_1054884368_41",
@@ -307,12 +307,12 @@
       },
       "position_avg_economy": {
         "中路": 5554.0,
-        "发育路": 7294.0,
-        "对抗路": 6786.0,
-        "打野": 7153.0,
-        "游走": 4437.0
+        "发育路": 7293.0,
+        "对抗路": 6785.0,
+        "打野": 7154.0,
+        "游走": 4438.0
       },
-      "total_players": 22
+      "total_players": 56
     },
     "lose_source": {
       "code": 200,
@@ -326,7 +326,7 @@
         "season": "KPL2026S3"
       },
       "season": "KPL2026S3",
-      "total_players": 20
+      "total_players": 54
     }
   }
 }

@@ -43,13 +43,15 @@
 sudo bash deploy/setup-panel.sh
 ```
 
-- 监听 `127.0.0.1:8899`（`PANEL_BIND`/`PANEL_PORT` 可覆盖），公网经反代 + basic auth 暴露；
-- **API 鉴权**：页面（HTML）走反代 basicauth；`/api/*` 在反代层**豁免 basicauth**、由面板自身的
-  页面 token 把守——浏览器 fetch 不携带缓存的基本认证（Chromium/Safari 实测 401），面板把随机
-  token（`.panel-token`，600，不入库）注入登录后才能拿到的页面，JS 以 `X-Panel-Token` 头回传；
-  Caddy 站点块用 `handle @api path /api/*` 实现豁免（安全强度与 basicauth 等价：48 位随机 hex + HTTPS）。
-  命令行调 API 同样要带：
-  `curl -H "X-Panel-Token: $(cat /root/kpl-data-daily/.panel-token)" http://127.0.0.1:8899/api/status`；
+- 监听 `127.0.0.1:8899`（`PANEL_BIND`/`PANEL_PORT` 可覆盖），公网经反代暴露；**登录与会话由面板自身管理**——
+  未认证访问出登录表单页，`POST /login` 校验 `.panel-password`（600，不入库）成功后种 `kpl_session`
+  会话 cookie（HMAC 签名 + 7 天，HttpOnly SameSite=Lax）。不使用浏览器原生 basic auth 弹窗
+  （WebView/移动端不渲染该弹窗，实测表现为 401 空白页）；
+- **API 鉴权**：**会话 cookie 为主通道**（登录后浏览器自动携带，覆盖页面内所有 fetch）；`.panel-token`
+  （600，不入库）仍作为命令行通道被接受——`curl -H "X-Panel-Token: $(cat /root/kpl-data-daily/.panel-token)"
+  http://127.0.0.1:8899/api/status`。token 同时充当会话 cookie 的 HMAC 签名密钥。设计背景：曾用
+  反代 basicauth，实测浏览器 fetch 不携带缓存的基本认证（401），且原生弹窗在 WebView 不渲染，遂整体
+  改为面板内建表单登录；
 - 频率配置落 `/root/kpl-data-daily/.panel-config.json`（不入库）；interval 最小 **1 小时**
   （服务端硬校验，频率红线），1~24 小时或 daily `HH:MM` 两种模式；
 - 运行日志落 `logs/panel/<job>/*.log`（保留 60 份），运行历史 `logs/panel/history.json`；

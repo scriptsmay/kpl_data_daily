@@ -27,6 +27,7 @@ env/
 .panel-config.json
 .panel-config.json.broken
 .panel-token
+.panel-password
 logs/
 
 # OS

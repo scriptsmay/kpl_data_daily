@@ -49,6 +49,11 @@ if [ ! -f "$REPO_ROOT/.panel-token" ]; then
   chmod 600 "$REPO_ROOT/.panel-token"
   log "generated .panel-token (API 鉴权用，勿提交；curl 调 API 加 -H \"X-Panel-Token: \$(cat $REPO_ROOT/.panel-token)\")"
 fi
+if [ ! -f "$REPO_ROOT/.panel-password" ]; then
+  (openssl rand -base64 18 2>/dev/null | tr -d '/+=') > "$REPO_ROOT/.panel-password"
+  chmod 600 "$REPO_ROOT/.panel-password"
+  log "generated .panel-password (登录表单密码，勿提交)"
+fi
 if [ ! -f "$REPO_ROOT/.panel-config.json" ]; then
   cat > "$REPO_ROOT/.panel-config.json" <<'EOF'
 {

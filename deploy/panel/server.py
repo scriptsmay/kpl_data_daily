@@ -15,6 +15,7 @@
 时区：使用系统本地时区（宿主机应为 Asia/Shanghai），daily_at / next_run 均为本地时间。
 """
 
+import hmac
 import json
 import os
 import re
@@ -34,6 +35,7 @@ REPO_ROOT = os.environ.get(
 )
 CONFIG_PATH = os.path.join(REPO_ROOT, ".panel-config.json")
 TOKEN_PATH = os.path.join(REPO_ROOT, ".panel-token")
+PASSWORD_PATH = os.path.join(REPO_ROOT, ".panel-password")
 LOG_ROOT = os.path.join(REPO_ROOT, "logs", "panel")
 HISTORY_PATH = os.path.join(LOG_ROOT, "history.json")
 INDEX_HTML = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
@@ -367,6 +369,87 @@ def _token_ok(handler):
     return hmac.compare_digest(given.encode(), token.encode())
 
 
+LOGIN_PAGE = """<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>登录 · KPL 采集调度面板</title>
+<style>
+  :root { --bg:#0f1420; --card:#1a2130; --line:#2a3346; --fg:#e8ecf4; --dim:#8b95a9; --acc:#4f8ef7; --bad:#e05d5d; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:15px/1.6 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+         display:flex; align-items:center; justify-content:center; min-height:100vh; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px;
+          padding:32px 34px; width:min(360px, 92vw); }
+  h1 { font-size:18px; margin:0 0 4px; }
+  .sub { color:var(--dim); font-size:13px; margin-bottom:18px; }
+  label { font-size:13px; color:var(--dim); display:block; margin-bottom:5px; }
+  input { background:#111726; color:var(--fg); border:1px solid var(--line); border-radius:8px;
+          padding:9px 12px; font-size:15px; width:100%; }
+  input:focus { outline:1px solid var(--acc); }
+  button { background:var(--acc); color:#fff; border:0; border-radius:8px;
+           padding:9px 0; font-size:15px; width:100%; margin-top:14px; cursor:pointer; }
+  .err { color:var(--bad); font-size:13px; min-height:18px; margin-top:10px; }
+</style>
+</head>
+<body>
+  <form class="card" method="post" action="/login">
+    <h1>KPL 采集调度面板</h1>
+    <div class="sub">请输入面板密码登录</div>
+    <label for="password">密码</label>
+    <input type="password" id="password" name="password" autofocus autocomplete="current-password">
+    <button type="submit">登 录</button>
+    <div class="err">__ERROR__</div>
+  </form>
+</body>
+</html>
+"""
+
+
+def _load_password():
+    try:
+        with open(PASSWORD_PATH, "r", encoding="utf-8") as f:
+            return f.read().strip()
+    except OSError:
+        return ""
+
+
+def _sign(payload: str) -> str:
+    import hashlib
+    import hmac as hmac_mod
+    secret = _load_token() or "kpl-panel"
+    return hmac_mod.new(secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
+
+
+def _cookie_ok(handler):
+    """会话 cookie 校验：kpl_session=<过期时间戳>.<hmac 签名>（无状态，重启不失效）。"""
+    import time
+    raw = handler.headers.get("Cookie") or ""
+    for part in raw.split(";"):
+        part = part.strip()
+        if not part.startswith("kpl_session="):
+            continue
+        value = part[len("kpl_session="):]
+        exp_str, _, sig = value.partition(".")
+        if not exp_str or not sig:
+            return False
+        try:
+            exp = int(exp_str)
+        except ValueError:
+            return False
+        import hmac as hmac_mod
+        if not hmac_mod.compare_digest(_sign(exp_str).encode(), sig.encode()):
+            return False
+        return exp > int(time.time())
+    return False
+
+
+def _authed(handler):
+    return _cookie_ok(handler) or _token_ok(handler)
+
+
 class Handler(BaseHTTPRequestHandler):
     server_version = "kpl-cron-panel/1.0"
 
@@ -392,6 +475,15 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         path, _, query = self.path.partition("?")
         if path == "/" or path == "/index.html":
+            if not _authed(self):
+                body = LOGIN_PAGE.replace("__ERROR__", "")
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.send_header("Cache-Control", "no-store")
+                self.send_header("Content-Length", str(len(body.encode())))
+                self.end_headers()
+                self.wfile.write(body.encode())
+                return
             try:
                 with open(INDEX_HTML, "r", encoding="utf-8") as f:
                     body = f.read().replace("__PANEL_TOKEN__", _load_token()).encode()
@@ -404,7 +496,7 @@ class Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(body)
             return
-        if not _token_ok(self):
+        if not _authed(self):
             return self._json({"error": "unauthorized"}, 401)
         if path == "/api/healthz":
             return self._json({"ok": True})
@@ -447,7 +539,9 @@ class Handler(BaseHTTPRequestHandler):
         return self._json({"error": "not found"}, 404)
 
     def do_POST(self):
-        if not _token_ok(self):
+        if self.path == "/login":
+            return self._handle_login()
+        if not _authed(self):
             return self._json({"error": "unauthorized"}, 401)
         length = int(self.headers.get("Content-Length") or 0)
         raw = self.rfile.read(length) if length else b"{}"
@@ -476,6 +570,35 @@ class Handler(BaseHTTPRequestHandler):
             ok, msg = trigger_manual(m.group(1))
             return self._json({"ok": ok, "message": msg}, 200 if ok else 409)
         return self._json({"error": "not found"}, 404)
+
+    def _handle_login(self):
+        """表单登录：密码正确则种 7 天会话 cookie 并跳回面板。"""
+        from urllib.parse import parse_qs
+        length = int(self.headers.get("Content-Length") or 0)
+        body = self.rfile.read(length).decode("utf-8", "replace") if length else ""
+        given = parse_qs(body).get("password", [""])[0]
+        expected = _load_password()
+        if not expected or not given:
+            return self._login_page("密码不能为空")
+        if not hmac.compare_digest(given.encode(), expected.encode()):
+            time.sleep(1)  # 拖慢爆破
+            return self._login_page("密码错误")
+        exp = str(int(time.time()) + 7 * 24 * 3600)
+        cookie = f"kpl_session={exp}.{_sign(exp)}; Path=/; HttpOnly; SameSite=Lax; Max-Age=604800"
+        self.send_response(302)
+        self.send_header("Location", "/")
+        self.send_header("Set-Cookie", cookie)
+        self.send_header("Content-Length", "0")
+        self.end_headers()
+
+    def _login_page(self, error=""):
+        body = LOGIN_PAGE.replace("__ERROR__", error)
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Cache-Control", "no-store")
+        self.send_header("Content-Length", str(len(body.encode())))
+        self.end_headers()
+        self.wfile.write(body.encode())
 
 
 class Server(socketserver.ThreadingTCPServer):

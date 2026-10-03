@@ -35,7 +35,10 @@ if systemctl list-unit-files 2>/dev/null | grep -qE '^kpl-data-(daily|schedule)\
 fi
 
 python3 --version
-ss -tln | grep -q ":${PANEL_PORT} " && { echo "ERROR: port ${PANEL_PORT} already in use" >&2; exit 1; } || true
+# 端口冲突只挡「面板未在跑」的场景；面板本身在跑时端口被自己占用属正常（重跑=更新重启）
+if ! systemctl is-active --quiet kpl-cron-panel.service; then
+  ss -tln | grep -q ":${PANEL_PORT} " && { echo "ERROR: port ${PANEL_PORT} already in use" >&2; exit 1; } || true
+fi
 
 install -m 644 "$UNIT_SRC" "$UNIT_DST"
 

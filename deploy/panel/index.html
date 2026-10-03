@@ -65,7 +65,7 @@ const JOB_LABEL = { main: "全量采集（main.py）", schedule: "赛程采集�
 // 服务端注入的 API token（登录 basicauth 后才拿得到本页；浏览器 fetch 不携带
 // 缓存的 basic auth，故 API 鉴权走此头，勿手工改动本行占位符）
 const TOKEN = "__PANEL_TOKEN__";
-const $ = (p, s) => p.querySelector(s);
+const $ = (sel) => document.querySelector(sel);
 
 function esc(s){ return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 

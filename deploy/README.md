@@ -44,6 +44,10 @@ sudo bash deploy/setup-panel.sh
 ```
 
 - 监听 `127.0.0.1:8899`（`PANEL_BIND`/`PANEL_PORT` 可覆盖），公网经反代 + basic auth 暴露；
+- **API 鉴权双门**：外层反代 basicauth；内层页面 token——浏览器 fetch 不携带缓存的基本认证
+  （Chromium/Safari 实测 401），面板把随机 token（`.panel-token`，600，不入库）注入登录后才能
+  拿到的页面，JS 以 `X-Panel-Token` 头回传。命令行调 API 同样要带：
+  `curl -H "X-Panel-Token: $(cat /root/kpl-data-daily/.panel-token)" http://127.0.0.1:8899/api/status`；
 - 频率配置落 `/root/kpl-data-daily/.panel-config.json`（不入库）；interval 最小 **1 小时**
   （服务端硬校验，频率红线），1~24 小时或 daily `HH:MM` 两种模式；
 - 运行日志落 `logs/panel/<job>/*.log`（保留 60 份），运行历史 `logs/panel/history.json`；

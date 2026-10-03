@@ -26,6 +26,7 @@ env/
 # kpl-cron-panel 运行时本地状态（不入库）
 .panel-config.json
 .panel-config.json.broken
+.panel-token
 logs/
 
 # OS

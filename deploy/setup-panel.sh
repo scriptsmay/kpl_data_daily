@@ -39,8 +39,13 @@ ss -tln | grep -q ":${PANEL_PORT} " && { echo "ERROR: port ${PANEL_PORT} already
 
 install -m 644 "$UNIT_SRC" "$UNIT_DST"
 
-# 日志目录与默认配置（已存在则不动）
+# 日志目录、默认配置与 API token（已存在则不动）
 mkdir -p "$REPO_ROOT/logs/panel/main" "$REPO_ROOT/logs/panel/schedule"
+if [ ! -f "$REPO_ROOT/.panel-token" ]; then
+  (openssl rand -hex 24 2>/dev/null || od -An -N24 -tx1 /dev/urandom | tr -d ' \n') > "$REPO_ROOT/.panel-token"
+  chmod 600 "$REPO_ROOT/.panel-token"
+  log "generated .panel-token (API 鉴权用，勿提交；curl 调 API 加 -H \"X-Panel-Token: \$(cat $REPO_ROOT/.panel-token)\")"
+fi
 if [ ! -f "$REPO_ROOT/.panel-config.json" ]; then
   cat > "$REPO_ROOT/.panel-config.json" <<'EOF'
 {

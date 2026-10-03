@@ -55,12 +55,16 @@
     <span class="meta">repo <b id="head">…</b> · 服务器时间 <b id="now">…</b></span>
   </header>
   <div class="meta">改完频率点「保存」即时生效（下一次触发按新锚点计算）；两个任务全局串行，撞点时后到者顺延。</div>
+  <div class="msg bad" id="loaderr"></div>
 
   <div id="jobs"></div>
 </div>
 
 <script>
 const JOB_LABEL = { main: "全量采集（main.py）", schedule: "赛程采集（fetch-schedule.py）" };
+// 服务端注入的 API token（登录 basicauth 后才拿得到本页；浏览器 fetch 不携带
+// 缓存的 basic auth，故 API 鉴权走此头，勿手工改动本行占位符）
+const TOKEN = "__PANEL_TOKEN__";
 const $ = (p, s) => p.querySelector(s);
 
 function esc(s){ return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
@@ -128,6 +132,7 @@ function histRows(list){
 }
 
 function render(d){
+  if (!d || !d.jobs) throw new Error("接口返回异常" + (d && d.error ? "（" + d.error + "）" : ""));
   $("#head").textContent = d.repo_head;
   $("#now").textContent = d.server_time.replace("T", " ");
   const wrap = $("#jobs");
@@ -144,13 +149,22 @@ function render(d){
 }
 
 async function api(path, opts){
+  opts = opts || {};
+  opts.headers = Object.assign({ "X-Panel-Token": TOKEN }, opts.headers || {});
   const res = await fetch(path, opts);
   const text = await res.text();
   let body; try { body = JSON.parse(text); } catch { body = { raw: text }; }
   return { ok: res.ok, status: res.status, body };
 }
 
-async function refresh(){ try { render((await api("/api/status")).body); } catch {} }
+async function refresh(){
+  try {
+    await render((await api("/api/status")).body);
+    $("#loaderr").textContent = "";
+  } catch (e) {
+    $("#loaderr").textContent = "加载失败：" + e + "（网络异常时刷新重试）";
+  }
+}
 
 function collect(name){
   const mode = $("#mode-" + name).value;

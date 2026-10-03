@@ -33,6 +33,7 @@ REPO_ROOT = os.environ.get(
     os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")),
 )
 CONFIG_PATH = os.path.join(REPO_ROOT, ".panel-config.json")
+TOKEN_PATH = os.path.join(REPO_ROOT, ".panel-token")
 LOG_ROOT = os.path.join(REPO_ROOT, "logs", "panel")
 HISTORY_PATH = os.path.join(LOG_ROOT, "history.json")
 INDEX_HTML = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
@@ -337,6 +338,35 @@ def _repo_head():
         return "?"
 
 
+def _load_token():
+    """面板 API token（setup-panel.sh 生成于 .panel-token）。
+
+    浏览器不会把缓存的基本认证附加到页面 fetch() 上（Chromium/Safari 实测 401），
+    故 API 鉴权不依赖 Authorization 头：token 由服务端注入登录后才能拿到的
+    index.html，页面 JS 以 X-Panel-Token 头回传——安全边界与 basicauth 等价。
+    """
+    try:
+        with open(TOKEN_PATH, "r", encoding="utf-8") as f:
+            return f.read().strip()
+    except OSError:
+        return ""
+
+
+def _token_ok(handler):
+    import hmac
+    token = _load_token()
+    if not token:
+        return False
+    given = handler.headers.get("X-Panel-Token") or ""
+    if not given:
+        _, _, query = handler.path.partition("?")
+        for part in query.split("&"):
+            if part.startswith("token="):
+                given = part[len("token="):]
+                break
+    return hmac.compare_digest(given.encode(), token.encode())
+
+
 class Handler(BaseHTTPRequestHandler):
     server_version = "kpl-cron-panel/1.0"
 
@@ -363,16 +393,19 @@ class Handler(BaseHTTPRequestHandler):
         path, _, query = self.path.partition("?")
         if path == "/" or path == "/index.html":
             try:
-                with open(INDEX_HTML, "rb") as f:
-                    body = f.read()
+                with open(INDEX_HTML, "r", encoding="utf-8") as f:
+                    body = f.read().replace("__PANEL_TOKEN__", _load_token()).encode()
             except OSError:
                 return self._text("index.html missing", 500)
             self.send_response(200)
             self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.send_header("Cache-Control", "no-store")
             self.send_header("Content-Length", str(len(body)))
             self.end_headers()
             self.wfile.write(body)
             return
+        if not _token_ok(self):
+            return self._json({"error": "unauthorized"}, 401)
         if path == "/api/healthz":
             return self._json({"ok": True})
         if path == "/api/status":
@@ -414,6 +447,8 @@ class Handler(BaseHTTPRequestHandler):
         return self._json({"error": "not found"}, 404)
 
     def do_POST(self):
+        if not _token_ok(self):
+            return self._json({"error": "unauthorized"}, 401)
         length = int(self.headers.get("Content-Length") or 0)
         raw = self.rfile.read(length) if length else b"{}"
         try:

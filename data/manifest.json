@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T17:00:16+08:00",
-  "build_id": "20261003T170016+0800",
+  "generated_at": "2026-10-03T18:00:16+08:00",
+  "build_id": "20261003T180016+0800",
   "file_count": 1463,
   "files": [
     {
@@ -2475,9 +2475,9 @@
       "season": null,
       "date": null,
       "file": "manifest.json",
-      "hash": "55e3475cf7cbbfdef2f63dd5f40347e54da1240ce5d4efadbbf471d98d3b741a",
+      "hash": "997225af140b4408afca9f7f5ac1745ceca7685c91647086d79d08be309018f6",
       "size": 453534,
-      "mtime": "2026-10-03T16:00:16+08:00"
+      "mtime": "2026-10-03T17:00:16+08:00"
     },
     {
       "namespace": "player-abilities",
@@ -8048,7 +8048,7 @@
       "file": "player-match-records.json",
       "hash": "87aee067489add4127657b1b1af330ef8cfa5d2f13035b605aa2e30e25cdbeb2",
       "size": 79382,
-      "mtime": "2026-10-03T17:00:16+08:00"
+      "mtime": "2026-10-03T18:00:16+08:00"
     },
     {
       "namespace": "player-stats",
@@ -11414,7 +11414,7 @@
       "file": "seasons-list.json",
       "hash": "aa47a32b6fd7b1e79e84f2210d8bd1111276f11830ef0e34600fd3c3054fad17",
       "size": 5565,
-      "mtime": "2026-10-03T17:00:13+08:00"
+      "mtime": "2026-10-03T18:00:13+08:00"
     },
     {
       "namespace": "team-damage-distribution",

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KPL 采集调度面板</title>
+<style>
+  :root { --bg:#0f1420; --card:#1a2130; --line:#2a3346; --fg:#e8ecf4; --dim:#8b95a9;
+          --acc:#4f8ef7; --ok:#3fb96f; --bad:#e05d5d; --warn:#e0a23f; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:15px/1.6 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; }
+  .wrap { max-width:860px; margin:0 auto; padding:24px 16px 60px; }
+  header { display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; margin-bottom:6px; }
+  h1 { font-size:20px; margin:0; }
+  .meta { color:var(--dim); font-size:13px; }
+  .meta b { color:var(--fg); font-weight:600; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px;
+          padding:18px 20px; margin-top:16px; }
+  .card h2 { margin:0 0 4px; font-size:16px; display:flex; align-items:center; gap:10px; }
+  .tag { font-size:12px; padding:1px 9px; border-radius:20px; border:1px solid var(--line); color:var(--dim); }
+  .tag.on  { color:var(--ok); border-color:var(--ok); }
+  .tag.off { color:var(--bad); border-color:var(--bad); }
+  .tag.run { color:var(--warn); border-color:var(--warn); }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:10px 18px; margin:12px 0; }
+  @media (max-width:620px){ .grid{ grid-template-columns:1fr; } }
+  label { font-size:13px; color:var(--dim); display:block; margin-bottom:3px; }
+  input, select { background:#111726; color:var(--fg); border:1px solid var(--line);
+                  border-radius:8px; padding:7px 10px; font-size:14px; width:100%; }
+  input:focus, select:focus { outline:1px solid var(--acc); }
+  .row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  button { background:var(--acc); color:#fff; border:0; border-radius:8px;
+           padding:8px 16px; font-size:14px; cursor:pointer; }
+  button.ghost { background:transparent; border:1px solid var(--line); color:var(--fg); }
+  button:disabled { opacity:.45; cursor:not-allowed; }
+  .kv { font-size:14px; }
+  .kv span { color:var(--dim); }
+  .hint { font-size:12.5px; color:var(--dim); margin-top:8px; }
+  pre { background:#0b0f18; border:1px solid var(--line); border-radius:8px; padding:12px;
+        font:12px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace; overflow:auto;
+        max-height:320px; white-space:pre-wrap; margin:8px 0 0; }
+  .hist { font-size:13px; margin-top:10px; }
+  .hist div { display:flex; gap:10px; padding:3px 0; border-bottom:1px dashed var(--line);
+              cursor:pointer; }
+  .hist div:hover { color:var(--acc); }
+  .hist .rc-ok { color:var(--ok); } .hist .rc-bad { color:var(--bad); }
+  .msg { font-size:13px; min-height:18px; margin-top:6px; }
+  .msg.ok { color:var(--ok); } .msg.bad { color:var(--bad); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>KPL 采集调度面板</h1>
+    <span class="meta">repo <b id="head">…</b> · 服务器时间 <b id="now">…</b></span>
+  </header>
+  <div class="meta">改完频率点「保存」即时生效（下一次触发按新锚点计算）；两个任务全局串行，撞点时后到者顺延。</div>
+
+  <div id="jobs"></div>
+</div>
+
+<script>
+const JOB_LABEL = { main: "全量采集（main.py）", schedule: "赛程采集（fetch-schedule.py）" };
+const $ = (p, s) => p.querySelector(s);
+
+function esc(s){ return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function jobCard(name, st){
+  const c = st.config;
+  const modeInt = c.mode === "interval";
+  return `
+  <div class="card" id="card-${name}">
+    <h2>${JOB_LABEL[name] || name}
+      <span class="tag ${st.running ? "run" : (c.enabled ? "on" : "off")}" id="tag-${name}">
+        ${st.running ? "执行中" : (c.enabled ? "已启用" : "已停用")}
+      </span>
+    </h2>
+    <div class="kv">下次执行：<b id="next-${name}">${st.next_run ? st.next_run.replace("T", " ") : (st.running ? "本轮结束后重排" : "—")}</b></div>
+    <div class="grid">
+      <div>
+        <label>调度模式</label>
+        <select id="mode-${name}">
+          <option value="interval" ${modeInt ? "selected" : ""}>每 N 小时（开赛期常用）</option>
+          <option value="daily" ${modeInt ? "" : "selected"}>每天定时（休赛期）</option>
+        </select>
+      </div>
+      <div id="int-box-${name}" style="display:${modeInt ? "" : "none"}">
+        <label>间隔小时数（1~24，最小 1 小时）+ 整点分钟</label>
+        <div class="row">
+          <input type="number" id="ih-${name}" min="1" max="24" value="${c.interval_hours}" style="width:90px">
+          <span>小时 · 第</span><input type="number" id="mi-${name}" min="0" max="59" value="${c.minute}" style="width:80px"><span>分</span>
+        </div>
+      </div>
+      <div id="daily-box-${name}" style="display:${modeInt ? "none" : ""}">
+        <label>每天执行时刻</label>
+        <input type="time" id="daily-${name}" value="${esc(c.daily_at)}">
+      </div>
+    </div>
+    <div class="row">
+      <button onclick="save('${name}')">保存频率</button>
+      <button class="ghost" onclick="runNow('${name}')">立即执行</button>
+      <button class="ghost" onclick="toggleEnabled('${name}', ${!c.enabled})">${c.enabled ? "停用" : "启用"}</button>
+      <button class="ghost" onclick="loadLog('${name}')">刷新日志</button>
+    </div>
+    <div class="msg" id="msg-${name}"></div>
+    <div class="kv" id="last-${name}">${lastLine(st.last)}</div>
+    <div class="hint">最近 10 次（点一行看日志）：</div>
+    <div class="hist" id="hist-${name}">${histRows(st.recent)}</div>
+    <pre id="log-${name}">（点击上方历史行或「刷新日志」查看）</pre>
+  </div>`;
+}
+
+function lastLine(h){
+  if (!h) return "最近一次：<span>暂无运行记录</span>";
+  const rc = h.exit_code === 0;
+  return `最近一次：<b class="${rc ? "" : ""}" style="color:${rc ? "var(--ok)" : "var(--bad)"}">${rc ? "成功" : "失败(exit " + h.exit_code + ")"}</b>
+    <span>· ${esc(h.started_at)} · 时长 ${h.duration_s}s · ${h.trigger === "manual" ? "手动" : "定时"}</span>`;
+}
+
+function histRows(list){
+  if (!list || !list.length) return "<div><span>暂无记录</span></div>";
+  return list.map(h => `
+    <div onclick="showLog('${h.job}','${h.log_file}')">
+      <span class="${h.exit_code === 0 ? "rc-ok" : "rc-bad"}">${h.exit_code === 0 ? "✓" : "✗ " + h.exit_code}</span>
+      <span>${esc(h.started_at)}</span><span>${h.duration_s}s</span>
+      <span>${h.trigger === "manual" ? "手动" : "定时"}</span><span style="color:var(--dim)">${esc(h.log_file)}</span>
+    </div>`).join("");
+}
+
+function render(d){
+  $("#head").textContent = d.repo_head;
+  $("#now").textContent = d.server_time.replace("T", " ");
+  const wrap = $("#jobs");
+  for (const [name, st] of Object.entries(d.jobs)){
+    if (!$("#card-" + name)){ wrap.insertAdjacentHTML("beforeend", jobCard(name, st)); continue; }
+    // 就地更新动态字段，避免轮询重置用户正在编辑的输入框
+    const tag = $("#tag-" + name);
+    tag.className = "tag " + (st.running ? "run" : (st.config.enabled ? "on" : "off"));
+    tag.textContent = st.running ? "执行中" : (st.config.enabled ? "已启用" : "已停用");
+    $("#next-" + name).textContent = st.next_run ? st.next_run.replace("T", " ") : (st.running ? "本轮结束后重排" : "—");
+    $("#last-" + name).innerHTML = lastLine(st.last);
+    $("#hist-" + name).innerHTML = histRows(st.recent);
+  }
+}
+
+async function api(path, opts){
+  const res = await fetch(path, opts);
+  const text = await res.text();
+  let body; try { body = JSON.parse(text); } catch { body = { raw: text }; }
+  return { ok: res.ok, status: res.status, body };
+}
+
+async function refresh(){ try { render((await api("/api/status")).body); } catch {} }
+
+function collect(name){
+  const mode = $("#mode-" + name).value;
+  const cfg = { mode };
+  if (mode === "interval"){
+    cfg.interval_hours = parseInt($("#ih-" + name).value, 10);
+    cfg.minute = parseInt($("#mi-" + name).value, 10);
+  } else {
+    cfg.daily_at = $("#daily-" + name).value;
+  }
+  return cfg;
+}
+
+async function save(name){
+  const msg = $("#msg-" + name);
+  const r = await api(`/api/jobs/${name}/config`, {
+    method: "POST", headers: {"Content-Type": "application/json"},
+    body: JSON.stringify(collect(name)),
+  });
+  msg.className = "msg " + (r.ok ? "ok" : "bad");
+  msg.textContent = r.ok ? "已保存，下次执行时间已按新频率重排" : ("保存失败：" + (r.body.error || r.status));
+  refresh();
+}
+
+async function toggleEnabled(name, enabled){
+  const msg = $("#msg-" + name);
+  const cur = collect(name);
+  const r = await api(`/api/jobs/${name}/config`, {
+    method: "POST", headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({ ...cur, mode: $("#mode-" + name).value, enabled }),
+  });
+  msg.className = "msg " + (r.ok ? "ok" : "bad");
+  msg.textContent = r.ok ? (enabled ? "已启用" : "已停用（保存的频率保留）") : ("操作失败：" + (r.body.error || r.status));
+  refresh();
+}
+
+async function runNow(name){
+  const msg = $("#msg-" + name);
+  const r = await api(`/api/jobs/${name}/run`, { method: "POST" });
+  msg.className = "msg " + (r.ok ? "ok" : "bad");
+  msg.textContent = r.body.message || (r.ok ? "已触发" : "触发失败");
+  refresh();
+}
+
+async function showLog(job, file){
+  const r = await api(`/api/jobs/${job}/log?name=${encodeURIComponent(file)}`);
+  const pre = $(`#log-${job}`);
+  // /log 返回 text/plain，api() 解析失败时落在 body.raw
+  pre.textContent = r.body.raw !== undefined ? r.body.raw : JSON.stringify(r.body, null, 1);
+  pre.dataset.file = file;
+  pre.dataset.loaded = pre.textContent;
+}
+
+async function loadLog(job){
+  const r = await api(`/api/jobs/${job}/log`);
+  const pre = $(`#log-${job}`);
+  pre.textContent = r.body.raw !== undefined ? r.body.raw : JSON.stringify(r.body);
+  pre.dataset.loaded = pre.textContent;
+  pre.removeAttribute("data-file");
+}
+
+setInterval(refresh, 5000);
+refresh();
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+[Unit]
+Description=KPL Crawl Schedule Panel (kpl-data-daily)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/kpl-data-daily
+ExecStart=/usr/bin/python3 /root/kpl-data-daily/deploy/panel/server.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

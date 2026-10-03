@@ -23,6 +23,11 @@ env/
 # 数据消费方写入的同步时间戳标记（本仓库不追踪）
 .last_sync_timestamp
 
+# kpl-cron-panel 运行时本地状态（不入库）
+.panel-config.json
+.panel-config.json.broken
+logs/
+
 # OS
 .DS_Store
 .qwen/

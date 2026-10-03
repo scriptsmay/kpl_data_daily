@@ -52,6 +52,32 @@ esac
 
 bash "$REPO_ROOT/scripts/git-backup.sh" "$msg" || log "git backup failed (non-fatal)"
 
+# 同步触发：采集完成后立即通知 cheer-service（Vercel）读 GitHub raw 入库，
+# 不必等它的 Vercel Cron（每日 03:20 UTC）兜底窗口——采集频率即同步频率。
+# /api/cron/daily 幂等（ETag 变更检测 + upsert + 进程内互斥），高频调用安全；
+# 失败不阻断（数据已落盘、git 已备份，Cron 窗口自然补上）。
+trigger_url="$(env_value SYNC_TRIGGER_URL)"
+if [ -n "$trigger_url" ]; then
+  trigger_secret="$(env_value SYNC_TRIGGER_SECRET)"
+  body="$(mktemp)"
+  trigger_ok=0
+  for i in 1 2; do
+    code="$(curl -sS -o "$body" -w '%{http_code}' --max-time 120 \
+      -H "Authorization: Bearer ${trigger_secret}" "$trigger_url" 2>/dev/null || echo 000)"
+    if [ "$code" = "200" ]; then
+      log "sync trigger ok (attempt $i/2): $(head -c 300 "$body")"
+      trigger_ok=1
+      break
+    fi
+    log "sync trigger attempt $i/2 failed (http $code)"
+    [ "$i" -lt 2 ] && sleep 15
+  done
+  [ "$trigger_ok" -eq 0 ] && log "WARNING: sync trigger failed; Vercel Cron daily window will catch up"
+  rm -f "$body"
+else
+  log "SYNC_TRIGGER_URL not set in .env, skip sync trigger"
+fi
+
 # 心跳只挂每日主采集：schedule 每 6 小时一次，若也发心跳会掩盖 main 停摆
 if [ "$MODE" = "main" ]; then
   url="$(env_value UPTIME_PUSH_URL)"

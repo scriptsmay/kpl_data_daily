@@ -60,7 +60,8 @@ fi
 
 systemd-analyze verify "$UNIT_DST"
 systemctl daemon-reload
-systemctl enable --now kpl-cron-panel.service
+systemctl enable kpl-cron-panel.service
+systemctl restart kpl-cron-panel.service
 sleep 1
 systemctl --no-pager status kpl-cron-panel.service | head -8
 

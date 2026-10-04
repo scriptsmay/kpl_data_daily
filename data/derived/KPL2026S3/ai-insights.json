@@ -1,149 +1,130 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-04T03:00:31+08:00",
-  "build_id": "20261004T030031+0800",
-  "ai_elapsed_seconds": 143.69,
+  "generated_at": "2026-10-05T03:00:44+08:00",
+  "build_id": "20261005T030044+0800",
+  "ai_elapsed_seconds": 336.27,
   "ai_model": "qwen3.8-max",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "5b6b984a956ea5dd2d6f42e2de7321d13f7fdf4aa1893e4e9e19d2cb5cdbec10",
+  "input_hash": "dfc788a956d0467950818462d030a9973445312c11fbe948595aa45d8b4a67e5",
   "data": {
-    "headline": "无言本赛季仅 1 局上场，白起成为当前样本内唯一测试英雄",
-    "summary": "本赛季样本为 1 局，生涯累计 162 局。当前更适合观察其上场机会、英雄池扩展与对抗路角色定位，不宜基于单局做稳定判断。",
+    "headline": "无言本赛季在有限出场中集中尝试 5 个对抗路英雄，英雄池扩展信号明显",
+    "summary": "本赛季 6 局样本中，无言使用 5 个英雄且均处于尝试阶段，同时能力评分和多项核心指标位于联盟前列。由于样本量较小，更适合观察其上场机会与英雄池变化。",
     "growth_stage": "机会积累期",
     "sections": [
       {
         "id": "hero_pool",
-        "title": "英雄池仍在单英雄测试阶段",
-        "summary": "本赛季样本内仅使用白起 1 局，英雄池覆盖 1 个英雄，集中度为 1.0000，属于低样本下的英雄尝试。",
+        "title": "英雄池处于集中尝试阶段",
+        "summary": "本赛季 6 局比赛中使用 5 个英雄，英雄使用相对分散，且所有英雄均处于尝试样本阶段。",
         "conclusion_type": "fact",
-        "confidence": "low",
-        "sample_size": 1,
+        "confidence": "medium",
+        "sample_size": 6,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "英雄总数：1",
-          "总出场局数：1",
-          "集中度（HHI）：1.0000",
-          "白起：出场 1 局，成熟度 尝试样本，历史 2 个赛季、4 局"
+          "本赛季英雄总数为 5，总出场局数为 6",
+          "英雄集中度（HHI）为 0.2222",
+          "马超、曹操、狂铁、白起、项羽的成熟度均为尝试样本"
         ],
         "risk_notes": [
-          "本赛季仅 1 局，英雄池观察仅能作为事实记录",
-          "英雄池仅覆盖 1 个英雄，角色定位仍在测试中"
+          "当前样本量较小，英雄池稳定性仍需后续比赛观察"
         ]
       },
       {
         "id": "growth_path",
-        "title": "上场机会仍处于积累阶段",
-        "summary": "本赛季仅 1 局上场，但生涯已累计 162 局并获得 22 次 MVP，后续观察重点是本赛季能否继续获得稳定轮换机会。",
+        "title": "上场样本仍在积累",
+        "summary": "无言本赛季出场 6 局，生涯累计 167 局，当前阶段更适合观察其上场机会与角色变化。",
         "conclusion_type": "fact",
-        "confidence": "low",
-        "sample_size": 1,
+        "confidence": "medium",
+        "sample_size": 6,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季仅 1 局上场",
-          "生涯累计 162 局",
-          "生涯累计 22 次 MVP",
-          "成长阶段：机会积累期"
+          "本赛季总出场局数为 6",
+          "生涯累计 167 局",
+          "当前成长阶段为机会积累期"
         ],
         "risk_notes": [
-          "样本量极低，仅展示事实记录",
-          "本赛季仅 1 局，所有趋势仅作为成长观察"
+          "样本量不足以进行稳定趋势判断"
         ]
       },
       {
         "id": "abilities",
-        "title": "能力画像偏向支援、坦度与团战参与",
-        "summary": "当前能力评分 74.67，位置排名第 8；支援 100.0、坦度 97.0、团战 89.0 较高，但开团 0.0 与后期 30.0 需要在更多样本中继续观察。",
+        "title": "能力评分处于较高位置",
+        "summary": "当前能力评分为 85.95，对抗路位置排名第 1，后期、支援、坦度等维度评分较高。",
         "conclusion_type": "signal",
-        "confidence": "low",
-        "sample_size": 1,
+        "confidence": "medium",
+        "sample_size": 6,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "综合评分：74.67",
-          "位置排名：第 8 名（对抗路）",
-          "支援：100.0",
-          "坦度：97.0",
-          "团战：89.0",
-          "开团：0.0",
-          "后期：30.0"
+          "综合评分为 85.95",
+          "位置排名第 1 名（对抗路）",
+          "后期评分 100.0，支援评分 100.0，坦度评分 96.0"
         ],
         "risk_notes": [
-          "能力评分基于当前有限样本，需结合后续比赛观察",
-          "开团与后期维度样本不足，不宜直接判断能力短板"
+          "能力评分受样本量和对手强度影响，需要结合后续比赛观察"
         ]
       },
       {
         "id": "ranking",
-        "title": "联盟排名前列指标集中在生存与参团相关数据",
-        "summary": "当前样本中，KDA、参团率、承伤占比进入联盟排名前列指标，反映其在该局中更偏向前排参与和承伤角色。",
-        "conclusion_type": "fact",
-        "confidence": "low",
-        "sample_size": 1,
+        "title": "KDA 与参团率进入联盟前列",
+        "summary": "在联盟核心指标排名中，KDA 和参团率进入前 3，是本赛季样本中较为突出的过程指标。",
+        "conclusion_type": "signal",
+        "confidence": "medium",
+        "sample_size": 6,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "排名前列指标（前 3）：KDA、参团率、承伤占比",
-          "KDA：15.0（排名第 1）",
-          "参团率：78.9（排名第 2）",
-          "承伤占比：35.4（排名第 1）",
-          "分均承伤：6805.0（排名第 4）"
+          "KDA 为 10.6，排名第 1",
+          "参团率为 70.7，排名第 3"
         ],
         "risk_notes": [
-          "排名数据来自单局样本，波动风险较高",
-          "不宜将单局排名外推为稳定联盟位置"
+          "排名基于当前样本，样本量较小时波动可能较大"
         ]
       },
       {
         "id": "win_lose",
-        "title": "胜负对比样本缺失，仅可记录胜局过程指标",
-        "summary": "当前没有败局数据可做对比，只能记录胜局中 KDA 15.0、分均承伤 6805.0、场均死亡 1.0 等过程指标。",
+        "title": "缺少败局对比数据",
+        "summary": "当前赛季样本中暂无败局数据，因此无法进行胜局与败局的过程指标对比。",
         "conclusion_type": "fact",
         "confidence": "low",
-        "sample_size": 1,
+        "sample_size": 6,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
           "有败局数据：否",
-          "胜局KDA：15.0",
-          "胜局分均承伤：6805.0",
-          "胜局场均死亡：1.0",
-          "胜局分均伤害：3630.0"
+          "胜局KDA为 10.6",
+          "胜局分均伤害为 4374.0"
         ],
         "risk_notes": [
-          "缺少败局样本，无法进行胜负差异分析",
-          "胜率不单独作为评价依据"
+          "缺少败局样本，胜负差异分析暂时不完整"
         ]
       },
       {
         "id": "team_structure",
-        "title": "队伍角色更像前排承伤与参团点",
-        "summary": "从当前单局数据看，无言在 KSG 的对抗路角色更靠近高参团率与高承伤占比的前排位置，后续需观察是否继续承担类似职责。",
+        "title": "参团率信号值得关注",
+        "summary": "当前样本中参团率达到 70.7，在联盟排名第 3，可能反映其在队伍团战参与中的较高参与度。",
         "conclusion_type": "hypothesis",
-        "confidence": "low",
-        "sample_size": 1,
+        "confidence": "medium",
+        "sample_size": 6,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "参团率：78.9（排名第 2）",
-          "承伤占比：35.4（排名第 1）",
-          "分均承伤：6805.0（排名第 4）",
-          "白起：出场 1 局"
+          "参团率为 70.7，排名第 3",
+          "联盟排名前列指标包含参团率"
         ],
         "risk_notes": [
-          "单局样本不足以确认稳定战术角色",
-          "需要结合后续比赛观察其是否持续承担前排职责"
+          "参团率可能受英雄选择和比赛节奏影响，需要更多样本验证"
         ]
       }
     ],
     "updated_reason": "daily_fetch",
-    "generated_at": "2026-10-04T03:00:31+08:00",
-    "build_id": "20261004T030031+0800",
-    "ai_elapsed_seconds": 143.69,
+    "generated_at": "2026-10-05T03:00:44+08:00",
+    "build_id": "20261005T030044+0800",
+    "ai_elapsed_seconds": 336.27,
     "ai_model": "qwen3.8-max",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "5b6b984a956ea5dd2d6f42e2de7321d13f7fdf4aa1893e4e9e19d2cb5cdbec10"
+    "input_hash": "dfc788a956d0467950818462d030a9973445312c11fbe948595aa45d8b4a67e5"
   }
 }

@@ -1,35 +1,35 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-04T03:00:31+08:00",
-  "build_id": "20261004T030031+0800",
+  "generated_at": "2026-10-05T03:00:44+08:00",
+  "build_id": "20261005T030044+0800",
   "data": {
     "player_info": {
       "first_appear_time": "2025-12-09 00:00:00",
-      "latest_match_time": "2026-10-02",
+      "latest_match_time": "2026-10-04",
       "latest_nickname": "KSG.无言",
       "latest_team": "KSG",
       "latest_tournament": "KPL2026S3",
       "player_unique_id": "KPLP01538",
       "real_name": "赵昊宇",
-      "total_games": 38,
+      "total_games": 39,
       "used_nicknames": "KSG.无言,青训破军.无言"
     },
     "career_summary": {
-      "avg_assists": 4.02,
-      "avg_deaths": 1.6,
-      "avg_kills": 1.7,
-      "date_range": "2025-12-09 至 2026-10-02",
+      "avg_assists": 4.06,
+      "avg_deaths": 1.58,
+      "avg_kills": 1.72,
+      "date_range": "2025-12-09 至 2026-10-04",
       "first_match_id": "2025120901",
       "first_season_id": "KCC2025",
-      "kda_ratio": 3.57,
-      "last_match_id": "2026100202",
+      "kda_ratio": 3.66,
+      "last_match_id": "2026100401",
       "last_season_id": "KPL2026S3",
       "lose_battles": 69,
       "match_loses": 16,
-      "match_win_rate": "57.9%",
-      "match_wins": 22,
-      "mvp_count": 22,
+      "match_win_rate": "59.0%",
+      "match_wins": 23,
+      "mvp_count": 24,
       "season_type_filter": "all",
       "seasons_covered": [
         {
@@ -68,13 +68,13 @@
           "tournament_name": "KPL2026年度总决赛"
         }
       ],
-      "total_assists": 652,
-      "total_battles": 162,
-      "total_deaths": 260,
-      "total_kills": 276,
-      "total_matches": 38,
-      "win_battles": 93,
-      "win_rate": "57.4%"
+      "total_assists": 678,
+      "total_battles": 167,
+      "total_deaths": 264,
+      "total_kills": 288,
+      "total_matches": 39,
+      "win_battles": 98,
+      "win_rate": "58.7%"
     },
     "season_stats": [
       {
@@ -138,28 +138,28 @@
         "wins": 23
       },
       {
-        "assists": 11,
-        "avg_assists": 11.0,
-        "avg_deaths": 1.0,
-        "avg_kills": 4.0,
-        "battles": 1,
-        "deaths": 1,
-        "kda_ratio": 15.0,
-        "kills": 4,
+        "assists": 37,
+        "avg_assists": 6.17,
+        "avg_deaths": 0.83,
+        "avg_kills": 2.67,
+        "battles": 6,
+        "deaths": 5,
+        "kda_ratio": 10.6,
+        "kills": 16,
         "loses": 0,
-        "mvp": 0,
+        "mvp": 2,
         "season_id": "KPL2026S3",
         "win_rate": "100.0%",
-        "wins": 1
+        "wins": 6
       }
     ],
     "team_stats": [
       {
-        "battles": 136,
+        "battles": 141,
         "loses": 57,
         "team_name": "KSG",
-        "win_rate": "58.1%",
-        "wins": 79
+        "win_rate": "59.6%",
+        "wins": 84
       },
       {
         "battles": 26,
@@ -179,20 +179,20 @@
         "wins": 21
       },
       {
-        "battles": 25,
+        "battles": 26,
         "hero_id": "503",
         "hero_name": "狂铁",
         "loses": 8,
-        "win_rate": "68.0%",
-        "wins": 17
+        "win_rate": "69.2%",
+        "wins": 18
       },
       {
-        "battles": 20,
+        "battles": 22,
         "hero_id": "518",
         "hero_name": "马超",
         "loses": 12,
-        "win_rate": "40.0%",
-        "wins": 8
+        "win_rate": "45.5%",
+        "wins": 10
       },
       {
         "battles": 18,
@@ -211,12 +211,12 @@
         "wins": 6
       },
       {
-        "battles": 13,
+        "battles": 14,
         "hero_id": "128",
         "hero_name": "曹操",
         "loses": 9,
-        "win_rate": "30.8%",
-        "wins": 4
+        "win_rate": "35.7%",
+        "wins": 5
       },
       {
         "battles": 8,
@@ -275,6 +275,14 @@
         "wins": 1
       },
       {
+        "battles": 2,
+        "hero_id": "135",
+        "hero_name": "项羽",
+        "loses": 1,
+        "win_rate": "50.0%",
+        "wins": 1
+      },
+      {
         "battles": 1,
         "hero_id": "510",
         "hero_name": "孙策",
@@ -289,14 +297,6 @@
         "loses": 0,
         "win_rate": "100.0%",
         "wins": 1
-      },
-      {
-        "battles": 1,
-        "hero_id": "135",
-        "hero_name": "项羽",
-        "loses": 1,
-        "win_rate": "0.0%",
-        "wins": 0
       },
       {
         "battles": 1,
@@ -320,6 +320,85 @@
         "battles_by_bo": [
           {
             "assists": 11,
+            "bo": 1,
+            "deaths": 2,
+            "game_duration": 1238,
+            "hero_id": "135",
+            "hero_name": "项羽",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/2/11",
+            "kills": 0
+          },
+          {
+            "assists": 7,
+            "bo": 2,
+            "deaths": 0,
+            "game_duration": 947,
+            "hero_id": "128",
+            "hero_name": "曹操",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "1/0/7",
+            "kills": 1
+          },
+          {
+            "assists": 3,
+            "bo": 3,
+            "deaths": 1,
+            "game_duration": 1006,
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": true,
+            "is_win": true,
+            "kda": "4/1/3",
+            "kills": 4
+          }
+        ],
+        "loses": 0,
+        "match_date": "2026-10-04",
+        "match_id": "2026100401",
+        "match_is_win": true,
+        "match_score": "3:0",
+        "match_score_source": "schedule_results",
+        "opponent_team_name": "深圳DYG",
+        "played_battles": 3,
+        "played_loses": 0,
+        "played_wins": 3,
+        "schedule_id": "KPL2026S3M1W3D1",
+        "season_id": "KPL2026S3",
+        "team_name": "KSG",
+        "total_battles": 3,
+        "wins": 3
+      },
+      {
+        "battles_by_bo": [
+          {
+            "assists": 2,
+            "bo": 1,
+            "deaths": 0,
+            "game_duration": 803,
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "1/0/2",
+            "kills": 1
+          },
+          {
+            "assists": 3,
+            "bo": 2,
+            "deaths": 1,
+            "game_duration": 687,
+            "hero_id": "518",
+            "hero_name": "马超",
+            "is_mvp": true,
+            "is_win": true,
+            "kda": "6/1/3",
+            "kills": 6
+          },
+          {
+            "assists": 11,
             "bo": 3,
             "deaths": 1,
             "game_duration": 852,
@@ -338,9 +417,9 @@
         "match_score": "3:0",
         "match_score_source": "schedule_results",
         "opponent_team_name": "济南RW侠",
-        "played_battles": 1,
+        "played_battles": 3,
         "played_loses": 0,
-        "played_wins": 1,
+        "played_wins": 3,
         "schedule_id": "KPL2026S3M1W1D2",
         "season_id": "KPL2026S3",
         "team_name": "KSG",
@@ -893,73 +972,6 @@
         "season_id": "KPL2026S2",
         "team_name": "KSG",
         "total_battles": 3,
-        "wins": 3
-      },
-      {
-        "battles_by_bo": [
-          {
-            "assists": 5,
-            "bo": 1,
-            "deaths": 2,
-            "game_duration": 877,
-            "hero_id": "140",
-            "hero_name": "关羽",
-            "is_mvp": false,
-            "is_win": true,
-            "kda": "0/2/5",
-            "kills": 0
-          },
-          {
-            "assists": 0,
-            "bo": 2,
-            "deaths": 0,
-            "game_duration": 694,
-            "hero_id": "518",
-            "hero_name": "马超",
-            "is_mvp": false,
-            "is_win": false,
-            "kda": "0/0/0",
-            "kills": 0
-          },
-          {
-            "assists": 3,
-            "bo": 3,
-            "deaths": 0,
-            "game_duration": 853,
-            "hero_id": "537",
-            "hero_name": "司空震",
-            "is_mvp": true,
-            "is_win": true,
-            "kda": "7/0/3",
-            "kills": 7
-          },
-          {
-            "assists": 12,
-            "bo": 4,
-            "deaths": 1,
-            "game_duration": 1371,
-            "hero_id": "503",
-            "hero_name": "狂铁",
-            "is_mvp": true,
-            "is_win": true,
-            "kda": "0/1/12",
-            "kills": 0
-          }
-        ],
-        "loses": 1,
-        "match_date": "2026-06-27",
-        "match_id": "2026062702",
-        "match_is_win": true,
-        "match_score": "3:1",
-        "match_score_source": "schedule_results",
-        "opponent_team_name": "深圳DYG",
-        "played_battles": 4,
-        "played_loses": 1,
-        "played_wins": 3,
-        "schedule_id": "KPL2026S2M2W4D2",
-        "season_id": "KPL2026S2",
-        "team_name": "KSG",
-        "total_battles": 4,
         "wins": 3
       }
     ]

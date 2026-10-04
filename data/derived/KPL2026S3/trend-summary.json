@@ -1,83 +1,99 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-04T03:00:31+08:00",
-  "build_id": "20261004T030031+0800",
+  "generated_at": "2026-10-05T03:00:44+08:00",
+  "build_id": "20261005T030044+0800",
   "data": {
-    "snapshots_available": 13,
-    "reference_date": "20261004",
+    "snapshots_available": 18,
+    "reference_date": "20261005",
     "trends": {
       "hero_pool": {
         "3d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
-          "hero_count_delta": 1,
-          "hero_count_latest": 1,
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
+          "hero_count_delta": 5,
+          "hero_count_latest": 5,
           "hero_count_oldest": 0,
           "new_heroes": [
-            "白起"
+            "曹操",
+            "狂铁",
+            "白起",
+            "项羽",
+            "马超"
           ],
           "dropped_heroes": []
         },
         "7d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
-          "hero_count_delta": 1,
-          "hero_count_latest": 1,
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
+          "hero_count_delta": 5,
+          "hero_count_latest": 5,
           "hero_count_oldest": 0,
           "new_heroes": [
-            "白起"
+            "曹操",
+            "狂铁",
+            "白起",
+            "项羽",
+            "马超"
           ],
           "dropped_heroes": []
         },
         "14d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
-          "hero_count_delta": 1,
-          "hero_count_latest": 1,
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
+          "hero_count_delta": 5,
+          "hero_count_latest": 5,
           "hero_count_oldest": 0,
           "new_heroes": [
-            "白起"
+            "曹操",
+            "狂铁",
+            "白起",
+            "项羽",
+            "马超"
           ],
           "dropped_heroes": []
         },
         "30d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
-          "hero_count_delta": 1,
-          "hero_count_latest": 1,
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
+          "hero_count_delta": 5,
+          "hero_count_latest": 5,
           "hero_count_oldest": 0,
           "new_heroes": [
-            "白起"
+            "曹操",
+            "狂铁",
+            "白起",
+            "项羽",
+            "马超"
           ],
           "dropped_heroes": []
         }
       },
       "abilities": {
         "3d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "7d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
@@ -85,29 +101,29 @@
       },
       "ranking": {
         "3d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "7d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 3,
-          "date_range": "20261002 ~ 20261004",
+          "snapshots": 4,
+          "date_range": "20261002 ~ 20261005",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}

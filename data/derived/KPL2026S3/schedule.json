@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-04T15:00:05+08:00",
-  "build_id": "20261004T150005+0800",
+  "generated_at": "2026-10-04T16:00:05+08:00",
+  "build_id": "20261004T160005+0800",
   "data": {
     "season_id": "KPL2026S3",
     "season_name": "2026KPL年度总决赛",
@@ -34,8 +34,8 @@
         "location": "广州",
         "stage": "擂台赛",
         "bo": 5,
-        "status": 3,
-        "score_a": 1,
+        "status": 4,
+        "score_a": 3,
         "score_b": 0
       },
       {
@@ -87,7 +87,7 @@
         "status": 1
       }
     ],
-    "updated_at": "2026-10-04T07:00:05.856246+00:00",
+    "updated_at": "2026-10-04T08:00:05.941300+00:00",
     "source_status": "ok"
   }
 }

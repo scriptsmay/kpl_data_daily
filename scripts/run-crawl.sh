@@ -3,10 +3,11 @@
 #
 # 用法: run-crawl.sh main|schedule
 #   main     - 全量采集（python3 main.py），每日一次
-#   schedule - 赛程采集（python3 scripts/fetch-schedule.py），每 6 小时一次
+#   schedule - 赛程采集（python3 scripts/fetch-schedule.py），每小时一次
 #
-# 流程: 执行爬虫 -> git 备份（失败不阻断）-> uptime 心跳（仅 main）
-# 退出码 = 爬虫退出码；备份/心跳失败不影响 systemd 对本次采集成败的判定
+# 流程: 执行爬虫 -> git 备份（失败不阻断）-> 同步触发 -> uptime 心跳（仅 main）
+# 退出码 = 爬虫退出码；备份/心跳失败不影响 systemd 对本次采集成败的判定，
+# 但 git 推送最终失败会把 main 心跳降级为 down（2026-10-06 加固，不再静默断更）。
 set -uo pipefail
 
 MODE="${1:-main}"
@@ -50,7 +51,11 @@ case "$MODE" in
     ;;
 esac
 
-bash "$REPO_ROOT/scripts/git-backup.sh" "$msg" || log "git backup failed (non-fatal)"
+push_ok=1
+bash "$REPO_ROOT/scripts/git-backup.sh" "$msg" || {
+  push_ok=0
+  log "git backup/push failed (non-fatal; data committed locally, next run retries)"
+}
 
 # 同步触发：采集完成后立即通知 cheer-service（Vercel）读 GitHub raw 入库，
 # 不必等它的 Vercel Cron（每日 03:20 UTC）兜底窗口——采集频率即同步频率。
@@ -78,7 +83,7 @@ else
   log "SYNC_TRIGGER_URL not set in .env, skip sync trigger"
 fi
 
-# 心跳只挂每日主采集：schedule 每 6 小时一次，若也发心跳会掩盖 main 停摆
+# 心跳只挂每日主采集：schedule 每小时一次，若也发心跳会掩盖 main 停摆
 if [ "$MODE" = "main" ]; then
   url="$(env_value UPTIME_PUSH_URL)"
   if [ -n "$url" ]; then
@@ -86,10 +91,13 @@ if [ "$MODE" = "main" ]; then
     # 重复参数，kuma 把重复 status 解析成数组后按非 up 判 Down、甚至 404。
     # 统一截掉旧 query，用标准参数重建（2026-09-20 告警根因）。
     base="${url%%\?*}"
-    if [ "$ok" -eq 1 ]; then
-      qs="status=up&msg=OK"
-    else
+    if [ "$ok" -ne 1 ]; then
       qs="status=down&msg=crawl%20failed"
+    elif [ "$push_ok" -ne 1 ]; then
+      # 采集成功但数据没推上 GitHub：消费方读的是 GitHub raw，必须当故障暴露
+      qs="status=down&msg=git%20push%20failed"
+    else
+      qs="status=up&msg=OK"
     fi
     sent=0
     for i in 1 2 3; do

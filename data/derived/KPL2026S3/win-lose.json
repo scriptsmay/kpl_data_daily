@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-05T03:00:44+08:00",
-  "build_id": "20261005T030044+0800",
+  "generated_at": "2026-10-06T03:00:46+08:00",
+  "build_id": "20261006T030046+0800",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 100.0,
@@ -94,7 +94,7 @@
       "damage_10min_per_minute": 2632.0,
       "damage_per_minute": 4374.0,
       "damage_taken_per_minute": 5746.0,
-      "data_version": "v20261004_232148",
+      "data_version": "v20261005_235445",
       "economy_10min_details": [
         {
           "battle_id": "1790935560_1054884368_41",
@@ -149,13 +149,13 @@
       "gold_per_minute": 677.0,
       "heroes_used": [
         "马超",
-        "狂铁",
-        "白起",
         "曹操",
-        "项羽"
+        "项羽",
+        "白起",
+        "狂铁"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-10-04 15:21:48",
+      "last_updated": "2026-10-05 15:54:45",
       "match_details": [
         {
           "battle_id": "1790935560_1054884368_41",
@@ -389,7 +389,7 @@
           "damage_10min_per_minute": 2632.0,
           "damage_per_minute": 4374.0,
           "damage_taken_per_minute": 5746.0,
-          "data_version": "v20261004_232148",
+          "data_version": "v20261005_235445",
           "economy_10min_details": [
             {
               "battle_id": "1790935560_1054884368_41",
@@ -444,13 +444,13 @@
           "gold_per_minute": 677.0,
           "heroes_used": [
             "马超",
-            "狂铁",
-            "白起",
             "曹操",
-            "项羽"
+            "项羽",
+            "白起",
+            "狂铁"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-10-04 15:21:48",
+          "last_updated": "2026-10-05 15:54:45",
           "match_details": [
             {
               "battle_id": "1790935560_1054884368_41",
@@ -600,7 +600,7 @@
         "season": "KPL2026S3"
       },
       "position_avg_economy": {
-        "中路": 5554.0,
+        "中路": 5553.0,
         "发育路": 7289.0,
         "对抗路": 6782.0,
         "打野": 7153.0,

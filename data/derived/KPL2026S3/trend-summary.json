@@ -1,31 +1,30 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-05T03:00:44+08:00",
-  "build_id": "20261005T030044+0800",
+  "generated_at": "2026-10-06T03:00:46+08:00",
+  "build_id": "20261006T030046+0800",
   "data": {
-    "snapshots_available": 18,
-    "reference_date": "20261005",
+    "snapshots_available": 23,
+    "reference_date": "20261006",
     "trends": {
       "hero_pool": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
-          "hero_count_delta": 5,
+          "date_range": "20261003 ~ 20261006",
+          "hero_count_delta": 4,
           "hero_count_latest": 5,
-          "hero_count_oldest": 0,
+          "hero_count_oldest": 1,
           "new_heroes": [
             "曹操",
             "狂铁",
-            "白起",
             "项羽",
             "马超"
           ],
           "dropped_heroes": []
         },
         "7d": {
-          "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
+          "snapshots": 5,
+          "date_range": "20261002 ~ 20261006",
           "hero_count_delta": 5,
           "hero_count_latest": 5,
           "hero_count_oldest": 0,
@@ -39,8 +38,8 @@
           "dropped_heroes": []
         },
         "14d": {
-          "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
+          "snapshots": 5,
+          "date_range": "20261002 ~ 20261006",
           "hero_count_delta": 5,
           "hero_count_latest": 5,
           "hero_count_oldest": 0,
@@ -54,8 +53,8 @@
           "dropped_heroes": []
         },
         "30d": {
-          "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
+          "snapshots": 5,
+          "date_range": "20261002 ~ 20261006",
           "hero_count_delta": 5,
           "hero_count_latest": 5,
           "hero_count_oldest": 0,
@@ -72,28 +71,45 @@
       "abilities": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
-          "deltas": {},
-          "biggest_gain": {},
-          "biggest_drop": {}
+          "date_range": "20261003 ~ 20261006",
+          "deltas": {
+            "damage_output": 18.0,
+            "teamfight": -1.0,
+            "initiation": 65.0,
+            "early_game": 0.0,
+            "mid_game": -20.0,
+            "late_game": 70.0,
+            "map_control": 10.0,
+            "invasion_ability": -6.0,
+            "support_ability": 0.0,
+            "economy": 9.0,
+            "tankiness": -1.0,
+            "durability": 2.0
+          },
+          "biggest_gain": {
+            "late_game": 70.0
+          },
+          "biggest_drop": {
+            "mid_game": -20.0
+          }
         },
         "7d": {
-          "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
+          "snapshots": 5,
+          "date_range": "20261002 ~ 20261006",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
+          "snapshots": 5,
+          "date_range": "20261002 ~ 20261006",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
+          "snapshots": 5,
+          "date_range": "20261002 ~ 20261006",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
@@ -102,34 +118,65 @@
       "ranking": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
-          "deltas": {},
-          "biggest_rise": {},
-          "biggest_drop": {}
+          "date_range": "20261003 ~ 20261006",
+          "deltas": {
+            "damage_per_minute": {
+              "abs": 744.0,
+              "pct": 20.5
+            },
+            "damage_taken_per_minute": {
+              "abs": -1059.0,
+              "pct": -15.6
+            },
+            "economy_per_minute": {
+              "abs": 31.0,
+              "pct": 4.8
+            },
+            "avg_kill_participation": {
+              "abs": -8.2,
+              "pct": -10.4
+            },
+            "damage_share": {
+              "abs": 6.1,
+              "pct": 46.6
+            },
+            "damage_taken_share": {
+              "abs": -9.4,
+              "pct": -26.6
+            }
+          },
+          "biggest_rise": {
+            "damage_per_minute": 744.0
+          },
+          "biggest_drop": {
+            "damage_taken_per_minute": -1059.0
+          }
         },
         "7d": {
-          "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
+          "snapshots": 5,
+          "date_range": "20261002 ~ 20261006",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
+          "snapshots": 5,
+          "date_range": "20261002 ~ 20261006",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 4,
-          "date_range": "20261002 ~ 20261005",
+          "snapshots": 5,
+          "date_range": "20261002 ~ 20261006",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         }
       }
     },
-    "anomalies": []
+    "anomalies": [
+      "能力维度 mid_game 在 3d 内下降 20.0 分"
+    ]
   }
 }

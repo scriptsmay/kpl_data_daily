@@ -1,92 +1,104 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-05T03:00:44+08:00",
-  "build_id": "20261005T030044+0800",
-  "ai_elapsed_seconds": 336.27,
+  "generated_at": "2026-10-06T03:00:46+08:00",
+  "build_id": "20261006T030046+0800",
+  "ai_elapsed_seconds": 314.6,
   "ai_model": "qwen3.8-max",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "dfc788a956d0467950818462d030a9973445312c11fbe948595aa45d8b4a67e5",
+  "input_hash": "4d6622fbd6444fa9e477989bc634171c555e307b9a446fc8db986407c525296a",
   "data": {
-    "headline": "无言本赛季在有限出场中集中尝试 5 个对抗路英雄，英雄池扩展信号明显",
-    "summary": "本赛季 6 局样本中，无言使用 5 个英雄且均处于尝试阶段，同时能力评分和多项核心指标位于联盟前列。由于样本量较小，更适合观察其上场机会与英雄池变化。",
+    "headline": "无言本赛季6局尝试5个英雄，英雄池快速扩展但样本仍低",
+    "summary": "无言在KPL2026S3赛季仅出场6局，使用5个不同英雄，英雄池处于快速扩展期。生涯累计167局，当前能力评分85.95，位置排名第3，但本赛季样本量有限，更适合观察英雄池变化和战术角色探索。",
     "growth_stage": "机会积累期",
     "sections": [
       {
         "id": "hero_pool",
-        "title": "英雄池处于集中尝试阶段",
-        "summary": "本赛季 6 局比赛中使用 5 个英雄，英雄使用相对分散，且所有英雄均处于尝试样本阶段。",
+        "title": "英雄池快速扩展",
+        "summary": "本赛季6局使用5个英雄，全部处于尝试样本阶段，英雄池分散且近期快速新增。",
         "conclusion_type": "fact",
-        "confidence": "medium",
+        "confidence": "low",
         "sample_size": 6,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季英雄总数为 5，总出场局数为 6",
-          "英雄集中度（HHI）为 0.2222",
-          "马超、曹操、狂铁、白起、项羽的成熟度均为尝试样本"
+          "英雄总数：5",
+          "总出场局数：6",
+          "集中度（HHI）：0.2222",
+          "7d英雄数量变化：+5",
+          "新增英雄：曹操, 狂铁, 白起, 项羽, 马超"
         ],
         "risk_notes": [
-          "当前样本量较小，英雄池稳定性仍需后续比赛观察"
+          "样本量仅6局，英雄池变化可能受短期战术安排影响",
+          "所有英雄均为尝试样本，尚未形成稳定使用模式"
         ]
       },
       {
         "id": "growth_path",
-        "title": "上场样本仍在积累",
-        "summary": "无言本赛季出场 6 局，生涯累计 167 局，当前阶段更适合观察其上场机会与角色变化。",
+        "title": "上场机会仍在积累",
+        "summary": "本赛季仅6局上场，处于机会积累期，生涯累计167局和24次MVP，但当前赛季样本有限。",
         "conclusion_type": "fact",
-        "confidence": "medium",
+        "confidence": "low",
         "sample_size": 6,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季总出场局数为 6",
-          "生涯累计 167 局",
-          "当前成长阶段为机会积累期"
+          "本赛季仅6局上场",
+          "生涯累计167局",
+          "生涯累计24次MVP",
+          "成长阶段：机会积累期"
         ],
         "risk_notes": [
-          "样本量不足以进行稳定趋势判断"
+          "样本量不足，无法判断上场时间趋势",
+          "需要结合后续比赛观察其轮换稳定性"
         ]
       },
       {
         "id": "abilities",
-        "title": "能力评分处于较高位置",
-        "summary": "当前能力评分为 85.95，对抗路位置排名第 1，后期、支援、坦度等维度评分较高。",
+        "title": "能力评分呈现后期与支援突出",
+        "summary": "综合评分85.95，后期和支援维度评分均为100.0，高于同位置均值维度达11个，但中期能力评分较低且近期有下降标记。",
         "conclusion_type": "signal",
         "confidence": "medium",
         "sample_size": 6,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "综合评分为 85.95",
-          "位置排名第 1 名（对抗路）",
-          "后期评分 100.0，支援评分 100.0，坦度评分 96.0"
+          "综合评分：85.95",
+          "后期：100.0",
+          "支援：100.0",
+          "高于同位置均值维度：11个",
+          "低于同位置均值维度：1个",
+          "能力维度 mid_game 在 3d 内下降 20.0 分"
         ],
         "risk_notes": [
-          "能力评分受样本量和对手强度影响，需要结合后续比赛观察"
+          "能力评分基于小样本，波动可能性较高",
+          "中期能力下降为异常标记，需后续样本验证"
         ]
       },
       {
         "id": "ranking",
-        "title": "KDA 与参团率进入联盟前列",
-        "summary": "在联盟核心指标排名中，KDA 和参团率进入前 3，是本赛季样本中较为突出的过程指标。",
+        "title": "联盟排名中KDA与参团率靠前",
+        "summary": "KDA排名第1，参团率排名第2，分均承伤和承伤占比也进入前5，反映其在团战参与和生存相关指标上的存在感。",
         "conclusion_type": "signal",
         "confidence": "medium",
         "sample_size": 6,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "KDA 为 10.6，排名第 1",
-          "参团率为 70.7，排名第 3"
+          "KDA：10.6（排名第 1）",
+          "参团率：70.7（排名第 2）",
+          "分均承伤：5746.0（排名第 5）",
+          "承伤占比：26.0（排名第 4）"
         ],
         "risk_notes": [
-          "排名基于当前样本，样本量较小时波动可能较大"
+          "排名基于6局样本，稳定性有待观察",
+          "排名靠前指标可能受英雄选择和战术安排影响"
         ]
       },
       {
         "id": "win_lose",
-        "title": "缺少败局对比数据",
-        "summary": "当前赛季样本中暂无败局数据，因此无法进行胜局与败局的过程指标对比。",
+        "title": "胜局过程指标缺乏败局对照",
+        "summary": "当前样本中仅有胜局数据，胜局KDA为10.6，场均死亡0.83，但无败局数据可供对比。",
         "conclusion_type": "fact",
         "confidence": "low",
         "sample_size": 6,
@@ -94,37 +106,21 @@
         "sample_scope": "current_season",
         "evidence": [
           "有败局数据：否",
-          "胜局KDA为 10.6",
-          "胜局分均伤害为 4374.0"
+          "胜局KDA：10.6",
+          "胜局场均死亡：0.83"
         ],
         "risk_notes": [
-          "缺少败局样本，胜负差异分析暂时不完整"
-        ]
-      },
-      {
-        "id": "team_structure",
-        "title": "参团率信号值得关注",
-        "summary": "当前样本中参团率达到 70.7，在联盟排名第 3，可能反映其在队伍团战参与中的较高参与度。",
-        "conclusion_type": "hypothesis",
-        "confidence": "medium",
-        "sample_size": 6,
-        "sample_unit": "games",
-        "sample_scope": "current_season",
-        "evidence": [
-          "参团率为 70.7，排名第 3",
-          "联盟排名前列指标包含参团率"
-        ],
-        "risk_notes": [
-          "参团率可能受英雄选择和比赛节奏影响，需要更多样本验证"
+          "缺乏败局样本，无法进行胜负差异分析",
+          "胜率不单独作为评价依据"
         ]
       }
     ],
     "updated_reason": "daily_fetch",
-    "generated_at": "2026-10-05T03:00:44+08:00",
-    "build_id": "20261005T030044+0800",
-    "ai_elapsed_seconds": 336.27,
+    "generated_at": "2026-10-06T03:00:46+08:00",
+    "build_id": "20261006T030046+0800",
+    "ai_elapsed_seconds": 314.6,
     "ai_model": "qwen3.8-max",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "dfc788a956d0467950818462d030a9973445312c11fbe948595aa45d8b4a67e5"
+    "input_hash": "4d6622fbd6444fa9e477989bc634171c555e307b9a446fc8db986407c525296a"
   }
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-06T03:00:46+08:00",
-  "build_id": "20261006T030046+0800",
+  "generated_at": "2026-10-07T03:00:48+08:00",
+  "build_id": "20261007T030048+0800",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 100.0,
@@ -16,7 +16,7 @@
       "avg_big_fight_damage": 34565.0,
       "avg_big_fight_damage_taken": 44725.0,
       "avg_blue_buff": 0.0,
-      "avg_control_duration": 0.1,
+      "avg_control_duration": 86.3,
       "avg_damage_10min_ratio": 19.22,
       "avg_deaths": 0.83,
       "avg_economy_10min": 6574.0,
@@ -31,7 +31,7 @@
       "avg_invasion_jungle": 2.67,
       "avg_kda": 10.6,
       "avg_kill_monster_count": 8.3,
-      "avg_kill_participation_10min": 0.006,
+      "avg_kill_participation_10min": 0.576,
       "avg_kills": 2.67,
       "avg_red_buff": 1.2,
       "avg_river_duration": 76.2,
@@ -94,7 +94,7 @@
       "damage_10min_per_minute": 2632.0,
       "damage_per_minute": 4374.0,
       "damage_taken_per_minute": 5746.0,
-      "data_version": "v20261005_235445",
+      "data_version": "v20261006_222727",
       "economy_10min_details": [
         {
           "battle_id": "1790935560_1054884368_41",
@@ -148,14 +148,14 @@
       "economy_10min_per_minute": 657.0,
       "gold_per_minute": 677.0,
       "heroes_used": [
-        "马超",
-        "曹操",
-        "项羽",
         "白起",
+        "马超",
+        "项羽",
+        "曹操",
         "狂铁"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-10-05 15:54:45",
+      "last_updated": "2026-10-06 14:27:28",
       "match_details": [
         {
           "battle_id": "1790935560_1054884368_41",
@@ -311,7 +311,7 @@
           "avg_big_fight_damage": 34565.0,
           "avg_big_fight_damage_taken": 44725.0,
           "avg_blue_buff": 0.0,
-          "avg_control_duration": 0.1,
+          "avg_control_duration": 86.3,
           "avg_damage_10min_ratio": 19.22,
           "avg_deaths": 0.83,
           "avg_economy_10min": 6574.0,
@@ -326,7 +326,7 @@
           "avg_invasion_jungle": 2.67,
           "avg_kda": 10.6,
           "avg_kill_monster_count": 8.3,
-          "avg_kill_participation_10min": 0.006,
+          "avg_kill_participation_10min": 0.576,
           "avg_kills": 2.67,
           "avg_red_buff": 1.2,
           "avg_river_duration": 76.2,
@@ -389,7 +389,7 @@
           "damage_10min_per_minute": 2632.0,
           "damage_per_minute": 4374.0,
           "damage_taken_per_minute": 5746.0,
-          "data_version": "v20261005_235445",
+          "data_version": "v20261006_222727",
           "economy_10min_details": [
             {
               "battle_id": "1790935560_1054884368_41",
@@ -443,14 +443,14 @@
           "economy_10min_per_minute": 657.0,
           "gold_per_minute": 677.0,
           "heroes_used": [
-            "马超",
-            "曹操",
-            "项羽",
             "白起",
+            "马超",
+            "项羽",
+            "曹操",
             "狂铁"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-10-05 15:54:45",
+          "last_updated": "2026-10-06 14:27:28",
           "match_details": [
             {
               "battle_id": "1790935560_1054884368_41",
@@ -600,13 +600,13 @@
         "season": "KPL2026S3"
       },
       "position_avg_economy": {
-        "中路": 5553.0,
+        "中路": 5555.0,
         "发育路": 7289.0,
         "对抗路": 6782.0,
-        "打野": 7153.0,
-        "游走": 4438.0
+        "打野": 7154.0,
+        "游走": 4439.0
       },
-      "total_players": 60
+      "total_players": 65
     },
     "lose_source": {
       "code": 200,
@@ -620,7 +620,7 @@
         "season": "KPL2026S3"
       },
       "season": "KPL2026S3",
-      "total_players": 63
+      "total_players": 64
     }
   }
 }

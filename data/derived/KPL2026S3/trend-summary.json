@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-06T03:00:46+08:00",
-  "build_id": "20261006T030046+0800",
+  "generated_at": "2026-10-07T03:00:48+08:00",
+  "build_id": "20261007T030048+0800",
   "data": {
-    "snapshots_available": 23,
-    "reference_date": "20261006",
+    "snapshots_available": 28,
+    "reference_date": "20261007",
     "trends": {
       "hero_pool": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261003 ~ 20261006",
+          "date_range": "20261004 ~ 20261007",
           "hero_count_delta": 4,
           "hero_count_latest": 5,
           "hero_count_oldest": 1,
@@ -23,8 +23,8 @@
           "dropped_heroes": []
         },
         "7d": {
-          "snapshots": 5,
-          "date_range": "20261002 ~ 20261006",
+          "snapshots": 6,
+          "date_range": "20261002 ~ 20261007",
           "hero_count_delta": 5,
           "hero_count_latest": 5,
           "hero_count_oldest": 0,
@@ -38,8 +38,8 @@
           "dropped_heroes": []
         },
         "14d": {
-          "snapshots": 5,
-          "date_range": "20261002 ~ 20261006",
+          "snapshots": 6,
+          "date_range": "20261002 ~ 20261007",
           "hero_count_delta": 5,
           "hero_count_latest": 5,
           "hero_count_oldest": 0,
@@ -53,8 +53,8 @@
           "dropped_heroes": []
         },
         "30d": {
-          "snapshots": 5,
-          "date_range": "20261002 ~ 20261006",
+          "snapshots": 6,
+          "date_range": "20261002 ~ 20261007",
           "hero_count_delta": 5,
           "hero_count_latest": 5,
           "hero_count_oldest": 0,
@@ -71,12 +71,12 @@
       "abilities": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261003 ~ 20261006",
+          "date_range": "20261004 ~ 20261007",
           "deltas": {
             "damage_output": 18.0,
             "teamfight": -1.0,
-            "initiation": 65.0,
-            "early_game": 0.0,
+            "initiation": 100.0,
+            "early_game": 21.0,
             "mid_game": -20.0,
             "late_game": 70.0,
             "map_control": 10.0,
@@ -87,29 +87,29 @@
             "durability": 2.0
           },
           "biggest_gain": {
-            "late_game": 70.0
+            "initiation": 100.0
           },
           "biggest_drop": {
             "mid_game": -20.0
           }
         },
         "7d": {
-          "snapshots": 5,
-          "date_range": "20261002 ~ 20261006",
+          "snapshots": 6,
+          "date_range": "20261002 ~ 20261007",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 5,
-          "date_range": "20261002 ~ 20261006",
+          "snapshots": 6,
+          "date_range": "20261002 ~ 20261007",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 5,
-          "date_range": "20261002 ~ 20261006",
+          "snapshots": 6,
+          "date_range": "20261002 ~ 20261007",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
@@ -118,7 +118,7 @@
       "ranking": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261003 ~ 20261006",
+          "date_range": "20261004 ~ 20261007",
           "deltas": {
             "damage_per_minute": {
               "abs": 744.0,
@@ -153,22 +153,22 @@
           }
         },
         "7d": {
-          "snapshots": 5,
-          "date_range": "20261002 ~ 20261006",
+          "snapshots": 6,
+          "date_range": "20261002 ~ 20261007",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 5,
-          "date_range": "20261002 ~ 20261006",
+          "snapshots": 6,
+          "date_range": "20261002 ~ 20261007",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 5,
-          "date_range": "20261002 ~ 20261006",
+          "snapshots": 6,
+          "date_range": "20261002 ~ 20261007",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}

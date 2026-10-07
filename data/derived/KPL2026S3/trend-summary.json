@@ -1,34 +1,36 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-07T18:20:21+08:00",
-  "build_id": "20261007T182021+0800",
+  "generated_at": "2026-10-08T03:00:58+08:00",
+  "build_id": "20261008T030058+0800",
   "data": {
-    "snapshots_available": 28,
-    "reference_date": "20261007",
+    "snapshots_available": 33,
+    "reference_date": "20261008",
     "trends": {
       "hero_pool": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261004 ~ 20261007",
-          "hero_count_delta": 4,
-          "hero_count_latest": 5,
-          "hero_count_oldest": 1,
+          "date_range": "20261005 ~ 20261008",
+          "hero_count_delta": 3,
+          "hero_count_latest": 8,
+          "hero_count_oldest": 5,
           "new_heroes": [
-            "曹操",
-            "狂铁",
-            "项羽",
-            "马超"
+            "关羽",
+            "司空震",
+            "夏洛特"
           ],
           "dropped_heroes": []
         },
         "7d": {
-          "snapshots": 6,
-          "date_range": "20261002 ~ 20261007",
-          "hero_count_delta": 5,
-          "hero_count_latest": 5,
+          "snapshots": 7,
+          "date_range": "20261002 ~ 20261008",
+          "hero_count_delta": 8,
+          "hero_count_latest": 8,
           "hero_count_oldest": 0,
           "new_heroes": [
+            "关羽",
+            "司空震",
+            "夏洛特",
             "曹操",
             "狂铁",
             "白起",
@@ -38,12 +40,15 @@
           "dropped_heroes": []
         },
         "14d": {
-          "snapshots": 6,
-          "date_range": "20261002 ~ 20261007",
-          "hero_count_delta": 5,
-          "hero_count_latest": 5,
+          "snapshots": 7,
+          "date_range": "20261002 ~ 20261008",
+          "hero_count_delta": 8,
+          "hero_count_latest": 8,
           "hero_count_oldest": 0,
           "new_heroes": [
+            "关羽",
+            "司空震",
+            "夏洛特",
             "曹操",
             "狂铁",
             "白起",
@@ -53,12 +58,15 @@
           "dropped_heroes": []
         },
         "30d": {
-          "snapshots": 6,
-          "date_range": "20261002 ~ 20261007",
-          "hero_count_delta": 5,
-          "hero_count_latest": 5,
+          "snapshots": 7,
+          "date_range": "20261002 ~ 20261008",
+          "hero_count_delta": 8,
+          "hero_count_latest": 8,
           "hero_count_oldest": 0,
           "new_heroes": [
+            "关羽",
+            "司空震",
+            "夏洛特",
             "曹操",
             "狂铁",
             "白起",
@@ -71,45 +79,45 @@
       "abilities": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261004 ~ 20261007",
+          "date_range": "20261005 ~ 20261008",
           "deltas": {
-            "damage_output": 18.0,
-            "teamfight": -1.0,
-            "initiation": 100.0,
-            "early_game": 21.0,
-            "mid_game": -20.0,
-            "late_game": 70.0,
-            "map_control": 10.0,
-            "invasion_ability": -6.0,
+            "damage_output": 3.0,
+            "teamfight": 2.0,
+            "initiation": 27.0,
+            "early_game": 16.0,
+            "mid_game": 17.0,
+            "late_game": -7.0,
+            "map_control": 1.0,
+            "invasion_ability": 21.0,
             "support_ability": 0.0,
-            "economy": 9.0,
-            "tankiness": -1.0,
-            "durability": 2.0
+            "economy": 1.0,
+            "tankiness": 2.0,
+            "durability": -3.0
           },
           "biggest_gain": {
-            "initiation": 100.0
+            "initiation": 27.0
           },
           "biggest_drop": {
-            "mid_game": -20.0
+            "late_game": -7.0
           }
         },
         "7d": {
-          "snapshots": 6,
-          "date_range": "20261002 ~ 20261007",
+          "snapshots": 7,
+          "date_range": "20261002 ~ 20261008",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 6,
-          "date_range": "20261002 ~ 20261007",
+          "snapshots": 7,
+          "date_range": "20261002 ~ 20261008",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 6,
-          "date_range": "20261002 ~ 20261007",
+          "snapshots": 7,
+          "date_range": "20261002 ~ 20261008",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
@@ -118,65 +126,63 @@
       "ranking": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261004 ~ 20261007",
+          "date_range": "20261005 ~ 20261008",
           "deltas": {
             "damage_per_minute": {
-              "abs": 744.0,
-              "pct": 20.5
+              "abs": -31.0,
+              "pct": -0.7
             },
             "damage_taken_per_minute": {
-              "abs": -1059.0,
-              "pct": -15.6
+              "abs": -340.0,
+              "pct": -5.9
             },
             "economy_per_minute": {
-              "abs": 31.0,
-              "pct": 4.8
+              "abs": -1.0,
+              "pct": -0.1
             },
             "avg_kill_participation": {
-              "abs": -8.2,
-              "pct": -10.4
+              "abs": 1.7,
+              "pct": 2.4
             },
             "damage_share": {
-              "abs": 6.1,
-              "pct": 46.6
+              "abs": 0.0,
+              "pct": 0.0
             },
             "damage_taken_share": {
-              "abs": -9.4,
-              "pct": -26.6
+              "abs": -2.3,
+              "pct": -8.8
             }
           },
           "biggest_rise": {
-            "damage_per_minute": 744.0
+            "avg_kill_participation": 1.7000000000000028
           },
           "biggest_drop": {
-            "damage_taken_per_minute": -1059.0
+            "damage_taken_per_minute": -340.0
           }
         },
         "7d": {
-          "snapshots": 6,
-          "date_range": "20261002 ~ 20261007",
+          "snapshots": 7,
+          "date_range": "20261002 ~ 20261008",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 6,
-          "date_range": "20261002 ~ 20261007",
+          "snapshots": 7,
+          "date_range": "20261002 ~ 20261008",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 6,
-          "date_range": "20261002 ~ 20261007",
+          "snapshots": 7,
+          "date_range": "20261002 ~ 20261008",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         }
       }
     },
-    "anomalies": [
-      "能力维度 mid_game 在 3d 内下降 20.0 分"
-    ]
+    "anomalies": []
   }
 }

@@ -122,7 +122,9 @@ APIS: List[Dict] = [
         "namespace": "win-affinity-analysis",
         "url": "http://47.102.210.150:5029/api/{season_id}/win-affinity-analysis",
         "update_freq": "daily",
-        "enabled": True,
+        # 上游接口持续 404（2026-10-06/07 main 日志实证），2026-10-07 起停采；
+        # 历史数据仍保留在 data/ 与 manifest；上游恢复后改回 True 复评
+        "enabled": False,
     },
     {
         "namespace": "team-damage-distribution",

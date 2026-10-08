@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-08T03:00:58+08:00",
-  "build_id": "20261008T030058+0800",
+  "generated_at": "2026-10-09T03:01:00+08:00",
+  "build_id": "20261009T030100+0800",
   "data": {
-    "snapshots_available": 33,
-    "reference_date": "20261008",
+    "snapshots_available": 38,
+    "reference_date": "20261009",
     "trends": {
       "hero_pool": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261005 ~ 20261008",
+          "date_range": "20261006 ~ 20261009",
           "hero_count_delta": 3,
           "hero_count_latest": 8,
           "hero_count_oldest": 5,
@@ -22,8 +22,8 @@
           "dropped_heroes": []
         },
         "7d": {
-          "snapshots": 7,
-          "date_range": "20261002 ~ 20261008",
+          "snapshots": 8,
+          "date_range": "20261002 ~ 20261009",
           "hero_count_delta": 8,
           "hero_count_latest": 8,
           "hero_count_oldest": 0,
@@ -40,8 +40,8 @@
           "dropped_heroes": []
         },
         "14d": {
-          "snapshots": 7,
-          "date_range": "20261002 ~ 20261008",
+          "snapshots": 8,
+          "date_range": "20261002 ~ 20261009",
           "hero_count_delta": 8,
           "hero_count_latest": 8,
           "hero_count_oldest": 0,
@@ -58,8 +58,8 @@
           "dropped_heroes": []
         },
         "30d": {
-          "snapshots": 7,
-          "date_range": "20261002 ~ 20261008",
+          "snapshots": 8,
+          "date_range": "20261002 ~ 20261009",
           "hero_count_delta": 8,
           "hero_count_latest": 8,
           "hero_count_oldest": 0,
@@ -79,7 +79,7 @@
       "abilities": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261005 ~ 20261008",
+          "date_range": "20261006 ~ 20261009",
           "deltas": {
             "damage_output": 3.0,
             "teamfight": 2.0,
@@ -102,22 +102,22 @@
           }
         },
         "7d": {
-          "snapshots": 7,
-          "date_range": "20261002 ~ 20261008",
+          "snapshots": 8,
+          "date_range": "20261002 ~ 20261009",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 7,
-          "date_range": "20261002 ~ 20261008",
+          "snapshots": 8,
+          "date_range": "20261002 ~ 20261009",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 7,
-          "date_range": "20261002 ~ 20261008",
+          "snapshots": 8,
+          "date_range": "20261002 ~ 20261009",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
@@ -126,7 +126,7 @@
       "ranking": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261005 ~ 20261008",
+          "date_range": "20261006 ~ 20261009",
           "deltas": {
             "damage_per_minute": {
               "abs": -31.0,
@@ -161,22 +161,22 @@
           }
         },
         "7d": {
-          "snapshots": 7,
-          "date_range": "20261002 ~ 20261008",
+          "snapshots": 8,
+          "date_range": "20261002 ~ 20261009",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "14d": {
-          "snapshots": 7,
-          "date_range": "20261002 ~ 20261008",
+          "snapshots": 8,
+          "date_range": "20261002 ~ 20261009",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         },
         "30d": {
-          "snapshots": 7,
-          "date_range": "20261002 ~ 20261008",
+          "snapshots": 8,
+          "date_range": "20261002 ~ 20261009",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}

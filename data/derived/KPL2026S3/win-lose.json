@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-09T03:01:00+08:00",
-  "build_id": "20261009T030100+0800",
+  "generated_at": "2026-10-10T03:01:01+08:00",
+  "build_id": "20261010T030101+0800",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 100.0,
@@ -118,7 +118,7 @@
       "damage_10min_per_minute": 2290.0,
       "damage_per_minute": 4343.0,
       "damage_taken_per_minute": 5406.0,
-      "data_version": "v20261007_235616",
+      "data_version": "v20261009_231247",
       "economy_10min_details": [
         {
           "battle_id": "1790935560_1054884368_41",
@@ -197,16 +197,16 @@
       "gold_per_minute": 676.0,
       "heroes_used": [
         "马超",
-        "项羽",
-        "关羽",
-        "白起",
-        "曹操",
         "狂铁",
+        "曹操",
+        "夏洛特",
+        "白起",
         "司空震",
-        "夏洛特"
+        "项羽",
+        "关羽"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-10-07 15:56:17",
+      "last_updated": "2026-10-09 15:12:48",
       "match_details": [
         {
           "battle_id": "1790935560_1054884368_41",
@@ -491,7 +491,7 @@
           "damage_10min_per_minute": 2290.0,
           "damage_per_minute": 4343.0,
           "damage_taken_per_minute": 5406.0,
-          "data_version": "v20261007_235616",
+          "data_version": "v20261009_231247",
           "economy_10min_details": [
             {
               "battle_id": "1790935560_1054884368_41",
@@ -570,16 +570,16 @@
           "gold_per_minute": 676.0,
           "heroes_used": [
             "马超",
-            "项羽",
-            "关羽",
-            "白起",
-            "曹操",
             "狂铁",
+            "曹操",
+            "夏洛特",
+            "白起",
             "司空震",
-            "夏洛特"
+            "项羽",
+            "关羽"
           ],
           "invalid_10min_matches": 0.0,
-          "last_updated": "2026-10-07 15:56:17",
+          "last_updated": "2026-10-09 15:12:48",
           "match_details": [
             {
               "battle_id": "1790935560_1054884368_41",
@@ -758,11 +758,11 @@
       "position_avg_economy": {
         "中路": 5556.0,
         "发育路": 7288.0,
-        "对抗路": 6780.0,
-        "打野": 7155.0,
+        "对抗路": 6779.0,
+        "打野": 7157.0,
         "游走": 4440.0
       },
-      "total_players": 65
+      "total_players": 67
     },
     "lose_source": {
       "code": 200,

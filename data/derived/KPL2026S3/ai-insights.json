@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-09T03:01:00+08:00",
-  "build_id": "20261009T030100+0800",
-  "ai_elapsed_seconds": 136.19,
+  "generated_at": "2026-10-10T03:01:01+08:00",
+  "build_id": "20261010T030101+0800",
+  "ai_elapsed_seconds": 151.64,
   "ai_model": "qwen3.8-max",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "0b300d2b4bd8d039c296e60f4ade31a0d786316675d0a8bdeb4ff9073048529b",
+  "input_hash": "4a8698c23f10e610daaf13b78189d32e0c10d3ddeef6c723c005b6ea459130af",
   "data": {
-    "headline": "无言本赛季 9 局覆盖 8 个对抗路英雄，英雄池仍在快速扩展中",
-    "summary": "当前成长阶段为机会积累期，本赛季样本为 9 局、8 个英雄，英雄使用较分散；生涯累计 170 局，具备一定职业比赛积累。",
+    "headline": "无言本赛季 9 局使用 8 个英雄，英雄池仍在快速扩展",
+    "summary": "生涯累计 170 局。本赛季英雄池覆盖 8 个英雄，能力评分 92.8。",
     "growth_stage": "机会积累期",
     "sections": [
       {
         "id": "hero_pool",
-        "title": "英雄池覆盖广但均处于尝试样本",
-        "summary": "本赛季 9 局使用 8 个英雄，英雄池集中度较低，当前样本内多数英雄仍处于尝试阶段。",
+        "title": "英雄池覆盖",
+        "summary": "本赛季 9 局使用 8 个英雄，英雄使用相对分散，多数英雄仍处于尝试样本。",
         "conclusion_type": "fact",
         "confidence": "medium",
         "sample_size": 9,
@@ -25,37 +25,34 @@
           "英雄总数：8",
           "总出场局数：9",
           "集中度（HHI）：0.1358",
-          "成熟度分布：尝试：8 个",
-          "马超出场 2 局，其余 7 个英雄各出场 1 局"
+          "成熟度分布：尝试：8 个"
         ],
         "risk_notes": [
-          "单英雄出场局数普遍只有 1 局，尚不足以判断其在本赛季的稳定使用优先级"
+          "单英雄出场次数普遍较低，英雄池成熟度仍需后续样本验证"
         ]
       },
       {
         "id": "growth_path",
-        "title": "上场样本仍在积累，近期英雄池扩展较快",
-        "summary": "本赛季仅 9 局上场，但近期快照显示英雄数量持续增加，更适合观察上场机会与英雄池扩展。",
-        "conclusion_type": "signal",
+        "title": "成长路径观察",
+        "summary": "本赛季仅 9 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展。",
+        "conclusion_type": "fact",
         "confidence": "medium",
         "sample_size": 9,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "成长阶段：机会积累期",
           "本赛季仅 9 局上场",
-          "7d 英雄数量变化：+8",
-          "7d 新增英雄：关羽, 司空震, 夏洛特, 曹操, 狂铁, 白起, 项羽, 马超",
-          "生涯累计 170 局"
+          "生涯累计 170 局",
+          "生涯累计 24 次 MVP"
         ],
         "risk_notes": [
-          "近期英雄池变化基于快照数据，需结合后续比赛样本继续观察"
+          "当前样本量较小，不适合做稳定强弱判断"
         ]
       },
       {
         "id": "abilities",
-        "title": "能力评分中支援与坦度较突出",
-        "summary": "当前能力评分为 92.8，位置排名第 2；维度中支援 100.0、坦度 98.0 较高，中期与生存相对偏低。",
+        "title": "能力画像信号",
+        "summary": "当前能力评分 92.8，位置排名第 1；支援、坦度、伤害输出等维度评分较高。",
         "conclusion_type": "signal",
         "confidence": "medium",
         "sample_size": 9,
@@ -63,38 +60,39 @@
         "sample_scope": "current_season",
         "evidence": [
           "综合评分：92.8",
-          "位置排名：第 2 名（对抗路）",
+          "位置排名：第 1 名（对抗路）",
           "支援：100.0",
           "坦度：98.0",
-          "中期：79.0",
-          "生存：79.0"
+          "伤害输出：94.0",
+          "高于同位置均值维度：11 个"
         ],
         "risk_notes": [
-          "能力评分来自当前样本，样本量 9 局，需后续比赛验证稳定性"
+          "能力评分受样本量影响，需结合后续比赛观察"
         ]
       },
       {
         "id": "ranking",
-        "title": "KDA 与参团率进入联盟前列",
-        "summary": "当前样本中，KDA 与参团率排名靠前，参团率排名第 1，反映其在样本内参与团队战斗较多。",
+        "title": "联盟排名表现",
+        "summary": "KDA、参团率、伤害占比进入联盟前列，其中 KDA 排名第 1。",
         "conclusion_type": "signal",
         "confidence": "medium",
         "sample_size": 9,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "排名前列指标共 2 项：KDA、参团率",
-          "KDA：9.38（排名第 2）",
-          "参团率：72.4（排名第 1）"
+          "KDA：9.38（排名第 1）",
+          "参团率：72.4（排名第 2）",
+          "伤害占比：19.2（排名第 3）",
+          "分均伤害：4343.0（排名第 4）"
         ],
         "risk_notes": [
-          "排名指标受样本量影响，需结合更多场次观察是否可持续"
+          "排名指标基于当前样本，后续可能随样本增加变化"
         ]
       },
       {
         "id": "win_lose",
-        "title": "当前样本缺少败局对比",
-        "summary": "本赛季样本内暂无败局数据可用于胜负差异对比，只能作为背景信息记录胜局过程指标。",
+        "title": "胜负过程差异",
+        "summary": "当前样本暂无败局数据可做对比，仅能观察胜局过程指标。",
         "conclusion_type": "fact",
         "confidence": "low",
         "sample_size": 9,
@@ -104,42 +102,19 @@
           "有败局数据：否",
           "胜局KDA：9.38",
           "胜局分均伤害：4343.0",
-          "胜局分均承伤：5406.0",
-          "胜局场均经济：11369.0",
           "胜局场均死亡：0.89"
         ],
         "risk_notes": [
-          "缺少败局数据，不能进行胜负差异判断",
-          "胜率不单独作为评价依据"
-        ]
-      },
-      {
-        "id": "team_structure",
-        "title": "高参团率信号值得关注",
-        "summary": "当前样本中参团率 72.4 排名第 1，结合支援评分 100.0，可能反映其在队伍中承担较多支援与团战参与角色。",
-        "conclusion_type": "hypothesis",
-        "confidence": "medium",
-        "sample_size": 9,
-        "sample_unit": "games",
-        "sample_scope": "current_season",
-        "evidence": [
-          "参团率：72.4（排名第 1）",
-          "支援：100.0",
-          "开团：92.0",
-          "团战：90.0"
-        ],
-        "risk_notes": [
-          "该判断需结合后续比赛和队伍战术安排验证",
-          "样本量 9 局，不能据此推断稳定战术角色"
+          "缺少败局样本，无法进行胜负差异对比"
         ]
       }
     ],
     "updated_reason": "daily_fetch",
-    "generated_at": "2026-10-09T03:01:00+08:00",
-    "build_id": "20261009T030100+0800",
-    "ai_elapsed_seconds": 136.19,
+    "generated_at": "2026-10-10T03:01:01+08:00",
+    "build_id": "20261010T030101+0800",
+    "ai_elapsed_seconds": 151.64,
     "ai_model": "qwen3.8-max",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "0b300d2b4bd8d039c296e60f4ade31a0d786316675d0a8bdeb4ff9073048529b"
+    "input_hash": "4a8698c23f10e610daaf13b78189d32e0c10d3ddeef6c723c005b6ea459130af"
   }
 }

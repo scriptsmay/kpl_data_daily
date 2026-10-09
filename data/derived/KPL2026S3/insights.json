@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-09T03:01:00+08:00",
-  "build_id": "20261009T030100+0800",
+  "generated_at": "2026-10-10T03:01:01+08:00",
+  "build_id": "20261010T030101+0800",
   "data": {
     "headline": "无言本赛季 9 局，使用 8 个英雄",
     "summary": "生涯累计 170 局。本赛季英雄池覆盖 8 个英雄，能力评分 92.8。",
@@ -45,15 +45,15 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 92.8，位置排名第 2。",
+        "summary": "当前能力评分 92.8，位置排名第 1。",
         "conclusion_type": "signal",
         "confidence": "medium",
         "sample_size": 9,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "位置排名：第 2 名",
-          "总排名：第 2 名",
+          "位置排名：第 1 名",
+          "总排名：第 1 名",
           "高于同位置均值维度：11 个",
           "低于同位置均值维度：1 个"
         ],
@@ -64,19 +64,19 @@
       {
         "id": "ranking",
         "title": "联盟排名",
-        "summary": "排名前列指标共 2 项：KDA、参团率",
+        "summary": "排名前列指标共 3 项：KDA、参团率、伤害占比",
         "conclusion_type": "fact",
         "confidence": "medium",
         "sample_size": 9,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "排名前列指标：KDA、参团率",
-          "KDA：排名第 2（9.38）",
+          "排名前列指标：KDA、参团率、伤害占比",
+          "KDA：排名第 1（9.38）",
           "分均伤害：排名第 4（4343.0）",
           "分均承伤：排名第 6（5406.0）",
-          "分均经济：排名第 5（676.0）",
-          "参团率：排名第 1（72.4）"
+          "分均经济：排名第 4（676.0）",
+          "参团率：排名第 2（72.4）"
         ],
         "risk_notes": []
       },

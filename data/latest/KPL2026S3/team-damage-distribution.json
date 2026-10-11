@@ -89,23 +89,23 @@
         ],
         "damage_to_positions_average": [
           {
-            "percentage": "35.7%",
+            "percentage": "34.4%",
             "position": "top"
           },
           {
-            "percentage": "19.1%",
+            "percentage": "18.0%",
             "position": "jungle"
           },
           {
-            "percentage": "12.2%",
+            "percentage": "13.3%",
             "position": "mid"
           },
           {
-            "percentage": "12.9%",
+            "percentage": "13.5%",
             "position": "adc"
           },
           {
-            "percentage": "20.2%",
+            "percentage": "20.8%",
             "position": "support"
           }
         ],
@@ -223,15 +223,15 @@
         ],
         "damage_to_positions_average": [
           {
-            "percentage": "20.7%",
+            "percentage": "20.5%",
             "position": "top"
           },
           {
-            "percentage": "23.5%",
+            "percentage": "23.8%",
             "position": "jungle"
           },
           {
-            "percentage": "14.0%",
+            "percentage": "13.9%",
             "position": "mid"
           },
           {
@@ -239,7 +239,7 @@
             "position": "adc"
           },
           {
-            "percentage": "26.8%",
+            "percentage": "26.7%",
             "position": "support"
           }
         ],
@@ -357,23 +357,23 @@
         ],
         "damage_to_positions_average": [
           {
-            "percentage": "19.5%",
+            "percentage": "19.8%",
             "position": "top"
           },
           {
-            "percentage": "26.1%",
+            "percentage": "26.3%",
             "position": "jungle"
           },
           {
-            "percentage": "11.7%",
+            "percentage": "11.5%",
             "position": "mid"
           },
           {
-            "percentage": "12.6%",
+            "percentage": "12.4%",
             "position": "adc"
           },
           {
-            "percentage": "30.1%",
+            "percentage": "30.0%",
             "position": "support"
           }
         ],
@@ -491,23 +491,23 @@
         ],
         "damage_to_positions_average": [
           {
-            "percentage": "22.6%",
+            "percentage": "22.8%",
             "position": "top"
           },
           {
-            "percentage": "24.9%",
+            "percentage": "25.0%",
             "position": "jungle"
           },
           {
-            "percentage": "8.7%",
+            "percentage": "8.9%",
             "position": "mid"
           },
           {
-            "percentage": "14.5%",
+            "percentage": "14.7%",
             "position": "adc"
           },
           {
-            "percentage": "29.2%",
+            "percentage": "28.6%",
             "position": "support"
           }
         ],
@@ -625,23 +625,23 @@
         ],
         "damage_to_positions_average": [
           {
-            "percentage": "22.6%",
+            "percentage": "22.8%",
             "position": "top"
           },
           {
-            "percentage": "24.9%",
+            "percentage": "25.0%",
             "position": "jungle"
           },
           {
-            "percentage": "8.7%",
+            "percentage": "8.9%",
             "position": "mid"
           },
           {
-            "percentage": "14.5%",
+            "percentage": "14.7%",
             "position": "adc"
           },
           {
-            "percentage": "29.2%",
+            "percentage": "28.6%",
             "position": "support"
           }
         ],
@@ -759,15 +759,15 @@
         ],
         "damage_to_positions_average": [
           {
-            "percentage": "17.5%",
+            "percentage": "17.7%",
             "position": "top"
           },
           {
-            "percentage": "23.0%",
+            "percentage": "23.2%",
             "position": "jungle"
           },
           {
-            "percentage": "13.3%",
+            "percentage": "13.2%",
             "position": "mid"
           },
           {
@@ -775,7 +775,7 @@
             "position": "adc"
           },
           {
-            "percentage": "32.6%",
+            "percentage": "32.3%",
             "position": "support"
           }
         ],
@@ -893,15 +893,15 @@
         ],
         "damage_to_positions_average": [
           {
-            "percentage": "17.5%",
+            "percentage": "17.7%",
             "position": "top"
           },
           {
-            "percentage": "23.0%",
+            "percentage": "23.2%",
             "position": "jungle"
           },
           {
-            "percentage": "13.3%",
+            "percentage": "13.2%",
             "position": "mid"
           },
           {
@@ -909,7 +909,7 @@
             "position": "adc"
           },
           {
-            "percentage": "32.6%",
+            "percentage": "32.3%",
             "position": "support"
           }
         ],
@@ -944,99 +944,55 @@
     "position_averages": {
       "中路": [
         {
-          "percentage": "19.5%",
+          "percentage": "19.8%",
           "position": "top"
         },
         {
-          "percentage": "26.1%",
+          "percentage": "26.3%",
           "position": "jungle"
         },
         {
-          "percentage": "11.7%",
+          "percentage": "11.5%",
           "position": "mid"
         },
         {
-          "percentage": "12.6%",
+          "percentage": "12.4%",
           "position": "adc"
         },
         {
-          "percentage": "30.1%",
+          "percentage": "30.0%",
           "position": "support"
         }
       ],
       "发育路": [
         {
-          "percentage": "22.6%",
+          "percentage": "22.8%",
           "position": "top"
         },
         {
-          "percentage": "24.9%",
+          "percentage": "25.0%",
           "position": "jungle"
         },
         {
-          "percentage": "8.7%",
+          "percentage": "8.9%",
           "position": "mid"
         },
         {
-          "percentage": "14.5%",
+          "percentage": "14.7%",
           "position": "adc"
         },
         {
-          "percentage": "29.2%",
+          "percentage": "28.6%",
           "position": "support"
         }
       ],
       "对抗路": [
         {
-          "percentage": "35.7%",
+          "percentage": "34.4%",
           "position": "top"
         },
         {
-          "percentage": "19.1%",
-          "position": "jungle"
-        },
-        {
-          "percentage": "12.2%",
-          "position": "mid"
-        },
-        {
-          "percentage": "12.9%",
-          "position": "adc"
-        },
-        {
-          "percentage": "20.2%",
-          "position": "support"
-        }
-      ],
-      "打野": [
-        {
-          "percentage": "20.7%",
-          "position": "top"
-        },
-        {
-          "percentage": "23.5%",
-          "position": "jungle"
-        },
-        {
-          "percentage": "14.0%",
-          "position": "mid"
-        },
-        {
-          "percentage": "15.1%",
-          "position": "adc"
-        },
-        {
-          "percentage": "26.8%",
-          "position": "support"
-        }
-      ],
-      "游走": [
-        {
-          "percentage": "17.5%",
-          "position": "top"
-        },
-        {
-          "percentage": "23.0%",
+          "percentage": "18.0%",
           "position": "jungle"
         },
         {
@@ -1044,11 +1000,55 @@
           "position": "mid"
         },
         {
+          "percentage": "13.5%",
+          "position": "adc"
+        },
+        {
+          "percentage": "20.8%",
+          "position": "support"
+        }
+      ],
+      "打野": [
+        {
+          "percentage": "20.5%",
+          "position": "top"
+        },
+        {
+          "percentage": "23.8%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "13.9%",
+          "position": "mid"
+        },
+        {
+          "percentage": "15.1%",
+          "position": "adc"
+        },
+        {
+          "percentage": "26.7%",
+          "position": "support"
+        }
+      ],
+      "游走": [
+        {
+          "percentage": "17.7%",
+          "position": "top"
+        },
+        {
+          "percentage": "23.2%",
+          "position": "jungle"
+        },
+        {
+          "percentage": "13.2%",
+          "position": "mid"
+        },
+        {
           "percentage": "13.6%",
           "position": "adc"
         },
         {
-          "percentage": "32.6%",
+          "percentage": "32.3%",
           "position": "support"
         }
       ]

@@ -2,6 +2,39 @@
   "code": 200,
   "data": [
     {
+      "hero_id": "128",
+      "hero_name": "曹操",
+      "is_symbol": 0,
+      "player_name": "KSG.无言",
+      "player_unique_id": "KPLP01538",
+      "team_name": "KSG",
+      "total_matches": 2,
+      "win_matches": 2,
+      "win_rate": "100%"
+    },
+    {
+      "hero_id": "503",
+      "hero_name": "狂铁",
+      "is_symbol": 0,
+      "player_name": "KSG.无言",
+      "player_unique_id": "KPLP01538",
+      "team_name": "KSG",
+      "total_matches": 2,
+      "win_matches": 2,
+      "win_rate": "100%"
+    },
+    {
+      "hero_id": "135",
+      "hero_name": "项羽",
+      "is_symbol": 0,
+      "player_name": "KSG.无言",
+      "player_unique_id": "KPLP01538",
+      "team_name": "KSG",
+      "total_matches": 2,
+      "win_matches": 2,
+      "win_rate": "100%"
+    },
+    {
       "hero_id": "518",
       "hero_name": "马超",
       "is_symbol": 0,
@@ -46,41 +79,8 @@
       "win_rate": "100%"
     },
     {
-      "hero_id": "128",
-      "hero_name": "曹操",
-      "is_symbol": 0,
-      "player_name": "KSG.无言",
-      "player_unique_id": "KPLP01538",
-      "team_name": "KSG",
-      "total_matches": 1,
-      "win_matches": 1,
-      "win_rate": "100%"
-    },
-    {
-      "hero_id": "503",
-      "hero_name": "狂铁",
-      "is_symbol": 0,
-      "player_name": "KSG.无言",
-      "player_unique_id": "KPLP01538",
-      "team_name": "KSG",
-      "total_matches": 1,
-      "win_matches": 1,
-      "win_rate": "100%"
-    },
-    {
       "hero_id": "120",
       "hero_name": "白起",
-      "is_symbol": 0,
-      "player_name": "KSG.无言",
-      "player_unique_id": "KPLP01538",
-      "team_name": "KSG",
-      "total_matches": 1,
-      "win_matches": 1,
-      "win_rate": "100%"
-    },
-    {
-      "hero_id": "135",
-      "hero_name": "项羽",
       "is_symbol": 0,
       "player_name": "KSG.无言",
       "player_unique_id": "KPLP01538",
@@ -100,5 +100,5 @@
     "sort_by": "total_matches"
   },
   "season": "KPL2026S3",
-  "total": 541
+  "total": 558
 }

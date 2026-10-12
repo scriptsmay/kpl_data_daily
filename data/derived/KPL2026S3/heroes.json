@@ -1,10 +1,58 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-12T03:00:50+08:00",
-  "build_id": "20261012T030050+0800",
+  "generated_at": "2026-10-13T03:00:51+08:00",
+  "build_id": "20261013T030051+0800",
   "data": {
     "summary": [
+      {
+        "hero_id": "128",
+        "hero_name": "曹操",
+        "is_symbol": 0,
+        "player_name": "KSG.无言",
+        "player_unique_id": "KPLP01538",
+        "team_name": "KSG",
+        "total_matches": 2,
+        "win_matches": 2,
+        "win_rate": "100%",
+        "maturity": "trial",
+        "historical_usage": {
+          "prior_seasons": 4,
+          "prior_matches": 13
+        }
+      },
+      {
+        "hero_id": "503",
+        "hero_name": "狂铁",
+        "is_symbol": 0,
+        "player_name": "KSG.无言",
+        "player_unique_id": "KPLP01538",
+        "team_name": "KSG",
+        "total_matches": 2,
+        "win_matches": 2,
+        "win_rate": "100%",
+        "maturity": "trial",
+        "historical_usage": {
+          "prior_seasons": 4,
+          "prior_matches": 25
+        }
+      },
+      {
+        "hero_id": "135",
+        "hero_name": "项羽",
+        "is_symbol": 0,
+        "player_name": "KSG.无言",
+        "player_unique_id": "KPLP01538",
+        "team_name": "KSG",
+        "total_matches": 2,
+        "win_matches": 2,
+        "win_rate": "100%",
+        "maturity": "trial",
+        "historical_usage": {
+          "prior_seasons": 1,
+          "prior_matches": 1
+        }
+      },
       {
         "hero_id": "518",
         "hero_name": "马超",
@@ -70,38 +118,6 @@
         }
       },
       {
-        "hero_id": "128",
-        "hero_name": "曹操",
-        "is_symbol": 0,
-        "player_name": "KSG.无言",
-        "player_unique_id": "KPLP01538",
-        "team_name": "KSG",
-        "total_matches": 1,
-        "win_matches": 1,
-        "win_rate": "100%",
-        "maturity": "trial",
-        "historical_usage": {
-          "prior_seasons": 4,
-          "prior_matches": 13
-        }
-      },
-      {
-        "hero_id": "503",
-        "hero_name": "狂铁",
-        "is_symbol": 0,
-        "player_name": "KSG.无言",
-        "player_unique_id": "KPLP01538",
-        "team_name": "KSG",
-        "total_matches": 1,
-        "win_matches": 1,
-        "win_rate": "100%",
-        "maturity": "trial",
-        "historical_usage": {
-          "prior_seasons": 4,
-          "prior_matches": 25
-        }
-      },
-      {
         "hero_id": "120",
         "hero_name": "白起",
         "is_symbol": 0,
@@ -116,25 +132,1877 @@
           "prior_seasons": 2,
           "prior_matches": 4
         }
-      },
-      {
-        "hero_id": "135",
-        "hero_name": "项羽",
-        "is_symbol": 0,
-        "player_name": "KSG.无言",
-        "player_unique_id": "KPLP01538",
-        "team_name": "KSG",
-        "total_matches": 1,
-        "win_matches": 1,
-        "win_rate": "100%",
-        "maturity": "trial",
-        "historical_usage": {
-          "prior_seasons": 1,
-          "prior_matches": 1
-        }
       }
     ],
     "battles": {
+      "曹操": {
+        "hero_id": "128",
+        "total": 2,
+        "wins": 2,
+        "loses": 0,
+        "battles": [
+          {
+            "equip_ids": [
+              "冰痕之握",
+              "抵抗之靴",
+              "暗影战斧",
+              "纯净苍穹",
+              "末世",
+              "风暴巨剑"
+            ],
+            "hero_id": "128",
+            "hero_name": "曹操",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "4/1/4",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [
+                    "冰痕之握",
+                    "抵抗之靴",
+                    "暗影战斧",
+                    "纯净苍穹",
+                    "末世",
+                    "风暴巨剑"
+                  ],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "KSG.无言",
+                  "player_position": "对抗路",
+                  "rune": {
+                    "1504": {
+                      "name": "异变",
+                      "totalnumber": 9
+                    },
+                    "1520": {
+                      "name": "红月",
+                      "totalnumber": 1
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "贪婪之噬",
+                    "抵抗之靴",
+                    "怒龙剑盾",
+                    "暗影战斧",
+                    "冰霜冲击",
+                    "风暴巨剑"
+                  ],
+                  "hero_id": "107",
+                  "hero_name": "赵云",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": {
+                    "1504": {
+                      "name": "异变",
+                      "totalnumber": 10
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "梦魇之牙",
+                    "守护者之铠",
+                    "抵抗之靴",
+                    "日暮之流",
+                    "噬神之书"
+                  ],
+                  "hero_id": "521",
+                  "hero_name": "海月",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": {
+                    "1501": {
+                      "name": "圣人",
+                      "totalnumber": 10
+                    },
+                    "2512": {
+                      "name": "轮回",
+                      "totalnumber": 1
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 9
+                    },
+                    "3511": {
+                      "name": "献祭",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "抵抗之靴",
+                    "末世",
+                    "无尽战刃",
+                    "仁者破晓",
+                    "逐日之弓",
+                    "守护者之铠"
+                  ],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "KSG.梦岚",
+                  "player_position": "发育路",
+                  "rune": {
+                    "1519": {
+                      "name": "祸源",
+                      "totalnumber": 10
+                    },
+                    "2504": {
+                      "name": "夺萃",
+                      "totalnumber": 8
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 2
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "近卫·星泉",
+                    "抵抗之靴",
+                    "冰霜冲击",
+                    "魔女斗篷"
+                  ],
+                  "hero_id": "171",
+                  "hero_name": "张飞",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [
+                    "纯净苍穹",
+                    "抵抗之靴",
+                    "冰痕之握",
+                    "暗影战斧",
+                    "神隐斗篷"
+                  ],
+                  "hero_id": "536",
+                  "hero_name": "夏洛特",
+                  "player_name": "南通Hero久竞.坦然",
+                  "player_position": "对抗路",
+                  "rune": {
+                    "1504": {
+                      "name": "异变",
+                      "totalnumber": 10
+                    },
+                    "2501": {
+                      "name": "长生",
+                      "totalnumber": 4
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 3
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 2
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 1
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "贪婪之噬",
+                    "影忍之足",
+                    "暗影战斧",
+                    "末世",
+                    "冰痕之握",
+                    "吸血之镰"
+                  ],
+                  "hero_id": "170",
+                  "hero_name": "刘备",
+                  "player_name": "南通Hero久竞.落尘",
+                  "player_position": "打野",
+                  "rune": {
+                    "1520": {
+                      "name": "红月",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "梦魇之牙",
+                    "抵抗之靴",
+                    "痛苦面具",
+                    "云灵木",
+                    "圣者法典"
+                  ],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "南通Hero久竞.玖熙",
+                  "player_position": "中路",
+                  "rune": {
+                    "1514": {
+                      "name": "梦魇",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 10
+                    },
+                    "3515": {
+                      "name": "心眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "无尽战刃",
+                    "仁者破晓",
+                    "抵抗之靴",
+                    "穿云弓",
+                    "血魂刃",
+                    "精钢锻刀"
+                  ],
+                  "hero_id": "196",
+                  "hero_name": "百里守约",
+                  "player_name": "南通Hero久竞.妖刀",
+                  "player_position": "发育路",
+                  "rune": {
+                    "1519": {
+                      "name": "祸源",
+                      "totalnumber": 10
+                    },
+                    "2504": {
+                      "name": "夺萃",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "近卫·救赎",
+                    "抵抗之靴",
+                    "冰霜冲击",
+                    "神隐斗篷",
+                    "抗魔披风"
+                  ],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "南通Hero久竞.白清",
+                  "player_position": "游走",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                }
+              ]
+            },
+            "match_date": "2026101201",
+            "player_unique_id": "KPLP01538",
+            "rune": {
+              "1504": {
+                "name": "异变",
+                "totalnumber": 9
+              },
+              "1520": {
+                "name": "红月",
+                "totalnumber": 1
+              },
+              "2517": {
+                "name": "隐匿",
+                "totalnumber": 10
+              },
+              "3514": {
+                "name": "鹰眼",
+                "totalnumber": 10
+              }
+            },
+            "schedule_id": "KPL2026S3M3W1D1",
+            "versus_info": "KSG vs 南通Hero久竞"
+          },
+          {
+            "equip_ids": [
+              "暗影战斧",
+              "冰痕之握",
+              "抵抗之靴",
+              "纯净苍穹",
+              "末世",
+              "血魔之怒"
+            ],
+            "hero_id": "128",
+            "hero_name": "曹操",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "1/0/7",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [
+                    "暗影战斧",
+                    "冰痕之握",
+                    "抵抗之靴",
+                    "纯净苍穹",
+                    "末世",
+                    "血魔之怒"
+                  ],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "KSG.无言",
+                  "player_position": "对抗路",
+                  "rune": {
+                    "1504": {
+                      "name": "异变",
+                      "totalnumber": 9
+                    },
+                    "1520": {
+                      "name": "红月",
+                      "totalnumber": 1
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "贪婪之噬",
+                    "抵抗之靴",
+                    "怒龙剑盾",
+                    "暗影战斧",
+                    "不死鸟之眼",
+                    "纯净苍穹"
+                  ],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": {
+                    "1504": {
+                      "name": "异变",
+                      "totalnumber": 10
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "梦魇之牙",
+                    "守护者之铠",
+                    "抵抗之靴",
+                    "日暮之流",
+                    "噬神之书",
+                    "血族之书"
+                  ],
+                  "hero_id": "521",
+                  "hero_name": "海月",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": {
+                    "1501": {
+                      "name": "圣人",
+                      "totalnumber": 10
+                    },
+                    "2512": {
+                      "name": "轮回",
+                      "totalnumber": 1
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 9
+                    },
+                    "3511": {
+                      "name": "献祭",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "闪电匕首",
+                    "抵抗之靴",
+                    "末世",
+                    "仁者破晓",
+                    "不祥征兆",
+                    "影刃"
+                  ],
+                  "hero_id": "547",
+                  "hero_name": "卢雅那",
+                  "player_name": "KSG.梦岚",
+                  "player_position": "发育路",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "极影·救赎",
+                    "抵抗之靴",
+                    "梦魇之牙",
+                    "旭日初光",
+                    "守护者之铠",
+                    "布甲"
+                  ],
+                  "hero_id": "159",
+                  "hero_name": "朵莉亚",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2501": {
+                      "name": "长生",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [
+                    "极寒风暴",
+                    "抵抗之靴",
+                    "魔女斗篷",
+                    "红莲斗篷",
+                    "陨星",
+                    "布甲"
+                  ],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "深圳DYG.小乐",
+                  "player_position": "对抗路",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "贪婪之噬",
+                    "抵抗之靴",
+                    "暗影战斧",
+                    "怒龙剑盾",
+                    "强者破军",
+                    "纯净苍穹"
+                  ],
+                  "hero_id": "162",
+                  "hero_name": "娜可露露",
+                  "player_name": "深圳DYG.小轩",
+                  "player_position": "打野",
+                  "rune": {
+                    "1504": {
+                      "name": "异变",
+                      "totalnumber": 9
+                    },
+                    "1520": {
+                      "name": "红月",
+                      "totalnumber": 1
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "梦魇之牙",
+                    "秘法之靴",
+                    "日暮之流",
+                    "噬神之书",
+                    "圣者法典",
+                    "咒术典籍"
+                  ],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "深圳DYG.向鱼",
+                  "player_position": "中路",
+                  "rune": {
+                    "1514": {
+                      "name": "梦魇",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 10
+                    },
+                    "3515": {
+                      "name": "心眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "无尽战刃",
+                    "影忍之足",
+                    "仁者破晓",
+                    "影刃",
+                    "末世"
+                  ],
+                  "hero_id": "519",
+                  "hero_name": "敖隐",
+                  "player_name": "深圳DYG.钎城",
+                  "player_position": "发育路",
+                  "rune": {
+                    "1510": {
+                      "name": "无双",
+                      "totalnumber": 1
+                    },
+                    "1519": {
+                      "name": "祸源",
+                      "totalnumber": 9
+                    },
+                    "2506": {
+                      "name": "兽痕",
+                      "totalnumber": 2
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 8
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "近卫·救赎",
+                    "抵抗之靴",
+                    "冰霜冲击",
+                    "魔女斗篷"
+                  ],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "深圳DYG.小A",
+                  "player_position": "游走",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 5
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 5
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                }
+              ]
+            },
+            "match_date": "2026100401",
+            "player_unique_id": "KPLP01538",
+            "rune": {
+              "1504": {
+                "name": "异变",
+                "totalnumber": 9
+              },
+              "1520": {
+                "name": "红月",
+                "totalnumber": 1
+              },
+              "2517": {
+                "name": "隐匿",
+                "totalnumber": 10
+              },
+              "3514": {
+                "name": "鹰眼",
+                "totalnumber": 10
+              }
+            },
+            "schedule_id": "KPL2026S3M1W3D1",
+            "versus_info": "KSG vs 深圳DYG"
+          }
+        ]
+      },
+      "狂铁": {
+        "hero_id": "503",
+        "total": 2,
+        "wins": 2,
+        "loses": 0,
+        "battles": [
+          {
+            "equip_ids": [
+              "纯净苍穹",
+              "急速战靴",
+              "极寒风暴",
+              "暗影战斧",
+              "破魔刀",
+              "风暴巨剑"
+            ],
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "4/0/4",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [
+                    "纯净苍穹",
+                    "急速战靴",
+                    "极寒风暴",
+                    "暗影战斧",
+                    "破魔刀",
+                    "风暴巨剑"
+                  ],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "KSG.无言",
+                  "player_position": "对抗路",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "巨人之握",
+                    "抵抗之靴",
+                    "怒龙剑盾",
+                    "冰霜冲击",
+                    "魔女斗篷"
+                  ],
+                  "hero_id": "581",
+                  "hero_name": "元流之子·坦克",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2501": {
+                      "name": "长生",
+                      "totalnumber": 3
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 5
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 2
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "梦魇之牙",
+                    "秘法之靴",
+                    "痛苦面具",
+                    "日暮之流",
+                    "咒术典籍"
+                  ],
+                  "hero_id": "179",
+                  "hero_name": "女娲",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": {
+                    "1514": {
+                      "name": "梦魇",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3511": {
+                      "name": "献祭",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "抵抗之靴",
+                    "闪电匕首",
+                    "末世",
+                    "仁者破晓",
+                    "无尽战刃",
+                    "吸血之镰"
+                  ],
+                  "hero_id": "199",
+                  "hero_name": "公孙离",
+                  "player_name": "KSG.梦岚",
+                  "player_position": "发育路",
+                  "rune": {
+                    "1519": {
+                      "name": "祸源",
+                      "totalnumber": 5
+                    },
+                    "1520": {
+                      "name": "红月",
+                      "totalnumber": 5
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "近卫·形昭",
+                    "抵抗之靴",
+                    "冰霜冲击",
+                    "神隐斗篷",
+                    "神隐斗篷"
+                  ],
+                  "hero_id": "525",
+                  "hero_name": "鲁班大师",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 5
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 5
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [
+                    "抵抗之靴",
+                    "闪电匕首",
+                    "影刃",
+                    "不祥征兆",
+                    "末世"
+                  ],
+                  "hero_id": "537",
+                  "hero_name": "司空震",
+                  "player_name": "南通Hero久竞.坦然",
+                  "player_position": "对抗路",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 8
+                    },
+                    "1520": {
+                      "name": "红月",
+                      "totalnumber": 2
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3501": {
+                      "name": "霸者",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "巡守利斧",
+                    "抵抗之靴",
+                    "红莲斗篷",
+                    "怒龙剑盾",
+                    "急速铠甲"
+                  ],
+                  "hero_id": "126",
+                  "hero_name": "夏侯惇",
+                  "player_name": "南通Hero久竞.落尘",
+                  "player_position": "打野",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "梦魇之牙",
+                    "秘法之靴",
+                    "痛苦面具",
+                    "云灵木"
+                  ],
+                  "hero_id": "142",
+                  "hero_name": "安琪拉",
+                  "player_name": "南通Hero久竞.玖熙",
+                  "player_position": "中路",
+                  "rune": {
+                    "1514": {
+                      "name": "梦魇",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 10
+                    },
+                    "3515": {
+                      "name": "心眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "无尽战刃",
+                    "抵抗之靴",
+                    "仁者破晓",
+                    "末世",
+                    "搏击拳套",
+                    "铁剑"
+                  ],
+                  "hero_id": "519",
+                  "hero_name": "敖隐",
+                  "player_name": "南通Hero久竞.妖刀",
+                  "player_position": "发育路",
+                  "rune": {
+                    "1519": {
+                      "name": "祸源",
+                      "totalnumber": 10
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "近卫·形昭",
+                    "抵抗之靴",
+                    "冰霜冲击",
+                    "抗魔披风",
+                    "红玛瑙"
+                  ],
+                  "hero_id": "175",
+                  "hero_name": "钟馗",
+                  "player_name": "南通Hero久竞.白清",
+                  "player_position": "游走",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                }
+              ]
+            },
+            "match_date": "2026101201",
+            "player_unique_id": "KPLP01538",
+            "rune": {
+              "1512": {
+                "name": "宿命",
+                "totalnumber": 10
+              },
+              "2520": {
+                "name": "狩猎",
+                "totalnumber": 10
+              },
+              "3514": {
+                "name": "鹰眼",
+                "totalnumber": 10
+              }
+            },
+            "schedule_id": "KPL2026S3M3W1D1",
+            "versus_info": "KSG vs 南通Hero久竞"
+          },
+          {
+            "equip_ids": [
+              "极寒风暴",
+              "抵抗之靴",
+              "不死鸟之眼",
+              "守护者之铠",
+              "纯净苍穹",
+              "元流结晶"
+            ],
+            "hero_id": "503",
+            "hero_name": "狂铁",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "1/0/2",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [
+                    "抵抗之靴",
+                    "闪电匕首",
+                    "影刃",
+                    "末世",
+                    "怒龙剑盾"
+                  ],
+                  "hero_id": "537",
+                  "hero_name": "司空震",
+                  "player_name": "济南RW侠.归期",
+                  "player_position": "对抗路",
+                  "rune": null
+                },
+                {
+                  "equip_ids": [
+                    "贪婪之噬",
+                    "抵抗之靴",
+                    "怒龙剑盾",
+                    "不死鸟之眼",
+                    "陨星",
+                    "铁剑"
+                  ],
+                  "hero_id": "178",
+                  "hero_name": "杨戬",
+                  "player_name": "济南RW侠.今屿",
+                  "player_position": "打野",
+                  "rune": null
+                },
+                {
+                  "equip_ids": [
+                    "梦魇之牙",
+                    "抵抗之靴",
+                    "日暮之流",
+                    "云灵木",
+                    "元流结晶"
+                  ],
+                  "hero_id": "521",
+                  "hero_name": "海月",
+                  "player_name": "济南RW侠.挽墨",
+                  "player_position": "中路",
+                  "rune": null
+                },
+                {
+                  "equip_ids": [
+                    "无尽战刃",
+                    "抵抗之靴",
+                    "仁者破晓",
+                    "幽影袖箭",
+                    "铁剑"
+                  ],
+                  "hero_id": "196",
+                  "hero_name": "百里守约",
+                  "player_name": "济南RW侠.小俞",
+                  "player_position": "发育路",
+                  "rune": null
+                },
+                {
+                  "equip_ids": [
+                    "极影·救赎",
+                    "抵抗之靴",
+                    "冰霜冲击",
+                    "神隐斗篷",
+                    "神隐斗篷"
+                  ],
+                  "hero_id": "159",
+                  "hero_name": "朵莉亚",
+                  "player_name": "济南RW侠.梦溪",
+                  "player_position": "游走",
+                  "rune": null
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [
+                    "极寒风暴",
+                    "抵抗之靴",
+                    "不死鸟之眼",
+                    "守护者之铠",
+                    "纯净苍穹",
+                    "元流结晶"
+                  ],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "KSG.无言",
+                  "player_position": "对抗路",
+                  "rune": null
+                },
+                {
+                  "equip_ids": [
+                    "贪婪之噬",
+                    "抵抗之靴",
+                    "怒龙剑盾",
+                    "血魔之怒",
+                    "暗影战斧"
+                  ],
+                  "hero_id": "107",
+                  "hero_name": "赵云",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": null
+                },
+                {
+                  "equip_ids": [
+                    "梦魇之牙",
+                    "秘法之靴",
+                    "痛苦面具",
+                    "日暮之流",
+                    "大棒",
+                    "大棒"
+                  ],
+                  "hero_id": "179",
+                  "hero_name": "女娲",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": null
+                },
+                {
+                  "equip_ids": [
+                    "末世",
+                    "影忍之足",
+                    "无尽战刃",
+                    "仁者破晓",
+                    "逐日之弓",
+                    "搏击拳套"
+                  ],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "KSG.梦岚",
+                  "player_position": "发育路",
+                  "rune": null
+                },
+                {
+                  "equip_ids": [
+                    "近卫·形昭",
+                    "抵抗之靴",
+                    "魔女斗篷",
+                    "守护者之铠",
+                    "急速铠甲"
+                  ],
+                  "hero_id": "171",
+                  "hero_name": "张飞",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": null
+                }
+              ]
+            },
+            "match_date": "2026100202",
+            "player_unique_id": "KPLP01538",
+            "rune": null,
+            "schedule_id": "KPL2026S3M1W1D2",
+            "versus_info": "济南RW侠 vs KSG"
+          }
+        ]
+      },
+      "项羽": {
+        "hero_id": "135",
+        "total": 2,
+        "wins": 2,
+        "loses": 0,
+        "battles": [
+          {
+            "equip_ids": [
+              "抵抗之靴",
+              "冰霜冲击",
+              "不死鸟之眼",
+              "怒龙剑盾",
+              "神隐斗篷",
+              "附魔之羽"
+            ],
+            "hero_id": "135",
+            "hero_name": "项羽",
+            "is_mvp": true,
+            "is_win": true,
+            "kda": "2/0/10",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [
+                    "抵抗之靴",
+                    "冰霜冲击",
+                    "魔女斗篷",
+                    "急速铠甲",
+                    "雪山圆盾"
+                  ],
+                  "hero_id": "503",
+                  "hero_name": "狂铁",
+                  "player_name": "南通Hero久竞.坦然",
+                  "player_position": "对抗路",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "贪婪之噬",
+                    "抵抗之靴",
+                    "怒龙剑盾",
+                    "暗影战斧",
+                    "血魔之怒"
+                  ],
+                  "hero_id": "107",
+                  "hero_name": "赵云",
+                  "player_name": "南通Hero久竞.落尘",
+                  "player_position": "打野",
+                  "rune": {
+                    "1504": {
+                      "name": "异变",
+                      "totalnumber": 10
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "抵抗之靴",
+                    "梦魇之牙",
+                    "辉月",
+                    "血族之书"
+                  ],
+                  "hero_id": "136",
+                  "hero_name": "武则天",
+                  "player_name": "南通Hero久竞.玖熙",
+                  "player_position": "中路",
+                  "rune": {
+                    "1514": {
+                      "name": "梦魇",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 10
+                    },
+                    "3515": {
+                      "name": "心眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "闪电匕首",
+                    "抵抗之靴",
+                    "末世",
+                    "虚无法杖",
+                    "速击之枪",
+                    "匕首"
+                  ],
+                  "hero_id": "155",
+                  "hero_name": "艾琳",
+                  "player_name": "南通Hero久竞.妖刀",
+                  "player_position": "发育路",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2504": {
+                      "name": "夺萃",
+                      "totalnumber": 10
+                    },
+                    "3515": {
+                      "name": "心眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "近卫·救赎",
+                    "抵抗之靴",
+                    "冰霜冲击",
+                    "神隐斗篷"
+                  ],
+                  "hero_id": "509",
+                  "hero_name": "盾山",
+                  "player_name": "南通Hero久竞.白清",
+                  "player_position": "游走",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 5
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 5
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [
+                    "抵抗之靴",
+                    "冰霜冲击",
+                    "不死鸟之眼",
+                    "怒龙剑盾",
+                    "神隐斗篷",
+                    "附魔之羽"
+                  ],
+                  "hero_id": "135",
+                  "hero_name": "项羽",
+                  "player_name": "KSG.无言",
+                  "player_position": "对抗路",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "贪婪之噬",
+                    "抵抗之靴",
+                    "无尽战刃",
+                    "暗影战斧",
+                    "怒龙剑盾",
+                    "力量腰带"
+                  ],
+                  "hero_id": "549",
+                  "hero_name": "心魔六耳",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": {
+                    "1510": {
+                      "name": "无双",
+                      "totalnumber": 10
+                    },
+                    "2504": {
+                      "name": "夺萃",
+                      "totalnumber": 5
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 5
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "梦魇之牙",
+                    "抵抗之靴",
+                    "辉月",
+                    "虚无法杖",
+                    "咒术典籍",
+                    "咒术典籍"
+                  ],
+                  "hero_id": "106",
+                  "hero_name": "小乔",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": {
+                    "1514": {
+                      "name": "梦魇",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 10
+                    },
+                    "3515": {
+                      "name": "心眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "无尽战刃",
+                    "急速战靴",
+                    "仁者破晓",
+                    "影刃",
+                    "末世"
+                  ],
+                  "hero_id": "519",
+                  "hero_name": "敖隐",
+                  "player_name": "KSG.小屿",
+                  "player_position": "发育路",
+                  "rune": {
+                    "1519": {
+                      "name": "祸源",
+                      "totalnumber": 10
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "近卫·形昭",
+                    "急速战靴",
+                    "冰霜冲击",
+                    "神隐斗篷",
+                    "红玛瑙"
+                  ],
+                  "hero_id": "175",
+                  "hero_name": "钟馗",
+                  "player_name": "KSG.烈峰峰",
+                  "player_position": "游走",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                }
+              ]
+            },
+            "match_date": "2026101201",
+            "player_unique_id": "KPLP01538",
+            "rune": {
+              "1512": {
+                "name": "宿命",
+                "totalnumber": 10
+              },
+              "2520": {
+                "name": "狩猎",
+                "totalnumber": 10
+              },
+              "3509": {
+                "name": "虚空",
+                "totalnumber": 10
+              }
+            },
+            "schedule_id": "KPL2026S3M3W1D1",
+            "versus_info": "南通Hero久竞 vs KSG"
+          },
+          {
+            "equip_ids": [
+              "急速战靴",
+              "冰霜冲击",
+              "不死鸟之眼",
+              "怒龙剑盾",
+              "永夜守护",
+              "力量腰带"
+            ],
+            "hero_id": "135",
+            "hero_name": "项羽",
+            "is_mvp": false,
+            "is_win": true,
+            "kda": "0/2/11",
+            "lineup": {
+              "blue_team": [
+                {
+                  "equip_ids": [
+                    "冰痕之握",
+                    "抵抗之靴",
+                    "暗影战斧",
+                    "不动·天穹",
+                    "末世",
+                    "破魔刀"
+                  ],
+                  "hero_id": "128",
+                  "hero_name": "曹操",
+                  "player_name": "深圳DYG.小乐",
+                  "player_position": "对抗路",
+                  "rune": {
+                    "1504": {
+                      "name": "异变",
+                      "totalnumber": 10
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "贪婪之噬",
+                    "抵抗之靴",
+                    "怒龙剑盾",
+                    "冰霜冲击",
+                    "魔女斗篷",
+                    "守护者之铠"
+                  ],
+                  "hero_id": "193",
+                  "hero_name": "铠",
+                  "player_name": "深圳DYG.小轩",
+                  "player_position": "打野",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 2
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 8
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "噬神之书",
+                    "抵抗之靴",
+                    "炽热支配",
+                    "博学者之怒",
+                    "虚无法杖",
+                    "大棒"
+                  ],
+                  "hero_id": "157",
+                  "hero_name": "不知火舞",
+                  "player_name": "深圳DYG.向鱼",
+                  "player_position": "中路",
+                  "rune": {
+                    "1514": {
+                      "name": "梦魇",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 10
+                    },
+                    "3515": {
+                      "name": "心眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "闪电匕首",
+                    "抵抗之靴",
+                    "末世",
+                    "仁者破晓",
+                    "逐风",
+                    "不祥征兆"
+                  ],
+                  "hero_id": "155",
+                  "hero_name": "艾琳",
+                  "player_name": "深圳DYG.钎城",
+                  "player_position": "发育路",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 9
+                    },
+                    "1520": {
+                      "name": "红月",
+                      "totalnumber": 1
+                    },
+                    "2504": {
+                      "name": "夺萃",
+                      "totalnumber": 9
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 1
+                    },
+                    "3515": {
+                      "name": "心眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "近卫·救赎",
+                    "抵抗之靴",
+                    "冰霜冲击",
+                    "魔女斗篷",
+                    "不祥征兆",
+                    "守护者之铠"
+                  ],
+                  "hero_id": "509",
+                  "hero_name": "盾山",
+                  "player_name": "深圳DYG.小A",
+                  "player_position": "游走",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 5
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 5
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                }
+              ],
+              "red_team": [
+                {
+                  "equip_ids": [
+                    "急速战靴",
+                    "冰霜冲击",
+                    "不死鸟之眼",
+                    "怒龙剑盾",
+                    "永夜守护",
+                    "力量腰带"
+                  ],
+                  "hero_id": "135",
+                  "hero_name": "项羽",
+                  "player_name": "KSG.无言",
+                  "player_position": "对抗路",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "贪婪之噬",
+                    "碎星锤",
+                    "无尽战刃",
+                    "暗影战斧",
+                    "名刀·司命",
+                    "贤者的庇护"
+                  ],
+                  "hero_id": "549",
+                  "hero_name": "心魔六耳",
+                  "player_name": "KSG.句号",
+                  "player_position": "打野",
+                  "rune": {
+                    "1510": {
+                      "name": "无双",
+                      "totalnumber": 10
+                    },
+                    "2504": {
+                      "name": "夺萃",
+                      "totalnumber": 10
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "梦魇之牙",
+                    "抵抗之靴",
+                    "日暮之流",
+                    "噬神之书",
+                    "博学者之怒",
+                    "痛苦面具"
+                  ],
+                  "hero_id": "312",
+                  "hero_name": "沈梦溪",
+                  "player_name": "KSG.流浪",
+                  "player_position": "中路",
+                  "rune": {
+                    "1514": {
+                      "name": "梦魇",
+                      "totalnumber": 10
+                    },
+                    "2515": {
+                      "name": "调和",
+                      "totalnumber": 10
+                    },
+                    "3515": {
+                      "name": "心眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "末世",
+                    "疾步之靴",
+                    "无尽战刃",
+                    "仁者破晓",
+                    "逐日之弓",
+                    "贤者的庇护"
+                  ],
+                  "hero_id": "548",
+                  "hero_name": "戈娅",
+                  "player_name": "KSG.梦岚",
+                  "player_position": "发育路",
+                  "rune": {
+                    "1519": {
+                      "name": "祸源",
+                      "totalnumber": 10
+                    },
+                    "2504": {
+                      "name": "夺萃",
+                      "totalnumber": 8
+                    },
+                    "2517": {
+                      "name": "隐匿",
+                      "totalnumber": 2
+                    },
+                    "3514": {
+                      "name": "鹰眼",
+                      "totalnumber": 10
+                    }
+                  }
+                },
+                {
+                  "equip_ids": [
+                    "近卫·救赎",
+                    "疾步之靴",
+                    "冰霜冲击",
+                    "魔女斗篷",
+                    "不祥征兆",
+                    "力量腰带"
+                  ],
+                  "hero_id": "194",
+                  "hero_name": "苏烈",
+                  "player_name": "KSG.晚星",
+                  "player_position": "游走",
+                  "rune": {
+                    "1512": {
+                      "name": "宿命",
+                      "totalnumber": 10
+                    },
+                    "2520": {
+                      "name": "狩猎",
+                      "totalnumber": 10
+                    },
+                    "3509": {
+                      "name": "虚空",
+                      "totalnumber": 10
+                    }
+                  }
+                }
+              ]
+            },
+            "match_date": "2026100401",
+            "player_unique_id": "KPLP01538",
+            "rune": {
+              "1512": {
+                "name": "宿命",
+                "totalnumber": 10
+              },
+              "2520": {
+                "name": "狩猎",
+                "totalnumber": 10
+              },
+              "3509": {
+                "name": "虚空",
+                "totalnumber": 10
+              }
+            },
+            "schedule_id": "KPL2026S3M1W3D1",
+            "versus_info": "深圳DYG vs KSG"
+          }
+        ]
+      },
       "马超": {
         "hero_id": "518",
         "total": 2,
@@ -1898,536 +3766,6 @@
           }
         ]
       },
-      "曹操": {
-        "hero_id": "128",
-        "total": 1,
-        "wins": 1,
-        "loses": 0,
-        "battles": [
-          {
-            "equip_ids": [
-              "暗影战斧",
-              "冰痕之握",
-              "抵抗之靴",
-              "纯净苍穹",
-              "末世",
-              "血魔之怒"
-            ],
-            "hero_id": "128",
-            "hero_name": "曹操",
-            "is_mvp": false,
-            "is_win": true,
-            "kda": "1/0/7",
-            "lineup": {
-              "blue_team": [
-                {
-                  "equip_ids": [
-                    "暗影战斧",
-                    "冰痕之握",
-                    "抵抗之靴",
-                    "纯净苍穹",
-                    "末世",
-                    "血魔之怒"
-                  ],
-                  "hero_id": "128",
-                  "hero_name": "曹操",
-                  "player_name": "KSG.无言",
-                  "player_position": "对抗路",
-                  "rune": {
-                    "1504": {
-                      "name": "异变",
-                      "totalnumber": 9
-                    },
-                    "1520": {
-                      "name": "红月",
-                      "totalnumber": 1
-                    },
-                    "2517": {
-                      "name": "隐匿",
-                      "totalnumber": 10
-                    },
-                    "3514": {
-                      "name": "鹰眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "贪婪之噬",
-                    "抵抗之靴",
-                    "怒龙剑盾",
-                    "暗影战斧",
-                    "不死鸟之眼",
-                    "纯净苍穹"
-                  ],
-                  "hero_id": "178",
-                  "hero_name": "杨戬",
-                  "player_name": "KSG.句号",
-                  "player_position": "打野",
-                  "rune": {
-                    "1504": {
-                      "name": "异变",
-                      "totalnumber": 10
-                    },
-                    "2517": {
-                      "name": "隐匿",
-                      "totalnumber": 10
-                    },
-                    "3514": {
-                      "name": "鹰眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "梦魇之牙",
-                    "守护者之铠",
-                    "抵抗之靴",
-                    "日暮之流",
-                    "噬神之书",
-                    "血族之书"
-                  ],
-                  "hero_id": "521",
-                  "hero_name": "海月",
-                  "player_name": "KSG.流浪",
-                  "player_position": "中路",
-                  "rune": {
-                    "1501": {
-                      "name": "圣人",
-                      "totalnumber": 10
-                    },
-                    "2512": {
-                      "name": "轮回",
-                      "totalnumber": 1
-                    },
-                    "2520": {
-                      "name": "狩猎",
-                      "totalnumber": 9
-                    },
-                    "3511": {
-                      "name": "献祭",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "闪电匕首",
-                    "抵抗之靴",
-                    "末世",
-                    "仁者破晓",
-                    "不祥征兆",
-                    "影刃"
-                  ],
-                  "hero_id": "547",
-                  "hero_name": "卢雅那",
-                  "player_name": "KSG.梦岚",
-                  "player_position": "发育路",
-                  "rune": {
-                    "1512": {
-                      "name": "宿命",
-                      "totalnumber": 10
-                    },
-                    "2520": {
-                      "name": "狩猎",
-                      "totalnumber": 10
-                    },
-                    "3514": {
-                      "name": "鹰眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "极影·救赎",
-                    "抵抗之靴",
-                    "梦魇之牙",
-                    "旭日初光",
-                    "守护者之铠",
-                    "布甲"
-                  ],
-                  "hero_id": "159",
-                  "hero_name": "朵莉亚",
-                  "player_name": "KSG.晚星",
-                  "player_position": "游走",
-                  "rune": {
-                    "1512": {
-                      "name": "宿命",
-                      "totalnumber": 10
-                    },
-                    "2501": {
-                      "name": "长生",
-                      "totalnumber": 10
-                    },
-                    "3509": {
-                      "name": "虚空",
-                      "totalnumber": 10
-                    }
-                  }
-                }
-              ],
-              "red_team": [
-                {
-                  "equip_ids": [
-                    "极寒风暴",
-                    "抵抗之靴",
-                    "魔女斗篷",
-                    "红莲斗篷",
-                    "陨星",
-                    "布甲"
-                  ],
-                  "hero_id": "503",
-                  "hero_name": "狂铁",
-                  "player_name": "深圳DYG.小乐",
-                  "player_position": "对抗路",
-                  "rune": {
-                    "1512": {
-                      "name": "宿命",
-                      "totalnumber": 10
-                    },
-                    "2520": {
-                      "name": "狩猎",
-                      "totalnumber": 10
-                    },
-                    "3509": {
-                      "name": "虚空",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "贪婪之噬",
-                    "抵抗之靴",
-                    "暗影战斧",
-                    "怒龙剑盾",
-                    "强者破军",
-                    "纯净苍穹"
-                  ],
-                  "hero_id": "162",
-                  "hero_name": "娜可露露",
-                  "player_name": "深圳DYG.小轩",
-                  "player_position": "打野",
-                  "rune": {
-                    "1504": {
-                      "name": "异变",
-                      "totalnumber": 9
-                    },
-                    "1520": {
-                      "name": "红月",
-                      "totalnumber": 1
-                    },
-                    "2517": {
-                      "name": "隐匿",
-                      "totalnumber": 10
-                    },
-                    "3514": {
-                      "name": "鹰眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "梦魇之牙",
-                    "秘法之靴",
-                    "日暮之流",
-                    "噬神之书",
-                    "圣者法典",
-                    "咒术典籍"
-                  ],
-                  "hero_id": "312",
-                  "hero_name": "沈梦溪",
-                  "player_name": "深圳DYG.向鱼",
-                  "player_position": "中路",
-                  "rune": {
-                    "1514": {
-                      "name": "梦魇",
-                      "totalnumber": 10
-                    },
-                    "2515": {
-                      "name": "调和",
-                      "totalnumber": 10
-                    },
-                    "3515": {
-                      "name": "心眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "无尽战刃",
-                    "影忍之足",
-                    "仁者破晓",
-                    "影刃",
-                    "末世"
-                  ],
-                  "hero_id": "519",
-                  "hero_name": "敖隐",
-                  "player_name": "深圳DYG.钎城",
-                  "player_position": "发育路",
-                  "rune": {
-                    "1510": {
-                      "name": "无双",
-                      "totalnumber": 1
-                    },
-                    "1519": {
-                      "name": "祸源",
-                      "totalnumber": 9
-                    },
-                    "2506": {
-                      "name": "兽痕",
-                      "totalnumber": 2
-                    },
-                    "2517": {
-                      "name": "隐匿",
-                      "totalnumber": 8
-                    },
-                    "3514": {
-                      "name": "鹰眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "近卫·救赎",
-                    "抵抗之靴",
-                    "冰霜冲击",
-                    "魔女斗篷"
-                  ],
-                  "hero_id": "194",
-                  "hero_name": "苏烈",
-                  "player_name": "深圳DYG.小A",
-                  "player_position": "游走",
-                  "rune": {
-                    "1512": {
-                      "name": "宿命",
-                      "totalnumber": 10
-                    },
-                    "2515": {
-                      "name": "调和",
-                      "totalnumber": 5
-                    },
-                    "2520": {
-                      "name": "狩猎",
-                      "totalnumber": 5
-                    },
-                    "3509": {
-                      "name": "虚空",
-                      "totalnumber": 10
-                    }
-                  }
-                }
-              ]
-            },
-            "match_date": "2026100401",
-            "player_unique_id": "KPLP01538",
-            "rune": {
-              "1504": {
-                "name": "异变",
-                "totalnumber": 9
-              },
-              "1520": {
-                "name": "红月",
-                "totalnumber": 1
-              },
-              "2517": {
-                "name": "隐匿",
-                "totalnumber": 10
-              },
-              "3514": {
-                "name": "鹰眼",
-                "totalnumber": 10
-              }
-            },
-            "schedule_id": "KPL2026S3M1W3D1",
-            "versus_info": "KSG vs 深圳DYG"
-          }
-        ]
-      },
-      "狂铁": {
-        "hero_id": "503",
-        "total": 1,
-        "wins": 1,
-        "loses": 0,
-        "battles": [
-          {
-            "equip_ids": [
-              "极寒风暴",
-              "抵抗之靴",
-              "不死鸟之眼",
-              "守护者之铠",
-              "纯净苍穹",
-              "元流结晶"
-            ],
-            "hero_id": "503",
-            "hero_name": "狂铁",
-            "is_mvp": false,
-            "is_win": true,
-            "kda": "1/0/2",
-            "lineup": {
-              "blue_team": [
-                {
-                  "equip_ids": [
-                    "抵抗之靴",
-                    "闪电匕首",
-                    "影刃",
-                    "末世",
-                    "怒龙剑盾"
-                  ],
-                  "hero_id": "537",
-                  "hero_name": "司空震",
-                  "player_name": "济南RW侠.归期",
-                  "player_position": "对抗路",
-                  "rune": null
-                },
-                {
-                  "equip_ids": [
-                    "贪婪之噬",
-                    "抵抗之靴",
-                    "怒龙剑盾",
-                    "不死鸟之眼",
-                    "陨星",
-                    "铁剑"
-                  ],
-                  "hero_id": "178",
-                  "hero_name": "杨戬",
-                  "player_name": "济南RW侠.今屿",
-                  "player_position": "打野",
-                  "rune": null
-                },
-                {
-                  "equip_ids": [
-                    "梦魇之牙",
-                    "抵抗之靴",
-                    "日暮之流",
-                    "云灵木",
-                    "元流结晶"
-                  ],
-                  "hero_id": "521",
-                  "hero_name": "海月",
-                  "player_name": "济南RW侠.挽墨",
-                  "player_position": "中路",
-                  "rune": null
-                },
-                {
-                  "equip_ids": [
-                    "无尽战刃",
-                    "抵抗之靴",
-                    "仁者破晓",
-                    "幽影袖箭",
-                    "铁剑"
-                  ],
-                  "hero_id": "196",
-                  "hero_name": "百里守约",
-                  "player_name": "济南RW侠.小俞",
-                  "player_position": "发育路",
-                  "rune": null
-                },
-                {
-                  "equip_ids": [
-                    "极影·救赎",
-                    "抵抗之靴",
-                    "冰霜冲击",
-                    "神隐斗篷",
-                    "神隐斗篷"
-                  ],
-                  "hero_id": "159",
-                  "hero_name": "朵莉亚",
-                  "player_name": "济南RW侠.梦溪",
-                  "player_position": "游走",
-                  "rune": null
-                }
-              ],
-              "red_team": [
-                {
-                  "equip_ids": [
-                    "极寒风暴",
-                    "抵抗之靴",
-                    "不死鸟之眼",
-                    "守护者之铠",
-                    "纯净苍穹",
-                    "元流结晶"
-                  ],
-                  "hero_id": "503",
-                  "hero_name": "狂铁",
-                  "player_name": "KSG.无言",
-                  "player_position": "对抗路",
-                  "rune": null
-                },
-                {
-                  "equip_ids": [
-                    "贪婪之噬",
-                    "抵抗之靴",
-                    "怒龙剑盾",
-                    "血魔之怒",
-                    "暗影战斧"
-                  ],
-                  "hero_id": "107",
-                  "hero_name": "赵云",
-                  "player_name": "KSG.句号",
-                  "player_position": "打野",
-                  "rune": null
-                },
-                {
-                  "equip_ids": [
-                    "梦魇之牙",
-                    "秘法之靴",
-                    "痛苦面具",
-                    "日暮之流",
-                    "大棒",
-                    "大棒"
-                  ],
-                  "hero_id": "179",
-                  "hero_name": "女娲",
-                  "player_name": "KSG.流浪",
-                  "player_position": "中路",
-                  "rune": null
-                },
-                {
-                  "equip_ids": [
-                    "末世",
-                    "影忍之足",
-                    "无尽战刃",
-                    "仁者破晓",
-                    "逐日之弓",
-                    "搏击拳套"
-                  ],
-                  "hero_id": "548",
-                  "hero_name": "戈娅",
-                  "player_name": "KSG.梦岚",
-                  "player_position": "发育路",
-                  "rune": null
-                },
-                {
-                  "equip_ids": [
-                    "近卫·形昭",
-                    "抵抗之靴",
-                    "魔女斗篷",
-                    "守护者之铠",
-                    "急速铠甲"
-                  ],
-                  "hero_id": "171",
-                  "hero_name": "张飞",
-                  "player_name": "KSG.晚星",
-                  "player_position": "游走",
-                  "rune": null
-                }
-              ]
-            },
-            "match_date": "2026100202",
-            "player_unique_id": "KPLP01538",
-            "rune": null,
-            "schedule_id": "KPL2026S3M1W1D2",
-            "versus_info": "济南RW侠 vs KSG"
-          }
-        ]
-      },
       "白起": {
         "hero_id": "120",
         "total": 1,
@@ -2772,369 +4110,22 @@
             "versus_info": "济南RW侠 vs KSG"
           }
         ]
-      },
-      "项羽": {
-        "hero_id": "135",
-        "total": 1,
-        "wins": 1,
-        "loses": 0,
-        "battles": [
-          {
-            "equip_ids": [
-              "急速战靴",
-              "冰霜冲击",
-              "不死鸟之眼",
-              "怒龙剑盾",
-              "永夜守护",
-              "力量腰带"
-            ],
-            "hero_id": "135",
-            "hero_name": "项羽",
-            "is_mvp": false,
-            "is_win": true,
-            "kda": "0/2/11",
-            "lineup": {
-              "blue_team": [
-                {
-                  "equip_ids": [
-                    "冰痕之握",
-                    "抵抗之靴",
-                    "暗影战斧",
-                    "不动·天穹",
-                    "末世",
-                    "破魔刀"
-                  ],
-                  "hero_id": "128",
-                  "hero_name": "曹操",
-                  "player_name": "深圳DYG.小乐",
-                  "player_position": "对抗路",
-                  "rune": {
-                    "1504": {
-                      "name": "异变",
-                      "totalnumber": 10
-                    },
-                    "2517": {
-                      "name": "隐匿",
-                      "totalnumber": 10
-                    },
-                    "3514": {
-                      "name": "鹰眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "贪婪之噬",
-                    "抵抗之靴",
-                    "怒龙剑盾",
-                    "冰霜冲击",
-                    "魔女斗篷",
-                    "守护者之铠"
-                  ],
-                  "hero_id": "193",
-                  "hero_name": "铠",
-                  "player_name": "深圳DYG.小轩",
-                  "player_position": "打野",
-                  "rune": {
-                    "1512": {
-                      "name": "宿命",
-                      "totalnumber": 10
-                    },
-                    "2515": {
-                      "name": "调和",
-                      "totalnumber": 2
-                    },
-                    "2520": {
-                      "name": "狩猎",
-                      "totalnumber": 8
-                    },
-                    "3509": {
-                      "name": "虚空",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "噬神之书",
-                    "抵抗之靴",
-                    "炽热支配",
-                    "博学者之怒",
-                    "虚无法杖",
-                    "大棒"
-                  ],
-                  "hero_id": "157",
-                  "hero_name": "不知火舞",
-                  "player_name": "深圳DYG.向鱼",
-                  "player_position": "中路",
-                  "rune": {
-                    "1514": {
-                      "name": "梦魇",
-                      "totalnumber": 10
-                    },
-                    "2515": {
-                      "name": "调和",
-                      "totalnumber": 10
-                    },
-                    "3515": {
-                      "name": "心眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "闪电匕首",
-                    "抵抗之靴",
-                    "末世",
-                    "仁者破晓",
-                    "逐风",
-                    "不祥征兆"
-                  ],
-                  "hero_id": "155",
-                  "hero_name": "艾琳",
-                  "player_name": "深圳DYG.钎城",
-                  "player_position": "发育路",
-                  "rune": {
-                    "1512": {
-                      "name": "宿命",
-                      "totalnumber": 9
-                    },
-                    "1520": {
-                      "name": "红月",
-                      "totalnumber": 1
-                    },
-                    "2504": {
-                      "name": "夺萃",
-                      "totalnumber": 9
-                    },
-                    "2520": {
-                      "name": "狩猎",
-                      "totalnumber": 1
-                    },
-                    "3515": {
-                      "name": "心眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "近卫·救赎",
-                    "抵抗之靴",
-                    "冰霜冲击",
-                    "魔女斗篷",
-                    "不祥征兆",
-                    "守护者之铠"
-                  ],
-                  "hero_id": "509",
-                  "hero_name": "盾山",
-                  "player_name": "深圳DYG.小A",
-                  "player_position": "游走",
-                  "rune": {
-                    "1512": {
-                      "name": "宿命",
-                      "totalnumber": 10
-                    },
-                    "2515": {
-                      "name": "调和",
-                      "totalnumber": 5
-                    },
-                    "2520": {
-                      "name": "狩猎",
-                      "totalnumber": 5
-                    },
-                    "3509": {
-                      "name": "虚空",
-                      "totalnumber": 10
-                    }
-                  }
-                }
-              ],
-              "red_team": [
-                {
-                  "equip_ids": [
-                    "急速战靴",
-                    "冰霜冲击",
-                    "不死鸟之眼",
-                    "怒龙剑盾",
-                    "永夜守护",
-                    "力量腰带"
-                  ],
-                  "hero_id": "135",
-                  "hero_name": "项羽",
-                  "player_name": "KSG.无言",
-                  "player_position": "对抗路",
-                  "rune": {
-                    "1512": {
-                      "name": "宿命",
-                      "totalnumber": 10
-                    },
-                    "2520": {
-                      "name": "狩猎",
-                      "totalnumber": 10
-                    },
-                    "3509": {
-                      "name": "虚空",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "贪婪之噬",
-                    "碎星锤",
-                    "无尽战刃",
-                    "暗影战斧",
-                    "名刀·司命",
-                    "贤者的庇护"
-                  ],
-                  "hero_id": "549",
-                  "hero_name": "心魔六耳",
-                  "player_name": "KSG.句号",
-                  "player_position": "打野",
-                  "rune": {
-                    "1510": {
-                      "name": "无双",
-                      "totalnumber": 10
-                    },
-                    "2504": {
-                      "name": "夺萃",
-                      "totalnumber": 10
-                    },
-                    "3514": {
-                      "name": "鹰眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "梦魇之牙",
-                    "抵抗之靴",
-                    "日暮之流",
-                    "噬神之书",
-                    "博学者之怒",
-                    "痛苦面具"
-                  ],
-                  "hero_id": "312",
-                  "hero_name": "沈梦溪",
-                  "player_name": "KSG.流浪",
-                  "player_position": "中路",
-                  "rune": {
-                    "1514": {
-                      "name": "梦魇",
-                      "totalnumber": 10
-                    },
-                    "2515": {
-                      "name": "调和",
-                      "totalnumber": 10
-                    },
-                    "3515": {
-                      "name": "心眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "末世",
-                    "疾步之靴",
-                    "无尽战刃",
-                    "仁者破晓",
-                    "逐日之弓",
-                    "贤者的庇护"
-                  ],
-                  "hero_id": "548",
-                  "hero_name": "戈娅",
-                  "player_name": "KSG.梦岚",
-                  "player_position": "发育路",
-                  "rune": {
-                    "1519": {
-                      "name": "祸源",
-                      "totalnumber": 10
-                    },
-                    "2504": {
-                      "name": "夺萃",
-                      "totalnumber": 8
-                    },
-                    "2517": {
-                      "name": "隐匿",
-                      "totalnumber": 2
-                    },
-                    "3514": {
-                      "name": "鹰眼",
-                      "totalnumber": 10
-                    }
-                  }
-                },
-                {
-                  "equip_ids": [
-                    "近卫·救赎",
-                    "疾步之靴",
-                    "冰霜冲击",
-                    "魔女斗篷",
-                    "不祥征兆",
-                    "力量腰带"
-                  ],
-                  "hero_id": "194",
-                  "hero_name": "苏烈",
-                  "player_name": "KSG.晚星",
-                  "player_position": "游走",
-                  "rune": {
-                    "1512": {
-                      "name": "宿命",
-                      "totalnumber": 10
-                    },
-                    "2520": {
-                      "name": "狩猎",
-                      "totalnumber": 10
-                    },
-                    "3509": {
-                      "name": "虚空",
-                      "totalnumber": 10
-                    }
-                  }
-                }
-              ]
-            },
-            "match_date": "2026100401",
-            "player_unique_id": "KPLP01538",
-            "rune": {
-              "1512": {
-                "name": "宿命",
-                "totalnumber": 10
-              },
-              "2520": {
-                "name": "狩猎",
-                "totalnumber": 10
-              },
-              "3509": {
-                "name": "虚空",
-                "totalnumber": 10
-              }
-            },
-            "schedule_id": "KPL2026S3M1W3D1",
-            "versus_info": "深圳DYG vs KSG"
-          }
-        ]
       }
     },
     "league_win_rate": [
       {
         "hero_id": "128",
         "hero_name": "曹操",
-        "last_updated": "2026-10-11 16:12:49",
-        "lose_matches": 13,
+        "last_updated": "2026-10-12 15:27:02",
+        "lose_matches": 14,
         "matchups": [
           {
             "enemy_hero": "夏洛特",
             "hero_id": "536",
             "losses": 3,
-            "total": 12,
-            "win_rate": "75.0%",
-            "wins": 9
+            "total": 14,
+            "win_rate": "78.6%",
+            "wins": 11
           },
           {
             "enemy_hero": "狂铁",
@@ -3145,20 +4136,20 @@
             "wins": 5
           },
           {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 2,
+            "total": 4,
+            "win_rate": "50.0%",
+            "wins": 2
+          },
+          {
             "enemy_hero": "白起",
             "hero_id": "120",
             "losses": 3,
             "total": 3,
             "win_rate": "0.0%",
             "wins": 0
-          },
-          {
-            "enemy_hero": "司空震",
-            "hero_id": "537",
-            "losses": 1,
-            "total": 3,
-            "win_rate": "66.7%",
-            "wins": 2
           },
           {
             "enemy_hero": "马超",
@@ -3218,40 +4209,40 @@
           }
         ],
         "mvp_count": 9,
-        "mvp_rate": "26.5%",
+        "mvp_rate": "24.3%",
         "position": "对抗路",
         "rank": 1,
-        "total_matches": 34,
+        "total_matches": 37,
         "total_matchup_heroes": 11,
         "total_players": 13,
-        "win_matches": 21,
-        "win_rate": "61.8%"
+        "win_matches": 23,
+        "win_rate": "62.2%"
       },
       {
         "hero_id": "536",
         "hero_name": "夏洛特",
-        "last_updated": "2026-10-11 16:12:49",
-        "lose_matches": 18,
+        "last_updated": "2026-10-12 15:27:03",
+        "lose_matches": 21,
         "matchups": [
           {
             "enemy_hero": "曹操",
             "hero_id": "128",
-            "losses": 9,
-            "total": 12,
-            "win_rate": "25.0%",
+            "losses": 11,
+            "total": 14,
+            "win_rate": "21.4%",
             "wins": 3
-          },
-          {
-            "enemy_hero": "关羽",
-            "hero_id": "140",
-            "losses": 2,
-            "total": 3,
-            "win_rate": "33.3%",
-            "wins": 1
           },
           {
             "enemy_hero": "狂铁",
             "hero_id": "503",
+            "losses": 3,
+            "total": 4,
+            "win_rate": "25.0%",
+            "wins": 1
+          },
+          {
+            "enemy_hero": "关羽",
+            "hero_id": "140",
             "losses": 2,
             "total": 3,
             "win_rate": "33.3%",
@@ -3315,19 +4306,19 @@
           }
         ],
         "mvp_count": 2,
-        "mvp_rate": "6.5%",
+        "mvp_rate": "5.9%",
         "position": "对抗路",
         "rank": 2,
-        "total_matches": 31,
+        "total_matches": 34,
         "total_matchup_heroes": 10,
-        "total_players": 14,
+        "total_players": 15,
         "win_matches": 13,
-        "win_rate": "41.9%"
+        "win_rate": "38.2%"
       },
       {
         "hero_id": "140",
         "hero_name": "关羽",
-        "last_updated": "2026-10-11 16:12:49",
+        "last_updated": "2026-10-12 15:27:02",
         "lose_matches": 11,
         "matchups": [
           {
@@ -3342,9 +4333,9 @@
             "enemy_hero": "马超",
             "hero_id": "518",
             "losses": 2,
-            "total": 4,
-            "win_rate": "50.0%",
-            "wins": 2
+            "total": 5,
+            "win_rate": "60.0%",
+            "wins": 3
           },
           {
             "enemy_hero": "夏洛特",
@@ -3396,20 +4387,20 @@
           }
         ],
         "mvp_count": 6,
-        "mvp_rate": "23.1%",
+        "mvp_rate": "22.2%",
         "position": "对抗路",
         "rank": 3,
-        "total_matches": 26,
+        "total_matches": 27,
         "total_matchup_heroes": 8,
         "total_players": 12,
-        "win_matches": 15,
-        "win_rate": "57.7%"
+        "win_matches": 16,
+        "win_rate": "59.3%"
       },
       {
         "hero_id": "503",
         "hero_name": "狂铁",
-        "last_updated": "2026-10-11 16:12:49",
-        "lose_matches": 12,
+        "last_updated": "2026-10-12 15:27:03",
+        "lose_matches": 14,
         "matchups": [
           {
             "enemy_hero": "曹操",
@@ -3422,10 +4413,18 @@
           {
             "enemy_hero": "影",
             "hero_id": "558",
-            "losses": 3,
-            "total": 3,
+            "losses": 4,
+            "total": 4,
             "win_rate": "0.0%",
             "wins": 0
+          },
+          {
+            "enemy_hero": "夏洛特",
+            "hero_id": "536",
+            "losses": 1,
+            "total": 4,
+            "win_rate": "75.0%",
+            "wins": 3
           },
           {
             "enemy_hero": "马超",
@@ -3436,20 +4435,20 @@
             "wins": 1
           },
           {
-            "enemy_hero": "夏洛特",
-            "hero_id": "536",
-            "losses": 1,
-            "total": 3,
-            "win_rate": "66.7%",
-            "wins": 2
-          },
-          {
             "enemy_hero": "白起",
             "hero_id": "120",
             "losses": 1,
             "total": 2,
             "win_rate": "50.0%",
             "wins": 1
+          },
+          {
+            "enemy_hero": "司空震",
+            "hero_id": "537",
+            "losses": 0,
+            "total": 2,
+            "win_rate": "100.0%",
+            "wins": 2
           },
           {
             "enemy_hero": "吕布",
@@ -3468,37 +4467,37 @@
             "wins": 1
           },
           {
-            "enemy_hero": "司空震",
-            "hero_id": "537",
-            "losses": 0,
+            "enemy_hero": "项羽",
+            "hero_id": "135",
+            "losses": 1,
             "total": 1,
-            "win_rate": "100.0%",
-            "wins": 1
+            "win_rate": "0.0%",
+            "wins": 0
           }
         ],
         "mvp_count": 0,
         "mvp_rate": "0.0%",
         "position": "对抗路",
         "rank": 4,
-        "total_matches": 22,
-        "total_matchup_heroes": 8,
+        "total_matches": 26,
+        "total_matchup_heroes": 9,
         "total_players": 12,
-        "win_matches": 10,
-        "win_rate": "45.5%"
+        "win_matches": 12,
+        "win_rate": "46.1%"
       },
       {
         "hero_id": "537",
         "hero_name": "司空震",
-        "last_updated": "2026-10-11 16:12:49",
-        "lose_matches": 8,
+        "last_updated": "2026-10-12 15:27:02",
+        "lose_matches": 9,
         "matchups": [
           {
             "enemy_hero": "曹操",
             "hero_id": "128",
             "losses": 2,
-            "total": 3,
-            "win_rate": "33.3%",
-            "wins": 1
+            "total": 4,
+            "win_rate": "50.0%",
+            "wins": 2
           },
           {
             "enemy_hero": "关羽",
@@ -3507,6 +4506,14 @@
             "total": 2,
             "win_rate": "50.0%",
             "wins": 1
+          },
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 2,
+            "total": 2,
+            "win_rate": "0.0%",
+            "wins": 0
           },
           {
             "enemy_hero": "蒙恬",
@@ -3541,14 +4548,6 @@
             "wins": 0
           },
           {
-            "enemy_hero": "狂铁",
-            "hero_id": "503",
-            "losses": 1,
-            "total": 1,
-            "win_rate": "0.0%",
-            "wins": 0
-          },
-          {
             "enemy_hero": "芈月",
             "hero_id": "121",
             "losses": 0,
@@ -3574,19 +4573,19 @@
           }
         ],
         "mvp_count": 2,
-        "mvp_rate": "12.5%",
+        "mvp_rate": "11.1%",
         "position": "对抗路",
         "rank": 5,
-        "total_matches": 16,
+        "total_matches": 18,
         "total_matchup_heroes": 10,
         "total_players": 10,
-        "win_matches": 8,
+        "win_matches": 9,
         "win_rate": "50.0%"
       },
       {
         "hero_id": "135",
         "hero_name": "项羽",
-        "last_updated": "2026-10-11 16:12:49",
+        "last_updated": "2026-10-12 15:27:03",
         "lose_matches": 5,
         "matchups": [
           {
@@ -3604,30 +4603,38 @@
             "total": 1,
             "win_rate": "100.0%",
             "wins": 1
+          },
+          {
+            "enemy_hero": "狂铁",
+            "hero_id": "503",
+            "losses": 0,
+            "total": 1,
+            "win_rate": "100.0%",
+            "wins": 1
           }
         ],
-        "mvp_count": 2,
-        "mvp_rate": "16.7%",
+        "mvp_count": 3,
+        "mvp_rate": "23.1%",
         "position": "对抗路",
         "rank": 6,
-        "total_matches": 12,
-        "total_matchup_heroes": 2,
+        "total_matches": 13,
+        "total_matchup_heroes": 3,
         "total_players": 7,
-        "win_matches": 7,
-        "win_rate": "58.3%"
+        "win_matches": 8,
+        "win_rate": "61.5%"
       },
       {
         "hero_id": "518",
         "hero_name": "马超",
-        "last_updated": "2026-10-11 16:12:50",
-        "lose_matches": 6,
+        "last_updated": "2026-10-12 15:27:03",
+        "lose_matches": 7,
         "matchups": [
           {
             "enemy_hero": "关羽",
             "hero_id": "140",
-            "losses": 2,
-            "total": 4,
-            "win_rate": "50.0%",
+            "losses": 3,
+            "total": 5,
+            "win_rate": "40.0%",
             "wins": 2
           },
           {
@@ -3664,19 +4671,19 @@
           }
         ],
         "mvp_count": 2,
-        "mvp_rate": "16.7%",
+        "mvp_rate": "15.4%",
         "position": "对抗路",
         "rank": 7,
-        "total_matches": 12,
+        "total_matches": 13,
         "total_matchup_heroes": 5,
         "total_players": 8,
         "win_matches": 6,
-        "win_rate": "50.0%"
+        "win_rate": "46.1%"
       },
       {
         "hero_id": "120",
         "hero_name": "白起",
-        "last_updated": "2026-10-11 16:12:50",
+        "last_updated": "2026-10-12 15:27:03",
         "lose_matches": 4,
         "matchups": [
           {
@@ -3725,16 +4732,16 @@
       {
         "hero_id": "558",
         "hero_name": "影",
-        "last_updated": "2026-10-11 16:12:50",
+        "last_updated": "2026-10-12 15:27:03",
         "lose_matches": 3,
         "matchups": [
           {
             "enemy_hero": "狂铁",
             "hero_id": "503",
             "losses": 0,
-            "total": 3,
+            "total": 4,
             "win_rate": "100.0%",
-            "wins": 3
+            "wins": 4
           },
           {
             "enemy_hero": "关羽",
@@ -3762,19 +4769,19 @@
           }
         ],
         "mvp_count": 1,
-        "mvp_rate": "14.3%",
+        "mvp_rate": "12.5%",
         "position": "对抗路",
         "rank": 9,
-        "total_matches": 7,
+        "total_matches": 8,
         "total_matchup_heroes": 4,
-        "total_players": 5,
-        "win_matches": 4,
-        "win_rate": "57.1%"
+        "total_players": 6,
+        "win_matches": 5,
+        "win_rate": "62.5%"
       },
       {
         "hero_id": "527",
         "hero_name": "蒙恬",
-        "last_updated": "2026-10-11 16:12:49",
+        "last_updated": "2026-10-12 15:27:02",
         "lose_matches": 2,
         "matchups": [
           {
@@ -3831,7 +4838,7 @@
       {
         "hero_id": "134",
         "hero_name": "达摩",
-        "last_updated": "2026-10-11 16:12:50",
+        "last_updated": "2026-10-12 15:27:03",
         "lose_matches": 6,
         "matchups": [
           {
@@ -3880,7 +4887,7 @@
       {
         "hero_id": "121",
         "hero_name": "芈月",
-        "last_updated": "2026-10-11 16:12:49",
+        "last_updated": "2026-10-12 15:27:03",
         "lose_matches": 3,
         "matchups": [
           {
@@ -3921,7 +4928,7 @@
       {
         "hero_id": "117",
         "hero_name": "钟无艳",
-        "last_updated": "2026-10-11 16:12:50",
+        "last_updated": "2026-10-12 15:27:03",
         "lose_matches": 3,
         "matchups": [
           {
@@ -3954,7 +4961,7 @@
       {
         "hero_id": "123",
         "hero_name": "吕布",
-        "last_updated": "2026-10-11 16:12:50",
+        "last_updated": "2026-10-12 15:27:03",
         "lose_matches": 1,
         "matchups": [
           {
@@ -3987,7 +4994,7 @@
       {
         "hero_id": "139",
         "hero_name": "老夫子",
-        "last_updated": "2026-10-11 16:12:50",
+        "last_updated": "2026-10-12 15:27:03",
         "lose_matches": 1,
         "matchups": [
           {
@@ -4020,7 +5027,7 @@
       {
         "hero_id": "511",
         "hero_name": "猪八戒",
-        "last_updated": "2026-10-11 16:12:50",
+        "last_updated": "2026-10-12 15:27:03",
         "lose_matches": 1,
         "matchups": [
           {
@@ -4045,7 +5052,7 @@
       {
         "hero_id": "125",
         "hero_name": "元歌",
-        "last_updated": "2026-10-11 16:12:50",
+        "last_updated": "2026-10-12 15:27:03",
         "lose_matches": 0,
         "matchups": [
           {

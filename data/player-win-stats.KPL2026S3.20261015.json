@@ -1,0 +1,465 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "above_avg_economy_real_win_rate": 100.0,
+      "above_avg_economy_total": 7.0,
+      "above_avg_economy_win_rate": 58.33,
+      "above_avg_economy_wins": 7.0,
+      "avg_assists": 5.83,
+      "avg_be_hurt_by_hero": 82314.0,
+      "avg_big_fight_carry_damage": 10896.0,
+      "avg_big_fight_carry_kills": 0.83,
+      "avg_big_fight_damage": 37182.0,
+      "avg_big_fight_damage_taken": 42719.0,
+      "avg_blue_buff": 0.1,
+      "avg_control_duration": 73.8,
+      "avg_damage_10min_ratio": 18.2,
+      "avg_deaths": 0.75,
+      "avg_economy_10min": 6640.0,
+      "avg_economy_10min_ratio": 21.44,
+      "avg_economy_diff_10min": 228.0,
+      "avg_game_duration": 950.7,
+      "avg_gold": 10882.0,
+      "avg_heal_count": 54559.0,
+      "avg_horizon_value": 29.0,
+      "avg_hurt_to_hero": 68081.0,
+      "avg_invasion_duration": 77.2,
+      "avg_invasion_jungle": 3.75,
+      "avg_kda": 11.44,
+      "avg_kill_monster_count": 8.8,
+      "avg_kill_participation_10min": 0.541,
+      "avg_kills": 2.75,
+      "avg_red_buff": 1.3,
+      "avg_river_duration": 91.5,
+      "avg_solo_kills": 0.08,
+      "avg_support_attempts": 1.5,
+      "avg_team_damage_ratio": 20.12,
+      "avg_team_fights_initiated": 0.92,
+      "avg_ten_min_damage": 24641.0,
+      "below_avg_economy_wins": 5.0,
+      "damage_10min_details": [
+        {
+          "battle_id": "1790935560_1054884368_41",
+          "damage_ratio": 17.31,
+          "hero_name": "白起",
+          "personal_damage": 30211,
+          "position": "对抗路",
+          "team_total_damage": 174529
+        },
+        {
+          "battle_id": "1790933670_1054884368_40",
+          "damage_ratio": 26.94,
+          "hero_name": "马超",
+          "personal_damage": 31847,
+          "position": "对抗路",
+          "team_total_damage": 118195
+        },
+        {
+          "battle_id": "1790931796_1054884368_39",
+          "damage_ratio": 13.46,
+          "hero_name": "狂铁",
+          "personal_damage": 21419,
+          "position": "对抗路",
+          "team_total_damage": 159134
+        },
+        {
+          "battle_id": "1791093466_1054884368_69",
+          "damage_ratio": 15.95,
+          "hero_name": "项羽",
+          "personal_damage": 17868,
+          "position": "对抗路",
+          "team_total_damage": 112050
+        },
+        {
+          "battle_id": "1791095941_1054884368_70",
+          "damage_ratio": 19.08,
+          "hero_name": "曹操",
+          "personal_damage": 28646,
+          "position": "对抗路",
+          "team_total_damage": 150158
+        },
+        {
+          "battle_id": "1791098092_1054884368_71",
+          "damage_ratio": 22.61,
+          "hero_name": "马超",
+          "personal_damage": 27958,
+          "position": "对抗路",
+          "team_total_damage": 123658
+        },
+        {
+          "battle_id": "1791352881_1054884368_106",
+          "damage_ratio": 14.56,
+          "hero_name": "夏洛特",
+          "personal_damage": 14921,
+          "position": "对抗路",
+          "team_total_damage": 102450
+        },
+        {
+          "battle_id": "1791355376_1054884368_107",
+          "damage_ratio": 16.12,
+          "hero_name": "关羽",
+          "personal_damage": 17278,
+          "position": "对抗路",
+          "team_total_damage": 107167
+        },
+        {
+          "battle_id": "1791357745_1054884368_108",
+          "damage_ratio": 13.42,
+          "hero_name": "司空震",
+          "personal_damage": 15908,
+          "position": "对抗路",
+          "team_total_damage": 118538
+        },
+        {
+          "battle_id": "1791795556_1054884368_152",
+          "damage_ratio": 21.4,
+          "hero_name": "曹操",
+          "personal_damage": 33543,
+          "position": "对抗路",
+          "team_total_damage": 156756
+        },
+        {
+          "battle_id": "1791797509_1054884368_153",
+          "damage_ratio": 16.65,
+          "hero_name": "狂铁",
+          "personal_damage": 24818,
+          "position": "对抗路",
+          "team_total_damage": 149048
+        },
+        {
+          "battle_id": "1791799505_1054884368_154",
+          "damage_ratio": 20.93,
+          "hero_name": "项羽",
+          "personal_damage": 31272,
+          "position": "对抗路",
+          "team_total_damage": 149387
+        }
+      ],
+      "damage_10min_per_minute": 2464.0,
+      "damage_per_minute": 4297.0,
+      "damage_taken_per_minute": 5195.0,
+      "data_version": "v20261014_230158",
+      "economy_10min_details": [
+        {
+          "battle_id": "1790935560_1054884368_41",
+          "economy_ratio": 18.61,
+          "hero_name": "白起",
+          "personal_economy": 6004,
+          "position": "对抗路",
+          "team_total_economy": 32259
+        },
+        {
+          "battle_id": "1790933670_1054884368_40",
+          "economy_ratio": 25.23,
+          "hero_name": "马超",
+          "personal_economy": 8207,
+          "position": "对抗路",
+          "team_total_economy": 32532
+        },
+        {
+          "battle_id": "1790931796_1054884368_39",
+          "economy_ratio": 19.3,
+          "hero_name": "狂铁",
+          "personal_economy": 6008,
+          "position": "对抗路",
+          "team_total_economy": 31129
+        },
+        {
+          "battle_id": "1791093466_1054884368_69",
+          "economy_ratio": 18.15,
+          "hero_name": "项羽",
+          "personal_economy": 5292,
+          "position": "对抗路",
+          "team_total_economy": 29160
+        },
+        {
+          "battle_id": "1791095941_1054884368_70",
+          "economy_ratio": 23.03,
+          "hero_name": "曹操",
+          "personal_economy": 6596,
+          "position": "对抗路",
+          "team_total_economy": 28635
+        },
+        {
+          "battle_id": "1791098092_1054884368_71",
+          "economy_ratio": 23.86,
+          "hero_name": "马超",
+          "personal_economy": 7336,
+          "position": "对抗路",
+          "team_total_economy": 30751
+        },
+        {
+          "battle_id": "1791352881_1054884368_106",
+          "economy_ratio": 22.6,
+          "hero_name": "夏洛特",
+          "personal_economy": 7007,
+          "position": "对抗路",
+          "team_total_economy": 31011
+        },
+        {
+          "battle_id": "1791355376_1054884368_107",
+          "economy_ratio": 18.44,
+          "hero_name": "关羽",
+          "personal_economy": 5699,
+          "position": "对抗路",
+          "team_total_economy": 30908
+        },
+        {
+          "battle_id": "1791357745_1054884368_108",
+          "economy_ratio": 23.09,
+          "hero_name": "司空震",
+          "personal_economy": 6915,
+          "position": "对抗路",
+          "team_total_economy": 29949
+        },
+        {
+          "battle_id": "1791795556_1054884368_152",
+          "economy_ratio": 21.93,
+          "hero_name": "曹操",
+          "personal_economy": 7091,
+          "position": "对抗路",
+          "team_total_economy": 32335
+        },
+        {
+          "battle_id": "1791797509_1054884368_153",
+          "economy_ratio": 23.74,
+          "hero_name": "狂铁",
+          "personal_economy": 7528,
+          "position": "对抗路",
+          "team_total_economy": 31708
+        },
+        {
+          "battle_id": "1791799505_1054884368_154",
+          "economy_ratio": 19.24,
+          "hero_name": "项羽",
+          "personal_economy": 6002,
+          "position": "对抗路",
+          "team_total_economy": 31201
+        }
+      ],
+      "economy_10min_per_minute": 664.0,
+      "gold_per_minute": 687.0,
+      "heroes_used": [
+        "马超",
+        "狂铁",
+        "夏洛特",
+        "关羽",
+        "司空震",
+        "项羽",
+        "白起",
+        "曹操"
+      ],
+      "invalid_10min_matches": 0.0,
+      "last_updated": "2026-10-14 15:01:58",
+      "match_details": [
+        {
+          "battle_id": "1790935560_1054884368_41",
+          "hero_name": "白起",
+          "is_valid_10min": true,
+          "match_number": 1,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M1W1D2",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1790933670_1054884368_40",
+          "hero_name": "马超",
+          "is_valid_10min": true,
+          "match_number": 2,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M1W1D2",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1790931796_1054884368_39",
+          "hero_name": "狂铁",
+          "is_valid_10min": true,
+          "match_number": 3,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M1W1D2",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1791093466_1054884368_69",
+          "hero_name": "项羽",
+          "is_valid_10min": true,
+          "match_number": 4,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M1W3D1",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1791095941_1054884368_70",
+          "hero_name": "曹操",
+          "is_valid_10min": true,
+          "match_number": 5,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M1W3D1",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1791098092_1054884368_71",
+          "hero_name": "马超",
+          "is_valid_10min": true,
+          "match_number": 6,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M1W3D1",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1791352881_1054884368_106",
+          "hero_name": "夏洛特",
+          "is_valid_10min": true,
+          "match_number": 7,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M1W6D1",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1791355376_1054884368_107",
+          "hero_name": "关羽",
+          "is_valid_10min": true,
+          "match_number": 8,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M1W6D1",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1791357745_1054884368_108",
+          "hero_name": "司空震",
+          "is_valid_10min": true,
+          "match_number": 9,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M1W6D1",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1791795556_1054884368_152",
+          "hero_name": "曹操",
+          "is_valid_10min": true,
+          "match_number": 10,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M3W1D1",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1791797509_1054884368_153",
+          "hero_name": "狂铁",
+          "is_valid_10min": true,
+          "match_number": 11,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M3W1D1",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1791799505_1054884368_154",
+          "hero_name": "项羽",
+          "is_valid_10min": true,
+          "match_number": 12,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M3W1D1",
+          "team_id": "KPL2026S3_ytg"
+        }
+      ],
+      "player_name": "KSG.无言",
+      "positions_played": [
+        "对抗路"
+      ],
+      "season": "KPL2026S3",
+      "teammates_avg_invasion_jungle": 3.44,
+      "teammates_details": [
+        {
+          "avg_invasion_jungle": 2.67,
+          "matches_together": 12,
+          "positions": [
+            "中路"
+          ],
+          "teammate_name": "KSG.流浪",
+          "total_invasion_jungle": 32
+        },
+        {
+          "avg_invasion_jungle": 6.42,
+          "matches_together": 12,
+          "positions": [
+            "打野"
+          ],
+          "teammate_name": "KSG.句号",
+          "total_invasion_jungle": 77
+        },
+        {
+          "avg_invasion_jungle": 4.88,
+          "matches_together": 8,
+          "positions": [
+            "发育路"
+          ],
+          "teammate_name": "KSG.梦岚",
+          "total_invasion_jungle": 39
+        },
+        {
+          "avg_invasion_jungle": 0.0,
+          "matches_together": 8,
+          "positions": [
+            "游走"
+          ],
+          "teammate_name": "KSG.晚星",
+          "total_invasion_jungle": 0
+        },
+        {
+          "avg_invasion_jungle": 0.0,
+          "matches_together": 4,
+          "positions": [
+            "游走"
+          ],
+          "teammate_name": "KSG.烈峰峰",
+          "total_invasion_jungle": 0
+        },
+        {
+          "avg_invasion_jungle": 4.25,
+          "matches_together": 4,
+          "positions": [
+            "发育路"
+          ],
+          "teammate_name": "KSG.小屿",
+          "total_invasion_jungle": 17
+        }
+      ],
+      "total_assists": 70.0,
+      "total_be_hurt_by_hero": 987767.0,
+      "total_big_fight_damage": 446189.0,
+      "total_blue_buff": 1.0,
+      "total_deaths": 9.0,
+      "total_game_duration": 11408.0,
+      "total_gold": 130587.0,
+      "total_heal_count": 654710.0,
+      "total_heroes_count": 8.0,
+      "total_horizon_value": 352.0,
+      "total_hurt_to_hero": 816974.0,
+      "total_invasion_jungle": 45.0,
+      "total_kills": 33.0,
+      "total_red_buff": 16.0,
+      "total_solo_kills": 1.0,
+      "total_ten_min_damage": 295689.0,
+      "valid_10min_matches": 12.0,
+      "valid_10min_rate": 100.0,
+      "valid_damage_ratio_matches": 12.0,
+      "win_matches": 12.0
+    }
+  ],
+  "data_source": "player_win_stats table",
+  "description": "选手获胜数据统计（来源：预计算表，性能优化版本）",
+  "filters": {
+    "limit": 0,
+    "min_wins": 0,
+    "player_name": null,
+    "season": "KPL2026S3"
+  },
+  "position_avg_economy": {
+    "中路": 5558.0,
+    "发育路": 7287.0,
+    "对抗路": 6779.0,
+    "打野": 7160.0,
+    "游走": 4441.0
+  },
+  "total_players": 73
+}

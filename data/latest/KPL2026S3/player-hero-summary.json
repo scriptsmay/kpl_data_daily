@@ -8,13 +8,24 @@
       "player_name": "KSG.无言",
       "player_unique_id": "KPLP01538",
       "team_name": "KSG",
-      "total_matches": 2,
-      "win_matches": 2,
+      "total_matches": 3,
+      "win_matches": 3,
       "win_rate": "100%"
     },
     {
       "hero_id": "503",
       "hero_name": "狂铁",
+      "is_symbol": 0,
+      "player_name": "KSG.无言",
+      "player_unique_id": "KPLP01538",
+      "team_name": "KSG",
+      "total_matches": 3,
+      "win_matches": 3,
+      "win_rate": "100%"
+    },
+    {
+      "hero_id": "537",
+      "hero_name": "司空震",
       "is_symbol": 0,
       "player_name": "KSG.无言",
       "player_unique_id": "KPLP01538",
@@ -57,17 +68,6 @@
       "win_rate": "100%"
     },
     {
-      "hero_id": "537",
-      "hero_name": "司空震",
-      "is_symbol": 0,
-      "player_name": "KSG.无言",
-      "player_unique_id": "KPLP01538",
-      "team_name": "KSG",
-      "total_matches": 1,
-      "win_matches": 1,
-      "win_rate": "100%"
-    },
-    {
       "hero_id": "536",
       "hero_name": "夏洛特",
       "is_symbol": 0,
@@ -100,5 +100,5 @@
     "sort_by": "total_matches"
   },
   "season": "KPL2026S3",
-  "total": 613
+  "total": 629
 }

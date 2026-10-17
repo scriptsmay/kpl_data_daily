@@ -1,113 +1,153 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-17T03:00:58+08:00",
-  "build_id": "20261017T030058+0800",
-  "ai_elapsed_seconds": 1631.91,
-  "ai_model": "qwen3.8-max:fallback",
+  "generated_at": "2026-10-18T03:01:01+08:00",
+  "build_id": "20261018T030101+0800",
+  "ai_elapsed_seconds": 121.66,
+  "ai_model": "qwen3.8-max",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "fd5685974e41c06ee21838810093ebc58185b7819a300930a7591c3146eed04c",
+  "input_hash": "230529589e8319730ae1f7579b4804579ba35bea35ddab66e29cdb0c220ffe41",
   "data": {
-    "headline": "无言本赛季 12 局，使用 8 个英雄",
-    "summary": "生涯累计 173 局。本赛季英雄池覆盖 8 个英雄，能力评分 93.9。",
+    "headline": "无言本赛季 15 局覆盖 8 个英雄，英雄池近期扩展且多项过程指标排名靠前，但仍处于机会积累期",
+    "summary": "生涯累计 176 局的无言在 KPL2026S3 获得 15 局上场，当前成长阶段为机会积累期。样本内英雄池较分散，能力评分和多项核心指标排名靠前，但缺少败局对比且部分英雄样本较少。",
     "growth_stage": "机会积累期",
     "sections": [
       {
         "id": "hero_pool",
-        "title": "英雄池成熟度",
-        "summary": "当前样本中英雄池覆盖 8 个英雄，英雄使用相对分散。",
-        "conclusion_type": "fact",
-        "confidence": "high",
-        "sample_size": 12,
+        "title": "英雄池扩展与分散",
+        "summary": "本赛季 15 局使用 8 个英雄，英雄使用相对分散，近 30 天新增 8 个英雄，近 7 天英雄数量未继续增加。",
+        "conclusion_type": "signal",
+        "confidence": "medium",
+        "sample_size": 15,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季使用 8 个英雄，共 12 局",
-          "尝试层级英雄 8 个",
-          "英雄使用较为分散（HHI=0.14）"
+          "本赛季总出场局数 15，英雄总数 8",
+          "集中度（HHI）0.1467",
+          "成熟度分布为轮换 2 个、尝试 6 个",
+          "30d 英雄数量变化 +8，新增英雄包括关羽、司空震、夏洛特、曹操、狂铁、白起、项羽、马超",
+          "7d 英雄数量变化 +0"
         ],
-        "risk_notes": []
+        "risk_notes": [
+          "曹操、狂铁各 3 局，其余英雄出场 1-2 局，单英雄样本较低",
+          "近 7 天英雄数量未变化，扩展是否持续需要结合后续比赛观察"
+        ]
       },
       {
         "id": "growth_path",
-        "title": "成长路径观察",
-        "summary": "本赛季仅 12 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断。",
-        "conclusion_type": "signal",
-        "confidence": "high",
-        "sample_size": 12,
+        "title": "上场机会与成长路径",
+        "summary": "无言处于机会积累期，本赛季 15 局上场，样本仍在积累，更适合观察英雄池扩展与战术角色。",
+        "conclusion_type": "fact",
+        "confidence": "medium",
+        "sample_size": 15,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季仅 12 局上场，样本仍在积累阶段，更适合观察上场机会和英雄池扩展，不适合做稳定强弱判断。",
-          "已记录 16 个成长节点",
-          "已出现 12 个能力信号"
+          "当前成长阶段：机会积累期",
+          "本赛季仅 15 局上场",
+          "生涯累计 176 局",
+          "生涯累计 25 次 MVP",
+          "参赛赛季包括 KPL2026S3 等多个赛季"
         ],
         "risk_notes": [
-          "胜率不单独作为评价依据"
+          "本赛季样本量相对生涯较小，不宜做稳定强弱判断",
+          "缺少败局数据，难以观察逆风局表现"
         ]
       },
       {
         "id": "abilities",
-        "title": "能力信号",
-        "summary": "当前能力评分 93.9，位置排名第 2。",
-        "conclusion_type": "hypothesis",
-        "confidence": "high",
-        "sample_size": 12,
+        "title": "能力画像与近期波动",
+        "summary": "样本内综合评分 95.79、对抗路排名第 1，支援、伤害输出和开团维度较高，生存评分相对偏低且部分维度近期波动。",
+        "conclusion_type": "signal",
+        "confidence": "medium",
+        "sample_size": 15,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "位置排名：第 2 名",
-          "总排名：第 3 名",
-          "高于同位置均值维度：12 个"
+          "综合评分 95.79，总排名第 1，位置排名第 1（对抗路）",
+          "支援 100.0、伤害输出 97.0、开团 96.0、坦度 94.0",
+          "高于同位置均值维度 12 个",
+          "生存 81.0 为当前维度中较低项",
+          "近期波动较大维度：initiation、mid_game、economy"
         ],
-        "risk_notes": []
+        "risk_notes": [
+          "能力评分基于当前样本，需要结合后续比赛观察稳定性",
+          "initiation、mid_game、economy 近期波动较大，不宜直接外推为长期趋势"
+        ]
       },
       {
         "id": "ranking",
-        "title": "联盟排名",
-        "summary": "排名前列指标共 4 项：KDA、分均伤害、分均经济、参团率",
-        "conclusion_type": "fact",
-        "confidence": "high",
-        "sample_size": 12,
+        "title": "联盟核心指标排名",
+        "summary": "多项核心过程指标进入联盟前列，KDA 排名第 1，分均伤害、分均经济、参团率和伤害占比均进入前 3。",
+        "conclusion_type": "signal",
+        "confidence": "medium",
+        "sample_size": 15,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "排名前列指标：KDA、分均伤害、分均经济、参团率",
-          "KDA：排名第 1（11.44）",
-          "分均伤害：排名第 3（4297.0）",
-          "分均承伤：排名第 5（5195.0）",
-          "分均经济：排名第 3（687.0）",
-          "参团率：排名第 2（73.6）"
+          "KDA 11.45，排名第 1",
+          "分均伤害 4333.0，排名第 3",
+          "分均经济 699.0，排名第 3",
+          "参团率 72.3，排名第 2",
+          "伤害占比 20.2，排名第 3",
+          "分均承伤 5001.0，排名第 8；承伤占比 24.7，排名第 5",
+          "异常标记：排名指标 damage_taken_per_minute 在 14d 内下降 26.5%"
         ],
-        "risk_notes": []
+        "risk_notes": [
+          "排名受赛程、对手和样本影响",
+          "承伤相关排名近期出现波动，需要继续观察"
+        ]
       },
       {
         "id": "win_lose",
-        "title": "胜负差异",
-        "summary": "胜局和败局的过程指标差异，暂无败局数据可做对比。",
+        "title": "胜负样本与过程指标",
+        "summary": "当前赛季暂无败局数据可对比，只能观察胜局过程指标，不能据此判断稳定性。",
         "conclusion_type": "fact",
-        "confidence": "high",
-        "sample_size": 12,
+        "confidence": "low",
+        "sample_size": 15,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "胜局平均 KDA: 11.44",
-          "本赛季暂无败局数据"
+          "有败局数据：否",
+          "胜局KDA：11.45",
+          "胜局分均伤害：4333.0",
+          "胜局分均承伤：5001.0",
+          "胜局场均经济：10709.0",
+          "胜局场均死亡：0.73"
         ],
         "risk_notes": [
-          "本赛季暂无败局样本，胜负差异无法计算"
+          "缺少败局对比，无法区分胜局与败局差异",
+          "胜率不单独作为评价依据"
+        ]
+      },
+      {
+        "id": "team_structure",
+        "title": "战术角色观察",
+        "summary": "从参团率、伤害占比和承伤占比看，无言在样本内承担较高参团与输出、承伤任务，但是否为固定战术角色仍需观察。",
+        "conclusion_type": "hypothesis",
+        "confidence": "medium",
+        "sample_size": 15,
+        "sample_unit": "games",
+        "sample_scope": "current_season",
+        "evidence": [
+          "参团率 72.3，排名第 2",
+          "伤害占比 20.2，排名第 3",
+          "承伤占比 24.7，排名第 5",
+          "分均伤害 4333.0，排名第 3",
+          "分均承伤 5001.0，排名第 8"
+        ],
+        "risk_notes": [
+          "队伍资源分配、阵容和对手会影响占比指标",
+          "当前缺少败局和更长周期样本，战术角色需要后续验证"
         ]
       }
     ],
-    "updated_reason": "fallback",
-    "fallback_reason": "api_error: Request timed out.",
-    "generated_at": "2026-10-17T03:00:58+08:00",
-    "build_id": "20261017T030058+0800",
-    "ai_elapsed_seconds": 1631.91,
-    "ai_model": "qwen3.8-max:fallback",
+    "updated_reason": "daily_fetch",
+    "generated_at": "2026-10-18T03:01:01+08:00",
+    "build_id": "20261018T030101+0800",
+    "ai_elapsed_seconds": 121.66,
+    "ai_model": "qwen3.8-max",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "fd5685974e41c06ee21838810093ebc58185b7819a300930a7591c3146eed04c",
-    "ai_skipped_reason": "api_error"
-  },
-  "ai_skipped_reason": "api_error"
+    "input_hash": "230529589e8319730ae1f7579b4804579ba35bea35ddab66e29cdb0c220ffe41"
+  }
 }

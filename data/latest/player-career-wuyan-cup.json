@@ -44,19 +44,19 @@
     "hero_stats": [
       {
         "battles": 5,
-        "hero_id": "537",
-        "hero_name": "司空震",
-        "loses": 4,
-        "win_rate": "20.0%",
-        "wins": 1
-      },
-      {
-        "battles": 5,
         "hero_id": "503",
         "hero_name": "狂铁",
         "loses": 2,
         "win_rate": "60.0%",
         "wins": 3
+      },
+      {
+        "battles": 5,
+        "hero_id": "537",
+        "hero_name": "司空震",
+        "loses": 4,
+        "win_rate": "20.0%",
+        "wins": 1
       },
       {
         "battles": 5,

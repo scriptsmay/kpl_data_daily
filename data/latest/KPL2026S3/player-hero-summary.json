@@ -8,6 +8,17 @@
       "player_name": "KSG.无言",
       "player_unique_id": "KPLP01538",
       "team_name": "KSG",
+      "total_matches": 4,
+      "win_matches": 3,
+      "win_rate": "75%"
+    },
+    {
+      "hero_id": "537",
+      "hero_name": "司空震",
+      "is_symbol": 0,
+      "player_name": "KSG.无言",
+      "player_unique_id": "KPLP01538",
+      "team_name": "KSG",
       "total_matches": 3,
       "win_matches": 3,
       "win_rate": "100%"
@@ -24,8 +35,8 @@
       "win_rate": "100%"
     },
     {
-      "hero_id": "537",
-      "hero_name": "司空震",
+      "hero_id": "140",
+      "hero_name": "关羽",
       "is_symbol": 0,
       "player_name": "KSG.无言",
       "player_unique_id": "KPLP01538",
@@ -33,6 +44,17 @@
       "total_matches": 2,
       "win_matches": 2,
       "win_rate": "100%"
+    },
+    {
+      "hero_id": "536",
+      "hero_name": "夏洛特",
+      "is_symbol": 0,
+      "player_name": "KSG.无言",
+      "player_unique_id": "KPLP01538",
+      "team_name": "KSG",
+      "total_matches": 2,
+      "win_matches": 1,
+      "win_rate": "50%"
     },
     {
       "hero_id": "135",
@@ -57,26 +79,15 @@
       "win_rate": "100%"
     },
     {
-      "hero_id": "140",
-      "hero_name": "关羽",
+      "hero_id": "558",
+      "hero_name": "影",
       "is_symbol": 0,
       "player_name": "KSG.无言",
       "player_unique_id": "KPLP01538",
       "team_name": "KSG",
       "total_matches": 1,
-      "win_matches": 1,
-      "win_rate": "100%"
-    },
-    {
-      "hero_id": "536",
-      "hero_name": "夏洛特",
-      "is_symbol": 0,
-      "player_name": "KSG.无言",
-      "player_unique_id": "KPLP01538",
-      "team_name": "KSG",
-      "total_matches": 1,
-      "win_matches": 1,
-      "win_rate": "100%"
+      "win_matches": 0,
+      "win_rate": "0%"
     },
     {
       "hero_id": "120",
@@ -100,5 +111,5 @@
     "sort_by": "total_matches"
   },
   "season": "KPL2026S3",
-  "total": 629
+  "total": 651
 }

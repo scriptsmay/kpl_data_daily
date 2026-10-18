@@ -1,6 +1,207 @@
 {
   "code": 200,
-  "data": [],
+  "data": [
+    {
+      "avg_assists": 1.33,
+      "avg_be_hurt_by_hero": 73852.0,
+      "avg_big_fight_carry_damage": 4916.0,
+      "avg_big_fight_carry_kills": 0.33,
+      "avg_big_fight_damage": 23336.0,
+      "avg_big_fight_damage_taken": 33711.0,
+      "avg_blue_buff": 0.0,
+      "avg_control_duration": 17.3,
+      "avg_damage_10min_ratio": 14.99,
+      "avg_deaths": 2.0,
+      "avg_economy_10min": 6339.0,
+      "avg_economy_10min_ratio": 21.05,
+      "avg_economy_diff_10min": -426.0,
+      "avg_game_duration": 849.7,
+      "avg_gold": 8863.0,
+      "avg_heal_count": 45862.0,
+      "avg_horizon_value": 20.0,
+      "avg_hurt_to_hero": 46455.0,
+      "avg_invasion_duration": 14.7,
+      "avg_invasion_jungle": 0.67,
+      "avg_kda": 1.0,
+      "avg_kill_monster_count": 9.3,
+      "avg_kill_participation_10min": 0.333,
+      "avg_kills": 0.67,
+      "avg_red_buff": 0.3,
+      "avg_river_duration": 38.7,
+      "avg_solo_kills": 0.0,
+      "avg_support_attempts": 1.0,
+      "avg_team_damage_ratio": 15.49,
+      "avg_team_fights_initiated": 0.0,
+      "avg_ten_min_damage": 21052.0,
+      "damage_10min_details": [
+        {
+          "battle_id": "1792313942_1054884368_40",
+          "damage_ratio": 16.84,
+          "hero_name": "影",
+          "personal_damage": 29339,
+          "position": "对抗路",
+          "team_total_damage": 174213
+        },
+        {
+          "battle_id": "1792316152_1054884368_41",
+          "damage_ratio": 10.93,
+          "hero_name": "夏洛特",
+          "personal_damage": 14233,
+          "position": "对抗路",
+          "team_total_damage": 130179
+        },
+        {
+          "battle_id": "1792320206_1054884368_43",
+          "damage_ratio": 17.21,
+          "hero_name": "曹操",
+          "personal_damage": 19584,
+          "position": "对抗路",
+          "team_total_damage": 113782
+        }
+      ],
+      "damage_10min_per_minute": 2105.0,
+      "damage_per_minute": 3280.0,
+      "damage_taken_per_minute": 5215.0,
+      "data_version": "v20261019_001234",
+      "economy_10min_details": [
+        {
+          "battle_id": "1792313942_1054884368_40",
+          "economy_ratio": 21.9,
+          "hero_name": "影",
+          "personal_economy": 6443,
+          "position": "对抗路",
+          "team_total_economy": 29425
+        },
+        {
+          "battle_id": "1792316152_1054884368_41",
+          "economy_ratio": 21.35,
+          "hero_name": "夏洛特",
+          "personal_economy": 6694,
+          "position": "对抗路",
+          "team_total_economy": 31349
+        },
+        {
+          "battle_id": "1792320206_1054884368_43",
+          "economy_ratio": 19.9,
+          "hero_name": "曹操",
+          "personal_economy": 5879,
+          "position": "对抗路",
+          "team_total_economy": 29546
+        }
+      ],
+      "economy_10min_per_minute": 634.0,
+      "gold_per_minute": 626.0,
+      "heroes_used": [
+        "影",
+        "夏洛特",
+        "曹操"
+      ],
+      "invalid_10min_matches": 0.0,
+      "last_updated": "2026-10-18 16:12:36",
+      "lose_matches": 3.0,
+      "match_details": [
+        {
+          "battle_id": "1792313942_1054884368_40",
+          "hero_name": "影",
+          "is_valid_10min": true,
+          "match_number": 1,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M3W6D1",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1792316152_1054884368_41",
+          "hero_name": "夏洛特",
+          "is_valid_10min": true,
+          "match_number": 2,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M3W6D1",
+          "team_id": "KPL2026S3_ytg"
+        },
+        {
+          "battle_id": "1792320206_1054884368_43",
+          "hero_name": "曹操",
+          "is_valid_10min": true,
+          "match_number": 3,
+          "player_position": "对抗路",
+          "schedule_id": "KPL2026S3M3W6D1",
+          "team_id": "KPL2026S3_ytg"
+        }
+      ],
+      "player_name": "KSG.无言",
+      "positions_played": [
+        "对抗路"
+      ],
+      "season": "KPL2026S3",
+      "teammates_avg_invasion_jungle": 0.67,
+      "teammates_details": [
+        {
+          "avg_invasion_jungle": 0.0,
+          "matches_together": 3,
+          "positions": [
+            "中路"
+          ],
+          "teammate_name": "KSG.流浪",
+          "total_invasion_jungle": 0
+        },
+        {
+          "avg_invasion_jungle": 2.0,
+          "matches_together": 3,
+          "positions": [
+            "打野"
+          ],
+          "teammate_name": "KSG.句号",
+          "total_invasion_jungle": 6
+        },
+        {
+          "avg_invasion_jungle": 0.33,
+          "matches_together": 3,
+          "positions": [
+            "游走"
+          ],
+          "teammate_name": "KSG.晚星",
+          "total_invasion_jungle": 1
+        },
+        {
+          "avg_invasion_jungle": 0.5,
+          "matches_together": 2,
+          "positions": [
+            "发育路"
+          ],
+          "teammate_name": "KSG.小屿",
+          "total_invasion_jungle": 1
+        },
+        {
+          "avg_invasion_jungle": 0.0,
+          "matches_together": 1,
+          "positions": [
+            "发育路"
+          ],
+          "teammate_name": "KSG.梦岚",
+          "total_invasion_jungle": 0
+        }
+      ],
+      "total_assists": 4.0,
+      "total_be_hurt_by_hero": 221557.0,
+      "total_big_fight_damage": 70007.0,
+      "total_blue_buff": 0.0,
+      "total_deaths": 6.0,
+      "total_game_duration": 2549.0,
+      "total_gold": 26589.0,
+      "total_heal_count": 137585.0,
+      "total_heroes_count": 3.0,
+      "total_horizon_value": 59.0,
+      "total_hurt_to_hero": 139364.0,
+      "total_invasion_jungle": 2.0,
+      "total_kills": 2.0,
+      "total_red_buff": 1.0,
+      "total_solo_kills": 0.0,
+      "total_ten_min_damage": 63156.0,
+      "valid_10min_matches": 3.0,
+      "valid_10min_rate": 100.0,
+      "valid_damage_ratio_matches": 3.0
+    }
+  ],
   "data_source": "player_lose_stats table",
   "description": "选手失败数据统计 (赛季: KPL2026S3)",
   "filters": {
@@ -10,5 +211,5 @@
     "season": "KPL2026S3"
   },
   "season": "KPL2026S3",
-  "total_players": 67
+  "total_players": 73
 }

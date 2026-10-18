@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-18T23:00:12+08:00",
-  "build_id": "20261018T230012+0800",
+  "generated_at": "2026-10-19T00:00:12+08:00",
+  "build_id": "20261019T000012+0800",
   "data": {
     "season_id": "KPL2026S3",
     "season_name": "2026KPL年度总决赛",
     "team_name": "KSG",
-    "total_matches": 38,
+    "total_matches": 41,
     "ksg_matches": 7,
     "matches": [
       {
@@ -104,12 +104,12 @@
         "location": "广州",
         "stage": "",
         "bo": 1,
-        "status": 3,
+        "status": 4,
         "score_a": 0,
-        "score_b": 0
+        "score_b": 1
       }
     ],
-    "updated_at": "2026-10-18T15:00:12.903013+00:00",
+    "updated_at": "2026-10-18T16:00:12.994482+00:00",
     "source_status": "ok"
   }
 }

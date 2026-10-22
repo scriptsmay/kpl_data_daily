@@ -179,7 +179,7 @@
       "damage_10min_per_minute": 2504.0,
       "damage_per_minute": 4337.0,
       "damage_taken_per_minute": 4993.0,
-      "data_version": "v20261021_223621",
+      "data_version": "v20261022_221546",
       "economy_10min_details": [
         {
           "battle_id": "1790935560_1054884368_41",
@@ -321,17 +321,17 @@
       "economy_10min_per_minute": 673.0,
       "gold_per_minute": 701.0,
       "heroes_used": [
-        "关羽",
         "司空震",
-        "白起",
-        "狂铁",
         "夏洛特",
         "马超",
+        "狂铁",
+        "项羽",
         "曹操",
-        "项羽"
+        "白起",
+        "关羽"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-10-21 14:36:21",
+      "last_updated": "2026-10-22 14:15:47",
       "match_details": [
         {
           "battle_id": "1790935560_1054884368_41",

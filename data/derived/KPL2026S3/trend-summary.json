@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-24T03:00:58+08:00",
-  "build_id": "20261024T030058+0800",
+  "generated_at": "2026-10-25T03:00:59+08:00",
+  "build_id": "20261025T030059+0800",
   "data": {
-    "snapshots_available": 113,
-    "reference_date": "20261024",
+    "snapshots_available": 118,
+    "reference_date": "20261025",
     "trends": {
       "hero_pool": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261021 ~ 20261024",
+          "date_range": "20261022 ~ 20261025",
           "hero_count_delta": 0,
           "hero_count_latest": 9,
           "hero_count_oldest": 9,
@@ -19,7 +19,7 @@
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20261017 ~ 20261024",
+          "date_range": "20261018 ~ 20261025",
           "hero_count_delta": 1,
           "hero_count_latest": 9,
           "hero_count_oldest": 8,
@@ -30,7 +30,7 @@
         },
         "14d": {
           "snapshots": 15,
-          "date_range": "20261010 ~ 20261024",
+          "date_range": "20261011 ~ 20261025",
           "hero_count_delta": 1,
           "hero_count_latest": 9,
           "hero_count_oldest": 8,
@@ -40,8 +40,8 @@
           "dropped_heroes": []
         },
         "30d": {
-          "snapshots": 23,
-          "date_range": "20261002 ~ 20261024",
+          "snapshots": 24,
+          "date_range": "20261002 ~ 20261025",
           "hero_count_delta": 9,
           "hero_count_latest": 9,
           "hero_count_oldest": 0,
@@ -62,7 +62,7 @@
       "abilities": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261021 ~ 20261024",
+          "date_range": "20261022 ~ 20261025",
           "deltas": {
             "damage_output": 0.0,
             "teamfight": 0.0,
@@ -86,31 +86,31 @@
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20261017 ~ 20261024",
+          "date_range": "20261018 ~ 20261025",
           "deltas": {
-            "damage_output": -1.0,
-            "teamfight": -1.0,
-            "initiation": 3.0,
-            "early_game": -1.0,
-            "mid_game": 13.0,
+            "damage_output": -4.0,
+            "teamfight": -2.0,
+            "initiation": -2.0,
+            "early_game": -2.0,
+            "mid_game": 8.0,
             "late_game": 0.0,
-            "map_control": 1.0,
+            "map_control": 0.0,
             "invasion_ability": -6.0,
             "support_ability": -3.0,
-            "economy": 0.0,
-            "tankiness": 0.0,
-            "durability": -10.0
+            "economy": -6.0,
+            "tankiness": 3.0,
+            "durability": -9.0
           },
           "biggest_gain": {
-            "mid_game": 13.0
+            "mid_game": 8.0
           },
           "biggest_drop": {
-            "durability": -10.0
+            "durability": -9.0
           }
         },
         "14d": {
           "snapshots": 15,
-          "date_range": "20261010 ~ 20261024",
+          "date_range": "20261011 ~ 20261025",
           "deltas": {
             "damage_output": -1.0,
             "teamfight": 0.0,
@@ -133,8 +133,8 @@
           }
         },
         "30d": {
-          "snapshots": 23,
-          "date_range": "20261002 ~ 20261024",
+          "snapshots": 24,
+          "date_range": "20261002 ~ 20261025",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
@@ -143,7 +143,7 @@
       "ranking": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261021 ~ 20261024",
+          "date_range": "20261022 ~ 20261025",
           "deltas": {
             "damage_per_minute": {
               "abs": 0.0,
@@ -179,43 +179,43 @@
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20261017 ~ 20261024",
+          "date_range": "20261018 ~ 20261025",
           "deltas": {
             "damage_per_minute": {
-              "abs": -108.0,
-              "pct": -2.5
-            },
-            "damage_taken_per_minute": {
-              "abs": -171.0,
+              "abs": -144.0,
               "pct": -3.3
             },
-            "economy_per_minute": {
-              "abs": 4.0,
-              "pct": 0.6
-            },
-            "avg_kill_participation": {
-              "abs": -6.6,
-              "pct": -9.0
-            },
-            "damage_share": {
-              "abs": 0.1,
+            "damage_taken_per_minute": {
+              "abs": 23.0,
               "pct": 0.5
             },
+            "economy_per_minute": {
+              "abs": -8.0,
+              "pct": -1.1
+            },
+            "avg_kill_participation": {
+              "abs": -5.3,
+              "pct": -7.3
+            },
+            "damage_share": {
+              "abs": -0.8,
+              "pct": -4.0
+            },
             "damage_taken_share": {
-              "abs": -0.2,
-              "pct": -0.8
+              "abs": -0.9,
+              "pct": -3.6
             }
           },
           "biggest_rise": {
-            "economy_per_minute": 4.0
+            "damage_taken_per_minute": 23.0
           },
           "biggest_drop": {
-            "damage_taken_per_minute": -171.0
+            "damage_per_minute": -144.0
           }
         },
         "14d": {
           "snapshots": 15,
-          "date_range": "20261010 ~ 20261024",
+          "date_range": "20261011 ~ 20261025",
           "deltas": {
             "damage_per_minute": {
               "abs": -154.0,
@@ -250,16 +250,14 @@
           }
         },
         "30d": {
-          "snapshots": 23,
-          "date_range": "20261002 ~ 20261024",
+          "snapshots": 24,
+          "date_range": "20261002 ~ 20261025",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}
         }
       }
     },
-    "anomalies": [
-      "能力维度 durability 在 7d 内下降 10.0 分"
-    ]
+    "anomalies": []
   }
 }

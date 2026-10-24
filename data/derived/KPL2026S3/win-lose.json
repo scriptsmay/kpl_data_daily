@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-24T03:00:58+08:00",
-  "build_id": "20261024T030058+0800",
+  "generated_at": "2026-10-25T03:00:59+08:00",
+  "build_id": "20261025T030059+0800",
   "data": {
     "win": {
       "above_avg_economy_real_win_rate": 90.91,

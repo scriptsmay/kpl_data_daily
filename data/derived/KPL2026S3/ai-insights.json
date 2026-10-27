@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-27T03:01:02+08:00",
-  "build_id": "20261027T030102+0800",
-  "ai_elapsed_seconds": 6.42,
+  "generated_at": "2026-10-28T03:01:03+08:00",
+  "build_id": "20261028T030103+0800",
+  "ai_elapsed_seconds": 6.45,
   "ai_model": "qwen3.8-max:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "d634a9c23ea0d680588517e352b86e5f854fcaee4c2dcdbe09e61b829d9bfee4",
+  "input_hash": "d7d6032f8134ab93a2564431c4bff97080bde41f0fdaf3699726061111856a2b",
   "data": {
     "headline": "无言本赛季 20 局，使用 9 个英雄",
     "summary": "生涯累计 181 局。本赛季英雄池覆盖 9 个英雄，能力评分 96.1。",
@@ -66,19 +66,19 @@
       {
         "id": "ranking",
         "title": "联盟排名",
-        "summary": "排名前列指标共 3 项：KDA、分均经济、伤害占比",
+        "summary": "排名前列指标共 4 项：KDA、分均伤害、分均经济、伤害占比",
         "conclusion_type": "fact",
         "confidence": "high",
         "sample_size": 20,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "排名前列指标：KDA、分均经济、伤害占比",
+          "排名前列指标：KDA、分均伤害、分均经济、伤害占比",
           "KDA：排名第 1（7.4）",
-          "分均伤害：排名第 4（4189.0）",
-          "分均承伤：排名第 7（5024.0）",
+          "分均伤害：排名第 3（4189.0）",
+          "分均承伤：排名第 8（5024.0）",
           "分均经济：排名第 2（691.0）",
-          "参团率：排名第 5（67.0）"
+          "参团率：排名第 4（67.7）"
         ],
         "risk_notes": []
       },
@@ -100,13 +100,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': '46e418e0-08e7-976d-9ead-ae3e31891136', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
-    "generated_at": "2026-10-27T03:01:02+08:00",
-    "build_id": "20261027T030102+0800",
-    "ai_elapsed_seconds": 6.42,
+    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': '30366c4d-f960-986d-9127-636e6d493b3e', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
+    "generated_at": "2026-10-28T03:01:03+08:00",
+    "build_id": "20261028T030103+0800",
+    "ai_elapsed_seconds": 6.45,
     "ai_model": "qwen3.8-max:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "d634a9c23ea0d680588517e352b86e5f854fcaee4c2dcdbe09e61b829d9bfee4",
+    "input_hash": "d7d6032f8134ab93a2564431c4bff97080bde41f0fdaf3699726061111856a2b",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

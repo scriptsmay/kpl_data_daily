@@ -169,11 +169,11 @@
         ],
         "damage_to_positions_average": [
           {
-            "percentage": "36.3%",
+            "percentage": "36.5%",
             "position": "top"
           },
           {
-            "percentage": "17.6%",
+            "percentage": "17.5%",
             "position": "jungle"
           },
           {
@@ -185,7 +185,7 @@
             "position": "adc"
           },
           {
-            "percentage": "19.8%",
+            "percentage": "19.7%",
             "position": "support"
           }
         ],
@@ -383,23 +383,23 @@
         ],
         "damage_to_positions_average": [
           {
-            "percentage": "20.5%",
+            "percentage": "20.6%",
             "position": "top"
           },
           {
-            "percentage": "24.3%",
+            "percentage": "24.2%",
             "position": "jungle"
           },
           {
-            "percentage": "13.6%",
+            "percentage": "13.5%",
             "position": "mid"
           },
           {
-            "percentage": "14.1%",
+            "percentage": "14.0%",
             "position": "adc"
           },
           {
-            "percentage": "27.5%",
+            "percentage": "27.6%",
             "position": "support"
           }
         ],
@@ -601,11 +601,11 @@
             "position": "top"
           },
           {
-            "percentage": "26.3%",
+            "percentage": "26.2%",
             "position": "jungle"
           },
           {
-            "percentage": "11.6%",
+            "percentage": "11.7%",
             "position": "mid"
           },
           {
@@ -613,7 +613,7 @@
             "position": "adc"
           },
           {
-            "percentage": "30.3%",
+            "percentage": "30.4%",
             "position": "support"
           }
         ],
@@ -643,200 +643,6 @@
         "player_position": "中路",
         "player_unique_id": "KPLP00968",
         "total_matches": 20
-      },
-      {
-        "damage_by_player": [
-          {
-            "damage": 67939,
-            "player_name": "上海EDGM.夏凌"
-          },
-          {
-            "damage": 41852,
-            "player_name": "上海EDGM.流星"
-          },
-          {
-            "damage": 39494,
-            "player_name": "济南RW侠.今屿"
-          },
-          {
-            "damage": 34997,
-            "player_name": "上海EDGM.小碎"
-          },
-          {
-            "damage": 34661,
-            "player_name": "长沙TES.A书源"
-          },
-          {
-            "damage": 34161,
-            "player_name": "上海EDGM.风箫"
-          },
-          {
-            "damage": 27209,
-            "player_name": "深圳DYG.小轩"
-          },
-          {
-            "damage": 25681,
-            "player_name": "杭州LGD.NBW.小崽"
-          },
-          {
-            "damage": 19776,
-            "player_name": "济南RW侠.梦溪"
-          },
-          {
-            "damage": 18980,
-            "player_name": "长沙TES.A无幻"
-          },
-          {
-            "damage": 18769,
-            "player_name": "深圳DYG.小乐"
-          },
-          {
-            "damage": 18160,
-            "player_name": "上海EDGM.花卷"
-          },
-          {
-            "damage": 17181,
-            "player_name": "长沙TES.A亮宇"
-          },
-          {
-            "damage": 15735,
-            "player_name": "济南RW侠.归期"
-          },
-          {
-            "damage": 15585,
-            "player_name": "深圳DYG.钎城"
-          },
-          {
-            "damage": 15294,
-            "player_name": "南通Hero久竞.坦然"
-          },
-          {
-            "damage": 15127,
-            "player_name": "长沙TES.A帆帆"
-          },
-          {
-            "damage": 14764,
-            "player_name": "杭州LGD.NBW.小久"
-          },
-          {
-            "damage": 13926,
-            "player_name": "深圳DYG.小A"
-          },
-          {
-            "damage": 10787,
-            "player_name": "杭州LGD.NBW.断雨"
-          },
-          {
-            "damage": 8659,
-            "player_name": "杭州LGD.NBW.小落"
-          },
-          {
-            "damage": 8412,
-            "player_name": "杭州LGD.NBW.九尾"
-          },
-          {
-            "damage": 7953,
-            "player_name": "南通Hero久竞.落尘"
-          },
-          {
-            "damage": 7556,
-            "player_name": "济南RW侠.小俞"
-          },
-          {
-            "damage": 7375,
-            "player_name": "济南RW侠.挽墨"
-          },
-          {
-            "damage": 7047,
-            "player_name": "南通Hero久竞.白清"
-          },
-          {
-            "damage": 6873,
-            "player_name": "深圳DYG.向鱼"
-          },
-          {
-            "damage": 5465,
-            "player_name": "南通Hero久竞.妖刀"
-          },
-          {
-            "damage": 2388,
-            "player_name": "南通Hero久竞.玖熙"
-          },
-          {
-            "damage": 818,
-            "player_name": "长沙TES.A七"
-          }
-        ],
-        "damage_to_positions": [
-          {
-            "percentage": "21.2%",
-            "position": "top"
-          },
-          {
-            "percentage": "33.4%",
-            "position": "jungle"
-          },
-          {
-            "percentage": "7.8%",
-            "position": "mid"
-          },
-          {
-            "percentage": "16.8%",
-            "position": "adc"
-          },
-          {
-            "percentage": "20.7%",
-            "position": "support"
-          }
-        ],
-        "damage_to_positions_average": [
-          {
-            "percentage": "22.3%",
-            "position": "top"
-          },
-          {
-            "percentage": "25.1%",
-            "position": "jungle"
-          },
-          {
-            "percentage": "9.2%",
-            "position": "mid"
-          },
-          {
-            "percentage": "14.8%",
-            "position": "adc"
-          },
-          {
-            "percentage": "28.6%",
-            "position": "support"
-          }
-        ],
-        "damage_to_positions_total": [
-          {
-            "damage": 119289,
-            "position": "top"
-          },
-          {
-            "damage": 188043,
-            "position": "jungle"
-          },
-          {
-            "damage": 44026,
-            "position": "mid"
-          },
-          {
-            "damage": 94712,
-            "position": "adc"
-          },
-          {
-            "damage": 116554,
-            "position": "support"
-          }
-        ],
-        "player_name": "KSG.小屿",
-        "player_position": "发育路",
-        "player_unique_id": "KPLP01531",
-        "total_matches": 7
       },
       {
         "damage_by_player": [
@@ -1013,7 +819,7 @@
             "position": "jungle"
           },
           {
-            "percentage": "9.2%",
+            "percentage": "9.1%",
             "position": "mid"
           },
           {
@@ -1021,7 +827,7 @@
             "position": "adc"
           },
           {
-            "percentage": "28.6%",
+            "percentage": "28.7%",
             "position": "support"
           }
         ],
@@ -1055,196 +861,196 @@
       {
         "damage_by_player": [
           {
-            "damage": 14167,
-            "player_name": "济南RW侠.今屿"
-          },
-          {
-            "damage": 13612,
-            "player_name": "南通Hero久竞.坦然"
-          },
-          {
-            "damage": 11536,
-            "player_name": "上海EDGM.小碎"
-          },
-          {
-            "damage": 10984,
-            "player_name": "深圳DYG.钎城"
-          },
-          {
-            "damage": 9213,
-            "player_name": "深圳DYG.小轩"
-          },
-          {
-            "damage": 8232,
-            "player_name": "深圳DYG.小A"
-          },
-          {
-            "damage": 7355,
-            "player_name": "南通Hero久竞.落尘"
-          },
-          {
-            "damage": 7338,
-            "player_name": "南通Hero久竞.白清"
-          },
-          {
-            "damage": 6721,
-            "player_name": "杭州LGD.NBW.小崽"
-          },
-          {
-            "damage": 6452,
-            "player_name": "济南RW侠.挽墨"
-          },
-          {
-            "damage": 5736,
-            "player_name": "上海EDGM.流星"
-          },
-          {
-            "damage": 5023,
-            "player_name": "上海EDGM.风箫"
-          },
-          {
-            "damage": 4923,
-            "player_name": "济南RW侠.归期"
-          },
-          {
-            "damage": 4680,
-            "player_name": "济南RW侠.梦溪"
-          },
-          {
-            "damage": 4427,
-            "player_name": "长沙TES.A书源"
-          },
-          {
-            "damage": 3761,
-            "player_name": "长沙TES.A帆帆"
-          },
-          {
-            "damage": 3632,
-            "player_name": "济南RW侠.小俞"
-          },
-          {
-            "damage": 2718,
+            "damage": 67939,
             "player_name": "上海EDGM.夏凌"
           },
           {
-            "damage": 2204,
-            "player_name": "杭州LGD.NBW.断雨"
+            "damage": 41852,
+            "player_name": "上海EDGM.流星"
           },
           {
-            "damage": 1751,
-            "player_name": "长沙TES.A七"
+            "damage": 39494,
+            "player_name": "济南RW侠.今屿"
           },
           {
-            "damage": 1715,
+            "damage": 34997,
+            "player_name": "上海EDGM.小碎"
+          },
+          {
+            "damage": 34661,
+            "player_name": "长沙TES.A书源"
+          },
+          {
+            "damage": 34161,
+            "player_name": "上海EDGM.风箫"
+          },
+          {
+            "damage": 27209,
+            "player_name": "深圳DYG.小轩"
+          },
+          {
+            "damage": 25681,
+            "player_name": "杭州LGD.NBW.小崽"
+          },
+          {
+            "damage": 19776,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 18980,
             "player_name": "长沙TES.A无幻"
           },
           {
-            "damage": 1596,
-            "player_name": "上海EDGM.花卷"
-          },
-          {
-            "damage": 1104,
-            "player_name": "杭州LGD.NBW.小落"
-          },
-          {
-            "damage": 884,
-            "player_name": "杭州LGD.NBW.九尾"
-          },
-          {
-            "damage": 770,
-            "player_name": "长沙TES.A亮宇"
-          },
-          {
-            "damage": 728,
-            "player_name": "深圳DYG.向鱼"
-          },
-          {
-            "damage": 721,
+            "damage": 18769,
             "player_name": "深圳DYG.小乐"
           },
           {
-            "damage": 686,
+            "damage": 18160,
+            "player_name": "上海EDGM.花卷"
+          },
+          {
+            "damage": 17181,
+            "player_name": "长沙TES.A亮宇"
+          },
+          {
+            "damage": 15735,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 15585,
+            "player_name": "深圳DYG.钎城"
+          },
+          {
+            "damage": 15294,
+            "player_name": "南通Hero久竞.坦然"
+          },
+          {
+            "damage": 15127,
+            "player_name": "长沙TES.A帆帆"
+          },
+          {
+            "damage": 14764,
+            "player_name": "杭州LGD.NBW.小久"
+          },
+          {
+            "damage": 13926,
+            "player_name": "深圳DYG.小A"
+          },
+          {
+            "damage": 10787,
+            "player_name": "杭州LGD.NBW.断雨"
+          },
+          {
+            "damage": 8659,
+            "player_name": "杭州LGD.NBW.小落"
+          },
+          {
+            "damage": 8412,
+            "player_name": "杭州LGD.NBW.九尾"
+          },
+          {
+            "damage": 7953,
+            "player_name": "南通Hero久竞.落尘"
+          },
+          {
+            "damage": 7556,
+            "player_name": "济南RW侠.小俞"
+          },
+          {
+            "damage": 7375,
+            "player_name": "济南RW侠.挽墨"
+          },
+          {
+            "damage": 7047,
+            "player_name": "南通Hero久竞.白清"
+          },
+          {
+            "damage": 6873,
+            "player_name": "深圳DYG.向鱼"
+          },
+          {
+            "damage": 5465,
             "player_name": "南通Hero久竞.妖刀"
           },
           {
-            "damage": 535,
+            "damage": 2388,
             "player_name": "南通Hero久竞.玖熙"
           },
           {
-            "damage": 494,
-            "player_name": "杭州LGD.NBW.小久"
+            "damage": 818,
+            "player_name": "长沙TES.A七"
           }
         ],
         "damage_to_positions": [
           {
-            "percentage": "19.4%",
+            "percentage": "21.2%",
             "position": "top"
           },
           {
-            "percentage": "27.9%",
+            "percentage": "33.4%",
             "position": "jungle"
           },
           {
-            "percentage": "8.3%",
+            "percentage": "7.8%",
             "position": "mid"
           },
           {
-            "percentage": "15.0%",
+            "percentage": "16.8%",
             "position": "adc"
           },
           {
-            "percentage": "29.4%",
+            "percentage": "20.7%",
             "position": "support"
           }
         ],
         "damage_to_positions_average": [
           {
-            "percentage": "17.7%",
+            "percentage": "22.3%",
             "position": "top"
           },
           {
-            "percentage": "22.8%",
+            "percentage": "25.1%",
             "position": "jungle"
           },
           {
-            "percentage": "13.0%",
+            "percentage": "9.1%",
             "position": "mid"
           },
           {
-            "percentage": "12.8%",
+            "percentage": "14.8%",
             "position": "adc"
           },
           {
-            "percentage": "33.8%",
+            "percentage": "28.7%",
             "position": "support"
           }
         ],
         "damage_to_positions_total": [
           {
-            "damage": 27811,
+            "damage": 119289,
             "position": "top"
           },
           {
-            "damage": 40084,
+            "damage": 188043,
             "position": "jungle"
           },
           {
-            "damage": 11946,
+            "damage": 44026,
             "position": "mid"
           },
           {
-            "damage": 21589,
+            "damage": 94712,
             "position": "adc"
           },
           {
-            "damage": 42268,
+            "damage": 116554,
             "position": "support"
           }
         ],
-        "player_name": "KSG.烈峰峰",
-        "player_position": "游走",
-        "player_unique_id": "KPLP01537",
-        "total_matches": 6
+        "player_name": "KSG.小屿",
+        "player_position": "发育路",
+        "player_unique_id": "KPLP01531",
+        "total_matches": 7
       },
       {
         "damage_by_player": [
@@ -1417,11 +1223,11 @@
             "position": "top"
           },
           {
-            "percentage": "22.8%",
+            "percentage": "22.7%",
             "position": "jungle"
           },
           {
-            "percentage": "13.0%",
+            "percentage": "12.9%",
             "position": "mid"
           },
           {
@@ -1429,7 +1235,7 @@
             "position": "adc"
           },
           {
-            "percentage": "33.8%",
+            "percentage": "33.9%",
             "position": "support"
           }
         ],
@@ -1459,6 +1265,200 @@
         "player_position": "游走",
         "player_unique_id": "KPLP00756",
         "total_matches": 14
+      },
+      {
+        "damage_by_player": [
+          {
+            "damage": 14167,
+            "player_name": "济南RW侠.今屿"
+          },
+          {
+            "damage": 13612,
+            "player_name": "南通Hero久竞.坦然"
+          },
+          {
+            "damage": 11536,
+            "player_name": "上海EDGM.小碎"
+          },
+          {
+            "damage": 10984,
+            "player_name": "深圳DYG.钎城"
+          },
+          {
+            "damage": 9213,
+            "player_name": "深圳DYG.小轩"
+          },
+          {
+            "damage": 8232,
+            "player_name": "深圳DYG.小A"
+          },
+          {
+            "damage": 7355,
+            "player_name": "南通Hero久竞.落尘"
+          },
+          {
+            "damage": 7338,
+            "player_name": "南通Hero久竞.白清"
+          },
+          {
+            "damage": 6721,
+            "player_name": "杭州LGD.NBW.小崽"
+          },
+          {
+            "damage": 6452,
+            "player_name": "济南RW侠.挽墨"
+          },
+          {
+            "damage": 5736,
+            "player_name": "上海EDGM.流星"
+          },
+          {
+            "damage": 5023,
+            "player_name": "上海EDGM.风箫"
+          },
+          {
+            "damage": 4923,
+            "player_name": "济南RW侠.归期"
+          },
+          {
+            "damage": 4680,
+            "player_name": "济南RW侠.梦溪"
+          },
+          {
+            "damage": 4427,
+            "player_name": "长沙TES.A书源"
+          },
+          {
+            "damage": 3761,
+            "player_name": "长沙TES.A帆帆"
+          },
+          {
+            "damage": 3632,
+            "player_name": "济南RW侠.小俞"
+          },
+          {
+            "damage": 2718,
+            "player_name": "上海EDGM.夏凌"
+          },
+          {
+            "damage": 2204,
+            "player_name": "杭州LGD.NBW.断雨"
+          },
+          {
+            "damage": 1751,
+            "player_name": "长沙TES.A七"
+          },
+          {
+            "damage": 1715,
+            "player_name": "长沙TES.A无幻"
+          },
+          {
+            "damage": 1596,
+            "player_name": "上海EDGM.花卷"
+          },
+          {
+            "damage": 1104,
+            "player_name": "杭州LGD.NBW.小落"
+          },
+          {
+            "damage": 884,
+            "player_name": "杭州LGD.NBW.九尾"
+          },
+          {
+            "damage": 770,
+            "player_name": "长沙TES.A亮宇"
+          },
+          {
+            "damage": 728,
+            "player_name": "深圳DYG.向鱼"
+          },
+          {
+            "damage": 721,
+            "player_name": "深圳DYG.小乐"
+          },
+          {
+            "damage": 686,
+            "player_name": "南通Hero久竞.妖刀"
+          },
+          {
+            "damage": 535,
+            "player_name": "南通Hero久竞.玖熙"
+          },
+          {
+            "damage": 494,
+            "player_name": "杭州LGD.NBW.小久"
+          }
+        ],
+        "damage_to_positions": [
+          {
+            "percentage": "19.4%",
+            "position": "top"
+          },
+          {
+            "percentage": "27.9%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "8.3%",
+            "position": "mid"
+          },
+          {
+            "percentage": "15.0%",
+            "position": "adc"
+          },
+          {
+            "percentage": "29.4%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_average": [
+          {
+            "percentage": "17.7%",
+            "position": "top"
+          },
+          {
+            "percentage": "22.7%",
+            "position": "jungle"
+          },
+          {
+            "percentage": "12.9%",
+            "position": "mid"
+          },
+          {
+            "percentage": "12.8%",
+            "position": "adc"
+          },
+          {
+            "percentage": "33.9%",
+            "position": "support"
+          }
+        ],
+        "damage_to_positions_total": [
+          {
+            "damage": 27811,
+            "position": "top"
+          },
+          {
+            "damage": 40084,
+            "position": "jungle"
+          },
+          {
+            "damage": 11946,
+            "position": "mid"
+          },
+          {
+            "damage": 21589,
+            "position": "adc"
+          },
+          {
+            "damage": 42268,
+            "position": "support"
+          }
+        ],
+        "player_name": "KSG.烈峰峰",
+        "player_position": "游走",
+        "player_unique_id": "KPLP01537",
+        "total_matches": 6
       }
     ],
     "position_averages": {
@@ -1468,11 +1468,11 @@
           "position": "top"
         },
         {
-          "percentage": "26.3%",
+          "percentage": "26.2%",
           "position": "jungle"
         },
         {
-          "percentage": "11.6%",
+          "percentage": "11.7%",
           "position": "mid"
         },
         {
@@ -1480,7 +1480,7 @@
           "position": "adc"
         },
         {
-          "percentage": "30.3%",
+          "percentage": "30.4%",
           "position": "support"
         }
       ],
@@ -1494,7 +1494,7 @@
           "position": "jungle"
         },
         {
-          "percentage": "9.2%",
+          "percentage": "9.1%",
           "position": "mid"
         },
         {
@@ -1502,17 +1502,17 @@
           "position": "adc"
         },
         {
-          "percentage": "28.6%",
+          "percentage": "28.7%",
           "position": "support"
         }
       ],
       "对抗路": [
         {
-          "percentage": "36.3%",
+          "percentage": "36.5%",
           "position": "top"
         },
         {
-          "percentage": "17.6%",
+          "percentage": "17.5%",
           "position": "jungle"
         },
         {
@@ -1524,29 +1524,29 @@
           "position": "adc"
         },
         {
-          "percentage": "19.8%",
+          "percentage": "19.7%",
           "position": "support"
         }
       ],
       "打野": [
         {
-          "percentage": "20.5%",
+          "percentage": "20.6%",
           "position": "top"
         },
         {
-          "percentage": "24.3%",
+          "percentage": "24.2%",
           "position": "jungle"
         },
         {
-          "percentage": "13.6%",
+          "percentage": "13.5%",
           "position": "mid"
         },
         {
-          "percentage": "14.1%",
+          "percentage": "14.0%",
           "position": "adc"
         },
         {
-          "percentage": "27.5%",
+          "percentage": "27.6%",
           "position": "support"
         }
       ],
@@ -1556,11 +1556,11 @@
           "position": "top"
         },
         {
-          "percentage": "22.8%",
+          "percentage": "22.7%",
           "position": "jungle"
         },
         {
-          "percentage": "13.0%",
+          "percentage": "12.9%",
           "position": "mid"
         },
         {
@@ -1568,7 +1568,7 @@
           "position": "adc"
         },
         {
-          "percentage": "33.8%",
+          "percentage": "33.9%",
           "position": "support"
         }
       ]

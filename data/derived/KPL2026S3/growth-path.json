@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-27T03:01:02+08:00",
-  "build_id": "20261027T030102+0800",
+  "generated_at": "2026-10-28T03:01:03+08:00",
+  "build_id": "20261028T030103+0800",
   "data": {
     "player": "无言",
     "growth_stage": "稳定轮换期",
@@ -60,8 +60,8 @@
       },
       {
         "type": "hero_first_use",
-        "date": "2026101701",
-        "description": "首次使用 狂铁：杭州LGD.NBW vs KSG"
+        "date": "2026100202",
+        "description": "首次使用 狂铁：济南RW侠 vs KSG"
       },
       {
         "type": "hero_first_use",
@@ -80,8 +80,8 @@
       },
       {
         "type": "hero_first_use",
-        "date": "2026100401",
-        "description": "首次使用 马超：深圳DYG vs KSG"
+        "date": "2026100202",
+        "description": "首次使用 马超：济南RW侠 vs KSG"
       },
       {
         "type": "hero_first_use",

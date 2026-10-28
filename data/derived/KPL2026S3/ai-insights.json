@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-28T03:01:03+08:00",
-  "build_id": "20261028T030103+0800",
+  "generated_at": "2026-10-29T03:01:05+08:00",
+  "build_id": "20261029T030105+0800",
   "ai_elapsed_seconds": 6.45,
   "ai_model": "qwen3.8-max:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "d7d6032f8134ab93a2564431c4bff97080bde41f0fdaf3699726061111856a2b",
+  "input_hash": "c346dfb0003a504e213c9a821df5e2e150c12122a4c86d28063d25fbb0c70d01",
   "data": {
     "headline": "无言本赛季 20 局，使用 9 个英雄",
-    "summary": "生涯累计 181 局。本赛季英雄池覆盖 9 个英雄，能力评分 96.1。",
+    "summary": "生涯累计 181 局。本赛季英雄池覆盖 9 个英雄，能力评分 95.7。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
@@ -50,7 +50,7 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 96.1，位置排名第 1。",
+        "summary": "当前能力评分 95.7，位置排名第 1。",
         "conclusion_type": "hypothesis",
         "confidence": "high",
         "sample_size": 20,
@@ -100,13 +100,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': '30366c4d-f960-986d-9127-636e6d493b3e', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
-    "generated_at": "2026-10-28T03:01:03+08:00",
-    "build_id": "20261028T030103+0800",
+    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': '0f966d9a-5ebd-9ab6-b4ae-5959c980c04d', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
+    "generated_at": "2026-10-29T03:01:05+08:00",
+    "build_id": "20261029T030105+0800",
     "ai_elapsed_seconds": 6.45,
     "ai_model": "qwen3.8-max:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "d7d6032f8134ab93a2564431c4bff97080bde41f0fdaf3699726061111856a2b",
+    "input_hash": "c346dfb0003a504e213c9a821df5e2e150c12122a4c86d28063d25fbb0c70d01",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

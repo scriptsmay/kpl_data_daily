@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-28T03:01:03+08:00",
-  "build_id": "20261028T030103+0800",
+  "generated_at": "2026-10-29T03:01:05+08:00",
+  "build_id": "20261029T030105+0800",
   "data": {
-    "snapshots_available": 133,
-    "reference_date": "20261028",
+    "snapshots_available": 138,
+    "reference_date": "20261029",
     "trends": {
       "hero_pool": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261025 ~ 20261028",
+          "date_range": "20261026 ~ 20261029",
           "hero_count_delta": 0,
           "hero_count_latest": 9,
           "hero_count_oldest": 9,
@@ -19,7 +19,7 @@
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20261021 ~ 20261028",
+          "date_range": "20261022 ~ 20261029",
           "hero_count_delta": 0,
           "hero_count_latest": 9,
           "hero_count_oldest": 9,
@@ -28,7 +28,7 @@
         },
         "14d": {
           "snapshots": 15,
-          "date_range": "20261014 ~ 20261028",
+          "date_range": "20261015 ~ 20261029",
           "hero_count_delta": 1,
           "hero_count_latest": 9,
           "hero_count_oldest": 8,
@@ -38,8 +38,8 @@
           "dropped_heroes": []
         },
         "30d": {
-          "snapshots": 27,
-          "date_range": "20261002 ~ 20261028",
+          "snapshots": 28,
+          "date_range": "20261002 ~ 20261029",
           "hero_count_delta": 9,
           "hero_count_latest": 9,
           "hero_count_oldest": 0,
@@ -60,7 +60,7 @@
       "abilities": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261025 ~ 20261028",
+          "date_range": "20261026 ~ 20261029",
           "deltas": {
             "damage_output": 0.0,
             "teamfight": 0.0,
@@ -84,7 +84,7 @@
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20261021 ~ 20261028",
+          "date_range": "20261022 ~ 20261029",
           "deltas": {
             "damage_output": 0.0,
             "teamfight": 0.0,
@@ -108,7 +108,7 @@
         },
         "14d": {
           "snapshots": 15,
-          "date_range": "20261014 ~ 20261028",
+          "date_range": "20261015 ~ 20261029",
           "deltas": {
             "damage_output": -1.0,
             "teamfight": -1.0,
@@ -131,8 +131,8 @@
           }
         },
         "30d": {
-          "snapshots": 27,
-          "date_range": "20261002 ~ 20261028",
+          "snapshots": 28,
+          "date_range": "20261002 ~ 20261029",
           "deltas": {},
           "biggest_gain": {},
           "biggest_drop": {}
@@ -141,7 +141,7 @@
       "ranking": {
         "3d": {
           "snapshots": 4,
-          "date_range": "20261025 ~ 20261028",
+          "date_range": "20261026 ~ 20261029",
           "deltas": {
             "damage_per_minute": {
               "abs": 0.0,
@@ -177,7 +177,7 @@
         },
         "7d": {
           "snapshots": 8,
-          "date_range": "20261021 ~ 20261028",
+          "date_range": "20261022 ~ 20261029",
           "deltas": {
             "damage_per_minute": {
               "abs": 0.0,
@@ -213,7 +213,7 @@
         },
         "14d": {
           "snapshots": 15,
-          "date_range": "20261014 ~ 20261028",
+          "date_range": "20261015 ~ 20261029",
           "deltas": {
             "damage_per_minute": {
               "abs": -108.0,
@@ -248,8 +248,8 @@
           }
         },
         "30d": {
-          "snapshots": 27,
-          "date_range": "20261002 ~ 20261028",
+          "snapshots": 28,
+          "date_range": "20261002 ~ 20261029",
           "deltas": {},
           "biggest_rise": {},
           "biggest_drop": {}

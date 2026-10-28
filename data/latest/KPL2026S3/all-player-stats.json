@@ -3,7 +3,7 @@
   "data": [
     {
       "avg_assists": 4.95,
-      "avg_assists_rank": 1,
+      "avg_assists_rank": 2,
       "avg_blue_buff": 0.05,
       "avg_blue_buff_rank": 10,
       "avg_deaths": 1.0,
@@ -81,7 +81,7 @@
       "kda_ratio_rank": 1,
       "kill_share": "23.1%",
       "kill_share_rank": 4,
-      "last_updated": "2026-10-27 14:18:05",
+      "last_updated": "2026-10-28 15:19:53",
       "master_control_rate": "0.0%",
       "master_control_rate_rank": 4,
       "max_assists_single_game": 11.0,

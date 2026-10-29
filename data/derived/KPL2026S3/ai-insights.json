@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-29T03:01:05+08:00",
-  "build_id": "20261029T030105+0800",
-  "ai_elapsed_seconds": 6.45,
+  "generated_at": "2026-10-30T03:00:51+08:00",
+  "build_id": "20261030T030051+0800",
+  "ai_elapsed_seconds": 6.46,
   "ai_model": "qwen3.8-max:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "c346dfb0003a504e213c9a821df5e2e150c12122a4c86d28063d25fbb0c70d01",
+  "input_hash": "84e762bb91560ed7f10bf234d4381a7e7b1b35741b4fe08d459b3b65539cf287",
   "data": {
-    "headline": "无言本赛季 20 局，使用 9 个英雄",
-    "summary": "生涯累计 181 局。本赛季英雄池覆盖 9 个英雄，能力评分 95.7。",
+    "headline": "无言本赛季 27 局，使用 9 个英雄",
+    "summary": "生涯累计 188 局。本赛季英雄池覆盖 9 个英雄，能力评分 94.3。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
@@ -18,13 +18,14 @@
         "summary": "当前样本中英雄池覆盖 9 个英雄，英雄使用相对分散。",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 20,
+        "sample_size": 27,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季使用 9 个英雄，共 20 局",
-          "轮换层级英雄 3 个",
-          "尝试层级英雄 6 个",
+          "本赛季使用 9 个英雄，共 27 局",
+          "核心层级英雄 1 个",
+          "轮换层级英雄 5 个",
+          "尝试层级英雄 3 个",
           "英雄使用较为分散（HHI=0.13）"
         ],
         "risk_notes": []
@@ -32,14 +33,14 @@
       {
         "id": "growth_path",
         "title": "成长路径观察",
-        "summary": "本赛季 20 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+        "summary": "本赛季 27 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
         "conclusion_type": "signal",
         "confidence": "high",
-        "sample_size": 20,
+        "sample_size": 27,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季 20 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+          "本赛季 27 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
           "已记录 17 个成长节点",
           "已出现 12 个能力信号"
         ],
@@ -50,35 +51,36 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 95.7，位置排名第 1。",
+        "summary": "当前能力评分 94.3，位置排名第 1。",
         "conclusion_type": "hypothesis",
         "confidence": "high",
-        "sample_size": 20,
+        "sample_size": 27,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
           "位置排名：第 1 名",
           "总排名：第 1 名",
-          "高于同位置均值维度：12 个"
+          "高于同位置均值维度：12 个",
+          "近期波动较大维度：3 个"
         ],
         "risk_notes": []
       },
       {
         "id": "ranking",
         "title": "联盟排名",
-        "summary": "排名前列指标共 4 项：KDA、分均伤害、分均经济、伤害占比",
+        "summary": "排名前列指标共 2 项：KDA、伤害占比",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 20,
+        "sample_size": 27,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "排名前列指标：KDA、分均伤害、分均经济、伤害占比",
-          "KDA：排名第 1（7.4）",
-          "分均伤害：排名第 3（4189.0）",
-          "分均承伤：排名第 8（5024.0）",
-          "分均经济：排名第 2（691.0）",
-          "参团率：排名第 4（67.7）"
+          "排名前列指标：KDA、伤害占比",
+          "KDA：排名第 3（5.37）",
+          "分均伤害：排名第 6（4026.0）",
+          "分均承伤：排名第 8（4963.0）",
+          "分均经济：排名第 4（682.0）",
+          "参团率：排名第 4（68.0）"
         ],
         "risk_notes": []
       },
@@ -88,25 +90,25 @@
         "summary": "胜局和败局的过程指标差异。",
         "conclusion_type": "signal",
         "confidence": "high",
-        "sample_size": 20,
+        "sample_size": 27,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "胜局平均 KDA: 10.14",
-          "败局平均 KDA: 1.0",
-          "败局低位指标：KDA 偏低、分均伤害偏低、场均死亡偏高"
+          "胜局平均 KDA: 8.84",
+          "败局平均 KDA: 1.25",
+          "败局低位指标：KDA 偏低、场均死亡偏高"
         ],
         "risk_notes": []
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': '0f966d9a-5ebd-9ab6-b4ae-5959c980c04d', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
-    "generated_at": "2026-10-29T03:01:05+08:00",
-    "build_id": "20261029T030105+0800",
-    "ai_elapsed_seconds": 6.45,
+    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': 'a8abd619-6d56-9f67-8850-b25b54113658', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
+    "generated_at": "2026-10-30T03:00:51+08:00",
+    "build_id": "20261030T030051+0800",
+    "ai_elapsed_seconds": 6.46,
     "ai_model": "qwen3.8-max:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "c346dfb0003a504e213c9a821df5e2e150c12122a4c86d28063d25fbb0c70d01",
+    "input_hash": "84e762bb91560ed7f10bf234d4381a7e7b1b35741b4fe08d459b3b65539cf287",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

@@ -8,9 +8,31 @@
       "player_name": "KSG.无言",
       "player_unique_id": "KPLP01538",
       "team_name": "KSG",
+      "total_matches": 6,
+      "win_matches": 4,
+      "win_rate": "67%"
+    },
+    {
+      "hero_id": "503",
+      "hero_name": "狂铁",
+      "is_symbol": 0,
+      "player_name": "KSG.无言",
+      "player_unique_id": "KPLP01538",
+      "team_name": "KSG",
       "total_matches": 4,
       "win_matches": 3,
       "win_rate": "75%"
+    },
+    {
+      "hero_id": "140",
+      "hero_name": "关羽",
+      "is_symbol": 0,
+      "player_name": "KSG.无言",
+      "player_unique_id": "KPLP01538",
+      "team_name": "KSG",
+      "total_matches": 3,
+      "win_matches": 3,
+      "win_rate": "100%"
     },
     {
       "hero_id": "537",
@@ -24,30 +46,30 @@
       "win_rate": "100%"
     },
     {
-      "hero_id": "503",
-      "hero_name": "狂铁",
+      "hero_id": "536",
+      "hero_name": "夏洛特",
       "is_symbol": 0,
       "player_name": "KSG.无言",
       "player_unique_id": "KPLP01538",
       "team_name": "KSG",
       "total_matches": 3,
-      "win_matches": 3,
-      "win_rate": "100%"
+      "win_matches": 1,
+      "win_rate": "33%"
     },
     {
-      "hero_id": "140",
-      "hero_name": "关羽",
+      "hero_id": "518",
+      "hero_name": "马超",
       "is_symbol": 0,
       "player_name": "KSG.无言",
       "player_unique_id": "KPLP01538",
       "team_name": "KSG",
-      "total_matches": 2,
+      "total_matches": 3,
       "win_matches": 2,
-      "win_rate": "100%"
+      "win_rate": "67%"
     },
     {
-      "hero_id": "536",
-      "hero_name": "夏洛特",
+      "hero_id": "558",
+      "hero_name": "影",
       "is_symbol": 0,
       "player_name": "KSG.无言",
       "player_unique_id": "KPLP01538",
@@ -66,28 +88,6 @@
       "total_matches": 2,
       "win_matches": 2,
       "win_rate": "100%"
-    },
-    {
-      "hero_id": "518",
-      "hero_name": "马超",
-      "is_symbol": 0,
-      "player_name": "KSG.无言",
-      "player_unique_id": "KPLP01538",
-      "team_name": "KSG",
-      "total_matches": 2,
-      "win_matches": 2,
-      "win_rate": "100%"
-    },
-    {
-      "hero_id": "558",
-      "hero_name": "影",
-      "is_symbol": 0,
-      "player_name": "KSG.无言",
-      "player_unique_id": "KPLP01538",
-      "team_name": "KSG",
-      "total_matches": 1,
-      "win_matches": 0,
-      "win_rate": "0%"
     },
     {
       "hero_id": "120",
@@ -111,5 +111,5 @@
     "sort_by": "total_matches"
   },
   "season": "KPL2026S3",
-  "total": 693
+  "total": 707
 }

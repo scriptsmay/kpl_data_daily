@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-29T22:00:15+08:00",
-  "build_id": "20261029T220015+0800",
+  "generated_at": "2026-10-29T23:00:00+08:00",
+  "build_id": "20261029T230000+0800",
   "data": {
     "season_id": "KPL2026S3",
     "season_name": "2026KPL年度总决赛",
     "team_name": "KSG",
     "total_matches": 54,
-    "ksg_matches": 8,
+    "ksg_matches": 9,
     "matches": [
       {
         "schedule_id": "KPL2026S3M1W1D2",
@@ -118,12 +118,24 @@
         "location": "长沙",
         "stage": "淘汰赛",
         "bo": 7,
-        "status": 3,
+        "status": 4,
         "score_a": 3,
-        "score_b": 3
+        "score_b": 4
+      },
+      {
+        "schedule_id": "KPL2026S3M5W6D1",
+        "start_ts": 1793527200,
+        "date": "11-01 18:00",
+        "team_a": "KSG",
+        "team_b": "待定",
+        "is_ksg": true,
+        "location": "长沙",
+        "stage": "淘汰赛",
+        "bo": 7,
+        "status": 1
       }
     ],
-    "updated_at": "2026-10-29T14:00:15.265526+00:00",
+    "updated_at": "2026-10-29T15:00:00.324565+00:00",
     "source_status": "ok"
   }
 }

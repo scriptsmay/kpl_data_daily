@@ -203,7 +203,7 @@
       "damage_10min_per_minute": 2407.0,
       "damage_per_minute": 4221.0,
       "damage_taken_per_minute": 5007.0,
-      "data_version": "v20261029_225140",
+      "data_version": "v20261030_222038",
       "economy_10min_details": [
         {
           "battle_id": "1791093466_1054884368_69",
@@ -369,18 +369,18 @@
       "economy_10min_per_minute": 678.0,
       "gold_per_minute": 699.0,
       "heroes_used": [
-        "影",
-        "马超",
-        "狂铁",
-        "项羽",
         "夏洛特",
+        "项羽",
         "曹操",
-        "关羽",
+        "马超",
         "司空震",
-        "白起"
+        "白起",
+        "影",
+        "关羽",
+        "狂铁"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-10-29 14:51:40",
+      "last_updated": "2026-10-30 14:20:39",
       "match_details": [
         {
           "battle_id": "1791093466_1054884368_69",
@@ -657,10 +657,10 @@
   },
   "position_avg_economy": {
     "中路": 5560.0,
-    "发育路": 7285.0,
+    "发育路": 7284.0,
     "对抗路": 6778.0,
     "打野": 7163.0,
-    "游走": 4445.0
+    "游走": 4446.0
   },
   "total_players": 74
 }

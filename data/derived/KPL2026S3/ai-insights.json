@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-10-30T03:00:51+08:00",
-  "build_id": "20261030T030051+0800",
-  "ai_elapsed_seconds": 6.46,
+  "generated_at": "2026-10-31T03:00:53+08:00",
+  "build_id": "20261031T030053+0800",
+  "ai_elapsed_seconds": 6.5,
   "ai_model": "qwen3.8-max:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "84e762bb91560ed7f10bf234d4381a7e7b1b35741b4fe08d459b3b65539cf287",
+  "input_hash": "a78126708bb235adcdfb8b01c875be1cbbe4c291e802c4dce4aa0d5e0dd4a788",
   "data": {
     "headline": "无言本赛季 27 局，使用 9 个英雄",
     "summary": "生涯累计 188 局。本赛季英雄池覆盖 9 个英雄，能力评分 94.3。",
@@ -60,8 +60,7 @@
         "evidence": [
           "位置排名：第 1 名",
           "总排名：第 1 名",
-          "高于同位置均值维度：12 个",
-          "近期波动较大维度：3 个"
+          "高于同位置均值维度：12 个"
         ],
         "risk_notes": []
       },
@@ -78,7 +77,7 @@
           "排名前列指标：KDA、伤害占比",
           "KDA：排名第 3（5.37）",
           "分均伤害：排名第 6（4026.0）",
-          "分均承伤：排名第 8（4963.0）",
+          "分均承伤：排名第 9（4963.0）",
           "分均经济：排名第 4（682.0）",
           "参团率：排名第 4（68.0）"
         ],
@@ -102,13 +101,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': 'a8abd619-6d56-9f67-8850-b25b54113658', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
-    "generated_at": "2026-10-30T03:00:51+08:00",
-    "build_id": "20261030T030051+0800",
-    "ai_elapsed_seconds": 6.46,
+    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': '2ad4c523-f6b4-9e92-b857-aa130fe11ddc', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
+    "generated_at": "2026-10-31T03:00:53+08:00",
+    "build_id": "20261031T030053+0800",
+    "ai_elapsed_seconds": 6.5,
     "ai_model": "qwen3.8-max:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "84e762bb91560ed7f10bf234d4381a7e7b1b35741b4fe08d459b3b65539cf287",
+    "input_hash": "a78126708bb235adcdfb8b01c875be1cbbe4c291e802c4dce4aa0d5e0dd4a788",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

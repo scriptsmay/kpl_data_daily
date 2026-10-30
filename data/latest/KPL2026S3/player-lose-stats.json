@@ -94,7 +94,7 @@
       "damage_10min_per_minute": 2269.0,
       "damage_per_minute": 3438.0,
       "damage_taken_per_minute": 4830.0,
-      "data_version": "v20261029_225142",
+      "data_version": "v20261030_222041",
       "economy_10min_details": [
         {
           "battle_id": "1792313942_1054884368_40",
@@ -156,14 +156,14 @@
       "economy_10min_per_minute": 647.0,
       "gold_per_minute": 633.0,
       "heroes_used": [
+        "夏洛特",
+        "曹操",
         "影",
         "马超",
-        "狂铁",
-        "夏洛特",
-        "曹操"
+        "狂铁"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-10-29 14:51:43",
+      "last_updated": "2026-10-30 14:20:43",
       "lose_matches": 7.0,
       "match_details": [
         {

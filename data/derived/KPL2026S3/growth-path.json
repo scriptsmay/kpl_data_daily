@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-11-01T03:00:55+08:00",
-  "build_id": "20261101T030055+0800",
+  "generated_at": "2026-11-02T03:00:59+08:00",
+  "build_id": "20261102T030059+0800",
   "data": {
     "player": "无言",
     "growth_stage": "稳定轮换期",
-    "summary": "本赛季 27 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+    "summary": "本赛季 34 局，使用 10 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
     "milestones": [
       {
         "type": "first_appear",
@@ -41,7 +41,7 @@
       {
         "type": "career_milestone",
         "date": "",
-        "description": "生涯累计 188 局"
+        "description": "生涯累计 195 局"
       },
       {
         "type": "mvp",
@@ -55,23 +55,28 @@
       },
       {
         "type": "hero_first_use",
-        "date": "2026102901",
-        "description": "首次使用 狂铁：KSG vs 北京WB"
+        "date": "2026110101",
+        "description": "首次使用 司空震：杭州LGD.NBW vs KSG"
       },
       {
         "type": "hero_first_use",
-        "date": "2026102901",
-        "description": "首次使用 关羽：北京WB vs KSG"
+        "date": "2026110101",
+        "description": "首次使用 狂铁：杭州LGD.NBW vs KSG"
       },
       {
         "type": "hero_first_use",
-        "date": "2026101803",
-        "description": "首次使用 司空震：北京JDG vs KSG"
+        "date": "2026110101",
+        "description": "首次使用 关羽：KSG vs 杭州LGD.NBW"
       },
       {
         "type": "hero_first_use",
-        "date": "2026102901",
-        "description": "首次使用 夏洛特：北京WB vs KSG"
+        "date": "2026110101",
+        "description": "首次使用 夏洛特：杭州LGD.NBW vs KSG"
+      },
+      {
+        "type": "hero_first_use",
+        "date": "2026110101",
+        "description": "首次使用 项羽：杭州LGD.NBW vs KSG"
       },
       {
         "type": "hero_first_use",
@@ -85,13 +90,13 @@
       },
       {
         "type": "hero_first_use",
-        "date": "2026101201",
-        "description": "首次使用 项羽：南通Hero久竞 vs KSG"
+        "date": "2026100202",
+        "description": "首次使用 白起：济南RW侠 vs KSG"
       },
       {
         "type": "hero_first_use",
-        "date": "2026100202",
-        "description": "首次使用 白起：济南RW侠 vs KSG"
+        "date": "2026110101",
+        "description": "首次使用 达摩：杭州LGD.NBW vs KSG"
       }
     ],
     "hero_path": [
@@ -121,9 +126,9 @@
       },
       {
         "season": "KPL2026S3",
-        "battles": 27,
-        "wins": 20,
-        "win_rate": "74.1%"
+        "battles": 34,
+        "wins": 23,
+        "win_rate": "67.6%"
       }
     ],
     "role_path": [
@@ -136,30 +141,31 @@
           "输出"
         ],
         "role_matches": {
-          "输出": 12,
-          "持续": 7,
-          "开团": 3,
-          "未知": 2,
-          "承伤": 3
+          "输出": 14,
+          "持续": 9,
+          "开团": 5,
+          "承伤": 4,
+          "未知": 2
         }
       }
     ],
     "signals": {
       "observed": [
-        "伤害输出高于同位置均值（92.0分）",
-        "团战能力高于同位置均值（89.0分）",
-        "开团能力高于同位置均值（90.0分）",
-        "前期能力高于同位置均值（87.0分）",
+        "伤害输出高于同位置均值（90.0分）",
+        "团战能力高于同位置均值（86.0分）",
+        "开团能力高于同位置均值（86.0分）",
+        "前期能力高于同位置均值（85.0分）",
         "中期能力高于同位置均值（95.0分）",
-        "后期能力高于同位置均值（93.0分）",
-        "地图控制高于同位置均值（92.0分）",
-        "入侵能力高于同位置均值（81.0分）",
-        "支援能力高于同位置均值（97.0分）",
-        "经济效率高于同位置均值（80.0分）",
-        "坦度高于同位置均值（97.0分）",
-        "生存能力高于同位置均值（64.0分）"
+        "后期能力高于同位置均值（88.0分）",
+        "地图控制高于同位置均值（91.0分）",
+        "入侵能力高于同位置均值（74.0分）",
+        "支援能力高于同位置均值（94.0分）",
+        "坦度高于同位置均值（98.0分）",
+        "生存能力高于同位置均值（56.0分）"
       ],
-      "watching": [],
+      "watching": [
+        "经济效率低于同位置均值（76.0分）"
+      ],
       "insufficient": []
     },
     "risk_notes": [

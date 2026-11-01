@@ -1,48 +1,49 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-11-01T03:00:55+08:00",
-  "build_id": "20261101T030055+0800",
-  "ai_elapsed_seconds": 6.46,
+  "generated_at": "2026-11-02T03:00:59+08:00",
+  "build_id": "20261102T030059+0800",
+  "ai_elapsed_seconds": 6.43,
   "ai_model": "qwen3.8-max:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "09aeeb2a7a66e6fa33327fadaaf57646d588c7162b2a3f911edea4ff0127d257",
+  "input_hash": "68b7ef156bb29da83942e8b2bb41da46aad997bb5fe7d5701f174be64ded8ab3",
   "data": {
-    "headline": "无言本赛季 27 局，使用 9 个英雄",
-    "summary": "生涯累计 188 局。本赛季英雄池覆盖 9 个英雄，能力评分 94.3。",
+    "headline": "无言本赛季 34 局，使用 10 个英雄",
+    "summary": "生涯累计 195 局。本赛季英雄池覆盖 10 个英雄，能力评分 90.71。",
     "growth_stage": "稳定轮换期",
     "sections": [
       {
         "id": "hero_pool",
         "title": "英雄池成熟度",
-        "summary": "当前样本中英雄池覆盖 9 个英雄，英雄使用相对分散。",
+        "summary": "当前样本中英雄池覆盖 10 个英雄，英雄使用相对分散。",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季使用 9 个英雄，共 27 局",
-          "核心层级英雄 1 个",
-          "轮换层级英雄 5 个",
+          "本赛季使用 10 个英雄，共 34 局",
+          "核心层级英雄 3 个",
+          "轮换层级英雄 4 个",
           "尝试层级英雄 3 个",
-          "英雄使用较为分散（HHI=0.13）"
+          "英雄使用较为分散（HHI=0.12）"
         ],
         "risk_notes": []
       },
       {
         "id": "growth_path",
         "title": "成长路径观察",
-        "summary": "本赛季 27 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+        "summary": "本赛季 34 局，使用 10 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
         "conclusion_type": "signal",
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "本赛季 27 局，使用 9 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
-          "已记录 17 个成长节点",
-          "已出现 12 个能力信号"
+          "本赛季 34 局，使用 10 个英雄，已形成相对稳定的出场节奏和英雄池结构。",
+          "已记录 18 个成长节点",
+          "已出现 11 个能力信号",
+          "正在观察 1 个能力维度"
         ],
         "risk_notes": [
           "胜率不单独作为评价依据"
@@ -51,35 +52,36 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 94.3，位置排名第 1。",
+        "summary": "当前能力评分 90.71，位置排名第 2。",
         "conclusion_type": "hypothesis",
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "位置排名：第 1 名",
-          "总排名：第 1 名",
-          "高于同位置均值维度：12 个"
+          "位置排名：第 2 名",
+          "总排名：第 2 名",
+          "高于同位置均值维度：11 个",
+          "低于同位置均值维度：1 个",
+          "近期波动较大维度：3 个"
         ],
         "risk_notes": []
       },
       {
         "id": "ranking",
         "title": "联盟排名",
-        "summary": "排名前列指标共 1 项：KDA",
+        "summary": "排名前列指标共 0 项。",
         "conclusion_type": "fact",
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "排名前列指标：KDA",
-          "KDA：排名第 3（5.37）",
-          "分均伤害：排名第 6（4026.0）",
-          "分均承伤：排名第 9（4963.0）",
-          "分均经济：排名第 4（682.0）",
-          "参团率：排名第 4（68.0）"
+          "KDA：排名第 4（4.2）",
+          "分均伤害：排名第 6（3872.0）",
+          "分均承伤：排名第 9（5018.0）",
+          "分均经济：排名第 6（664.0）",
+          "参团率：排名第 4（68.9）"
         ],
         "risk_notes": []
       },
@@ -89,25 +91,25 @@
         "summary": "胜局和败局的过程指标差异。",
         "conclusion_type": "signal",
         "confidence": "high",
-        "sample_size": 27,
+        "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "胜局平均 KDA: 8.84",
-          "败局平均 KDA: 1.25",
-          "败局低位指标：KDA 偏低、场均死亡偏高"
+          "胜局平均 KDA: 7.32",
+          "败局平均 KDA: 1.19",
+          "败局低位指标：KDA 偏低、分均伤害偏低、场均死亡偏高"
         ],
         "risk_notes": []
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': 'b9550243-8192-9555-a743-77f3b26ef354', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
-    "generated_at": "2026-11-01T03:00:55+08:00",
-    "build_id": "20261101T030055+0800",
-    "ai_elapsed_seconds": 6.46,
+    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': 'de725535-e62d-9a08-be96-c631e315fd5c', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
+    "generated_at": "2026-11-02T03:00:59+08:00",
+    "build_id": "20261102T030059+0800",
+    "ai_elapsed_seconds": 6.43,
     "ai_model": "qwen3.8-max:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "09aeeb2a7a66e6fa33327fadaaf57646d588c7162b2a3f911edea4ff0127d257",
+    "input_hash": "68b7ef156bb29da83942e8b2bb41da46aad997bb5fe7d5701f174be64ded8ab3",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

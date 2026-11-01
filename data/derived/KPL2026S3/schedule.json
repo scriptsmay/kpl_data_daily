@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-11-01T19:00:04+08:00",
-  "build_id": "20261101T190004+0800",
+  "generated_at": "2026-11-01T20:00:04+08:00",
+  "build_id": "20261101T200004+0800",
   "data": {
     "season_id": "KPL2026S3",
     "season_name": "2026KPL年度总决赛",
@@ -134,10 +134,10 @@
         "bo": 7,
         "status": 3,
         "score_a": 1,
-        "score_b": 0
+        "score_b": 2
       }
     ],
-    "updated_at": "2026-11-01T11:00:04.812456+00:00",
+    "updated_at": "2026-11-01T12:00:04.872443+00:00",
     "source_status": "ok"
   }
 }

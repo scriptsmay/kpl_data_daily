@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-11-03T03:01:02+08:00",
-  "build_id": "20261103T030102+0800",
+  "generated_at": "2026-11-04T03:01:04+08:00",
+  "build_id": "20261104T030104+0800",
   "data": {
     "headline": "无言本赛季 34 局，使用 10 个英雄",
     "summary": "生涯累计 195 局。本赛季英雄池覆盖 10 个英雄，能力评分 90.71。",
@@ -48,15 +48,15 @@
       {
         "id": "abilities",
         "title": "能力信号",
-        "summary": "当前能力评分 90.71，位置排名第 2。",
+        "summary": "当前能力评分 90.71，位置排名第 3。",
         "conclusion_type": "hypothesis",
         "confidence": "high",
         "sample_size": 34,
         "sample_unit": "games",
         "sample_scope": "current_season",
         "evidence": [
-          "位置排名：第 2 名",
-          "总排名：第 2 名",
+          "位置排名：第 3 名",
+          "总排名：第 3 名",
           "高于同位置均值维度：11 个",
           "低于同位置均值维度：1 个"
         ],

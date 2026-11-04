@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-11-04T03:01:04+08:00",
-  "build_id": "20261104T030104+0800",
-  "ai_elapsed_seconds": 6.44,
+  "generated_at": "2026-11-05T03:01:05+08:00",
+  "build_id": "20261105T030105+0800",
+  "ai_elapsed_seconds": 6.43,
   "ai_model": "qwen3.8-max:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "93d3ea3c089a0b9318220f0dcc5b0a6a151e8529896e949de0cbe166879917be",
+  "input_hash": "ff079934bc9b42d7300e63dd738f619fc009524e85f7bcf10f05d9a221e95adf",
   "data": {
     "headline": "无言本赛季 34 局，使用 10 个英雄",
     "summary": "生涯累计 195 局。本赛季英雄池覆盖 10 个英雄，能力评分 90.71。",
@@ -60,7 +60,7 @@
         "sample_scope": "current_season",
         "evidence": [
           "位置排名：第 3 名",
-          "总排名：第 3 名",
+          "总排名：第 5 名",
           "高于同位置均值维度：11 个",
           "低于同位置均值维度：1 个"
         ],
@@ -103,13 +103,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': 'aa31109d-f533-9e0a-bf13-1cc4b2cb31a4', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
-    "generated_at": "2026-11-04T03:01:04+08:00",
-    "build_id": "20261104T030104+0800",
-    "ai_elapsed_seconds": 6.44,
+    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': '08bdfd5a-8732-97f1-91d7-c5591619d5f3', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
+    "generated_at": "2026-11-05T03:01:05+08:00",
+    "build_id": "20261105T030105+0800",
+    "ai_elapsed_seconds": 6.43,
     "ai_model": "qwen3.8-max:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "93d3ea3c089a0b9318220f0dcc5b0a6a151e8529896e949de0cbe166879917be",
+    "input_hash": "ff079934bc9b42d7300e63dd738f619fc009524e85f7bcf10f05d9a221e95adf",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

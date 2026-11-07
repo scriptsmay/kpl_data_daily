@@ -227,7 +227,7 @@
       "damage_10min_per_minute": 2480.0,
       "damage_per_minute": 4158.0,
       "damage_taken_per_minute": 5095.0,
-      "data_version": "v20261106_214306",
+      "data_version": "v20261107_203459",
       "economy_10min_details": [
         {
           "battle_id": "1791093466_1054884368_69",
@@ -417,18 +417,18 @@
       "economy_10min_per_minute": 668.0,
       "gold_per_minute": 688.0,
       "heroes_used": [
-        "曹操",
-        "影",
+        "司空震",
+        "项羽",
         "关羽",
         "夏洛特",
         "白起",
-        "马超",
-        "项羽",
+        "影",
         "狂铁",
-        "司空震"
+        "马超",
+        "曹操"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-11-06 13:43:07",
+      "last_updated": "2026-11-07 12:35:00",
       "match_details": [
         {
           "battle_id": "1791093466_1054884368_69",
@@ -731,11 +731,11 @@
     "season": "KPL2026S3"
   },
   "position_avg_economy": {
-    "中路": 5558.0,
+    "中路": 5559.0,
     "发育路": 7283.0,
     "对抗路": 6776.0,
-    "打野": 7164.0,
-    "游走": 4446.0
+    "打野": 7165.0,
+    "游走": 4445.0
   },
   "total_players": 74
 }

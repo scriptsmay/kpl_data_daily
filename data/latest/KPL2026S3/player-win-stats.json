@@ -2,8 +2,8 @@
   "code": 200,
   "data": [
     {
-      "above_avg_economy_real_win_rate": 70.0,
-      "above_avg_economy_total": 20.0,
+      "above_avg_economy_real_win_rate": 73.68,
+      "above_avg_economy_total": 19.0,
       "above_avg_economy_win_rate": 60.87,
       "above_avg_economy_wins": 14.0,
       "avg_assists": 5.22,
@@ -227,7 +227,7 @@
       "damage_10min_per_minute": 2480.0,
       "damage_per_minute": 4158.0,
       "damage_taken_per_minute": 5095.0,
-      "data_version": "v20261108_232546",
+      "data_version": "v20261114_225001",
       "economy_10min_details": [
         {
           "battle_id": "1791093466_1054884368_69",
@@ -417,18 +417,18 @@
       "economy_10min_per_minute": 668.0,
       "gold_per_minute": 688.0,
       "heroes_used": [
-        "曹操",
-        "司空震",
-        "影",
-        "项羽",
         "夏洛特",
-        "狂铁",
-        "关羽",
+        "影",
         "白起",
-        "马超"
+        "关羽",
+        "项羽",
+        "司空震",
+        "狂铁",
+        "马超",
+        "曹操"
       ],
       "invalid_10min_matches": 0.0,
-      "last_updated": "2026-11-08 15:25:47",
+      "last_updated": "2026-11-14 14:50:02",
       "match_details": [
         {
           "battle_id": "1791093466_1054884368_69",
@@ -733,9 +733,9 @@
   "position_avg_economy": {
     "中路": 5559.0,
     "发育路": 7283.0,
-    "对抗路": 6776.0,
+    "对抗路": 6777.0,
     "打野": 7163.0,
-    "游走": 4445.0
+    "游走": 4446.0
   },
   "total_players": 74
 }

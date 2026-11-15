@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-11-15T03:01:06+08:00",
-  "build_id": "20261115T030106+0800",
+  "generated_at": "2026-11-16T03:01:09+08:00",
+  "build_id": "20261116T030109+0800",
   "ai_elapsed_seconds": 6.44,
   "ai_model": "qwen3.8-max:fallback",
   "prompt_version": "ai-insights-v2-20260627",
-  "input_hash": "ca9cdcfa2441c19e8a8839d47c3863e9db536e79f547ad36511dd4bbece8ed89",
+  "input_hash": "c864ecc53da745fa844163fa2e65394e1b27ae4b3e74404283a88cf88d8286cd",
   "data": {
     "headline": "无言本赛季 34 局，使用 10 个英雄",
     "summary": "生涯累计 195 局。本赛季英雄池覆盖 10 个英雄，能力评分 90.07。",
@@ -101,13 +101,13 @@
       }
     ],
     "updated_reason": "fallback",
-    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': '2daeaeac-d186-9064-8708-51a445ca2284', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
-    "generated_at": "2026-11-15T03:01:06+08:00",
-    "build_id": "20261115T030106+0800",
+    "fallback_reason": "api_error: Error code: 403 - {'error': {'message': 'Free quota exhausted. To continue accessing the model on a paid basis, please add funds or disable the \"use free tier only\" mode in the management console.', 'id': '0ad73fe0-2d70-920d-82b4-62a726573234', 'type': 'insufficient_quota', 'code': 'insufficient_quota'}}",
+    "generated_at": "2026-11-16T03:01:09+08:00",
+    "build_id": "20261116T030109+0800",
     "ai_elapsed_seconds": 6.44,
     "ai_model": "qwen3.8-max:fallback",
     "prompt_version": "ai-insights-v2-20260627",
-    "input_hash": "ca9cdcfa2441c19e8a8839d47c3863e9db536e79f547ad36511dd4bbece8ed89",
+    "input_hash": "c864ecc53da745fa844163fa2e65394e1b27ae4b3e74404283a88cf88d8286cd",
     "ai_skipped_reason": "api_error"
   },
   "ai_skipped_reason": "api_error"

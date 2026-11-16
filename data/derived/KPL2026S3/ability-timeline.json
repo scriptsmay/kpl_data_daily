@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "season": "KPL2026S3",
-  "generated_at": "2026-11-16T03:01:09+08:00",
-  "build_id": "20261116T030109+0800",
+  "generated_at": "2026-11-17T03:01:10+08:00",
+  "build_id": "20261117T030110+0800",
   "data": {
-    "snapshot_count": 45,
+    "snapshot_count": 46,
     "snapshots": [
       {
         "date": "20261003",
@@ -995,9 +995,31 @@
           "tankiness": 98.0,
           "durability": 56.0
         }
+      },
+      {
+        "date": "20261117",
+        "last_updated": "2026-11-15 02:05:15",
+        "total_matches": 34,
+        "overall_rating": 90.07,
+        "overall_rank": 3,
+        "position_rank": 2,
+        "abilities": {
+          "damage_output": 90.0,
+          "teamfight": 86.0,
+          "initiation": 86.0,
+          "early_game": 85.0,
+          "mid_game": 95.0,
+          "late_game": 88.0,
+          "map_control": 91.0,
+          "invasion_ability": 74.0,
+          "support_ability": 94.0,
+          "economy": 76.0,
+          "tankiness": 98.0,
+          "durability": 56.0
+        }
       }
     ],
-    "reference_date": "20261116",
+    "reference_date": "20261117",
     "player_position": "对抗路",
     "position_averages": {
       "damage_output": 81,
